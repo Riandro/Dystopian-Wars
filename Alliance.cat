@@ -268,7 +268,7 @@
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="4f11-8642-6a4f-b61e" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="34b8-9ae3-8bf9-123e" type="selectionEntryGroup" targetId="7ba2-917a-b755-ac63" sortIndex=""/>
+        <entryLink import="true" name="Attachments" hidden="false" id="34b8-9ae3-8bf9-123e" type="selectionEntryGroup" targetId="7ba2-917a-b755-ac63"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
@@ -7075,9 +7075,7 @@
         </profile>
         <profile name="Scorpio" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="3a75-53ef-3e97-dcfa">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+2”)
-
-</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+2”)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7466,6 +7464,13 @@
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f33a-4cf7-3e49-90bd" includeChildSelections="false"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
       <constraints>
@@ -7842,9 +7847,7 @@
         </profile>
         <profile name="Auxilia" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="0d12-5f21-e455-6c59">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Ablative Armour (2), Daredevil Crew, Heavy Prow (5), Vanguard (5”)
-
-</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Ablative Armour (2), Daredevil Crew, Heavy Prow (5), Vanguard (5”)</characteristic>
           </characteristics>
         </profile>
         <profile name="Auxilia" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="1210-6eea-286e-3d95">
@@ -8163,7 +8166,7 @@
         <categoryLink name="Attachment host" hidden="false" id="93c1-0027-9c68-e620" targetId="2251-0def-1b03-2e93" primary="false"/>
         <categoryLink name="NoRepulsion" hidden="false" id="5d3d-c928-0645-35e5" targetId="401d-07db-b6e3-82a7" primary="false"/>
         <categoryLink name="Marine Levante Scout " hidden="false" id="a25a-eda3-a7e6-0b53" targetId="78eb-18fb-20ac-97e2" primary="false"/>
-        <categoryLink name="New Category" hidden="false" id="d5d9-6ff1-d28e-2f5c" targetId="0f57-2a68-1823-ff23" primary="false"/>
+        <categoryLink name="Marine Levante Scout Con" hidden="false" id="d5d9-6ff1-d28e-2f5c" targetId="0f57-2a68-1823-ff23" primary="false"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1a8c-347d-f4eb-d281" includeChildSelections="false"/>
@@ -8485,7 +8488,7 @@
         <categoryLink name="Scout" hidden="false" id="c10f-36ea-540c-0eaa" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
         <categoryLink name="NoRepulsion" hidden="false" id="6ab9-c6f9-b891-e26c" targetId="401d-07db-b6e3-82a7" primary="false"/>
         <categoryLink name="Marine Levante Scout " hidden="false" id="73b2-76ef-cdde-650f" targetId="78eb-18fb-20ac-97e2" primary="false"/>
-        <categoryLink name="New Category" hidden="false" id="6ddd-5199-88e2-4205" targetId="0f57-2a68-1823-ff23" primary="false"/>
+        <categoryLink name="Marine Levante Scout Con" hidden="false" id="6ddd-5199-88e2-4205" targetId="0f57-2a68-1823-ff23" primary="false"/>
       </categoryLinks>
       <comment>ATTACHMENT</comment>
       <constraints>
@@ -8501,7 +8504,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Loire Light Cruiser" hidden="false" id="4c97-793e-c760-9be0" sortIndex="40">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Loire" hidden="false" id="d2cc-32ba-942e-8f85" sortIndex="">
+        <selectionEntry type="model" import="true" name="Loire" hidden="false" id="d2cc-32ba-942e-8f85">
           <selectionEntryGroups>
             <selectionEntryGroup name="Light Hardpoint: PSA" id="3323-f38e-ca5d-1505" hidden="false">
               <selectionEntries>
@@ -9299,6 +9302,13 @@
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1689-0d25-6477-4380" includeChildSelections="false"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
     </selectionEntry>
@@ -9638,7 +9648,7 @@
         </profile>
         <profile name="Gascony" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="0e8b-ee95-ede6-4e4d">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Flotsam, Levant, Inspirational (7”), Mine Layer (1) </characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Flotsam, Levant, Inspirational (7”), Mine Layer (1)</characteristic>
           </characteristics>
         </profile>
         <profile name="Gascony" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="6c56-d57f-6408-25b3">
@@ -9901,9 +9911,7 @@
         </profile>
         <profile name="Vulcan" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="6f66-5b70-a0a6-94c6">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Ablative Armour (2), Attachment (Italian), Heavy Prow (3)
-
-</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Ablative Armour (2), Attachment (Italian), Heavy Prow (3)</characteristic>
           </characteristics>
         </profile>
         <profile name="Vulcan" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="b913-1b42-b415-e116">
@@ -9951,9 +9959,7 @@
 
 
 Whenever a French Surface unit in this Force would gain a level of Disorder due to the Under Fire rule, its Admiral may discard a Victory &amp; Valour card from their hand. 
-If they do, the unit does not gain a level of Disorder. 
-
-</description>
+If they do, the unit does not gain a level of Disorder.</description>
                 </rule>
               </rules>
               <constraints>
@@ -10083,7 +10089,7 @@ If they do, the unit does not gain a level of Disorder. 
 If the effect is successfully enacted, the Admiral chooses another friendly Alliance unit which is within 8” of the active unit, and does not have the Activated status. That unit is immediately Activated, then gains the Activated status.
 
 
-Note that the Admiral cannot resolve an SRS Mission between the two Activations. </description>
+Note that the Admiral cannot resolve an SRS Mission between the two Activations.</description>
         </rule>
       </rules>
     </forceEntry>
@@ -10167,7 +10173,7 @@ Note that the Admiral cannot resolve an SRS Mission between the two Activations.
           <description>When this Battlefleet’s Admiral Activates a Marine Levant unit, they can enact a Special Valour Effect with it.
 
 
-If the effect is successfully enacted, mark the unit with a Valour Effect token. Until the start of its next Activation, the unit’s Maximum Speed rating is increased by 3”, and it does not count as having the Levant property. </description>
+If the effect is successfully enacted, mark the unit with a Valour Effect token. Until the start of its next Activation, the unit’s Maximum Speed rating is increased by 3”, and it does not count as having the Levant property.</description>
         </rule>
       </rules>
       <comment>Mainstay Units
@@ -10259,9 +10265,7 @@ This Special Action can be made by Underwater units.</description>
 • Cestus Zebek (Italian, Patrol)
 • Pugio Destroyer (Italian, Patrol)
 • Gladius Strike Cruiser (Italian, Line)
-• Sigatta Hunter Submarine (Italian, Support)
-
-</comment>
+• Sigatta Hunter Submarine (Italian, Support)</comment>
     </forceEntry>
     <forceEntry name="Susa Battlefleet (Specialist)" id="ae59-366a-0ba4-1eaa" hidden="false" sortIndex="4">
       <categoryLinks>

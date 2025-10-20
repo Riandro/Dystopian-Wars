@@ -412,7 +412,7 @@ Priority Signals, Turbo Encabulation Drive" field="a14c-99af-eb72-2d3d">
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="5c22-a387-207c-e182" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="5b58-4d3d-0afb-e928" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="5b58-4d3d-0afb-e928" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Chione Subnautical Explorer " hidden="false" id="a495-57aa-19fa-dd21" sortIndex="2">
@@ -775,7 +775,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7949-f29d-b88b-f275" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="d067-dace-3beb-8710" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="d067-dace-3beb-8710" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Titan Mass Conveyer" hidden="false" id="eae0-0742-2c77-1f92" sortIndex="41">
@@ -810,7 +810,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e310-174d-689a-94c7" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d30-a189-c708-f618" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d30-a189-c708-f618" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Olympia Levant Drive" hidden="false" id="ff17-7c5d-9dcb-78ac" sortIndex="2">
@@ -904,7 +904,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="fe97-30b4-3313-a12d"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="cfbf-bcd9-0410-a4c2" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="cfbf-bcd9-0410-a4c2" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="4"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Descartes Control Ship" hidden="false" id="cb1d-a6b0-8e37-49d3" sortIndex="5">
@@ -1196,7 +1196,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="dc9b-41ae-83bb-2ee9"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="1e6d-e1e7-c777-70a2" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="1e6d-e1e7-c777-70a2" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Hypatia Generator Ship" hidden="false" id="954e-f178-2caa-e4ed" sortIndex="6">
@@ -1499,7 +1499,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="457e-ac1e-ed8c-8dd4"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="6625-7625-67c8-a563" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="6625-7625-67c8-a563" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Icarus Aeronautic Fabricator " hidden="false" id="7ab5-c13d-9280-0b5b" sortIndex="7">
@@ -1696,7 +1696,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="49cb-a838-c01f-56c3"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="4846-88d8-403a-5b93" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="4846-88d8-403a-5b93" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
       <profiles>
         <profile name="Icarus" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="8666-67e6-3c32-bead">
@@ -2019,7 +2019,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1a24-34f8-3ee6-c846"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="62ef-5ec8-3aa1-e80c" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="62ef-5ec8-3aa1-e80c" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Loew Fast Explorer" hidden="false" id="8541-bdbc-c81c-53cc" sortIndex="9">
@@ -2183,7 +2183,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="720a-3c5d-ea4c-0a67"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="f1be-edc0-9b58-15a4" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="f1be-edc0-9b58-15a4" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Nansen Explorer" hidden="false" id="4515-3fab-1807-8954" sortIndex="10">
@@ -2575,7 +2575,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="14b5-704a-36db-272a"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="ea31-1176-a68b-8cbf" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="ea31-1176-a68b-8cbf" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Thule Skyfortress" hidden="false" id="a152-a931-bcbd-46c7" sortIndex="11">
@@ -2652,8 +2652,8 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="58d1-7c74-f174-f0c6" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7be9-92cb-952d-8adb" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="58d1-7c74-f174-f0c6" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7be9-92cb-952d-8adb" includeChildSelections="false" automatic="true"/>
           </constraints>
           <profiles>
             <profile name="Electrostatic Vacuum Bombs" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ee86-5cfa-d656-e36e">
@@ -3030,7 +3030,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="175f-e3a5-eaeb-c9b8"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="173e-3a4b-5eb3-2c56" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="173e-3a4b-5eb3-2c56" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Antarctica Cruiser " hidden="false" id="44de-0441-25ef-11f9" sortIndex="13">
@@ -3253,7 +3253,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="aded-630a-7c38-eb9b" automatic="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="aded-630a-7c38-eb9b" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7ba9-a885-3bb0-08d9" automatic="true"/>
           </constraints>
           <profiles>
@@ -3310,12 +3310,12 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bcb5-129c-d580-535d"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="2fdd-7cb5-5550-a24c" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="2fdd-7cb5-5550-a24c" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Copernicus Heavy Cruiser" hidden="false" id="430e-307e-773d-570d" sortIndex="14">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Copernicus" hidden="false" id="f4c8-e2cf-7ee7-035c">
+        <selectionEntry type="model" import="true" name="Copernicus" hidden="false" id="f4c8-e2cf-7ee7-035c" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="128"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -3460,7 +3460,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="870d-6a3e-ba0d-5274" automatic="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="870d-6a3e-ba0d-5274" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4ee4-1608-10d7-75c0" automatic="true"/>
           </constraints>
           <profiles>
@@ -3526,7 +3526,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf08-8543-6117-1891"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="c5e3-95cf-166b-4954" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="c5e3-95cf-166b-4954" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Lovelace Cruiser" hidden="false" id="6b4c-bd22-f82f-6bab" sortIndex="15">
@@ -3704,7 +3704,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Scythe Launcher" hidden="false" id="92ac-f4fc-8834-2e6e">
+        <selectionEntry type="upgrade" import="true" name="Scythe Launcher" hidden="false" id="92ac-f4fc-8834-2e6e" sortIndex="2">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -3781,7 +3781,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="f525-e571-e06f-e09b" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="f525-e571-e06f-e09b" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Tacitus Assault Cruiser" hidden="false" id="c6f8-07a6-f5c5-fed5" sortIndex="16">
@@ -3944,7 +3944,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="090e-6131-f787-8adc" automatic="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="090e-6131-f787-8adc" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="af04-939f-400f-3810" automatic="true"/>
           </constraints>
           <entryLinks>
@@ -4046,7 +4046,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="585a-75bd-2264-0fde" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="585a-75bd-2264-0fde" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Valtar Saucer" hidden="false" id="44fb-9a5c-df6e-aa79" sortIndex="17">
@@ -4135,7 +4135,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           </selectionEntries>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f7a6-3601-c4c6-ab4a" automatic="true"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a582-bf59-a57e-d35d" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a582-bf59-a57e-d35d" includeChildSelections="false" automatic="true"/>
           </constraints>
           <profiles>
             <profile name="X-Ray Laser Bank" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="6057-7008-b29e-4820">
@@ -4219,7 +4219,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           </profiles>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6776-d413-838d-5025" automatic="true"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1815-0f81-3001-a8ea" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1815-0f81-3001-a8ea" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -4348,7 +4348,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="5994-19e8-f5a7-e9f5" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="b96e-d50d-423d-d525" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="b96e-d50d-423d-d525" includeChildSelections="false" automatic="true"/>
           </constraints>
           <profiles>
             <profile name="Micro Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="841d-dc55-dd48-bb1e">
@@ -4413,7 +4413,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="348a-3193-4ad1-63c2" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="348a-3193-4ad1-63c2" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Ketos Myriapoda Colossus" hidden="false" id="12cc-3e00-3620-cd2e" sortIndex="20">
@@ -4425,7 +4425,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5e0f-2877-1cff-71d6" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="3b47-78e0-1eef-4b7a" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="3b47-78e0-1eef-4b7a" includeChildSelections="false" automatic="true"/>
           </constraints>
           <profiles>
             <profile name="Harmonised Transconductive Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="33f4-74ed-7e4a-3a82">
@@ -4496,7 +4496,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aad9-93f9-3b0c-9051" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="9e0f-ab44-d741-2a6e" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="9e0f-ab44-d741-2a6e" includeChildSelections="false" automatic="true"/>
           </constraints>
           <profiles>
             <profile name="Ceus Shockmaw" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="05c2-7375-2ea5-36d0">
@@ -4645,7 +4645,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="e898-ab89-e730-975c" automatic="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="e898-ab89-e730-975c" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7f5c-9157-0686-3bae" automatic="true"/>
           </constraints>
           <profiles>
@@ -4746,12 +4746,12 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="87c6-9ee8-2a94-8992" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="87c6-9ee8-2a94-8992" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Amo Carrier Frigate " hidden="false" id="78d0-bc11-d23d-e2cb" sortIndex="23">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Amo" hidden="false" id="bef9-f500-02e3-3efd">
+        <selectionEntry type="model" import="true" name="Amo" hidden="false" id="bef9-f500-02e3-3efd" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="32"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -4769,7 +4769,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           </profiles>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="3c74-df8d-5b17-b29a" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="9486-b675-45a7-dd23" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="9486-b675-45a7-dd23" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -4816,7 +4816,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8432-216d-44b3-bcc9"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="dda7-58aa-c6a0-4f7a" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="dda7-58aa-c6a0-4f7a" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Bellerophon War Platform" hidden="false" id="1e3f-5eb5-95d5-34e6" sortIndex="24">
@@ -4902,7 +4902,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ef2a-dab1-4109-f7ac" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0a2-7f0d-c39b-ffaf"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0a2-7f0d-c39b-ffaf" automatic="true"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Defensive Mines" hidden="false" id="0dfa-94cb-eb8f-8802" sortIndex="2">
@@ -4972,7 +4972,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="6703-1ca3-31ff-f8bb"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="712c-9bc6-e083-a5bd" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="712c-9bc6-e083-a5bd" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Leibniz Battle Platform" hidden="false" id="494e-1490-3f6d-8c48" sortIndex="25">
@@ -5088,8 +5088,8 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="494e-1490-3f6d-8c48" shared="true" id="1b29-74e5-7861-bf2c" automatic="true" includeChildSelections="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6301-cf55-9422-f903"/>
+            <constraint type="min" value="1" field="selections" scope="494e-1490-3f6d-8c48" shared="true" id="1b29-74e5-7861-bf2c" automatic="true" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6301-cf55-9422-f903" automatic="true"/>
           </constraints>
           <modifiers>
             <modifier type="set" value="1" field="6301-cf55-9422-f903">
@@ -5166,6 +5166,13 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7cd8-cb0b-8f2b-9726"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
     </selectionEntry>
@@ -5178,7 +5185,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3c91-fa30-acf4-3795" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="2b7a-d07d-0e12-cb34" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="2b7a-d07d-0e12-cb34" includeChildSelections="false" automatic="true"/>
           </constraints>
           <profiles>
             <profile name="Advanced Aetheric Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="eb1a-0d1d-27ce-cffe">
@@ -5257,7 +5264,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="afdd-5e95-1f25-74ce"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="26da-2a54-b8bb-406b" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="26da-2a54-b8bb-406b" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Origen Lathe Ship" hidden="false" id="1b6f-7d0f-fe83-5520" sortIndex="27">
@@ -5322,23 +5329,30 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="45c4-0d62-7d44-4b14" includeChildSelections="true"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Escorts" hidden="false" id="c53d-22ce-a0cd-8247" type="selectionEntry" targetId="bd6e-dbef-4baf-e017">
+        <entryLink import="true" name="Escorts" hidden="false" id="c53d-22ce-a0cd-8247" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="2">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="45ea-20bb-bd87-150c"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Plinius Support Carrier" hidden="false" id="9ed2-ef45-a848-1e25" sortIndex="28">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Plinius" hidden="false" id="614d-df71-cfab-5b63">
+        <selectionEntry type="model" import="true" name="Plinius" hidden="false" id="614d-df71-cfab-5b63" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="122"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="172f-0b37-961f-3b1e" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="808a-565e-dcf9-2dd2" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="808a-565e-dcf9-2dd2" includeChildSelections="false" automatic="true"/>
           </constraints>
           <profiles>
             <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="3517-4701-e44c-aec6">
@@ -5416,12 +5430,12 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e820-170e-6475-b243"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="9fd4-105b-7c4f-c210" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="9fd4-105b-7c4f-c210" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Quintilian Bombardment Cruiser" hidden="false" id="3d1c-a183-2801-91da" sortIndex="29">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Quintilian" hidden="false" id="e660-cb39-a452-32e7">
+        <selectionEntry type="model" import="true" name="Quintilian" hidden="false" id="e660-cb39-a452-32e7" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="140"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -5482,8 +5496,8 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             </entryLink>
           </entryLinks>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4381-3ba7-11b6-12e9"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="72a5-cee0-1f15-b1db"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4381-3ba7-11b6-12e9" automatic="true"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="72a5-cee0-1f15-b1db" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -5528,7 +5542,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd9a-c7ac-52bf-35cf"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="358c-d2c9-d5af-14a6" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="358c-d2c9-d5af-14a6" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Vesalius Cetacean Surgical Ship" hidden="false" id="9ac7-2c3d-98cb-ccbc" sortIndex="30">
@@ -5551,7 +5565,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           </profiles>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1074-7bd1-937e-845b" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="04d8-8cb6-6a2c-33c8" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="04d8-8cb6-6a2c-33c8" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -5611,7 +5625,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="975f-d02e-3831-1e3f"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="1c53-bed0-30af-c7c9" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="1c53-bed0-30af-c7c9" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Zumeena Capacitor Ship " hidden="false" id="ac30-5932-d78c-8b40" sortIndex="31">
@@ -5643,7 +5657,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           </profiles>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9a89-c79c-10b9-6f20" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d6d-597b-2755-1c99" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d6d-597b-2755-1c99" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -5688,6 +5702,13 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="37d2-190b-cd1e-5edc"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
     </selectionEntry>
@@ -5720,7 +5741,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           </profiles>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d718-7282-8b61-fa78" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="980c-d8a2-1bd2-ef51" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="980c-d8a2-1bd2-ef51" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -5789,7 +5810,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           </profiles>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="a9d2-fe79-39f7-11ea" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="13ed-683a-e179-d1af" includeChildSelections="false"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="13ed-683a-e179-d1af" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -5848,7 +5869,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           </costs>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0db9-6902-8e64-3f14" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="eba1-e177-f58d-d981" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="eba1-e177-f58d-d981" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -5979,7 +6000,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="3abc-7a7c-d886-f4a8" automatic="true"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="1349-46c5-e455-f528" automatic="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="1349-46c5-e455-f528" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -6037,7 +6058,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           </costs>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0dfb-db8c-128c-3ddd" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="8dd3-25a2-3fca-257a" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="8dd3-25a2-3fca-257a" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -6120,7 +6141,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           </profiles>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cb4a-7602-770f-2938" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="71ee-dac5-68fc-7394" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="71ee-dac5-68fc-7394" includeChildSelections="false" automatic="true"/>
           </constraints>
           <entryLinks>
             <entryLink import="true" name="Generators" hidden="false" id="0cc1-e4cd-90ea-30e3" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b">
@@ -6178,7 +6199,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="fa9b-9162-2822-fb09"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="1a3a-4588-2fe1-acf4" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="1a3a-4588-2fe1-acf4" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Daimler Support Platform" hidden="false" id="deea-87ff-944f-4f67" sortIndex="38">
@@ -6268,7 +6289,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f14f-8582-0c8b-fe00"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="f64e-e977-76ae-7dd5" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="f64e-e977-76ae-7dd5" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Europa Grand Conveyor" hidden="false" id="0b44-8c06-3793-9125" sortIndex="39">
@@ -6354,7 +6375,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           </modifiers>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3e25-ea66-0837-3d59" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9e1-3f0b-3c27-eaef" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9e1-3f0b-3c27-eaef" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Olympia Levant Drive" hidden="false" id="ac8f-a658-4889-bb29" sortIndex="2">
@@ -6398,7 +6419,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="796c-e7bd-71ca-26b7"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="4ada-8f03-6cd6-0b75" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="4ada-8f03-6cd6-0b75" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="4"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Hermes Supply Freighter " hidden="false" id="f68a-381b-814e-f2fb" sortIndex="40">
@@ -6465,6 +6486,13 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a31d-b024-4e70-d3dd"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
     </selectionEntry>

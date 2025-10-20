@@ -263,7 +263,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7513-9451-e2b8-c3c8" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="12f5-1223-4129-be66" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="12f5-1223-4129-be66" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -320,7 +320,7 @@
         <infoLink name="Kometa Interceptors" id="646a-fd68-87cd-2bc7" hidden="false" type="profile" targetId="0f9c-b564-f009-263e"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Anastasia" hidden="false" id="0b7e-1134-6e51-cbd7">
+        <selectionEntry type="model" import="true" name="Anastasia" hidden="false" id="0b7e-1134-6e51-cbd7" sortIndex="1">
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="06ae-a914-1038-5954" hidden="false">
               <selectionEntries>
@@ -395,7 +395,7 @@
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6933-7632-4e7a-c6b7" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3741-135f-f0f7-0871" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3741-135f-f0f7-0871" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -598,7 +598,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="20b9-fb7f-dc69-45e9" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a1f-d03f-5699-44e5" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a1f-d03f-5699-44e5" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -692,7 +692,7 @@
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c42a-1138-5597-9a71" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Death Bringer" hidden="false" id="cf0f-0c8f-c37a-a313">
+        <selectionEntry type="model" import="true" name="Death Bringer" hidden="false" id="cf0f-0c8f-c37a-a313" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="286"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -853,7 +853,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="714a-51b9-fb87-57d1" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b33-e093-d563-b85a" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b33-e093-d563-b85a" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -911,7 +911,7 @@
         </modifier>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Khodynka" hidden="false" id="6312-63bc-9fe7-8507">
+        <selectionEntry type="model" import="true" name="Khodynka" hidden="false" id="6312-63bc-9fe7-8507" sortIndex="1">
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="1ea4-2192-9dd2-f531" hidden="false">
               <selectionEntryGroups>
@@ -1093,7 +1093,7 @@
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="24df-259a-7bc8-4b3f" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff8b-d0fa-0b6c-25df" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff8b-d0fa-0b6c-25df" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -1151,7 +1151,7 @@
         </modifier>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Krasnaya" hidden="false" id="a7e9-3412-94d8-e0e7">
+        <selectionEntry type="model" import="true" name="Krasnaya" hidden="false" id="a7e9-3412-94d8-e0e7" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="265"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -1639,7 +1639,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df07-7f3b-c860-0c08" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d13f-6b0a-3673-5335" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d13f-6b0a-3673-5335" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -1896,7 +1896,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f44b-7f44-4ed2-628a" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83a6-64b5-d51c-8dca" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83a6-64b5-d51c-8dca" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -2183,7 +2183,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8bfd-4025-5c38-52d8" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3662-544f-d8cb-ed34" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3662-544f-d8cb-ed34" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -2492,7 +2492,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1b31-58dc-d1ff-0681" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e112-cb51-d883-0dec" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e112-cb51-d883-0dec" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -2716,7 +2716,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9eee-7a07-110d-92db" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5581-4935-754b-bdd0" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5581-4935-754b-bdd0" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -3276,7 +3276,7 @@
         <categoryLink targetId="139e-c78f-43c0-2957" id="205b-ab07-03d0-a0fe" primary="false" name="Airborne"/>
         <categoryLink targetId="278c-665b-5dbe-3aad" id="c8ee-0131-420b-b6c3" primary="false" name="Airship"/>
         <categoryLink targetId="c3cf-1919-2bc7-5843" id="7e53-10ac-e982-f88d" primary="false" name="Airbornecon"/>
-        <categoryLink targetId="c763-34bf-062d-be65" id="8d7f-f7d9-6ecb-8a69" primary="false" name="FlagshipPOL"/>
+        <categoryLink targetId="c763-34bf-062d-be65" id="8d7f-f7d9-6ecb-8a69" primary="false" name="Flagship Polish-Lithuanian"/>
       </categoryLinks>
       <profiles>
         <profile name="Zamiec" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="b2dd-090f-1ed1-af3e">
@@ -3518,7 +3518,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c48c-8441-47cc-6091" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="236b-421d-1c0a-2509" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="236b-421d-1c0a-2509" includeChildSelections="false" automatic="false"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -3778,7 +3778,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="48dc-9002-43d5-d73f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="48dc-9002-43d5-d73f" percentValue="false" includeChildSelections="false" includeChildForces="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="18fa-0f6e-0702-da13" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
@@ -3845,7 +3845,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Khyzhak" hidden="false" id="7bf8-8982-d026-536c">
+        <selectionEntry type="model" import="true" name="Khyzhak" hidden="false" id="7bf8-8982-d026-536c" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="80"/>
           </costs>
@@ -3944,7 +3944,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="3738-6ab1-8673-b2f7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="3738-6ab1-8673-b2f7" percentValue="false" includeChildSelections="false" includeChildForces="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eb17-5b9b-02af-6264" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
@@ -4023,7 +4023,7 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3aa7-9add-548b-7c46" includeChildSelections="false"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Kutsov" hidden="false" id="fbfc-02f3-c1a3-f57c">
+        <selectionEntry type="model" import="true" name="Kutsov" hidden="false" id="fbfc-02f3-c1a3-f57c" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="90"/>
           </costs>
@@ -4134,7 +4134,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="6d21-a14e-dd1e-7cc7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="6d21-a14e-dd1e-7cc7" percentValue="false" includeChildSelections="false" includeChildForces="false" automatic="true"/>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="b0da-c5f4-8d5e-d362" percentValue="false" includeChildSelections="false" includeChildForces="false" automatic="true"/>
           </constraints>
         </selectionEntry>
@@ -4200,7 +4200,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Morozko" hidden="false" id="0e13-85b6-23ba-1ff6">
+        <selectionEntry type="model" import="true" name="Morozko" hidden="false" id="0e13-85b6-23ba-1ff6" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="135"/>
           </costs>
@@ -4393,7 +4393,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="34d5-3965-2d1a-6acb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="34d5-3965-2d1a-6acb" percentValue="false" includeChildSelections="false" includeChildForces="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e234-e21b-fc7c-7e83" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
@@ -4450,7 +4450,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Norilsk" hidden="false" id="bc64-dd5d-2408-5b52">
+        <selectionEntry type="model" import="true" name="Norilsk" hidden="false" id="bc64-dd5d-2408-5b52" sortIndex="1">
           <categoryLinks>
             <categoryLink name="Ship" hidden="false" id="cb82-57e2-f30e-3201" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
             <categoryLink name="Line" hidden="false" id="3764-6b3e-28be-1e38" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
@@ -4628,7 +4628,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="2a0b-c077-5525-e2a1" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="2a0b-c077-5525-e2a1" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="568d-dfed-6421-35f5" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
@@ -4768,7 +4768,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="47f0-c144-590d-36d9" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="8b2d-0c9b-f4e8-e4bf" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="8b2d-0c9b-f4e8-e4bf" includeChildSelections="false" automatic="true"/>
           </constraints>
           <categoryLinks>
             <categoryLink targetId="c3cf-1919-2bc7-5843" id="2963-f6df-e344-8081" primary="false" name="Airbornecon"/>
@@ -5045,7 +5045,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dccd-b59a-52d4-3acd" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="bd26-dde1-fa93-5ef8" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="bd26-dde1-fa93-5ef8" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="118"/>
@@ -5174,7 +5174,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="4a87-a18c-9005-08fe" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="4a87-a18c-9005-08fe" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="408b-bf55-2112-8e76" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
@@ -5248,7 +5248,7 @@
         <selectionEntry type="model" import="true" name="Piranya" hidden="false" id="64f4-9082-8f8f-6711" sortIndex="1">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="b0f9-0619-c1f1-3707" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="6892-3cb4-326b-20a1" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="6892-3cb4-326b-20a1" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="38"/>
@@ -5378,7 +5378,7 @@
         <selectionEntry type="model" import="true" name="Rurik" hidden="false" id="2fba-5250-5d4c-4261">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="357a-8e93-1499-54e3" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="9869-6c99-9991-0b74" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="9869-6c99-9991-0b74" includeChildSelections="false" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="b05d-41bc-53e1-6576" hidden="false" sortIndex="1">
@@ -5584,7 +5584,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="43c4-5ba8-7291-3662" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="f0f4-d60f-ff58-4ee7" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="f0f4-d60f-ff58-4ee7" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="68"/>
@@ -5815,7 +5815,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="806a-8794-188f-a6b1" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="126d-df69-5d39-3301" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="126d-df69-5d39-3301" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -6025,7 +6025,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="41b8-4db8-e5bc-5a85" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b37-e654-ebe4-0b09" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b37-e654-ebe4-0b09" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -6060,7 +6060,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Konostoga" hidden="false" id="dcd0-b1fa-5dcb-3737" sortIndex="1">
           <constraints>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="aabe-34fd-3e30-1c72"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="aabe-34fd-3e30-1c72" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9950-68d0-577e-9803-min" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
@@ -6214,7 +6214,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0beb-8d0a-e0cc-6d6f" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d912-4e81-c705-c66c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d912-4e81-c705-c66c" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="312"/>
@@ -6361,7 +6361,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b6cd-9d10-89c5-9adf" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1a7c-499f-ef72-ffa8" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1a7c-499f-ef72-ffa8" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -6427,7 +6427,7 @@
         <selectionEntry type="model" import="true" name="Saransk" hidden="false" id="df46-180c-721c-e4d2">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="383c-9cc4-79f4-be0c" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="ae4f-f11a-9716-8094" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="ae4f-f11a-9716-8094" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="118"/>
@@ -6517,7 +6517,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Stoletov" hidden="false" id="1076-9833-6ab6-9cf7">
+        <selectionEntry type="model" import="true" name="Stoletov" hidden="false" id="1076-9833-6ab6-9cf7" sortIndex="1">
           <categoryLinks>
             <categoryLink name="Support" hidden="false" id="dc67-25dc-539f-bd4c" targetId="1711-6069-af06-c5cc" primary="true"/>
             <categoryLink name="Commonwealth" hidden="false" id="9a9d-6c53-2f3a-41d5" targetId="1f78-904a-a9b7-2c8f" primary="false"/>
@@ -6625,7 +6625,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="76e7-6c88-6258-6646" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="7554-3431-64bf-d989" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="7554-3431-64bf-d989" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -6755,7 +6755,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5e69-e7c4-687b-6189" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="39f3-c721-d548-eb6c" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="39f3-c721-d548-eb6c" includeChildSelections="false" automatic="true"/>
           </constraints>
           <modifiers>
             <modifier type="set" value="1" field="39f3-c721-d548-eb6c">
@@ -7038,7 +7038,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Dragunov" hidden="false" id="ecf0-21c8-d8dc-b42a">
+        <selectionEntry type="model" import="true" name="Dragunov" hidden="false" id="ecf0-21c8-d8dc-b42a" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="83"/>
           </costs>
@@ -7189,7 +7189,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5097-d681-3dd6-0b16" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="83d6-27d9-bb6e-5899" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="83d6-27d9-bb6e-5899" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -7243,7 +7243,7 @@
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fe30-c469-388f-4e2e" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="9d75-98eb-c8da-8269" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="9d75-98eb-c8da-8269" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -7466,7 +7466,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2d33-3ce7-3fad-f7bb" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a821-cf0d-8c7e-54d2" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a821-cf0d-8c7e-54d2" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="182"/>
@@ -7665,7 +7665,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="18b4-b4f5-eae4-8404" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="3cfc-a171-51bc-4dd1" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="3cfc-a171-51bc-4dd1" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -7716,7 +7716,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Sineus" hidden="false" id="9145-d41c-e75f-3d41">
+        <selectionEntry type="model" import="true" name="Sineus" hidden="false" id="9145-d41c-e75f-3d41" sortIndex="1">
           <categoryLinks>
             <categoryLink name="Scout" hidden="false" id="4558-12df-6395-bd4d" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
             <categoryLink name="Commonwealth" hidden="false" id="5454-84a4-4708-9f48" targetId="1f78-904a-a9b7-2c8f" primary="false"/>
@@ -7842,7 +7842,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7a21-2728-4d3e-cc45" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="49fb-2d59-e698-3158" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="49fb-2d59-e698-3158" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -8029,7 +8029,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0ff9-526f-fc42-3e2e" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="b81e-3539-f228-deae" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="b81e-3539-f228-deae" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -8266,7 +8266,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="1a13-d365-9535-ffc8" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="eee8-d0de-2a03-7734" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="eee8-d0de-2a03-7734" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -8340,7 +8340,7 @@
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a583-929d-ba60-ebad" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="afcc-f9a1-f3ef-ead3" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="afcc-f9a1-f3ef-ead3" includeChildSelections="false" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="a2be-d72c-f388-c4e2" hidden="false" sortIndex="1">
@@ -8507,7 +8507,7 @@
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="95d1-0575-e87c-0e1e" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="88ee-c021-a2a0-67e1" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="88ee-c021-a2a0-67e1" includeChildSelections="false" automatic="true"/>
           </constraints>
           <modifiers>
             <modifier type="set" value="1" field="88ee-c021-a2a0-67e1">
@@ -8599,7 +8599,7 @@
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="abfc-2938-f037-d56d" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="611b-8ce5-f93e-e91c" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="611b-8ce5-f93e-e91c" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Defensive Mines" hidden="false" id="a349-4e0d-8819-5667" sortIndex="3">
@@ -8762,6 +8762,10 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8007-ba53-290d-7c11" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="244c-ef11-d62f-563a" includeChildSelections="false" automatic="true"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <modifiers>
@@ -9042,7 +9046,7 @@ If they do so, models in the unit can Rally during this step, even if they would
             </modifier>
           </modifiers>
         </categoryLink>
-        <categoryLink name="FlagshipPOL" hidden="false" id="f420-f5d6-575a-7203" targetId="c763-34bf-062d-be65">
+        <categoryLink name="Flagship Polish-Lithuanian" hidden="false" id="f420-f5d6-575a-7203" targetId="c763-34bf-062d-be65">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f810-ec11-84c1-3b9a"/>
           </constraints>

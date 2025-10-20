@@ -239,12 +239,12 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Escorts" hidden="false" id="7c5b-d5d9-7905-40bb" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="4">
+        <entryLink import="true" name="Escorts" hidden="false" id="7c5b-d5d9-7905-40bb" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="5">
           <constraints>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="32e8-1bee-ab22-b264"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="c4d4-7ffd-978c-42ef" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="c4d4-7ffd-978c-42ef" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="4"/>
       </entryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Admiral&apos;s Flag" hidden="false" id="9ba7-928f-6ea2-3cdd" sortIndex="3">
@@ -253,8 +253,8 @@
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8693-7a3b-5145-adaf-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8693-7a3b-5145-adaf-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8693-7a3b-5145-adaf-min" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8693-7a3b-5145-adaf-max" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -283,7 +283,7 @@
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca1f-1140-bcc3-fc99" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca1f-1140-bcc3-fc99" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8bba-d390-cce8-d6a6" includeChildSelections="false" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
@@ -373,12 +373,12 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Escorts" hidden="false" id="2a8a-acaf-dcc8-eb64" type="selectionEntry" targetId="bd6e-dbef-4baf-e017">
+        <entryLink import="true" name="Escorts" hidden="false" id="2a8a-acaf-dcc8-eb64" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="3">
           <constraints>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="eace-7dbb-71a4-2e29" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="5c2c-a6ae-554f-74d4" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="5c2c-a6ae-554f-74d4" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="b80b-3aca-c61b-fcdf" field="category">
@@ -441,7 +441,7 @@
           </selectionEntries>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f72d-75c9-ee41-5b96-min" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f72d-75c9-ee41-5b96-max"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f72d-75c9-ee41-5b96-max" automatic="true"/>
           </constraints>
         </selectionEntryGroup>
         <selectionEntryGroup name="Weapons" id="9160-55a6-0d41-06a9" hidden="false" sortIndex="2" collapsible="true">
@@ -758,12 +758,12 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Escorts" hidden="false" id="f74e-b60b-7c9e-f02d" type="selectionEntry" targetId="bd6e-dbef-4baf-e017">
+        <entryLink import="true" name="Escorts" hidden="false" id="f74e-b60b-7c9e-f02d" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="4">
           <constraints>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="857a-b0d4-bce2-bb7b" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="1ebe-31ab-635e-4e2e" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="1ebe-31ab-635e-4e2e" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="SMS Brandenburg" hidden="false" id="a847-90a0-c606-b635" sortIndex="3">
@@ -886,7 +886,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="243b-edd9-7c11-2d45" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8126-6724-fd05-7022" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8126-6724-fd05-7022" includeChildSelections="false" automatic="true"/>
           </constraints>
           <categoryLinks>
             <categoryLink name="Escort" hidden="false" id="1dcf-cc9f-2f5f-5e5b" targetId="d576-4983-e8cf-e556" primary="false"/>
@@ -905,7 +905,7 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a7ce-ff80-4f0b-c48c"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="3fce-4662-918e-6fdc" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="3fce-4662-918e-6fdc" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
       <profiles>
         <profile name="Brandenburg" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="9f97-44e8-788b-516b">
@@ -1414,12 +1414,12 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Escorts" hidden="false" id="da62-de36-59ed-310c" type="selectionEntry" targetId="bd6e-dbef-4baf-e017">
+        <entryLink import="true" name="Escorts" hidden="false" id="da62-de36-59ed-310c" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="4">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4538-d4b4-0bed-7167" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="c240-b07c-2862-770a" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="c240-b07c-2862-770a" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Ice Maiden Dreadnought Supercarrier" hidden="false" id="fc15-6f16-a6d8-b8d4" sortIndex="5">
@@ -1650,7 +1650,7 @@
             <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="0ac3-6265-ce1c-18af"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="7659-eb91-eeea-4785" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="7659-eb91-eeea-4785" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="16ff-99b4-79d2-cd65" field="category">
@@ -1862,7 +1862,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ea02-cab1-82ec-c1c8" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e17-3736-194a-88dd" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e17-3736-194a-88dd" includeChildSelections="false" automatic="true"/>
           </constraints>
           <categoryLinks>
             <categoryLink name="Escort" hidden="false" id="732d-e3f6-7f43-10f2" targetId="d576-4983-e8cf-e556" primary="false"/>
@@ -1881,7 +1881,7 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="e91b-1213-271a-98e8"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="2c85-355c-ddc7-6a67" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="2c85-355c-ddc7-6a67" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
       <profiles>
         <profile name="Kaiser Heavy" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="1ea9-acea-e23d-b9b0">
@@ -2066,7 +2066,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ea87-7a81-2b8d-8c85" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce53-042a-7aeb-b0ba" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce53-042a-7aeb-b0ba" includeChildSelections="false" automatic="true"/>
           </constraints>
           <entryLinks>
             <entryLink import="true" name="Generators" hidden="false" id="ae06-92f9-80c4-a485" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b" sortIndex="2"/>
@@ -2088,7 +2088,7 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="4d76-2733-ee57-a082" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="725d-fcef-0bb8-7d1d" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="725d-fcef-0bb8-7d1d" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
       <profiles>
         <profile name="Konig Generator Ship" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="d7d5-681a-6592-0a34">
@@ -2253,7 +2253,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="86ec-25b3-db30-be2d" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d74e-dd9d-baec-1499" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d74e-dd9d-baec-1499" includeChildSelections="false" automatic="true"/>
           </constraints>
           <categoryLinks>
             <categoryLink name="Escort" hidden="false" id="f386-a9cb-1224-1493" targetId="d576-4983-e8cf-e556" primary="false"/>
@@ -2272,7 +2272,7 @@
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="be06-6a52-c8b8-da55"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="dcef-450f-6914-d33d" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="dcef-450f-6914-d33d" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
       <profiles>
         <profile name="Ragnarok" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="9e55-c1cd-1b7b-2686">
@@ -2413,8 +2413,8 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c5e3-30b0-817c-de8e" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="30f6-4f30-fa85-a5d3" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c5e3-30b0-817c-de8e" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="30f6-4f30-fa85-a5d3" includeChildSelections="false" automatic="true"/>
           </constraints>
           <categoryLinks>
             <categoryLink name="Escort" hidden="false" id="a04d-094c-70c9-d2a4" targetId="d576-4983-e8cf-e556" primary="false"/>
@@ -2433,7 +2433,7 @@
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="88ab-0ff8-5a5e-3e71"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="e4be-8696-f42d-f6f9" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="e4be-8696-f42d-f6f9" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
       <profiles>
         <profile name="Skjalden" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="c6fe-81c7-b75e-06f8">
@@ -2493,7 +2493,7 @@
         <categoryLink name="Airship" hidden="false" id="2b87-fbee-b363-f9ad" targetId="278c-665b-5dbe-3aad" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="350c-f222-bd28-6e24" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Carrier" hidden="false" id="9a7c-33c8-8f39-6507" targetId="4521-8e16-2d0f-7dc6" primary="false"/>
-        <categoryLink targetId="d091-5083-e8be-7420" id="1295-e148-01e4-a6d2" primary="false" name="AirborneFlagship"/>
+        <categoryLink targetId="d091-5083-e8be-7420" id="1295-e148-01e4-a6d2" primary="false" name="Airborne Flagship"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Stark" hidden="false" id="62dc-792e-19c5-0bdf" sortIndex="1">
@@ -2576,7 +2576,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="470b-193a-1286-92be" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="09c3-da59-8802-9ef0" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="09c3-da59-8802-9ef0" includeChildSelections="false" automatic="true"/>
           </constraints>
           <categoryLinks>
             <categoryLink name="Escort" hidden="false" id="bba0-824e-292c-bff9" targetId="d576-4983-e8cf-e556" primary="false"/>
@@ -2662,7 +2662,7 @@
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6227-db7d-f0bb-5cbe" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6227-db7d-f0bb-5cbe" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="56cb-da41-ddff-f61b" includeChildSelections="false" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
@@ -2733,7 +2733,7 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="8247-3b10-b611-105b"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="e5e6-c171-a0f3-a187" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="e5e6-c171-a0f3-a187" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
       <profiles>
         <profile name="Tempelhof" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="0421-8ebd-a080-ead4">
@@ -2790,7 +2790,7 @@
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70ca-3c46-4288-fe65" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70ca-3c46-4288-fe65" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2945-db1d-227e-21ac" includeChildSelections="false" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
@@ -2983,7 +2983,7 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="107c-f08f-9638-8c37"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="c070-813c-9c31-d014" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="c070-813c-9c31-d014" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
       <profiles>
         <profile name="Valhalla" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="3435-cfcc-122c-182a">
@@ -3049,7 +3049,7 @@
         <categoryLink name="Airborne" hidden="false" id="3ba2-1388-39f7-9b6f" targetId="139e-c78f-43c0-2957" primary="false"/>
         <categoryLink name="Airship" hidden="false" id="3e31-1c18-5bb4-8d3e" targetId="278c-665b-5dbe-3aad" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="fc21-f29d-2df9-eb0a" targetId="30c3-7f1c-19e3-e772" primary="false"/>
-        <categoryLink targetId="d091-5083-e8be-7420" id="9f35-d952-f174-b35d" primary="false" name="AirborneFlagship"/>
+        <categoryLink targetId="d091-5083-e8be-7420" id="9f35-d952-f174-b35d" primary="false" name="Airborne Flagship"/>
         <categoryLink targetId="12f9-b8ab-e90e-c2e6" id="b67d-fa67-30ce-b188" primary="false" name="AirborneCon"/>
       </categoryLinks>
       <selectionEntries>
@@ -3150,8 +3150,8 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c348-2349-0834-b767" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e8d-eb12-1305-e953" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c348-2349-0834-b767" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e8d-eb12-1305-e953" includeChildSelections="false" automatic="true"/>
           </constraints>
           <categoryLinks>
             <categoryLink name="Escort" hidden="false" id="afc7-ea6e-f06c-b53c" targetId="d576-4983-e8cf-e556" primary="false"/>
@@ -3227,8 +3227,8 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Balder" hidden="false" id="b7a7-6f50-96e1-e85a" sortIndex="1">
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7dea-a0ac-93b3-be43" includeChildSelections="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4065-b0f8-3ded-e634"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7dea-a0ac-93b3-be43" includeChildSelections="false" automatic="true"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4065-b0f8-3ded-e634" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="debb-9989-7eac-e919" hidden="false">
@@ -3384,7 +3384,7 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="d183-b06a-c7bd-bd77" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="d183-b06a-c7bd-bd77" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="32c1-2931-fe38-6448" field="category">
@@ -3810,9 +3810,9 @@
         <categoryLink targetId="d0e7-3928-704a-9f7d" id="da7e-d997-3109-2b48" primary="false" name="AttachmentHostGefjon"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Gungnir" hidden="false" id="6b81-3c23-8660-ad5a">
+        <selectionEntry type="model" import="true" name="Gungnir" hidden="false" id="6b81-3c23-8660-ad5a" sortIndex="1">
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="8e67-bdb4-d5b9-ab3a" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="8e67-bdb4-d5b9-ab3a" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d67a-82f6-553a-0afa" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
@@ -3958,7 +3958,7 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="d15e-50de-9184-4271" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="d15e-50de-9184-4271" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="32c1-2931-fe38-6448" field="category">
@@ -3998,9 +3998,9 @@
         <categoryLink targetId="d0e7-3928-704a-9f7d" id="65bf-9b83-61e5-1586" primary="false" name="AttachmentHostGefjon"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Jotunn" hidden="false" id="4391-c988-6979-2f33">
+        <selectionEntry type="model" import="true" name="Jotunn" hidden="false" id="4391-c988-6979-2f33" sortIndex="1">
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="75e5-c8dd-10cf-9d38" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="75e5-c8dd-10cf-9d38" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3f63-04f9-cbac-1a9c" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
@@ -4156,7 +4156,7 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="390d-2b42-c155-8c58" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="390d-2b42-c155-8c58" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="32c1-2931-fe38-6448" field="category">
@@ -4246,7 +4246,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8347-77a3-5462-ba26" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1226-be3b-17db-64e9" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1226-be3b-17db-64e9" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -4375,7 +4375,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4867-44ea-55e0-d58c" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="23a2-a679-41a9-04be" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="23a2-a679-41a9-04be" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -4451,7 +4451,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Odin" hidden="false" id="51cc-c4e9-106f-b2bf" sortIndex="1">
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="d260-4643-7766-7966" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="d260-4643-7766-7966" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d0c5-4f11-9a64-bf8a" includeChildSelections="false" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
@@ -4570,7 +4570,7 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="249b-b8ad-b92f-22a1" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="249b-b8ad-b92f-22a1" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="32c1-2931-fe38-6448" field="category">
@@ -4612,7 +4612,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Thor" hidden="false" id="400f-4d09-f946-ac6e" sortIndex="1">
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="d0bb-25d6-235e-90ad" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="d0bb-25d6-235e-90ad" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8c35-3cb6-feb0-dfe2" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
@@ -4748,7 +4748,7 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="9456-d05b-bf30-09e4" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="9456-d05b-bf30-09e4" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="32c1-2931-fe38-6448" field="category">
@@ -4785,9 +4785,9 @@
         <categoryLink targetId="d0e7-3928-704a-9f7d" id="3e59-d920-37f1-b7de" primary="false" name="AttachmentHostGefjon"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Volsung" hidden="false" id="33de-3e41-eb36-69e9">
+        <selectionEntry type="model" import="true" name="Volsung" hidden="false" id="33de-3e41-eb36-69e9" sortIndex="1">
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="e966-bbd2-855f-db39" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="e966-bbd2-855f-db39" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4332-88c3-9494-bd17" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
@@ -4902,7 +4902,7 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="e13f-fa6d-1e5d-9192" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="e13f-fa6d-1e5d-9192" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="b72b-3bb7-125b-5adb" field="category">
@@ -4950,9 +4950,9 @@
         <categoryLink targetId="d0e7-3928-704a-9f7d" id="0e34-eff0-c3c5-e09b" primary="false" name="AttachmentHostGefjon"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Arminius" hidden="false" id="73d4-7cb7-7638-6b64">
+        <selectionEntry type="model" import="true" name="Arminius" hidden="false" id="73d4-7cb7-7638-6b64" sortIndex="1">
           <constraints>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="1183-c893-4ca5-1f3e" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="1183-c893-4ca5-1f3e" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0884-4e5a-acf3-b859" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
@@ -5040,7 +5040,7 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="0bca-9263-2fdd-7f76" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="0bca-9263-2fdd-7f76" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="2" field="7f33-dfc1-be95-3d9e">
@@ -5190,7 +5190,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Jaeger" hidden="false" id="be6f-38e6-429f-24f6" sortIndex="1">
           <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="776d-7f3a-1042-21a5" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="776d-7f3a-1042-21a5" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="5c1c-53db-9a37-766e" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
@@ -5313,9 +5313,9 @@
         <categoryLink targetId="354b-f513-a8ad-efba" id="10dd-93f6-048f-3fc6" primary="false" name="AttachmentHostHermes"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Malus" hidden="false" id="4d73-aac2-327d-d4b5">
+        <selectionEntry type="model" import="true" name="Malus" hidden="false" id="4d73-aac2-327d-d4b5" sortIndex="1">
           <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="5bce-b40a-947f-6ea3" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="5bce-b40a-947f-6ea3" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="748b-c778-d550-728a" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
@@ -5422,7 +5422,7 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="ce76-8387-50bf-43eb" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="ce76-8387-50bf-43eb" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Munich Aerial Destroyer" hidden="false" id="2f3f-df5f-7992-eb73" sortIndex="29">
@@ -5437,7 +5437,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Munich" hidden="false" id="6049-b16f-71dd-1f1c" sortIndex="1">
           <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="4ef4-aa7a-07fb-f432" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="4ef4-aa7a-07fb-f432" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="7f6c-67f6-f218-15c3" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
@@ -5539,7 +5539,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Nachtsturm" hidden="false" id="551c-ef49-25c4-02a0" sortIndex="1">
           <constraints>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="b62e-520e-1570-d238" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="b62e-520e-1570-d238" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="d6c7-6b27-1af2-ab0b" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
@@ -5609,7 +5609,7 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="9621-bdef-c696-e410" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="9621-bdef-c696-e410" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="e1f1-b7e4-cfdf-0b61" field="category">
@@ -5901,7 +5901,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Toten" hidden="false" id="b1fc-638a-65ef-88cc">
           <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="6ef5-b00d-0e34-d10c" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="6ef5-b00d-0e34-d10c" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="f7b5-8bcc-9601-6278" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
@@ -6167,7 +6167,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Angrboda" hidden="false" id="fd3d-607e-90c1-cf73">
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0c70-744e-e95c-e186" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0c70-744e-e95c-e186" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="897b-4c28-c7d0-9ddc" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
@@ -6324,7 +6324,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Augustus" hidden="false" id="7158-5745-f666-7a9a">
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="bfbf-358f-c5cb-6f19" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="bfbf-358f-c5cb-6f19" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8f00-bf46-b557-fc90" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
@@ -6634,7 +6634,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Varazdin" hidden="false" id="fc18-e4e0-80e2-b4b0" sortIndex="1">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab85-8ba4-7bae-f4d4" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab85-8ba4-7bae-f4d4" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a72d-8277-b8ae-1de7" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
@@ -6781,12 +6781,12 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Escorts" hidden="false" id="8336-b290-b292-afad" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="3">
+        <entryLink import="true" name="Escorts" hidden="false" id="8336-b290-b292-afad" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="4">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e3fc-5ba7-0f68-5ae8"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="dcaf-f26d-acf9-e454" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="dcaf-f26d-acf9-e454" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Zrin Battle Platform" hidden="false" id="280b-2169-a24b-9bb5" sortIndex="40">
@@ -6939,7 +6939,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Einherjar Vitruvian Colossus" hidden="false" id="26b9-e11c-0aa7-0e3c" sortIndex="1">
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="4a01-6c33-f873-fbbf" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="4a01-6c33-f873-fbbf" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b26-0c49-0336-9900" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
@@ -7125,7 +7125,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Fenrir Submarine" hidden="false" id="ac93-6fb5-713b-b865">
           <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="1761-5220-5774-7fdb" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="1761-5220-5774-7fdb" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="210a-efb6-aade-0301" automatic="true"/>
           </constraints>
           <costs>
@@ -7443,9 +7443,9 @@
         <categoryLink targetId="d0e7-3928-704a-9f7d" id="e2bf-7870-03d8-c029" primary="false" name="AttachmentHostGefjon"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Loki" hidden="false" id="7b99-ac8f-374a-fd4e">
+        <selectionEntry type="model" import="true" name="Loki" hidden="false" id="7b99-ac8f-374a-fd4e" sortIndex="1">
           <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="46dc-d895-f07e-f765" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="46dc-d895-f07e-f765" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec0d-426b-212c-7302" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
@@ -7572,7 +7572,7 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="415e-b7e3-b571-0567" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="415e-b7e3-b571-0567" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="15ac-87d7-345d-efe7" field="category">
@@ -7677,7 +7677,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1752-241b-6e85-c94a"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1752-241b-6e85-c94a" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="49b1-dba6-8aaa-1c77" automatic="true"/>
           </constraints>
         </selectionEntry>
@@ -7738,7 +7738,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Eltz" hidden="false" id="c77f-0354-347e-6659" sortIndex="1">
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1bf9-ecb3-e754-2cc9"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1bf9-ecb3-e754-2cc9" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0cb8-92ac-6572-2b1a" automatic="true"/>
           </constraints>
           <costs>
@@ -7804,12 +7804,12 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Escorts" hidden="false" id="1d49-8c4a-1af5-694e" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="3">
+        <entryLink import="true" name="Escorts" hidden="false" id="1d49-8c4a-1af5-694e" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="4">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1f2d-6616-1a84-45f7"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="0737-0630-3486-6836" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="0737-0630-3486-6836" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Europa Grand Conveyor" hidden="false" id="923c-fb71-4ccf-1ecd" sortIndex="47">
@@ -7892,7 +7892,7 @@
           </selectionEntries>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="31b7-1590-2b6b-c781" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c8d-e073-abaa-78bd" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c8d-e073-abaa-78bd" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -7908,7 +7908,7 @@
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="07f5-4d4c-32c6-af81"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="3c11-5f3d-74a1-b249" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="3c11-5f3d-74a1-b249" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
       <profiles>
         <profile name="Europa Grand Conveyor" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="741e-082b-709d-2e3d">
@@ -7973,7 +7973,7 @@
         <categoryLink targetId="fa85-80ac-ff67-bade" id="2a71-ba76-e39f-c994" primary="false" name="Logisticaltwo"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Hermes Supply Freighter" hidden="false" id="bbb3-2c10-6251-8fe2">
+        <selectionEntry type="model" import="true" name="Hermes Supply Freighter" hidden="false" id="bbb3-2c10-6251-8fe2" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="25"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -8024,6 +8024,17 @@
           </characteristics>
         </profile>
       </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Escorts" hidden="false" id="3749-9750-ed06-04d1" type="selectionEntry" targetId="bd6e-dbef-4baf-e017">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Gefjon Merchantman" hidden="false" id="3649-5fe8-f142-326c" sortIndex="49">
       <categoryLinks>
@@ -8330,7 +8341,7 @@
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cb7f-6074-af0e-d76b" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc9a-4788-183e-4109" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc9a-4788-183e-4109" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -8347,7 +8358,7 @@
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="f9fb-ffa4-4029-86e6" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="f9fb-ffa4-4029-86e6" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Fleet Doctrines" hidden="false" id="aff5-ce2e-767b-4367">
@@ -8629,7 +8640,7 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="f2ea-2bdb-fa4a-aea1"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="d9c9-e341-ca5e-6b01" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="d9c9-e341-ca5e-6b01" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Hochmeister Vitruvian Colossus" hidden="false" id="b5a4-0937-b13e-b94d" sortIndex="43">
@@ -8762,7 +8773,7 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96ab-4d71-b933-60f7"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96ab-4d71-b933-60f7" automatic="false"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e30e-b391-868a-f728" automatic="true"/>
           </constraints>
           <categoryLinks>
@@ -8829,7 +8840,7 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
         <categoryLink name="Bavarian" hidden="false" id="a0ae-a928-a362-0b04" targetId="a95f-8696-4d80-d4bf" primary="false"/>
         <categoryLink name="Airship" hidden="false" id="2b28-75d5-b6ff-0756" targetId="278c-665b-5dbe-3aad" primary="false"/>
         <categoryLink name="Airborne" hidden="false" id="b88a-c3dc-7a26-2ea4" targetId="139e-c78f-43c0-2957" primary="false"/>
-        <categoryLink targetId="d091-5083-e8be-7420" id="e1ec-551d-f627-790a" primary="true" name="AirborneFlagship"/>
+        <categoryLink targetId="d091-5083-e8be-7420" id="e1ec-551d-f627-790a" primary="true" name="Airborne Flagship"/>
         <categoryLink targetId="12f9-b8ab-e90e-c2e6" id="fad9-7374-69a3-a184" primary="false" name="AirborneCon"/>
       </categoryLinks>
       <selectionEntries>
@@ -8927,7 +8938,7 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b1c-7305-a87a-7bcf" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed8d-dfa7-1a61-893e" includeChildSelections="false" automatic="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed8d-dfa7-1a61-893e" includeChildSelections="false" automatic="true"/>
           </constraints>
           <categoryLinks>
             <categoryLink name="Escort" hidden="false" id="8732-7ee4-8b9b-81a9" targetId="d576-4983-e8cf-e556" primary="false"/>
@@ -9277,7 +9288,7 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d4f0-df61-f420-9c02"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="AirborneFlagship" hidden="false" id="d35e-c050-a5e8-ecae" targetId="d091-5083-e8be-7420">
+        <categoryLink name="Airborne Flagship" hidden="false" id="d35e-c050-a5e8-ecae" targetId="d091-5083-e8be-7420">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="38d2-9bdc-f2dc-bc0d" automatic="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5cba-f637-d1f9-6e25" automatic="false"/>

@@ -255,6 +255,9 @@
           <constraints>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="033a-98c0-020a-bd4d"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="03c5-aeed-143c-10f9" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -549,6 +552,9 @@
           <constraints>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="3024-6484-96b1-408a"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="426f-b820-3978-1abf" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -607,7 +613,7 @@
           </costs>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="a1d5-5194-51b3-d911" automatic="true"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="f97d-cdc9-ab2b-4b2d"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="f97d-cdc9-ab2b-4b2d" automatic="true"/>
           </constraints>
           <profiles>
             <profile name="Flak Gun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="92c7-ac40-9ae3-9733">
@@ -738,6 +744,9 @@
           <constraints>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="10ad-f522-1da9-8cc0"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="59c7-4c99-33e6-c7f8" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -1026,6 +1035,9 @@
           <constraints>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="ced6-de06-d320-e752"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="3b40-22eb-7b36-262c" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -1270,6 +1282,9 @@
           <constraints>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="ca0e-a1e0-f3f8-ee07"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="b49d-9b1f-6f3f-4e68" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -1402,7 +1417,7 @@
           </entryLinks>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c8b5-a077-6d97-7242" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d7b-a975-157c-6050" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d7b-a975-157c-6050" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -1649,6 +1664,9 @@
           <constraints>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="c523-9a65-4885-07c9"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="0805-bb61-de8d-9439" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -1893,6 +1911,9 @@
           <constraints>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="6b9f-fda8-3016-ff8c"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="e18c-a562-b160-ffdf" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -2046,6 +2067,9 @@
           <constraints>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="d635-943b-fc93-9811"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="45d3-465a-1451-624f" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -2097,7 +2121,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Zhanmadao Sky Fortress" hidden="false" id="cc13-2b5d-0471-ddb2" sortIndex="10">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Zhanmadao" hidden="false" id="d31c-3fa5-974e-05d0">
+        <selectionEntry type="model" import="true" name="Zhanmadao" hidden="false" id="d31c-3fa5-974e-05d0" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="387"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -2359,7 +2383,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="bd06-29c3-80b9-3f29" automatic="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="bd06-29c3-80b9-3f29" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="63a9-7a2b-208b-a09d" automatic="true"/>
           </constraints>
         </selectionEntry>
@@ -2418,7 +2442,7 @@
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6028-4f5e-cb33-2f2d" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="5001-8ae1-b510-c97e" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="5001-8ae1-b510-c97e" includeChildSelections="false" automatic="true"/>
           </constraints>
           <profiles>
             <profile name="Inferno Cannon" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="968e-3302-b0b6-2917">
@@ -2440,6 +2464,9 @@
           <constraints>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="2c0d-6806-bcd5-5be6"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="b9cf-c71c-f98d-2f7b" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -2487,9 +2514,9 @@
         <entryLink import="true" name="Attachments" hidden="false" id="c328-626d-1ed6-a576" type="selectionEntryGroup" targetId="1e7d-8dc7-fedb-f45a" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Dong Destroyer " hidden="false" id="15da-c5a9-9ebb-775f" sortIndex="13">
+    <selectionEntry type="unit" import="true" name="Gong Destroyer " hidden="false" id="15da-c5a9-9ebb-775f" sortIndex="13">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Dong" hidden="false" id="c0f6-ce8a-7f24-fdd6" sortIndex="1">
+        <selectionEntry type="model" import="true" name="Gong" hidden="false" id="c0f6-ce8a-7f24-fdd6" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="60"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -2595,7 +2622,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="aea1-64c5-e0be-9803" automatic="false"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="aea1-64c5-e0be-9803" automatic="true"/>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9e88-f20e-569a-86b4" automatic="true"/>
           </constraints>
         </selectionEntry>
@@ -2613,7 +2640,7 @@
         <categoryLink targetId="fa0d-5dc0-466d-17dc" id="cbad-f275-d4bc-4103" primary="false" name="AttachmentHostLantau"/>
       </categoryLinks>
       <profiles>
-        <profile name="Dong" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="c6a0-547a-1a34-bd82">
+        <profile name="Gong" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="c6a0-547a-1a34-bd82">
           <characteristics>
             <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">2</characteristic>
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">1&quot;-7&quot;</characteristic>
@@ -2628,12 +2655,12 @@
             <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">2-5</characteristic>
           </characteristics>
         </profile>
-        <profile name="Dong" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="f612-3603-edda-d3af">
+        <profile name="Gong" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="f612-3603-edda-d3af">
           <characteristics>
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Light Vessel, Pivot, Shallow Draught</characteristic>
           </characteristics>
         </profile>
-        <profile name="Dong" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="c9b5-c3a2-b4e7-9e7e">
+        <profile name="Gong" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="c9b5-c3a2-b4e7-9e7e">
           <characteristics>
             <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d"/>
           </characteristics>
@@ -2796,7 +2823,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="00c3-ac53-d375-1e24" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="de71-c656-b258-3d92" automatic="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="de71-c656-b258-3d92" automatic="true"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Escorts" hidden="false" id="0baa-62e7-2909-599c" sortIndex="3">
@@ -2807,6 +2834,9 @@
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="16b4-fc2c-768d-c548"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="9f3a-6866-484c-6d20" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -3210,7 +3240,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bac4-333a-8736-43a9" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="aaae-9d1d-691e-a8b2" automatic="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="aaae-9d1d-691e-a8b2" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -3412,7 +3442,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5399-c2fe-0c0b-66df" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5506-a3a4-5635-911d" automatic="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5506-a3a4-5635-911d" automatic="true"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Escorts" hidden="false" id="99fa-0348-7b9a-81c7" sortIndex="3">
@@ -3423,6 +3453,9 @@
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1348-abde-2eb9-4360"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="4bba-d7cf-787c-bfb4" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -3662,7 +3695,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ca33-d8e5-b60c-6038" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="89a7-9027-a797-c534" automatic="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="89a7-9027-a797-c534" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -3720,7 +3753,7 @@
           </costs>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="db7d-d3e1-f6f3-3b6d" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="c727-aa2c-f8de-d8da" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="c727-aa2c-f8de-d8da" includeChildSelections="false" automatic="true"/>
           </constraints>
           <profiles>
             <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="fbcb-1a9c-2096-90e1">
@@ -3760,6 +3793,9 @@
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7dfa-39ce-2710-4256"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="9520-8852-70c0-bf39" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -3814,7 +3850,7 @@
           </costs>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="ed8b-333a-b5c8-a2bc" automatic="true"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="b119-0f3d-7468-4ae5"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="b119-0f3d-7468-4ae5" automatic="true"/>
           </constraints>
           <profiles>
             <profile name="Torpedo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="0109-203e-31d9-5e7d">
@@ -3968,7 +4004,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9640-5cb3-98a6-fe20" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6c19-bae4-32fa-c0ce" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6c19-bae4-32fa-c0ce" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Escorts" hidden="false" id="15d6-d69e-1769-14a4" sortIndex="3">
@@ -3979,6 +4015,9 @@
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c38d-4278-0ca4-27e2"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="fe45-d82a-056e-b2d6" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -4033,7 +4072,7 @@
           </costs>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9651-deef-b26f-2ff9" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="088e-622a-5fe3-ebed" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="088e-622a-5fe3-ebed" includeChildSelections="false" automatic="true"/>
           </constraints>
           <profiles>
             <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="97f6-63c5-e3a0-b3ee">
@@ -4055,6 +4094,9 @@
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3d0a-613c-7777-6e4f"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="7796-f271-20c9-5641" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -4213,7 +4255,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e79f-352b-f327-11ab" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0f25-0a82-ce7d-f2ed" automatic="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0f25-0a82-ce7d-f2ed" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -4311,7 +4353,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="787f-1bcc-67d6-5ae7" automatic="true"/>
-            <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="2865-1877-a09b-3595" automatic="false"/>
+            <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="2865-1877-a09b-3595" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -4423,7 +4465,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4b25-0cc7-8c32-db2b" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="99ac-e5e7-6c60-7ef0" automatic="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="99ac-e5e7-6c60-7ef0" automatic="true"/>
           </constraints>
           <modifiers>
             <modifier type="set" value="1" field="99ac-e5e7-6c60-7ef0">
@@ -4448,6 +4490,9 @@
               </conditions>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="3722-7b45-6b42-3034" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Defensive Mines" hidden="false" id="cba5-b5b7-20e1-71f9">
           <costs>
@@ -4521,7 +4566,7 @@
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="687c-01c4-46ee-72f9" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="198d-50c6-b88f-2e51" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="198d-50c6-b88f-2e51" includeChildSelections="false" automatic="true"/>
           </constraints>
           <profiles>
             <profile name="Scalpel Lancette" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="6c22-695a-538d-67fe">
@@ -4552,6 +4597,9 @@
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0e11-68b2-3556-4506"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="d4a4-7b2e-84c4-c6b1" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -4695,7 +4743,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f029-b649-4f19-b63f" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="39ab-4505-9063-c6e9" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="39ab-4505-9063-c6e9" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Escorts" hidden="false" id="877a-1cfe-399d-f38e" sortIndex="3">
@@ -4706,6 +4754,9 @@
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2906-99d6-834f-634f"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="cac9-56ff-a8f2-6ebf" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -4818,7 +4869,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="065c-f565-1f1c-f7b6" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="cec8-7b9f-8d83-d30e" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="cec8-7b9f-8d83-d30e" includeChildSelections="false" automatic="true"/>
           </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Mizuchi Carrier Bay" hidden="false" id="3740-cea8-6f7c-3677" sortIndex="2">
@@ -4840,6 +4891,9 @@
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9074-6945-316b-e9dc"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="2579-74d2-0441-7083" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -5031,7 +5085,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b2fc-fc3e-c1b4-1a72" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3864-e358-f1a3-8a40" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3864-e358-f1a3-8a40" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Escorts" hidden="false" id="1d2c-169b-cf75-8c57" sortIndex="3">
@@ -5042,6 +5096,9 @@
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5ef8-e48d-17dc-a438"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="6df1-bdd0-b861-59d5" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Defensive Mines" hidden="false" id="45bb-b2e4-a4f1-d777" sortIndex="4">
           <costs>
@@ -5208,7 +5265,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="04e1-6cfc-2735-ee91" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0119-6e8c-d946-38ae" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0119-6e8c-d946-38ae" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -5335,7 +5392,7 @@
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ebf2-c003-1c59-2f9d" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="d42c-e8ca-e22b-b360" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="d42c-e8ca-e22b-b360" includeChildSelections="false" automatic="true" percentValue="false"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Escorts" hidden="false" id="bb42-4641-d8ef-e8df" sortIndex="2">
@@ -5346,6 +5403,9 @@
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="675e-cc0b-af02-1d07"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="09e2-69d8-fcda-8259" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -5403,7 +5463,7 @@ Hunter (Airborne)</characteristic>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db5e-6d12-bb09-f4b0" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="bd23-62a8-42ae-97f6" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="bd23-62a8-42ae-97f6" includeChildSelections="false" automatic="true"/>
           </constraints>
           <profiles>
             <profile name="Scything Blades" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="662d-0b14-87e6-0883">
@@ -5434,6 +5494,9 @@ Hunter (Airborne)</characteristic>
           <constraints>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="b553-2ce1-f582-f71e"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="f7ef-fc6e-d667-d1e4" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -5539,7 +5602,7 @@ Hunter (Airborne)</characteristic>
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1346-6fc5-98f5-aa12" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5ba0-6489-d3ca-53e1" automatic="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5ba0-6489-d3ca-53e1" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -5597,7 +5660,7 @@ Hunter (Airborne)</characteristic>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f81d-42e8-a6d9-cb3f" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b052-b198-7358-19c7"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b052-b198-7358-19c7" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -5705,7 +5768,7 @@ Hunter (Airborne)</characteristic>
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="06f2-405b-c2d0-e999" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6703-3a57-7051-b4b0" automatic="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6703-3a57-7051-b4b0" automatic="true"/>
           </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Huo Broadsides" hidden="false" id="fed0-39c0-11f1-322f" sortIndex="2">
@@ -5911,7 +5974,7 @@ Hunter (Airborne)</characteristic>
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a2f4-1d23-e6ae-8962" automatic="true"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1b8a-be7e-572e-a1d5"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1b8a-be7e-572e-a1d5" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -6058,7 +6121,7 @@ Hunter (Airborne)</characteristic>
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7ef0-35ba-f9da-64da" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="af49-9a6a-f68b-2379" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="af49-9a6a-f68b-2379" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -6118,7 +6181,7 @@ Hunter (Airborne)</characteristic>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="69d1-e07e-b907-aa3f" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="d17f-26c7-2902-b0e9" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="d17f-26c7-2902-b0e9" includeChildSelections="false" automatic="true"/>
           </constraints>
           <profiles>
             <profile name="Tentacles" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4171-cb65-e907-a046">
@@ -6149,6 +6212,9 @@ Hunter (Airborne)</characteristic>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a0da-dd6d-3864-1e56"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="ac31-afdb-63bc-fc84" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -6320,7 +6386,7 @@ Hunter (Airborne)</characteristic>
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6ee0-6cfe-51a4-c334" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="d74c-0ad4-0e44-dd0b" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="d74c-0ad4-0e44-dd0b" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -6396,7 +6462,7 @@ Hunter (Airborne)</characteristic>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="900a-cc1a-7968-dabe" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="d983-3996-c393-6d69" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="d983-3996-c393-6d69" includeChildSelections="false" automatic="true"/>
           </constraints>
           <profiles>
             <profile name="Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e665-f347-e45c-8d89">
@@ -6418,6 +6484,9 @@ Hunter (Airborne)</characteristic>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c4f7-4134-a269-2d48"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="ef6a-ac06-1e17-9904" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -6517,7 +6586,7 @@ Hunter (Airborne)</characteristic>
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c2c0-aecc-67c6-0d18" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="1e6e-7f56-c21f-03e6" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="1e6e-7f56-c21f-03e6" includeChildSelections="false" automatic="true"/>
           </constraints>
           <modifiers>
             <modifier type="set" value="1" field="1e6e-7f56-c21f-03e6">
@@ -6575,8 +6644,8 @@ Hunter (Airborne)</characteristic>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="af3b-8b62-72b1-4f5c" includeChildSelections="false"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="2598-b397-d172-0b09" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="af3b-8b62-72b1-4f5c" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="2598-b397-d172-0b09" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Escorts" hidden="false" id="3f5d-56c1-fa4f-fd50" sortIndex="3">
@@ -6587,6 +6656,9 @@ Hunter (Airborne)</characteristic>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7eb4-a052-cb1f-3596"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="7853-68f5-a81b-3dd9" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Defensive Mines" hidden="false" id="f7b2-5bec-9d83-74aa" sortIndex="2">
           <costs>
@@ -6752,7 +6824,7 @@ Hunter (Airborne)</characteristic>
           </modifiers>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="de24-bc81-aa4e-32db" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5795-701e-0769-ef73" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5795-701e-0769-ef73" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -6972,7 +7044,7 @@ Hunter (Airborne)</characteristic>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4abc-2447-3d3a-ee7a" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f165-b128-af5c-d713" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f165-b128-af5c-d713" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>

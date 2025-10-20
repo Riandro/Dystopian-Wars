@@ -648,13 +648,6 @@ This can be used to allow the unit to launch a Boarding action when it could not
       <infoLinks>
         <infoLink name="Escort Tokens" id="7d1c-dc48-dd83-5d7e" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
       </infoLinks>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false" includeChildForces="false"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <comment>Constrain to amount!</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Freya Array" hidden="false" id="c529-9ead-a45b-fc1a">
