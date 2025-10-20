@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="9b3b-5cae-eda4-2941" name="Empire" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="9b3b-5cae-eda4-2941" name="Empire" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="2" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Akita Super Battleship" hidden="false" id="86f7-1e34-d94d-871c" sortIndex="1">
       <selectionEntries>
@@ -2195,7 +2195,7 @@
         <categoryLink targetId="f109-b8ed-138d-de5c" id="9961-fdb6-21cf-5d34" primary="false" name="Chinese"/>
         <categoryLink targetId="208e-6396-cb29-1ffc" id="9357-da66-fdff-bc44" primary="false" name="Japanese"/>
         <categoryLink targetId="4efb-4436-8a23-a6a5" id="be7b-d9c3-4da4-1cb1" primary="false" name="Korean"/>
-        <categoryLink targetId="02df-de0d-cbc5-6e1a" id="71d3-5e88-1a66-509d" primary="false" name="AirborneFlagship"/>
+        <categoryLink targetId="02df-de0d-cbc5-6e1a" id="71d3-5e88-1a66-509d" primary="false" name="Airborne Flagship"/>
         <categoryLink targetId="aaeb-b784-b454-91d0" id="fe92-0404-96bf-3cb2" primary="false" name="Airbornecon"/>
       </categoryLinks>
       <profiles>
@@ -3000,9 +3000,9 @@
       <categoryLinks>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="d173-a03d-ccec-1485" primary="false" name="Surface"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="e203-b119-2724-8111" primary="false" name="Ship"/>
-        <categoryLink targetId="1711-6069-af06-c5cc" id="49d9-e1b4-c1f0-ee0f" primary="true" name="Support"/>
         <categoryLink targetId="d3bc-76cc-5efc-b06e" id="7fb3-fd7c-56d8-be6a" primary="false" name="Empire"/>
         <categoryLink targetId="f109-b8ed-138d-de5c" id="ffa1-7ed4-a3a3-60c7" primary="false" name="Chinese"/>
+        <categoryLink targetId="ae99-8ab0-27f0-7bb6" id="e581-718e-31bd-6a79" primary="true" name="Line"/>
       </categoryLinks>
       <profiles>
         <profile name="Jian" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="b150-b629-3e9c-ef8b">
@@ -7287,7 +7287,7 @@ If they do, they convert all Standard Counters in the Action Roll to Standard St
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="838f-8805-2707-c243"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="AirborneFlagship" hidden="false" id="3cd9-e4eb-5a45-9e48" targetId="02df-de0d-cbc5-6e1a">
+        <categoryLink name="Airborne Flagship" hidden="false" id="3cd9-e4eb-5a45-9e48" targetId="02df-de0d-cbc5-6e1a">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2406-3184-1499-c88a"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c823-533b-3e81-2eed"/>
