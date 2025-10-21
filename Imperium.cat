@@ -8835,12 +8835,12 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="23fc-7841-fc43-5776" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Teutonic" hidden="false" id="54ea-583f-d039-ad20" targetId="4b3e-0aac-bc34-696d" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="13af-287d-291e-55e5" targetId="0ec6-f5c8-25d7-89d8" primary="false"/>
+        <categoryLink name="FlagShip" hidden="false" id="13af-287d-291e-55e5" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Capital" hidden="false" id="1cfd-6004-69ee-9e6d" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Bavarian" hidden="false" id="a0ae-a928-a362-0b04" targetId="a95f-8696-4d80-d4bf" primary="false"/>
         <categoryLink name="Airship" hidden="false" id="2b28-75d5-b6ff-0756" targetId="278c-665b-5dbe-3aad" primary="false"/>
         <categoryLink name="Airborne" hidden="false" id="b88a-c3dc-7a26-2ea4" targetId="139e-c78f-43c0-2957" primary="false"/>
-        <categoryLink targetId="d091-5083-e8be-7420" id="e1ec-551d-f627-790a" primary="true" name="Airborne Flagship"/>
+        <categoryLink targetId="d091-5083-e8be-7420" id="e1ec-551d-f627-790a" primary="false" name="Airborne Flagship"/>
         <categoryLink targetId="12f9-b8ab-e90e-c2e6" id="fad9-7374-69a3-a184" primary="false" name="AirborneCon"/>
       </categoryLinks>
       <selectionEntries>
