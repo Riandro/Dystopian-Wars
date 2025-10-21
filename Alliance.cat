@@ -7445,6 +7445,11 @@
           <modifiers>
             <modifier type="append" value="Auxiliary Mine Layer (3)
 " field="066c-1ce6-091e-90ab" scope="unit" affects="unit.profiles.Properties" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df0f-821e-e4da-0767" includeChildSelections="false"/>
