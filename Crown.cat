@@ -7,6 +7,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="340"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
+            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="2"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0dfc-d809-637f-e553" automatic="true"/>
@@ -411,7 +412,7 @@
         <categoryLink name="EITC" hidden="false" id="ae57-c5c4-9a52-c163" targetId="0b62-3f59-a807-548f" primary="false"/>
         <categoryLink name="Crown EITC Flagship" hidden="false" id="06c7-4576-0c3e-0104" targetId="8788-012d-a112-2ccf" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="46a9-fd4e-47fe-4dfc" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="a421-3039-91c7-5fe9" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="a421-3039-91c7-5fe9" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="3318-8ae0-058f-3881" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="138c-7a1d-c259-ac6e" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="e46f-eb91-2a64-02f5" targetId="2251-0def-1b03-2e93" primary="false"/>
@@ -452,6 +453,10 @@
         </entryLink>
         <entryLink import="true" name="Attachments" hidden="false" id="b35c-781b-eb48-db29" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0" sortIndex="3"/>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
+        <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Avalon Skyfortress" hidden="false" id="4108-5224-c588-9fe6" sortIndex="2">
       <selectionEntries>
@@ -459,6 +464,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="286"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
+            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="3"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d2b4-36da-4512-8e8e" automatic="true"/>
@@ -524,7 +530,7 @@
         <categoryLink name="Airship" hidden="false" id="4a09-76e5-ffe4-675c" targetId="278c-665b-5dbe-3aad" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="3e97-51cc-d3a2-ee66" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Carrier" hidden="false" id="2c60-1b42-9f53-c2f2" targetId="4521-8e16-2d0f-7dc6" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="a74c-7de9-b318-dcb1" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="a74c-7de9-b318-dcb1" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Attachment host" hidden="false" id="ac47-93a9-8324-53b1" targetId="2251-0def-1b03-2e93" primary="false"/>
       </categoryLinks>
       <profiles>
@@ -560,6 +566,10 @@
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="265e-71df-62f9-9adf" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0"/>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
+        <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Britannia Heavy Battleship" hidden="false" id="33bb-f0e4-49ac-6a5f" sortIndex="3">
       <selectionEntries>
@@ -567,6 +577,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="275"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
+            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="4"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="99f0-1f89-e637-a1de" automatic="true"/>
@@ -820,7 +831,7 @@
       <categoryLinks>
         <categoryLink name="Crown" hidden="false" id="1afe-9883-7b36-956e" targetId="d889-437c-7878-d5ba" primary="false"/>
         <categoryLink name="British" hidden="false" id="ef59-5b50-4518-d747" targetId="7058-6c87-fe81-e62a" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="fbd2-abf0-98be-575b" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="fbd2-abf0-98be-575b" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Surface" hidden="false" id="e1f4-73a9-5b14-715f" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="68e0-c851-253d-d289" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="43fc-4136-4e8d-6514" targetId="30c3-7f1c-19e3-e772" primary="false"/>
@@ -833,6 +844,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="355"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
+            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="8"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a909-9f4f-966c-7d29" automatic="true"/>
@@ -1082,7 +1094,7 @@
         <categoryLink name="Ship" hidden="false" id="b079-3736-6716-7fde" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="9bd6-ff42-99aa-ed71" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="c158-075a-9b82-428c" targetId="2251-0def-1b03-2e93" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="7556-cf33-8fd5-a2eb" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="7556-cf33-8fd5-a2eb" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Escorts" hidden="false" id="ae57-362b-23a7-655b" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="7">
@@ -1099,6 +1111,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="230"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
+            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="2"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="57c0-3435-b352-10fa" automatic="true"/>
@@ -1343,7 +1356,7 @@
         <categoryLink name="Crown" hidden="false" id="caeb-67b3-cf82-e0f4" targetId="d889-437c-7878-d5ba" primary="false"/>
         <categoryLink name="Indian Raj" hidden="false" id="436a-0df5-bbcf-7663" targetId="7ca7-3399-4884-3ac6" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="ef2a-c15e-baef-b07a" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="339c-85ec-a36a-7bf7" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="339c-85ec-a36a-7bf7" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="4c3d-ea17-af77-9e4e" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="00b3-0cdf-7466-d7f5" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="2e13-c861-d6b8-1c6c" targetId="2251-0def-1b03-2e93" primary="false"/>
@@ -1375,6 +1388,10 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
+        <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Gloriana Dreadnought" hidden="false" id="a19b-d6e2-5b28-d39c" sortIndex="6">
       <selectionEntries>
@@ -1382,6 +1399,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="365"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
+            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="4"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="63bc-e5fb-e02c-0c42" automatic="true"/>
@@ -1879,7 +1897,7 @@
         <categoryLink name="Ship" hidden="false" id="2d47-1aef-60d8-a6c8" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="339d-26b5-4a56-b724" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="3b7b-f29b-623c-6a07" targetId="2251-0def-1b03-2e93" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="bdc6-c37c-34f8-617b" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="bdc6-c37c-34f8-617b" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Escorts" hidden="false" id="7179-6ddf-65c9-829f" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="3">
@@ -1963,7 +1981,7 @@
         <categoryLink name="Capital" hidden="false" id="dfd6-b110-c687-ae4f" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Unique" hidden="false" id="021c-8662-3ff0-a8a1" targetId="4305-d7b2-6b3b-fd89" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="fa8c-2578-411b-977f" targetId="2251-0def-1b03-2e93" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="2840-b25f-1650-8f49" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="2840-b25f-1650-8f49" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="24d4-f26e-b89d-eccc" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0"/>
@@ -1982,6 +2000,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="205"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
+            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="2"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3e73-cc19-586a-7d95" automatic="true"/>
@@ -2179,7 +2198,7 @@
         <categoryLink name="Capital" hidden="false" id="07c6-4861-801e-df49" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="ea7a-e702-90e1-9588" targetId="2251-0def-1b03-2e93" primary="false"/>
         <categoryLink name="EITC" hidden="false" id="2add-c7be-326f-808d" targetId="0b62-3f59-a807-548f" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="cd15-5803-ff52-d2c4" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="cd15-5803-ff52-d2c4" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
       </categoryLinks>
       <profiles>
         <profile name="Palashi" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="2ab3-149a-e277-077d">
@@ -2216,6 +2235,10 @@
         </entryLink>
         <entryLink import="true" name="Attachments" hidden="false" id="a90d-418c-7ba5-755d" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0" sortIndex="3"/>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
+        <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Protecteur Submersible Carrier" hidden="false" id="d4dc-ba3f-9617-7c2b" sortIndex="9">
       <selectionEntries>
@@ -2223,6 +2246,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="195"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
+            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="2"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0ce4-b5ae-9ffb-4214" automatic="true"/>
@@ -2298,7 +2322,7 @@
         <categoryLink name="Capital" hidden="false" id="979a-019a-2512-b9be" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Carrier" hidden="false" id="1757-bc34-f045-92c1" targetId="4521-8e16-2d0f-7dc6" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="4ed5-a951-0033-0b83" targetId="2251-0def-1b03-2e93" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="5a50-78a6-ce5b-a9cc" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="5a50-78a6-ce5b-a9cc" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Defiance Fighters" id="52a7-57ef-e98a-593b" hidden="false" type="profile" targetId="6aae-7841-932f-5632"/>
@@ -2320,6 +2344,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="118"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
+            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="0"/>
           </costs>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9aef-69ee-db48-c12a" automatic="true"/>
@@ -2530,7 +2555,7 @@
         <categoryLink name="Surface" hidden="false" id="c4d4-9fde-fdec-5825" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="5c6d-9fad-2bf4-c424" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="c5d8-e793-4004-687f" targetId="2251-0def-1b03-2e93" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="0ffc-8bb5-88de-bffc" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="0ffc-8bb5-88de-bffc" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
       </categoryLinks>
       <profiles>
         <profile name="Sabre" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="cecd-8821-fff2-56d7">
@@ -2559,6 +2584,11 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
+        <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+        <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="2"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Hmcs Tilloch Galt" hidden="false" id="2209-5401-0324-7178" sortIndex="11">
       <selectionEntries>
@@ -2566,6 +2596,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="375"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
+            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="6"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="267c-728b-b75e-630e" automatic="true"/>
@@ -2632,15 +2663,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7160-09ff-a117-d17b" automatic="true"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Generators" hidden="false" id="9e35-fdca-772a-7b50" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Guardian Generator" hidden="false" id="976b-f08b-c791-d556">
-                      <modifiers>
-                        <modifier type="replace" value="(8)" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", " arg="(6)"/>
-                      </modifiers>
-                    </selectionEntry>
-                  </selectionEntries>
-                </entryLink>
+                <entryLink import="true" name="Guardian Generator" hidden="false" id="62d3-0250-e571-3ebc" type="selectionEntry" targetId="769a-14dc-eba7-91de"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Heavy Hardpoint: PSA" id="e24d-ea1d-baf2-bc71" hidden="false">
@@ -2703,15 +2726,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d67-27b4-5e57-f5cb" automatic="true"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Generators" hidden="false" id="8b32-45a5-ef5a-2fde" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Guardian Generator" hidden="false" id="9988-3df4-5c2b-7bef">
-                      <modifiers>
-                        <modifier type="replace" value="(8)" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", " arg="(6)"/>
-                      </modifiers>
-                    </selectionEntry>
-                  </selectionEntries>
-                </entryLink>
+                <entryLink import="true" name="Guardian Generator" hidden="false" id="ccc7-58d4-9659-ef16" type="selectionEntry" targetId="769a-14dc-eba7-91de"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Heavy Hardpoint: PSA" id="fd81-95fc-7f7d-bb18" hidden="false">
@@ -2774,15 +2789,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="039b-acfd-7771-8673" automatic="true"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Generators" hidden="false" id="ba3e-4c8b-c2cb-af94" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Guardian Generator" hidden="false" id="dcbf-6328-21e8-3750">
-                      <modifiers>
-                        <modifier type="replace" value="(8)" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", " arg="(6)"/>
-                      </modifiers>
-                    </selectionEntry>
-                  </selectionEntries>
-                </entryLink>
+                <entryLink import="true" name="Guardian Generator" hidden="false" id="4245-3e0f-3e2e-9254" type="selectionEntry" targetId="769a-14dc-eba7-91de"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Heavy Hardpoint: FPS" id="132c-7bdd-6434-89e1" hidden="false">
@@ -2845,15 +2852,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45f2-a42f-9fc0-678b" automatic="true"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Generators" hidden="false" id="dd66-a908-a444-8289" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Guardian Generator" hidden="false" id="803f-883d-27cf-4cbc">
-                      <modifiers>
-                        <modifier type="replace" value="(8)" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", " arg="(6)"/>
-                      </modifiers>
-                    </selectionEntry>
-                  </selectionEntries>
-                </entryLink>
+                <entryLink import="true" name="Guardian Generator" hidden="false" id="50eb-6fe0-fca2-0f9a" type="selectionEntry" targetId="769a-14dc-eba7-91de"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -2881,7 +2880,7 @@
         <categoryLink name="Capital" hidden="false" id="d339-25ed-c6f6-bb57" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Unique" hidden="false" id="9804-5265-68a8-4be6" targetId="4305-d7b2-6b3b-fd89" primary="false"/>
         <categoryLink name="Crown Canadian Flagship" hidden="false" id="98b7-ce9f-f837-ca64" targetId="ed7c-5f38-254f-085d" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="04d7-3bae-6fff-6e04" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="04d7-3bae-6fff-6e04" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Attachment host" hidden="false" id="a6f6-5118-20cc-c898" targetId="2251-0def-1b03-2e93" primary="false"/>
         <categoryLink name="NoGuardian" hidden="false" id="bbfe-933a-4daa-8911" targetId="ee1b-34ec-7402-160c" primary="false"/>
       </categoryLinks>
@@ -3063,7 +3062,7 @@
         <categoryLink name="Crown Canadian Flagship" hidden="false" id="687b-89f7-88ad-ab7e" targetId="ed7c-5f38-254f-085d" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="76f4-0656-5d0e-b976" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="277c-b890-0845-a5bc" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="8b13-13fe-8636-d2b9" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="8b13-13fe-8636-d2b9" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Attachment host" hidden="false" id="fc97-56f8-17e2-d7fc" targetId="2251-0def-1b03-2e93" primary="false"/>
       </categoryLinks>
       <modifiers>
@@ -3072,7 +3071,17 @@
             <condition type="instanceOf" value="1" field="forces" scope="7b11-9633-f024-19fd" childId="force" shared="true"/>
           </conditions>
         </modifier>
+        <modifier type="increment" value="2" field="10a2-dbcb-1351-6163">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="ce68-644b-be24-86aa" shared="true" roundUp="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
       </modifiers>
+      <costs>
+        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
+        <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+        <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="2"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Victory Heavy Carrier" hidden="false" id="8cee-6194-8ff3-f7a7" sortIndex="13">
       <selectionEntries>
@@ -3080,6 +3089,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="265"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
+            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="3"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7870-7ca7-ecf5-98fb" automatic="true"/>
@@ -3189,6 +3199,13 @@
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <modifiers>
+            <modifier type="increment" value="2" field="10a2-dbcb-1351-6163">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="ce68-644b-be24-86aa" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
       <constraints>
@@ -3237,7 +3254,7 @@
         <categoryLink name="Capital" hidden="false" id="5e56-4561-7633-d124" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Carrier" hidden="false" id="f1cc-a1d1-93cc-dd6b" targetId="4521-8e16-2d0f-7dc6" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="23d0-4b60-0459-597f" targetId="2251-0def-1b03-2e93" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="c1cf-24fb-fffd-95fd" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="c1cf-24fb-fffd-95fd" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Defiance Fighters" id="3c45-d129-af94-3966" hidden="false" type="profile" targetId="6aae-7841-932f-5632"/>
@@ -3249,6 +3266,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="128"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="1"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a62a-cf54-a9d1-db7d" automatic="true"/>
@@ -4468,6 +4486,9 @@ Guardian Generator (1)</characteristic>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
                 <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d90c-c90d-431c-6cb4"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntry>
@@ -5106,7 +5127,7 @@ Guardian Generator (1)</characteristic>
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="false" id="9447-34d3-05de-0386" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="9447-34d3-05de-0386" includeChildSelections="true"/>
       </constraints>
       <profiles>
         <profile name="Devaki" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="7fb0-ccbc-4a3d-02eb">
@@ -5482,7 +5503,7 @@ Guardian Generator (1)</characteristic>
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="false" id="41ab-3635-b5d1-8bec" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="41ab-3635-b5d1-8bec" includeChildSelections="true"/>
       </constraints>
       <profiles>
         <profile name="Tintagel" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="e01b-4f8d-c0d6-5723">
@@ -6066,7 +6087,7 @@ Guardian Generator (1)</characteristic>
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="false" id="153e-ba79-9682-6589" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="153e-ba79-9682-6589" includeChildSelections="true"/>
       </constraints>
       <categoryLinks>
         <categoryLink name="Crown" hidden="false" id="5bf5-8361-3d96-3130" targetId="d889-437c-7878-d5ba" primary="false"/>
@@ -6126,7 +6147,7 @@ Guardian Generator (1)</characteristic>
         <selectionEntry type="model" import="true" name="Ceylon" hidden="false" id="53dd-3682-65d8-a385" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="82"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d78f-0520-98cb-94fb" automatic="true"/>
@@ -6404,7 +6425,7 @@ Guardian Generator (1)</characteristic>
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="false" id="4fe1-2273-8e93-ff2f" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="4fe1-2273-8e93-ff2f" includeChildSelections="true"/>
       </constraints>
       <comment>ATTACHMENT</comment>
       <profiles>
@@ -7062,7 +7083,8 @@ Guardian Generator (1)</characteristic>
         <selectionEntry type="model" import="true" name="Hotspur" hidden="false" id="fc03-a0a1-4325-1dfd">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="125"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="0"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="22ba-bf28-24f8-1151" automatic="true"/>
@@ -7089,7 +7111,7 @@ Guardian Generator (1)</characteristic>
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="false" id="3573-2574-c98a-62ca" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="3573-2574-c98a-62ca" includeChildSelections="true"/>
       </constraints>
       <categoryLinks>
         <categoryLink name="Crown" hidden="false" id="7cf9-fe4f-4b44-ae2e" targetId="d889-437c-7878-d5ba" primary="false"/>
@@ -7242,7 +7264,7 @@ Guardian Generator (1)</characteristic>
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3643-9f6a-b362-6766" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="3643-9f6a-b362-6766" includeChildSelections="true"/>
       </constraints>
       <categoryLinks>
         <categoryLink name="Crown" hidden="false" id="0a8f-cd0f-ef90-abc0" targetId="d889-437c-7878-d5ba" primary="false"/>
@@ -8046,6 +8068,10 @@ If the effect is successfully enacted, each Heavy Hardpoint Weapon that Contrib
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cce7-20c6-8061-2994" includeChildSelections="true" includeChildForces="true"/>
               </constraints>
+              <costs>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="40"/>
+                <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -8056,7 +8082,7 @@ If the effect is successfully enacted, each Heavy Hardpoint Weapon that Contrib
     </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="New Catalogue (link)" id="2f13-9c3d-1051-2afa" targetId="8551-5b95-4980-851f"/>
+    <catalogueLink type="catalogue" name="Rules Glossary" id="2f13-9c3d-1051-2afa" targetId="8551-5b95-4980-851f"/>
   </catalogueLinks>
   <categoryEntries>
     <categoryEntry name="Underwater Con" id="c52b-1fed-51c0-7ac4" hidden="true"/>
@@ -8080,7 +8106,7 @@ If the effect is successfully enacted, each Heavy Hardpoint Weapon that Contrib
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff21-d1ba-831d-b698"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="FlagShip" hidden="false" id="4eaf-5d86-3f90-7456" targetId="0ec6-f5c8-25d7-89d8">
+        <categoryLink name="Flagship" hidden="false" id="4eaf-5d86-3f90-7456" targetId="0ec6-f5c8-25d7-89d8">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c6d4-0cfe-7fd5-bd6b"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65bd-9e40-dfd3-0b4d"/>
@@ -8186,7 +8212,7 @@ The Value of the card they discard is used for the Crew Check.</description>
       </categoryLinks>
       <rules>
         <rule name="East India Privateers" id="7257-b462-1c0b-4326" hidden="false">
-          <description>As long as this Battlefleet’s Admiral has more Victory Points than their opponent, they gain the following bonus: When the Admiral makes an Action Roll for a unit with the EITC or Indian Raj traits, they may re-roll any Blank results. </description>
+          <description>As long as this Battlefleet’s Admiral has more Victory Points than their opponent, they gain the following bonus: When the Admiral makes an Action Roll for a unit with the EITC or Indian Raj traits, they may re-roll any Blank results.</description>
         </rule>
       </rules>
     </forceEntry>
@@ -8322,7 +8348,15 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" value="1" field="50ad-e96b-f082-d486">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="force" childId="e9d3-1304-db24-427f" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="50ad-e96b-f082-d486" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
         </entryLink>
         <entryLink import="true" name="Tintagel Battle Rotor" hidden="true" id="91c7-1a3c-0bc7-da3b" type="selectionEntry" targetId="ecd0-e2c0-9abe-52d9">
           <modifiers>
@@ -8336,7 +8370,15 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" value="1" field="d266-a3a6-856d-4a97">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="force" childId="91c7-1a3c-0bc7-da3b" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="d266-a3a6-856d-4a97" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
         </entryLink>
         <entryLink import="true" name="Athelstan Flak Cruiser" hidden="true" id="7501-b032-d2a6-3cbe" type="selectionEntry" targetId="ce16-8cce-d3d2-3dd2">
           <modifiers>
@@ -8351,7 +8393,15 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" value="1" field="d297-dcdb-e2f0-db95">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="force" childId="7501-b032-d2a6-3cbe" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="d297-dcdb-e2f0-db95" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
         </entryLink>
         <entryLink import="true" name="Ceylon Guardian Platform" hidden="true" id="1c8b-8139-66d2-e530" type="selectionEntry" targetId="fcad-0e81-3f0b-8c80">
           <modifiers>
@@ -8414,7 +8464,15 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" value="1" field="21fd-3d19-8822-c321">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="force" childId="366b-3efd-edbb-c09d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="21fd-3d19-8822-c321" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
         </entryLink>
         <entryLink import="true" name="Hotspur Support Carrier" hidden="true" id="d804-beb3-b428-37b3" type="selectionEntry" targetId="0303-3697-1d49-7eb7">
           <modifiers>
@@ -8429,7 +8487,15 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" value="1" field="8ba4-2044-2164-2da7">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="force" childId="d804-beb3-b428-37b3" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="8ba4-2044-2164-2da7" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
         </entryLink>
         <entryLink import="true" name="Ross Battle Platform" hidden="true" id="43ac-b349-2768-a2c4" type="selectionEntry" targetId="05d0-c353-ff76-34a6">
           <modifiers>
@@ -8443,7 +8509,15 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" value="1" field="2ae3-be22-bfe5-d6f9">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="force" childId="43ac-b349-2768-a2c4" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="2ae3-be22-bfe5-d6f9" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
         </entryLink>
         <entryLink import="true" name="Hermes Supply Freighter" hidden="true" id="abb7-0b23-5a47-08ee" type="selectionEntry" targetId="85f0-3249-9d6d-e7d0">
           <modifiers>
@@ -8452,7 +8526,15 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
                 <condition type="instanceOf" value="1" field="selections" scope="parent" childId="4b7e-c78d-b9be-8d7c" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="set" value="1" field="0829-bd63-c651-6cc8">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="force" childId="abb7-0b23-5a47-08ee" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="0829-bd63-c651-6cc8" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
         </entryLink>
       </entryLinks>
       <constraints>
@@ -8460,4 +8542,11 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
       </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Guardian Generator" hidden="false" id="769a-14dc-eba7-91de">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="646c-51cf-3ed6-6798" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+  </sharedSelectionEntries>
 </catalogue>

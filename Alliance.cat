@@ -259,7 +259,7 @@
         <categoryLink targetId="30c3-7f1c-19e3-e772" id="f4e6-5284-02bd-5874" primary="false" name="Capital"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="03f7-ab62-e2ca-46cd" primary="false" name="Ship"/>
         <categoryLink targetId="2251-0def-1b03-2e93" id="114f-e790-ffd1-f933" primary="false" name="Attachment host"/>
-        <categoryLink name="FlagShip" hidden="false" id="1fe5-dff9-e4c4-6802" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="1fe5-dff9-e4c4-6802" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="SUSA Flagship" hidden="false" id="65d0-e8d3-7e79-e404" targetId="1ae2-1613-1f85-3921" primary="false"/>
       </categoryLinks>
       <entryLinks>
@@ -539,7 +539,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="c25a-ed34-7834-a5e6" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="c25a-ed34-7834-a5e6" primary="true" name="Flagship"/>
         <categoryLink targetId="b81b-c372-001c-2710" id="a739-db94-a786-f6c8" primary="false" name="Alliance"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="27ae-8ec7-17f4-f0ed" primary="false" name="Surface"/>
         <categoryLink targetId="30c3-7f1c-19e3-e772" id="a847-5662-001e-1e37" primary="false" name="Capital"/>
@@ -697,7 +697,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="8250-d785-3de2-2385" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="8250-d785-3de2-2385" primary="true" name="Flagship"/>
         <categoryLink targetId="b81b-c372-001c-2710" id="c83c-a855-998e-8ff2" primary="false" name="Alliance"/>
         <categoryLink targetId="30c3-7f1c-19e3-e772" id="28b9-c388-f94d-d531" primary="false" name="Capital"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="8153-aa0d-da87-b674" primary="false" name="Ship"/>
@@ -736,7 +736,7 @@
         <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="a4c8-762a-0ede-d3c1" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="a4c8-762a-0ede-d3c1" primary="true" name="Flagship"/>
         <categoryLink targetId="b81b-c372-001c-2710" id="4ddf-687d-6c34-3063" primary="false" name="Alliance"/>
         <categoryLink targetId="e87c-6247-b002-d43c" id="6a79-1518-a585-f1fa" primary="false" name="French"/>
         <categoryLink targetId="139e-c78f-43c0-2957" id="d814-99ff-a9da-5c4a" primary="false" name="Airborne"/>
@@ -1350,7 +1350,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="18a6-0d07-de85-59e2" type="selectionEntryGroup" targetId="7ba2-917a-b755-ac63"/>
       </entryLinks>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="312e-a5cb-35f2-7ac2" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="312e-a5cb-35f2-7ac2" primary="true" name="Flagship"/>
         <categoryLink targetId="b81b-c372-001c-2710" id="c660-5972-986f-0041" primary="false" name="Alliance"/>
         <categoryLink targetId="95e1-bc72-ac5f-a8b1" id="5ea1-a51d-1784-e01b" primary="false" name="Italian"/>
         <categoryLink targetId="30c3-7f1c-19e3-e772" id="5a3c-2086-fd4b-3e78" primary="false" name="Capital"/>
@@ -1607,7 +1607,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="5565-c8b2-cc05-18d0" type="selectionEntryGroup" targetId="7ba2-917a-b755-ac63"/>
       </entryLinks>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="3299-c1a0-faf6-ffca" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="3299-c1a0-faf6-ffca" primary="true" name="Flagship"/>
         <categoryLink targetId="b81b-c372-001c-2710" id="b88a-1a46-d968-1ade" primary="false" name="Alliance"/>
         <categoryLink targetId="95e1-bc72-ac5f-a8b1" id="ed9f-9ff4-dcf6-812f" primary="false" name="Italian"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="bf33-e0bf-5e4a-3f0c" primary="false" name="Surface"/>
@@ -1949,7 +1949,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="c77f-1cc5-d843-9a09" type="selectionEntryGroup" targetId="7ba2-917a-b755-ac63"/>
       </entryLinks>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="0fd4-60ee-2688-867c" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="0fd4-60ee-2688-867c" primary="true" name="Flagship"/>
         <categoryLink targetId="b81b-c372-001c-2710" id="80dc-abd3-945d-922d" primary="false" name="Alliance"/>
         <categoryLink targetId="e87c-6247-b002-d43c" id="308f-9d9c-7e2f-cf54" primary="false" name="French"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="a0d1-0b84-c333-4ae7" primary="false" name="Surface"/>
@@ -2147,7 +2147,7 @@
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="5d91-cafa-b836-87e8" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="5d91-cafa-b836-87e8" primary="true" name="Flagship"/>
         <categoryLink targetId="b81b-c372-001c-2710" id="2c46-4726-7335-d65e" primary="false" name="Alliance"/>
         <categoryLink targetId="e87c-6247-b002-d43c" id="347f-b57f-ba59-358e" primary="false" name="French"/>
         <categoryLink targetId="139e-c78f-43c0-2957" id="feac-dd8d-fe7c-8717" primary="false" name="Airborne"/>
@@ -2510,7 +2510,7 @@
         <infoLink name="Frelon Bombers" id="65d4-17a5-b75c-6eda" hidden="false" type="profile" targetId="4eb2-1a59-7ab5-8480"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="5408-0296-7986-b5f9" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="5408-0296-7986-b5f9" primary="true" name="Flagship"/>
         <categoryLink targetId="b81b-c372-001c-2710" id="369f-5ddb-1ef6-60c4" primary="false" name="Alliance"/>
         <categoryLink targetId="e87c-6247-b002-d43c" id="94fe-f19c-d3a2-40ca" primary="false" name="French"/>
         <categoryLink targetId="cb59-6510-d545-5b0d" id="d5ff-207f-9338-d577" primary="false" name="Airbornecon"/>
@@ -2538,7 +2538,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Gotham Assault Carrier" hidden="false" id="72d5-63ab-d6f7-aae4" sortIndex="3">
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="b29b-72af-8301-8437" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="b29b-72af-8301-8437" primary="true" name="Flagship"/>
         <categoryLink targetId="b81b-c372-001c-2710" id="ab79-d7af-4367-8e8e" primary="false" name="Alliance"/>
         <categoryLink targetId="a7a8-042b-6660-7577" id="276d-2b66-f4de-74b8" primary="false" name="SUSA"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="4be3-61e8-fe98-2b71" primary="false" name="Surface"/>
@@ -3068,7 +3068,7 @@
         <infoLink name="Talon Autogyros (Alliance)" id="0fc1-8254-73c2-67c2" hidden="false" type="profile" targetId="0c6d-c1f6-c477-a449"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="c787-694d-1bd5-bbb4" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="c787-694d-1bd5-bbb4" primary="true" name="Flagship"/>
         <categoryLink targetId="b81b-c372-001c-2710" id="900d-f5c6-dc4f-2f82" primary="false" name="Alliance"/>
         <categoryLink targetId="a7a8-042b-6660-7577" id="c8c3-528c-98bf-b0ec" primary="false" name="SUSA"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="5b52-9a10-9d62-9ca3" primary="false" name="Surface"/>
@@ -3372,7 +3372,7 @@
         <categoryLink targetId="e87c-6247-b002-d43c" id="e6cc-970f-3218-dfd1" primary="false" name="French"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="52ec-96ff-c162-b508" primary="false" name="Surface"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="f3c3-63c5-63bf-58b1" primary="false" name="Ship"/>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="3ea0-070f-3ecb-7489" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="3ea0-070f-3ecb-7489" primary="true" name="Flagship"/>
         <categoryLink targetId="2251-0def-1b03-2e93" id="b82f-1adc-f8b1-2389" primary="false" name="Attachment host"/>
       </categoryLinks>
       <profiles>
@@ -10013,7 +10013,7 @@ If they do, the unit does not gain a level of Disorder.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65b1-5c84-5e3d-05a3"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="FlagShip" hidden="false" id="f3f1-48f5-3e8d-2cac" targetId="0ec6-f5c8-25d7-89d8">
+        <categoryLink name="Flagship" hidden="false" id="f3f1-48f5-3e8d-2cac" targetId="0ec6-f5c8-25d7-89d8">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="38cb-b1d2-5a94-f6eb"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47ee-2d8a-8198-5b1f"/>
@@ -10080,8 +10080,30 @@ If they do, the unit does not gain a level of Disorder.</description>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="b618-a24b-646b-3a73"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Airborne" hidden="false" id="810e-a80d-3506-c028" targetId="139e-c78f-43c0-2957"/>
-        <categoryLink name="Underwater" hidden="false" id="988d-6e5d-36c7-384d" targetId="c636-bf34-4555-99bc"/>
+        <categoryLink name="Airborne" hidden="false" id="c2d5-40f0-575a-9e5d" targetId="139e-c78f-43c0-2957">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e27c-d327-7288-0a70" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="e27c-d327-7288-0a70">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="cb59-6510-d545-5b0d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Underwater" hidden="false" id="588b-1b0b-6acb-510c" targetId="c636-bf34-4555-99bc">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="696e-4140-7e2c-53d9" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="696e-4140-7e2c-53d9">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="8cb6-cb03-7784-6488" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
       </categoryLinks>
       <comment>Mainstay Classes
 • Chevalier Cruiser (Alliance, Line)
@@ -10411,7 +10433,15 @@ This Special Action can be made by Underwater units.</description>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" value="1" field="ca55-6b19-f5b7-eb08">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="force" childId="04f7-8722-58eb-c8cb" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="ca55-6b19-f5b7-eb08" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
         </entryLink>
         <entryLink import="true" name="Hermes Supply Freighter" hidden="true" id="bf10-a435-b698-6bf9" type="selectionEntry" targetId="c07b-1d40-585b-f1f4">
           <modifiers>
@@ -10425,7 +10455,15 @@ This Special Action can be made by Underwater units.</description>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" value="1" field="5baa-6f6e-25a5-1853">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="force" childId="bf10-a435-b698-6bf9" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="5baa-6f6e-25a5-1853" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
         </entryLink>
         <entryLink import="true" name="Alma Levant Support Cruiser" hidden="true" id="3508-ce47-dd0e-7659" type="selectionEntry" targetId="c9ca-524e-c4f4-bf45">
           <modifiers>
@@ -10440,7 +10478,15 @@ This Special Action can be made by Underwater units.</description>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" value="1" field="4e51-8343-483f-bec1">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="force" childId="3508-ce47-dd0e-7659" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="4e51-8343-483f-bec1" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
         </entryLink>
         <entryLink import="true" name="Springfield Corvette" hidden="true" id="7fd1-f364-11ea-e446" type="selectionEntry" targetId="8ec8-af54-ec17-b491">
           <modifiers>
@@ -10506,7 +10552,15 @@ This Special Action can be made by Underwater units.</description>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" value="1" field="c04d-b529-c395-888a">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="force" childId="eaac-8ff3-8f96-83c1" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="c04d-b529-c395-888a" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
         </entryLink>
         <entryLink import="true" name="Ecuyere Frigate" hidden="true" id="e9da-a86d-20f8-bda3" type="selectionEntry" targetId="bc7b-99ba-cdcc-f83c">
           <constraints>
@@ -10571,7 +10625,15 @@ This Special Action can be made by Underwater units.</description>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" value="1" field="07e2-9b81-7065-4a89">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="force" childId="a963-d4ae-91c1-4925" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="07e2-9b81-7065-4a89" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
         </entryLink>
       </entryLinks>
       <constraints>

@@ -3210,7 +3210,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Balder Raider" hidden="false" id="090e-4799-da35-a6a7" sortIndex="15">
+    <selectionEntry type="unit" import="true" name="Baldr Raider" hidden="false" id="090e-4799-da35-a6a7" sortIndex="15">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="d8e3-2bfd-70b7-3fe8" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Scandinavian" hidden="false" id="df42-a4af-67ec-af25" targetId="04fd-b227-5327-13f0" primary="false"/>
@@ -3225,7 +3225,7 @@
         <categoryLink targetId="d0e7-3928-704a-9f7d" id="ebf6-6d5d-4988-c88b" primary="false" name="AttachmentHostGefjon"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Balder" hidden="false" id="b7a7-6f50-96e1-e85a" sortIndex="1">
+        <selectionEntry type="model" import="true" name="Baldr" hidden="false" id="b7a7-6f50-96e1-e85a" sortIndex="1">
           <constraints>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7dea-a0ac-93b3-be43" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4065-b0f8-3ded-e634" automatic="true"/>
@@ -3346,7 +3346,7 @@
       </constraints>
       <comment>Still has errors in orbat!</comment>
       <profiles>
-        <profile name="Balder" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="0a81-764c-8243-455a">
+        <profile name="Baldr" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="0a81-764c-8243-455a">
           <characteristics>
             <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">3</characteristic>
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">2&quot;-9&quot;</characteristic>
@@ -3361,7 +3361,7 @@
             <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1-3</characteristic>
           </characteristics>
         </profile>
-        <profile name="Balder" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="2e1f-1315-e814-b818">
+        <profile name="Baldr" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="2e1f-1315-e814-b818">
           <characteristics>
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Boarding Parties (8), Daredevil Crew</characteristic>
           </characteristics>
@@ -3373,7 +3373,7 @@
             </modifier>
           </modifiers>
         </profile>
-        <profile name="Balder" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="1cda-6f57-56ca-511e">
+        <profile name="Baldr" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="1cda-6f57-56ca-511e">
           <characteristics>
             <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+2”)</characteristic>
           </characteristics>

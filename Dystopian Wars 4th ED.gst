@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="sys-b418-f41f-879e-6277" name="Dystopian Wars 4th ED" battleScribeVersion="2.03" revision="2" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
-    <categoryEntry name="FlagShip" id="0ec6-f5c8-25d7-89d8" hidden="false"/>
+    <categoryEntry name="Flagship" id="0ec6-f5c8-25d7-89d8" hidden="false"/>
     <categoryEntry name="Line" id="ae99-8ab0-27f0-7bb6" hidden="false"/>
     <categoryEntry name="Patrol" id="be0c-d486-6fa7-ce3b" hidden="false"/>
     <categoryEntry name="Support" id="1711-6069-af06-c5cc" hidden="false"/>
@@ -151,7 +151,7 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
   </profileTypes>
   <costTypes>
     <costType name="Points" id="89fa-eeaa-958f-ca32" defaultCostLimit="-1"/>
-    <costType name="VP per Model" id="c245-c6fc-adb8-407a" defaultCostLimit="-1"/>
+    <costType name="VP" id="c245-c6fc-adb8-407a" defaultCostLimit="-1"/>
   </costTypes>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Generators" id="7a4d-983a-a763-720b" hidden="false" collapsible="true">
@@ -205,7 +205,7 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
             <modifier type="append" value="Atomic Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Guardian Generator" hidden="true" id="ce68-644b-be24-86aa">
+        <selectionEntry type="upgrade" import="true" name="Guardian Generator (2)" hidden="true" id="ce68-644b-be24-86aa">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -214,7 +214,7 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
             <profile name="Guardian Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="5a5e-438b-e40b-3eb8"/>
           </profiles>
           <modifiers>
-            <modifier type="append" value="Guardian Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+            <modifier type="append" value="Guardian Generator (2)" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
             <modifier type="set" value="false" field="hidden">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="unit" childId="d889-437c-7878-d5ba" shared="true"/>
@@ -502,8 +502,8 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3b0d-a4dc-9372-b417" includeChildSelections="true"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ff4-de44-41fe-9db0" includeChildSelections="true"/>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3b0d-a4dc-9372-b417" includeChildSelections="true" automatic="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ff4-de44-41fe-9db0" includeChildSelections="true" automatic="true"/>
       </constraints>
       <modifiers>
         <modifier type="set" value="2" field="1ff4-de44-41fe-9db0">
@@ -640,7 +640,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Escorts" hidden="false" id="bd6e-dbef-4baf-e017">
+    <selectionEntry type="upgrade" import="true" name="Escorts" hidden="false" id="bd6e-dbef-4baf-e017" sortIndex="4">
       <costs>
         <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
         <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -723,6 +723,379 @@ This can be used to allow the unit to launch a Boarding action when it could not
         </entryLink>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Europa Grand Conveyor" hidden="false" id="a1a0-268a-bf4f-841c" sortIndex="3">
+      <categoryLinks>
+        <categoryLink name="Ship" hidden="false" id="d80d-49f0-af83-24a0" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
+        <categoryLink name="Logistical" hidden="false" id="bb22-737a-3c9d-6331" targetId="366f-016b-5f80-0c09" primary="true"/>
+        <categoryLink name="Surface" hidden="false" id="4cc4-981c-a7f0-ed6e" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
+        <categoryLink name="Capital" hidden="false" id="85a4-1bb8-be4b-9aab" targetId="30c3-7f1c-19e3-e772" primary="false"/>
+        <categoryLink name="Depot" hidden="false" id="4432-63a7-e88b-f3ac" targetId="5ca3-1be9-4a5c-64ba" primary="false"/>
+        <categoryLink name="Merchantman" hidden="false" id="dba8-7f40-1a92-ed3c" targetId="33e6-1c11-bb7d-3918" primary="false"/>
+        <categoryLink name="Attachment host" hidden="false" id="6f3d-3326-126b-fb2a" targetId="2251-0def-1b03-2e93" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Europa" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="1a14-a865-3d52-b9fe">
+          <characteristics>
+            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">4</characteristic>
+            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">2&quot;-7&quot;</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">1</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">3</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">3</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">10</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">1</characteristic>
+            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">-</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">3</characteristic>
+            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">6</characteristic>
+            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Europa" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="6168-b49c-8690-039a">
+          <characteristics>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Civilian Vessel, Flotsam, Forward Deployment, Resupply (2), Strategic Asset (6)</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" value="Ground Assault (3)" field="066c-1ce6-091e-90ab" join=", ">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="a1a0-268a-bf4f-841c" childId="cffe-b285-2522-98f3" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Levant" field="066c-1ce6-091e-90ab" join=", ">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="a1a0-268a-bf4f-841c" childId="7d90-61f4-e145-3380" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Europa" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="266c-7dda-ba6a-27a2">
+          <characteristics>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Heavy Shield Generator, Logistical Support</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Europa" hidden="false" id="9d39-a689-4a77-1e14" sortIndex="1">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="110"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4d17-2966-bdb7-54fe" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ecc-37ed-2b84-4cbe" includeChildSelections="false" automatic="true"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Olympia Levant Drive" hidden="false" id="7d90-61f4-e145-3380" sortIndex="2">
+              <costs>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
+                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Troop Transport" hidden="false" id="cffe-b285-2522-98f3" sortIndex="3">
+              <costs>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="962f-3933-0588-8fe2" hidden="false" sortIndex="1">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Aetheric Lance" hidden="false" id="aebc-f37a-6ec7-897f">
+                  <profiles>
+                    <profile name="Aetheric Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a204-777e-ff37-7de5">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Powered</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="4ddf-0096-ca5b-f8cc">
+                  <profiles>
+                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="f239-fb57-bff9-92f7">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="fb19-38e8-8ab2-895a">
+                  <profiles>
+                    <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="572f-8e6f-abc9-2d9d">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="add" value="139e-c78f-43c0-2957" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="a1a0-268a-bf4f-841c" childId="7d90-61f4-e145-3380" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="remove" value="4b7e-c78d-b9be-8d7c" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="a1a0-268a-bf4f-841c" childId="7d90-61f4-e145-3380" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="84a8-eccc-00dd-e27e" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Escorts" hidden="false" id="e429-2d8e-8095-4e2e" type="selectionEntry" targetId="bd6e-dbef-4baf-e017">
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="5f65-9547-836b-2d73"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Hermes Supply Freighter" hidden="false" id="af42-2a09-8832-9b20" sortIndex="2">
+      <categoryLinks>
+        <categoryLink name="Ship" hidden="false" id="eec5-442a-f90a-0a7e" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
+        <categoryLink name="Repair" hidden="false" id="1209-5d00-5e8d-d777" targetId="cb1d-41cb-d83d-fd73" primary="false"/>
+        <categoryLink name="Logistical" hidden="false" id="dacc-ff79-9622-dfcc" targetId="366f-016b-5f80-0c09" primary="true"/>
+        <categoryLink name="Surface" hidden="false" id="afb4-473c-b640-cade" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
+        <categoryLink name="Depot" hidden="false" id="9a50-1e26-b360-7e73" targetId="5ca3-1be9-4a5c-64ba" primary="false"/>
+        <categoryLink name="Merchantman" hidden="false" id="9d5f-d2b8-ad8a-b9fd" targetId="33e6-1c11-bb7d-3918" primary="false"/>
+        <categoryLink name="Light Vessel" hidden="false" id="7324-4cc7-49d9-6a14" targetId="a788-9613-7ce1-5dd9" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Hermes" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="301b-85d2-95be-2edf">
+          <characteristics>
+            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">1</characteristic>
+            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">1-6&quot;</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">4</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">2</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">2</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">5</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">1</characteristic>
+            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">-</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">2</characteristic>
+            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">5</characteristic>
+            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1-3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hermes" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="9d73-cd4c-559f-0003">
+          <characteristics>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Surface), Civilian Vessel, Light Vessel, Resupply (1), Strategic Asset (2)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hermes" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="1a62-998e-9538-3d93">
+          <characteristics>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Hermes" hidden="false" id="e8b2-57eb-2280-7fc5" sortIndex="1">
+          <categoryLinks>
+            <categoryLink name="Ship" hidden="false" id="d56c-c030-98b9-26b2" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
+            <categoryLink name="Repair" hidden="false" id="01ec-35b7-5832-7e0d" targetId="cb1d-41cb-d83d-fd73" primary="false"/>
+            <categoryLink name="Logistical" hidden="false" id="9666-4ab5-39be-824f" targetId="366f-016b-5f80-0c09" primary="true"/>
+            <categoryLink name="Commonwealth" hidden="false" id="7550-ceec-f9cf-5534" targetId="1f78-904a-a9b7-2c8f" primary="false"/>
+            <categoryLink name="Surface" hidden="false" id="f556-5e36-7856-b75b" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
+            <categoryLink name="Depot" hidden="false" id="af7c-d852-d7d5-46f4" targetId="5ca3-1be9-4a5c-64ba" primary="false"/>
+            <categoryLink name="Merchantman" hidden="false" id="f3c9-eef1-e632-f1b5" targetId="33e6-1c11-bb7d-3918" primary="false"/>
+            <categoryLink name="Light Vessel" hidden="false" id="10e8-a868-53b2-cd3b" targetId="a788-9613-7ce1-5dd9" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="25"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d04a-50ff-8109-43aa" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="bc1d-8b51-911f-9682" includeChildSelections="false" automatic="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="bc1d-8b51-911f-9682">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="false" id="c8da-2b54-118b-1939" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Escorts" hidden="false" id="ac5a-23fa-7134-8526" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="2">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3e6d-7de5-9b23-a0aa"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Titan Mass Conveyor" hidden="false" id="19fc-734b-0bc6-9fb7" sortIndex="1">
+      <categoryLinks>
+        <categoryLink name="Ship" hidden="false" id="198b-20e4-2245-5655" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
+        <categoryLink name="Logistical" hidden="false" id="ee66-b0c5-6ea0-794d" targetId="366f-016b-5f80-0c09" primary="true"/>
+        <categoryLink name="Merchantman" hidden="false" id="df48-d321-1dbc-58a8" targetId="33e6-1c11-bb7d-3918" primary="false"/>
+        <categoryLink name="Surface" hidden="false" id="ce43-71fa-6468-e4fc" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
+        <categoryLink name="Depot" hidden="false" id="cf07-7c86-3816-182d" targetId="5ca3-1be9-4a5c-64ba" primary="false"/>
+        <categoryLink name="Attachment host" hidden="false" id="53ac-b4d6-bd37-f57e" targetId="2251-0def-1b03-2e93" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Titan" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="107c-2f78-dadf-3f53">
+          <characteristics>
+            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">3</characteristic>
+            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">2&quot;-7&quot;</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">2</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">2</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">3</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">7</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">1</characteristic>
+            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">-</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">3</characteristic>
+            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">6</characteristic>
+            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Titan" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="a2a9-df25-ff81-78fb">
+          <characteristics>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Civilian Vessel, Flotsam, Forward Deployment, Resupply (2), Strategic Asset (4)</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" value="Ground Assault (3)" field="066c-1ce6-091e-90ab" join=", ">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="19fc-734b-0bc6-9fb7" childId="2821-e45d-daa2-db14" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Levant" field="066c-1ce6-091e-90ab" join=", ">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="self" childId="8211-46cd-ad4a-0321" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Titan" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="c878-175e-b5e2-e59c">
+          <characteristics>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Heavy Shield Generator</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Titan" hidden="false" id="a413-8c41-73e8-e393" sortIndex="1">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="70"/>
+          </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Olympia Levant Drive" hidden="false" id="8211-46cd-ad4a-0321" sortIndex="2">
+              <costs>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
+                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Troop Transport" hidden="false" id="2821-e45d-daa2-db14" sortIndex="3">
+              <costs>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f796-a10e-8621-0853" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b29-d88b-263d-3d7a" includeChildSelections="false" automatic="true"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="aa02-6b06-f681-6690" hidden="false" sortIndex="1">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Aetheric Lance" hidden="false" id="170f-c178-9dfd-07ed">
+                  <profiles>
+                    <profile name="Aetheric Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="171c-b16e-dd6b-2e1b">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Powered</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="8a35-f944-ed7f-2c89">
+                  <profiles>
+                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="dcd8-2b96-d49b-877f">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="1db0-e9bb-33f8-4624">
+                  <profiles>
+                    <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="0b33-fe4f-c9d0-ec63">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="add" value="139e-c78f-43c0-2957" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="8211-46cd-ad4a-0321" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="remove" value="4b7e-c78d-b9be-8d7c" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="8211-46cd-ad4a-0321" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="08d0-f040-80a1-a08d" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Escorts" hidden="false" id="eed4-87c6-8d27-d69d" type="selectionEntry" targetId="bd6e-dbef-4baf-e017">
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="b123-487b-080c-e4ca"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Blitzen Bombers" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="b9cf-f00e-579b-ef39">
@@ -780,7 +1153,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Offensive, Surgical Strike (Hazard)</attribute>
       </attributes>
     </profile>
-    <profile name="Khepri Automata" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="8033-d796-b335-51b6">
+    <profile name="Khepri Automata" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="9b6f-ac6d-ba08-426e">
       <characteristics>
         <characteristic name="ATK" typeId="1727-4f83-903e-a65d">3</characteristic>
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">2</characteristic>
@@ -921,6 +1294,17 @@ This can be used to allow the unit to launch a Boarding action when it could not
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Surgical Strike (Breach / System Failure), Underwater SRS</attribute>
+      </attributes>
+    </profile>
+    <profile name="Khepri Automata" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="9950-469b-aef9-1d42">
+      <characteristics>
+        <characteristic name="ATK" typeId="1727-4f83-903e-a65d">3</characteristic>
+        <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">2</characteristic>
+        <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
+        <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
+      </characteristics>
+      <attributes>
+        <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Hover SRS, Launch Range (20”), Surgical Strike (System Failure), Portal Strike</attribute>
       </attributes>
     </profile>
   </sharedProfiles>
