@@ -2244,6 +2244,22 @@ an attack has Devastating (3) and the Initial Target has Ablative
 Armour (2), Ablative Armour would be negated entirely and the
 attack would be resolved with Devastating (1).*</description>
     </rule>
+    <rule name="Descend" id="1280-ea22-6a6c-e578" hidden="false">
+      <description>*This Property only applies if every model in the unit has it listed on its unit profile - otherwise, it is disregarded.*
+
+
+At the start of each of this unit’s Activations, its Admiral must choose its position: it can soar high, in which case it remains an Airborne unit, following all of the normal rules for Airborne units, or it can Descend to hover a short distance above the water, temporarily becoming a Surface unit.
+
+
+A unit that Descends gains a Surfacing status token until the start of its next Activation.
+While subject to this status, it is treated as having the Surface positional trait instead of Airborne, and is not subject to the Wide Open Skies or Unconventional Target rule.
+
+
+Similarly, the unit treats all Terrain Features as Open Water for the purposes of Movement and is not Impeded by Treacherous Water, does not Trigger Minefield markers, and never suffers Critical Damage as a result of contacting a Wreck marker. 
+
+
+Submerged Weapons cannot Contribute to Attack actions against Surfacing models. </description>
+    </rule>
   </sharedRules>
   <publications>
     <publication name="DW4-Rules-Glossary-v4.0_W.pdf" id="14a6-3b96-497a-488d" hidden="false" publisherUrl="https://www.warcradle.com/assets/warcradleGames/dystopianWars/pdfs/essentials/DW4-Rules-Glossary-v4.0_W.pdf" shortName="Rules glossary" publisher="V4.00 Beta"/>

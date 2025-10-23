@@ -9073,7 +9073,7 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
         </profile>
         <profile name="Ketos" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="a980-f288-fbb2-0270">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Auxiliary Mine Layer (1), Mechanical Soul, Mobile, Self Destruct (2), Submarauder, ``Unexpected Arrival</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Auxiliary Mine Layer (1), Mechanical Soul, Mobile, Self Destruct (2), Submarauder, Unexpected Arrival</characteristic>
           </characteristics>
         </profile>
         <profile name="Ketos" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="302f-a5a9-2f36-8851">

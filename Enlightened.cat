@@ -335,7 +335,7 @@
       <categoryLinks>
         <categoryLink targetId="5df2-bc66-57ad-0a5b" id="6bc7-1660-20c2-cfb0" primary="false" name="Enlightened"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="d2e5-8b9b-b0e3-ceaf" primary="false" name="Surface"/>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="7b25-28a1-fff9-4811" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="7b25-28a1-fff9-4811" primary="true" name="Flagship"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="cb65-218e-dcdb-6ee7" primary="false" name="Ship"/>
         <categoryLink targetId="30c3-7f1c-19e3-e772" id="750e-7324-ed68-334c" primary="false" name="Capital"/>
         <categoryLink targetId="2251-0def-1b03-2e93" id="0d56-d214-b159-908f" primary="false" name="Attachment host"/>
@@ -544,7 +544,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <categoryLink targetId="5df2-bc66-57ad-0a5b" id="16ee-d250-472c-e802" primary="false" name="Enlightened"/>
         <categoryLink targetId="c636-bf34-4555-99bc" id="bfe0-1dc2-ef80-c4dd" primary="false" name="Underwater"/>
         <categoryLink targetId="c503-3bc7-2b45-91ef" id="ed91-bd33-2d97-7515" primary="false" name="Submarine"/>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="b6d5-f247-20cb-b924" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="b6d5-f247-20cb-b924" primary="true" name="Flagship"/>
         <categoryLink targetId="30c3-7f1c-19e3-e772" id="9107-f1f8-743b-3a29" primary="false" name="Capital"/>
         <categoryLink targetId="3023-c2d7-e528-6c1e" id="2f87-e3d2-6684-4554" primary="false" name="Underwatercon"/>
       </categoryLinks>
@@ -723,7 +723,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="ee95-2b7b-b5c5-9a1a" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="ee95-2b7b-b5c5-9a1a" primary="true" name="Flagship"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="4289-3884-38ff-5ea1" primary="false" name="Surface"/>
         <categoryLink targetId="5df2-bc66-57ad-0a5b" id="f9a9-eb82-c0fe-b818" primary="false" name="Enlightened"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="9d8a-a08d-df12-dd81" primary="false" name="Ship"/>
@@ -1146,7 +1146,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="e3f1-58e8-e115-a510" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="e3f1-58e8-e115-a510" primary="true" name="Flagship"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="741d-7d29-6ee8-0385" primary="false" name="Surface"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="27c9-24ca-98da-9fae" primary="false" name="Ship"/>
         <categoryLink targetId="30c3-7f1c-19e3-e772" id="d50f-4d86-097f-2df8" primary="false" name="Capital"/>
@@ -1446,7 +1446,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="8bc2-d892-c32a-5cdc" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="8bc2-d892-c32a-5cdc" primary="true" name="Flagship"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="4a37-e313-0b83-fa01" primary="false" name="Surface"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="2896-58df-3e85-5fcd" primary="false" name="Ship"/>
         <categoryLink targetId="30c3-7f1c-19e3-e772" id="a851-56a3-3700-663c" primary="false" name="Capital"/>
@@ -1668,7 +1668,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="9681-3963-a5b9-d467" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="9681-3963-a5b9-d467" primary="true" name="Flagship"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="a16a-9590-a77a-c371" primary="false" name="Ship"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="bd85-8b71-9f41-9616" primary="false" name="Surface"/>
         <categoryLink targetId="30c3-7f1c-19e3-e772" id="4014-6395-c83c-09fd" primary="false" name="Capital"/>
@@ -1966,7 +1966,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="c6f3-d0a1-a6cb-0a71" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="c6f3-d0a1-a6cb-0a71" primary="true" name="Flagship"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="5149-69ec-eed5-fe11" primary="false" name="Surface"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="2805-2e47-1bc4-3fa9" primary="false" name="Ship"/>
         <categoryLink targetId="30c3-7f1c-19e3-e772" id="0a00-c69a-760f-518a" primary="false" name="Capital"/>
@@ -2126,7 +2126,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="cb8e-0b49-73b7-72cf" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="cb8e-0b49-73b7-72cf" primary="true" name="Flagship"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="9b76-2469-f68e-cb43" primary="false" name="Surface"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="6bf5-4847-7dfc-6657" primary="false" name="Ship"/>
         <categoryLink targetId="30c3-7f1c-19e3-e772" id="f4d6-a7f0-0794-bbe8" primary="false" name="Capital"/>
@@ -2518,7 +2518,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="cb36-f3ad-1b01-1a9d" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="cb36-f3ad-1b01-1a9d" primary="true" name="Flagship"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="f245-720d-cc12-a500" primary="false" name="Surface"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="3020-8f49-6c78-bffb" primary="false" name="Ship"/>
         <categoryLink targetId="30c3-7f1c-19e3-e772" id="3371-8001-6ceb-f7f2" primary="false" name="Capital"/>
@@ -2678,7 +2678,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="6dfc-514e-49df-9ebf" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="6dfc-514e-49df-9ebf" primary="true" name="Flagship"/>
         <categoryLink targetId="139e-c78f-43c0-2957" id="9064-3555-c69c-f2ed" primary="false" name="Airborne"/>
         <categoryLink targetId="5df2-bc66-57ad-0a5b" id="dc1c-cec5-55bc-fccf" primary="false" name="Enlightened"/>
         <categoryLink targetId="049d-c2ce-6f79-33ad" id="e3fa-5334-ef44-419f" primary="false" name="Saucer"/>
@@ -2977,7 +2977,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="eebc-ee65-071a-aaf4" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="eebc-ee65-071a-aaf4" primary="true" name="Flagship"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="854c-01dc-b0a4-c023" primary="false" name="Surface"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="c075-76de-7b3e-03b0" primary="false" name="Ship"/>
         <categoryLink targetId="30c3-7f1c-19e3-e772" id="b350-c7b2-d340-0321" primary="false" name="Capital"/>
@@ -4467,7 +4467,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </profile>
         <profile name="Ketos" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="470b-102b-0c7e-a3d3">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Auxiliary Mine Layer (1), Mechanical Soul, Mobile, Self Destruct (2), Submarauder, ``Unexpected Arrival</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Auxiliary Mine Layer (1), Mechanical Soul, Mobile, Self Destruct (2), Submarauder, Unexpected Arrival</characteristic>
           </characteristics>
         </profile>
         <profile name="Ketos" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="b4f7-b481-05f7-39cb">
@@ -6538,7 +6538,7 @@ Then, each Exploding Strike in the Resistance Roll is converted into a Standard
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c2e-dc0b-c8b7-a839"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="FlagShip" hidden="false" id="7295-8d2a-8025-aaa2" targetId="0ec6-f5c8-25d7-89d8">
+        <categoryLink name="Flagship" hidden="false" id="7295-8d2a-8025-aaa2" targetId="0ec6-f5c8-25d7-89d8">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c873-55a6-3ed1-6690"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="116e-2386-a6e1-e967"/>
@@ -6578,7 +6578,7 @@ Then, each Exploding Strike in the Resistance Roll is converted into a Standard
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f21-dcfa-1807-3948"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="FlagShip" hidden="false" id="1638-0aec-4640-e4d1" targetId="0ec6-f5c8-25d7-89d8">
+        <categoryLink name="Flagship" hidden="false" id="1638-0aec-4640-e4d1" targetId="0ec6-f5c8-25d7-89d8">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="25fb-f702-c152-3b31"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f99-870a-0b0c-79f7"/>
@@ -6617,7 +6617,7 @@ Then, each Exploding Strike in the Resistance Roll is converted into a Standard
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="feba-3a60-99a7-d46e"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="FlagShip" hidden="false" id="428f-aaeb-81da-2b1a" targetId="0ec6-f5c8-25d7-89d8">
+        <categoryLink name="Flagship" hidden="false" id="428f-aaeb-81da-2b1a" targetId="0ec6-f5c8-25d7-89d8">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0d7c-b338-a437-bb0f"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ae4-2d6b-f7bd-4c2b"/>

@@ -143,6 +143,7 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
         <characteristicType name="INT" id="6e75-0f84-3c4c-88ad"/>
         <characteristicType name="SPT" id="c7cb-4c98-b625-1f98"/>
         <characteristicType name="RES" id="890b-70a9-65a7-5e2a"/>
+        <characteristicType name="PROPERTIES" id="65e4-97a8-7a12-c50a"/>
       </characteristicTypes>
       <attributeTypes>
         <attributeType name="SRS Properties" id="fe63-ead3-74ce-fd34"/>
@@ -1104,6 +1105,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">2</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">-</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">4</characteristic>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Offensive, Surgical Strike (System Failure)</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Offensive, Surgical Strike (System Failure)</attribute>
@@ -1115,6 +1117,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">2</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
+        <characteristic typeId="65e4-97a8-7a12-c50a" name="PROPERTIES"/>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34"/>
@@ -1126,6 +1129,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">2</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
+        <characteristic typeId="65e4-97a8-7a12-c50a" name="PROPERTIES"/>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34"/>
@@ -1137,6 +1141,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">3</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">2</characteristic>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Surgical Strike (Hazard)</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Surgical Strike (Hazard)</attribute>
@@ -1148,6 +1153,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">-</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">1</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Offensive, Surgical Strike (Hazard)</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Offensive, Surgical Strike (Hazard)</attribute>
@@ -1159,6 +1165,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">2</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Hover SRS, Launch Range (20”), Surgical Strike (System Failure)</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Hover SRS, Launch Range (20”), Surgical Strike (System Failure)</attribute>
@@ -1170,6 +1177,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">3</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">3</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
+        <characteristic typeId="65e4-97a8-7a12-c50a" name="PROPERTIES"/>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34"/>
@@ -1181,6 +1189,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">2</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
+        <characteristic typeId="65e4-97a8-7a12-c50a" name="PROPERTIES"/>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34"/>
@@ -1192,6 +1201,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">3</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">3</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Surgical Strike (System Failure)</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Surgical Strike (System Failure)</attribute>
@@ -1203,6 +1213,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">3</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">-</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Exceptional, Launch Range (20”), Superior Mine Clearance, Underwater SRS</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Exceptional, Launch Range (20”), Superior Mine Clearance, Underwater SRS</attribute>
@@ -1214,6 +1225,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">1</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">-</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">4</characteristic>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Exceptional, Specialist, Underwater SRS</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Exceptional, Specialist, Underwater SRS</attribute>
@@ -1225,6 +1237,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">3</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">4</characteristic>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Exo-Sub, Offensive, Superior Mine Clearance</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Exo-Sub, Offensive, Superior Mine Clearance</attribute>
@@ -1236,6 +1249,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">2</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">3</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">2</characteristic>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Portal Strike</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Portal Strike</attribute>
@@ -1247,6 +1261,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">2</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Co-ordinated Explosion</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Co-ordinated Explosion</attribute>
@@ -1258,6 +1273,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">3</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">4</characteristic>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Offensive, Surgical Strike (Shredded Defences)</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Offensive, Surgical Strike (Shredded Defences)</attribute>
@@ -1269,6 +1285,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">-</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">-</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">2</characteristic>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Specialist</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Specialist</attribute>
@@ -1280,6 +1297,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">-</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">-</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">2</characteristic>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Specialist</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Specialist</attribute>
@@ -1291,6 +1309,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">3</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">-</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">2</characteristic>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Surgical Strike (Breach / System Failure), Underwater SRS</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Surgical Strike (Breach / System Failure), Underwater SRS</attribute>
@@ -1302,6 +1321,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">2</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Hover SRS, Launch Range (20”), Surgical Strike (System Failure), Portal Strike</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Hover SRS, Launch Range (20”), Surgical Strike (System Failure), Portal Strike</attribute>
