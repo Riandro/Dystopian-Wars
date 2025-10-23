@@ -457,6 +457,13 @@
         <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
         <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set-primary" value="8788-012d-a112-2ccf" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="c047-301b-1635-a479" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Avalon Skyfortress" hidden="false" id="4108-5224-c588-9fe6" sortIndex="2">
       <selectionEntries>
@@ -2239,6 +2246,13 @@
         <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
         <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set-primary" value="8788-012d-a112-2ccf" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="c047-301b-1635-a479" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Protecteur Submersible Carrier" hidden="false" id="d4dc-ba3f-9617-7c2b" sortIndex="9">
       <selectionEntries>
@@ -3913,6 +3927,13 @@ Guardian Generator (1)</characteristic>
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="1fe7-6a78-b4e5-c454" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0"/>
       </entryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="85bc-4fd7-5224-8344" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="c047-301b-1635-a479" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Lancelot Heavy Cruiser" hidden="false" id="5451-a17f-1be1-f498" sortIndex="17">
       <selectionEntries>
@@ -4326,6 +4347,11 @@ Guardian Generator (1)</characteristic>
         <modifier type="set" value="2" field="650a-28a3-5734-57a7">
           <conditions>
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="c047-301b-1635-a479" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="85bc-4fd7-5224-8344" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="c047-301b-1635-a479" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5165,6 +5191,13 @@ Guardian Generator (1)</characteristic>
         <categoryLink name="Patrol" hidden="false" id="8c97-36ea-e66b-0686" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
       </categoryLinks>
       <comment>ATTACHMENT</comment>
+      <modifiers>
+        <modifier type="set-primary" value="f47e-56c5-8b4d-42b2" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="c047-301b-1635-a479" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Excalibur Heavy Destroyer" hidden="false" id="1e30-ec5a-703c-b343" sortIndex="24">
       <selectionEntries>
@@ -5422,6 +5455,11 @@ Guardian Generator (1)</characteristic>
         <modifier type="set" value="2" field="447d-7f46-6fb4-3811">
           <conditions>
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="c047-301b-1635-a479" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="f47e-56c5-8b4d-42b2" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="c047-301b-1635-a479" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -6350,6 +6388,11 @@ Guardian Generator (1)</characteristic>
             <condition type="instanceOf" value="1" field="forces" scope="7b11-9633-f024-19fd" childId="force" shared="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="0b5d-9ac9-5f48-576d" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="c047-301b-1635-a479" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Chanura Repairship " hidden="false" id="adf3-61f0-2614-4a1a" sortIndex="32">
@@ -6464,6 +6507,13 @@ Guardian Generator (1)</characteristic>
         <categoryLink name="Crown Indian Raj Support" hidden="false" id="d66d-e9a7-88f2-4a9e" targetId="0b5d-9ac9-5f48-576d" primary="false"/>
         <categoryLink name="Support" hidden="false" id="cde7-2209-5eb4-727c" targetId="1711-6069-af06-c5cc" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="0b5d-9ac9-5f48-576d" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="c047-301b-1635-a479" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Dublin War Platform " hidden="false" id="39b3-dbd5-5363-da23" sortIndex="33">
       <selectionEntries>
