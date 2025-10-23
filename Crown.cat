@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="6e9e-fe5b-0ca4-75b6" name="Crown" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="2" revision="1" authorUrl=" https://github.com/Riandro" authorContact="https://github.com/Riandro" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="6e9e-fe5b-0ca4-75b6" name="Crown" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="2" revision="2" authorUrl=" https://github.com/Riandro" authorContact="https://github.com/Riandro" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Adventurer Grand Indiaman" hidden="false" id="4cbb-55d6-a291-ad7d" sortIndex="1">
       <selectionEntries>
@@ -2963,7 +2963,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3407,7 +3407,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3689,7 +3689,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4107,7 +4107,7 @@ Guardian Generator (1)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4476,7 +4476,7 @@ Guardian Generator (1)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4849,7 +4849,7 @@ Guardian Generator (1)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5480,7 +5480,7 @@ Guardian Generator (1)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Aerial Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="84e0-c002-9389-4bd9">
@@ -5689,7 +5689,7 @@ Guardian Generator (1)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5772,7 +5772,7 @@ Guardian Generator (1)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">1</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="25e5-69dc-11e2-e5b0">
@@ -5923,7 +5923,7 @@ Guardian Generator (1)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6062,7 +6062,7 @@ Guardian Generator (1)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Fragmentation Ripple Cannonade" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="0606-4137-74af-33bb">
@@ -6693,7 +6693,7 @@ Guardian Generator (1)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Canberra Gyro-Bomb Launcher" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="5db7-d0df-83b3-beb5">
@@ -6794,7 +6794,7 @@ Guardian Generator (1)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e683-5a04-7e9d-2a2d">
@@ -6803,7 +6803,7 @@ Guardian Generator (1)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Cymbeline Missile Silo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="21ff-5b59-53a4-39ab">
@@ -7017,7 +7017,7 @@ Guardian Generator (1)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7097,7 +7097,7 @@ Guardian Generator (1)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7335,7 +7335,7 @@ Guardian Generator (1)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Heavy Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="673e-8047-d335-37ad">
@@ -7344,7 +7344,7 @@ Guardian Generator (1)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7428,7 +7428,7 @@ Guardian Generator (1)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7508,7 +7508,7 @@ Guardian Generator (1)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="bc77-18bd-ad10-f7a7">
