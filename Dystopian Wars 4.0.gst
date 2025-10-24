@@ -1247,7 +1247,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Exo-Sub, Offensive, Superior Mine Clearance</characteristic>
       </characteristics>
       <attributes>
-        <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Exo-Sub, Offensive, Superior Mine Clearance</attribute>
+        <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Exo-Sub, Superior Mine Clearance</attribute>
       </attributes>
     </profile>
     <profile name="Sabiha Attack Fighters" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="e1fd-301d-05e3-8718">
@@ -1335,4 +1335,9 @@ This can be used to allow the unit to launch a Boarding action when it could not
       </attributes>
     </profile>
   </sharedProfiles>
+  <rules>
+    <rule name="test" id="4f45-3857-2025-44e8" hidden="false">
+      <description>test</description>
+    </rule>
+  </rules>
 </gameSystem>

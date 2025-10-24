@@ -8602,4 +8602,10 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
       </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
+  <costTypes>
+    <costType name="Guardian Generator Pool" id="f927-e6d8-9c1b-8744" defaultCostLimit="-1"/>
+  </costTypes>
+  <sharedRules>
+    <rule name="test5" id="0f0c-698d-8ee5-cc89" hidden="false"/>
+  </sharedRules>
 </catalogue>

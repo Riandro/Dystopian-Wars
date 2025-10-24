@@ -9385,4 +9385,7 @@ If successful, any Exploding Strikes in the Resistance Roll are immediately conv
       </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedRules>
+    <rule name="test4" id="2026-a39a-2629-3e53" hidden="false"/>
+  </sharedRules>
 </catalogue>

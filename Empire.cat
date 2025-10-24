@@ -6,7 +6,7 @@
         <selectionEntry type="model" import="true" name="Akita" hidden="false" id="c585-1ed4-acac-ae73" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="340"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="a487-c603-c31c-f3a3" hidden="false" sortIndex="1" collapsible="true">
@@ -309,7 +309,7 @@
         <selectionEntry type="model" import="true" name="Ergun" hidden="false" id="41d8-0dfe-d538-7389" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="262"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="4c38-7160-99fe-196d" hidden="false" collapsible="true">
@@ -609,7 +609,7 @@
         <selectionEntry type="model" import="true" name="Hexie" hidden="false" id="2ef8-268c-9c8a-897a" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="36"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="a1d5-5194-51b3-d911" automatic="true"/>
@@ -679,7 +679,7 @@
         <selectionEntry type="model" import="true" name="Hachiman" hidden="false" id="8f03-1d8e-2c72-83e5" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="289"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="6923-2ff4-d08b-8e5c" hidden="false" collapsible="true">
@@ -801,7 +801,7 @@
         <selectionEntry type="model" import="true" name="Heilong" hidden="false" id="68a2-dd9e-6257-191a" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="272"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="844e-a983-984a-9e99" hidden="false" collapsible="true">
@@ -1092,7 +1092,7 @@
         <selectionEntry type="model" import="true" name="Kongo" hidden="false" id="8cca-b6e7-f507-a0e8" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="245"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="85fc-e879-b7e7-d8e3" hidden="false" collapsible="true">
@@ -1336,7 +1336,7 @@
         <selectionEntry type="model" import="true" name="Matsumoto" hidden="false" id="56ab-dafa-cad4-ae86" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="300"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="f338-2304-61e0-957f" hidden="false" collapsible="true">
@@ -1406,7 +1406,7 @@
                     <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
                   </costs>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e595-6001-a787-e4ab"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e09d-e8ae-65fe-a112" includeChildSelections="false"/>
                   </constraints>
                   <modifiers>
                     <modifier type="append" value="Magma Cast Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="profiles.Systems" join=", "/>
@@ -1471,7 +1471,7 @@
         <selectionEntry type="model" import="true" name="Naraka" hidden="false" id="39e3-dd7c-97bb-65ff" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="247"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="9d6c-3b7f-bcdb-b99d" hidden="false" collapsible="true">
@@ -1962,13 +1962,17 @@
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="9858-f3cd-3c82-1ff4" type="selectionEntryGroup" targetId="1e7d-8dc7-fedb-f45a" sortIndex="2"/>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
+        <cost name="VP" typeId="c245-c6fc-adb8-407a" value="10"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Yangtze Command Ship" hidden="false" id="1108-63a9-3f79-d011" sortIndex="9">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Yangtze" hidden="false" id="138d-85f9-7144-f39e" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="245"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="ca69-1bd2-79d8-324e" hidden="false" collapsible="true">
@@ -2124,7 +2128,7 @@
         <selectionEntry type="model" import="true" name="Zhanmadao" hidden="false" id="d31c-3fa5-974e-05d0" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="387"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="15"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="b5b5-ab65-8d65-c13e" hidden="false" collapsible="true">
@@ -2271,7 +2275,7 @@
         <selectionEntry type="model" import="true" name="Dao" hidden="false" id="f93f-a474-2bf9-8dfe" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="122"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="7217-aaed-9012-7566" hidden="false" collapsible="true">
@@ -2438,7 +2442,7 @@
         <selectionEntry type="model" import="true" name="Diyu" hidden="false" id="ad05-3751-da28-0b29" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="108"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6028-4f5e-cb33-2f2d" includeChildSelections="false" automatic="true"/>
@@ -2519,7 +2523,7 @@
         <selectionEntry type="model" import="true" name="Gong" hidden="false" id="c0f6-ce8a-7f24-fdd6" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="60"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="d940-46f9-53f9-7f34" hidden="false" collapsible="true">
@@ -2685,7 +2689,7 @@
         <selectionEntry type="model" import="true" name="Hokkaido" hidden="false" id="8f59-3485-6abf-350a" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="125"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="db6f-2cc1-2437-6e47" hidden="false" collapsible="true">
@@ -2887,7 +2891,7 @@
         <selectionEntry type="model" import="true" name="Jian" hidden="false" id="c39d-51bb-43d0-65a5" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="95"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="1259-496b-ac8f-eb56" hidden="false" collapsible="true">
@@ -3077,7 +3081,7 @@
         <selectionEntry type="model" import="true" name="Meru" hidden="false" id="e51f-a0e5-5e79-80fc" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="122"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="0068-1ac7-d13d-cd30" hidden="false" collapsible="true">
@@ -3294,7 +3298,7 @@
         <selectionEntry type="model" import="true" name="Osaka" hidden="false" id="009c-48ae-4008-c8f9" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="108"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="dcfa-921e-26ad-84b4" hidden="false" sortIndex="1" collapsible="true">
@@ -3541,7 +3545,7 @@
         <selectionEntry type="model" import="true" name="Qiang" hidden="false" id="71a4-0e6d-96e8-1b68" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="100"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="d3d5-c995-7dba-9342" hidden="false" collapsible="true">
@@ -3749,7 +3753,7 @@
         <selectionEntry type="model" import="true" name="Sakata" hidden="false" id="dd14-8eb6-4b30-ebc2" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="70"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="db7d-d3e1-f6f3-3b6d" includeChildSelections="false" automatic="true"/>
@@ -3846,7 +3850,7 @@
         <selectionEntry type="model" import="true" name="Chubu" hidden="false" id="8418-f35b-ce6d-d9b6">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="39"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="ed8b-333a-b5c8-a2bc" automatic="true"/>
@@ -4062,13 +4066,17 @@
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="a312-a777-6aaf-f95c" type="selectionEntryGroup" targetId="1e7d-8dc7-fedb-f45a" sortIndex="2"/>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
+        <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Kyoto Fast Frigate" hidden="false" id="061d-3ac9-5345-e838" sortIndex="23">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Kyoto" hidden="false" id="6086-5a1f-f01d-2fc6" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="40"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9651-deef-b26f-2ff9" includeChildSelections="false" automatic="true"/>
@@ -4148,7 +4156,7 @@
         <selectionEntry type="model" import="true" name="Mekong" hidden="false" id="5e2e-de41-af8e-2f15" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="102"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="015e-b567-aa96-bc82" hidden="false" collapsible="true">
@@ -4309,7 +4317,7 @@
         <selectionEntry type="model" import="true" name="Shanghai" hidden="false" id="094b-a205-f68b-5a16" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="37"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="45ae-0334-f076-c357" hidden="false" collapsible="true">
@@ -4407,8 +4415,8 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Barango" hidden="false" id="73dc-35bb-5c35-5b4a" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="37"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="65"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="a83e-cbb8-deab-a20a" hidden="false" collapsible="true">
@@ -4517,6 +4525,7 @@
         <categoryLink targetId="7875-66cc-53c0-2e19" id="2503-48d4-9c6b-32c7" primary="false" name="Platform"/>
         <categoryLink targetId="476a-e46d-4ab3-da6f" id="66e8-8e1f-3242-f3ec" primary="false" name="Immobile"/>
         <categoryLink targetId="d3bc-76cc-5efc-b06e" id="b198-a283-9c2b-c6af" primary="false" name="Empire"/>
+        <categoryLink name="SupportCon" hidden="false" id="f720-92ba-6491-c6a7" targetId="cb1a-b3b3-3c7a-ff71" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Barango" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="6d26-b5cf-abf5-ab21">
@@ -4542,7 +4551,7 @@
             <modifier type="append" value="Auxiliary Mine Layer (3)
 " field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="cba5-b5b7-20e1-71f9" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="cba5-b5b7-20e1-71f9" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -4562,7 +4571,7 @@
         <selectionEntry type="model" import="true" name="Ika" hidden="false" id="219e-1d7e-6119-d1a5" sortIndex="1" collective="true">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="165"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="687c-01c4-46ee-72f9" includeChildSelections="false" automatic="true"/>
@@ -4608,6 +4617,7 @@
         <categoryLink targetId="208e-6396-cb29-1ffc" id="085e-d258-c3fc-7ec4" primary="false" name="Japanese"/>
         <categoryLink targetId="c636-bf34-4555-99bc" id="a28f-82e2-9df8-5a41" primary="false" name="Underwater"/>
         <categoryLink targetId="b1a6-61a9-0ae4-8b65" id="14ab-f2af-2405-3cdb" primary="false" name="Colossus"/>
+        <categoryLink name="SupportCon" hidden="false" id="ebc8-16ab-7b93-b824" targetId="cb1a-b3b3-3c7a-ff71" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Ika" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="ebab-fa8b-324f-2a54">
@@ -4627,7 +4637,7 @@
         </profile>
         <profile name="Ika" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="3628-5d84-93a7-bfb0">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Forward Deployment, Mechanical Soul, Mine Layer (1), Pivot, Submarauder, Terrifying (Japanese), Unexpected Arrival</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Mechanical Soul, Mine Layer (1), Pivot, Submarauder, Terrifying (Japanese), Unexpected Arrival</characteristic>
           </characteristics>
         </profile>
         <profile name="Ika" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="5781-f5aa-998b-db47">
@@ -4639,13 +4649,16 @@
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb6d-ac7b-f1cb-ff67"/>
       </constraints>
+      <costs>
+        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Kanagawa Monitor" hidden="false" id="eecb-68f3-b3ee-5b4f" sortIndex="28">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Kanagawa" hidden="false" id="6a30-d91d-265f-8266" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="80"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="3d67-dd1e-00f5-f7ad" hidden="false" sortIndex="1" collapsible="true">
@@ -4767,11 +4780,12 @@
         <categoryLink targetId="208e-6396-cb29-1ffc" id="6dcf-ebb3-1a53-c5de" primary="false" name="Japanese"/>
         <categoryLink targetId="2251-0def-1b03-2e93" id="26b1-fd66-253e-7a09" primary="false" name="Attachment host"/>
         <categoryLink targetId="4c75-eb12-bc3a-5a57" id="701f-c183-a4ed-4a86" primary="false" name="AttachmentHostHermes"/>
+        <categoryLink name="SupportCon" hidden="false" id="f6c4-fe71-c4cb-dd68" targetId="cb1a-b3b3-3c7a-ff71" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Ishikawa" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="true" id="7c94-fd47-37d8-ff2c">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Deceptive Deployment, Shallow Draught, Moon Pool</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Deceptive Deployment, Shallow Draught, Maritime Patrol, Moon Pool</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -4798,17 +4812,17 @@
         </profile>
         <profile name="Kanagawa" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="5ec6-6759-167b-1396">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Deceptive Deployment, Shallow Draught</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Deceptive Deployment, Shallow Draught, Maritime Patrol</characteristic>
           </characteristics>
         </profile>
         <profile name="Kanagawa" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="a925-a29b-97ee-15c2">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Maritime Patrol</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d"/>
           </characteristics>
         </profile>
         <profile name="Miyagi" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="true" id="4bd4-2b25-1d50-ed81">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Deceptive Deployment, Shallow Draught, Flight Deck (Rin Exo-Submersible)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Deceptive Deployment, Shallow Draught, Maritime Patrol, Flight Deck (Rin Exo-Submersible)</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -4842,7 +4856,7 @@
         <selectionEntry type="model" import="true" name="Kansai" hidden="false" id="2902-1eb4-bb4d-6e0f" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="80"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="0a72-61bf-11a9-0dd2" hidden="false" sortIndex="1" collapsible="true">
@@ -4902,6 +4916,7 @@
         <categoryLink targetId="c503-3bc7-2b45-91ef" id="6444-65a5-f89e-a626" primary="false" name="Submarine"/>
         <categoryLink targetId="d3bc-76cc-5efc-b06e" id="023b-1fd6-5cf1-b155" primary="false" name="Empire"/>
         <categoryLink targetId="208e-6396-cb29-1ffc" id="f7d0-71d1-1d06-d71e" primary="false" name="Japanese"/>
+        <categoryLink name="SupportCon" hidden="false" id="a848-b80c-ef28-6311" targetId="cb1a-b3b3-3c7a-ff71" primary="false"/>
       </categoryLinks>
       <modifiers>
         <modifier type="add" value="4521-8e16-2d0f-7dc6" field="category">
@@ -4974,7 +4989,7 @@
         <selectionEntry type="model" import="true" name="Malandok" hidden="false" id="26e3-1dd8-480c-f6d0" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="180"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="5de3-f65d-20ad-e552" hidden="false" collapsible="true">
@@ -5133,7 +5148,7 @@
           <modifiers>
             <modifier type="append" value="Mine Layer (3)" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="45bb-b2e4-a4f1-d777" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="45bb-b2e4-a4f1-d777" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -5155,6 +5170,7 @@
         <categoryLink targetId="2251-0def-1b03-2e93" id="68d5-8964-2af4-6d33" primary="false" name="Attachment host"/>
         <categoryLink targetId="4c75-eb12-bc3a-5a57" id="9136-5b07-15aa-7b52" primary="false" name="AttachmentHostHermes"/>
         <categoryLink targetId="3f6f-0f5d-79ee-b67a" id="8fd7-8816-208a-ac5b" primary="false" name="AttachmentHostBarango"/>
+        <categoryLink name="SupportCon" hidden="false" id="a391-d300-b1a3-b483" targetId="cb1a-b3b3-3c7a-ff71" primary="false"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa5b-06b4-68da-b52e"/>
@@ -5168,7 +5184,7 @@
         <selectionEntry type="model" import="true" name="Qianshao" hidden="false" id="bf22-584b-f2e5-ad69">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="120"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="27ec-89e1-ca86-ae87" hidden="false" sortIndex="1" collapsible="true">
@@ -5218,6 +5234,10 @@
                       <costs>
                         <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
                       </costs>
+                      <modifiers>
+                        <modifier type="remove" value="f109-b8ed-138d-de5c" field="category"/>
+                        <modifier type="add" value="208e-6396-cb29-1ffc" field="category"/>
+                      </modifiers>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -5277,6 +5297,7 @@
         <categoryLink targetId="139e-c78f-43c0-2957" id="04b5-d92b-267b-beaa" primary="false" name="Airborne"/>
         <categoryLink targetId="278c-665b-5dbe-3aad" id="821a-bba3-5b4b-15a3" primary="false" name="Airship"/>
         <categoryLink targetId="4521-8e16-2d0f-7dc6" id="8921-0c43-e873-1a19" primary="false" name="Carrier"/>
+        <categoryLink name="SupportCon" hidden="false" id="10d9-3f96-fb2f-2d24" targetId="cb1a-b3b3-3c7a-ff71" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Qianshao" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="2567-2b11-e0ea-fbbf">
@@ -5336,7 +5357,7 @@
         <selectionEntry type="model" import="true" name="Ryujin" hidden="false" id="e31e-0103-a242-aba4" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="102"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="35f6-b260-9abc-2cad" hidden="false" collapsible="true">
@@ -5414,6 +5435,7 @@
         <categoryLink targetId="208e-6396-cb29-1ffc" id="1334-3447-6ab0-ea9b" primary="false" name="Japanese"/>
         <categoryLink targetId="c636-bf34-4555-99bc" id="efcd-7999-e15f-108b" primary="false" name="Underwater"/>
         <categoryLink targetId="c503-3bc7-2b45-91ef" id="12cf-2a59-d8d2-df4b" primary="false" name="Submarine"/>
+        <categoryLink name="SupportCon" hidden="false" id="d45b-b6d5-a667-98bb" targetId="cb1a-b3b3-3c7a-ff71" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Ryujin" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="6377-6b68-f57f-d392">
@@ -5459,7 +5481,7 @@ Hunter (Airborne)</characteristic>
         <selectionEntry type="model" import="true" name="Ofukoro" hidden="false" id="82dd-b9b9-dc0c-dd29" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="185"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db5e-6d12-bb09-f4b0" automatic="true"/>
@@ -5517,7 +5539,7 @@ Hunter (Airborne)</characteristic>
         </profile>
         <profile name="Ofukoro" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="d262-8f7e-040f-8e46">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Forward Deployment, Hunter (Surface), Mechanical Soul, Moon Pool, Pivot, Submarauder, Terrifying (Japanese), Unexpected Arrival</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Hunter (Surface), Mechanical Soul, Moon Pool, Pivot, Submarauder, Terrifying (Japanese), Unexpected Arrival</characteristic>
           </characteristics>
         </profile>
         <profile name="Ofukoro" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="cc57-8cc3-7f82-aba6">
@@ -5532,6 +5554,7 @@ Hunter (Airborne)</characteristic>
         <categoryLink targetId="208e-6396-cb29-1ffc" id="2651-0eee-8528-0fd9" primary="false" name="Japanese"/>
         <categoryLink targetId="c636-bf34-4555-99bc" id="cba0-575b-b914-e342" primary="false" name="Underwater"/>
         <categoryLink targetId="b1a6-61a9-0ae4-8b65" id="0e2f-e520-d57b-42fb" primary="false" name="Colossus"/>
+        <categoryLink name="SupportCon" hidden="false" id="578b-e769-a7d3-5e29" targetId="cb1a-b3b3-3c7a-ff71" primary="false"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dbc3-99bd-a084-9bd2"/>
@@ -5542,7 +5565,7 @@ Hunter (Airborne)</characteristic>
         <selectionEntry type="model" import="true" name="Wusong" hidden="false" id="9a48-f9db-f0ae-5745" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="95"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="15c4-5531-00c7-d163" hidden="false" collapsible="true">
@@ -5643,6 +5666,7 @@ Hunter (Airborne)</characteristic>
         <categoryLink targetId="4c75-eb12-bc3a-5a57" id="15ae-5fd6-d6f4-6034" primary="false" name="AttachmentHostHermes"/>
         <categoryLink targetId="6b3f-e031-ef8c-2768" id="cafe-864e-1ec3-17d2" primary="false" name="AttachmentHostWuhan"/>
         <categoryLink targetId="fa0d-5dc0-466d-17dc" id="d720-f353-0cdd-c9dd" primary="false" name="AttachmentHostLantau"/>
+        <categoryLink name="SupportCon" hidden="false" id="c4cb-f9a2-9b81-900f" targetId="cb1a-b3b3-3c7a-ff71" primary="false"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="14bf-fe29-e667-e0a5"/>
@@ -5656,7 +5680,7 @@ Hunter (Airborne)</characteristic>
         <selectionEntry type="model" import="true" name="Wuhan" hidden="false" id="a66e-e8ae-ad0d-dbf1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="80"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f81d-42e8-a6d9-cb3f" automatic="true"/>
@@ -5671,6 +5695,7 @@ Hunter (Airborne)</characteristic>
         <categoryLink targetId="1711-6069-af06-c5cc" id="31ad-8f45-f0e1-1b64" primary="true" name="Support"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="3cd9-5cd1-350d-12fa" primary="false" name="Ship"/>
         <categoryLink targetId="cb1d-41cb-d83d-fd73" id="2d20-b842-5622-fa8e" primary="false" name="Repair"/>
+        <categoryLink name="SupportCon" hidden="false" id="30d5-8696-681e-fb96" targetId="cb1a-b3b3-3c7a-ff71" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Wuhan" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="4d48-1844-1866-216b">
@@ -5708,7 +5733,7 @@ Hunter (Airborne)</characteristic>
         <selectionEntry type="model" import="true" name="Yanshi" hidden="false" id="aaad-0d28-0379-00e5" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="90"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="b882-5b81-467f-e38f" hidden="false" sortIndex="1" collapsible="true">
@@ -5795,6 +5820,12 @@ Hunter (Airborne)</characteristic>
         <categoryLink targetId="4c75-eb12-bc3a-5a57" id="0a36-4419-da13-1d74" primary="false" name="AttachmentHostHermes"/>
         <categoryLink targetId="6b3f-e031-ef8c-2768" id="e245-0a17-7476-3c1a" primary="false" name="AttachmentHostWuhan"/>
         <categoryLink targetId="fa0d-5dc0-466d-17dc" id="e9fb-aa08-5ce4-0068" primary="false" name="AttachmentHostLantau"/>
+        <categoryLink name="SupportCon" hidden="false" id="f6f9-c695-3cf2-116e" targetId="cb1a-b3b3-3c7a-ff71" primary="false"/>
+        <categoryLink name="NoLangsam" hidden="false" id="64e6-2142-8d28-15bc" targetId="4cfa-d98d-05ef-a274" primary="false"/>
+        <categoryLink name="NoAtomic" hidden="false" id="e399-fb1a-806d-5e40" targetId="6ad6-48d6-db5c-84e4" primary="false"/>
+        <categoryLink name="NoFury" hidden="false" id="ed13-5a03-b13a-f5fd" targetId="6c3a-1e64-fcc8-bb6c" primary="false"/>
+        <categoryLink name="NoRepulsion" hidden="false" id="8482-691d-1fc5-454d" targetId="401d-07db-b6e3-82a7" primary="false"/>
+        <categoryLink name="NoSolex" hidden="false" id="65f6-21f6-e57b-83b0" targetId="f579-ee32-2e81-d251" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Yanshi" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="a2c0-589c-43e6-8545">
@@ -5842,7 +5873,7 @@ Hunter (Airborne)</characteristic>
         <selectionEntry type="model" import="true" name="Yaoji" hidden="false" id="4909-1951-4166-b8d0" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="145"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="e84f-6dc8-f532-fdc4" hidden="false" collapsible="true">
@@ -5988,6 +6019,7 @@ Hunter (Airborne)</characteristic>
         <categoryLink targetId="4c75-eb12-bc3a-5a57" id="4d28-19f4-2597-5dbe" primary="false" name="AttachmentHostHermes"/>
         <categoryLink targetId="6b3f-e031-ef8c-2768" id="bfba-c536-6c8e-40fc" primary="false" name="AttachmentHostWuhan"/>
         <categoryLink targetId="fa0d-5dc0-466d-17dc" id="6b6f-eb98-2fab-af54" primary="false" name="AttachmentHostLantau"/>
+        <categoryLink name="SupportCon" hidden="false" id="4f48-523b-3c63-eaae" targetId="cb1a-b3b3-3c7a-ff71" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Yaoji" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="c611-6c56-9577-e0ec">
@@ -6028,7 +6060,7 @@ Hunter (Airborne)</characteristic>
         <selectionEntry type="model" import="true" name="Ziwei" hidden="false" id="2fad-eb97-e829-5c71">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="113"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="d649-7db2-a9e8-155c" hidden="false" collapsible="true">
@@ -6078,6 +6110,10 @@ Hunter (Airborne)</characteristic>
                       <costs>
                         <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
                       </costs>
+                      <modifiers>
+                        <modifier type="remove" value="f109-b8ed-138d-de5c" field="category"/>
+                        <modifier type="add" value="208e-6396-cb29-1ffc" field="category"/>
+                      </modifiers>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -6131,7 +6167,7 @@ Hunter (Airborne)</characteristic>
         <categoryLink targetId="f109-b8ed-138d-de5c" id="5bd7-36d0-8f0b-d153" primary="false" name="Chinese"/>
         <categoryLink targetId="139e-c78f-43c0-2957" id="e587-2d9d-850c-e245" primary="false" name="Airborne"/>
         <categoryLink targetId="278c-665b-5dbe-3aad" id="77fa-6ec8-ec05-283e" primary="false" name="Airship"/>
-        <categoryLink targetId="f3a0-2e6a-8df0-bac9" id="16ce-8453-5402-cd14" primary="false" name="ScoutCon"/>
+        <categoryLink name="SupportCon" hidden="false" id="5a29-9a28-4509-10bd" targetId="cb1a-b3b3-3c7a-ff71" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Ziwei" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="4f3a-c347-b280-1f04">
@@ -6177,7 +6213,7 @@ Hunter (Airborne)</characteristic>
         <selectionEntry type="model" import="true" name="Koromodako" hidden="false" id="8195-2955-2a0b-cc0a" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="95"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="69d1-e07e-b907-aa3f" includeChildSelections="false" automatic="true"/>
@@ -6261,7 +6297,7 @@ Hunter (Airborne)</characteristic>
         <selectionEntry type="model" import="true" name="Tianlong" hidden="false" id="0e6f-6736-343f-5465">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="176"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="46cf-d7d7-4048-163f" hidden="false" collapsible="true">
@@ -6311,6 +6347,10 @@ Hunter (Airborne)</characteristic>
                       <costs>
                         <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
                       </costs>
+                      <modifiers>
+                        <modifier type="remove" value="f109-b8ed-138d-de5c" field="category"/>
+                        <modifier type="add" value="208e-6396-cb29-1ffc" field="category"/>
+                      </modifiers>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -6458,7 +6498,7 @@ Hunter (Airborne)</characteristic>
         <selectionEntry type="model" import="true" name="Umibozu" hidden="false" id="b439-bcca-ba3f-1ea4" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="105"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="900a-cc1a-7968-dabe" includeChildSelections="false" automatic="true"/>
@@ -6533,7 +6573,7 @@ Hunter (Airborne)</characteristic>
         <selectionEntry type="model" import="true" name="Lantau" hidden="false" id="a979-7bd7-137e-575a" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="78"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Light Hardpoint: PSA" id="956d-dc00-9d84-9f03" hidden="false">
@@ -6641,7 +6681,7 @@ Hunter (Airborne)</characteristic>
         <selectionEntry type="model" import="true" name="Magwayen" hidden="false" id="0ba3-4c3b-fea5-9a8c" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="65"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="af3b-8b62-72b1-4f5c" includeChildSelections="false" automatic="true"/>
@@ -6704,7 +6744,7 @@ Hunter (Airborne)</characteristic>
             <modifier type="append" value="Auxiliary Mine Layer (3)
 " field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="f7b2-5bec-9d83-74aa" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="f7b2-5bec-9d83-74aa" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -7318,17 +7358,46 @@ If they do so, they must discard another Victory &amp; Valour Card from their Ha
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="14fc-3863-c88a-43dc"/>
           </constraints>
         </categoryLink>
+        <categoryLink name="Scout" hidden="false" id="5850-0edc-535d-f6a4" targetId="28fc-32cc-7e9c-28b4">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="65c5-57ac-c3f8-2b44"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Support" hidden="false" id="ac40-3fdc-fd83-da60" targetId="1711-6069-af06-c5cc">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6fde-394d-855b-5527"/>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="29a9-5bb2-6dbb-d9ec"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="29a9-5bb2-6dbb-d9ec"/>
           </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="29a9-5bb2-6dbb-d9ec">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="4e89-7536-f56d-d1e7" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="0" field="6fde-394d-855b-5527">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="4e89-7536-f56d-d1e7" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="Logistical" hidden="false" id="b8d3-f607-ae64-8313" targetId="366f-016b-5f80-0c09">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1131-e448-2995-91e6"/>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="d03f-9aa2-0061-4f44"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="d03f-9aa2-0061-4f44"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="0" field="1131-e448-2995-91e6">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="cb1a-b3b3-3c7a-ff71" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="d03f-9aa2-0061-4f44">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="cb1a-b3b3-3c7a-ff71" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="Airborne" hidden="false" id="6197-5061-bf2e-0c61" targetId="139e-c78f-43c0-2957">
           <constraints>
@@ -7542,4 +7611,7 @@ If they do, they convert all Standard Counters in the Action Roll to Standard St
       </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule name="test6" id="2919-33e5-a5a5-bd4d" hidden="false"/>
+  </sharedRules>
 </catalogue>

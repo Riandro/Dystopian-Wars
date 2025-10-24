@@ -9327,4 +9327,7 @@ If a model already has the Defensive (X ) system then add 1 to the value of X.<
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Rules" id="da5d-f2b3-8a90-4163" targetId="8551-5b95-4980-851f"/>
   </catalogueLinks>
+  <sharedRules>
+    <rule name="test10" id="a792-292a-e40c-85e0" hidden="false"/>
+  </sharedRules>
 </catalogue>

@@ -576,7 +576,89 @@ counted. 
 Attack actions made with **Assault**, **Bomb**, or **Submerged** Weapons ignore Energy Walls.</description>
     </rule>
     <rule name="Magma Cast Generator" id="37db-427a-0ea2-0ebf" hidden="false">
-      <description>This model’s unit can make a Magma Sear Special Action, as described in the Empire ORBAT</description>
+      <description>This model’s unit can make a Magma Sear Special Action.
+
+A Magma Sear is a Special Action which can be made by any unit that contains at least one model with a Magma Cast Generator system.
+
+
+When a unit makes a Magma Sear action, its Admiral uses the following process.
+
+
+1. NOMINATE PARTICIPATING MODELS
+The Admiral nominates any number of models in the active unit that will Participate in the action. A model can only Participate if it has a Magma Cast Generator.
+
+
+2. MAKE THE MAGMA SEAR ROLL
+The active Admiral rolls a number of Action Dice equal to the number of Participating models. Then, they choose one die, and discard the others. This die will determine the Magma Mass rating and Eruption Range, which are used in the following steps.
+
+
+If all of the dice result in Blanks, the action ends immediately.
+
+
+&lt;table&gt;&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td&gt;ACTION&lt;br&gt;DICE&lt;/td&gt;
+    &lt;td&gt;MAGMA&lt;br&gt;MASS&lt;/td&gt;
+    &lt;td&gt;ERUPTION&lt;br&gt;RANGE&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Exploding Strike&lt;br&gt;&lt;/td&gt;
+    &lt;td&gt;Mass1 or Mass 2&lt;/td&gt;
+    &lt;td&gt;30&quot;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Standard/Heavy Strike&lt;/td&gt;
+    &lt;td&gt;Mass 1&lt;/td&gt;
+    &lt;td&gt;20&quot;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Standard/Heavy Counter&lt;/td&gt;
+    &lt;td&gt;Mass 1&lt;/td&gt;
+    &lt;td&gt;10&quot;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+3. CREATE OR EXPAND A MAGMA FORMATION
+The active Admiral chooses one of the following options:
+
+
+CREATE NEW MAGMA FORMATION
+The Admiral places a Magma Formation in the Play Area. 
+It must have a Mass rating value that matches the Magma Mass rating, and it must be placed so that it is within the Eruption Range of at least one Participating model.
+
+
+A Magma Formation cannot be placed in contact with another Terrain feature, a model or a marker. 
+
+EXPAND EXISTING MAGMA FORMATION
+The admiral chooses an existing Magma Formation that is within the Eruption Range of at least one Participating model.
+
+
+That Formation’s Mass is increased by the Magma Mass rating, to a maximum of 4. 
+
+
+
+
+4. RESOLVE MAGMA ERUPTIONS
+Each model (friend or foe) that is within Proximity of the Magma Formation that was Created or Expanded is targeted by a Magma Eruption.
+The active Admiral makes a single Action Roll, with no Resistance Roll. The Resolve Outcomes step is resolved separately for each target model. 
+
+
+&lt;table&gt;&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td&gt;ACTION&lt;br&gt;POOL&lt;/td&gt;
+    &lt;td&gt;6 Action Dice, plus additional dice equal to the Mass of the Magma Formation. &lt;br&gt;For example, if the Magma Formation has a Mass of 3, the Action Pool consists of 9 dice.&lt;br&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;SUCCESS&lt;br&gt;THRESHOLD&lt;/td&gt;
+    &lt;td&gt;The Armour rating of the Target Model.&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+Each Target Model suffers 1 Damage for each Success scored in its Resolve Outcomes step. Any model that suffers at least 1 Damage also gains a level of Disorder and a Structural Failure Critical Damage Effect.</description>
     </rule>
     <rule name="Power Transfer Generator" id="dda6-bda3-beba-cf21" hidden="false">
       <description>This is a Generator.
@@ -1018,8 +1100,17 @@ A Token with this SRS Property cannot be removed as a result of a Flak Barrage 
 
 In the Clean Up step of the End Phase, Tokens with this SRS Property are removed from play without performing Aerial Reconnaissance.</description>
     </rule>
-    <rule name="Surgical Strike" id="81e1-55ee-1baa-4ed4" hidden="false">
-      <description>In the Resolve Critical Damage step of an Attack Run mission, when allocating Critical Damage Dice to Attack Run Targets, each Token in the Stack with this SRS Property causes one Critical Damage Die of the listed type to inflict two instances of that Effect.</description>
+    <rule name="Structures" id="81e1-55ee-1baa-4ed4" hidden="false">
+      <description>A Structure is a man-made terrain feature, such as a maintenance platform or drilling rig.
+
+
+All parts of the play area within 1” of a Structure count as Treacherous Water.
+
+
+STRUCTURES UNDER FIRE
+A Structure can be chosen as the target of an Attack action, as though it were an enemy model, and is treated as having an Armour rating of 3, unless the Admirals agree otherwise. 
+If a Structure accumulates Damage equal to its Mass, it is removed from play and replaced with a Wreck Marker.</description>
+      <alias>Structure</alias>
     </rule>
     <rule name="Superior Mine Clearance" id="0fcb-d4b1-dba1-e455" hidden="false">
       <description>After rolling the Action Dice for a Mine Clearance Mission, the active Admiral can convert one Heavy Strike into an Exploding Strike for each Token in the Stack with this SRS Property.</description>
@@ -1302,10 +1393,37 @@ If one or more dice show a Hazard result, the Initial Target suffers one Criti
 This is a Critical Damage Quality. 
 If multiple different Critical Damage Qualities apply to an Attack, the Admiral makes a separate roll for each one.</description>
     </rule>
-    <rule name="Guardian Generator" id="ab9c-f837-dc7d-f655" hidden="false">
-      <description>This is a Generator.
+    <rule name="Guardian Pool" id="ab9c-f837-dc7d-f655" hidden="false">
+      <description>THE GUARDIAN POOL
+At the start of each Round’s Activation Phase, the Crown Admiral gathers a pool of Action Dice called the Guardian Pool. 
 
-This model contributes X Action Dice to its Admiral’s Guardian Pool, as described in the Crown ORBAT</description>
+
+The Guardian Pool is made up of all the dice contributed by models with the Guardian Generator (X) system.
+
+
+The Guardian Pool should be kept to one side of the Play Area, next to the Admiral’s Victory &amp; Valour deck.
+
+
+If a model with the Guardian Generator (X ) system is Destroyed, Withdraws, or gains a System Failure Critical Damage Effect, X Action Dice are immediately removed from the Guardian Pool (If there are fewer than X dice in the pool, they are all removed.)
+
+
+In the Clean Up step of the End Phase, any remaining dice in the Guardian Pool are discarded.
+
+
+USING THE GUARDIAN POOL
+When a model with the Guardian Generator (X ) system is targeted by an Attack action, its Admiral can remove a number of dice from the Guardian Pool and add them to their Resistance Pool as Bonus Dice. 
+This has no effect against Assault or Submerged weapons.
+
+
+The maximum number of Bonus Dice that can be added to a Resistance Pool in this way is equal to the model’s Defences rating, taking into account any Modifiers that currently apply.
+
+
+In addition, if at least one Action Die from the Guardian Pool is added as a Bonus Die, the Admiral can Re-roll any Blank results in the Resistance Roll.
+
+
+
+</description>
+      <alias>The Guardian Pool</alias>
     </rule>
     <rule name="Defensive" id="348e-56b4-81eb-50ca" hidden="false">
       <description>Any friendly model that is within 4” of this model, and has the same Positional Trait, is Protected by it. 
@@ -2254,8 +2372,45 @@ Submerged Weapons cannot Contribute to Attack actions against Surfacing models.
     <rule name="Landing Party Support" id="e328-0755-b1bf-539d" hidden="false">
       <description>If this model is within 4” of a Territory at the end of its Movement Step, its Admiral can either add one token to an existing friendly Landing Party stack on that Territory, or remove one Token from an enemy Landing Party stack on that Territory.</description>
     </rule>
+    <rule name="Magma Formations" id="1568-b851-997f-0e80" hidden="false">
+      <alias>Magma Formation</alias>
+      <description>A Magma Formation is a special type of Terrain Feature that can be created by a Magma Sear action, as described below.
+
+
+Magma Formations follow the rules for Icebergs but are treated as having an Armour rating of 5 instead of 3.</description>
+    </rule>
+    <rule name="Iceberg" id="c841-bedc-1df0-5d65" hidden="false">
+      <alias>Iceburgs</alias>
+      <description>Icebergs are a common sight in certain parts of the ocean, but can appear elsewhere thanks to the strange technologies of the Dystopian Age.
+
+
+All parts of the play area that are within 1” of an Iceberg count as Treacherous Water.
+
+
+
+
+ICEBERGS UNDER FIRE
+An Iceberg can be chosen as the target of an Attack action, as though it were an enemy model, and is treated as having an Armour rating of 3 unless the Admirals agree otherwise. 
+
+
+An Iceberg’s Mass is reduced by 1 for each point of Damage it suffers; this can be represented with Damage tokens, or by replacing the Iceberg with a smaller scenery piece. 
+
+
+If its Mass reaches 0, the Iceberg is removed from play.</description>
+    </rule>
+    <rule name="Surgical Strike" id="a4b1-7801-0e0e-e208" hidden="false">
+      <description>In the Resolve Critical Damage step of an Attack Run mission, when allocating Critical Damage Dice to Attack Run Targets, each Token in the Stack with this SRS Property causes one Critical Damage Die of the listed type to inflict two instances of that Effect.</description>
+    </rule>
+    <rule name="Guardian Generator" id="3f03-e187-4892-ebf9" hidden="false">
+      <description>This is a Generator.
+
+This model contributes X Action Dice to its Admiral’s Guardian Pool.</description>
+    </rule>
   </sharedRules>
   <publications>
     <publication name="DW4-Rules-Glossary-v4.0_W.pdf" id="14a6-3b96-497a-488d" hidden="false" publisherUrl="https://www.warcradle.com/assets/warcradleGames/dystopianWars/pdfs/essentials/DW4-Rules-Glossary-v4.0_W.pdf" shortName="Rules glossary" publisher="V4.00 Beta"/>
   </publications>
+  <rules>
+    <rule name="tes2" id="7d79-098f-3171-ac05" hidden="false"/>
+  </rules>
 </catalogue>

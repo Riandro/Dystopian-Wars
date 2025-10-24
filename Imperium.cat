@@ -21,7 +21,7 @@
             <selectionEntry type="model" import="true" name=" Sekundar" hidden="false" id="9e95-79bb-7668-4264" collapsible="true" sortIndex="2">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="220"/>
-                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
               </costs>
               <categoryLinks>
                 <categoryLink name="Escort" hidden="false" id="f4e3-77dd-5845-a63d" targetId="d576-4983-e8cf-e556" primary="false"/>
@@ -30,7 +30,7 @@
             <selectionEntry type="model" import="true" name=" Primar" hidden="false" id="2e00-a534-328d-7bb3" collapsible="true" sortIndex="1">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="220"/>
-                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
               </costs>
               <categoryLinks>
                 <categoryLink name="Escort" hidden="false" id="74bc-bf81-e4e0-c4e7" targetId="d576-4983-e8cf-e556" primary="false"/>
@@ -8683,7 +8683,7 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
             <selectionEntry type="model" import="true" name=" Sekundar" hidden="false" id="21bd-fb8e-d40b-df74" collapsible="true" sortIndex="2">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="220"/>
-                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
               </costs>
               <categoryLinks>
                 <categoryLink name="Escort" hidden="false" id="0f06-ebf1-cad3-83bc" targetId="d576-4983-e8cf-e556" primary="false"/>
@@ -8692,7 +8692,7 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
             <selectionEntry type="model" import="true" name=" Primar" hidden="false" id="8f9e-cba7-0747-eb66" collapsible="true" sortIndex="1">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="220"/>
-                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
               </costs>
               <categoryLinks>
                 <categoryLink name="Escort" hidden="false" id="0ce7-5bd5-a385-6fb3" targetId="d576-4983-e8cf-e556" primary="false"/>
@@ -10434,4 +10434,7 @@ If the effect is successfully enacted, each Scions of Jutland model that Partici
       </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule name="test8" id="f953-b64e-1c2b-9bbb" hidden="false"/>
+  </sharedRules>
 </catalogue>

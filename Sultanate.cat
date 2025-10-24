@@ -8252,7 +8252,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="65"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Defensive Mines" hidden="false" id="228d-19a0-c6cc-8098" sortIndex="2">
@@ -9703,4 +9703,7 @@ Alsaqr Skybarque units in this Battlefleet replace the Attachment (Turkish) prop
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule name="test9" id="a502-3b29-b2c9-ee18" hidden="false"/>
+  </sharedRules>
 </catalogue>
