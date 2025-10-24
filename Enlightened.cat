@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="48c3-c7a6-6a0d-814a" name="Enlightened" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="48c3-c7a6-6a0d-814a" name="Enlightened" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="1" revision="1" authorUrl="https://github.com/Riandro" authorContact="https://github.com/Riandro" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Archimedes Vault Ship" hidden="false" id="ea77-4492-88b0-3fd5" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Archimedes" hidden="false" id="9332-63d5-779e-ef62" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="390"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="0add-2328-cc7b-d080" hidden="false" sortIndex="1" collapsible="true">
@@ -44,7 +44,7 @@
                         <profile name="Caloric Oscillator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9671-bf07-2f71-ef3b">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Torrent (2)**, Agitation, Hazard (2)</characteristic>
@@ -70,8 +70,8 @@
                         <profile name="Sturginium Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9b94-c3d0-7ef6-198e">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2 MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -117,7 +117,7 @@
                         <profile name="Caloric Oscillator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="3799-e1c0-a5bb-bdd7">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">APS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Torrent (2)**, Agitation, Hazard (2)</characteristic>
@@ -143,8 +143,8 @@
                         <profile name="Sturginium Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7b8a-ab08-7518-2398">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">APS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2 MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -190,7 +190,7 @@
                         <profile name="Caloric Oscillator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7bdf-8b22-d224-84c0">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Torrent (2)**, Agitation, Hazard (2)</characteristic>
@@ -216,8 +216,8 @@
                         <profile name="Sturginium Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="86b5-c3e5-32a7-6ccb">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2 MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -263,7 +263,7 @@
                         <profile name="Caloric Oscillator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="14ac-be65-fa68-6170">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Torrent (2)**, Agitation, Hazard (2)</characteristic>
@@ -289,8 +289,8 @@
                         <profile name="Sturginium Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="6b92-0382-f1ab-efb6">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2 MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -419,8 +419,8 @@ Priority Signals, Turbo Encabulation Drive" field="a14c-99af-eb72-2d3d">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Chione" hidden="false" id="3348-1bd3-d199-a8b4" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="270"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="360"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <profiles>
             <profile name="Chione" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="75c9-900f-e2d0-4f99">
@@ -564,7 +564,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Daedalus" hidden="false" id="77d8-4c3e-ea45-406d" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="245"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="93de-4d19-25d0-c660" hidden="false" collapsible="true">
@@ -602,7 +602,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Caloric Oscillator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="cf5c-fbba-9457-3e1f">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Torrent (2)**, Agitation, Hazard (1)</characteristic>
@@ -628,8 +628,8 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Sturginium Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ec7d-5fb3-54a3-d2c0">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2 MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -688,8 +688,8 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Sturginium Atomiser" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="866e-9926-f548-ad38">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3 MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3 MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -912,7 +912,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Descartes" hidden="false" id="2082-a8f2-7277-0239" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="255"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="e390-a257-8903-2975" hidden="false" sortIndex="1" collapsible="true">
@@ -1204,7 +1204,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Hypatia" hidden="false" id="84e6-4526-de17-4e56" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="260"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="04c2-1043-eab5-0ca4" hidden="false" sortIndex="1" collapsible="true">
@@ -1436,10 +1436,6 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4556-e12c-f297-aba6-min" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4556-e12c-f297-aba6-max" includeChildSelections="false" automatic="true"/>
-          </constraints>
           <categoryLinks>
             <categoryLink targetId="2535-8da6-da28-a82d" id="65c0-b3d9-9e1c-0783" primary="false" name="GenAmount3"/>
           </categoryLinks>
@@ -1507,7 +1503,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Icarus" hidden="false" id="2f41-0e6f-6463-e61d" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="240"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="1de3-6bde-ae87-cb77" hidden="false" sortIndex="1" collapsible="true">
@@ -1734,7 +1730,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Kepler" hidden="false" id="8a5d-e3f1-0b74-9d9b" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="215"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="a165-13ac-c671-710f" hidden="false" sortIndex="1" collapsible="true">
@@ -1772,7 +1768,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Caloric Oscillator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7ad3-84e6-5914-8cd9">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">APS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Torrent (2)**, Agitation, Hazard (1)</characteristic>
@@ -1798,8 +1794,8 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Sturginium Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="8201-a6f2-2f09-0cb0">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">APS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2 MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -1858,8 +1854,8 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Sturginium Atomiser" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="829f-36f5-a102-c33d">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3 MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3 MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -1905,7 +1901,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Caloric Oscillator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="304b-9f52-33fb-dfa8">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Torrent (2)**, Agitation, Hazard (1)</characteristic>
@@ -1931,8 +1927,8 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Sturginium Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ec7f-1a82-421d-7f68">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2 MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -2027,7 +2023,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Loew" hidden="false" id="83a8-6a59-dc5f-e36b" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="242"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="e057-18e2-18c1-e526" hidden="false" sortIndex="1" collapsible="true">
@@ -2160,7 +2156,8 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </profile>
         <profile name="Loew" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="69d0-e555-d8e2-3059">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flak Barrage (8), Hydrophone Relay, Superior Void-Engine</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flak Barrage (8), Hydrophone Relay, Superior Void-Engine,
+Turbo Encabulation Drive</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2191,7 +2188,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Nansen" hidden="false" id="4e0d-4262-c9dc-dce0" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="365"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="88b4-cf08-96b7-6645" hidden="false" sortIndex="1" collapsible="true">
@@ -2302,7 +2299,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Caloric Oscillator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4e71-fbe7-eaf1-ed3a">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Torrent (2)**, Agitation, Hazard (2)</characteristic>
@@ -2328,8 +2325,8 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Sturginium Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="bf29-73fb-4112-0fe8">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2 MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -2583,7 +2580,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Thule" hidden="false" id="9881-29cd-9837-6e3a">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="360"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="12"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="b8b5-19ea-d070-ebe0" hidden="false" collapsible="true">
@@ -2707,7 +2704,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </profile>
         <profile name="Thule" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="6b5d-0ff9-5d4e-1ed9">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Boarding Parties (10), Carrier (8), Encompassing Broadsides, Mobile, Sky Commandos (10), SRS (Scythe Fighters)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Boarding Parties (10), Carrier (8), Encompassing Broadsides, Fusillade, Haunebu Cascade, Mobile, Sky Commandos (10), SRS (Scythe Fighters)</characteristic>
           </characteristics>
         </profile>
         <profile name="Thule" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="2cbd-a2fe-23e3-f710">
@@ -2732,7 +2729,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Xenophon" hidden="false" id="d19b-b46e-3d77-42db" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="200"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="046d-425c-49fa-f9f3" hidden="false" sortIndex="1" collapsible="true">
@@ -3038,7 +3035,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Antarctica" hidden="false" id="b368-811e-a1f1-ee78" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="138"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="5522-a182-63cc-eb34" hidden="false" collapsible="true">
@@ -3163,7 +3160,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
                             <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2 MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -3318,7 +3315,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Copernicus" hidden="false" id="f4c8-e2cf-7ee7-035c" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="128"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="667b-bc21-01fa-e4ef" hidden="false" collapsible="true">
@@ -3370,7 +3367,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
                             <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2 MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -3534,7 +3531,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Lovelace" hidden="false" id="0a13-440e-61b5-d88a" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="115"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="6705-0ed4-1126-8c5e" hidden="false" sortIndex="1" collapsible="true">
@@ -3572,7 +3569,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Caloric Oscillator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4837-a887-3104-2bca">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Torrent (2)**, Agitation, Hazard (1)</characteristic>
@@ -3598,8 +3595,8 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Sturginium Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="49fd-736e-dec8-193a">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2 MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -3645,7 +3642,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Caloric Oscillator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="30bd-356e-e978-1424">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Torrent (2)**, Agitation, Hazard (1)</characteristic>
@@ -3671,8 +3668,8 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Sturginium Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="46a0-7b56-6b7e-cb5b">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2 MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -3789,7 +3786,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Tacitus" hidden="false" id="b47b-84f9-25ae-1cf1" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="140"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="9023-23bd-cff4-965b" hidden="false" sortIndex="1" collapsible="true">
@@ -3827,7 +3824,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Caloric Oscillator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="dfee-d0a9-85c3-7312">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Torrent (2)**, Agitation, Hazard (1)</characteristic>
@@ -3853,8 +3850,8 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Sturginium Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="3be6-62ae-a658-b6a3">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2 MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -3900,7 +3897,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Caloric Oscillator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="322b-d097-d2f9-5dd0">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Torrent (2)**, Agitation, Hazard (1)</characteristic>
@@ -3926,8 +3923,8 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Sturginium Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e5d7-8720-b550-b278">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2 MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -4054,7 +4051,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Valtar" hidden="false" id="7816-051d-92f3-40c7">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="141"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="62de-25c1-ee4c-29fc" hidden="false" sortIndex="1" collapsible="true">
@@ -4105,8 +4102,8 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Sturginium Atomiser" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="0b8f-9aa9-eac8-08dc">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3 MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3 MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2 MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -4204,7 +4201,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Adamski" hidden="false" id="9ddf-5d5f-1a39-63b8" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="139"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
           </costs>
           <profiles>
             <profile name="X-Ray Laser Bank" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="f47f-1d6c-8bf5-60d8">
@@ -4265,7 +4262,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Merian" hidden="false" id="fd92-67ec-5f7e-9938" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="42"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="1"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="29a5-f96a-d411-4f5b" hidden="false" collapsible="true">
@@ -4303,7 +4300,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Caloric Oscillator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="70e2-0d23-3b75-7f2a">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Torrent (2)**, Agitation, Hazard (1)</characteristic>
@@ -4329,8 +4326,8 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Sturginium Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9f36-0874-9ba5-2a39">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2 MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -4421,7 +4418,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Ketos" hidden="false" id="7281-bd59-7093-e5aa">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="166"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5e0f-2877-1cff-71d6" includeChildSelections="false" automatic="true"/>
@@ -4492,7 +4489,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Lotan" hidden="false" id="02f8-99cf-d156-1970">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="152"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aad9-93f9-3b0c-9051" includeChildSelections="false" automatic="true"/>
@@ -4563,7 +4560,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Stiletto" hidden="false" id="88d2-b270-4251-0782" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="96"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="1bbb-8fd4-c71e-c36c" hidden="false" sortIndex="1" collapsible="true">
@@ -4601,7 +4598,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Caloric Oscillator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="990b-6ba1-9f1d-583b">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Torrent (2)**, Agitation, Hazard (1)</characteristic>
@@ -4627,8 +4624,8 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Sturginium Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="093b-c488-a64e-4e39">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2 MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -4724,7 +4721,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           <modifiers>
             <modifier type="append" value="Mindless Storm" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="680e-4e04-05ff-368f" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="680e-4e04-05ff-368f" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -4754,7 +4751,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Amo" hidden="false" id="bef9-f500-02e3-3efd" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="32"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <profiles>
             <profile name="Micro Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="49dc-b89c-1f50-27f8">
@@ -4824,7 +4821,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Bellerophon" hidden="false" id="40b2-d1c2-0443-ae45" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="180"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="e939-1f8e-9cb2-a57a" hidden="false" sortIndex="1" collapsible="true">
@@ -4980,7 +4977,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Leibniz" hidden="false" id="3db7-1fa0-a001-86d6" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="65"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="b222-07b4-8eed-ac9e" hidden="false" sortIndex="1" collapsible="true">
@@ -4992,8 +4989,8 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9515-b1ad-b2c3-301f">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
                           </characteristics>
@@ -5006,7 +5003,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
                             <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
                           </characteristics>
@@ -5044,7 +5041,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Caloric Oscillator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="66f2-7c02-b2c4-1301">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Torrent (2)**, Agitation, Hazard (1)</characteristic>
@@ -5057,8 +5054,8 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Sturginium Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="cf75-bdb8-0811-096f">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2 MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -5181,7 +5178,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Newton" hidden="false" id="d894-c24a-e26e-ec28" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="118"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3c91-fa30-acf4-3795" includeChildSelections="false" automatic="true"/>
@@ -5212,7 +5209,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Blast (3), Intensive, System Faliure (2)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Blast (3), Intensive, System Failure (2)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5251,7 +5248,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </profile>
         <profile name="Newton" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="45e5-7149-d152-4209">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Superior Void-Engine</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Superior Void-Engine, Turbo Encabulation Drive</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5272,7 +5269,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Origen" hidden="false" id="b3b4-3a14-f5bf-f0a8" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="82"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <profiles>
             <profile name="Advanced Aetheric Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4fe5-163d-04c4-8bbf">
@@ -5348,7 +5345,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Plinius" hidden="false" id="614d-df71-cfab-5b63" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="122"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="172f-0b37-961f-3b1e" includeChildSelections="false" automatic="true"/>
@@ -5438,7 +5435,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Quintilian" hidden="false" id="e660-cb39-a452-32e7" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="140"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <profiles>
             <profile name="Weirding Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="25f5-ca47-32bd-fb35">
@@ -5550,7 +5547,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Vesalius" hidden="false" id="fb6e-7ab9-00a8-5348" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="130"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <profiles>
             <profile name="Advanced Aetheric Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="01b8-8eba-e7b9-14de">
@@ -5633,7 +5630,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Zumeena" hidden="false" id="efa3-c7ef-ec5c-4133" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="95"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <profiles>
             <profile name="Advanced Aetheric Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="0982-f295-8742-19c9">
@@ -5717,7 +5714,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Aronnax" hidden="false" id="0ae4-1dde-5fc3-7de3">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="159"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <profiles>
             <profile name="Precognisant Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e687-eb88-2e9d-2fa3">
@@ -5795,7 +5792,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Diogenes" hidden="false" id="6da7-2f3b-10fe-058e">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="38"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <profiles>
             <profile name="Weirding Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2cc1-d6e4-014a-e231">
@@ -5865,7 +5862,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Praxilla" hidden="false" id="6d31-d3e7-2095-d28c">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="34"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0db9-6902-8e64-3f14" includeChildSelections="false" automatic="true"/>
@@ -5917,7 +5914,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Euclid" hidden="false" id="8aaf-f2af-4977-6018">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="65"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="e182-4b4c-c3e6-5687" hidden="false" collapsible="true">
@@ -5955,7 +5952,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Caloric Oscillator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7df6-8b80-4bd3-a91b">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Torrent (2)**, Agitation, Hazard (1)</characteristic>
@@ -5981,8 +5978,8 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <profile name="Sturginium Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="16aa-a3f5-09c5-a98c">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2 MAS</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2 MAS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">MAS</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">MAS</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (1)</characteristic>
                           </characteristics>
@@ -6054,7 +6051,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Pytheus" hidden="false" id="854f-cd35-e9a6-6ecf">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="60"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0dfb-db8c-128c-3ddd" includeChildSelections="false" automatic="true"/>
@@ -6108,7 +6105,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Claudius" hidden="false" id="3fde-83dc-0f80-fcc5" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="95"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
           </costs>
           <profiles>
             <profile name="Weirding Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a971-6a2e-130f-79ca">
@@ -6207,7 +6204,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <selectionEntry type="model" import="true" name="Daimler" hidden="false" id="25fc-c1df-77ef-d8a3" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="65"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b8ca-d2fa-baa8-86b6" automatic="true"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="8551-5b95-4980-851f" name="Rules Glossary" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="8551-5b95-4980-851f" name="Rules Glossary" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="1" revision="4" authorUrl="https://github.com/Riandro" authorContact="https://github.com/Riandro" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedRules>
     <rule name="Obscured" id="df6c-5496-1e28-46da" hidden="false">
       <description>**OBSCURED TARGETS**
@@ -141,7 +141,7 @@ The type(s) of SRS tokens that this model can launch is determined by other Pro
 
 If a model can launch more than one type of SRS token then these can be launched in any combination, so long as the total number of Tokens launched does not exceed X.
 
-If an Underwater model has this trait, it cannot resolve an SRS Launch unless it is surfacing. </description>
+If an Underwater model has this trait, it cannot resolve an SRS Launch unless it is surfacing.</description>
     </rule>
     <rule name="Diophantus Chaos-Orb" id="befb-91b8-d4dd-bade" hidden="false">
       <description>In the Draw Cards step of the Ready Phase, the controlling Admiral draws 2 Bonus Cards if they have at least one model with this System in the Play Area.
@@ -489,9 +489,7 @@ For the duration of the Action, all Contributing weapons that have the Solex (X
 After the Action has been resolved, the active Admiral chooses one model in the unit with a Solex Generator. That model gains 1 Disorder. If it already has 3 levels of Disorder, it suffers 1 Damage instead.
 
 
-If the Unit Benefit was granted by a model in a different unit - for example, a model with the Generator Ship system - that model gains Disorder instead.
-
-</description>
+If the Unit Benefit was granted by a model in a different unit - for example, a model with the Generator Ship system - that model gains Disorder instead.</description>
     </rule>
     <rule name="Trident Generator" id="31d9-23c6-6db8-a0ee" hidden="false">
       <description>This is a Generator. 
@@ -515,7 +513,47 @@ In the Clean Up step of the End Phase, Generator Effect tokens are removed from 
 If any model in this unit is the target of an Attack action, add 4 Bonus Dice to the Resistance Pool.</description>
     </rule>
     <rule name="Cryo Generator" id="400c-a9a8-9bc3-c329" hidden="false">
-      <description>This model’s unit can make a Cryogenic Blast Special Action, as described in the Commonwealth ORBAT.</description>
+      <description>A Cryogenic Blast is a Special Action which can be made by any unit that contains at least one model with a Cryo Generator system. 
+
+**RESOLVING A CRYOGENIC BLAST ACTION**
+When a unit makes a Cryogenic Blast action, its Admiral uses the following process.
+
+
+1. CHOOSE TARGET
+The Admiral chooses one of the following:
+• An enemy Surface model.
+• A specific point of Open Water that is at least
+1” away from any models, Markers or Terrain Features. (Mark this point with a Generator Effect token).
+• An Iceberg with a Mass lower than 5.
+
+
+2. NOMINATING PARTICIPATING MODELS
+The Admiral nominates any number of models in the active unit that will Participate in the action. A model can only Participate if it has a Cryo Generator, it is within 10” of the Target, and the Target is Visible to it. (For the purposes of determining if a point of Open Water is Visible, it is treated as having a Mass rating of 0.)
+If no models can Participate, another Target must be chosen.
+
+
+3. MAKE THE CRYOGENIC BLAST ROLL
+The active Admiral rolls a number of Action Dice equal to the total Mass ratings of all Participating models.
+Each Heavy Strike and Exploding Strike rolled scores one Success. (Note that this is not an Action Roll, so Exploding Strikes do not allow additional dice to be rolled.)
+If no Successes are scored, the Action ends.
+
+
+4. RESOLVE OUTCOME
+The outcome of the Cryogenic Blast roll depends on the
+target that was chosen.
+
+
+ENEMY SURFACE MODEL
+For each Success that was scored, the target suffers 1 Critical Damage.
+
+
+OPEN WATER
+The active Admiral replaces the Generator Effect token with an Iceberg. Its Mass cannot exceed the number of Successes rolled.
+The Iceberg must be placed within 1” of the Generator Effect token, and not within Proximity of any models or other Terrain Features.
+
+
+ICEBERG
+The Iceberg’s Mass is increased by 1 for each Success, up to a maximum Mass of 5.</description>
     </rule>
     <rule name="Great Wall Generator" id="e0e8-beca-e662-2231" hidden="false">
       <description>This is a Generator.
@@ -1276,7 +1314,7 @@ This model contributes X Action Dice to its Admiral’s Guardian Pool, as descri
 This grants the friendly model a +X Modifier to its Defences rating.
 
 
-Multiple models with this System can Protect the same friendly model. When this is the case, the Modifiers are added together. </description>
+Multiple models with this System can Protect the same friendly model. When this is the case, the Modifiers are added together.</description>
     </rule>
     <rule name="Deathblow" id="041e-a73a-127a-e91c" hidden="false">
       <description>When declaring an Attack action with a unit that has at least one weapon with this Quality, they can announce that they will attempt a Deathblow.
@@ -1387,7 +1425,7 @@ When a unit makes a Resupply Run, each model launches X Resupply tokens. Each T
 At the start of a unit’s Activation, each Resupply token allocated to it allows one model in the unit to Take On Supplies.
 
 A model that Takes On Supplies removes 1 level of Disorder, even if it would otherwise not be able to Rally. In addition, if the model has a Depleted status token, its Admiral may roll an Action Die; if they score a Heavy or Exploding Strike
-the Depleted status token is removed. All Resupply tokens allocated to the unit are then discarded, whether or not they were used. </description>
+the Depleted status token is removed. All Resupply tokens allocated to the unit are then discarded, whether or not they were used.</description>
     </rule>
     <rule name="Portal Generator" id="5f43-cf0c-4de9-7aaf" hidden="false">
       <description>This model’s unit can Weave and Shift Portals, as described in the Portal Technology section of the Sultanate ORBAT</description>
@@ -1708,7 +1746,7 @@ When declaring a Boarding or Broadside action with or against a Skimmer model, 
 This Action targets an enemy model that at least one Participating model Passed Through during its Movement Step. The Target must have the same Positional Trait or be a Surface model.
 
 
-The controlling Admiral makes an Action Roll. There is no Resistance Roll. </description>
+The controlling Admiral makes an Action Roll. There is no Resistance Roll.</description>
     </rule>
     <rule name="Repair Facilities" id="b112-43e8-defb-ab6e" hidden="false">
       <description>When making a Repair Roll for a Surface model, add X Bonus Dice if it is within 4” of at least one friendly model with this System.</description>
@@ -1841,7 +1879,7 @@ In addition, if a model in this unit Participates in an Attack action at any Ra
     <rule name="Heavy Transport" id="59dd-1aca-81fe-7c61" hidden="false">
       <description>Before making a Reserve Roll for a unit with the listed Trait, which is at its minimum Model Count, and which does not have the Capital trait, its Admiral can declare that it is being Transported on a friendly model with this Property.
 
-They do not need to make a Reserve Roll for a Transported unit. Instead, they set up the unit so that each model is within 5” of this model. A model with this Property can only be chosen to Transport one unit per game. </description>
+They do not need to make a Reserve Roll for a Transported unit. Instead, they set up the unit so that each model is within 5” of this model. A model with this Property can only be chosen to Transport one unit per game.</description>
     </rule>
     <rule name="Flight Deck" id="6f7b-dabb-2839-a43a" hidden="false">
       <description>If a unit contains at least one model with this Property, its Admiral can reinforce a single friendly SRS Stack at the end of the unit’s Movement Step.
@@ -1877,8 +1915,7 @@ If this would cause the Marker to be placed in contact with a Terrain Feature,
     <rule name="Platform Transport" id="f753-2767-4165-40e1" hidden="false">
       <description>Once per game, during the Deploy Reserves step of the Ready Phase, this model’s Admiral may deploy a single Union Platform model with a Mass rating of 3 or below within 2” of this unit.
 
-This is a free model and does not have to be chosen during Force Selection. 
-</description>
+This is a free model and does not have to be chosen during Force Selection.</description>
     </rule>
     <rule name="Piercing" id="2627-9dec-a3e6-3e92" hidden="false">
       <description>In the Resolve Outcome step of this Attack action, the Initial Target suffers a -1 Modifier to its Armour rating (to a minimum of 1) during the Resolve Outcome step. 

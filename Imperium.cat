@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="e622-53e4-3b22-04b4" name="Imperium" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="e622-53e4-3b22-04b4" name="Imperium" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="1" revision="3" authorUrl="https://github.com/Riandro" authorContact="https://github.com/Riandro" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Heidelberg Logistics Battlecruiser" hidden="false" id="b50b-d15c-7e0d-db3e" sortIndex="53">
       <categoryLinks>
@@ -74,6 +74,15 @@
                       </conditions>
                     </modifier>
                   </modifiers>
+                </profile>
+                <profile name="Storm Vanes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="83f0-b892-240d-03c8">
+                  <characteristics>
+                    <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
+                    <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
+                    <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                    <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Arc (2), Devastating (2), Indiscriminate, Intensive, Powered</characteristic>
+                  </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
@@ -280,7 +289,7 @@
         <selectionEntry type="model" import="true" name="Asgard" hidden="false" id="f447-12ce-44aa-dedc" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="275"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca1f-1140-bcc3-fc99" includeChildSelections="false" automatic="true"/>
@@ -423,7 +432,7 @@
             <selectionEntry type="model" import="true" name="Sekundär" hidden="false" id="1f7a-31b8-fe42-d18d" collapsible="true" sortIndex="2">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="240"/>
-                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
               </costs>
               <categoryLinks>
                 <categoryLink name="Escort" hidden="false" id="ee3a-c503-d04c-cc65" targetId="d576-4983-e8cf-e556" primary="false"/>
@@ -432,7 +441,7 @@
             <selectionEntry type="model" import="true" name="Primär" hidden="false" id="5016-40c1-9c27-eb0d" collapsible="true" sortIndex="1">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="260"/>
-                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
               </costs>
               <categoryLinks>
                 <categoryLink name="Escort" hidden="false" id="8bb0-a38b-93a4-9087" targetId="d576-4983-e8cf-e556" primary="false"/>
@@ -669,7 +678,16 @@
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Fixed" hidden="false" id="04f3-31f0-ee64-e851">
               <profiles>
-                <profile name="Heavy Speerschleuders" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="342c-c4af-87df-c2fe">
+                <profile name="Storm Vanes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="342c-c4af-87df-c2fe">
+                  <characteristics>
+                    <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
+                    <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
+                    <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                    <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Arc (2), Devastating (2), Indiscriminate, Intensive, Powered</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Heavy Speerschleuders" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="b599-0e1d-7d92-b785">
                   <characteristics>
                     <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
                     <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
@@ -787,7 +805,7 @@
         <selectionEntry type="model" import="true" name="Brandenburg" hidden="false" id="e3e2-c0f5-714c-2d98" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="250"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="3198-9f71-a197-5eba" hidden="false">
@@ -875,6 +893,15 @@
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Guided (2), Torpedo, Voltaic (3)</characteristic>
                       </characteristics>
                     </profile>
+                    <profile name="Storm Vanes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7eae-381f-5b5a-a7ed">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Arc (2), Devastating (2), Indiscriminate, Intensive, Powered</characteristic>
+                      </characteristics>
+                    </profile>
                   </profiles>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="012c-93f5-2ca0-c57d-min" includeChildSelections="false" automatic="true"/>
@@ -954,6 +981,7 @@
         <categoryLink targetId="21b8-b1ce-cfde-f414" id="9d95-8db0-9354-2e22" primary="false" name="AttachmentHostKonrad"/>
         <categoryLink targetId="2127-ec4d-902c-283e" id="608d-1a85-56dd-cbed" primary="false" name="AttachmentHostSchaumburg"/>
         <categoryLink targetId="354b-f513-a8ad-efba" id="6a57-3b6f-63bf-a78f" primary="false" name="AttachmentHostHermes"/>
+        <categoryLink name="Capital" hidden="false" id="fed3-0245-0f40-a833" targetId="30c3-7f1c-19e3-e772" primary="false"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3992-21e8-429a-f475" includeChildSelections="false"/>
@@ -964,7 +992,7 @@
             <selectionEntry type="model" import="true" name="Sekundär" hidden="false" id="ad0d-0202-4dfb-3d6f" sortIndex="2">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="230"/>
-                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
               </costs>
               <categoryLinks>
                 <categoryLink name="Escort" hidden="false" id="104b-8e3a-23bd-f630" targetId="d576-4983-e8cf-e556" primary="false"/>
@@ -973,7 +1001,7 @@
             <selectionEntry type="model" import="true" name="Primär" hidden="false" id="0211-4b6a-269d-5b3e" sortIndex="1">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="245"/>
-                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
               </costs>
               <categoryLinks>
                 <categoryLink name="Escort" hidden="false" id="c985-3fe0-62ff-bbfd" targetId="d576-4983-e8cf-e556" primary="false"/>
@@ -1439,7 +1467,7 @@
         <selectionEntry type="model" import="true" name="Ice Maiden" hidden="false" id="c7e1-5f94-6889-015d" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="535"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="15"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f31-86ee-e733-a4d7" includeChildSelections="false"/>
@@ -1471,7 +1499,7 @@
                             <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Voltaic</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Voltaic (1)</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1506,7 +1534,7 @@
                             <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Voltaic</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Voltaic (1)</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1541,7 +1569,7 @@
                             <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Voltaic</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Voltaic (1)</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1553,19 +1581,190 @@
                   </constraints>
                   <comment>LIGHT</comment>
                 </selectionEntryGroup>
+                <selectionEntryGroup name="Special Hardpoint: FS" id="7305-9f47-5453-cd2f" hidden="false" sortIndex="7">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Bertha Heavy Bombard" hidden="false" id="63e3-eef5-2c9d-9095">
+                      <profiles>
+                        <profile name="Bertha Heavy Bombard" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="527f-3032-291a-6e10">
+                          <characteristics>
+                            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">12</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (4), Blast (5)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Gustav Twin Bombard" hidden="false" id="bdfe-7c61-74d2-f9ea">
+                      <profiles>
+                        <profile name="Gustav Twin Bombard" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="03c2-8cc8-27d3-ca6b">
+                          <characteristics>
+                            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
+                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">18</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (3)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Heavy Voltaic Gun Battery" hidden="false" id="41ed-aa34-3210-d620">
+                      <profiles>
+                        <profile name="Twin Heavy Voltaic Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="1161-77f6-d1ba-2fe9">
+                          <characteristics>
+                            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">16</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">22</characteristic>
+                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Voltaic (6)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Advanced Sturmbringer" hidden="false" id="9aa7-1116-e4f3-83af">
+                      <profiles>
+                        <profile name="Advanced Sturmbringer" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4162-0ee9-cf49-f370">
+                          <characteristics>
+                            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">13</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (2), Devastating (2), Powered</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b7e7-738d-e8d0-735f" includeChildSelections="false" automatic="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c720-1ce2-f034-92c9" includeChildSelections="false" automatic="true"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Special Hardpoint: F" id="b2e6-6988-1251-09d6" hidden="false" sortIndex="5">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Bertha Heavy Bombard" hidden="false" id="c758-6883-e8c7-0a29">
+                      <profiles>
+                        <profile name="Bertha Heavy Bombard" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a756-50d1-9973-ea7c">
+                          <characteristics>
+                            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">12</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (4), Blast (5)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Gustav Twin Bombard" hidden="false" id="b673-6523-d6c6-85f4">
+                      <profiles>
+                        <profile name="Gustav Twin Bombard" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="6a13-2547-5f08-b241">
+                          <characteristics>
+                            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
+                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">18</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (3)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Heavy Voltaic Gun Battery" hidden="false" id="54a0-c6e0-ceae-363d">
+                      <profiles>
+                        <profile name="Twin Heavy Voltaic Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="71b7-48ed-7d72-c95f">
+                          <characteristics>
+                            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">16</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">22</characteristic>
+                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Voltaic (6)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Advanced Sturmbringer" hidden="false" id="3a56-4666-effb-b7c4">
+                      <profiles>
+                        <profile name="Advanced Sturmbringer" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="05bb-fc5a-fad3-3249">
+                          <characteristics>
+                            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">13</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (2), Devastating (2), Powered</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c680-4e66-ed87-3394" includeChildSelections="false" automatic="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de1a-4ecf-8902-36db" includeChildSelections="false" automatic="true"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Special Hardpoint: FP" id="f3f0-cd46-723e-fd6c" hidden="false" sortIndex="6">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Bertha Heavy Bombard" hidden="false" id="0a02-c29d-be98-e3cc">
+                      <profiles>
+                        <profile name="Bertha Heavy Bombard" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="3187-b1fa-56a3-d854">
+                          <characteristics>
+                            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">12</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (4), Blast (5)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Gustav Twin Bombard" hidden="false" id="7777-685c-13e8-c7b0">
+                      <profiles>
+                        <profile name="Gustav Twin Bombard" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="43fc-c9d9-e3a8-aa1b">
+                          <characteristics>
+                            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
+                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">18</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (3)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin Heavy Voltaic Gun Battery" hidden="false" id="7bb8-b3f8-c4c2-776c">
+                      <profiles>
+                        <profile name="Twin Heavy Voltaic Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="baea-8a53-2f9e-32a6">
+                          <characteristics>
+                            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">16</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">22</characteristic>
+                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Voltaic (6)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Advanced Sturmbringer" hidden="false" id="326f-b0c8-bfa7-ef7b">
+                      <profiles>
+                        <profile name="Advanced Sturmbringer" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="d8ef-1b97-cda7-46aa">
+                          <characteristics>
+                            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">13</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (2), Devastating (2), Powered</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f5ad-0609-3a3b-b11a" includeChildSelections="false" automatic="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c1c-29a6-f2ce-55b4" includeChildSelections="false" automatic="true"/>
+                  </constraints>
+                </selectionEntryGroup>
               </selectionEntryGroups>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Fixed Weapons" hidden="false" id="3ba9-17f0-ed6f-40b8" sortIndex="4">
+                <selectionEntry type="upgrade" import="true" name="Fixed Weapons" hidden="false" id="3ba9-17f0-ed6f-40b8" sortIndex="8">
                   <profiles>
-                    <profile name="Triplexed Sturmbringer Mega Array" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="fc4a-eee9-8701-902e">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">33</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">15</characteristic>
-                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Arc (3), Devastating (3), Powered</characteristic>
-                      </characteristics>
-                    </profile>
                     <profile name="Vierling Autokanone" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a172-9032-900b-f06d">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FA</characteristic>
@@ -1602,9 +1801,6 @@
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <categoryLinks>
-            <categoryLink name="Escort" hidden="false" id="7a87-4043-d379-7963" targetId="d576-4983-e8cf-e556" primary="false"/>
-          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
       <constraints>
@@ -1667,7 +1863,6 @@
         <categoryLink name="Flagship" hidden="false" id="27b6-e292-9a40-4495" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="c5c2-0d68-e151-4d28" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="faac-bf50-54db-35f2" targetId="30c3-7f1c-19e3-e772" primary="false"/>
-        <categoryLink name="Repair" hidden="false" id="5d72-3dcb-9f5b-e8b0" targetId="cb1d-41cb-d83d-fd73" primary="false"/>
         <categoryLink name="Prussian" hidden="false" id="f430-7264-1e94-fdd3" targetId="17e3-2e7f-4774-a0c2" primary="false"/>
         <categoryLink targetId="2251-0def-1b03-2e93" id="3042-f684-3c33-df24" primary="false" name="Attachment host"/>
         <categoryLink targetId="62c2-c40e-9cdb-7677" id="5251-5b63-64c2-ae74" primary="false" name="AttachmentHostBlutcher"/>
@@ -1681,7 +1876,7 @@
         <selectionEntry type="model" import="true" name="Kaiser" hidden="false" id="175b-3c69-7d6f-04fa" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="310"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="6c93-c9ed-6bfe-2388" hidden="false" sortIndex="1">
@@ -1851,6 +2046,15 @@
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Torpedo, Voltaic (3)</characteristic>
                       </characteristics>
                     </profile>
+                    <profile name="Storm Vanes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="541e-d240-eb71-b110">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Arc (2), Devastating (2), Indiscriminate, Intensive, Powered</characteristic>
+                      </characteristics>
+                    </profile>
                   </profiles>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ce46-687a-68ec-44b7-min" includeChildSelections="false" automatic="true"/>
@@ -1864,9 +2068,6 @@
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ea02-cab1-82ec-c1c8" includeChildSelections="false" automatic="true"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e17-3736-194a-88dd" includeChildSelections="false" automatic="true"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink name="Escort" hidden="false" id="732d-e3f6-7f43-10f2" targetId="d576-4983-e8cf-e556" primary="false"/>
-          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -1932,7 +2133,7 @@
         <selectionEntry type="model" import="true" name="Konig" hidden="false" id="76eb-1459-ad63-1fae" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="260"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="eda9-3527-ab0b-a7c7" hidden="false" sortIndex="1">
@@ -2013,13 +2214,13 @@
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dcb3-2083-fb30-2f06" automatic="true"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Sturmbringer" hidden="false" id="612d-aa61-4f2c-0929" sortIndex="1">
+                    <selectionEntry type="upgrade" import="true" name="Advanced Sturmbringer" hidden="false" id="612d-aa61-4f2c-0929" sortIndex="1">
                       <profiles>
-                        <profile name="Sturmbringer" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="3263-0696-2279-8384">
+                        <profile name="Advanced Sturmbringer" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="3263-0696-2279-8384">
                           <characteristics>
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (1), Devastating (1), Powered</characteristic>
                           </characteristics>
@@ -2148,7 +2349,7 @@
         <selectionEntry type="model" import="true" name="Ragnarok" hidden="false" id="5627-34bb-681c-0459" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="215"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="5502-5206-4f66-7de1" hidden="false" sortIndex="1">
@@ -2240,6 +2441,15 @@
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (1), Devastating (1), Powered</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Storm Vanes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a0f5-91f6-51ff-85f0">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Arc (2), Devastating (2), Indiscriminate, Intensive, Powered</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2351,7 +2561,7 @@
         <selectionEntry type="model" import="true" name="Skjalden" hidden="false" id="1cd6-0fca-0302-91da" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="290"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="12"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="6acf-91e5-6b38-d943" hidden="false">
@@ -2499,7 +2709,7 @@
         <selectionEntry type="model" import="true" name="Stark" hidden="false" id="62dc-792e-19c5-0bdf" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="270"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="eaaf-dcfb-e911-37ea" hidden="false">
@@ -2513,6 +2723,15 @@
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Aerial**, Optimal Target: Airborne (8)</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Storm Vanes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="af9f-559d-7a62-4689">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Arc (2), Devastating (2), Indiscriminate, Intensive, Powered</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2659,7 +2878,7 @@
         <selectionEntry type="model" import="true" name="Tempelhof" hidden="false" id="6a79-9ae9-12df-8ba4" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="250"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6227-db7d-f0bb-5cbe" includeChildSelections="false" automatic="true"/>
@@ -2787,7 +3006,7 @@
         <selectionEntry type="upgrade" import="true" name="Valhalla" hidden="false" id="3c2d-ebf4-3020-177f" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="315"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70ca-3c46-4288-fe65" includeChildSelections="false" automatic="true"/>
@@ -2798,20 +3017,11 @@
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Fixed Weapons" hidden="false" id="7662-794c-6641-f610" sortIndex="4">
                   <profiles>
-                    <profile name="Erderschutterer Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="c43f-3178-cc96-891d">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage, Voltaic (3)</characteristic>
-                      </characteristics>
-                    </profile>
                     <profile name="Erderschutterer Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9af9-fe52-05a1-8526">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage, Voltaic (3)</characteristic>
                       </characteristics>
@@ -2842,13 +3052,13 @@
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="f54a-dfe3-2e9b-4ca2" hidden="false" sortIndex="1">
+                <selectionEntryGroup name="Heavy Hardpoint: FPS" id="f54a-dfe3-2e9b-4ca2" hidden="false" sortIndex="1">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Heavy Voltaic Gun Battery" hidden="false" id="a936-9565-9d4e-0365" sortIndex="1">
                       <profiles>
                         <profile name="Heavy Voltaic Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7ea8-c2f3-7449-6928">
                           <characteristics>
-                            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
+                            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                             <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">9</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
@@ -2861,7 +3071,7 @@
                       <profiles>
                         <profile name="Stromschlag Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2ac4-810d-c645-346d">
                           <characteristics>
-                            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
+                            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                             <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">9</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
@@ -3056,7 +3266,7 @@
         <selectionEntry type="model" import="true" name="Zeppelin" hidden="false" id="14aa-9b23-1eb0-d63a" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="260"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="3182-c912-2203-a126" hidden="false">
@@ -3092,6 +3302,15 @@
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">18</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage, Voltaic (4)</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Storm Vanes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="64b3-8e4d-b971-bbdb">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Arc (2), Devastating (2), Indiscriminate, Intensive, Powered</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3252,7 +3471,7 @@
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Light Hardpoint: FPS" id="6f8e-7d1c-46f4-9d37" hidden="false">
+                <selectionEntryGroup name="Light Hardpoint: FPS" id="6f8e-7d1c-46f4-9d37" hidden="false" sortIndex="2">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef07-e293-1dc8-b475" automatic="true"/>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e59b-d7e9-bc3b-a5cc" automatic="true"/>
@@ -3303,7 +3522,7 @@
                     <entryLink import="true" name="Freya Array" hidden="false" id="02e1-7304-6ee8-1ef1" type="selectionEntry" targetId="c529-9ead-a45b-fc1a" sortIndex="4"/>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Heavy Hardpoint: PSA" id="f000-ee87-a9c4-1c65" hidden="false">
+                <selectionEntryGroup name="Heavy Hardpoint: PSA" id="f000-ee87-a9c4-1c65" hidden="false" sortIndex="1">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0f76-1304-d3ae-f764" automatic="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2864-b612-801c-5243" automatic="true"/>
@@ -3337,7 +3556,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="95"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3525,7 +3744,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="110"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <modifiers>
             <modifier type="set" value="1" field="44fb-c167-53f5-a7f6">
@@ -3739,7 +3958,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="125"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
           </costs>
           <modifiers>
             <modifier type="set" value="1" field="38a1-336b-0217-7bcf">
@@ -3812,7 +4031,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Gungnir" hidden="false" id="6b81-3c23-8660-ad5a" sortIndex="1">
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="8e67-bdb4-d5b9-ab3a" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="8e67-bdb4-d5b9-ab3a" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d67a-82f6-553a-0afa" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
@@ -3893,7 +4112,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="95"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Bogmaor Interception Net" hidden="false" id="2fee-e511-eeeb-3ace" sortIndex="2">
@@ -4107,7 +4326,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="120"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4188,7 +4407,7 @@
         <selectionEntry type="model" import="true" name="Kriegsturm" hidden="false" id="6240-7ef0-67ad-6f57" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="104"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="1e26-8d96-c044-edbc" hidden="false">
@@ -4317,7 +4536,7 @@
         <selectionEntry type="model" import="true" name="Nuremberg" hidden="false" id="2c6e-5908-b8b2-6e35" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="108"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="a3fc-be4b-2c28-733a" hidden="false">
@@ -4521,7 +4740,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="95"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4699,7 +4918,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="120"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4860,7 +5079,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="116"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4998,7 +5217,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="41"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5100,7 +5319,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="34"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <modifiers>
             <modifier type="set" value="2" field="fd21-1520-55b5-348e">
@@ -5207,6 +5426,15 @@
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Voltaic (1)</characteristic>
                       </characteristics>
                     </profile>
+                    <profile name="Heavy Sturmklaue" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a431-5059-4175-3cd2">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (1), Devastating (1), Powered</characteristic>
+                      </characteristics>
+                    </profile>
                   </profiles>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e647-4466-f000-6c77-min" includeChildSelections="false" automatic="true"/>
@@ -5214,35 +5442,11 @@
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Heavy Hardpoint: F" id="991e-a870-5f8a-5268" hidden="false" sortIndex="1">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Heavy Sturmklaue" hidden="false" id="b71a-2077-d3d8-8c8b" sortIndex="1">
-                      <profiles>
-                        <profile name="Heavy Sturmklaue" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a431-5059-4175-3cd2">
-                          <characteristics>
-                            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
-                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
-                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (1), Devastating (1), Powered</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a32b-8848-eefd-d56e-min" automatic="true"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a32b-8848-eefd-d56e-max"/>
-                      </constraints>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <comment>Heavy Hardpoint</comment>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="80"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5380,7 +5584,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="70"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5465,7 +5669,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="70"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5567,7 +5771,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="38"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5698,7 +5902,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="99"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <modifiers>
             <modifier type="set" value="1" field="a583-0d82-0ded-141c">
@@ -5837,7 +6041,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="80"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <modifiers>
             <modifier type="set" value="2" field="efe3-6be7-1fde-5c9c">
@@ -5938,7 +6142,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="90"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6076,7 +6280,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="51"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <modifiers>
             <modifier type="set" value="2" field="ddbd-c9a3-5216-a954">
@@ -6241,7 +6445,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="95"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6389,7 +6593,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="138"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6471,11 +6675,60 @@
                   </profiles>
                 </selectionEntry>
               </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Light Hardpoint: FPSA" id="d5c4-426e-4aea-49f3" hidden="false" sortIndex="1">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Erderschutterer Rocket Battery" hidden="false" id="719f-529c-729d-cbb6" sortIndex="1">
+                      <profiles>
+                        <profile name="Erderschutterer Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e0f2-0600-423b-f34a">
+                          <characteristics>
+                            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage, Voltaic (2)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Vierling Autokanone" hidden="false" id="0264-aa6f-dc73-b26b" sortIndex="3">
+                      <profiles>
+                        <profile name="Vierling Autokanone" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="6b57-8465-6053-b746">
+                          <characteristics>
+                            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
+                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Aerial**, Optimal Target: Airborne (3)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Light Voltaic Gun Battery" hidden="false" id="84a6-1cac-7238-84cf" sortIndex="2">
+                      <profiles>
+                        <profile name="Light Voltaic Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e028-b782-69a2-d251">
+                          <characteristics>
+                            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
+                            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
+                            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Voltaic (2)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <comment>Light Hardpoint</comment>
+                  <entryLinks>
+                    <entryLink import="true" name="Freya Array" hidden="false" id="38c0-5b99-225e-c18c" type="selectionEntry" targetId="c529-9ead-a45b-fc1a"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="95"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <modifiers>
             <modifier type="set" value="1" field="2321-165a-be84-b65e">
@@ -6567,7 +6820,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="95"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <modifiers>
             <modifier type="set" value="1" field="24a8-54ff-5d63-4e54">
@@ -6715,7 +6968,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="180"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
           </costs>
           <categoryLinks>
             <categoryLink name="Escort" hidden="false" id="c408-922c-37d5-d41f" targetId="d576-4983-e8cf-e556" primary="false"/>
@@ -6732,7 +6985,7 @@
         <selectionEntry type="upgrade" import="true" name="Defensive Mines" hidden="false" id="bb99-7a8d-dc47-ee63" sortIndex="2">
           <modifiers>
             <modifier type="append" value="Mine Layer (3)
-" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+" field="a14c-99af-eb72-2d3d" scope="unit" affects="self.entries.unit.profiles.Systems" join=", "/>
           </modifiers>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
@@ -6848,7 +7101,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="65"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <categoryLinks>
             <categoryLink name="Escort" hidden="false" id="0086-5e0f-6fc2-20bc" targetId="d576-4983-e8cf-e556" primary="false"/>
@@ -6864,7 +7117,12 @@
         <selectionEntry type="upgrade" import="true" name="Defensive Mines" hidden="false" id="ddbe-baba-d987-dd5e" sortIndex="2">
           <modifiers>
             <modifier type="append" value="Mine Layer (3)
-" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=" "/>
+" field="a14c-99af-eb72-2d3d" scope="unit" affects="self.entries.unit.profiles.Systems" join=" "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
@@ -6876,7 +7134,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="false" id="0a39-c588-1367-36a1" includeChildSelections="true" includeChildForces="false"/>
@@ -7046,7 +7304,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="164"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="7"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7130,7 +7388,7 @@
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="32"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="33e6-d19f-cdb6-0631" hidden="false">
@@ -7233,7 +7491,7 @@
         <selectionEntry type="model" import="true" name="Hochmeister" hidden="false" id="f97a-16c4-666d-597d">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="195"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="7ce6-3c5b-9394-f843" hidden="false" sortIndex="1">
@@ -7523,7 +7781,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="115"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7600,12 +7858,13 @@
         <categoryLink name="Underwater" hidden="false" id="1bbc-c0c4-bc35-79dc" targetId="c636-bf34-4555-99bc" primary="false"/>
         <categoryLink name="Scout" hidden="false" id="0b40-4cd7-9a59-5990" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
         <categoryLink name="Colossus" hidden="false" id="d042-757b-ef7a-c937" targetId="b1a6-61a9-0ae4-8b65" primary="false"/>
+        <categoryLink name="Teutonic Scout" hidden="false" id="3961-9602-3b52-bfe0" targetId="7e28-a45c-8592-b460" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Metzger" hidden="false" id="74c1-b252-03b7-f40d">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="170"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="5f53-11bf-e226-778a" hidden="false">
@@ -7719,6 +7978,13 @@
           </attributes>
         </profile>
       </profiles>
+      <modifiers>
+        <modifier type="set-primary" value="7e28-a45c-8592-b460" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="forces" scope="force" childId="bc19-6aab-5d2c-39ab" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Eltz Support Platform" hidden="false" id="651b-097c-0cae-389e" sortIndex="46">
       <categoryLinks>
@@ -7743,7 +8009,7 @@
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="90"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <categoryLinks>
             <categoryLink name="Escort" hidden="false" id="0b7f-7291-16ff-f727" targetId="d576-4983-e8cf-e556" primary="false"/>
@@ -7755,7 +8021,7 @@
         <selectionEntry type="upgrade" import="true" name="Defensive Mines" hidden="false" id="4c99-509b-67a7-1a9b" sortIndex="2">
           <modifiers>
             <modifier type="append" value="Mine Layer (3)
-" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=" "/>
+" field="a14c-99af-eb72-2d3d" scope="unit" affects="self.entries.unit.profiles.Systems" join=" "/>
           </modifiers>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
@@ -8051,7 +8317,7 @@
         <selectionEntry type="model" import="true" name="Gefjon" hidden="false" id="3ed1-f40f-15ff-bf36">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="90"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="9288-0cc0-f39c-05b5" hidden="false">
@@ -8471,6 +8737,15 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
                     </modifier>
                   </modifiers>
                 </profile>
+                <profile name="Storm Vanes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="b298-aaaa-2124-bb4a">
+                  <characteristics>
+                    <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
+                    <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
+                    <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                    <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Arc (2), Devastating (2), Indiscriminate, Intensive, Powered</characteristic>
+                  </characteristics>
+                </profile>
               </profiles>
             </selectionEntry>
           </selectionEntries>
@@ -8650,12 +8925,13 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
         <categoryLink name="Underwater" hidden="false" id="5f7d-c33f-3b6a-c05a" targetId="c636-bf34-4555-99bc" primary="false"/>
         <categoryLink name="Scout" hidden="false" id="5225-59cb-d537-ccf3" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
         <categoryLink name="Colossus" hidden="false" id="c892-27f1-6218-b500" targetId="b1a6-61a9-0ae4-8b65" primary="false"/>
+        <categoryLink name="Teutonic Scout" hidden="false" id="2df4-6a2a-cf4d-cabc" targetId="7e28-a45c-8592-b460" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Hochmeister" hidden="false" id="231a-85f0-b0a9-9e25">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="195"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="f447-a59e-bdc8-f1c4" hidden="false" sortIndex="1">
@@ -8830,6 +9106,13 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
         </profile>
       </profiles>
       <comment>SCOUT VER</comment>
+      <modifiers>
+        <modifier type="set-primary" value="7e28-a45c-8592-b460" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="forces" scope="force" childId="bc19-6aab-5d2c-39ab" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Maximilian Aerial Linebreaker" hidden="false" id="aa0d-a482-38f3-9439" sortIndex="8">
       <categoryLinks>
@@ -8847,7 +9130,7 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
         <selectionEntry type="model" import="true" name="Maximilian" hidden="false" id="4065-1fec-b817-8c41" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="320"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="1934-9af3-0a47-9cd1" hidden="false">
@@ -8981,7 +9264,7 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
         </profile>
         <profile name="Maximilian" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="0f0e-0a71-4275-8ea7">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+4”), Generator Ship, Heavy Shield Generator</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+4”), Generator Ship, Heavy Shield Generator, Storm Generator</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="5aeb-a471-62fb-a0c9" name="New Attribute Type"/>
@@ -9340,6 +9623,11 @@ Additionally, when Determining Initiative in the Ready Phase of subsequent Round
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="452a-af35-aeb6-eb99"/>
           </constraints>
         </categoryLink>
+        <categoryLink name="Teutonic Scout" hidden="false" id="18e4-b8bb-b7f0-4dc7" targetId="7e28-a45c-8592-b460">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="59db-32a5-6f67-7fb4"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Support" hidden="false" id="d787-524d-bc6d-df74" targetId="1711-6069-af06-c5cc">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5d36-a502-58fc-ad72"/>
@@ -9540,6 +9828,7 @@ If the effect is successfully enacted, each Scions of Jutland model that Partici
     <categoryEntry name="AirborneCon" id="12f9-b8ab-e90e-c2e6" hidden="true"/>
     <categoryEntry name="MothershipValk" id="334f-641f-6865-532b" hidden="true"/>
     <categoryEntry name="Scions of Jutland " id="ad5b-c017-3e3a-93ec" hidden="false"/>
+    <categoryEntry name="Teutonic Scout" id="7e28-a45c-8592-b460" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Generator" hidden="false" id="b5a4-875f-2d1e-05d7" collapsible="true">

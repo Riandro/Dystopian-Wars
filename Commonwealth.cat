@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="c42f-e7db-c29b-ead9" name="Commonwealth" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="c42f-e7db-c29b-ead9" name="Commonwealth" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="1" revision="3" authorUrl=" https://github.com/Riandro" authorContact="https://github.com/Riandro" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Alexayev Ekranoplan Heavy Transport" hidden="false" id="dc1b-300e-4064-015a" page="15" publicationId="a373-3442-d767-d455" sortIndex="1">
       <categoryLinks>
@@ -54,7 +54,7 @@
         <selectionEntry type="model" import="true" name="Alexayev" hidden="false" id="4b77-3342-55b4-60e8" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="320"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="12"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="503d-bf02-1b0b-eee6" hidden="false">
@@ -391,7 +391,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="414"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="12"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6933-7632-4e7a-c6b7" includeChildSelections="false" automatic="true"/>
@@ -419,7 +419,7 @@
         <selectionEntry type="model" import="true" name="Borodino" hidden="false" id="b585-2b80-379a-f83b" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="260"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="fabd-1568-b4b4-9f58" hidden="false">
@@ -695,7 +695,7 @@
         <selectionEntry type="model" import="true" name="Death Bringer" hidden="false" id="cf0f-0c8f-c37a-a313" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="286"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="e400-161b-007a-dd7d" hidden="false">
@@ -1089,7 +1089,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="253"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="24df-259a-7bc8-4b3f" includeChildSelections="false" automatic="true"/>
@@ -1154,7 +1154,7 @@
         <selectionEntry type="model" import="true" name="Krasnaya" hidden="false" id="a7e9-3412-94d8-e0e7" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="265"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="faa6-83e9-51e2-ef84" hidden="false">
@@ -1340,7 +1340,7 @@
         <selectionEntry type="model" import="true" name="Moskva" hidden="false" id="40ce-e3d1-a3e4-88a1" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="326"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="1576-59e3-b170-6186" hidden="false">
@@ -1706,7 +1706,7 @@
         <selectionEntry type="model" import="true" name="Mozhayski" hidden="false" id="7773-e7b2-92f6-fbc0" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="267"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="2cd1-1d12-489d-6d72" hidden="false">
@@ -1966,7 +1966,7 @@
         <selectionEntry type="model" import="true" name="Murmansk" hidden="false" id="8073-b2b7-2164-71e0" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="360"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="12"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="5d2c-a515-ed8d-233a" hidden="false">
@@ -1993,7 +1993,7 @@
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
                             <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
-                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
+                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
                           </characteristics>
                         </profile>
@@ -2040,7 +2040,7 @@
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
                             <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
-                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
+                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
                           </characteristics>
                         </profile>
@@ -2087,7 +2087,7 @@
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PA</characteristic>
                             <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
-                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
+                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
                           </characteristics>
                         </profile>
@@ -2134,7 +2134,7 @@
                             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">SA</characteristic>
                             <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
-                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
+                            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                             <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
                           </characteristics>
                         </profile>
@@ -2249,7 +2249,7 @@
         <selectionEntry type="model" import="true" name="Prezidium" hidden="false" id="74e9-66ef-771d-4254" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="298"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="f0ef-9af8-f285-8b7d" hidden="false">
@@ -2474,11 +2474,11 @@
                   <profiles>
                     <profile name="Super-Heavy Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="aa29-99bf-14fa-ba5c">
                       <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b"/>
-                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21"/>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769"/>
-                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55"/>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">12</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">12</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2558,7 +2558,7 @@
         <selectionEntry type="model" import="true" name="Rikhter" hidden="false" id="8f07-b382-e7f4-b599" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="306"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="53a5-3d95-f485-a45e" hidden="false">
@@ -2783,7 +2783,7 @@
         <selectionEntry type="model" import="true" name="Tobolsk" hidden="false" id="4928-b0b0-4411-7461" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="380"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="12"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="abaf-855b-ba13-2c81" hidden="false">
@@ -3309,7 +3309,7 @@
         <selectionEntry type="model" import="true" name="Zamiec" hidden="false" id="a911-6bba-a9ab-b6b3" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="296"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="400a-6454-ed51-f7cc" hidden="false">
@@ -3350,7 +3350,7 @@
                             <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1)</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -3410,7 +3410,7 @@
                             <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1)</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -3470,7 +3470,7 @@
                             <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                             <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1</characteristic>
+                            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1)</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -3590,6 +3590,7 @@
         <selectionEntry type="model" import="true" name="Jadwiga" hidden="false" id="0f53-df3c-52fd-da69" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="85"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="5dd9-8a83-02d9-a23f" hidden="false">
@@ -3848,6 +3849,7 @@
         <selectionEntry type="model" import="true" name="Khyzhak" hidden="false" id="7bf8-8982-d026-536c" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="80"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="8786-98f5-20d3-f540" hidden="false">
@@ -4026,6 +4028,7 @@
         <selectionEntry type="model" import="true" name="Kutsov" hidden="false" id="fbfc-02f3-c1a3-f57c" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="90"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="a459-45f9-92c1-4b6b" hidden="false">
@@ -4203,6 +4206,7 @@
         <selectionEntry type="model" import="true" name="Morozko" hidden="false" id="0e13-85b6-23ba-1ff6" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="135"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Prow Choice" id="dd1d-2316-1e40-b495" hidden="false" sortIndex="2">
@@ -4460,6 +4464,7 @@
           </categoryLinks>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="130"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="a92f-3d36-e3c6-36fb" hidden="false">
@@ -4628,7 +4633,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="2a0b-c077-5525-e2a1" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="2a0b-c077-5525-e2a1" includeChildSelections="false" automatic="true"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="568d-dfed-6421-35f5" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
@@ -4659,6 +4664,7 @@
         <selectionEntry type="model" import="true" name="Tunguska" hidden="false" id="1f38-c023-0a2a-32c2">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="137"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="7484-3c86-642f-113a" hidden="false">
@@ -5049,6 +5055,7 @@
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="118"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5116,6 +5123,7 @@
         <selectionEntry type="model" import="true" name="Oleg" hidden="false" id="bc57-19ad-cbe0-a3e2" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="65"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="7b06-d4d4-e4f9-fdc6" hidden="false" sortIndex="1">
@@ -5252,6 +5260,7 @@
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="38"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="2fcb-931f-cceb-b55e" hidden="false">
@@ -5467,6 +5476,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="34"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <modifiers>
             <modifier type="set" value="2" field="9869-6c99-9991-0b74">
@@ -5588,6 +5598,7 @@
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="68"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5658,6 +5669,7 @@
         <selectionEntry type="model" import="true" name="Akula" hidden="false" id="fdc3-4fd5-eb3c-3322">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="235"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="7"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="24b8-8668-4b6d-5479" hidden="false">
@@ -5891,7 +5903,7 @@
           <modifiers>
             <modifier type="append" value="Mine Layer (3)" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d953-f488-3291-b97e" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d953-f488-3291-b97e" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -5915,7 +5927,7 @@
         <selectionEntry type="model" import="true" name="Khan" hidden="false" id="9d6c-290c-14b9-3ace" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="180"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="a599-fbed-2465-b55f" hidden="false">
@@ -6065,6 +6077,7 @@
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="278"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="7"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="8d01-444a-1e2f-dc7f" hidden="false">
@@ -6218,7 +6231,7 @@
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="312"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="12"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6292,6 +6305,7 @@
           </categoryLinks>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="111"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="1ce6-ca61-0575-d9ec" hidden="false">
@@ -6431,6 +6445,7 @@
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="118"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="15a0-fd57-e2eb-36b2" hidden="false">
@@ -6528,6 +6543,7 @@
           </categoryLinks>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="87"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="e09f-6265-d6d1-4db1" hidden="false">
@@ -6699,6 +6715,7 @@
           </categoryLinks>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="65"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="c540-c0c3-faf0-08a5" hidden="false">
@@ -6978,6 +6995,7 @@
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="130"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7041,6 +7059,7 @@
         <selectionEntry type="model" import="true" name="Dragunov" hidden="false" id="ecf0-21c8-d8dc-b42a" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="83"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="f949-9c9c-84f5-0e19" hidden="false">
@@ -7240,6 +7259,7 @@
         <selectionEntry type="model" import="true" name="Irkutsk" hidden="false" id="462d-a55d-4d6f-aa1b">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="118"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fe30-c469-388f-4e2e" includeChildSelections="false" automatic="true"/>
@@ -7470,6 +7490,7 @@
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="182"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="7"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7517,6 +7538,7 @@
         <selectionEntry type="model" import="true" name="Marena" hidden="false" id="ff00-edb8-041e-08f9">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="166"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="7"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="c547-e49c-5d86-a25a" hidden="false">
@@ -7726,6 +7748,7 @@
           </categoryLinks>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="100"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="7a9a-f2ac-f221-0e44" hidden="false">
@@ -7900,6 +7923,7 @@
           </categoryLinks>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="105"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="7"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="c591-0eb4-affd-e0cd" hidden="false">
@@ -8118,6 +8142,7 @@
           </categoryLinks>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="68"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Ship Upgrades" id="94b5-794c-32cf-e11c" hidden="false" sortIndex="2">
@@ -8596,6 +8621,7 @@
           </categoryLinks>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="65"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="abfc-2938-f037-d56d" includeChildSelections="false" automatic="true"/>
