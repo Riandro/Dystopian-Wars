@@ -8694,7 +8694,7 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Civilian Vessel, Flotsam, Forward Deployment, Resupply (2), Strategic Asset (4)</characteristic>
           </characteristics>
           <modifiers>
-            <modifier type="append" value="Ground Assault (3)" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Ground Assault (2)" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="767f-731f-2a1d-dbc9" childId="e855-244e-38bb-dda4" shared="true"/>
               </conditions>
@@ -8814,6 +8814,9 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="9699-5d43-f8f4-0f22" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="bcf6-983c-af57-39cb" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Praxilla Submarine " hidden="false" id="347d-a29d-4f34-d64e" sortIndex="62">
       <selectionEntries>
@@ -9394,7 +9397,7 @@ Alsaqr Skybarque units in this Battlefleet replace the Attachment (Turkish) prop
     <categoryEntry name="Crimson League" id="a16d-413b-12d5-137c" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Attachments" id="9de2-588f-dafe-da6a" hidden="false">
+    <selectionEntryGroup name="Attachments" id="9de2-588f-dafe-da6a" hidden="false" collapsible="true">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f528-a40c-74c1-bf96" includeChildSelections="true"/>
       </constraints>

@@ -291,7 +291,7 @@
         <categoryLink targetId="d3bc-76cc-5efc-b06e" id="6d78-2b3a-8dea-ea38" primary="false" name="Empire"/>
         <categoryLink targetId="208e-6396-cb29-1ffc" id="f21b-5013-2789-0ae3" primary="false" name="Japanese"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="2b4f-6e98-db71-6313" primary="false" name="Surface"/>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="c9c1-22fb-cdb9-a712" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="c9c1-22fb-cdb9-a712" primary="true" name="Flagship"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="14a6-6011-b00a-5fdf" primary="false" name="Ship"/>
         <categoryLink targetId="30c3-7f1c-19e3-e772" id="0312-51b7-1f8d-2e99" primary="false" name="Capital"/>
         <categoryLink targetId="2251-0def-1b03-2e93" id="7e4b-52d4-c3d2-d167" primary="false" name="Attachment host"/>
@@ -585,7 +585,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="3b72-45ff-4424-6a05" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="3b72-45ff-4424-6a05" primary="true" name="Flagship"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="4141-cd57-ac55-68e6" primary="false" name="Surface"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="edb1-2b4d-41a6-477d" primary="false" name="Ship"/>
         <categoryLink targetId="30c3-7f1c-19e3-e772" id="b6e8-9a5d-26d4-c6ae" primary="false" name="Capital"/>
@@ -780,7 +780,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="e9f9-31f1-ca82-141d" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="e9f9-31f1-ca82-141d" primary="true" name="Flagship"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="3ef2-b611-e40c-9520" primary="false" name="Surface"/>
         <categoryLink targetId="208e-6396-cb29-1ffc" id="9354-fa44-ed49-9c01" primary="false" name="Japanese"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="c441-eedc-2515-f785" primary="false" name="Ship"/>
@@ -1041,7 +1041,7 @@
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="0082-2375-c36b-cbca" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="0082-2375-c36b-cbca" primary="true" name="Flagship"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="d323-3afd-d726-43bf" primary="false" name="Surface"/>
         <categoryLink targetId="d3bc-76cc-5efc-b06e" id="3cdd-b24e-081e-2227" primary="false" name="Empire"/>
         <categoryLink targetId="f109-b8ed-138d-de5c" id="8c39-de4a-5069-5441" primary="false" name="Chinese"/>
@@ -1318,7 +1318,7 @@
         <categoryLink targetId="d3bc-76cc-5efc-b06e" id="9b78-691f-fc4a-0a5d" primary="false" name="Empire"/>
         <categoryLink targetId="208e-6396-cb29-1ffc" id="4ed2-9340-d705-3d62" primary="false" name="Japanese"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="d9a1-8e2a-b011-a222" primary="false" name="Surface"/>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="2188-6744-6d4f-2e48" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="2188-6744-6d4f-2e48" primary="true" name="Flagship"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="5de9-0393-12fa-4f7f" primary="false" name="Ship"/>
         <categoryLink targetId="30c3-7f1c-19e3-e772" id="5974-c3da-2ea6-3eeb" primary="false" name="Capital"/>
         <categoryLink targetId="2251-0def-1b03-2e93" id="4aac-3744-fec5-dd17" primary="false" name="Attachment host"/>
@@ -1452,7 +1452,7 @@
         <categoryLink targetId="d3bc-76cc-5efc-b06e" id="aba9-670e-2d69-97b8" primary="false" name="Empire"/>
         <categoryLink targetId="208e-6396-cb29-1ffc" id="c019-72e0-d692-df8b" primary="false" name="Japanese"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="f574-c9ce-cd22-68d4" primary="false" name="Surface"/>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="3065-811d-41c9-9392" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="3065-811d-41c9-9392" primary="true" name="Flagship"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="5112-856a-ead4-12e4" primary="false" name="Ship"/>
         <categoryLink targetId="30c3-7f1c-19e3-e772" id="ad83-c758-b33d-c64e" primary="false" name="Capital"/>
         <categoryLink targetId="2251-0def-1b03-2e93" id="7cb6-dc13-f350-c191" primary="false" name="Attachment host"/>
@@ -1698,7 +1698,7 @@
       </profiles>
       <categoryLinks>
         <categoryLink targetId="d3bc-76cc-5efc-b06e" id="fb94-ccec-6b01-027e" primary="false" name="Empire"/>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="0f68-3688-01ce-e606" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="0f68-3688-01ce-e606" primary="true" name="Flagship"/>
         <categoryLink targetId="f109-b8ed-138d-de5c" id="b072-7738-8815-df03" primary="false" name="Chinese"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="8e09-5c38-f4c2-730d" primary="false" name="Surface"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="ef7e-550e-1e9a-f2cf" primary="false" name="Ship"/>
@@ -1917,7 +1917,7 @@
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="fba0-106d-8ed8-9acd" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="fba0-106d-8ed8-9acd" primary="true" name="Flagship"/>
         <categoryLink targetId="d3bc-76cc-5efc-b06e" id="54d8-972e-2273-3429" primary="false" name="Empire"/>
         <categoryLink targetId="f109-b8ed-138d-de5c" id="f0a2-158e-f053-18c0" primary="false" name="Chinese"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="0d59-51e3-67f1-ff0a" primary="false" name="Surface"/>
@@ -2073,7 +2073,7 @@
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="43ca-589e-f2a4-0a51" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="43ca-589e-f2a4-0a51" primary="true" name="Flagship"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="fec7-c6c8-fde1-7940" primary="false" name="Surface"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="86fc-1bc8-e469-bad8" primary="false" name="Ship"/>
         <categoryLink targetId="30c3-7f1c-19e3-e772" id="eb42-8eb5-4783-3ff3" primary="false" name="Capital"/>
@@ -2210,7 +2210,7 @@
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="e487-1b63-c022-27ae" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="e487-1b63-c022-27ae" primary="true" name="Flagship"/>
         <categoryLink targetId="30c3-7f1c-19e3-e772" id="c324-c0b3-492a-7889" primary="false" name="Capital"/>
         <categoryLink targetId="4521-8e16-2d0f-7dc6" id="ace0-223a-d97d-1d63" primary="false" name="Carrier"/>
         <categoryLink targetId="139e-c78f-43c0-2957" id="5ac8-9160-2e12-9585" primary="false" name="Airborne"/>
@@ -7069,7 +7069,7 @@ Hunter (Airborne)</characteristic>
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Civilian Vessel, Flotsam, Forward Deployment, Resupply (2), Strategic Asset (4)</characteristic>
           </characteristics>
           <modifiers>
-            <modifier type="append" value="Ground Assault (3)" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Ground Assault (2)" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="9389-33e8-17a0-c0f8" shared="true"/>
               </conditions>
@@ -7169,7 +7169,7 @@ If the effect is successfully enacted, the active Admiral adds 4 Action Dice to
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c39d-406c-a4ef-ab37"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="FlagShip" hidden="false" id="d420-b057-a85d-fba6" targetId="0ec6-f5c8-25d7-89d8">
+        <categoryLink name="Flagship" hidden="false" id="d420-b057-a85d-fba6" targetId="0ec6-f5c8-25d7-89d8">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f23c-1437-91d7-1f3c"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3423-d0bc-83b3-80ee"/>
@@ -7301,7 +7301,7 @@ If they do so, they must discard another Victory &amp; Valour Card from their Ha
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2378-d591-22cd-a53f"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="FlagShip" hidden="false" id="3971-4d74-f99f-d62c" targetId="0ec6-f5c8-25d7-89d8">
+        <categoryLink name="Flagship" hidden="false" id="3971-4d74-f99f-d62c" targetId="0ec6-f5c8-25d7-89d8">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="55e4-bb01-3e03-9e25"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd32-d9aa-65c5-464a"/>

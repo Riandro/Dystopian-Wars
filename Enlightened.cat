@@ -853,7 +853,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Civilian Vessel, Flotsam, Forward Deployment, Resupply (2), Strategic Asset (4)</characteristic>
           </characteristics>
           <modifiers>
-            <modifier type="append" value="Ground Assault (3)" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Ground Assault (2)" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="c2ba-bd02-ae63-6f8b" shared="true"/>
               </conditions>
@@ -6745,7 +6745,7 @@ Failure Critical Damage Effect from one Battle-Ready model in that unit.</descri
     <categoryEntry name="AttachmentHostOrigen" id="f4fd-5ecf-7e0a-7d3c" hidden="true"/>
   </categoryEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Attachments" id="f561-27b3-4b75-7da4" hidden="false">
+    <selectionEntryGroup name="Attachments" id="f561-27b3-4b75-7da4" hidden="false" collapsible="true">
       <entryLinks>
         <entryLink import="true" name="Hermes Supply Freighter " hidden="true" id="08b3-704f-b027-e1f7" type="selectionEntry" targetId="f68a-381b-814e-f2fb">
           <constraints>

@@ -8,7 +8,7 @@
         <categoryLink name="Ship" hidden="false" id="deeb-9347-ac21-a47d" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="6e95-3a20-ca2d-79e2" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Prussian" hidden="false" id="1200-6535-0fb3-cb76" targetId="17e3-2e7f-4774-a0c2" primary="false"/>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="e186-20c4-bea4-cf45" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="e186-20c4-bea4-cf45" primary="true" name="Flagship"/>
         <categoryLink targetId="2251-0def-1b03-2e93" id="929f-5a63-3ff0-f2c0" primary="false" name="Attachment host"/>
         <categoryLink targetId="354b-f513-a8ad-efba" id="2529-3fd2-6655-9069" primary="false" name="AttachmentHostHermes"/>
       </categoryLinks>
@@ -264,7 +264,7 @@
         <categoryLink name="Imperium" hidden="false" id="3cbf-39b1-4d22-cc16" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Scandinavian" hidden="false" id="9a2e-7915-c2c5-a096" targetId="04fd-b227-5327-13f0" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="bcdf-24cc-e084-4291" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="1e9c-59ef-9678-9a4d" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="1e9c-59ef-9678-9a4d" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="360f-2596-8a34-ecf2" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="cee4-ccac-6afc-fc79" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Repair" hidden="false" id="54f6-f0be-85cf-8184" targetId="cb1d-41cb-d83d-fd73" primary="false"/>
@@ -402,7 +402,7 @@
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="0251-29ed-3c3d-c94b" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="2a99-5e69-8e21-95cd" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="5352-77e0-9eea-ab9b" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="5352-77e0-9eea-ab9b" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="4883-01ed-edde-88db" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="b621-78f3-e8c6-5715" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Prussian" hidden="false" id="03c3-bf66-96b6-14b7" targetId="17e3-2e7f-4774-a0c2" primary="false"/>
@@ -768,7 +768,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="SMS Brandenburg" hidden="false" id="a847-90a0-c606-b635" sortIndex="3">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="5c4b-1511-44bf-e2f1" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="5c4b-1511-44bf-e2f1" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Imperium" hidden="false" id="6c2f-209e-4c1f-3323" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="91db-ab16-2093-ac70" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="96f0-1f4f-fdd0-eb49" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
@@ -943,7 +943,7 @@
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="45f2-90e8-8aa7-bcf4" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="6502-4846-aee7-dddb" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="1487-aa9c-e26b-f1c9" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="1487-aa9c-e26b-f1c9" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="40d5-7baf-0c6c-bb25" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Prussian" hidden="false" id="a05e-2711-a6c4-9511" targetId="17e3-2e7f-4774-a0c2" primary="false"/>
         <categoryLink name="Carrier" hidden="false" id="cead-60ec-a2d6-e96b" targetId="4521-8e16-2d0f-7dc6" primary="false"/>
@@ -1424,7 +1424,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Ice Maiden Dreadnought Supercarrier" hidden="false" id="fc15-6f16-a6d8-b8d4" sortIndex="5">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="ad34-c7e0-b2d9-9c6f" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="ad34-c7e0-b2d9-9c6f" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Imperium" hidden="false" id="18cb-c1a5-8df4-474f" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Teutonic" hidden="false" id="7f96-ba8a-9bba-e64a" targetId="4b3e-0aac-bc34-696d" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="9de6-bf93-ceb5-dc16" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
@@ -1664,7 +1664,7 @@
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="1d0d-f467-d373-4950" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="f066-d855-b62f-b601" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="27b6-e292-9a40-4495" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="27b6-e292-9a40-4495" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="c5c2-0d68-e151-4d28" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="faac-bf50-54db-35f2" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Repair" hidden="false" id="5d72-3dcb-9f5b-e8b0" targetId="cb1d-41cb-d83d-fd73" primary="false"/>
@@ -1920,7 +1920,7 @@
         <categoryLink name="Imperium" hidden="false" id="5023-4d56-6c2b-a05b" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Teutonic" hidden="false" id="4bea-77ab-9ae3-6be2" targetId="4b3e-0aac-bc34-696d" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="b0a1-6f52-021d-91fa" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="a98f-e7fd-8211-1837" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="a98f-e7fd-8211-1837" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="b185-c532-8997-1173" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="1d18-fb66-f405-f599" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink targetId="2535-8da6-da28-a82d" id="94ae-7d8d-cabb-0ae9" primary="false" name="GenAmount3"/>
@@ -2131,7 +2131,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Ragnarok Heavy Reaver" hidden="false" id="2b9a-1a99-4053-49e0" sortIndex="9">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="970f-cf02-9a9f-82a3" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="970f-cf02-9a9f-82a3" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Imperium" hidden="false" id="3351-ecd1-dac2-4f3c" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Scandinavian" hidden="false" id="d94d-098b-5c62-2050" targetId="04fd-b227-5327-13f0" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="6642-fc72-42e6-046e" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
@@ -2332,7 +2332,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="SMS Skjalden" hidden="false" id="3202-2d84-cb8b-f633" sortIndex="10">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="ea59-cecd-15ac-13c0" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="ea59-cecd-15ac-13c0" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Imperium" hidden="false" id="b61d-d905-31a8-6f21" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="bf3e-a047-cde8-50e1" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="1718-d44d-3303-8865" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
@@ -2486,7 +2486,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Stark Imperium Skyfortress" hidden="false" id="e5de-6d26-e64a-1a78" sortIndex="11">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="067a-ade3-4884-a6a5" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="067a-ade3-4884-a6a5" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Imperium" hidden="false" id="40b5-2f18-cd4e-dad5" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Prussian" hidden="false" id="307a-62fb-80a1-610a" targetId="17e3-2e7f-4774-a0c2" primary="false"/>
         <categoryLink name="Airborne" hidden="false" id="8447-ae5b-225f-e0a6" targetId="139e-c78f-43c0-2957" primary="false"/>
@@ -2640,7 +2640,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Tempelhof Fleet Carrier" hidden="false" id="fa5a-216e-077e-b9be" sortIndex="12">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="1ce3-4db8-b1f8-701d" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="1ce3-4db8-b1f8-701d" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Imperium" hidden="false" id="f56e-99dc-b33c-99fb" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Prussian" hidden="false" id="fb66-4b2c-5b56-4377" targetId="17e3-2e7f-4774-a0c2" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="67be-d01b-ca72-33d0" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
@@ -2771,7 +2771,7 @@
         <categoryLink name="Imperium" hidden="false" id="d40a-dbfd-2a6c-09a2" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Scandinavian" hidden="false" id="4885-5cb3-63ef-1cd5" targetId="04fd-b227-5327-13f0" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="2998-942f-594f-8489" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="f20e-e27e-b5dd-74ee" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="f20e-e27e-b5dd-74ee" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="c153-e40a-0fea-da01" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="061c-c14a-31be-5c14" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Repair" hidden="false" id="e1da-a5f2-8655-6174" targetId="cb1d-41cb-d83d-fd73" primary="false"/>
@@ -3043,7 +3043,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Zeppelin Aerial Dreadnought" hidden="false" id="76ac-9134-5de1-050e" sortIndex="14">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="fb36-460e-b05b-8948" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="fb36-460e-b05b-8948" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Imperium" hidden="false" id="33b6-02e3-c945-b912" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Prussian" hidden="false" id="0958-d350-d895-69cb" targetId="17e3-2e7f-4774-a0c2" primary="false"/>
         <categoryLink name="Airborne" hidden="false" id="3ba2-1388-39f7-9b6f" targetId="139e-c78f-43c0-2957" primary="false"/>
@@ -7225,7 +7225,7 @@
         <categoryLink name="Teutonic" hidden="false" id="7375-df5a-8573-ee5d" targetId="4b3e-0aac-bc34-696d" primary="false"/>
         <categoryLink name="Underwater" hidden="false" id="032c-cd30-af49-19a9" targetId="c636-bf34-4555-99bc" primary="false"/>
         <categoryLink name="Colossus" hidden="false" id="1c80-d24a-558c-a8ea" targetId="b1a6-61a9-0ae4-8b65" primary="false"/>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="a8a7-d5b9-1964-51e9" primary="true" name="FlagShip"/>
+        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="a8a7-d5b9-1964-51e9" primary="true" name="Flagship"/>
         <categoryLink targetId="4768-8b12-1621-18f1" id="6b0b-14e2-21f8-c4c2" primary="false" name="UnderwaterCon"/>
         <categoryLink targetId="16ff-99b4-79d2-cd65" id="bd81-6b3c-9e70-1b3d" primary="false" name="Teutonic Flagship"/>
       </categoryLinks>
@@ -8249,7 +8249,7 @@
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Civilian Vessel, Flotsam, Forward Deployment, Resupply (2), Strategic Asset (4)</characteristic>
           </characteristics>
           <modifiers>
-            <modifier type="append" value="Ground Assault (3)" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Ground Assault (2)" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="78b8-6ea5-e1a4-4f3a" childId="c8bc-d4ed-66a5-dc09" shared="true"/>
               </conditions>
@@ -8835,7 +8835,7 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="23fc-7841-fc43-5776" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Teutonic" hidden="false" id="54ea-583f-d039-ad20" targetId="4b3e-0aac-bc34-696d" primary="false"/>
-        <categoryLink name="FlagShip" hidden="false" id="13af-287d-291e-55e5" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="13af-287d-291e-55e5" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Capital" hidden="false" id="1cfd-6004-69ee-9e6d" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Bavarian" hidden="false" id="a0ae-a928-a362-0b04" targetId="a95f-8696-4d80-d4bf" primary="false"/>
         <categoryLink name="Airship" hidden="false" id="2b28-75d5-b6ff-0756" targetId="278c-665b-5dbe-3aad" primary="false"/>
@@ -9011,7 +9011,7 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="63da-02e9-95a9-f6bd"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="FlagShip" hidden="false" id="ff55-1cdf-f2ad-e2a8" targetId="0ec6-f5c8-25d7-89d8">
+        <categoryLink name="Flagship" hidden="false" id="ff55-1cdf-f2ad-e2a8" targetId="0ec6-f5c8-25d7-89d8">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04c8-f295-1af5-0e67"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c9f9-935f-2952-ea40"/>
@@ -9820,7 +9820,7 @@ If the effect is successfully enacted, each Scions of Jutland model that Partici
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Attachments" id="f133-6e35-4c50-30dc" hidden="false">
+    <selectionEntryGroup name="Attachments" id="f133-6e35-4c50-30dc" hidden="false" collapsible="true">
       <entryLinks>
         <entryLink import="true" name="Blucher Configuration Cruiser" hidden="true" id="253e-3e0e-f2d6-31c4" type="selectionEntry" targetId="b013-f396-118e-9d07">
           <modifiers>

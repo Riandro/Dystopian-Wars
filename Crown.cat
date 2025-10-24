@@ -7744,7 +7744,7 @@ Guardian Generator (1)</characteristic>
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Civilian Vessel, Flotsam, Forward Deployment, Resupply (2), Strategic Asset (4)</characteristic>
           </characteristics>
           <modifiers>
-            <modifier type="append" value="Ground Assault (3)" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Ground Assault (2)" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="c572-7b64-68d3-5da9" childId="7705-5046-e3bf-a163" shared="true"/>
               </conditions>
@@ -7864,6 +7864,9 @@ Guardian Generator (1)</characteristic>
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="85d7-fcf9-d4ec-6751" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0" sortIndex="2"/>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="dd91-eca2-1cd7-71b9" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Hermes Supply Freighter" hidden="false" id="85f0-3249-9d6d-e7d0" sortIndex="44">
       <categoryLinks>
@@ -8334,7 +8337,7 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
     </forceEntry>
   </forceEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Attachments" id="c319-cdbd-c73d-bdb0" hidden="false">
+    <selectionEntryGroup name="Attachments" id="c319-cdbd-c73d-bdb0" hidden="false" collapsible="true">
       <entryLinks>
         <entryLink import="true" name="Albion Cruiser" hidden="true" id="c80f-89c4-0c34-31eb" type="selectionEntry" targetId="5686-b6ac-5072-e4d1">
           <constraints>

@@ -9351,7 +9351,7 @@
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Civilian Vessel, Flotsam, Forward Deployment, Resupply (2), Strategic Asset (4)</characteristic>
           </characteristics>
           <modifiers>
-            <modifier type="append" value="Ground Assault (3)" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Ground Assault (2)" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="6acf-6007-0d6b-e163" childId="766a-ccfb-f3a4-edb4" shared="true"/>
               </conditions>
@@ -9484,6 +9484,9 @@
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="bcb4-9512-2a34-d967" type="selectionEntryGroup" targetId="7ba2-917a-b755-ac63"/>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="bb7b-5b95-5bc8-1214" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Gascony Levant Merchantman" hidden="false" id="fdee-a968-c4a6-6978" sortIndex="45">
       <categoryLinks>
@@ -10418,7 +10421,7 @@ This Special Action can be made by Underwater units.</description>
     <catalogueLink type="catalogue" name="New Catalogue (link)" id="3e49-1ef7-b1f1-3e08" targetId="8551-5b95-4980-851f"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Attachments" id="7ba2-917a-b755-ac63" hidden="false">
+    <selectionEntryGroup name="Attachments" id="7ba2-917a-b755-ac63" hidden="false" collapsible="true">
       <entryLinks>
         <entryLink import="true" name="Vulcan Repair Ship" hidden="true" id="04f7-8722-58eb-c8cb" type="selectionEntry" targetId="7f4f-7985-d1d8-0fdc">
           <modifiers>

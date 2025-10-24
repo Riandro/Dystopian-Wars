@@ -3,7 +3,7 @@
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Alexayev Ekranoplan Heavy Transport" hidden="false" id="dc1b-300e-4064-015a" page="15" publicationId="a373-3442-d767-d455" sortIndex="1">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="db63-0b3b-bd4f-3952" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="db63-0b3b-bd4f-3952" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Surface" hidden="false" id="7f5a-1f58-c25c-6f64" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="5b69-fd57-c97e-4993" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="c232-09d6-0d65-0a35" primary="false" name="Commonwealth"/>
@@ -273,7 +273,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Anastasia" hidden="false" id="a7a1-415e-f60e-50a9" page="16" sortIndex="2">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="8016-4897-7116-ffc8" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="8016-4897-7116-ffc8" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="14fb-9e60-1239-c7df" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="5131-9b8a-c233-de7a" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Repair" hidden="false" id="b200-f083-751e-da7d" targetId="cb1d-41cb-d83d-fd73" primary="false"/>
@@ -405,7 +405,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Borodino Battleship" hidden="false" id="b7e9-22fb-7a22-a295" sortIndex="3">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="0995-0a97-543b-d840" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="0995-0a97-543b-d840" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Surface" hidden="false" id="f55b-c456-6dd3-04f6" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="12f7-35e8-d104-8553" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="871a-fbc3-f9c4-01c6" targetId="30c3-7f1c-19e3-e772" primary="false"/>
@@ -650,7 +650,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Death Bringer" hidden="false" id="961f-9d24-76a7-79c0" sortIndex="4">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="7d55-5154-7bd9-df62" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="7d55-5154-7bd9-df62" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Capital" hidden="false" id="27da-a729-10d5-d59c" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="0a6f-7167-d29a-c184" primary="false" name="Commonwealth"/>
         <categoryLink targetId="8281-3830-2276-5bcd" id="6051-b2d6-eecb-716e" primary="false" name="Black Wolf"/>
@@ -863,7 +863,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Khodynka Heavy Skycruiser" hidden="false" id="34a6-60e4-ff55-8f9b" sortIndex="5">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="1a56-f207-dfcf-3056" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="1a56-f207-dfcf-3056" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Capital" hidden="false" id="2f05-e4b8-442d-0577" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="6d5a-1a03-c95e-f2a5" primary="false" name="Commonwealth"/>
         <categoryLink targetId="64b9-23dd-5700-e555" id="55e8-0977-e9a0-69e6" primary="false" name="Russian"/>
@@ -1106,7 +1106,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Krasnaya Heavy Skydrill" hidden="false" id="7789-952e-c049-8fc9" sortIndex="6">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="8aa8-e563-acde-e328" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="8aa8-e563-acde-e328" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Capital" hidden="false" id="bc5f-142a-1825-6e29" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="a05e-a91a-8e23-a7ad" primary="false" name="Commonwealth"/>
         <categoryLink targetId="64b9-23dd-5700-e555" id="18a1-c9a2-7a8a-f678" primary="false" name="Russian"/>
@@ -1296,7 +1296,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Moskva Heavy Battleship" hidden="false" id="db81-1a6a-247c-19ca" sortIndex="7">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="b436-0634-72b1-0707" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="b436-0634-72b1-0707" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="f5aa-ca0b-7724-645c" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="a2e5-251c-a1c9-05f8" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="ff8f-88b5-58de-44bf" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
@@ -1664,7 +1664,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Mozhayski Fleet Carrier" hidden="false" id="d825-587e-9df2-0f04" sortIndex="8">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="a164-ebb3-5318-de1f" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="a164-ebb3-5318-de1f" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="89f3-0dee-c6b0-c129" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="ed7d-3ef4-e55b-48b8" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="6037-5660-2614-81ae" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
@@ -1924,7 +1924,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Murmansk Mobile Stronghold" hidden="false" id="7f83-2bf0-9f03-340d" sortIndex="9">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="f4fa-2219-5672-0564" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="f4fa-2219-5672-0564" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="b2bb-ccb8-f239-59b0" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="b403-1ae4-1bed-d385" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Repair" hidden="false" id="0ace-c594-d327-8dfa" targetId="cb1d-41cb-d83d-fd73" primary="false"/>
@@ -2208,7 +2208,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Prezidium Command Ship" hidden="false" id="dc33-5aa7-12ff-1395" sortIndex="10">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="83d4-b802-655e-0c78" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="83d4-b802-655e-0c78" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="e880-c9e1-ad64-e1ed" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="3d94-9a2c-87ca-274e" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="8608-5492-90d5-fe2b" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
@@ -2517,7 +2517,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Rikhter Artillery Dreadnought" hidden="false" id="5ccf-6ff3-a0aa-6a2f" sortIndex="11">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="2b5b-b32b-c872-582b" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="2b5b-b32b-c872-582b" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="0fdf-6203-d10d-c93d" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="ecb6-8b75-7237-e726" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="dd1c-0167-d9c7-39f8" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
@@ -2741,7 +2741,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Tobolsk Mobile Stronghold" hidden="false" id="fdb7-f449-8a20-f571" sortIndex="12">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="7902-8acc-472a-9c76" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="7902-8acc-472a-9c76" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="eca1-e728-ee92-e6ff" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="e7fe-1cc5-53ff-c586" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="f39f-969d-4bc7-6503" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
@@ -3268,7 +3268,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Zamiec Skyfortress" hidden="false" id="b33e-80ff-695f-6d5b" sortIndex="13">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="2a69-86c3-4d49-68aa" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="2a69-86c3-4d49-68aa" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Capital" hidden="false" id="05af-d322-d5c2-9003" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="ef8c-ff57-dcd7-d554" primary="false" name="Commonwealth"/>
         <categoryLink targetId="4521-8e16-2d0f-7dc6" id="c6b1-4556-8034-24b2" primary="false" name="Carrier"/>
@@ -8659,7 +8659,7 @@
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Civilian Vessel, Flotsam, Forward Deployment, Resupply (2), Strategic Asset (4)</characteristic>
           </characteristics>
           <modifiers>
-            <modifier type="append" value="Ground Assault (3)" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Ground Assault (2)" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="75b4-91de-a43c-7c15" childId="47a5-c0c4-65a5-b0e6" shared="true"/>
               </conditions>
@@ -8826,7 +8826,7 @@ If the effect is successfully enacted, the Initial Target suffers 1 Critical Da
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1981-e1ee-d089-8e42"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="FlagShip" hidden="false" id="e026-cdb0-432c-5310" targetId="0ec6-f5c8-25d7-89d8">
+        <categoryLink name="Flagship" hidden="false" id="e026-cdb0-432c-5310" targetId="0ec6-f5c8-25d7-89d8">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e963-9dc6-cfe6-c17e-min"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e963-9dc6-cfe6-c17e-max"/>
@@ -9110,7 +9110,7 @@ If successful, any Exploding Strikes in the Resistance Roll are immediately conv
     </forceEntry>
     <forceEntry name="Black Wolf Mercenary Battlefleet (Specialist)" id="18d5-9e75-e46d-8c91" hidden="false" sortIndex="4">
       <categoryLinks>
-        <categoryLink name="FlagShip" hidden="false" id="f170-ea1f-cfce-663d" targetId="0ec6-f5c8-25d7-89d8">
+        <categoryLink name="Flagship" hidden="false" id="f170-ea1f-cfce-663d" targetId="0ec6-f5c8-25d7-89d8">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7e30-1232-3341-648e"/>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="94f0-65ef-b5a1-698b"/>
@@ -9166,7 +9166,7 @@ If successful, any Exploding Strikes in the Resistance Roll are immediately conv
     <categoryEntry name="AttachmentHostSubatai" id="249a-291a-3259-c6ac" hidden="true"/>
   </categoryEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Attachments" id="ea67-cb8e-a4c7-e7c6" hidden="false">
+    <selectionEntryGroup name="Attachments" id="ea67-cb8e-a4c7-e7c6" hidden="false" collapsible="true">
       <entryLinks>
         <entryLink import="true" name="Tunguska Skycruiser" hidden="true" id="9d8a-b82a-0f29-2b04" type="selectionEntry" targetId="4db1-908f-6411-3b87">
           <modifiers>
