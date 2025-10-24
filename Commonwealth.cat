@@ -8661,12 +8661,12 @@
           <modifiers>
             <modifier type="append" value="Ground Assault (2)" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="75b4-91de-a43c-7c15" childId="47a5-c0c4-65a5-b0e6" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="75b4-91de-a43c-7c15" childId="47a5-c0c4-65a5-b0e6" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
             <modifier type="append" value="Levant" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="self" childId="dd67-6eb8-c2a5-dab2" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="self" childId="dd67-6eb8-c2a5-dab2" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -8771,12 +8771,12 @@
       <modifiers>
         <modifier type="add" value="139e-c78f-43c0-2957" field="category">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="dd67-6eb8-c2a5-dab2" shared="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="dd67-6eb8-c2a5-dab2" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
         <modifier type="remove" value="4b7e-c78d-b9be-8d7c" field="category">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="dd67-6eb8-c2a5-dab2" shared="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="dd67-6eb8-c2a5-dab2" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>

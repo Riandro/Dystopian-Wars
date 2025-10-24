@@ -5058,6 +5058,11 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="e101-f5f6-ee47-b8fe" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="3bb1-3183-7b98-0d27" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Colorado Battle Platform " hidden="false" id="b77f-3c67-75d3-6474" sortIndex="31">
@@ -6761,6 +6766,11 @@
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set-primary" value="e101-f5f6-ee47-b8fe" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="3bb1-3183-7b98-0d27" shared="true" includeChildSelections="true"/>
+          </conditions>
         </modifier>
       </modifiers>
     </selectionEntry>

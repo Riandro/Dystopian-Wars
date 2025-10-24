@@ -6797,35 +6797,23 @@ Hunter (Airborne)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e1b-87a7-732b-80f9" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Escorts" hidden="false" id="6f6d-a96c-c23c-18b1" sortIndex="4">
-              <constraints>
-                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="d31f-d481-1b4e-3cc5" includeChildSelections="false"/>
-              </constraints>
-              <costs>
-                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
-                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Escort Tokens" id="9475-1b57-8537-acc3" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
-              </infoLinks>
-            </selectionEntry>
           </selectionEntries>
-          <modifiers>
-            <modifier type="add" value="139e-c78f-43c0-2957" field="category">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="7672-5b08-93eb-1f0e" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="remove" value="4b7e-c78d-b9be-8d7c" field="category">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="7672-5b08-93eb-1f0e" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="de24-bc81-aa4e-32db" includeChildSelections="false" automatic="true"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5795-701e-0769-ef73" includeChildSelections="false" automatic="true"/>
           </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Escorts" hidden="false" id="6f6d-a96c-c23c-18b1">
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="d31f-d481-1b4e-3cc5" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Escort Tokens" id="9475-1b57-8537-acc3" hidden="false" type="rule" targetId="1f5e-ff85-64eb-8532"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -6866,12 +6854,12 @@ Hunter (Airborne)</characteristic>
           <modifiers>
             <modifier type="append" value="Ground Assault (3)" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="109e-372f-46cb-5f7a" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="109e-372f-46cb-5f7a" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
             <modifier type="append" value="Levant" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="7672-5b08-93eb-1f0e" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="7672-5b08-93eb-1f0e" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -6885,6 +6873,18 @@ Hunter (Airborne)</characteristic>
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="925f-0b46-45b1-e2eb" type="selectionEntryGroup" targetId="1e7d-8dc7-fedb-f45a" sortIndex="2"/>
       </entryLinks>
+      <modifiers>
+        <modifier type="add" value="139e-c78f-43c0-2957" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="7672-5b08-93eb-1f0e" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="remove" value="4b7e-c78d-b9be-8d7c" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="7672-5b08-93eb-1f0e" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Hermes Supply Freighter " hidden="false" id="0999-f60e-bda1-24b5" sortIndex="43">
       <selectionEntries>
@@ -7071,12 +7071,12 @@ Hunter (Airborne)</characteristic>
           <modifiers>
             <modifier type="append" value="Ground Assault (2)" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="9389-33e8-17a0-c0f8" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="9389-33e8-17a0-c0f8" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
             <modifier type="append" value="Levant" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="self" childId="66d3-4dc4-6c4c-8bca" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="self" childId="66d3-4dc4-6c4c-8bca" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -7090,12 +7090,12 @@ Hunter (Airborne)</characteristic>
       <modifiers>
         <modifier type="add" value="139e-c78f-43c0-2957" field="category">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="66d3-4dc4-6c4c-8bca" shared="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="66d3-4dc4-6c4c-8bca" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
         <modifier type="remove" value="4b7e-c78d-b9be-8d7c" field="category">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="66d3-4dc4-6c4c-8bca" shared="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="66d3-4dc4-6c4c-8bca" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
