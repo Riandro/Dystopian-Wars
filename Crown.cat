@@ -7,7 +7,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="340"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
-            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="2"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="2"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0dfc-d809-637f-e553" automatic="true"/>
@@ -467,11 +467,12 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Avalon Skyfortress" hidden="false" id="4108-5224-c588-9fe6" sortIndex="2">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Avalon" hidden="false" id="d3d0-c2f0-32be-12db">
+        <selectionEntry type="model" import="true" name="Avalon" hidden="false" id="">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="286"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
-            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="3"/>
+            <cost name="GP" typeId="d3d0-c2f0-32be-12db" value="0"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="3"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d2b4-36da-4512-8e8e" automatic="true"/>
@@ -584,7 +585,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="275"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
-            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="4"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="4"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="99f0-1f89-e637-a1de" automatic="true"/>
@@ -851,7 +852,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="355"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
-            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="8"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="8"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a909-9f4f-966c-7d29" automatic="true"/>
@@ -1118,7 +1119,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="230"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
-            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="2"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="2"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="57c0-3435-b352-10fa" automatic="true"/>
@@ -1406,7 +1407,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="365"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
-            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="4"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="4"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="63bc-e5fb-e02c-0c42" automatic="true"/>
@@ -2007,7 +2008,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="205"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
-            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="2"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="2"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3e73-cc19-586a-7d95" automatic="true"/>
@@ -2260,7 +2261,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="195"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
-            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="2"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="2"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0ce4-b5ae-9ffb-4214" automatic="true"/>
@@ -2358,7 +2359,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="118"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
-            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="0"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="1"/>
           </costs>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9aef-69ee-db48-c12a" automatic="true"/>
@@ -2601,16 +2602,15 @@
       <costs>
         <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
         <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
-        <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="2"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hmcs Tilloch Galt" hidden="false" id="2209-5401-0324-7178" sortIndex="11">
+    <selectionEntry type="unit" import="true" name="HMCS Tilloch Galt" hidden="false" id="2209-5401-0324-7178" sortIndex="11">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Hmcs Tilloch Galt" hidden="false" id="2534-4da0-a016-8c34" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="375"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
-            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="6"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="6"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="267c-728b-b75e-630e" automatic="true"/>
@@ -2947,6 +2947,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="123"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="1"/>
           </costs>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0d8a-e1b6-98f1-937b" automatic="true"/>
@@ -3094,7 +3095,6 @@
       <costs>
         <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
         <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
-        <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="2"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Victory Heavy Carrier" hidden="false" id="8cee-6194-8ff3-f7a7" sortIndex="13">
@@ -3103,7 +3103,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="265"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
-            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="3"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="3"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7870-7ca7-ecf5-98fb" automatic="true"/>
@@ -3280,7 +3280,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="128"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
-            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="1"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="1"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a62a-cf54-a9d1-db7d" automatic="true"/>
@@ -3516,6 +3516,7 @@
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="138"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="1"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e2c0-5609-a728-5c87" automatic="true"/>
@@ -3941,6 +3942,7 @@ Guardian Generator (1)</characteristic>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="145"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="1"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="351b-e0ab-d37b-6762" automatic="true"/>
@@ -4216,6 +4218,7 @@ Guardian Generator (1)</characteristic>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="132"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="2"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9e4a-0275-c9fc-02b1" automatic="true"/>
@@ -4362,6 +4365,7 @@ Guardian Generator (1)</characteristic>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="130"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="1"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ed65-fedc-bf4c-f1a4" automatic="true"/>
@@ -4592,6 +4596,7 @@ Guardian Generator (1)</characteristic>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="94"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="1"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b2be-ba84-310c-e589" automatic="true"/>
@@ -4798,6 +4803,7 @@ Guardian Generator (1)</characteristic>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="86"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="1"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5b3e-2f9e-843e-9593" automatic="true"/>
@@ -5373,6 +5379,7 @@ Guardian Generator (1)</characteristic>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="112"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="1"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1084-772a-5b5e-b6e5" automatic="true"/>
@@ -5603,6 +5610,7 @@ Guardian Generator (1)</characteristic>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="115"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="1"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="113d-edbf-c49f-f63d" automatic="true"/>
@@ -5891,6 +5899,7 @@ Guardian Generator (1)</characteristic>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="125"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="1"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="63f7-de40-b1f5-f57a" automatic="true"/>
@@ -6032,6 +6041,7 @@ Guardian Generator (1)</characteristic>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="140"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="1"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e8ee-a375-d2dd-0f72" automatic="true"/>
@@ -6186,6 +6196,7 @@ Guardian Generator (1)</characteristic>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="82"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="2"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d78f-0520-98cb-94fb" automatic="true"/>
@@ -6401,6 +6412,7 @@ Guardian Generator (1)</characteristic>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="124"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="2"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7907-cca9-80d6-e745" automatic="true"/>
@@ -6731,6 +6743,7 @@ Guardian Generator (1)</characteristic>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="127"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="1"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b785-799a-ed69-44db" automatic="true"/>
@@ -6832,6 +6845,7 @@ Guardian Generator (1)</characteristic>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="104"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="2"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8ae8-c8d1-01e3-07b3" automatic="true"/>
@@ -6933,6 +6947,7 @@ Guardian Generator (1)</characteristic>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="135"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="2"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9915-ec16-b277-bba2" automatic="true"/>
@@ -7134,7 +7149,7 @@ Guardian Generator (1)</characteristic>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="125"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
-            <cost name="Guardian Generator Pool" typeId="10a2-dbcb-1351-6163" value="0"/>
+            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="1"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="22ba-bf28-24f8-1151" automatic="true"/>
@@ -8600,12 +8615,14 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="646c-51cf-3ed6-6798" includeChildSelections="true"/>
       </constraints>
+      <costs>
+        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
+        <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+        <cost name="GP" typeId="a9f9-1d81-c3b4-b731" value="2"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <costTypes>
-    <costType name="Guardian Generator Pool" id="f927-e6d8-9c1b-8744" defaultCostLimit="-1"/>
+    <costType name="GP" id="a9f9-1d81-c3b4-b731" defaultCostLimit="-1"/>
   </costTypes>
-  <sharedRules>
-    <rule name="test5" id="0f0c-698d-8ee5-cc89" hidden="false"/>
-  </sharedRules>
 </catalogue>

@@ -7611,7 +7611,4 @@ If they do, they convert all Standard Counters in the Action Roll to Standard St
       </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <sharedRules>
-    <rule name="test6" id="2919-33e5-a5a5-bd4d" hidden="false"/>
-  </sharedRules>
 </catalogue>

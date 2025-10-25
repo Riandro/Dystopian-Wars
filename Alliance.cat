@@ -10644,7 +10644,4 @@ This Special Action can be made by Underwater units.</description>
       </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <sharedRules>
-    <rule name="test3" id="5efa-c194-1956-1f48" hidden="false"/>
-  </sharedRules>
 </catalogue>

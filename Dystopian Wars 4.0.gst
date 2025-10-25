@@ -151,8 +151,8 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
     </profileType>
   </profileTypes>
   <costTypes>
-    <costType name="Points" id="89fa-eeaa-958f-ca32" defaultCostLimit="-1"/>
-    <costType name="VP" id="c245-c6fc-adb8-407a" defaultCostLimit="-1"/>
+    <costType name="Points" id="89fa-eeaa-958f-ca32" defaultCostLimit="1500"/>
+    <costType name="VP" id="c245-c6fc-adb8-407a" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Generators" id="7a4d-983a-a763-720b" hidden="false" collapsible="true">
@@ -210,6 +210,7 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="GP" typeId="a9f9-1d81-c3b4-b731" value="2"/>
           </costs>
           <profiles>
             <profile name="Guardian Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="5a5e-438b-e40b-3eb8"/>
@@ -1335,9 +1336,4 @@ This can be used to allow the unit to launch a Boarding action when it could not
       </attributes>
     </profile>
   </sharedProfiles>
-  <rules>
-    <rule name="test" id="4f45-3857-2025-44e8" hidden="false">
-      <description>test</description>
-    </rule>
-  </rules>
 </gameSystem>

@@ -10434,7 +10434,4 @@ If the effect is successfully enacted, each Scions of Jutland model that Partici
       </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <sharedRules>
-    <rule name="test8" id="f953-b64e-1c2b-9bbb" hidden="false"/>
-  </sharedRules>
 </catalogue>

@@ -1418,11 +1418,7 @@ This has no effect against Assault or Submerged weapons.
 The maximum number of Bonus Dice that can be added to a Resistance Pool in this way is equal to the model’s Defences rating, taking into account any Modifiers that currently apply.
 
 
-In addition, if at least one Action Die from the Guardian Pool is added as a Bonus Die, the Admiral can Re-roll any Blank results in the Resistance Roll.
-
-
-
-</description>
+In addition, if at least one Action Die from the Guardian Pool is added as a Bonus Die, the Admiral can Re-roll any Blank results in the Resistance Roll.</description>
       <alias>The Guardian Pool</alias>
     </rule>
     <rule name="Defensive" id="348e-56b4-81eb-50ca" hidden="false">
@@ -2410,7 +2406,4 @@ This model contributes X Action Dice to its Admiral’s Guardian Pool.</descript
   <publications>
     <publication name="DW4-Rules-Glossary-v4.0_W.pdf" id="14a6-3b96-497a-488d" hidden="false" publisherUrl="https://www.warcradle.com/assets/warcradleGames/dystopianWars/pdfs/essentials/DW4-Rules-Glossary-v4.0_W.pdf" shortName="Rules glossary" publisher="V4.00 Beta"/>
   </publications>
-  <rules>
-    <rule name="tes2" id="7d79-098f-3171-ac05" hidden="false"/>
-  </rules>
 </catalogue>

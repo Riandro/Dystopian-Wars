@@ -6821,7 +6821,4 @@ Failure Critical Damage Effect from one Battle-Ready model in that unit.</descri
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Rules Glossary" id="6f09-c9f4-24f6-b616" targetId="8551-5b95-4980-851f"/>
   </catalogueLinks>
-  <sharedRules>
-    <rule name="test7" id="a669-33bd-2aee-3677" hidden="false"/>
-  </sharedRules>
 </catalogue>
