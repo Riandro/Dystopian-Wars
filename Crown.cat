@@ -467,16 +467,15 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Avalon Skyfortress" hidden="false" id="4108-5224-c588-9fe6" sortIndex="2">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Avalon" hidden="false" id="">
+        <selectionEntry type="model" import="true" name="Avalon" hidden="false" id="2249-9267-7407-1992">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="286"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
-            <cost name="GP" typeId="d3d0-c2f0-32be-12db" value="0"/>
-            <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="3"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="11"/>
+            <cost name="GP" typeId="a9f9-1d81-c3b4-b731" value="3"/>
           </costs>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d2b4-36da-4512-8e8e" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6090-1277-865b-272f" automatic="true"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="65a3-5dcd-fa81-2965" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c23a-4d0d-198c-9954" includeChildSelections="false" automatic="true"/>
           </constraints>
           <profiles>
             <profile name="Aerial Heavy Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="6cf2-57e5-eee0-367d">
