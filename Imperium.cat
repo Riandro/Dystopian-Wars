@@ -5666,7 +5666,7 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
-                <modifier type="replace" value="" field="066c-1ce6-091e-90ab" scope="unit" affects="profiles.Properties" join=", " arg="Stoic"/>
+                <modifier type="replace" field="066c-1ce6-091e-90ab" scope="unit" affects="profiles.Properties" join=", " arg="Stoic"/>
               </modifiers>
             </selectionEntry>
           </selectionEntries>
@@ -9211,6 +9211,11 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
           <constraints>
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="835a-d2da-cd5c-f30a"/>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3cb1-b38a-2bdf-78bd"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Airborne Support" hidden="false" id="5ea8-4999-7540-85c5" targetId="27e2-dd72-ef50-01f1">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4b46-423f-45f8-cf2a"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
