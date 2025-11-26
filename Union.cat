@@ -1137,11 +1137,6 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="7b97-7934-8fa2-6bb8" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="force" childId="7b97-7934-8fa2-6bb8" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink name="Corsair Fighters" id="6f64-7e69-733f-4ee8" hidden="false" type="profile" targetId="37fc-23b4-f192-5ccc"/>
@@ -5082,6 +5077,11 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="f362-92c9-45bd-4057" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="3bb1-3183-7b98-0d27" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Offshore Defence Platform" hidden="false" id="b77f-3c67-75d3-6474" sortIndex="36">
@@ -8098,8 +8098,16 @@
                 <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eec0-a73f-685b-9347" includeChildSelections="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="eec0-a73f-685b-9347" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e984-00ea-f542-3ecd" includeChildSelections="false" automatic="true"/>
               </constraints>
+              <modifiers>
+                <modifier type="set" value="1" field="eec0-a73f-685b-9347">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="3bb1-3183-7b98-0d27" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Troop Transport" hidden="false" id="5a03-a974-b41a-031e" sortIndex="4">
               <costs>
@@ -8184,6 +8192,11 @@
         <modifier type="set-primary" value="33e6-1c11-bb7d-3918" field="category">
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="9ca3-bfd1-09e1-c0b3" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="3bb1-3183-7b98-0d27" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -8386,8 +8399,16 @@
                 <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fcc4-6e04-63f2-beec" includeChildSelections="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="fcc4-6e04-63f2-beec" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a56b-38a0-ffb8-56b3" includeChildSelections="false" automatic="true"/>
               </constraints>
+              <modifiers>
+                <modifier type="set" value="1" field="fcc4-6e04-63f2-beec">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="3bb1-3183-7b98-0d27" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Troop Transport" hidden="false" id="b5c3-5e78-96f7-428e" sortIndex="3">
               <costs>
@@ -8412,7 +8433,7 @@
       <modifiers>
         <modifier type="add" value="139e-c78f-43c0-2957" field="category">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="6407-4fad-054d-b7b6" shared="true" includeChildSelections="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="6407-4fad-054d-b7b6" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
         <modifier type="remove" value="4b7e-c78d-b9be-8d7c" field="category">
@@ -8430,6 +8451,7 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="9ca3-bfd1-09e1-c0b3" field="category"/>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="9b58-a61e-33d8-ee59" type="selectionEntryGroup" targetId="ad77-82b3-82f2-6a05" sortIndex="6"/>
