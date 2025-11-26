@@ -8985,7 +8985,7 @@ If successful, any Exploding Strikes in the Resistance Roll are immediately conv
             <modifier type="set" value="1" field="49a2-ff3c-4537-2bb1">
               <comment>Stops two attachments of self in a non mainstay force.</comment>
               <conditions>
-                <condition type="atLeast" value="2" field="selections" scope="force" childId="6276-6412-6211-eb2f" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="2" field="selections" scope="force" childId="28ac-0a01-eede-7e8f" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
