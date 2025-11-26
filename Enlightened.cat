@@ -364,7 +364,7 @@
       <profiles>
         <profile name="Archimedes" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="941d-b27b-83d8-2e72">
           <characteristics>
-            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">3</characteristic>
+            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">6</characteristic>
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">4&quot;-7&quot;</characteristic>
             <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">1</characteristic>
             <characteristic name="Defence" typeId="46f4-1304-4661-f62d">11</characteristic>
