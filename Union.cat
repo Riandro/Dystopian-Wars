@@ -9684,7 +9684,7 @@ If a model already has the Defensive (X ) system then add 1 to the value of X.<
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="atLeast" value="2" field="selections" scope="force" childId="9395-abfd-7656-ef47" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="atLeast" value="2" field="selections" scope="force" childId="a3b6-a7c8-e1d0-d63d" shared="true" includeChildSelections="true" includeChildForces="false"/>
                     <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="0551-d3d8-7de1-4996" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
@@ -9694,7 +9694,7 @@ If a model already has the Defensive (X ) system then add 1 to the value of X.<
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="force" childId="9395-abfd-7656-ef47" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="a3b6-a7c8-e1d0-d63d" shared="true" includeChildSelections="false" includeChildForces="false"/>
                     <condition type="instanceOf" value="1" field="forces" scope="force" childId="0551-d3d8-7de1-4996" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
@@ -9705,7 +9705,7 @@ If a model already has the Defensive (X ) system then add 1 to the value of X.<
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="equalTo" value="2" field="selections" scope="force" childId="9395-abfd-7656-ef47" shared="true" includeChildSelections="false"/>
+                    <condition type="equalTo" value="2" field="selections" scope="force" childId="a3b6-a7c8-e1d0-d63d" shared="true" includeChildSelections="false"/>
                     <condition type="instanceOf" value="1" field="forces" scope="force" childId="0551-d3d8-7de1-4996" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
