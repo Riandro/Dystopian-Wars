@@ -129,9 +129,9 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
     <profileType name="Weapons" id="9882-7112-4aa5-ffc1" hidden="false" sortIndex="2">
       <characteristicTypes>
         <characteristicType name="Arc" id="7e1f-87c9-897e-937b"/>
-        <characteristicType name="Close (10&quot;)" id="ac67-65a3-a5fa-bc21"/>
+        <characteristicType name="Close (0&quot;-10&quot;)" id="ac67-65a3-a5fa-bc21"/>
         <characteristicType name="Standard (10&quot;- 30&quot;)" id="0cf7-57e2-ee10-3769"/>
-        <characteristicType name="Extreme range(+30&quot;)" id="0ec8-d023-bf39-bb55"/>
+        <characteristicType name="Extreme (+30&quot;)" id="0ec8-d023-bf39-bb55"/>
         <characteristicType name="Qualities" id="0089-722e-2cab-3357"/>
       </characteristicTypes>
       <comment>1</comment>
@@ -812,9 +812,9 @@ This can be used to allow the unit to launch a Boarding action when it could not
                     <profile name="Aetheric Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a204-777e-ff37-7de5">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Powered</characteristic>
                       </characteristics>
                     </profile>
@@ -825,9 +825,9 @@ This can be used to allow the unit to launch a Boarding action when it could not
                     <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="f239-fb57-bff9-92f7">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
                       </characteristics>
                     </profile>
@@ -838,9 +838,9 @@ This can be used to allow the unit to launch a Boarding action when it could not
                     <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="572f-8e6f-abc9-2d9d">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
                       </characteristics>
                     </profile>
@@ -1043,9 +1043,9 @@ This can be used to allow the unit to launch a Boarding action when it could not
                     <profile name="Aetheric Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="171c-b16e-dd6b-2e1b">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Powered</characteristic>
                       </characteristics>
                     </profile>
@@ -1056,9 +1056,9 @@ This can be used to allow the unit to launch a Boarding action when it could not
                     <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="dcd8-2b96-d49b-877f">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
                       </characteristics>
                     </profile>
@@ -1069,9 +1069,9 @@ This can be used to allow the unit to launch a Boarding action when it could not
                     <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="0b33-fe4f-c9d0-ec63">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
                       </characteristics>
                     </profile>
@@ -1263,7 +1263,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Portal Strike</attribute>
       </attributes>
     </profile>
-    <profile name="Scythe Fighters (Default)" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="d9fa-f9ea-c689-e3f3">
+    <profile name="Scythe Fighters" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="d9fa-f9ea-c689-e3f3">
       <characteristics>
         <characteristic name="ATK" typeId="1727-4f83-903e-a65d">3</characteristic>
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">2</characteristic>

@@ -1893,9 +1893,9 @@ At the end of the move, it can make up to two free Pivots.</description>
       <description>Whenever a friendly unit launches a Stack of Scythe Fighter SRS tokens, its Admiral can nominate any number of friendly models with this property to enact a Mindless Storm. 
 These models do not have to be in the same unit, and can be anywhere in the Play Area. 
 
-
 In the Choose SRS Missions step of the launch, the Stack can be allocated to an enemy unit within 10” of a model enacting a Mindless Storm, even if that unit is not within 30” of the launching model. 
 In addition, for each model enacting a Mindless Storm that is within 10” of the enemy unit, an additional Scythe Fighter token is added to the Stack. 
+
 A model can only participate in one Mindless Storm in each Launch Phase. 
 To track this, each nominated model is marked with a Special Effect token until the end of the Launch Phase.</description>
     </rule>
@@ -2585,7 +2585,7 @@ Mark it with an Activated status token to show that it cannot be nominated agai
 Otherwise, the Admiral deploys the unit and marks it with an Incoming status token. The unit must be deployed In Coherency, with all of its models in contact with an Edge of the Play Area and not within 5” of an enemy model.
 
 
-The models must be deployed within their own Deployment Zone, unless the roll contained at least 1 Exploding Strike - in which case they can be deployed along any Edge, as long as no model is in the opposing Admiral’s Deployment Zone. </description>
+The models must be deployed within their own Deployment Zone, unless the roll contained at least 1 Exploding Strike - in which case they can be deployed along any Edge, as long as no model is in the opposing Admiral’s Deployment Zone.</description>
       <alias>Reserves</alias>
     </rule>
     <rule name="Hampered" id="b713-3031-c69b-9c63" hidden="false">
