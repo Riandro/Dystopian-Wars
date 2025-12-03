@@ -10342,7 +10342,7 @@ Note that the Admiral cannot resolve an SRS Mission between the two Activations.
         </categoryLink>
         <categoryLink name="Marine Levante Patrol " hidden="false" id="6d1e-12f1-5b73-e579" targetId="8b59-7d07-09cd-d9ca">
           <constraints>
-            <constraint type="max" value="12" field="selections" scope="parent" shared="true" id="260c-c2c4-cd70-d6d7"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="260c-c2c4-cd70-d6d7"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Marine Levante Support" hidden="false" id="b85f-8973-2caf-1533" targetId="a08b-32b3-378f-0edc">
