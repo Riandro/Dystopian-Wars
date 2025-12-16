@@ -751,6 +751,69 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="23bb-7d04-79c5-18ad" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="698e-fab2-1129-6f14" hidden="false" sortIndex="1">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="89be-e08a-e865-51c6">
+                  <profiles>
+                    <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="da10-9090-6155-bc3c">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="D-Cannon Battery" hidden="false" id="72e6-0112-99a4-e9cc">
+                  <profiles>
+                    <profile name="D-Cannon Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="5c41-552f-1019-1232">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="b077-a927-be5b-0020">
+                  <profiles>
+                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="c84e-de18-1d27-cc5b">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Particle Beamer" hidden="false" id="bb13-3f89-612e-5020">
+                  <profiles>
+                    <profile name="Particle Beamer" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="b020-a148-3aa5-28d0">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b68b-4c8a-7e0a-334c" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2319-f57a-31d3-226a" includeChildSelections="false" automatic="true"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Generators" hidden="false" id="54db-01a9-9fcd-a558" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
+              </entryLinks>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="200"/>
