@@ -3394,6 +3394,7 @@
         <categoryLink name="Flagship" hidden="false" id="ed2b-b742-987c-6fae" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Airborne Flagship" hidden="false" id="2eb0-15e7-bd36-85ec" targetId="fd71-d980-84e0-2ca0" primary="false"/>
         <categoryLink name="HEC Flagship" hidden="false" id="b276-6ade-2302-529a" targetId="cac5-b09a-82c3-f814" primary="false"/>
+        <categoryLink name="Airborne Con" hidden="false" id="2ee1-78e2-2591-ee70" targetId="75e0-964e-1a22-94e9" primary="false"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d17-53ff-fd2b-0776" includeChildSelections="true"/>
