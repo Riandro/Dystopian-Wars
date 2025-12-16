@@ -5127,337 +5127,6 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Salvador Battlecruiser" hidden="false" id="a9be-db75-9cb9-f5e9" sortIndex="20">
-      <profiles>
-        <profile name="Salvador" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="1c26-5cb1-ba14-c035">
-          <characteristics>
-            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">4</characteristic>
-            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">3&quot;-6&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">2</characteristic>
-            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">7</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">11</characteristic>
-            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
-            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">4</characteristic>
-            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">4</characteristic>
-            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">7</characteristic>
-            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1-2</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Salvador" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="41a2-b210-b77e-ba68">
-          <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Pivot, Shallow Draught</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Salvador" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="7e24-7863-e1b3-9f8d">
-          <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Salvador" hidden="false" id="e312-9747-a266-03b9" sortIndex="1">
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="10bd-a1d3-2bc8-116c" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="a89e-7e8a-cf53-92a8">
-                  <profiles>
-                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e3a2-e921-882c-6ee5">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="6dcc-d3e4-f293-5b5b">
-                  <profiles>
-                    <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ebbe-1a4a-1c96-1ba1">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3147-23d8-9ebc-0413" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d4d-cb56-e90d-8df8" automatic="true"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: SA" id="5cc7-ebbd-e2bc-55f8" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="7adb-fcd8-9751-6890">
-                  <profiles>
-                    <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="8bd8-fee0-b32b-c24d">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">SA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="71c7-cd91-d848-8719">
-                  <profiles>
-                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="c41d-3ee5-4e6a-22ae">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">SA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="e316-4879-e717-f262">
-                  <profiles>
-                    <profile name="Torpedo Turret " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ff3f-d79e-e49e-1e2d">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">SA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Torpedo</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ddf9-0852-33a5-a42d" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7fb-c46c-4628-7d7a" automatic="true"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="14a8-10a8-3ca6-d036" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="e6b5-566f-fbe6-99c8">
-                  <profiles>
-                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="3064-eaac-be33-b7ab">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="2451-ed09-70dc-442b">
-                  <profiles>
-                    <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7c20-65ac-b78f-ccbe">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d8a3-1051-4cbc-7305" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f85-76f4-2c8f-74ac" automatic="true"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FP" id="1993-e11c-ea45-16d3" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="0777-1622-d71a-f225">
-                  <profiles>
-                    <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="b5e2-3b6a-71ff-e893">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="1cd0-70e3-a755-d1e3">
-                  <profiles>
-                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="fb2e-4f6a-3db4-d903">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="2579-7b46-a8e5-08ee">
-                  <profiles>
-                    <profile name="Torpedo Turret " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="f6fa-c4fd-7bf3-6e7f">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Torpedo</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3d9a-3cbe-b301-0d33" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="afbe-7884-dc1f-ab29" automatic="true"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FS" id="80fd-2d37-6027-af91" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="b137-1ed8-1605-85c5">
-                  <profiles>
-                    <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="fee0-3876-c0cb-7f09">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="f1c8-acda-8fb2-ab42">
-                  <profiles>
-                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="3290-a8e5-a560-3c21">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="aa2b-6e43-4aea-c423">
-                  <profiles>
-                    <profile name="Torpedo Turret " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="d664-d1b4-fadd-21af">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Torpedo</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fbe6-c796-df51-a968" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c606-6398-8065-d74e" automatic="true"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: PA" id="7569-9831-5d01-be74" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="3d96-34fc-61f6-3f5d">
-                  <profiles>
-                    <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="f9e4-eec3-333f-41ff">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="5c1b-eaee-2e13-9244">
-                  <profiles>
-                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2806-01e3-f959-3f12">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="b5a3-853f-0f65-5184">
-                  <profiles>
-                    <profile name="Torpedo Turret " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="5071-0be6-f24e-9a64">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Torpedo</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9836-5030-2f68-12e0" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d67-2225-799b-8c2f" automatic="true"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="38ce-ec0a-1874-b9d3" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3afd-9d00-1ba5-aa18" includeChildSelections="false" automatic="true"/>
-          </constraints>
-          <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="192"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="7"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
-      </costs>
-      <entryLinks>
-        <entryLink import="true" name="Escorts" hidden="false" id="3cf0-ffa8-ea2a-2864" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="7">
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9416-09e4-af7b-d91b" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="9d31-7936-b3e8-3c92" type="selectionEntryGroup" targetId="7ba2-917a-b755-ac63"/>
-      </entryLinks>
-      <categoryLinks>
-        <categoryLink targetId="ae99-8ab0-27f0-7bb6" id="e597-4048-176e-dbf6" primary="true" name="Line"/>
-        <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="6b9b-84e1-db5f-bf6d" primary="false" name="Surface"/>
-        <categoryLink targetId="a7a8-042b-6660-7577" id="b48c-b317-d347-5d06" primary="false" name="SUSA"/>
-        <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="e934-c06a-a4ad-0f07" primary="false" name="Ship"/>
-        <categoryLink targetId="b81b-c372-001c-2710" id="0cab-186e-8176-5379" primary="false" name="Alliance"/>
-        <categoryLink targetId="2251-0def-1b03-2e93" id="8ec4-688c-c6cf-4be7" primary="false" name="Attachment host"/>
-        <categoryLink name="Alliance Line Con " hidden="false" id="a133-f6d0-9d91-d1b9" targetId="b1ff-c1d2-94f1-38e0" primary="false"/>
-        <categoryLink name="SUSA Line" hidden="false" id="0f3f-6c4d-a028-a3bb" targetId="2e02-92a1-ccfe-e136" primary="false"/>
-        <categoryLink name="SUSA Line Con" hidden="false" id="c0d6-7b4f-2fa5-401f" targetId="df79-08ab-26d9-1cdf" primary="false"/>
-      </categoryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a292-c639-38dd-13e0" includeChildSelections="false"/>
-      </constraints>
-      <modifiers>
-        <modifier type="set-primary" value="2e02-92a1-ccfe-e136" field="category">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="ae59-366a-0ba4-1eaa" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </selectionEntry>
     <selectionEntry type="unit" import="true" name="Spatha Attack Cruiser" hidden="false" id="568b-942f-91d9-9021" sortIndex="21">
       <profiles>
         <profile name="Spatha" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="60b2-225d-d2ec-25a4">
@@ -10777,4 +10446,359 @@ This Special Action can be made by Underwater units.</description>
       </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <entryLinks>
+    <entryLink import="true" name="Salvador Battlecruiser" hidden="false" id="4149-9604-e347-ebd3" type="selectionEntry" targetId="e3d8-94c6-54d1-1ec7" sortIndex="20">
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set-primary" value="2e02-92a1-ccfe-e136" field="category">
+              <conditions>
+                <condition type="instanceOf" value="1" field="forces" scope="force" childId="ae59-366a-0ba4-1eaa" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <comment>LINE</comment>
+      <categoryLinks>
+        <categoryLink name="Line" hidden="false" id="3aae-ac73-f2af-f340" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
+        <categoryLink name="SUSA Line" hidden="false" id="5577-33aa-93af-8452" targetId="2e02-92a1-ccfe-e136" primary="false"/>
+        <categoryLink name="SUSA Line Con" hidden="false" id="8620-3d48-0479-a88d" targetId="df79-08ab-26d9-1cdf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Salvador Battlecruiser" hidden="true" id="0fbe-0df1-15a0-a33b" type="selectionEntry" targetId="e3d8-94c6-54d1-1ec7" sortIndex="12">
+      <categoryLinks>
+        <categoryLink name="SUSA Flagship" hidden="false" id="257c-640d-ac03-0c28" targetId="1ae2-1613-1f85-3921" primary="true"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="forces" scope="force" childId="ae59-366a-0ba4-1eaa" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Salvador Battlecruiser" hidden="false" id="e3d8-94c6-54d1-1ec7">
+      <profiles>
+        <profile name="Salvador" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="3cc6-c91c-17aa-00a0">
+          <characteristics>
+            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">4</characteristic>
+            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">3&quot;-6&quot;</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">2</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">7</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">11</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
+            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">4</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">4</characteristic>
+            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">7</characteristic>
+            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1-2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Salvador" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="0512-9c97-432f-de58">
+          <characteristics>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Pivot, Shallow Draught</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Salvador" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="a9a1-f01a-8201-896d">
+          <characteristics>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Salvador" hidden="false" id="f44e-f6ca-1ed9-038a" sortIndex="1">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="055b-524c-79ed-4284" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="5c50-3405-c989-590b">
+                  <profiles>
+                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="10b2-4bd1-1612-a1b6">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="32db-6643-2740-357e">
+                  <profiles>
+                    <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2b61-f5da-3399-29a8">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="679c-8f3d-2545-fd51" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd4a-7039-330c-2a1c" automatic="true"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Light Hardpoint: SA" id="2e07-e2aa-4147-d166" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="e87d-09dc-3fea-e7a3">
+                  <profiles>
+                    <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="5499-9b61-0f08-2c51">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">SA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="f252-682d-9f32-8be9">
+                  <profiles>
+                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="bc6f-c952-f527-61f3">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">SA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="2b52-3f9f-9a87-9181">
+                  <profiles>
+                    <profile name="Torpedo Turret " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e3c1-4d5f-59d8-9e71">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">SA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Torpedo</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d453-fbfb-b7df-0d49" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f67-a2a4-1857-f78f" automatic="true"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="0adf-0ab6-f604-9289" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="2e51-1df1-9add-f577">
+                  <profiles>
+                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="744b-6d2f-0515-62a3">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="bc54-e819-dd91-a1b6">
+                  <profiles>
+                    <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7a39-8d42-0e83-28f8">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1c1d-c1c9-07d6-df8a" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d90-65bb-4ba4-64a8" automatic="true"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Light Hardpoint: FP" id="207a-4794-54fa-7880" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="0fd9-ea66-5308-42d6">
+                  <profiles>
+                    <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="3583-c63c-dc69-b798">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="782c-9917-82ad-ab52">
+                  <profiles>
+                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="cb0e-339e-b314-1d46">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="df59-6658-345a-9507">
+                  <profiles>
+                    <profile name="Torpedo Turret " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="00fb-92e7-778a-b03c">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Torpedo</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3d79-5123-b42c-662b" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a161-136d-c264-5563" automatic="true"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Light Hardpoint: FS" id="7410-d65b-ff61-ac31" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="9a7f-0e49-02d6-522e">
+                  <profiles>
+                    <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ec27-579d-d4bf-5429">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="93d7-c70e-b1f6-6201">
+                  <profiles>
+                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="b551-c438-f97b-b422">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="3382-2d6d-2450-bf68">
+                  <profiles>
+                    <profile name="Torpedo Turret " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2a9e-6690-62b8-ad92">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Torpedo</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aac2-4b55-1ac1-a2e4" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1cda-d567-fa30-56c5" automatic="true"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Light Hardpoint: PA" id="6d50-db6d-83bf-98c4" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="1327-f827-8984-a8c7">
+                  <profiles>
+                    <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="c8ee-e9a8-ee04-f8ba">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="6bb1-bf74-56af-0171">
+                  <profiles>
+                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="51b2-e3bf-ad52-6c16">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="981c-465c-5d45-ac43">
+                  <profiles>
+                    <profile name="Torpedo Turret " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="83ef-c853-485a-76c3">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Torpedo</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="676d-00d3-2db4-4b9a" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6ff-f475-95cd-bcbf" automatic="true"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bfb4-dafb-e64d-b152" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1c73-60d2-540b-fe6a" includeChildSelections="false" automatic="true"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="192"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="7"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Escorts" hidden="false" id="f7e9-40b9-f13b-b0a6" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="7">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5a9c-6377-9079-daa0" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Attachments" hidden="false" id="90b9-e448-75fc-1f8c" type="selectionEntryGroup" targetId="7ba2-917a-b755-ac63"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Surface" hidden="false" id="24fa-5cce-716e-0e1c" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
+        <categoryLink name="SUSA" hidden="false" id="aeb7-6eaa-e90c-1daf" targetId="a7a8-042b-6660-7577" primary="false"/>
+        <categoryLink name="Ship" hidden="false" id="4f66-8c82-1e70-d9a1" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
+        <categoryLink name="Alliance" hidden="false" id="03bc-cb2c-51be-5496" targetId="b81b-c372-001c-2710" primary="false"/>
+        <categoryLink name="Attachment host" hidden="false" id="c50f-736d-561a-f5a2" targetId="2251-0def-1b03-2e93" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="false" id="4610-6776-9987-16a5" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+  </sharedSelectionEntries>
 </catalogue>
