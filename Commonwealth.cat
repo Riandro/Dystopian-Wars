@@ -3809,6 +3809,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Attachments" hidden="false" id="48f0-a9cb-3420-b12c" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Kutsov Cruiser" hidden="false" id="7563-a487-7b0a-082e" sortIndex="15">
       <categoryLinks>
@@ -5085,6 +5088,13 @@
               </characteristics>
             </profile>
           </profiles>
+          <modifiers>
+            <modifier type="set" value="2" field="6892-3cb4-326b-20a1">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
       <constraints>
@@ -5631,6 +5641,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Attachments" hidden="false" id="a613-7692-2455-2309" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Offshore Heavy Platform" hidden="false" id="13e6-f212-77b9-933b" sortIndex="31">
       <categoryLinks>
@@ -6982,6 +6995,7 @@
         <categoryLink name="Colossus" hidden="false" id="bc80-a442-bbab-9fd6" targetId="b1a6-61a9-0ae4-8b65" primary="false"/>
         <categoryLink name="Support" hidden="false" id="8e20-8450-074a-8ab5" targetId="1711-6069-af06-c5cc" primary="true"/>
         <categoryLink name="Supportcon" hidden="false" id="0708-bc49-0e91-cffa" targetId="177a-2809-f30c-07f1" primary="false"/>
+        <categoryLink name="Attachment host" hidden="false" id="4d47-f3eb-78b6-7b13" targetId="2251-0def-1b03-2e93" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
@@ -7188,6 +7202,17 @@
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f32d-1440-c6e8-bdc2" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Attachments" hidden="false" id="816a-c27b-f07b-e2a7" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Marena Vitruvian Colossus" hidden="false" id="c3e2-48e5-3381-d4dc" sortIndex="38">
       <categoryLinks>
@@ -7197,6 +7222,7 @@
         <categoryLink targetId="2254-9ae3-b1ba-6529" id="a2b4-fcc9-8941-3b6c" primary="false" name="Scoutcon"/>
         <categoryLink name="Underwater" hidden="false" id="8ae5-0d9a-d43f-5202" targetId="c636-bf34-4555-99bc" primary="false"/>
         <categoryLink name="Colossus" hidden="false" id="bc19-73b6-9734-3095" targetId="b1a6-61a9-0ae4-8b65" primary="false"/>
+        <categoryLink name="Attachment host" hidden="false" id="168c-4127-551e-7749" targetId="2251-0def-1b03-2e93" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Marena" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="7ccd-6ca5-87c1-5e8f">
@@ -7373,6 +7399,17 @@
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9c81-3bf5-c14f-54e9" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Attachments" hidden="false" id="7872-d286-7f7a-cdc2" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Sineus Fast Cruiser" hidden="false" id="01f5-793f-4da8-4f93" sortIndex="39">
       <categoryLinks>
@@ -8850,9 +8887,16 @@ If successful, any Exploding Strikes in the Resistance Roll are immediately conv
         <entryLink import="true" name="Piranya Hunter Submarine" hidden="true" id="d044-fa7d-7561-8069" type="selectionEntry" targetId="f5c9-7ef3-c3be-c2ac">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0f4b-b488-8647-4a6a" shared="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f421-3280-3483-3214" shared="true" includeChildSelections="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="c636-bf34-4555-99bc" shared="true" includeChildSelections="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false"/>
+                    <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
             <modifier type="set" value="1" field="2da0-76eb-c5a5-ecde">
               <conditionGroups>
@@ -8909,6 +8953,19 @@ If successful, any Exploding Strikes in the Resistance Roll are immediately conv
               <comment>Stops too many attachments of self in a mainstay force part 2</comment>
             </modifier>
             <modifier type="add" value="be8b-fb87-de18-b1f2" field="category"/>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or"/>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8281-3830-2276-5bcd" shared="true" includeChildSelections="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="c636-bf34-4555-99bc" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="2da0-76eb-c5a5-ecde" includeChildSelections="true" includeChildForces="false"/>
