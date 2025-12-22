@@ -8073,7 +8073,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         <categoryLink name="Scout" hidden="false" id="ce9f-1106-29ff-deda" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
       </categoryLinks>
       <modifiers>
-        <modifier type="set-primary" value="bed0-91fe-8bd9-89ea" field="category">
+        <modifier type="set-primary" value="b365-a18b-f529-76a2" field="category">
           <conditions>
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
           </conditions>
