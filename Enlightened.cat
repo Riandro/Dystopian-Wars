@@ -1703,7 +1703,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Scythe Fighters (Default)" id="19bf-b111-e7e6-6f02" hidden="false" type="profile" targetId="d9fa-f9ea-c689-e3f3"/>
+        <infoLink name="Scythe Fighters" id="19bf-b111-e7e6-6f02" hidden="false" type="profile" targetId="d9fa-f9ea-c689-e3f3"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Kepler Battlecruiser" hidden="false" id="23ab-9a12-5c05-b100" sortIndex="8">
@@ -2132,7 +2132,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Scythe Fighters (Default)" id="179a-b85a-b9fa-fcd2" hidden="false" type="profile" targetId="d9fa-f9ea-c689-e3f3"/>
+        <infoLink name="Scythe Fighters" id="179a-b85a-b9fa-fcd2" hidden="false" type="profile" targetId="d9fa-f9ea-c689-e3f3"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e89-1e9f-daa5-c1e6"/>
@@ -2520,7 +2520,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Scythe Fighters (Default)" id="4747-626e-0f35-d06e" hidden="false" type="profile" targetId="d9fa-f9ea-c689-e3f3"/>
+        <infoLink name="Scythe Fighters" id="4747-626e-0f35-d06e" hidden="false" type="profile" targetId="d9fa-f9ea-c689-e3f3"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4662-badd-3524-d667"/>
@@ -2646,7 +2646,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <categoryLink targetId="dc2c-a90a-1b96-f38d" id="140e-3ee9-d2fb-cc8a" primary="false" name="Airbornecon"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Scythe Fighters (Default)" id="522a-641c-0969-b2b9" hidden="false" type="profile" targetId="d9fa-f9ea-c689-e3f3"/>
+        <infoLink name="Scythe Fighters" id="522a-641c-0969-b2b9" hidden="false" type="profile" targetId="d9fa-f9ea-c689-e3f3"/>
       </infoLinks>
       <profiles>
         <profile name="Thule" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="4593-37da-8646-bd8b">
@@ -3243,7 +3243,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </profile>
         <profile name="Antarctica" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="6b86-b8c3-dfad-6efe">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Turbo Encabulation Jump</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5338,7 +5338,7 @@ Hydrophone Relay</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Scythe Fighters (Default)" id="c943-c2aa-9432-0608" hidden="false" type="profile" targetId="d9fa-f9ea-c689-e3f3"/>
+        <infoLink name="Scythe Fighters" id="c943-c2aa-9432-0608" hidden="false" type="profile" targetId="d9fa-f9ea-c689-e3f3"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e820-170e-6475-b243"/>
@@ -6007,7 +6007,7 @@ Hydrophone Relay</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Scythe Fighters (Default)" id="4d83-2060-897e-c765" hidden="false" type="profile" targetId="d9fa-f9ea-c689-e3f3"/>
+        <infoLink name="Scythe Fighters" id="4d83-2060-897e-c765" hidden="false" type="profile" targetId="d9fa-f9ea-c689-e3f3"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="85f4-dd89-b929-f291"/>
