@@ -6252,116 +6252,6 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Francisco Battlecruiser" hidden="false" id="afec-36f0-a345-291f" sortIndex="28">
-      <profiles>
-        <profile name="Francisco" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="5c08-e2b2-2cc5-475f">
-          <characteristics>
-            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">4</characteristic>
-            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">3&quot;-6&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">2</characteristic>
-            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">7</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">11</characteristic>
-            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
-            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">4</characteristic>
-            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">4</characteristic>
-            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">6</characteristic>
-            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1-2</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Francisco" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="b9bd-dc9b-63c1-18aa">
-          <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Pivot, Shallow Draught</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Francisco" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="715b-7351-b2c4-e227">
-          <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Generator Ship, Solex Generator</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Francisco" hidden="false" id="ad0b-9c72-2bc3-f852" sortIndex="1">
-          <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="235"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="7"/>
-          </costs>
-          <profiles>
-            <profile name="Heat Lancette" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a33f-f385-c5d2-49d3">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PA</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Heat Lancette" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e2fd-5793-87b4-0d5d">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">SA</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Heat Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2f61-2613-c322-7a00">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (2)</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Heat Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="160b-b2dd-b55e-bc54">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (2)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5837-cdd0-c118-ec4c" automatic="true"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1879-9772-9c9f-3840" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
-      <categoryLinks>
-        <categoryLink targetId="1711-6069-af06-c5cc" id="85f2-6d49-d975-dd2b" primary="true" name="Support"/>
-        <categoryLink targetId="b81b-c372-001c-2710" id="3a2b-eaa6-db12-775d" primary="false" name="Alliance"/>
-        <categoryLink targetId="a7a8-042b-6660-7577" id="3770-a6d5-67fe-8ebd" primary="false" name="SUSA"/>
-        <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="2408-b2ec-3daf-438e" primary="false" name="Surface"/>
-        <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="df20-0e4d-ca3b-1ff2" primary="false" name="Ship"/>
-        <categoryLink targetId="30c3-7f1c-19e3-e772" id="7b60-263f-5b26-98a0" primary="false" name="Capital"/>
-        <categoryLink name="SUSA Support Con" hidden="false" id="69b4-bda1-0598-22c4" targetId="907f-8cc5-754e-b6c2" primary="false"/>
-        <categoryLink name="SUSA Support" hidden="false" id="4d7b-a9a2-8ce2-619e" targetId="0b9c-68e5-861a-92e9" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink import="true" name="Escorts" hidden="false" id="a724-560f-c0bc-2a02" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="7">
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="6369-0972-6ae9-a8ec" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="3dc5-8ecf-953b-e6ad" type="selectionEntryGroup" targetId="7ba2-917a-b755-ac63"/>
-      </entryLinks>
-      <costs>
-        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
-      </costs>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="93eb-658f-5a8b-f465" includeChildSelections="false"/>
-      </constraints>
-      <modifiers>
-        <modifier type="set-primary" value="0b9c-68e5-861a-92e9" field="category">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="ae59-366a-0ba4-1eaa" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Jupiter Support Carrier" hidden="false" id="a87b-a229-89e9-281a" sortIndex="30">
       <profiles>
         <profile name="Jupiter" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="e281-cd14-faa6-62d8">
@@ -10448,35 +10338,42 @@ This Special Action can be made by Underwater units.</description>
   </sharedSelectionEntryGroups>
   <entryLinks>
     <entryLink import="true" name="Salvador Battlecruiser" hidden="false" id="4149-9604-e347-ebd3" type="selectionEntry" targetId="e3d8-94c6-54d1-1ec7" sortIndex="20">
-      <modifierGroups>
-        <modifierGroup type="and">
-          <modifiers>
-            <modifier type="set-primary" value="2e02-92a1-ccfe-e136" field="category">
-              <conditions>
-                <condition type="instanceOf" value="1" field="forces" scope="force" childId="ae59-366a-0ba4-1eaa" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </modifierGroup>
-      </modifierGroups>
       <comment>LINE</comment>
       <categoryLinks>
         <categoryLink name="Line" hidden="false" id="3aae-ac73-f2af-f340" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
         <categoryLink name="SUSA Line" hidden="false" id="5577-33aa-93af-8452" targetId="2e02-92a1-ccfe-e136" primary="false"/>
         <categoryLink name="SUSA Line Con" hidden="false" id="8620-3d48-0479-a88d" targetId="df79-08ab-26d9-1cdf" primary="false"/>
       </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Salvador Battlecruiser" hidden="true" id="0fbe-0df1-15a0-a33b" type="selectionEntry" targetId="e3d8-94c6-54d1-1ec7" sortIndex="12">
-      <categoryLinks>
-        <categoryLink name="SUSA Flagship" hidden="false" id="257c-640d-ac03-0c28" targetId="1ae2-1613-1f85-3921" primary="true"/>
-      </categoryLinks>
       <modifiers>
-        <modifier type="set" value="false" field="hidden">
+        <modifier type="set-primary" value="2e02-92a1-ccfe-e136" field="category">
           <conditions>
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="ae59-366a-0ba4-1eaa" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Salvador Battlecruiser" hidden="false" id="0fbe-0df1-15a0-a33b" type="selectionEntry" targetId="e3d8-94c6-54d1-1ec7" sortIndex="12">
+      <categoryLinks>
+        <categoryLink name="SUSA Flagship" hidden="false" id="257c-640d-ac03-0c28" targetId="1ae2-1613-1f85-3921" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Francisco Battlecruiser" hidden="false" id="e3d5-7b32-7f6e-2406" type="selectionEntry" targetId="6444-884b-b39d-5129" sortIndex="28">
+      <modifiers>
+        <modifier type="set-primary" value="0b9c-68e5-861a-92e9" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="forces" scope="force" childId="ae59-366a-0ba4-1eaa" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="907f-8cc5-754e-b6c2" field="category"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Support" hidden="false" id="5181-3017-5e51-ded8" targetId="1711-6069-af06-c5cc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Francisco Battlecruiser" hidden="false" id="5380-6b99-ab02-59f0" type="selectionEntry" targetId="6444-884b-b39d-5129" sortIndex="12">
+      <categoryLinks>
+        <categoryLink name="SUSA Flagship" hidden="false" id="9554-39f4-0af7-3959" targetId="1ae2-1613-1f85-3921" primary="true"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -10798,6 +10695,107 @@ This Special Action can be made by Underwater units.</description>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="false" id="4610-6776-9987-16a5" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Francisco Battlecruiser" hidden="false" id="6444-884b-b39d-5129">
+      <profiles>
+        <profile name="Francisco" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="a1d7-a370-0c69-5a02">
+          <characteristics>
+            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">4</characteristic>
+            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">3&quot;-6&quot;</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">2</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">7</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">11</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
+            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">4</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">4</characteristic>
+            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">6</characteristic>
+            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1-2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Francisco" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="d0ef-0389-5de5-9de4">
+          <characteristics>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Pivot, Shallow Draught</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Francisco" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="1c98-5af0-0032-e45c">
+          <characteristics>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Generator Ship, Solex Generator</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Francisco" hidden="false" id="c684-f080-9e11-ceb2" sortIndex="1">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="235"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="7"/>
+          </costs>
+          <profiles>
+            <profile name="Heat Lancette" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="8495-6269-879c-eaab">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PA</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Heat Lancette" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7a86-3c5b-9c3d-d843">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">SA</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Heat Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e455-8a69-b1a2-c94f">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (2)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Heat Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="abc8-fcdf-dad1-3117">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (2)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4c4c-6bf1-3fb3-5c9e" automatic="true"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1c46-8cde-8fa0-adc3" automatic="true"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Alliance" hidden="false" id="8c70-e545-50bc-92bc" targetId="b81b-c372-001c-2710" primary="false"/>
+        <categoryLink name="SUSA" hidden="false" id="1625-6813-2f67-28a1" targetId="a7a8-042b-6660-7577" primary="false"/>
+        <categoryLink name="Surface" hidden="false" id="987d-76bc-580b-11e7" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
+        <categoryLink name="Ship" hidden="false" id="6692-a265-9fae-ecc9" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
+        <categoryLink name="Capital" hidden="false" id="5e18-a956-1a53-fd14" targetId="30c3-7f1c-19e3-e772" primary="false"/>
+        <categoryLink name="Attachment host" hidden="false" id="62bd-75b6-ed75-95bd" targetId="2251-0def-1b03-2e93" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Escorts" hidden="false" id="a070-b512-21ab-ae30" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="7">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9626-cb1b-cdf0-6e3e" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Attachments" hidden="false" id="2a50-6f6c-cc70-8ef7" type="selectionEntryGroup" targetId="7ba2-917a-b755-ac63"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="false" id="d352-e42d-4832-ac06" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
