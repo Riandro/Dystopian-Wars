@@ -9667,7 +9667,7 @@
       <entryLinks>
         <entryLink import="true" name="Fleet Doctrines" hidden="false" id="f85f-5043-30f7-8131" type="selectionEntryGroup" targetId="3a8e-29a8-4109-7c1c">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="ROLLING BROADSIDE" hidden="false" id="6dc9-0f1f-208b-4dc1">
+            <selectionEntry type="upgrade" import="true" name="ROLLING BROADSIDE" hidden="true" id="6dc9-0f1f-208b-4dc1">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="25"/>
                 <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -9687,35 +9687,30 @@ Additionally, if the target suffers at least 1 Damage due to this Action, it ga
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3e9e-76ef-4970-dcb7" includeChildSelections="true" includeChildForces="true"/>
               </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="count" min="1">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="1c40-668e-4ae1-b2d2" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="f305-8f2a-08df-d7c0" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="9055-0096-e76e-6565" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="8bd7-e927-8f97-f8ad" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="e31f-cdf6-3ccf-533a" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="22b4-6eb4-5cc9-710b" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="24d8-9be9-c431-bb38" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="lessThan" value="1" field="selections" scope="force" childId="a17a-9770-cee2-148a" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                        <condition type="lessThan" value="1" field="selections" scope="force" childId="5b3b-a002-fb2f-ce24" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                        <condition type="lessThan" value="1" field="selections" scope="force" childId="72d5-63ab-d6f7-aae4" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                        <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="82bb-e563-282c-81a0" shared="true" includeChildSelections="true"/>
-                        <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="af51-eab5-ad80-f15a" shared="true" includeChildSelections="true"/>
-                        <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="1379-10ac-ee38-19f0" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </conditionGroup>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="lessThan" value="1" field="selections" scope="force" childId="0f9c-ad25-c585-c47b" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                        <condition type="lessThan" value="1" field="selections" scope="force" childId="87cc-6a01-4be2-7bcb" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                        <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="ae59-366a-0ba4-1eaa" shared="true" includeChildSelections="true"/>
-                        <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="af51-eab5-ad80-f15a" shared="true" includeChildSelections="true"/>
-                        <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="1379-10ac-ee38-19f0" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="0ec6-f5c8-25d7-89d8" shared="true" includeChildSelections="true"/>
+              </conditions>
             </modifier>
           </modifiers>
           <constraints>
@@ -9732,6 +9727,13 @@ Additionally, if the target suffers at least 1 Damage due to this Action, it ga
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65b1-5c84-5e3d-05a3"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="0ec6-f5c8-25d7-89d8" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="Flagship" hidden="false" id="f3f1-48f5-3e8d-2cac" targetId="0ec6-f5c8-25d7-89d8">
           <constraints>
@@ -9846,6 +9848,13 @@ Note that the Admiral cannot resolve an SRS Mission between the two Activations.
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e447-0785-e8eb-6f6f"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="0ec6-f5c8-25d7-89d8" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="Marine Levante Flagship" hidden="false" id="8be1-5d81-ee2d-de0b" targetId="7a4c-6fb6-6431-b103">
           <constraints>
@@ -9945,6 +9954,13 @@ This Special Action can be made by Underwater units.</description>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7be0-9d64-2027-75a9"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="0ec6-f5c8-25d7-89d8" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="Italian Flagship" hidden="false" id="b0af-5407-fdb7-6559" targetId="09db-3a9a-4611-86f8">
           <constraints>
@@ -10025,6 +10041,13 @@ This Special Action can be made by Underwater units.</description>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4df-dbf1-8193-742b"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="0ec6-f5c8-25d7-89d8" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="SUSA Flagship" hidden="false" id="3dd4-f9d8-4c44-d983" targetId="1ae2-1613-1f85-3921">
           <constraints>
