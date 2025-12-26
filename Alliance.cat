@@ -10355,6 +10355,7 @@ This Special Action can be made by Underwater units.</description>
     <entryLink import="true" name="Salvador Battlecruiser" hidden="false" id="0fbe-0df1-15a0-a33b" type="selectionEntry" targetId="e3d8-94c6-54d1-1ec7" sortIndex="12">
       <categoryLinks>
         <categoryLink name="SUSA Flagship" hidden="false" id="257c-640d-ac03-0c28" targetId="1ae2-1613-1f85-3921" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="8745-2b11-2dd2-e167" targetId="0ec6-f5c8-25d7-89d8" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Francisco Battlecruiser" hidden="false" id="e3d5-7b32-7f6e-2406" type="selectionEntry" targetId="6444-884b-b39d-5129" sortIndex="28">
@@ -10373,6 +10374,7 @@ This Special Action can be made by Underwater units.</description>
     <entryLink import="true" name="Francisco Battlecruiser" hidden="false" id="5380-6b99-ab02-59f0" type="selectionEntry" targetId="6444-884b-b39d-5129" sortIndex="12">
       <categoryLinks>
         <categoryLink name="SUSA Flagship" hidden="false" id="9554-39f4-0af7-3959" targetId="1ae2-1613-1f85-3921" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="4211-41bc-ce13-ff7c" targetId="0ec6-f5c8-25d7-89d8" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
