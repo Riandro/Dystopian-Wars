@@ -9817,6 +9817,12 @@ For the duration of this action, models in the unit can Contribute to a Broads
                       <conditions>
                         <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
                         <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="e87c-6247-b002-d43c" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="7a4c-6fb6-6431-b103" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="7a4c-6fb6-6431-b103" childId="e87c-6247-b002-d43c" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="09db-3a9a-4611-86f8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="09db-3a9a-4611-86f8" childId="e87c-6247-b002-d43c" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="1ae2-1613-1f85-3921" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="1ae2-1613-1f85-3921" childId="e87c-6247-b002-d43c" shared="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -9838,6 +9844,12 @@ For the duration of this action, models in the unit can Contribute to a Broads
                       <conditions>
                         <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
                         <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="95e1-bc72-ac5f-a8b1" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="7a4c-6fb6-6431-b103" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="7a4c-6fb6-6431-b103" childId="95e1-bc72-ac5f-a8b1" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="09db-3a9a-4611-86f8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="09db-3a9a-4611-86f8" childId="95e1-bc72-ac5f-a8b1" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="1ae2-1613-1f85-3921" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="1ae2-1613-1f85-3921" childId="95e1-bc72-ac5f-a8b1" shared="true"/>
                       </conditions>
                       <comment>change to italian</comment>
                     </conditionGroup>
@@ -9874,6 +9886,12 @@ A Remote Detonation can be declared even if there are no friendly SRS stacks on
                       <conditions>
                         <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
                         <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="a7a8-042b-6660-7577" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="7a4c-6fb6-6431-b103" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="7a4c-6fb6-6431-b103" childId="a7a8-042b-6660-7577" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="09db-3a9a-4611-86f8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="09db-3a9a-4611-86f8" childId="a7a8-042b-6660-7577" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="1ae2-1613-1f85-3921" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="1ae2-1613-1f85-3921" childId="a7a8-042b-6660-7577" shared="true"/>
                       </conditions>
                       <comment>change to susa flagsip</comment>
                     </conditionGroup>
@@ -9904,6 +9922,12 @@ When making a Group Crew Check to see if Crippled models with the SUSA trait ca
                       <conditions>
                         <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
                         <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="b81b-c372-001c-2710" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="7a4c-6fb6-6431-b103" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="7a4c-6fb6-6431-b103" childId="b81b-c372-001c-2710" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="09db-3a9a-4611-86f8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="09db-3a9a-4611-86f8" childId="b81b-c372-001c-2710" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="1ae2-1613-1f85-3921" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="1ae2-1613-1f85-3921" childId="b81b-c372-001c-2710" shared="true"/>
                       </conditions>
                       <comment>change to alliance</comment>
                     </conditionGroup>
