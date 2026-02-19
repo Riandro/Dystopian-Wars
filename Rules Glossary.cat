@@ -502,8 +502,7 @@ When a unit makes a Cryogenic Blast action, its Admiral uses the following proc
 1. CHOOSE TARGET
 The Admiral chooses one of the following:
 • An enemy Surface model.
-• A specific point of Open Water that is at least
-1” away from any models, Markers or Terrain Features. (Mark this point with a Generator Effect token).
+• A specific point of Open Water that is at least 1” away from any models, (including those with the Incoming status) Markers or Terrain Features. (Mark this point with a Generator Effect token).
 • An Iceberg with a Mass lower than 5.
 
 
