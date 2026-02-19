@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-b418-f41f-879e-6277" name="Dystopian Wars 4.0" battleScribeVersion="2.03" revision="3" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-b418-f41f-879e-6277" name="Dystopian Wars 4.0" battleScribeVersion="2.03" revision="4" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Flagship" id="0ec6-f5c8-25d7-89d8" hidden="false"/>
     <categoryEntry name="Line" id="ae99-8ab0-27f0-7bb6" hidden="false"/>
@@ -1197,7 +1197,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">2</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
-        <characteristic typeId="65e4-97a8-7a12-c50a" name="PROPERTIES"/>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Harrier</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34"/>
@@ -1301,7 +1301,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
     </profile>
     <profile name="Talon Autogyros (Union)" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="cf02-10a5-7f0b-9b8b">
       <characteristics>
-        <characteristic name="ATK" typeId="1727-4f83-903e-a65d">5</characteristic>
+        <characteristic name="ATK" typeId="1727-4f83-903e-a65d">4</characteristic>
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">-</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">-</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">2</characteristic>
