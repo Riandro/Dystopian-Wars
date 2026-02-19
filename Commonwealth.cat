@@ -53,8 +53,8 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Alexayev" hidden="false" id="4b77-3342-55b4-60e8" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="320"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="12"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="260"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Light Hardpoint: FP" id="8063-9746-6adf-477e" hidden="false">
@@ -259,7 +259,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="2c0a-3fe2-b3e5-06f5" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Anastasia" hidden="false" id="a7a1-415e-f60e-50a9" page="16" sortIndex="2">
+    <selectionEntry type="unit" import="true" name="Anastasia Legendary Mobile Stronghold" hidden="false" id="a7a1-415e-f60e-50a9" page="16" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="8016-4897-7116-ffc8" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="14fb-9e60-1239-c7df" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
@@ -288,7 +288,7 @@
             <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">18</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">4</characteristic>
-            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">7</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">4</characteristic>
             <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">11</characteristic>
             <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
           </characteristics>
@@ -310,8 +310,8 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Anastasia" hidden="false" id="0b7e-1134-6e51-cbd7" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="414"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="12"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="365"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="13"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6933-7632-4e7a-c6b7" includeChildSelections="false" automatic="true"/>
@@ -394,8 +394,8 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Borodino" hidden="false" id="b585-2b80-379a-f83b" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="260"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="220"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Heavy Hardpoint: FPS" id="ef19-bac4-4fc3-ba01" hidden="false" collapsible="true">
@@ -612,7 +612,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="5218-72f0-002f-503e" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Death Bringer" hidden="false" id="961f-9d24-76a7-79c0" sortIndex="4">
+    <selectionEntry type="unit" import="true" name="Death Bringer Prototype Grand Submarine" hidden="false" id="961f-9d24-76a7-79c0" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="7d55-5154-7bd9-df62" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Capital" hidden="false" id="27da-a729-10d5-d59c" targetId="30c3-7f1c-19e3-e772" primary="false"/>
@@ -643,7 +643,7 @@
         </profile>
         <profile name="Death Bringer" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="8368-d489-14db-2560">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Boarding Parties (8), Combat Divers (8), Daredevil Crew, Forward Deployment, Heavy Prow (10), Lone Wolf, Mine Layer (1), Raking Strike (12)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Boarding Parties (8), Combat Divers, Daredevil Crew, Forward Deployment, Heavy Prow (10), Mine Layer (1), Raking Strike (12), Terrifying (Commonwealth)</characteristic>
           </characteristics>
         </profile>
         <profile name="Death Bringer" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="036a-44a8-f572-60d0">
@@ -658,8 +658,8 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Death Bringer" hidden="false" id="cf0f-0c8f-c37a-a313" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="286"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="200"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Light Hardpoint: PSA" id="0a16-046f-badd-15a5" hidden="false">
@@ -862,6 +862,11 @@
             <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="18d5-9e75-e46d-8c91" shared="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1de0-514e-5b56-0c84" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Khodynka" hidden="false" id="6312-63bc-9fe7-8507" sortIndex="1">
@@ -1018,8 +1023,8 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="253"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="220"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="24df-259a-7bc8-4b3f" includeChildSelections="false" automatic="true"/>
@@ -1091,12 +1096,17 @@
             <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="18d5-9e75-e46d-8c91" shared="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1de0-514e-5b56-0c84" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Krasnaya" hidden="false" id="a7e9-3412-94d8-e0e7" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="265"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="250"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="7"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Heavy Hardpoint: FPS" id="5ac5-e9ca-a343-4af4" hidden="false">
@@ -1269,8 +1279,8 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Moskva" hidden="false" id="40ce-e3d1-a3e4-88a1" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="326"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="290"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Heavy Hardpoint: FS" id="7d08-35a8-0a71-7684" hidden="false">
@@ -1623,8 +1633,8 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Mozhayski" hidden="false" id="7773-e7b2-92f6-fbc0" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="267"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="225"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="7"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Light Hardpoint: FSA" id="4e6d-1a31-f21b-418b" hidden="false">
@@ -1860,7 +1870,7 @@
             <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">18</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">4</characteristic>
-            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">7</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">4</characteristic>
             <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">11</characteristic>
             <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
           </characteristics>
@@ -1879,7 +1889,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Murmansk" hidden="false" id="8073-b2b7-2164-71e0" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="360"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="350"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="12"/>
           </costs>
           <selectionEntryGroups>
@@ -2150,8 +2160,8 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Prezidium" hidden="false" id="74e9-66ef-771d-4254" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="298"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="315"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Heavy Hardpoint: FS" id="da9a-7f5d-e471-af23" hidden="false">
@@ -2447,8 +2457,8 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Rikhter" hidden="false" id="8f07-b382-e7f4-b599" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="306"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="325"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Light Hardpoint: FS" id="3dd7-bb47-f109-f3a6" hidden="false">
@@ -2660,7 +2670,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Tobolsk" hidden="false" id="4928-b0b0-4411-7461" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="380"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="375"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="12"/>
           </costs>
           <selectionEntryGroups>
@@ -3143,6 +3153,7 @@
         <categoryLink targetId="278c-665b-5dbe-3aad" id="c8ee-0131-420b-b6c3" primary="false" name="Airship"/>
         <categoryLink targetId="c3cf-1919-2bc7-5843" id="7e53-10ac-e982-f88d" primary="false" name="Airbornecon"/>
         <categoryLink targetId="c763-34bf-062d-be65" id="8d7f-f7d9-6ecb-8a69" primary="false" name="Flagship Polish-Lithuanian"/>
+        <categoryLink name="Attachment host" hidden="false" id="9990-b027-74ed-b1c8" targetId="2251-0def-1b03-2e93" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Zamiec" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="b2dd-090f-1ed1-af3e">
@@ -3174,8 +3185,8 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Zamiec" hidden="false" id="a911-6bba-a9ab-b6b3" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="296"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="300"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Light Hardpoint: FPS" id="92da-aa86-7c70-56a9" hidden="false">
@@ -3450,6 +3461,11 @@
             <condition type="instanceOf" value="1" field="forces" scope="1a31-2f3e-67bd-fade" childId="force" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="1de0-514e-5b56-0c84" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Escorts" hidden="false" id="701f-1072-ccce-eb61" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="3">
@@ -3457,6 +3473,7 @@
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="b4c5-7f71-78b7-f31d"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Attachments" hidden="false" id="e3c1-469f-ac87-c151" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1fc1-e88c-65c1-e6e8" includeChildSelections="true" includeChildForces="true"/>
@@ -3469,6 +3486,7 @@
         <categoryLink targetId="139e-c78f-43c0-2957" id="68f4-9b11-a1ae-7428" primary="false" name="Airborne"/>
         <categoryLink targetId="278c-665b-5dbe-3aad" id="db91-ce95-c16f-5413" primary="false" name="Airship"/>
         <categoryLink name="Patrol" hidden="false" id="f0b5-bed4-1527-9c84" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
+        <categoryLink name="Attachment host" hidden="false" id="13d1-4c7d-bb87-460b" targetId="2251-0def-1b03-2e93" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -3476,7 +3494,7 @@
       <profiles>
         <profile name="Jadwiga" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="26af-db91-fa62-d01c">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Dirigible, Maritime Patrol, Stoic</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Descend, Dirigible, Maritime Patrol, Stoic</characteristic>
           </characteristics>
         </profile>
         <profile name="Jadwiga" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="0241-0a3f-59e0-2771">
@@ -3503,8 +3521,8 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Jadwiga" hidden="false" id="0f53-df3c-52fd-da69" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="85"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="75"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Light Hardpoint: FPS" id="14d8-a285-4d10-3765" hidden="false">
@@ -3648,6 +3666,21 @@
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="84cd-43fc-8d02-58cd" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Escorts" hidden="false" id="b6bc-f883-1361-f5dd" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="3">
@@ -3655,6 +3688,7 @@
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="d447-5b0b-64b1-9958"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Attachments" hidden="false" id="26f4-12ab-238d-1144" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Khyzhak Attack Submarine" hidden="false" id="0034-6bd8-6f0b-f3c2" sortIndex="14">
@@ -3698,8 +3732,8 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Khyzhak" hidden="false" id="7bf8-8982-d026-536c" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="80"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="90"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Light Hardpoint: FPSA" id="c2c3-a7b8-1241-8379" hidden="false">
@@ -3861,6 +3895,11 @@
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3aa7-9add-548b-7c46" includeChildSelections="false"/>
@@ -3868,8 +3907,8 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Kutsov" hidden="false" id="fbfc-02f3-c1a3-f57c" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="90"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="100"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Heavy Hardpoint: FPS" id="472c-f0df-5e2c-9470" hidden="false">
@@ -4002,7 +4041,7 @@
             <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
             <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
             <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">10</characteristic>
-            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">3</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">2</characteristic>
             <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">6</characteristic>
@@ -4042,8 +4081,8 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Morozko" hidden="false" id="0e13-85b6-23ba-1ff6" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="135"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="130"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Prow Choice" id="dd1d-2316-1e40-b495" hidden="false" sortIndex="1">
@@ -4244,6 +4283,21 @@
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="2" field="e6bb-e963-ceed-6a8c">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="770e-db45-05e2-c579" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d825-587e-9df2-0f04" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="a91f-42df-32cb-22cf" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
@@ -4297,7 +4351,7 @@
           </categoryLinks>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="130"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Heavy Hardpoint: PSA" id="2155-2bbf-e9c5-9ea1" hidden="false">
@@ -4476,6 +4530,11 @@
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="a720-eec7-3a47-77d7" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
@@ -4493,8 +4552,8 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Tunguska" hidden="false" id="1f38-c023-0a2a-32c2">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="137"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="120"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Heavy Hardpoint: PSA" id="4dcc-2e05-4e86-5ede" hidden="false">
@@ -4650,7 +4709,28 @@
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="2" field="3aba-bc3d-b708-dbd9">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="34a6-60e4-ff55-8f9b" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set-primary" value="54ca-c106-f035-c386" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
+      <comment>Attachment</comment>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Voivode Heavy Airship" hidden="false" id="033b-0dac-b831-03e4" sortIndex="19">
       <categoryLinks>
@@ -4659,6 +4739,7 @@
         <categoryLink targetId="139e-c78f-43c0-2957" id="53f6-914f-6cad-8a7c" primary="false" name="Airborne"/>
         <categoryLink targetId="278c-665b-5dbe-3aad" id="68da-ffe5-126c-d1b2" primary="false" name="Airship"/>
         <categoryLink targetId="f625-fe99-41c1-ff3d" id="3aee-a2ee-5211-c6f0" primary="false" name="Polish-Lithuanian"/>
+        <categoryLink name="Attachment host" hidden="false" id="280a-acc1-b3ef-0a70" targetId="2251-0def-1b03-2e93" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Voivode" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="f873-9d72-814a-6112">
@@ -4876,20 +4957,50 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="bd26-dde1-fa93-5ef8" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="118"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="120"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <modifiers>
-        <modifier type="set" value="2" field="dc07-b069-31c3-1a9b">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
         <modifier type="add" value="8281-3830-2276-5bcd" field="category">
           <conditions>
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="2" field="dc07-b069-31c3-1a9b">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="b33e-80ff-695f-6d5b" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="770e-db45-05e2-c579" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="2" field="dc07-b069-31c3-1a9b">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="b33e-80ff-695f-6d5b" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set-primary" value="54ca-c106-f035-c386" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4902,6 +5013,7 @@
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="95cb-98cf-8103-97ce"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Attachments" hidden="false" id="4f75-b823-d67e-23af" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Oleg Monitor" hidden="false" id="3d79-b65e-d6d9-4724" sortIndex="22">
@@ -4945,7 +5057,7 @@
         <selectionEntry type="model" import="true" name="Oleg" hidden="false" id="bc57-19ad-cbe0-a3e2" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="65"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Heavy Hardpoint: FPS" id="553c-fe08-4491-e3ae" hidden="false">
@@ -5022,6 +5134,11 @@
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Piranya Hunter Submarine" hidden="false" id="f5c9-7ef3-c3be-c2ac" sortIndex="23">
@@ -5074,8 +5191,8 @@
             <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="6892-3cb4-326b-20a1" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="38"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="35"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="1"/>
           </costs>
           <profiles>
             <profile name="Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="d7a7-cc3f-40f6-093e">
@@ -5117,6 +5234,7 @@
           </conditions>
         </modifier>
       </modifiers>
+      <comment>Attachment</comment>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Rurik Frigate" hidden="false" id="ee94-6f67-15a6-26aa" sortIndex="24">
       <categoryLinks>
@@ -5145,7 +5263,7 @@
         </profile>
         <profile name="Rurik" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="beea-eb5f-56f3-4620">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Ablative Armour (1), Attachment (Russian Flagship), Light Vessel, Shallow Draught</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Ablative Armour (1), Attachment (Russian), Light Vessel, Shallow Draught</characteristic>
           </characteristics>
         </profile>
         <profile name="Tsiolkovsky" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="true" id="e1f7-6a75-c3b6-2460">
@@ -5190,6 +5308,11 @@
         <modifier type="add" value="8281-3830-2276-5bcd" field="category">
           <conditions>
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5281,8 +5404,8 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="34"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="30"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="1"/>
           </costs>
           <modifiers>
             <modifier type="set" value="2" field="9869-6c99-9991-0b74">
@@ -5293,6 +5416,7 @@
           </modifiers>
         </selectionEntry>
       </selectionEntries>
+      <comment>Attachment</comment>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Smok Aerial Destroyer" hidden="false" id="4862-c367-5065-bbea" sortIndex="25">
       <categoryLinks>
@@ -5321,7 +5445,7 @@
         </profile>
         <profile name="Smok" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="64ba-ee11-891e-1ae0">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Dirigible, Descend, Light Vessel, Stoic</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Polish-Lithuanian, Carrier), Dirigible, Descend, Light Vessel, Stoic</characteristic>
           </characteristics>
         </profile>
         <profile name="Smok" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="6ad0-878d-97d0-2d84">
@@ -5399,8 +5523,8 @@
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="f0f4-d60f-ff58-4ee7" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="68"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="45"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="1"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5415,6 +5539,21 @@
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="84cd-43fc-8d02-58cd" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="558e-537e-2500-b88b" includeChildSelections="false"/>
@@ -5426,224 +5565,7 @@
           </constraints>
         </entryLink>
       </entryLinks>
-    </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Akula Grand Submarine" hidden="false" id="d207-93cd-8932-9396" sortIndex="26">
-      <categoryLinks>
-        <categoryLink name="Support" hidden="false" id="47f0-dcae-dba4-b5f7" targetId="1711-6069-af06-c5cc" primary="true"/>
-        <categoryLink targetId="1f78-904a-a9b7-2c8f" id="dbfa-6ca3-e4a9-b4e5" primary="false" name="Commonwealth"/>
-        <categoryLink targetId="30c3-7f1c-19e3-e772" id="62a0-dc9c-9873-deae" primary="false" name="Capital"/>
-        <categoryLink targetId="f421-3280-3483-3214" id="1e0b-6fce-b032-464e" primary="false" name="Ukrainian"/>
-        <categoryLink targetId="177a-2809-f30c-07f1" id="ee56-a3ab-fe3a-4f81" primary="false" name="Supportcon"/>
-        <categoryLink targetId="ea63-cb2e-f522-ffef" id="5238-fd51-a3a1-48b3" primary="false" name="UnderwaterWolf"/>
-        <categoryLink name="Underwater" hidden="false" id="43a7-0a5e-128a-80a7" targetId="c636-bf34-4555-99bc" primary="false"/>
-        <categoryLink name="Submarine" hidden="false" id="6b67-f905-e451-a899" targetId="c503-3bc7-2b45-91ef" primary="false"/>
-        <categoryLink targetId="2251-0def-1b03-2e93" id="4e1b-095f-5476-571a" primary="false" name="Attachment host"/>
-        <categoryLink targetId="0f4b-b488-8647-4a6a" id="300c-2b36-d0b5-1ce8" primary="false" name="AttachmentHostPiranya"/>
-      </categoryLinks>
-      <profiles>
-        <profile name="Akula" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="2c4c-fe75-1767-e77d">
-          <characteristics>
-            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">5</characteristic>
-            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">3&quot;-7&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">2</characteristic>
-            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">12</characteristic>
-            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
-            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">3</characteristic>
-            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">3</characteristic>
-            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">8</characteristic>
-            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1-2</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Akula" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="a943-23bc-6579-740d">
-          <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Forward Deployment, Heavy Prow (5), Mine Layer (1), Temperamental</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Akula" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="9f89-1110-fb2e-abe3">
-          <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+3”), Mine Sweeper (4)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Akula" hidden="false" id="fdc3-4fd5-eb3c-3322">
-          <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="235"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="7"/>
-          </costs>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: PSA" id="c3f4-1613-93a8-d73b" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="8d7e-7972-aa92-93e7">
-                  <profiles>
-                    <profile name="Zhalo Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="eda2-3c19-a127-31ee">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All Around, Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="19f0-b86d-24f0-d8a3">
-                  <profiles>
-                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="98a7-ada3-4046-d6b8">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Railgun" hidden="false" id="335a-cff7-a97f-c536">
-                  <profiles>
-                    <profile name="Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ba1a-f29c-1447-0f9f">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Seismic Mortar" hidden="false" id="a74f-a1be-7fea-026a">
-                  <profiles>
-                    <profile name="Seismic Mortar" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="6dd4-aeea-48f3-4857">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">2</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Depth Charge, Devastating (1), Mayhem</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dbc0-edd9-9aca-7821"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ab6-3d29-3398-3366"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: PSA" id="75ce-bf69-cbc4-34a6" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="c809-6cc5-b7eb-e1bd">
-                  <profiles>
-                    <profile name="Zhalo Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="5763-6616-b550-04ff">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All Around, Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="9354-373a-f2d1-1d0e">
-                  <profiles>
-                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="6899-2ff2-7813-b136">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Railgun" hidden="false" id="7241-8764-4ac5-de51">
-                  <profiles>
-                    <profile name="Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7d45-6546-23b1-b145">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Seismic Mortar" hidden="false" id="8ba7-d173-c4a7-ac01">
-                  <profiles>
-                    <profile name="Seismic Mortar" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a962-0be5-edee-9d9a">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">2</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Depth Charge, Devastating (1), Mayhem</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="297c-7283-7135-3f3b"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0128-537b-e726-2d6a"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="806a-8794-188f-a6b1" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="126d-df69-5d39-3301" includeChildSelections="false" automatic="true"/>
-          </constraints>
-          <profiles>
-            <profile name="Super-Heavy Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="27cd-0614-c541-66d1">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">14</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">14</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">14</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e7cb-173f-4554-eacd">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">A</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-      </selectionEntries>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="c1b3-da20-1061-0009" includeChildSelections="false"/>
-      </constraints>
-      <modifiers>
-        <modifier type="set" value="2" field="c1b3-da20-1061-0009">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
-                <condition type="instanceOf" value="1" field="forces" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="add" value="8281-3830-2276-5bcd" field="category">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="a613-7692-2455-2309" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6"/>
-      </entryLinks>
+      <comment>Attachment</comment>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Offshore Heavy Platform" hidden="false" id="13e6-f212-77b9-933b" sortIndex="31">
       <categoryLinks>
@@ -5694,7 +5616,7 @@
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Forward Deployment, Platform, Stockpile (2)</characteristic>
           </characteristics>
           <modifiers>
-            <modifier type="append" value="Mine Layer (3)" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Auxiliary Mine Layer (3)" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="d953-f488-3291-b97e" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -5719,8 +5641,8 @@
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Offshore Heavy Platform" hidden="false" id="9d6c-290c-14b9-3ace" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="180"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="150"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="9626-7118-0f4f-e707" hidden="false">
@@ -5847,6 +5769,16 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Konostoga Heavy Skycannon" hidden="false" id="f3ce-c136-fd92-095c" sortIndex="28">
@@ -5857,6 +5789,7 @@
         <categoryLink targetId="139e-c78f-43c0-2957" id="150c-7880-c38e-0582" primary="false" name="Airborne"/>
         <categoryLink targetId="278c-665b-5dbe-3aad" id="aa98-0be1-d346-a6da" primary="false" name="Airship"/>
         <categoryLink targetId="177a-2809-f30c-07f1" id="d2ee-3d4b-a78d-ac31" primary="false" name="Supportcon"/>
+        <categoryLink name="Attachment host" hidden="false" id="a2cd-b7b2-ee9e-e473" targetId="2251-0def-1b03-2e93" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Konostoga" hidden="false" id="dcd0-b1fa-5dcb-3737" sortIndex="1">
@@ -5865,8 +5798,8 @@
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9950-68d0-577e-9803-min" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="278"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="7"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="225"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="6"/>
           </costs>
           <profiles>
             <profile name="Apokalyps Cannon " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ec10-ecfc-8fd7-ea8c">
@@ -5917,9 +5850,22 @@
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="3784-fa8f-1f4f-dcb0" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Attachments" hidden="false" id="b438-e6dc-d7e0-72d0" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6"/>
+      </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Markov’s Prometheus" hidden="false" id="8a93-4108-0da9-112a" sortIndex="29">
+    <selectionEntry type="unit" import="true" name="Markov’s Prometheus Legendary Generator Ship" hidden="false" id="8a93-4108-0da9-112a" sortIndex="29">
       <categoryLinks>
         <categoryLink name="Ship" hidden="false" id="e645-55a2-726d-2e67" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Support" hidden="false" id="1b9b-0f65-6a31-904e" targetId="1711-6069-af06-c5cc" primary="true"/>
@@ -5966,8 +5912,8 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d912-4e81-c705-c66c" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="312"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="12"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="255"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
           </costs>
           <profiles>
             <profile name="Tri-Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="fba4-3793-b94a-05ac">
@@ -6015,6 +5961,11 @@
         <modifier type="add" value="8281-3830-2276-5bcd" field="category">
           <conditions>
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -6069,8 +6020,8 @@
             <categoryLink name="Russian" hidden="false" id="582c-16c1-e251-4223" targetId="64b9-23dd-5700-e555" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="111"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="105"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Light Hardpoint: FPSA" id="0c36-5c65-df93-c8a9" hidden="false">
@@ -6160,6 +6111,11 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Saransk Skyfurnace" hidden="false" id="3c11-1bb4-af14-512d" sortIndex="33">
@@ -6170,6 +6126,7 @@
         <categoryLink targetId="139e-c78f-43c0-2957" id="e0ec-3fbf-6f91-3c8c" primary="false" name="Airborne"/>
         <categoryLink targetId="64b9-23dd-5700-e555" id="e391-87d2-4486-52cc" primary="false" name="Russian"/>
         <categoryLink targetId="177a-2809-f30c-07f1" id="c2c8-8a34-f4d2-f2b0" primary="false" name="Supportcon"/>
+        <categoryLink name="Attachment host" hidden="false" id="8558-1219-b7e4-6d8f" targetId="2251-0def-1b03-2e93" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Saransk" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="a859-dd7f-cc88-8343">
@@ -6205,8 +6162,8 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="ae4f-f11a-9716-8094" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="118"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="120"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <profiles>
             <profile name="Furnace Cascade" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="0db6-af92-beeb-2167">
@@ -6239,7 +6196,20 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="3784-fa8f-1f4f-dcb0" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Attachments" hidden="false" id="2231-f8b4-9e8e-8601" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Stoletov Ekranoplan Harrier" hidden="false" id="3e4c-67ea-1041-dde5" sortIndex="34">
       <categoryLinks>
@@ -6291,8 +6261,8 @@
             <categoryLink name="Light Vessel" hidden="false" id="4104-e7a7-f320-1b8b" targetId="a788-9613-7ce1-5dd9" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="87"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="65"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Light Hardpoint: FPS" id="4440-cde0-8a52-9872" hidden="false">
@@ -6391,6 +6361,11 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="38c3-6f06-00cc-5d57" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
@@ -6424,7 +6399,7 @@
         </profile>
         <profile name="Offshore Defence Platform" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="b80b-99b4-b7c7-b172">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Khan, Ortoq), Forward Deployment, Platform</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Offshore Heavy Platform, Offshore Supply Platform), Forward Deployment, Platform</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="append" value="Auxiliary Mine Layer (3)" field="066c-1ce6-091e-90ab" join=", ">
@@ -6451,8 +6426,8 @@
             <categoryLink name="Platform" hidden="false" id="1430-e00f-4d41-6301" targetId="7875-66cc-53c0-2e19" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="65"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="60"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="919c-df90-385a-97e5" hidden="false">
@@ -6555,6 +6530,16 @@
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Szlachta Swordwing Carrier" hidden="false" id="f0c3-1470-d3fc-76fb" sortIndex="35">
@@ -6566,6 +6551,7 @@
         <categoryLink targetId="278c-665b-5dbe-3aad" id="14df-eca0-4124-bd07" primary="false" name="Airship"/>
         <categoryLink targetId="4521-8e16-2d0f-7dc6" id="5cfe-2ea0-bc04-3afc" primary="false" name="Carrier"/>
         <categoryLink targetId="177a-2809-f30c-07f1" id="4132-8f98-0e99-40f7" primary="false" name="Supportcon"/>
+        <categoryLink name="Attachment host" hidden="false" id="53db-f552-e57d-e32a" targetId="2251-0def-1b03-2e93" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Szlachta" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="ab41-f234-a8fa-a802">
@@ -6723,8 +6709,8 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="b3cc-1993-1440-676d" includeChildSelections="false"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="130"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="120"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6740,7 +6726,25 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="3784-fa8f-1f4f-dcb0" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Attachments" hidden="false" id="8dc3-f54a-308a-059f" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Dragunov Ekranoplan Brawler" hidden="false" id="e62a-bb54-6048-8e79" sortIndex="20">
       <categoryLinks>
@@ -6786,8 +6790,8 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Dragunov" hidden="false" id="ecf0-21c8-d8dc-b42a" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="83"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="65"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Light Hardpoint: FPS" id="f936-bde4-236e-6bf5" hidden="false">
@@ -6940,6 +6944,21 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="2" field="3730-1fc0-a0b6-714a">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="dc1b-300e-4064-015a" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="770e-db45-05e2-c579" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Irkutsk Skydrill " hidden="false" id="3ad5-0c15-248a-b277" sortIndex="37">
@@ -6950,6 +6969,7 @@
         <categoryLink targetId="139e-c78f-43c0-2957" id="4901-0dd5-8a10-e48e" primary="false" name="Airborne"/>
         <categoryLink targetId="278c-665b-5dbe-3aad" id="717f-6de6-3512-e12c" primary="false" name="Airship"/>
         <categoryLink targetId="2254-9ae3-b1ba-6529" id="c218-5e83-5f3b-f7eb" primary="false" name="Scoutcon"/>
+        <categoryLink name="Attachment host" hidden="false" id="1454-3004-5489-3f7c" targetId="2251-0def-1b03-2e93" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Irkutsk" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="bb80-9923-e0a2-a206">
@@ -6981,8 +7001,8 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Irkutsk" hidden="false" id="462d-a55d-4d6f-aa1b">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="118"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="115"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fe30-c469-388f-4e2e" includeChildSelections="false" automatic="true"/>
@@ -6993,6 +7013,31 @@
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6adc-fd0b-9a8b-be61" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="6adc-fd0b-9a8b-be61">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="7789-952e-c049-8fc9" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set-primary" value="73c4-3c17-235f-a10a" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Attachments" hidden="false" id="8789-8719-a090-6b0c" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Kostroma Vitruvian Colossus" hidden="false" id="efff-1356-fffb-1465" sortIndex="27">
       <categoryLinks>
@@ -7025,7 +7070,7 @@
         </profile>
         <profile name="Kostroma" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="68ab-df5c-d44b-0c81">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Ablative Armour (5), Hunter (Capital), Landstrider, Submarauder, Vitruvian Form</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Ablative Armour (5), Amphibious, Hunter (Capital), Submarauder, Vitruvian Form</characteristic>
           </characteristics>
         </profile>
         <profile name="Kostroma" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="81bb-5528-8654-10ac">
@@ -7163,8 +7208,8 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a821-cf0d-8c7e-54d2" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="182"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="7"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="195"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <profiles>
             <profile name="Razrez" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="1bfa-ccf3-4263-7823">
@@ -7226,6 +7271,11 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Marena Vitruvian Colossus" hidden="false" id="c3e2-48e5-3381-d4dc" sortIndex="38">
@@ -7256,7 +7306,7 @@
         </profile>
         <profile name="Marena" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="4ba5-49f4-a58d-8682">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Ablative Armour (5), Forward Deployment, Inspirational (10”), Landstrider, Submarauder, Vitruvian Form</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Ablative Armour (5), Amphibious, Forward Deployment, Inspirational (10”), Submarauder, Vitruvian Form</characteristic>
           </characteristics>
         </profile>
         <profile name="Marena" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="f436-507c-f98d-36c0">
@@ -7268,8 +7318,8 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Marena" hidden="false" id="ff00-edb8-041e-08f9">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="166"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="7"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="180"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Light Hardpoint: FSA" id="7561-efa0-7ca7-bf01" hidden="false">
@@ -7424,6 +7474,13 @@
           </modifiers>
         </entryLink>
       </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Sineus Fast Cruiser" hidden="false" id="01f5-793f-4da8-4f93" sortIndex="39">
       <categoryLinks>
@@ -7477,8 +7534,8 @@
             <categoryLink name="Surface" hidden="false" id="a547-be01-d4d3-eb66" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="100"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="106"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Heavy Hardpoint: FPS" id="2e59-cfb0-c9d9-ce27" hidden="false">
@@ -7601,6 +7658,13 @@
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="1530-b072-8c4e-1ce1" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
       </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Stanislaw Assault Airship" hidden="false" id="db47-6e38-a705-77ad" sortIndex="36">
       <categoryLinks>
@@ -7610,6 +7674,7 @@
         <categoryLink targetId="278c-665b-5dbe-3aad" id="e769-e896-51ca-a59f" primary="false" name="Airship"/>
         <categoryLink name="Support" hidden="false" id="c9b1-988d-5f2c-64ea" targetId="1711-6069-af06-c5cc" primary="true"/>
         <categoryLink name="Supportcon" hidden="false" id="b98e-aaf9-7530-11e6" targetId="177a-2809-f30c-07f1" primary="false"/>
+        <categoryLink name="Attachment host" hidden="false" id="68fb-3205-6225-5878" targetId="2251-0def-1b03-2e93" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Stanislaw" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="c1f7-bb85-db38-fde5">
@@ -7648,8 +7713,8 @@
             <categoryLink name="Airship" hidden="false" id="0b0b-6405-f3e7-5ac1" targetId="278c-665b-5dbe-3aad" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="105"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="7"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="100"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Light Hardpoint: FPS" id="c10b-bde8-25d8-a74b" hidden="false">
@@ -7796,6 +7861,21 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="3784-fa8f-1f4f-dcb0" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Yak Transport Hovercraft" hidden="false" id="a8b9-7350-67f7-fa6f" sortIndex="40">
@@ -7872,8 +7952,8 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
             <categoryLink name="Russian" hidden="false" id="d452-327d-7dcf-d9f3" targetId="64b9-23dd-5700-e555" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="68"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="55"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Ship Upgrades" id="94b5-794c-32cf-e11c" hidden="false" sortIndex="2">
@@ -8031,8 +8111,15 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3f4f-c473-7055-6fae"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="ef98-8c93-4144-3049" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="ef98-8c93-4144-3049" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
       </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Europa Grand Conveyor" hidden="false" id="2315-c0ee-8a1e-947d" sortIndex="41">
       <categoryLinks>
@@ -8086,7 +8173,8 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Europa" hidden="false" id="bca1-1642-860d-a52d" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="110"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="90"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a583-929d-ba60-ebad" includeChildSelections="false" automatic="true"/>
@@ -8179,6 +8267,16 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
         <modifier type="remove" value="4b7e-c78d-b9be-8d7c" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="2315-c0ee-8a1e-947d" childId="b756-467e-10de-031e" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -8280,6 +8378,18 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
           </modifiers>
         </entryLink>
       </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Offshore Supply Platform" hidden="false" id="9e7c-d2dc-5a8e-f154" sortIndex="43">
       <categoryLinks>
@@ -8341,14 +8451,14 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
           </categoryLinks>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="65"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="abfc-2938-f037-d56d" includeChildSelections="false" automatic="true"/>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="611b-8ce5-f93e-e91c" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Defensive Mines" hidden="true" id="a349-4e0d-8819-5667" sortIndex="3">
+        <selectionEntry type="upgrade" import="true" name="Defensive Mines" hidden="false" id="a349-4e0d-8819-5667" sortIndex="3">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -8370,6 +8480,18 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
         </entryLink>
         <entryLink import="true" name="Attachments" hidden="false" id="f25b-a0e1-dcc7-55c9" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
       </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Titan Mass Conveyor" hidden="false" id="75b4-91de-a43c-7c15" sortIndex="44">
       <categoryLinks>
@@ -8521,6 +8643,16 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
             <condition type="atLeast" value="1" field="selections" scope="self" childId="dd67-6eb8-c2a5-dab2" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="c859-a1ad-471a-87e4" includeChildSelections="true" includeChildForces="true"/>
@@ -8538,12 +8670,45 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
       <entryLinks>
         <entryLink import="true" name="Fleet Doctrines" hidden="false" id="96bc-3380-564b-736b" type="selectionEntryGroup" targetId="3a8e-29a8-4109-7c1c">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="GUNNERY SHARPSHOOTERS" hidden="false" id="66e5-0a5a-747a-c570">
+            <selectionEntry type="upgrade" import="true" name="EVASIVE MANOEUVRES" hidden="true" id="66e5-0a5a-747a-c570" sortIndex="6">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cba8-02b1-27c8-5657" includeChildSelections="true" includeChildForces="true"/>
               </constraints>
               <rules>
-                <rule name="GUNNERY SHARPSHOOTERS" id="2744-2e0a-35de-57ee" hidden="false">
+                <rule name="EVASIVE MANOEUVRES" id="2744-2e0a-35de-57ee" hidden="false">
+                  <description>This Doctrine can only be purchased for a Polish-Lithuanian Flagship unit.
+
+Immediately after making the Resistance Roll for an Attack action that targets a Polish-Lithuanian model in their Force, this Battlefleet’s Admiral may attempt to enact a Special Valour Effect with that model.
+
+
+If successful, any Exploding Strikes in the Resistance Roll are immediately Converted into Heavy Counters.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
+                <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="count" min="2" max="2">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="f625-fe99-41c1-ff3d" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="1de0-514e-5b56-0c84" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="1de0-514e-5b56-0c84" childId="4b7e-c78d-b9be-8d7c" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="GUNNERY SHARPSHOOTERS" hidden="false" id="4019-7e67-724b-12f9" sortIndex="9">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6d7f-7128-3a2d-3938" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <rules>
+                <rule name="GUNNERY SHARPSHOOTERS" id="3214-8395-9298-6638" hidden="false">
                   <description>Can only be purchased for a Commonwealth Flagship unit.
 
 
@@ -8552,9 +8717,86 @@ If the effect is successfully enacted, the Initial Target suffers 1 Critical Da
                 </rule>
               </rules>
               <costs>
-                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="45"/>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="40"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="HETMAN OF THE SEA" hidden="true" id="61a0-79c6-52bb-ad47" sortIndex="7">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7556-dfee-6baa-f4d8" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <rules>
+                <rule name="HETMAN OF THE SEA" id="e792-3f6d-2c14-88a4" hidden="false">
+                  <description>This Doctrine can only be purchased for a Ukrainian Flagship unit.
+
+
+At the start of a Ukrainian Underwater Capital unit’s Activation, its Admiral may attempt to enact a Special Valour Effect.
+If successful, the unit gains a Valour Effect token. Until the start of this unit’s next Activation, all Ukrainian Underwater units in this Force within 7” of this unit are immune to the effects of Blow the Tanks. 
+
+
+At the start of its next Activation, discard the Valour Effect token.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="30"/>
+                <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="count" min="2">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="f421-3280-3483-3214" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="25c0-69c4-468a-94b9" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="25c0-69c4-468a-94b9" childId="f421-3280-3483-3214" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="1de0-514e-5b56-0c84" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="1de0-514e-5b56-0c84" childId="f421-3280-3483-3214" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="ICEMAKERS" hidden="true" id="a5cc-1f0b-e3bd-4c06" sortIndex="8">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="501a-47f8-1138-c8a6" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <rules>
+                <rule name="ICEMAKERS" id="751b-ac03-f706-9c94" hidden="false">
+                  <description>This Doctrine can only be purchased for a Russian Surface Flagship unit.
+
+
+When a Commonwealth unit in this Force makes a Cryogenic Blast special action, but before any dice are rolled, its Admiral may declare that they will Overclock the Generators.
+If they do so, any Standard Strikes in the subsequent Cryogenic Blast Roll also count as Successes for the duration of this Action.
+
+
+At the end of the Action, any models that contributed to this action gain 1 Disorder.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="30"/>
+                <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="count" min="3" max="3">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="4b7e-c78d-b9be-8d7c" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="25c0-69c4-468a-94b9" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="25c0-69c4-468a-94b9" childId="4b7e-c78d-b9be-8d7c" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="1de0-514e-5b56-0c84" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="1de0-514e-5b56-0c84" childId="4b7e-c78d-b9be-8d7c" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="4b7e-c78d-b9be-8d7c" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="25c0-69c4-468a-94b9" childId="4b7e-c78d-b9be-8d7c" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="1de0-514e-5b56-0c84" childId="4b7e-c78d-b9be-8d7c" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -8659,100 +8901,36 @@ If the effect is successfully enacted, the Initial Target suffers 1 Critical Da
         </categoryLink>
       </categoryLinks>
       <rules>
-        <rule name="Hammer Sweep" id="0958-eeb9-005f-cee1" hidden="false">
-          <description>This Battlefleet’s Admiral can enact a Special Valour Effect whenever they Activate a Commonwealth unit that has the Heavy Prow (X) property. 
+        <rule name="Acceptable Losses" id="0958-eeb9-005f-cee1" hidden="false">
+          <description>When a Commonwealth model in this Force is Crippled, its Admiral can declare this to be an Acceptable Loss as long as its unit still contains at least 2 other Battle-Ready models, not counting Attachments.
 
-If the effect is successfully enacted, the unit gains the Daredevil Crew property for the duration of its Activation.</description>
+
+When a model is declared to be an Acceptable Loss, the opposing Admiral does not score any Victory Points for Crippling it, but each model in its unit (including the Crippled model itself) gains 1 Disorder.</description>
         </rule>
       </rules>
       <constraints>
         <constraint type="min" value="1" field="forces" scope="roster" shared="true" id="6326-d6b8-2ca0-3a82" includeChildSelections="true" includeChildForces="true" percentValue="false"/>
       </constraints>
       <modifiers>
-        <modifier type="set" value="2" field="6326-d6b8-2ca0-3a82" scope="roster">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="equalTo" value="1" field="forces" scope="roster" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                    <condition type="equalTo" value="1" field="forces" scope="roster" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="equalTo" value="1" field="forces" scope="roster" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                    <condition type="equalTo" value="1" field="forces" scope="roster" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="equalTo" value="1" field="forces" scope="roster" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                    <condition type="equalTo" value="1" field="forces" scope="roster" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-              <conditions>
-                <condition type="equalTo" value="2" field="forces" scope="roster" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="equalTo" value="2" field="forces" scope="roster" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="equalTo" value="2" field="forces" scope="roster" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" value="3" field="6326-d6b8-2ca0-3a82">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="equalTo" value="2" field="forces" scope="roster" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                    <condition type="equalTo" value="1" field="forces" scope="roster" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="equalTo" value="2" field="forces" scope="roster" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                    <condition type="equalTo" value="1" field="forces" scope="roster" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="equalTo" value="2" field="forces" scope="roster" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                    <condition type="equalTo" value="1" field="forces" scope="roster" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="equalTo" value="2" field="forces" scope="roster" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                    <condition type="equalTo" value="1" field="forces" scope="roster" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="equalTo" value="2" field="forces" scope="roster" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                    <condition type="equalTo" value="1" field="forces" scope="roster" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="equalTo" value="2" field="forces" scope="roster" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                    <condition type="equalTo" value="1" field="forces" scope="roster" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-              <conditions>
-                <condition type="equalTo" value="3" field="forces" scope="roster" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="equalTo" value="3" field="forces" scope="roster" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="equalTo" value="3" field="forces" scope="roster" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
+        <modifier type="set" value="0" field="6326-d6b8-2ca0-3a82">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
         </modifier>
       </modifiers>
     </forceEntry>
-    <forceEntry name="Ukrainian Battlefleet (Specialist)" id="571e-af67-1475-b79d" hidden="false" sortIndex="2">
+    <forceEntry name="Ukrainian Haydamak Battlefleet (Specialist)" id="571e-af67-1475-b79d" hidden="false" sortIndex="2">
       <categoryLinks>
+        <categoryLink name="FleetDoctrines" hidden="false" id="b54c-d4d2-2f51-de8e" targetId="eb20-a962-fc6e-ce7f">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b036-afe5-fe54-c7ed"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Ukrainian Flagship" hidden="false" id="bda6-5b56-7fb8-6909" targetId="25c0-69c4-468a-94b9">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="62ef-846f-121c-fa8b"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Line" hidden="false" id="de7c-b1cc-1dc4-cb4d" targetId="ae99-8ab0-27f0-7bb6">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e9de-9dee-33ba-ea71"/>
@@ -8773,14 +8951,14 @@ If the effect is successfully enacted, the unit gains the Daredevil Crew propert
       </categoryLinks>
       <rules>
         <rule name="Zaporozhian Spirit" id="5497-f911-ada5-863a" hidden="false">
-          <description>This Battlefleet’s Admiral can discard a Victory &amp; Valour Card from their hand in the Consolidation Step of a friendly Ukrainian unit’s Activation.
+          <description>When a Ukrainian Underwater unit in this Force makes an Attack action in which one or more Submerged Weapons are Contributing, its Admiral can discard a Victory &amp; Valour Card before any dice are rolled.
 
 
-If they do so, models in the unit can Rally during this step, even if they would not normally be able to do so.</description>
+If they do so, the Action Roll is unaffected by Disorder.</description>
         </rule>
       </rules>
     </forceEntry>
-    <forceEntry name="Polish-Lithuanian Battlefleet (Specialist)" id="1a31-2f3e-67bd-fade" hidden="false" sortIndex="3">
+    <forceEntry name="Skyhost Battlefleet (Specialist)" id="1a31-2f3e-67bd-fade" hidden="false" sortIndex="3">
       <categoryLinks>
         <categoryLink name="FleetDoctrines" hidden="false" id="4b66-eb39-d731-95fc" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
@@ -8795,38 +8973,85 @@ If they do so, models in the unit can Rally during this step, even if they would
             </modifier>
           </modifiers>
         </categoryLink>
-        <categoryLink name="Flagship Polish-Lithuanian" hidden="false" id="f420-f5d6-575a-7203" targetId="c763-34bf-062d-be65">
+        <categoryLink name="Airborne Flagship" hidden="false" id="7ed1-ef2f-1013-10c4" targetId="1de0-514e-5b56-0c84">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f810-ec11-84c1-3b9a"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ada-53f0-4fd1-6b80"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Line" hidden="false" id="c2d0-a12c-db2e-75bd" targetId="ae99-8ab0-27f0-7bb6">
+        <categoryLink name="Airborne Line" hidden="false" id="25f9-4733-6cc1-2ea1" targetId="54ca-c106-f035-c386">
           <constraints>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e31c-0db9-3bc1-008e"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="d8b2-9552-5671-0816"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="9f43-434d-014c-60f4"/>
           </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="d8b2-9552-5671-0816">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="84cd-43fc-8d02-58cd" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="9f43-434d-014c-60f4">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="84cd-43fc-8d02-58cd" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </categoryLink>
-        <categoryLink name="Patrol" hidden="false" id="2a63-45b0-18b9-2ab3" targetId="be0c-d486-6fa7-ce3b">
+        <categoryLink name="Airborne Patrol" hidden="false" id="bc57-c18c-05fa-d09e" targetId="84cd-43fc-8d02-58cd">
           <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="c118-0c11-6907-fdcf"/>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="fb08-9178-50b6-cf98"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="b72e-e036-3778-e886"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="61a4-582a-44d3-85fb"/>
           </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="b72e-e036-3778-e886">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="54ca-c106-f035-c386" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="61a4-582a-44d3-85fb">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="54ca-c106-f035-c386" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </categoryLink>
-        <categoryLink name="Support" hidden="false" id="6a54-4f85-f545-5d09" targetId="1711-6069-af06-c5cc">
+        <categoryLink name="Airborne Support" hidden="false" id="f655-01fe-8d0d-7c1f" targetId="3784-fa8f-1f4f-dcb0">
           <constraints>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="16e6-daac-ba59-a905"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0e8c-f0e3-0b80-336b"/>
           </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="0e8c-f0e3-0b80-336b">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="73c4-3c17-235f-a10a" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Airborne Scout" hidden="false" id="4f7c-f188-8621-d20c" targetId="73c4-3c17-235f-a10a">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="111f-bb39-1483-4d60"/>
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="111f-bb39-1483-4d60">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="3784-fa8f-1f4f-dcb0" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </categoryLink>
       </categoryLinks>
       <rules>
-        <rule name="Evasive Manoeuvres" id="ec0e-a134-240c-7dbf" hidden="false">
-          <description>Immediately after making the Resistance Roll for an Attack action that targets a Polish-Lithuanian unit in their Force, this Battlefleet’s Admiral may enact a Special Valour Effect.
+        <rule name="Terrors from Above" id="ec0e-a134-240c-7dbf" hidden="false">
+          <description>At the start of their turn, this Battlefleet’s Admiral may select a Commonwealth Airborne unit in their Force with the Incoming status and enact a Special Valour Effect.
 
 
-If successful, any Exploding Strikes in the Resistance Roll are immediately converted into Heavy Counters.</description>
+If successful, the unit loses the Incoming status and immediately activates, even if there are still units in this Force that do not have the Incoming status and have not yet Activated this Round.
+
+
+If the Special Valour Effect is unsuccessful, the unit does not Activate and this Battlefleet’s Admiral instead activates another unit in their Force.</description>
         </rule>
       </rules>
     </forceEntry>
-    <forceEntry name="Black Wolf Mercenary Battlefleet (Specialist)" id="18d5-9e75-e46d-8c91" hidden="false" sortIndex="4">
+    <forceEntry name="Black Wolf Hunting Pack (Legendary Main)" id="18d5-9e75-e46d-8c91" hidden="false" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="f170-ea1f-cfce-663d" targetId="0ec6-f5c8-25d7-89d8">
           <constraints>
@@ -8862,6 +9087,17 @@ If successful, any Exploding Strikes in the Resistance Roll are immediately conv
           <description>When a friendly Black Wolf unit makes an Attack action or Boarding action, and the target has at least 2 levels of Disorder, the Admiral can re-roll any Blank results in the Action Roll.</description>
         </rule>
       </rules>
+      <constraints>
+        <constraint type="min" value="1" field="forces" scope="roster" shared="true" id="c78a-5b4e-65b2-34d7" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="de5d-cdd8-07ba-aedb" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="0" field="c78a-5b4e-65b2-34d7">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="770e-db45-05e2-c579" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </forceEntry>
   </forceEntries>
   <publications>
@@ -8882,6 +9118,12 @@ If successful, any Exploding Strikes in the Resistance Roll are immediately conv
     <categoryEntry name="AttachmentHostPiranya" id="0f4b-b488-8647-4a6a" hidden="true"/>
     <categoryEntry name="AttachmentHostRurik" id="f114-8a22-0882-f064" hidden="true"/>
     <categoryEntry name="AttachmentHostSubatai" id="249a-291a-3259-c6ac" hidden="true"/>
+    <categoryEntry name="Ukrainian Flagship" id="25c0-69c4-468a-94b9" hidden="false"/>
+    <categoryEntry name="Airborne Scout" id="73c4-3c17-235f-a10a" hidden="false"/>
+    <categoryEntry name="Airborne Flagship" id="1de0-514e-5b56-0c84" hidden="false"/>
+    <categoryEntry name="Airborne Line" id="54ca-c106-f035-c386" hidden="false"/>
+    <categoryEntry name="Airborne Patrol" id="84cd-43fc-8d02-58cd" hidden="false"/>
+    <categoryEntry name="Airborne Support" id="3784-fa8f-1f4f-dcb0" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Attachments" id="ea67-cb8e-a4c7-e7c6" hidden="false" collapsible="true">
@@ -8900,6 +9142,28 @@ If successful, any Exploding Strikes in the Resistance Roll are immediately conv
               </conditions>
             </modifier>
             <modifier type="add" value="c3cf-1919-2bc7-5843" field="category"/>
+            <modifier type="set" value="3" field="3aba-bc3d-b708-dbd9">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="9d8a-b82a-0f29-2b04" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Stops too many attachments of self in a mainstay force</comment>
+            </modifier>
+            <modifier type="set" value="4" field="864e-b6a0-bd60-a884">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="equalTo" value="2" field="selections" scope="force" childId="9d8a-b82a-0f29-2b04" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Stops too many attachments of self in a mainstay force part 2</comment>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="864e-b6a0-bd60-a884" includeChildSelections="true"/>
@@ -8914,7 +9178,7 @@ If successful, any Exploding Strikes in the Resistance Roll are immediately conv
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="atLeast" value="2" field="selections" scope="force" childId="dca1-eabe-82dd-02c7" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="2" field="selections" scope="force" childId="ee94-6f67-15a6-26aa" shared="true" includeChildSelections="true"/>
                     <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="770e-db45-05e2-c579" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
@@ -8944,9 +9208,15 @@ If successful, any Exploding Strikes in the Resistance Roll are immediately conv
               <comment>Stops too many attachments of self in a mainstay force part 2</comment>
             </modifier>
             <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f114-8a22-0882-f064" shared="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="2251-0def-1b03-2e93" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="4b7e-c78d-b9be-8d7c" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="64b9-23dd-5700-e555" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </entryLink>
@@ -9072,6 +9342,58 @@ If successful, any Exploding Strikes in the Resistance Roll are immediately conv
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="2da0-76eb-c5a5-ecde" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Smok Aerial Destroyer" hidden="true" id="f12e-c773-a5a6-e97a" type="selectionEntry" targetId="4862-c367-5065-bbea">
+          <modifiers>
+            <modifier type="set" value="1" field="9027-378c-dfa6-96cc">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="2" field="selections" scope="force" childId="4862-c367-5065-bbea" shared="true" includeChildSelections="true"/>
+                    <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Stops two attachments of self in a non mainstay force.</comment>
+            </modifier>
+            <modifier type="set" value="3" field="9027-378c-dfa6-96cc">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="4862-c367-5065-bbea" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Stops too many attachments of self in a mainstay force</comment>
+            </modifier>
+            <modifier type="set" value="4" field="9027-378c-dfa6-96cc">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="1a31-2f3e-67bd-fade" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="equalTo" value="2" field="selections" scope="force" childId="4862-c367-5065-bbea" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Stops too many attachments of self in a mainstay force part 2</comment>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="2251-0def-1b03-2e93" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="139e-c78f-43c0-2957" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f625-fe99-41c1-ff3d" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="4521-8e16-2d0f-7dc6" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="9027-378c-dfa6-96cc" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2bb1-dff9-3494-f83b"/>
@@ -9097,5 +9419,237 @@ If successful, any Exploding Strikes in the Resistance Roll are immediately conv
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Akula Grand Submarine" hidden="false" id="24bd-a96b-0355-9e1f">
+      <categoryLinks>
+        <categoryLink name="Commonwealth" hidden="false" id="8f1d-2022-9b40-4629" targetId="1f78-904a-a9b7-2c8f" primary="false"/>
+        <categoryLink name="Capital" hidden="false" id="adc4-0190-d03f-a6e1" targetId="30c3-7f1c-19e3-e772" primary="false"/>
+        <categoryLink name="Ukrainian" hidden="false" id="cbef-0287-48e4-ff49" targetId="f421-3280-3483-3214" primary="false"/>
+        <categoryLink name="UnderwaterWolf" hidden="false" id="28c6-3e3f-9553-c039" targetId="ea63-cb2e-f522-ffef" primary="false"/>
+        <categoryLink name="Underwater" hidden="false" id="95bc-0282-2caa-a30b" targetId="c636-bf34-4555-99bc" primary="false"/>
+        <categoryLink name="Submarine" hidden="false" id="4536-dc25-b63f-e63f" targetId="c503-3bc7-2b45-91ef" primary="false"/>
+        <categoryLink name="Attachment host" hidden="false" id="e0d8-869e-0b0c-ae51" targetId="2251-0def-1b03-2e93" primary="false"/>
+        <categoryLink name="AttachmentHostPiranya" hidden="false" id="7f7a-d26e-20b9-1c44" targetId="0f4b-b488-8647-4a6a" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Akula" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="9059-6c3d-c1b3-d71a">
+          <characteristics>
+            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">5</characteristic>
+            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">3&quot;-7&quot;</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">2</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">12</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
+            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">3</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">3</characteristic>
+            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">8</characteristic>
+            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1-2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Akula" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="0d9d-25b9-8fd7-dbb0">
+          <characteristics>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Forward Deployment, Heavy Prow (5), Mine Layer (1), Temperamental, Terrifying (Commonwealth)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Akula" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="5dff-2e5b-322f-02f9">
+          <characteristics>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+3”), Mine Sweeper (4)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Akula" hidden="false" id="e303-5b69-2766-08c3">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="180"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+          </costs>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Light Hardpoint: PSA" id="4a10-7703-e589-f28d" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="c361-de91-5f58-c26d">
+                  <profiles>
+                    <profile name="Zhalo Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="1761-0239-4779-d88e">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All Around, Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="f43b-6309-7a15-a68b">
+                  <profiles>
+                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="1da0-4ad8-effa-164f">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Railgun" hidden="false" id="0964-0222-8c9d-04ab">
+                  <profiles>
+                    <profile name="Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2f77-1dd6-74d4-6895">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Seismic Mortar" hidden="false" id="fe7d-b58b-71d1-eb76">
+                  <profiles>
+                    <profile name="Seismic Mortar" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2aca-f9c0-ad60-ca5a">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">2</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Depth Charge, Devastating (1), Mayhem</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7693-3135-591f-5ef0"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b27e-a5fb-5aab-f43c"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Light Hardpoint: PSA" id="9b09-7e58-3d6e-dcba" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="aecb-35b7-171f-a3d1">
+                  <profiles>
+                    <profile name="Zhalo Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="097e-b6d0-e5b3-68bd">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All Around, Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="dd52-e059-06f4-a251">
+                  <profiles>
+                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="dfc5-4d24-fab9-144c">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Railgun" hidden="false" id="c0a8-2ce9-95e1-09cc">
+                  <profiles>
+                    <profile name="Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="cd84-c684-9faf-c427">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Seismic Mortar" hidden="false" id="707d-b41f-aca5-8d55">
+                  <profiles>
+                    <profile name="Seismic Mortar" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="51a7-63e8-3c7a-fc46">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">2</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Depth Charge, Devastating (1), Mayhem</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="de0a-61c7-1773-150a"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a96d-a95e-d8b9-d1e3"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="90c4-5a1c-3fb5-0150" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8c1e-ffa0-feec-8c45" includeChildSelections="false" automatic="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Super-Heavy Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="fd68-f305-44ff-cf70">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">14</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">14</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">14</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="bdb7-973e-d2b1-1c84">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">A</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="8be5-0bfc-0ea1-9eeb" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="add" value="8281-3830-2276-5bcd" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Attachments" hidden="false" id="7067-8718-971b-db42" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6"/>
+      </entryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Akula Grand Submarine" hidden="false" id="9115-166d-5cb0-f0ee" type="selectionEntry" targetId="24bd-a96b-0355-9e1f" sortIndex="26">
+      <modifiers>
+        <modifier type="set" value="2" field="8be5-0bfc-0ea1-9eeb">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="forces" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Support" hidden="false" id="6ec3-bdf2-8003-e1d1" targetId="1711-6069-af06-c5cc" primary="true"/>
+        <categoryLink name="Supportcon" hidden="false" id="0b79-bcb5-801d-5948" targetId="177a-2809-f30c-07f1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Akula Grand Submarine" hidden="false" id="a5a4-f1c3-92c5-918d" type="selectionEntry" targetId="24bd-a96b-0355-9e1f" sortIndex="14">
+      <categoryLinks>
+        <categoryLink name="Ukrainian Flagship" hidden="false" id="79f3-8476-baac-57f5" targetId="25c0-69c4-468a-94b9" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="b70b-1bd7-54b9-4a49" targetId="0ec6-f5c8-25d7-89d8" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
 </catalogue>
