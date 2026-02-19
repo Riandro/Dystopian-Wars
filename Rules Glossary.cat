@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="8551-5b95-4980-851f" name="Rules Glossary" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="5" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="8551-5b95-4980-851f" name="Rules Glossary" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="6" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedRules>
     <rule name="Obscured" id="df6c-5496-1e28-46da" hidden="false">
       <description>**OBSCURED TARGETS**
@@ -21,18 +21,20 @@ The opposing Admiral does this for every Participating model whose Visibility i
       <description>During its Movement Step, this model can make up to X Additional Manoeuvres.</description>
     </rule>
     <rule name="Amphibious" id="8fc4-fe50-6556-9d23" hidden="false">
-      <description>This model can move into or through Grounding Hazards and Islands without Colliding with them, and can still Rally when it is within Proximity of them.
+      <description>If an Underwater model has this property, it only applies while it is Surfacing.
 
 
-If this model ends its move so that it is entirely on an Island, it is Traversing that Island.
-Submerged Weapons can no longer Contribute to Attack actions against it.
+This model can move into or through Grounding Hazards and Islands without Colliding with them, and can still Rally when it is within Proximity of them.
 
 
-For the purposes of determining Visibility, its Mass rating is increased by the Island’s Mass. In addition, it does not suffer any Damage as a result of the Breach Critical Damage Effect
-in its Consolidation Step.
+If this model ends its move so that it is entirely on an Island, it is Traversing that Island. Submerged Weapons can no longer Contribute to Attack actions against it, and if it Participates in an Attack action, its own Submerged Weapons cannot Contribute. 
 
 
-While a model is Traversing a Territory, the opposing Admiral cannot allocate Landing Party tokens to that Territory (see the Ground Assault (X) property), and any Landing Party tokens already allocated to it are immediately removed from play.</description>
+For the purposes of determining Visibility, its Mass rating is increased by the Island’s Mass. In addition, it does not suffer any Damage as a result of the Breach Critical Damage Effect in its Consolidation Step.
+
+
+While a model is Traversing a Territory, the opposing Admiral cannot allocate Landing Party tokens to that Territory (see the Ground Assault (X) property), and any Landing Party
+tokens already allocated to it are immediately removed from play.</description>
     </rule>
     <rule name="Armoured Stern" id="54a8-8285-32af-0dbd" hidden="false">
       <description>When this model is targeted by an Attack action, the Vulnerable Stern rule does not apply.</description>
@@ -104,12 +106,13 @@ There is no Resistance Roll. 
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Success Threshold&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;The Target Model’s Armour rating.&lt;/td&gt;
+    &lt;td&gt;The Target Model’s Armour rating.
+(The +1 Modifier granted by a Heavy Shield Generator is ignored.)&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 
 4. INFLICT DAMAGE
-For each Success scored in the Action Roll, theTarget suffers 1 Damage.
+For each Success scored in the Action Roll, the Target suffers 1 Damage.
 
 
 The active Admiral then rolls a number of Critical Damage Dice equal to the amount of Damage inflicted. 
@@ -118,10 +121,10 @@ The active Admiral then rolls a number of Critical Damage Dice equal to the amo
 For each die showing a Breach result, the Target suffers a single instance of that Critical Damage Effect.</description>
     </rule>
     <rule name="Bushi Ryu Dojos" id="c6f2-e32b-01ca-f6c3" hidden="false">
-      <description>When this model Participates in a Boarding action, its Admiral can re-roll any Blank results in the Action Roll.
+      <description>When this model’s unit makes a Boarding action, the Target can be a Surface or Airborne model, and this model can Participate.
 
 
-If this model is the Target of a Boarding action, its Admiral can re-roll any Blank results in the Resistance Roll.</description>
+If at least one model with this property Participates in a Boarding action, the Target’s Crew rating has a -1 Modifier for each Hazard Critical Damage Effect it has (to a minimum of 1) when determining Successes in the Resolve Outcomes step of the Action Roll.</description>
       <alias>Bushi Ryu Dojo</alias>
     </rule>
     <rule name="Carrier" id="629d-e5c3-23e9-416f" hidden="false" publicationId="14a6-3b96-497a-488d" page="4">
@@ -158,7 +161,8 @@ Its Admiral places the unit anywhere in the Play Area so that none of its model
 After a unit makes a Cloud Dive, it is marked with an Incoming status token, as though it had been deployed from Reserve.</description>
     </rule>
     <rule name="Combat Divers" id="e203-9429-1b85-23cd" hidden="false">
-      <description>This model’s unit can make Boarding actions that target Underwater models.</description>
+      <description>When this model’s unit makes a Boarding action, the Target can be a Surface or Underwater model, and this model can Participate. 
+In addition, this model’s unit can make Boarding actions while Underwater, as long as the Target is also Underwater</description>
     </rule>
     <rule name="Daredevil Crew" id="747e-f37c-fb22-d8b2" hidden="false">
       <description>This model automatically passes its Crew Check when Resolving a Ram and does not gain Disorder in the Inflict Disorder step.
@@ -198,7 +202,8 @@ Submerged Weapons cannot Contribute to Attack actions against Surfacing models.
       <description>In the Determine Contributing Batteries step of a Broadside action, this model can choose a Target that is within any of its Arcs, not just Port and Starboard.</description>
     </rule>
     <rule name="Broadside Cascade" id="18be-56a0-7391-af2b" hidden="false">
-      <description>When this model Participates in a Broadside action, its flank batteries can Contribute even if the Target has a different Positional Trait.</description>
+      <description>When this model Participates in a Broadside action, its flank batteries can Contribute if the Target is a Surface or Airborne model, even if this model has a different Positional Trait.
+Any other restrictions still apply.</description>
     </rule>
     <rule name="Flotsam" id="af99-ee31-ffa0-5a5c" hidden="false">
       <description>If this model is Destroyed, replace it with a Wreck  marker, positioned over the model’s Centre Point. 
@@ -298,7 +303,7 @@ In the Consolidation Step of the current Activation, each model in the unit that
 Each model in this unit gains a +1 Modifier to its Armour rating when it is the Initial Target of an Attack action.
 
 
-This has no effect against attacks made with Assault or Submerged Weapons.</description>
+This has no effect against attacks made with Assault or Submerged Weapons. It also has no effect against the Breaching Drill or Raking Strike properties.</description>
     </rule>
     <rule name="Callimachus Chrono-Lathe" id="efc4-f1e6-0ff7-c29e" hidden="false">
       <description>Once per Round, as a Special Action, this model’s unit may engage this System. 
@@ -314,21 +319,16 @@ The other unit arrives immediately, and is deployed so that each model is withi
       <description>This SRS token can only be stacked with other SRS tokens of the same type.
 
 
-A Stack made up of these Tokens cannot be allocated to a unit that already has friendly SRS tokens of a different type allocated to it.
-
-
-The reverse is also true - a unit with a stack of these SRS tokens already allocated to it cannot be allocated SRS tokens of a different type.</description>
+A Stack made up of these Tokens cannot be allocated to a unit that already has friendly SRS tokens of a different type allocated to it. 
+The reverse is also true - a unit with a stack of these SRS tokens already allocated to it cannot be allocated friendly SRS tokens of a different type.</description>
     </rule>
     <rule name="Lateral Engines" id="64d9-1877-130f-06c9" hidden="false">
       <description>At the start of its Movement Step, before moving, this model can move up to X” without changing its facing. 
 
-
-This is a free move and does not count towards the model’s Minimum
-Speed, or against its Maximum Speed. 
+This is a free move and does not count towards the model’s Minimum Speed, or against its Maximum Speed. 
 The direction of this free move must be within its Port or Starboard arc. The entirety of this free move must be made in the same direction.
 
-
-A model with a Navigation Lock Critical Damage Effect cannot use this System. Additionally, while this model is Limping, halve X”, rounding up.</description>
+A model with a Navigation Lock Critical Damage Effect cannot use this System, nor can a model making a Vanguard Move. Additionally, while this model is Limping, halve X”,  rounding up.</description>
     </rule>
     <rule name="Mine Sweeper" id="cb6a-0623-b48d-5866" hidden="false">
       <description>As a Special Action, this model’s unit can perform Mine Clearance. Only models with this System, and within 5” of a Minefield marker, may Participate.
@@ -350,7 +350,7 @@ When this Action is made, each enemy model within 5” of a Participating model 
 For every System Failure inflicted in this way, the active Admiral can remove a System Failure from a Participating model, or another friendly model within 10” of a Participating model.</description>
     </rule>
     <rule name="Exo-sub" id="1b59-0b10-4a1b-e70f" hidden="false">
-      <description>When this Token is the target of an Interception Attempt, treat its Resilience rating as being 2 higher.</description>
+      <description>When this Token is the target of an Interception Attempt or Flak Barrage (see the Flak Barrage (X) system) treat its Resilience rating as being 2 higher.</description>
     </rule>
     <rule name="ATTACK RUN MISSION" id="a85f-8593-a2e7-99c6" hidden="false">
       <description>**RESOLVING AN ATTACK RUN MISSION**
@@ -666,17 +666,15 @@ If a model’s Sentinel Generator is activated, it cannot benefit from any othe
     <rule name="Shockwave Generator" id="6f18-2bd1-0e78-39a5" hidden="false">
       <description>This is a Generator.
 
-
 As a Special Action, this model’s unit can emit a Seismic Blast. 
 Only models with the System may Participate.
 
-
 The active Admiral selects an enemy model within 10” of all Participating models. They then make a Shockwave Roll, using a number of Action Dice equal to the combined Mass rating of all Participating models.
 
-For each Exploding Strike that is rolled, the enemy model gains 1 level of Disorder.</description>
+For each Heavy Strike or Exploding Strike that is rolled, the enemy model gains 1 level of Disorder.</description>
     </rule>
     <rule name="SRS" id="09c9-e6e7-c58f-e7dd" hidden="false">
-      <description>In the Launch Phase, Carrier models in this unit can launch SRS tokens of the type(s) listed.
+      <description>In the Launch Phase, Carrier models in this unit can launch SRS tokens of the type(s) listed.  (There are Special Missions some particular SRS can make, look right down the bottom for any of those) 
 
 
 *If the Admiral wishes one or more Crippled models to Participate in an SRS Launch, they must make a Group Crew Check, in the same way as if they wanted Crippled models to Participate in an Action.*
@@ -715,8 +713,8 @@ Attack action or Boarding action, and can make an Interception Attempt if the
 
 
 **MINE CLEARANCE MISSION**
-Allocate the SRS Stack to a Minefield marker12 within 30” of the model from which it is being launched.  It is now Sweeping that Minefield marker.
-When this Mission is resolved, it will potentially Clear13 the Minefield marker and other Minefield markers within 5” of it.
+Allocate the SRS Stack to a Minefield marker within 30” of the model from which it is being launched.  It is now Sweeping that Minefield marker.
+When this Mission is resolved, it will potentially Clear the Minefield marker and other Minefield markers within 5” of it.
 
 
 
@@ -725,7 +723,14 @@ When this Mission is resolved, it will potentially Clear13 the Minefield marker
 If an SRS Stack’s Target is removed from play (for example, if the last model in a friendly unit which it is Supporting Withdraws or is Destroyed), the Stack is placed to one side (for example, at one edge of the Play Area). 
 
 
-In the End Phase, all Short Range Squadrons that have been set aside will perform Aerial Reconnaissance.</description>
+In the End Phase, all Short Range Squadrons that have been set aside will perform Aerial Reconnaissance. 
+
+
+
+Here are the SRS that can perform specific missions. 
+
+**Talon Autogyros**
+TALON ASSAULT MISSION, GROUND SUPPORT MISSION, SUPPLY DROP MISSION</description>
     </rule>
     <rule name="Boosted Propulsion" id="6940-e4db-0cde-2e75" hidden="false">
       <description>Before moving this model, its Admiral can declare that they will Boost its Propulsion.
@@ -733,10 +738,10 @@ In the End Phase, all Short Range Squadrons that have been set aside will perfo
 If they do so, then for the duration of the current Movement Step, the model’s Minimum Speed is increased to its unmodified Maximum Speed, its Maximum Speed by X”, and its Turn Limit reduced to 0.</description>
     </rule>
     <rule name="Deck Sweepers" id="83d0-b12c-9e07-fc96" hidden="false">
-      <description>When this model is chosen as the target of a Boarding action, the active Admiral must make a Group Crew Check for all Participating models, immediately before making the Action Roll.
+      <description>When this model is chosen as the Target of a Boarding action, its Admiral can choose to make a Crew Check for it.
 
 
-If the check is failed, this model gains a +2 Crew Modifier when determining how many Successes are scored.</description>
+If the Check is passed, this model gains a +2 Crew Modifier when determining how many Successes are scored by the active Admiral.</description>
     </rule>
     <rule name="Heavy Prow" id="f19c-69b8-f417-207d" hidden="false">
       <description>When building the Action Pool for a Ram performed by this model, add X Bonus Dice.
@@ -869,9 +874,10 @@ No effect.</description>
 In addition, whenever such a model Rallies, it loses one additional level of Disorder.</description>
     </rule>
     <rule name="Sympathetic Detonation" id="4290-2c5c-e5ae-2f7b" hidden="false">
-      <description>When making an Attack action in which one or more weapons with this Quality is Contributing, the active Admiral may convert a single Heavy Strike into an Exploding Strike for each model with the Mindless Storm property within 20” of the Initial Target.
+      <description>When making an Attack action in which one or more weapons with this Quality is Contributing, at the start of the Resolve Exploding Strikes step, the active Admiral can discard one or more friendly Scythe Fighter SRS tokens that are attached to the Initial Target’s unit.
 
-This conversion happens at the start of the Resolve Exploding Strikes step.</description>
+
+For each token they discard, one Heavy Strike in the Action roll is converted to an Exploding Strike.</description>
     </rule>
     <rule name="Vanguard" id="a84e-b392-3766-ab58" hidden="false">
       <description>*This Property only applies if every model in the unit has it listed on its unit profile - otherwise, it is disregarded.*
@@ -883,7 +889,9 @@ This unit can make a Special Deployment Action to make a Vanguard Move.
 When it does so, each model in the unit makes a move as though it were the Movement Step of its Activation.
 
 
-During this move, each model has a Minimum Speed of 0” and a Maximum Speed of X”</description>
+During this move, each model has a Minimum Speed of 0” and a Maximum Speed of X”.
+
+If this unit is Deployed to the Reserve its Admiral adds 2 Bonus Dice to any Reserve Rolls they make for it.</description>
     </rule>
     <rule name="AERIAL RECONNAISSANCE" id="f8a1-35ff-f9f1-bb64" hidden="false">
       <description>In the Clean Up step of the End Phase, each SRS Stack that is still in play (i.e. that has not resolved an SRS Mission) performs Aerial Reconnaissance.
@@ -1053,7 +1061,7 @@ A Token with this SRS Property cannot be removed as a result of a Flak Barrage 
 In the Clean Up step of the End Phase, Tokens with this SRS Property are removed from play without performing Aerial Reconnaissance.</description>
     </rule>
     <rule name="Underwater SRS" id="051f-a267-e9ab-e0c2" hidden="false">
-      <description>If this SRS token is allocated to an Airborne unit, a Surface unit with the Skimmer property, or a Surface unit with the Amphibious or Landstrider properties that is Traversing a Terrain Feature, its Attack, Intercept and Support ratings are reduced to 0.
+      <description>If this SRS token is allocated to an Airborne unit, a Surface unit with the Elevated or Soar properties, a unit with the Descend property that is Surfacing, or a unit with the Amphibious property that is Traversing a Terrain Feature, its Attack, Intercept and Support ratings are reduced to 0.
 
 A Token with this SRS Property cannot be removed as a result of a Flak Barrage (see the Flak Barrage (X) system).
 
@@ -1081,8 +1089,7 @@ If a Structure accumulates Damage equal to its Mass, it is removed from play a
 This might include Special Missions which are not normally available to SRS tokens.
 
 
-See the Short Range Squadrons section of this Token’s
-ORBAT for details.</description>
+See the Short Range Squadrons section of this Token’s ORBAT for details.</description>
     </rule>
     <rule name="Navigation Lock" id="b241-4e4b-5636-0919" hidden="false">
       <description>If the Initial Target of this Attack action suffers at least 1 Damage, the active Admiral rolls X Critical Damage Dice for each Contributing weapon with this Quality.
@@ -1238,7 +1245,10 @@ This is a Critical Damage Quality. If multiple different Critical Damage Qualiti
       <description>When attempting to enact a Valour Effect, but before the opposing Admiral declares whether or not they will attempt to Deny it, this model’s Admiral can declare that they are using Priority Signals, provided they have at least one model with this System in the Play Area.
 
 
-If they do so, the Value of the Valour card is treated as being 2 higher, to a maximum of 12. An Admiral can only use Priority Signals once per Round, even if their Force contains multiple models with this System.</description>
+If they do so, the Value of the Valour card is treated as being 2 higher, to a maximum of 12.
+
+
+An Admiral can only use Priority Signals once per Round, even if they have multiple models with this System.</description>
     </rule>
     <rule name="Territory" id="808c-d43c-f26f-28d9" hidden="false">
       <description>TERRITORIES
@@ -1335,7 +1345,7 @@ In the Clean Up step of the End Phase, all dice remaining in an Admiral’s Gua
       <alias>The Guardian Pool</alias>
     </rule>
     <rule name="Defensive" id="348e-56b4-81eb-50ca" hidden="false">
-      <description>Any friendly model that is within 4” of this model, and has the same Positional Trait, is Protected by it. 
+      <description>Any other friendly model that is within 4” of this model, and has the same Positional Trait, is Protected by it. 
 
 
 This grants the friendly model a +X Modifier to its Defences rating.
@@ -1377,16 +1387,15 @@ Any model that is not Crippled is Battle-Ready. This term has no effect on the 
 Crippled Model is not immediately removed from play, but remains in play at a significant disadvantage</description>
     </rule>
     <rule name="Boarding Parties" id="9618-c6c8-5e74-d8d4" hidden="false">
-      <description>This model’s unit can make Boarding actions. The Target must be a Surface model, unless another rule states otherwise.
+      <description>This model’s unit can make Boarding actions. 
+The Target must be a Surface model, unless another rule states otherwise. 
 
 
-If the unit launches a Boarding action against an Airborne or Underwater model, this model can only Participate if it has a rule that allows it to do so. 
+
+If a rule allows the unit to launch a Boarding action against an Airborne or Underwater model, this model can only Participate if it has a rule that allows it to do so.
 
 
-If this model is Participating in a Boarding action, it contributes X dice to the Action Roll. 
-
-
-If this model is the Target of a Boarding action, its Admiral adds X dice to its Resistance Roll.</description>
+If this model is Participating in a Boarding action, it contributes X dice to the Action Roll. If this model is the Target of a Boarding action, its Admiral adds X dice to its Resistance Roll.</description>
     </rule>
     <rule name="Bomb" id="aea4-3bdc-2aab-7ef9" hidden="false">
       <description>Weapons with this Special Attack Quality are Bomb Weapons, and can only Contribute to an Attack action if all Contributing weapons are also Bomb Weapons.
@@ -1416,11 +1425,16 @@ The pool should be kept to one side of the Play Area, near the Admiral’s Vic
       <alias>Localised Anomaly Pool</alias>
     </rule>
     <rule name="Agitation" id="c041-5cea-e716-a14d" hidden="false">
-      <description>This weapon has a variable Firepower rating. 
-If listed as MAS, its Firepower is equal to the Mass rating of the Initial Target. If listed as 2 MAS, it is equal to twice the Mass rating of the Initial Target, and so on.
+      <description>Each of this weapon’s Firepower ratings is increased by an Agitation Bonus. 
 
 
-If this Quality has an X value listed, the weapon’s Firepower cannot be greater than X.</description>
+This is equal to the Mass rating of the Initial Target, up to a maximum of X.
+
+
+Firepower ratings of ‘-’ cannot be increased in this way. However, Firepower ratings of 0 can be increased in this way.
+
+
+*For example, a weapon with the Agitation (4) quality has Firepower ratings of 0 / 2 / -. If the Initial Target has a Mass of 2, its Firepower ratings are increased to 2 / 4 / -. If the Initial Target has a Mass of 6, its Firepower ratings are increased to 4 / 6 / -.*</description>
     </rule>
     <rule name="All Around" id="bbe4-03e4-180b-c745" hidden="false">
       <description>When Declaring Contributing Weapons for an Attack action, this weapon can Contribute regardless of which Targeting Arc the Initial Target is in.</description>
@@ -1641,10 +1655,11 @@ In addition, models with this Property can never benefit from the Raiding Parti
 
 *Note: this quality directly opposes the Ablative Armour (X) property. See that property for details.*</description>
     </rule>
-    <rule name="Co-ordinated Explosion" id="e332-3907-ed4f-7d48" hidden="false">
+    <rule name="Co-ordinated Explosion" id="e332-3907-ed4f-7d48" hidden="false" noindex="true">
       <description>When resolving an Attack Run mission, if any Attack Run Targets are within 20” of a friendly model with the Mindless Storm property, each Token in the Stack with this SRS Property allows the Admiral to convert one Heavy Strike in the Action Roll into an Exploding Strike.
 
 This conversion happens at the start of the Resolve Exploding Strikes step.</description>
+      <comment>Currently not used</comment>
     </rule>
     <rule name="Coordinated Defences" id="fb89-d0c8-26c5-3bb6" hidden="false">
       <description>When this model is chosen as the Initial Target of an Attack action, its Admiral can choose to make a Crew Check for it.
@@ -1672,8 +1687,9 @@ An Atomic Generator provides no Unit Benefit to Immobile models.</description>
     <rule name="Aerial Shield Enhancer" id="13d4-f001-58e2-3eee" hidden="false">
       <description>If an Airborne model within X” of at least one friendly model with this System benefits from a Heavy Shield Generator, its Armour rating receives a +2 Modifier instead of +1.</description>
     </rule>
-    <rule name="Aerial Repair Facilities" id="9944-ab43-070d-95aa" hidden="false">
+    <rule name="Aerial Repair Facilities" id="9944-ab43-070d-95aa" hidden="true" noindex="true">
       <description>When making a Repair Roll for an Airborne model, add X Bonus Dice if it is within 4” of at least one friendly model with this System.</description>
+      <comment>Currently not used</comment>
     </rule>
     <rule name="Vitruvian Form" id="bf76-dfda-829f-8b3b" hidden="false">
       <description>At the start of its Movement Step, this model can make a free Pivot before moving.
@@ -1683,19 +1699,22 @@ In addition, this model must always Pivot when it Comes About, but these Pivots
 This model cannot declare a Ram.</description>
     </rule>
     <rule name="Vikingr" id="fcb2-c111-c9f6-ed99" hidden="false">
-      <description>When a unit resolves a Boarding action, the Target gains a number of Negative Effect tokens equal to the total Mass ratings of each Participating model that has this Property.
-
-
-(These Negative Effect tokens can be placed in a single stack.) This indicates that the target is Under Attack.
+      <description>When this model Participates in a Boarding action, the Target gains X Negative Effect tokens. These are Vikingr Tokens, and indicate that the target is Under Attack.
 
 
 On the target model’s next Activation, its unit can make a Special Action to Repel Boarders. Only models that are Under Attack can Participate, but a model can Participate in this Action multiple times during a single Activation.
 
 
-For each Participating model, the active Admiral rolls a number of Action Dice equal to the model’s Crew rating. For each Strike, they remove one Negative Effect token from the model.
+For each Participating model, the active Admiral rolls a number of Action Dice equal to the model’s Crew rating.
 
 
-At the end of the model’s Activation, it suffers 1 Damage for each Negative Effect token it still has. Then, all of its Negative Effect tokens are removed, and it is no longer Under Attack.</description>
+For each Strike, they remove one Vikingr token from the model.
+
+
+At the end of the model’s Activation, it suffers 1 Damage for each Vikingr token it still has. Then, all of its Vikingr tokens are removed, and it is no longer Under Attack.
+
+
+If multiple models with this property Participate in a Boarding action, the target gains a number of Vikingr tokens equal to the total of their X Values.</description>
     </rule>
     <rule name="Unconventional Target" id="a278-c478-0e76-4a48" hidden="false">
       <description>When an Airborne model is the target of an Attack action, any Standard Strikes and Heavy Strikes in the Resistance Roll are converted to Standard Counters.
@@ -1704,13 +1723,14 @@ This is the case even if the unit making the Attack is also Airborne.</descript
     <rule name="Unexpected Arrival" id="a5e0-b15c-4e2c-cc40" hidden="false">
       <description>*This Property only applies if every model in the unit has it listed on its unit profile - otherwise, it is disregarded.*
 
-When this unit is deployed from Reserve, it can either be placed normally, or it can make an Unexpected Arrival.
+
+Before making a Reserve Roll for this unit, its Admiral can declare that it will make an Unexpected Arrival.
 
 
-When a unit makes an Unexpected Arrival, its Admiral can place it anywhere in the Play Area provided that no models are placed in Proximity of another model or a Terrain Feature. 
+They do not need to make a Reserve Roll for the unit; it arrives automatically. The Admiral can place it anywhere in the Play Area provided that no models are placed in Proximity of another model or a Terrain Feature. 
 
 
-The unit is not marked with an Incoming status token, but when it is Activated later in the Round, it cannot do anything in its Movement Step and its Action Limit has a -1 Modifier in its Action Step.</description>
+The unit is not marked with an Incoming status token, but when it is Activated later in the Round, its Maximum Speed is halved (rounding up) and its Action Limit has a -1 Modifier, to a minimum of 1.</description>
     </rule>
     <rule name="Teutonic Construct" id="bd87-f76a-4ae6-5cec" hidden="false">
       <description>When a Repair Roll is made for this model, Heavy Strikes do not allow the Admiral to remove Critical Damage Effects. 
@@ -1722,7 +1742,7 @@ However, if this model is Battle-Ready when the Repair Roll is made, any number
 For each die that is used to make Structural Repairs, remove 1 point of Damage from this model.
 
 
-A model with this Property may not attempt Jury-Rigged Repairs</description>
+A model with this Property may not attempt Jury-Rigged Repairs, and cannot benefit from the Repair Facilities (X) system.</description>
     </rule>
     <rule name="Terrifying" id="d242-3d18-5936-a8e7" hidden="false">
       <description>Once this model’s unit has completed its Movement Step, any models (friend or foe) within 5” immediately gain 1 level of Disorder.
@@ -1775,7 +1795,7 @@ This Special Action can be made multiple times during the same Activation.
 
 
 
-*Note: If more than one model in the Active unit is able to Transfer Munitions, its Admiral resolves each one separately, in an order of their choice. In addition, if a model with a Depleted status token is within 4” of more than one model with this Property at the start of its Activation, only one model can attempt to Transfer Munitions.*</description>
+*Note: If more than one model is able to Transfer Munitions, its Admiral resolves each one separately, in an order of their choice. In addition, if a model with a Depleted status token is within 4” of more than one model with this Property at the start of its Activation, only one model can attempt to Transfer Munitions.*</description>
     </rule>
     <rule name="Skimmer" id="bc36-476f-2f5f-0e56" hidden="false">
       <description>This model treats all Terrain Features as Open Water and can Pass Through Surface models.
@@ -1809,7 +1829,8 @@ model. &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Success Threshold&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;The Target’s Armour rating. &lt;/td&gt;
+    &lt;td&gt;The Target’s Armour rating. 
+If the Target has a Heavy Shield Generator, the +1 Modifier to its Armour rating is ignored.&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -1834,7 +1855,7 @@ Each Participating model removes X Action Dice from its Admiral’s Local Anoma
 If they do so, any SRS tokens with this SRS Property are not removed from play. Instead, the active Admiral chooses a different enemy unit that is within 10” of a different Portal marker, and allocates those SRS tokens to that unit, either forming a new SRS stack adding them to a friendly Stack that is already allocated to it.
 
 
-Mark the SRS Stack with a Negative Effect token until the Clean Up step of the End Phase to show that it cannot make another Portal Strike this Round.</description>
+Mark the SRS Stack with a Negative Effect token until the Clean Up step of the End Phase to show that it cannot make another Portal Strike this Round. This is a Portal Strike token.</description>
     </rule>
     <rule name="Proximity" id="2c55-f2f7-2baf-2e00" hidden="false">
       <description>Whenever two models with the Surface Trait are within 2” of each other, both models are considered to be within Proximity of each other.
@@ -1889,7 +1910,7 @@ It must then move in a straight line, with the distance measured to and from th
 
 At the end of the move, it can make up to two free Pivots.</description>
     </rule>
-    <rule name="Mindless Storm" id="1de1-f01d-4c8d-f348" hidden="false">
+    <rule name="Mindless Storm" id="1de1-f01d-4c8d-f348" hidden="true">
       <description>Whenever a friendly unit launches a Stack of Scythe Fighter SRS tokens, its Admiral can nominate any number of friendly models with this property to enact a Mindless Storm. 
 These models do not have to be in the same unit, and can be anywhere in the Play Area. 
 
@@ -1898,6 +1919,7 @@ In addition, for each model enacting a Mindless Storm that is within 10” of th
 
 A model can only participate in one Mindless Storm in each Launch Phase. 
 To track this, each nominated model is marked with a Special Effect token until the end of the Launch Phase.</description>
+      <comment>Currently not used</comment>
     </rule>
     <rule name="Mechanical Soul" id="2440-018d-ab52-349d" hidden="false">
       <description>This model’s Crew rating cannot be Modified Models with this Property are unaffected by Valour Effects enacted by their Admiral. 
@@ -1911,8 +1933,9 @@ They are affected by Special Valour Effects (enacted by either Admiral) as norm
 
 In addition, when this model’s unit makes a Boarding action, its Admiral can choose a Target that is within 6” of this model. Models in the unit that have this Property can Participate as long as they are within 6” of the Target.</description>
     </rule>
-    <rule name="Lone Wolf" id="9118-2b75-76db-cf83" hidden="false">
+    <rule name="Lone Wolf" id="9118-2b75-76db-cf83" hidden="true">
       <description>This model’s unit cannot be a Parent Unit for an Attachment.</description>
+      <comment>Currently not used</comment>
     </rule>
     <rule name="Limited" id="5c7e-83ef-db80-3872" hidden="false">
       <description>After resolving this Attack action, each weapon with this Quality that Contributed to the action is Depleted. The model that the weapon is mounted on gains a Depleted status token. 
@@ -1939,7 +1962,7 @@ This replaces the Under Fire rule, but any other rules that cause the target t
 
 *If this attack also has the Blast quality, this affects Secondary Targets as well as the Initial Target. *</description>
     </rule>
-    <rule name="Landstrider" id="4fcd-04ee-8a41-9153" hidden="false">
+    <rule name="Landstrider" id="4fcd-04ee-8a41-9153" hidden="true">
       <description>This model can move into or through Grounding Hazards and Islands without Colliding with them, although its movement is Impeded.
 
 If this model ends its move so that it is entirely on an Island, it is Traversing that Island.
@@ -1951,6 +1974,7 @@ For the purposes of determining Visibility, its Mass rating is increased by th
 In addition, it does not suffer any Damage as a result of the Breach Critical Damage Effect in its Consolidation Step.
 
 While a model is Traversing a Territory, the opposing Admiral cannot allocate Landing Party tokens to that Territory (see the Ground Assault (X ) property), and any Landing Party tokens already allocated to it are immediately removed from play.</description>
+      <comment>Currently not used</comment>
     </rule>
     <rule name="Intensive" id="2863-cf0e-91e0-5c88" hidden="false">
       <description>If at least one weapon with this Quality Contributes to an Attack action, the active unit counts as having spent an additional Action. 
@@ -1970,9 +1994,13 @@ In addition, if a model in this unit Participates in an Attack action at any Ra
 They do not need to make a Reserve Roll for a Transported unit. Instead, they set up the unit so that each model is within 5” of this model. A model with this Property can only be chosen to Transport one unit per game.</description>
     </rule>
     <rule name="Flight Deck" id="6f7b-dabb-2839-a43a" hidden="false">
-      <description>If a unit contains at least one model with this Property, its Admiral can reinforce a single friendly SRS Stack at the end of the unit’s Movement Step.
+      <description>At the end of a unit’s Movement Step, each model in the unit with this property Scrambles short range squadrons, which can either Support a Mission or Fly Interference.
 
-For each model in the unit with this Property, and within 10” of the model or Marker to which that Stack is allocated, add 1 SRS token of the listed type.</description>
+
+If the squadrons Support a Mission, the unit’s Admiral chooses a friendly SRS Stack. For each Scrambling model that is within 10” of the model or Marker to which the chosen Stack is allocated, one SRS token of the listed type is added to the chosen Stack.
+
+
+If the squadrons Fly Interference, each Scrambling model adds one SRS token of the listed type to the active unit, as though they were being assigned an Air Support Mission.</description>
     </rule>
     <rule name="Guided" id="4537-ba66-6a8d-395f" hidden="false">
       <description>If the Initial Target of this Attack action is also being Threatened by a friendly SRS stack, increase each of this weapon’s Firepower ratings by X. 
@@ -1986,19 +2014,31 @@ Firepower ratings that do not have a value are not increased.</description>
     <rule name="Mine Layer" id="10ca-3e34-3f0a-ec7e" hidden="false">
       <description>As a Special Deployment Action, this model’s unit can Distribute Mines.
 
-When it does, for each model in the unit with this Property, the unit’s Admiral places up to X Minefield markers anywhere in the Play Area. 
 
-Each one must be placed at least 10” from the enemy Deployment Zone, and cannot be placed within 1” of a model, a Terrain Feature, or another Marker.</description>
+When it does, for each model in the unit with this Property, the unit’s Admiral places up to X Minefield markers anywhere in the Play Area.
+
+
+Additionally, this model’s unit can Launch Mines as a Special Action, even if it is Underwater. If it does, its Admiral places a single Minefield marker within 5” of a model in the unit that has this Property.
+
+
+Minefield markers that are placed using this Property cannot be placed within 1” of a model (including one with an Incoming status token), a Terrain Feature, or another marker.</description>
     </rule>
     <rule name="Platform" id="cebd-246a-4170-df3a" hidden="false">
-      <description>Once this model has been Deployed, it cannot move, or be moved, for the rest of the game. Nor can it ever Withdraw.
+      <description>At the start of the Deployment Phase, this model’s Admiral must divide its unit into one or more Platform Groups (each containing at least one model). Each Platform Group counts as a separate unit for the duration of the game, including for the purposes of Deployment.
 
 
+This model’s unit cannot be Deployed to the Reserve. Once it has been Deployed, it cannot move, or be moved, for the rest of the game, and nor can it ever Withdraw.
 When this model is targeted by an Attack action, the Vulnerable Stern rule does not apply.
 
 
-If this model is Destroyed, replace it with a Wreck marker, positioned over the model’s Centre Point. 
-If this would cause the Marker to be placed in contact with a Terrain Feature, a model, or another Marker, it is not placed.</description>
+
+If this model is Destroyed or Abandoned, replace it with a Wreck marker, positioned over the model’s Centre Point.
+
+
+If the Marker would be placed in contact with a Terrain Feature, a model, or another Marker, it is not placed. 
+
+
+*Note that Platforms can be Abandoned! This represents the crew departing, and setting scuttling charges to prevent a vital asset falling into enemy hands.*</description>
     </rule>
     <rule name="Platform Transport" id="f753-2767-4165-40e1" hidden="false">
       <description>Once per game, during the Deploy Reserves step of the Ready Phase, this model’s Admiral may deploy a single Union Platform model with a Mass rating of 3 or below within 2” of this unit.
@@ -2329,14 +2369,18 @@ attack would be resolved with Devastating (1).*</description>
       <description>*This Property only applies if every model in the unit has it listed on its unit profile - otherwise, it is disregarded.*
 
 
-At the start of each of this unit’s Activations, its Admiral must choose its position: it can soar high, in which case it remains an Airborne unit, following all of the normal rules for Airborne units, or it can Descend to hover a short distance above the water, temporarily becoming a Surface unit.
+At the start of each of this unit’s Activations, its Admiral must choose its position: it can fly high, in which case it remains an Airborne unit, following all of the normal rules for Airborne units, or it can Descend to hover a short distance above the water, temporarily becoming a Surface unit. 
 
 
 A unit that Descends gains a Surfacing status token until the start of its next Activation.
-While subject to this status, it is treated as having the Surface positional trait instead of Airborne, and is not subject to the Wide Open Skies or Unconventional Target rule.
 
 
-Similarly, the unit treats all Terrain Features as Open Water for the purposes of Movement and is not Impeded by Treacherous Water, does not Trigger Minefield markers, and never suffers Critical Damage as a result of contacting a Wreck marker. 
+While subject to this status, it is treated as having the Surface positional trait instead of Airborne, and is not subject to the Wide Open Skies or Unconventional Target rule. 
+The unit treats all Terrain Features as Open Water for the purposes of Movement and is not Impeded by Treacherous Water, does not Trigger Minefield markers, and never suffers
+Critical Damage as a result of contacting a Wreck marker.
+
+
+Models in the unit can Pass Through other Surface models, but if they do so both models gain 1 level of Disorder.
 
 
 Submerged Weapons cannot Contribute to Attack actions against Surfacing models.</description>
@@ -2377,19 +2421,18 @@ If its Mass reaches 0, the Iceberg is removed from play.</description>
       <description>This is a Generator.
 
 
-At the start of each Round’s Activation Phase, this model contributes X Action Dice to its Admiral’s Guardian Pool, as described in the Crown ORBAT.
+At the start of each Activation Phase, this model contributes X Action Dice to its Admiral’s Guardian Pool, as described in the Crown ORBAT.
 
 
-When this model is targeted by an Attack action, its Admiral can remove a number of dice from the Guardian Pool and add them to their Resistance Pool as Bonus Dice.
+If there is at least one die in the Guardian Pool when this model is targeted by an Attack action, its Admiral can declare that they will Employ Guardian Generators. 
+They immediately spend a number of Action Dice from the Guardian Pool; they must spend at least one, and the maximum number they can spend is equal to this model’s Defences rating.
 
 
-The maximum number of Bonus Dice that can be added in this way is equal to the model’s Defences rating, taking into account any Modifiers that currently apply.
+Each die spent in this way is removed from the Guardian Pool, and added to the Resistance Pool as a Bonus Die. In addition, when making the Resistance Roll, the Admiral
+can re-roll any Blank results.
 
 
-In addition, if at least one Action Die from the Guardian Pool is added as a Bonus Die, the Admiral can Re-roll any Blank results in the Resistance Roll.
-
-
-A Guardian Generator cannot add Bonus Dice to a Resistance Roll if the Attack action is made with Assault or Submerged weapons.</description>
+The Admiral cannot Employ Guardian Generators if the Attack action is made with Assault or Submerged weapons. It also has no effect against the Breaching Drill or Raking Strike properties.</description>
     </rule>
     <rule name="Aerial" id="3ddc-f2ca-57c8-0968" hidden="false">
       <description>Weapons with this Special Attack Quality are Aerial Weapons, and can only Contribute to an Attack action if all Contributing weapons are also Aerial Weapons. 
@@ -2422,33 +2465,26 @@ If this model is Destroyed, replace it with four Wreck markers. The first is po
     </rule>
     <rule name="Interphase Generator" id="594f-ba0c-7dbe-968c" hidden="false">
       <description>This is a Generator. 
-
-
 Its effect cannot be conferred to another unit via the Generator Ship property.
 
-
-If every model in a unit has an Interphase Generator, its Admiral can declare that it will Interphase at the end of its Consolidation Step. 
-Mark the unit with a Special Effect token.
+If every model in a unit has an Interphase Generator, its Admiral can declare that it will Interphase at the end of its Consolidation Step. Mark the unit with a Special Effect token.
 
 
-
-All of the models in the unit are Interphasing until the start of the unit’s next Activation.
-
-In the subsequent Round, an Admiral must Activate any Interphasing units in their Force before they activate any units that are not Interphasing.
-
-An Interphasing model cannot be targeted by any Actions, rules or effects, and cannot gain Damage, Critical Damage or Disorder by any means. 
+All of the models in the unit are Interphasing until the start of the unit’s next Action Step.
+In the next Round, the Admiral must Activate any Interphasing units in their Force before they activate any units that are not Interphasing.
 
 
-It cannot Block Visibility (though it can still Obscure it as normal) and any Properties and Systems it may have other than Interphase Generator are ignored. 
+An Interphasing model cannot be targeted by any Actions, rules or effects, and cannot gain Damage, Critical Damage or Disorder by any means. It cannot Block Visibility (though it can still Obscure it as normal) and any Properties and Systems it may have other than Interphase Generator are ignored. 
 
 
-Surface models can Pass Through an Interphasing model, but if they do so, they gain 1 level of Disorder.
-
-In an Interphasing unit’s Movement Step, each model’s Maximum Speed rating is doubled, they treat all Terrain Features and Environmental Features as Open Water, they can Pass Through all other models, and are unaffected by Markers of any kind. 
+Surface models can Pass Through an Interphasing model, but if they do so, they gain 1 level of Disorder. 
 
 
-They cannot Come About, but at the end of the move they can freely rotate around their Centre Point to face any direction. 
-No model can end its move in contact with a Terrain Feature, model or Marker.
+In an Interphasing unit’s Movement Step, each model’s Maximum Speed rating is doubled, they treat all Terrain Features and Environmental Features as Open Water, can Pass Through all other models, and are unaffected by Markers of any kind. 
+
+
+They cannot Come About, but at the end of the move they can freely rotate around their Centre Point to face any direction. No model can end its move in contact with a Terrain Feature, model or Marker. 
+
 
 At the end of the Movement Step, the Special Effect token is removed, and each other model, friend or foe, that one or more models in the active unit Passed Through gains 1 level of Disorder.
 
@@ -2456,23 +2492,32 @@ In the subsequent Action Step, the unit’s Action Limit is reduced to 1.
 It cannot Interphase again in its Consolidation step if it was Interphased at the start of its Activation.</description>
     </rule>
     <rule name="Repair Facilities" id="1ae1-f503-9b3e-2108" hidden="false">
-      <description>When making a Repair Roll for a Surface model, add X Bonus Dice if it is within 4” of at least one friendly model with this System.</description>
+      <description>Models within 4” of at least one friendly model with this System are in Repair Range, as long as they share the same Positional Trait. 
+
+
+A model with this System always counts as being in Repair Range.
+
+
+When making a Repair Roll for a model that is in Repair Range, add X Bonus Dice. If the roll would allow the unit to remove more Critical Damage Effects than it has allocated to it, 1 Damage is also removed from the model.</description>
     </rule>
     <rule name="Alchemical" id="0cfa-5d49-0e34-4804" hidden="false">
-      <description>After resolving this Attack action (including the Under Fire rule), the opposing Admiral makes a Crew Check for the Initial Target. 
+      <description>After resolving an Attack action to which at least one weapon with this Quality is Contributing, the Initial Target is set Ablaze if it suffered at least 1 Damage during the action, and it does not have a Hazard Critical Damage Effect. 
 
 
-If the Check fails, the Initial Target gains a Hazard Critical Damage Effect, and is marked with a Negative Effect token.
+While a model is Ablaze, each Contributing weapon with this Quality inflicts X Negative Effect tokens on the target. These are Alchemical tokens. If the attack also has the Blast (X ) quality, any Secondary Targets that take at least 1 Damage are also Set Ablaze and gain 1 Alchemical token.
 
 
-The Negative Effect token is removed in the Clean Up step of the End Phase. Until then, this quality is disregarded when resolving Attack actions against the model with the Token.</description>
+If the number of Alchemical tokens a model has accumulated equals or exceeds its Mass rating, all Alchemical tokens are removed and the model gains a Hazard Critical Damage Effect.
+
+
+If an Ablaze model’s unit performs a Maintenance action, its Admiral can discard Alchemical tokens as though they were Critical Damage Effects.</description>
     </rule>
     <rule name="Levant" id="494c-dd2b-054b-3eb3" hidden="true">
       <description>Airborne models with this Property do not benefit from the Unconventional Target rule, but count as Scoring Models so long as they are not Crippled.</description>
       <comment>Currently not used</comment>
     </rule>
     <rule name="Sky Commandos" id="b882-b213-bba2-ddfa" hidden="false">
-      <description>When this model’s unit makes a Boarding action, the Target can be an Airborne model. This model can Participate in the Action.</description>
+      <description>When this model’s unit makes a Boarding action, the Target can be a Surface or Airborne model, and this model can Participate.</description>
     </rule>
     <rule name="Turbo Encabulation Drive" id="2112-f1e2-0757-5c8f" hidden="true">
       <description>At the start of this unit’s Movement Step, as long as no models in the unit have 3 levels of Disorder, its Admiral can declare that they will activate the Turbo Encabulation Drive. 
@@ -2532,10 +2577,17 @@ If it is an even number, the unit is removed from the Play Area and placed into
 If this model is the Initial Target of an Attack action, Submerged weapons cannot Contribute.</description>
     </rule>
     <rule name="Low Altitude" id="778d-e49d-5c92-2d5f" hidden="true">
-      <description>When this model is the target of an Attack action, the Unconventional Target rule does not apply.
+      <description>During a Broadside action, this model’s flank batteries can Contribute if the Target has the Surface trait. 
+If the Target has the Airborne trait, this model’s flank batteries can only Contribute if the Target also has this Property.
 
 
-In addition, this model counts as a Scoring Model while it is Battle-Ready</description>
+In addition, while this model is Battle-Ready, it counts as a Scoring Model.
+
+
+However, this model does not benefit from the Unconventional Target rule when it is the Initial Target of an Attack action.
+
+
+*Note that this model can be the target of a Broadside action if the Contributing model is Airborne, or has the Broadside Cascade property.*</description>
     </rule>
     <rule name="Soar" id="3fe0-6514-7001-149d" hidden="false">
       <description>This model can move into or through all Terrain Features without Colliding with them, and can still Rally when it is within Proximity of them. 
@@ -2544,10 +2596,10 @@ In addition, this model counts as a Scoring Model while it is Battle-Ready</des
 This model can Pass Through other models, and they can Pass Through it.</description>
     </rule>
     <rule name="Depth Charge" id="ba63-7782-840f-7051" hidden="false">
-      <description>An Underwater model can be chosen as the Initial Target of this Attack action, as long as all Contributing weapons have this Quality. 
+      <description>An Underwater model can be chosen as the Initial Target of this Attack action, as long as all Contributing weapons have this Quality. 
 
 
-A weapon with this Quality cannot Contribute to any Attack action in which a Surface or Airborne model is the Initial Target.</description>
+A weapon with this Quality cannot Contribute to any Attack action in which an Airborne model is the Initial Target.</description>
       <alias>Ramming, Rams</alias>
     </rule>
     <rule name="Impeded" id="db4e-d384-aa01-a89f" hidden="false">
@@ -2596,6 +2648,109 @@ This applies even if the Participating model or Target is Airborne.
 
 
 The opposing Admiral adds 2 Bonus Dice to the Resistance Roll for each Participating model that has Hampered Visibility.</description>
+    </rule>
+    <rule name="TALON ASSAULT MISSION" id="07f8-b184-44d3-4124" hidden="false">
+      <description>Allocate the SRS Stack to an enemy Surface or Airborne unit within 25” of the model from which it is being launched.
+It is now Assaulting that unit.
+
+
+When this Mission is resolved, it has the potential to inflict highly targeted Critical Damage on models in the enemy unit.
+
+
+**RESOLVING A TALON ASSAULT MISSION**
+
+An SRS Stack that is Assaulting an enemy unit performs a Talon Assault mission, using the following process.
+
+1. RESOLVE INTERCEPTION ATTEMPT
+If the enemy unit is Supported by an SRS Stack, the opposing Admiral makes an Interception Attempt as though this were an Attack Run Mission. 
+After this has been resolved, all SRS tokens in the enemy Stack are immediately discarded.
+
+2. NOMINATE ASSAULT TARGETS
+The active Admiral nominates models in the enemy unit to be Assault Targets. The maximum number of Assault Targets they can nominate is equal to the number of Talon Autogyro tokens in their stack.
+
+3. MAKE AN ACTION ROLL
+The active Admiral makes a single Action Roll regardless of the number of Assault Targets, and the opposing Admiral makes a single Resistance Roll. 
+The Resolve Outcomes step of the Action Roll is skipped.
+
+&lt;table border=&quot;1&quot; cellpadding=&quot;10&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Action Pool&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;Each Talon Autogyro token in the active Admiral’s stack adds a number of Action Dice equal to its Attack rating &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Resistance Pool&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;Each Assault Target adds a number of dice equal to its Defences rating.
+
+Add 1 Bonus Die for each Escort that is accompanying the target unit.&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+4. RESOLVE ASSAULTS
+The active Admiral chooses an Assault Target, and removes a number of Hits from the Action Pool equal to the model’s Crew rating. If this is not possible, this step ends immediately.
+The chosen model gains 1 Disorder, and suffers a Critical Damage Effect chosen by the active Admiral. The active Admiral repeats this step as many times as possible, but each Assault Target can only be chosen once.
+
+
+5. DISENGAGE
+Discard all SRS tokens in the active Admiral’s stack.</description>
+    </rule>
+    <rule name="GROUND SUPPORT MISSION" id="2308-1795-cbe1-35f5" hidden="false">
+      <description>**RESOLVING A GROUND SUPPORT MISSION**
+
+Allocate the SRS Stack to a friendly Landing Party stack on a Territory that is within 25” of the model from which it is being launched. It is now Approaching that Territory.
+
+An SRS Stack that is Approaching a friendly Landing Party stack performs a Ground Support mission, using the following process.
+
+
+The active Admiral rolls a number of Action Dice equal to the number of Talon Autogyro tokens in the Stack.
+If at least one Strike is rolled, add an additional Token to the Landing Party stack.
+
+
+All Tokens in the SRS stack are then discarded.</description>
+    </rule>
+    <rule name="SUPPLY DROP MISSION" id="1409-2dec-bc15-7eb5" hidden="false">
+      <description>**RESOLVING A SUPPLY DROP MISSION**
+
+
+Allocate the SRS Stack to a friendly unit within 25” of the model from which it is being launched. It is now Supplying that unit.
+
+An SRS stack that is Supplying a friendly unit performs a Supply Drop mission, using the following process.
+
+
+The active Admiral rolls a number of Action Dice equal to the number of Talon Autogyro tokens in the Stack.
+For each Strike that is rolled, the active Admiral can choose a model in the unit. That model may immediately lose 1 level of Disorder or remove a Depleted status token.
+
+
+It may do this even if it would not otherwise be able to Rally. A model cannot be chosen more than once per Mission.</description>
+    </rule>
+    <rule name="Orichalcite Construction" id="93bc-4d8d-38a0-224c" hidden="false">
+      <description>If this model has more than one instance of the same Critical Damage Effect, it only counts as having a single instance of that Effect when resolving ongoing penalties.
+
+
+This does not affect the number of Critical Damage Effects required to trigger a Catastrophic Explosion.
+
+
+For example, if a Mass 3 model with this property has two or more Breach effects, it only suffers 1 Damage in its Consolidation Step - but if it suffers one more Critical Damage Effect, it will suffer a Catastrophic Explosion.</description>
+    </rule>
+    <rule name="Disruption" id="a5c4-532e-ae2c-0d48" hidden="false">
+      <description>If the Initial Target suffers at least 1 Disorder as a result of this action, it takes a Negative Effect token (unless it already has one). 
+
+
+This is a Disruption token. A model with a Disruption token has a -1 Crew Modifier, and standard Valour Effects cannot be enacted upon it. (Special Valour Effects can be enacted upon it as normal.)
+
+
+In the Consolidation Step of the model’s next Activation, its Disruption token is removed.</description>
+    </rule>
+    <rule name="Harriers" id="9515-7ea8-5956-474a" hidden="false">
+      <description>During an Attack Run mission, if this Token is discarded from the attacking SRS Stack as the result of an Interception Attempt, it still adds 1 Action Die to the Attack Run’s Action Pool.
+
+
+If the last token in the Stack is discarded, the Attack Run mission does not end immediately if at least one token that was discarded has this property.</description>
+    </rule>
+    <rule name="Tail Gunners" id="bbba-3bc9-62eb-15ae" hidden="false">
+      <description>During an Attack Run mission, if the opposing Admiral makes an Interception Attempt, this token’s Admiral makes a Resistance Roll. 
+
+
+Each token in the attacking SRS Stack with this property contributes X Action Dice to the Resistance Pool.</description>
     </rule>
   </sharedRules>
   <publications>
