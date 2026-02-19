@@ -545,7 +545,9 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
               <description>At the start of their turn in the Make a Special Deployment Action step of Deployment, this Admiral can nominate one of their units in the Play Area that is not Immobile.
 
 
-That unit gains the Vanguard (5”) property.</description>
+That unit gains the Vanguard (5”) property.
+
+The Admiral can only use this Doctrine once per game.</description>
             </rule>
           </rules>
         </selectionEntry>
