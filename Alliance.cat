@@ -8280,7 +8280,7 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1438-dc56-0cc1-0d66" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="144"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="145"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <modifiers>
@@ -10218,14 +10218,9 @@ If the effect is successfully enacted, mark the unit with a Valour Effect token.
                 <repeat value="1" repeats="1" field="selections" scope="force" childId="362f-81c2-86f2-8bd1" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
             </modifier>
-            <modifier type="set" value="1" field="1f94-00c4-cf8c-350e">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="force" childId="362f-81c2-86f2-8bd1" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
             <modifier type="set" value="0" field="1f94-00c4-cf8c-350e">
               <conditions>
-                <condition type="atLeast" value="2" field="selections" scope="force" childId="362f-81c2-86f2-8bd1" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="362f-81c2-86f2-8bd1" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -10241,14 +10236,9 @@ If the effect is successfully enacted, mark the unit with a Valour Effect token.
                 <repeat value="1" repeats="1" field="selections" scope="force" childId="b1ff-c1d2-94f1-38e0" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
             </modifier>
-            <modifier type="set" value="1" field="a1e7-3212-328a-58e2">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="force" childId="b1ff-c1d2-94f1-38e0" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
             <modifier type="set" value="0" field="a1e7-3212-328a-58e2">
               <conditions>
-                <condition type="atLeast" value="2" field="selections" scope="force" childId="b1ff-c1d2-94f1-38e0" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="fdfb-dad7-ecbf-a4ec" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
