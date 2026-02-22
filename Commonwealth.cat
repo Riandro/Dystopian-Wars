@@ -8149,7 +8149,7 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
         </profile>
         <profile name="Europa" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="f888-9aea-ccb9-02b9">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Civilian Vessel, Flotsam, Forward Deployment, Resupply (2), Strategic Asset (6)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Civilian Vessel, Flotsam, Forward Deployment, Resupply (2), Strategic Asset (2)</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="append" value="Ground Assault (3)" field="066c-1ce6-091e-90ab" join=", ">
@@ -8323,7 +8323,7 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
         </profile>
         <profile name="Hermes" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="d41d-041d-9b26-9609">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Surface), Civilian Vessel, Light Vessel, Resupply (1), Strategic Asset (2)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Surface), Civilian Vessel, Light Vessel, Resupply (1), Strategic Asset (1)</characteristic>
           </characteristics>
         </profile>
         <profile name="Hermes" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="6c04-e042-e4ac-3412">
@@ -8524,7 +8524,7 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
         </profile>
         <profile name="Titan" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="a999-2150-9a8f-5c1a">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Civilian Vessel, Flotsam, Forward Deployment, Resupply (2), Strategic Asset (4)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Civilian Vessel, Flotsam, Forward Deployment, Resupply (2), Strategic Asset (2)</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="append" value="Ground Assault (2)" field="066c-1ce6-091e-90ab" join=", ">
