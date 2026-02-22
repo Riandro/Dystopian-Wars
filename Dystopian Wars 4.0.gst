@@ -245,6 +245,7 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
                     <condition type="instanceOf" value="1" field="selections" scope="unit" childId="139e-c78f-43c0-2957" shared="true" includeChildSelections="true" includeChildForces="false"/>
                     <condition type="instanceOf" value="1" field="selections" scope="unit" childId="c636-bf34-4555-99bc" shared="true"/>
                     <condition type="instanceOf" value="1" field="selections" scope="unit" childId="476a-e46d-4ab3-da6f" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="unit" childId="d889-437c-7878-d5ba" shared="true" includeChildSelections="true" includeChildForces="false"/>
                     <condition type="instanceOf" value="1" field="selections" scope="unit" childId="401d-07db-b6e3-82a7" shared="true" includeChildSelections="true" includeChildForces="false"/>
                   </conditions>
                 </conditionGroup>
@@ -1142,7 +1143,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic typeId="65e4-97a8-7a12-c50a" name="PROPERTIES"/>
       </characteristics>
       <attributes>
-        <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34"/>
+        <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Tail Gunners (2)</attribute>
       </attributes>
     </profile>
     <profile name="Doksuri Fighters" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="3470-f1b1-d821-85ec">
