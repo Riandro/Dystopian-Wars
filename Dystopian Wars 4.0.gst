@@ -78,7 +78,7 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
     <categoryEntry name="HEC" id="c43c-2362-36ac-f58f" hidden="false"/>
     <categoryEntry name="Pipeworks" id="c08e-f21c-b612-4e67" hidden="false"/>
     <categoryEntry name="Escort" id="d576-4983-e8cf-e556" hidden="false"/>
-    <categoryEntry name="FleetDoctrines" id="eb20-a962-fc6e-ce7f" hidden="false"/>
+    <categoryEntry name="Fleet Doctrines" id="eb20-a962-fc6e-ce7f" hidden="false"/>
     <categoryEntry name="Attachment host" id="2251-0def-1b03-2e93" hidden="true"/>
     <categoryEntry name="NoLangsam" id="4cfa-d98d-05ef-a274" hidden="true"/>
     <categoryEntry name="NoAtomic" id="6ad6-48d6-db5c-84e4" hidden="true"/>
@@ -1272,10 +1272,10 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">2</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
-        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Co-ordinated Explosion</characteristic>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a"/>
       </characteristics>
       <attributes>
-        <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Co-ordinated Explosion</attribute>
+        <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34"/>
       </attributes>
     </profile>
     <profile name="Szpada Fighters" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="cb4d-31d7-8d21-8fd7">
