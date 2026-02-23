@@ -5320,7 +5320,7 @@ Guardian Generator (1)</characteristic>
         </profile>
         <profile name="Excalibur" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="dc0a-affd-e613-62fd">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Hunter (Capital), Shallow Draught</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Carrier), Hunter (Capital), Shallow Draught</characteristic>
           </characteristics>
         </profile>
         <profile name="Excalibur" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="cc1d-9b98-fc4d-bf6d">
@@ -5335,11 +5335,7 @@ Guardian Generator (1)</characteristic>
         <categoryLink name="Surface" hidden="false" id="d13b-609d-74cd-2dc4" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="183d-d914-f1b5-5883" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Patrol" hidden="false" id="7580-2f92-2a84-d687" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
-        <categoryLink name="Attachment host" hidden="false" id="6e6a-e9b7-90d3-3c62" targetId="2251-0def-1b03-2e93" primary="false"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="a7ad-1764-4c6d-4a60" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0"/>
-      </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="f7ce-445d-c69f-9ac2" field="category">
           <conditions>
@@ -8623,6 +8619,13 @@ If the Special Valour Effect fails, the Admiral may proceed with the Attack Run
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff21-d1ba-831d-b698"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="0ec6-f5c8-25d7-89d8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="Flagship" hidden="false" id="4eaf-5d86-3f90-7456" targetId="0ec6-f5c8-25d7-89d8">
           <constraints>
@@ -8703,6 +8706,13 @@ The Value of the card they discard is used for the Crew Check.</description>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41d4-a44c-5d6b-4815"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="0ec6-f5c8-25d7-89d8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="EITC Flagship" hidden="false" id="17b1-06e8-a0a2-7030" targetId="8788-012d-a112-2ccf">
           <constraints>
@@ -8759,6 +8769,13 @@ When making an Action Roll for an EITC or Indian Raj unit, this Admiral can re-
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4fe7-57d9-f739-44e3"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="0ec6-f5c8-25d7-89d8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="Crown Canadian Flagship" hidden="false" id="0134-5fa6-c5d6-876a" targetId="ed7c-5f38-254f-085d">
           <constraints>
@@ -8810,6 +8827,13 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95cc-3492-d2b5-c6dc"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="0ec6-f5c8-25d7-89d8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="The Nautilus" hidden="false" id="bac2-d4c5-871b-ccfd" targetId="86f3-3877-541a-7ef4">
           <constraints>
@@ -8825,6 +8849,13 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5729-c78f-c34d-6f3f"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="0ec6-f5c8-25d7-89d8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="Flagship" hidden="false" id="57b9-880e-498b-91e6" targetId="0ec6-f5c8-25d7-89d8">
           <constraints>
@@ -9164,6 +9195,23 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="0829-bd63-c651-6cc8" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+        </entryLink>
+        <entryLink import="true" name="Excalibur Heavy Destroyer" hidden="false" id="c332-2a99-451b-3f75" type="selectionEntry" targetId="1e30-ec5a-703c-b343">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="0db7-d86a-c771-4a08" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="4b7e-c78d-b9be-8d7c" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="4521-8e16-2d0f-7dc6" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
       <constraints>
