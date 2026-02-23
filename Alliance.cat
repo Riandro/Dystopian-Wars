@@ -4541,6 +4541,7 @@
         <categoryLink targetId="2251-0def-1b03-2e93" id="c922-bc96-175c-5797" primary="false" name="Attachment host"/>
         <categoryLink name="Alliance Line Con " hidden="false" id="1113-e5fa-2e8e-2d4f" targetId="b1ff-c1d2-94f1-38e0" primary="false"/>
         <categoryLink name="Italian Line" hidden="false" id="df14-70bc-e3ec-fa2b" targetId="fdfb-dad7-ecbf-a4ec" primary="false"/>
+        <categoryLink name="Surface" hidden="false" id="ca06-5325-89b9-ea57" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="fa08-1a5a-e337-1ccd" includeChildSelections="false"/>
