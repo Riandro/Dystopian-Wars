@@ -8816,6 +8816,13 @@ At the end of the Action, any models that contributed to this action gain 1 Dis
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1981-e1ee-d089-8e42"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="0ec6-f5c8-25d7-89d8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="Flagship" hidden="false" id="e026-cdb0-432c-5310" targetId="0ec6-f5c8-25d7-89d8">
           <constraints>
@@ -8925,6 +8932,13 @@ When a model is declared to be an Acceptable Loss, the opposing Admiral does not
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b036-afe5-fe54-c7ed"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="0ec6-f5c8-25d7-89d8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="Ukrainian Flagship" hidden="false" id="bda6-5b56-7fb8-6909" targetId="25c0-69c4-468a-94b9">
           <constraints>
@@ -8965,10 +8979,9 @@ If they do so, the Action Roll is unaffected by Disorder.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed67-0fd3-9c85-fb51"/>
           </constraints>
           <modifiers>
-            <modifier type="set" value="true" field="hidden"/>
-            <modifier type="set" value="false" field="hidden">
+            <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="c763-34bf-062d-be65" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="0ec6-f5c8-25d7-89d8" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </modifier>
           </modifiers>
