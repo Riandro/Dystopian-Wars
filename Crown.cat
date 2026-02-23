@@ -8279,8 +8279,10 @@ If successful, the Effects of Disorder (see page 57 of the Dystopian Wars Ruleb
                   <description>Can only be purchased for a Crown Flagship unit.
 
 
-Once per round, before this Admiral makes an Attack action with a Crown Ship unit, they may attempt to enact a Special Valour Effect with that unit. 
-If successful, the Effects of Disorder (see page 57 of the Dystopian Wars Rulebook) are ignored for the duration of the attack.</description>
+Once per round, before this Admiral makes an Attack action with a Crown Flagship unit, they may attempt to enact a Special Valour Effect with that unit.
+
+
+If the effect is successfully enacted, each Standard Counter in the Action Roll is converted into a Standard Strike</description>
                 </rule>
               </rules>
               <constraints>
@@ -8692,7 +8694,7 @@ The Value of the card they discard is used for the Crew Check.</description>
         </rule>
       </rules>
     </forceEntry>
-    <forceEntry name="East India Trade Company Battlefleet (Specialist)" id="c047-301b-1635-a479" hidden="false" sortIndex="3">
+    <forceEntry name="East India Privateers Battlefleet (Specialist)" id="c047-301b-1635-a479" hidden="false" sortIndex="3">
       <comment>• Nagaraja Cruiser (Crown, Line)
 • Godavari Cruiser (Crown, Patrol)
 • Ceylon Guardian Platform (Crown, Support)</comment>
@@ -9419,6 +9421,9 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
         <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
         <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3cae-43ea-9997-dc14" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <costTypes>
@@ -9430,9 +9435,6 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
         <categoryLink name="Line" hidden="false" id="91b9-fbe5-d9fd-0d42" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
         <categoryLink name="Indian Raj Line" hidden="false" id="2c9f-016f-f885-2295" targetId="85bc-4fd7-5224-8344" primary="false"/>
       </categoryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="false" id="3cae-43ea-9997-dc14" includeChildSelections="true"/>
-      </constraints>
       <modifiers>
         <modifier type="set-primary" value="85bc-4fd7-5224-8344" field="category">
           <conditions>
@@ -9444,7 +9446,7 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
             <conditionGroup type="count" min="2">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="c047-301b-1635-a479" shared="true" includeChildSelections="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="8fd2-f7e5-bc88-bee8" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="4cbb-55d6-a291-ad7d" shared="true" includeChildSelections="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -9456,9 +9458,6 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
         <categoryLink name="Flagship" hidden="false" id="9176-7692-5504-f0ec" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="EITC Flagship" hidden="false" id="238d-4ee3-78d0-b92f" targetId="8788-012d-a112-2ccf" primary="false"/>
       </categoryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="false" id="8245-b735-c711-243e" includeChildSelections="true"/>
-      </constraints>
       <modifiers>
         <modifier type="set-primary" value="8788-012d-a112-2ccf" field="category">
           <conditions>
