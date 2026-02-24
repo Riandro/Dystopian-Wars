@@ -2951,17 +2951,17 @@
       <profiles>
         <profile name="Gotham" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="f5a4-1331-1d56-4f35">
           <characteristics>
-            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8"/>
-            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472"/>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c"/>
-            <characteristic name="Defence" typeId="46f4-1304-4661-f62d"/>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270"/>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6"/>
-            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2"/>
-            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087"/>
-            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91"/>
-            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272"/>
-            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c"/>
+            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">6</characteristic>
+            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">2&quot;-6&quot;</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">1</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">7</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">6</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">11</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
+            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">4</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">5</characteristic>
+            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">7</characteristic>
+            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
           </characteristics>
         </profile>
         <profile name="Gotham" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="1145-7f2d-7c8d-3eb8">
@@ -3469,7 +3469,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="23eb-7ceb-b9d9-b61b" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: APS" id="9302-ba43-a8d2-e1c9" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PSA" id="9302-ba43-a8d2-e1c9" hidden="false">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Focused Heat Lancette" hidden="false" id="1a4b-b961-cf16-a269">
                   <profiles>
@@ -3535,21 +3535,21 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6a18-dae2-c43a-558d" automatic="true"/>
           </constraints>
           <profiles>
-            <profile name="Torpedo Turret " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="c2e6-9673-ed32-85f5">
+            <profile name="Focused Torpedo Turret " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="efbd-de78-3448-b7be">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Torpedo</characteristic>
               </characteristics>
             </profile>
-            <profile name="Torpedo Turret " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2f4a-39b5-7033-5b84">
+            <profile name="Focused Torpedo Turret " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="16a9-742b-7363-765c">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Torpedo</characteristic>
               </characteristics>
             </profile>
@@ -3981,18 +3981,18 @@
             <profile name="Torpedo Turret " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="aea2-f0ce-8f6d-a559">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPA</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Torpedo Turret " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a071-b784-b7c1-a5d2">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FSA</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Torpedo</characteristic>
               </characteristics>
             </profile>
@@ -9789,7 +9789,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Alliance Fleet Doctrines" hidden="false" id="2e56-e78f-5c0b-bcf3">
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="d797-6fb3-8d16-e5c0" targetId="eb20-a962-fc6e-ce7f" primary="true"/>
+        <categoryLink name="Fleet Doctrines" hidden="false" id="d797-6fb3-8d16-e5c0" targetId="eb20-a962-fc6e-ce7f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Fleet Doctrines" hidden="false" id="f85f-5043-30f7-8131" type="selectionEntryGroup" targetId="3a8e-29a8-4109-7c1c">
@@ -9965,7 +9965,7 @@ If this Valour Effect or Special Valour Effect is successfully enacted, the Adm
   <forceEntries>
     <forceEntry name="Alliance Faction Battlefleet (Main)" id="af51-eab5-ad80-f15a" hidden="false" sortIndex="1">
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="a1fa-8f4e-861f-ba08" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="a1fa-8f4e-861f-ba08" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65b1-5c84-5e3d-05a3"/>
           </constraints>
@@ -10086,7 +10086,7 @@ Note that the Admiral cannot resolve an SRS Mission between the two Activations.
     </forceEntry>
     <forceEntry name="Marine Levant Battlefleet (Main)" id="1379-10ac-ee38-19f0" hidden="false" sortIndex="2">
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="f898-3f12-fbab-e1ea" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="f898-3f12-fbab-e1ea" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e447-0785-e8eb-6f6f"/>
           </constraints>
@@ -10191,7 +10191,7 @@ If the effect is successfully enacted, mark the unit with a Valour Effect token.
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="8002-aba3-086c-3fc2" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="8002-aba3-086c-3fc2" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7be0-9d64-2027-75a9"/>
           </constraints>
@@ -10268,7 +10268,7 @@ If the effect is successfully enacted, mark the unit with a Valour Effect token.
     </forceEntry>
     <forceEntry name="Barbudos Battlefleet (Specialist)" id="ae59-366a-0ba4-1eaa" hidden="false" sortIndex="4">
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="3623-8d35-b3a1-fb86" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="3623-8d35-b3a1-fb86" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4df-dbf1-8193-742b"/>
           </constraints>
