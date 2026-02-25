@@ -4536,7 +4536,6 @@
         <categoryLink targetId="ae99-8ab0-27f0-7bb6" id="cc8b-7477-cea5-60ff" primary="true" name="Line"/>
         <categoryLink targetId="b81b-c372-001c-2710" id="4017-9f33-8747-c05d" primary="false" name="Alliance"/>
         <categoryLink targetId="95e1-bc72-ac5f-a8b1" id="965d-7a93-4b8c-2b1a" primary="false" name="Italian"/>
-        <categoryLink targetId="1711-6069-af06-c5cc" id="1752-b000-4ceb-85a8" primary="false" name="Support"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="085b-0d0e-fc44-7381" primary="false" name="Ship"/>
         <categoryLink targetId="2251-0def-1b03-2e93" id="c922-bc96-175c-5797" primary="false" name="Attachment host"/>
         <categoryLink name="Alliance Line Con " hidden="false" id="1113-e5fa-2e8e-2d4f" targetId="b1ff-c1d2-94f1-38e0" primary="false"/>
