@@ -1143,7 +1143,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <categoryLink targetId="8949-855e-6162-0de1" id="b686-daec-7107-30cd" primary="false" name="AttachmentHostHermes"/>
         <categoryLink targetId="f4fd-5ecf-7e0a-7d3c" id="09cc-eb81-4cc8-6662" primary="false" name="AttachmentHostOrigen"/>
         <categoryLink targetId="0f1c-51d9-9b64-e6be" id="dd21-c72e-c6d6-cafa" primary="false" name="AttachmentHostZumeena"/>
-        <categoryLink name="SRS WHALE CON" hidden="false" id="b8b4-1306-dc4c-e2d9" targetId="1d7e-0648-1667-ecd8" primary="false"/>
+        <categoryLink name="SRS (Physter/Orca) Carriers" hidden="false" id="b8b4-1306-dc4c-e2d9" targetId="1d7e-0648-1667-ecd8" primary="false"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2be5-4560-a678-e570"/>
@@ -5634,7 +5634,7 @@ Hydrophone Relay</characteristic>
         <categoryLink targetId="8949-855e-6162-0de1" id="f0ca-e54e-8bed-3c2a" primary="false" name="AttachmentHostHermes"/>
         <categoryLink targetId="f4fd-5ecf-7e0a-7d3c" id="ee19-32cb-6edc-8aa2" primary="false" name="AttachmentHostOrigen"/>
         <categoryLink targetId="0f1c-51d9-9b64-e6be" id="ef60-e95b-0b06-7a92" primary="false" name="AttachmentHostZumeena"/>
-        <categoryLink name="SRS WHALE CON" hidden="false" id="3bbd-74fb-e451-7300" targetId="1d7e-0648-1667-ecd8" primary="false"/>
+        <categoryLink name="SRS (Physter/Orca) Carriers" hidden="false" id="3bbd-74fb-e451-7300" targetId="1d7e-0648-1667-ecd8" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Vesalius" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="204c-7892-154a-709e">
@@ -5845,7 +5845,6 @@ Hydrophone Relay</characteristic>
         <categoryLink targetId="28fc-32cc-7e9c-28b4" id="8e00-1027-a20e-4b57" primary="true" name="Scout"/>
         <categoryLink targetId="5df2-bc66-57ad-0a5b" id="3ac1-c2e7-d70c-13d7" primary="false" name="Enlightened"/>
         <categoryLink targetId="c636-bf34-4555-99bc" id="6323-3efb-c7e0-8622" primary="false" name="Underwater"/>
-        <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="538e-fa36-e2ec-b218" primary="false" name="Surface"/>
         <categoryLink targetId="c52e-c45f-9110-0c8c" id="b792-c841-5d84-7e8f" primary="false" name="Automata"/>
       </categoryLinks>
       <modifiers>
@@ -5924,6 +5923,7 @@ Hydrophone Relay</characteristic>
         <categoryLink targetId="c503-3bc7-2b45-91ef" id="1742-cd71-b495-c93d" primary="false" name="Submarine"/>
         <categoryLink targetId="5df2-bc66-57ad-0a5b" id="1f9a-055a-7940-d51f" primary="false" name="Enlightened"/>
         <categoryLink targetId="c52e-c45f-9110-0c8c" id="091f-9d7b-1288-8818" primary="false" name="Automata"/>
+        <categoryLink name="Underwater" hidden="false" id="f1cd-00b7-4d6e-33de" targetId="c636-bf34-4555-99bc" primary="false"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="2" field="9905-91f5-2359-8b05">
@@ -6667,7 +6667,7 @@ Make a Group Crew Check for the models that are Participating in the action. If
         </entryLink>
       </entryLinks>
       <categoryLinks>
-        <categoryLink targetId="eb20-a962-fc6e-ce7f" id="d9fa-7a5e-2b68-e55a" primary="true" name="FleetDoctrines"/>
+        <categoryLink targetId="eb20-a962-fc6e-ce7f" id="d9fa-7a5e-2b68-e55a" primary="true" name="Fleet Doctrines"/>
       </categoryLinks>
     </selectionEntry>
   </selectionEntries>
@@ -6679,7 +6679,7 @@ Make a Group Crew Check for the models that are Participating in the action. If
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="ee22-f228-3865-ecd7" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="ee22-f228-3865-ecd7" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c2e-dc0b-c8b7-a839"/>
           </constraints>
@@ -6716,7 +6716,7 @@ Make a Group Crew Check for the models that are Participating in the action. If
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7b9b-2d9a-e22b-c2c5"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="SRS WHALE CON" hidden="false" id="b05c-46f1-ca0f-e2d3" targetId="1d7e-0648-1667-ecd8">
+        <categoryLink name="SRS (Physter/Orca) Carriers" hidden="false" id="b05c-46f1-ca0f-e2d3" targetId="1d7e-0648-1667-ecd8">
           <constraints>
             <constraint type="min" value="50" field="selections" scope="force" shared="true" id="9768-d62e-af44-cc23" percentValue="true" includeChildSelections="false" automatic="false"/>
           </constraints>
@@ -6730,7 +6730,7 @@ Make a Group Crew Check for the models that are Participating in the action. If
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="9448-faf5-1c68-810d" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="9448-faf5-1c68-810d" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f21-dcfa-1807-3948"/>
           </constraints>
@@ -6769,7 +6769,7 @@ Make a Group Crew Check for the models that are Participating in the action. If
     </forceEntry>
     <forceEntry name="Enlightened Faction Battlefleet (Main)" id="7423-8c9e-020f-721e" hidden="false" sortIndex="1">
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="866c-df21-0e11-be38" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="866c-df21-0e11-be38" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="feba-3a60-99a7-d46e"/>
           </constraints>
@@ -6838,6 +6838,11 @@ Make a Group Crew Check for the models that are Participating in the action. If
                 <condition type="atLeast" value="1" field="selections" scope="force" childId="3023-c2d7-e528-6c1e" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
+            <modifier type="increment" value="1" field="d527-8e0b-fb38-8845">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d52f-405a-7005-9084" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </categoryLink>
       </categoryLinks>
@@ -6860,7 +6865,7 @@ If they do so, models in the unit cannot move during their Movement Step.</descr
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="453a-ecff-66fa-165e" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="453a-ecff-66fa-165e" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd9a-973c-c235-acc8"/>
           </constraints>
@@ -6923,9 +6928,7 @@ If they do so, models in the unit cannot move during their Movement Step.</descr
     <categoryEntry name="AttachmentHostZumeena" id="0f1c-51d9-9b64-e6be" hidden="true"/>
     <categoryEntry name="AttachmentHostHermes" id="8949-855e-6162-0de1" hidden="true"/>
     <categoryEntry name="AttachmentHostOrigen" id="f4fd-5ecf-7e0a-7d3c" hidden="true"/>
-    <categoryEntry name="SRS (Physter/Orca) Carriers" id="1d7e-0648-1667-ecd8" hidden="false">
-      <description/>
-    </categoryEntry>
+    <categoryEntry name="SRS (Physter/Orca) Carriers" id="1d7e-0648-1667-ecd8" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Attachments" id="f561-27b3-4b75-7da4" hidden="false" collapsible="true">
