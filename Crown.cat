@@ -2327,9 +2327,13 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff31-c714-4632-ceb5"/>
           </constraints>
           <modifiers>
-            <modifier type="set" value="Ablative Armour: Fore (3), Hunter (Capital)" field="a14c-99af-eb72-2d3d" affects="profiles.Systems"/>
-            <modifier type="add" value="ef53-291f-c810-f4b8" field="category"/>
-            <modifier type="remove" value="7058-6c87-fe81-e62a" field="category"/>
+            <modifier type="add" value="ef53-291f-c810-f4b8" field="category" scope="parent"/>
+            <modifier type="remove" value="7058-6c87-fe81-e62a" field="category" scope="parent"/>
+            <modifier type="increment" value="15" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="parent" childId="d93e-96f5-680a-ff39" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </selectionEntry>
       </selectionEntries>
@@ -2372,6 +2376,13 @@
           <characteristics>
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Daredevil Crew, Heavy Prow (4), Hunter (Capital)</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="Ablative Armour: Fore (3), Hunter (Capital) " field="066c-1ce6-091e-90ab">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="0bb5-8107-b63a-4cb7" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
         <profile name="Sabre" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="dfe9-0bf3-32e1-d1d4">
           <characteristics>
@@ -3268,7 +3279,7 @@
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Canadian Variant" hidden="false" id="6e18-fdf0-b0a8-709c">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
             <cost name="GP" typeId="a9f9-1d81-c3b4-b731" value="0"/>
           </costs>
@@ -3295,6 +3306,11 @@
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="increment" value="10" field="89fa-eeaa-958f-ca32">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="890c-387e-a463-59bd" shared="true" roundUp="false" includeChildSelections="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
@@ -4007,7 +4023,7 @@ Guardian Generator (1)</characteristic>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Canadian Variant" hidden="false" id="bede-ecc0-421a-5fb3">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
             <cost name="GP" typeId="a9f9-1d81-c3b4-b731" value="0"/>
           </costs>
@@ -4015,6 +4031,11 @@ Guardian Generator (1)</characteristic>
             <modifier type="remove" value="7058-6c87-fe81-e62a" field="category" scope="parent"/>
             <modifier type="add" value="ef53-291f-c810-f4b8" field="category" scope="parent"/>
             <modifier type="set" value="Ablative Armour: Fore (3)" field="066c-1ce6-091e-90ab" affects="profiles.Properties" scope="parent"/>
+            <modifier type="increment" value="15" field="89fa-eeaa-958f-ca32">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="a547-371a-9e7d-be46" shared="true" roundUp="false" includeChildSelections="false"/>
+              </repeats>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6d7-a6db-bfc4-48be"/>
@@ -4804,7 +4825,7 @@ Guardian Generator (1)</characteristic>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Canadian Variant" hidden="false" id="da4a-9dce-4fbd-4921" sortIndex="2">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
             <cost name="GP" typeId="a9f9-1d81-c3b4-b731" value="0"/>
           </costs>
@@ -4812,6 +4833,11 @@ Guardian Generator (1)</characteristic>
             <modifier type="remove" value="7058-6c87-fe81-e62a" field="category" scope="parent"/>
             <modifier type="add" value="ef53-291f-c810-f4b8" field="category" scope="parent"/>
             <modifier type="set" value="Ablative Armour: Fore (3)" field="066c-1ce6-091e-90ab" affects="profiles.Properties" scope="parent"/>
+            <modifier type="increment" value="10" field="89fa-eeaa-958f-ca32">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="f710-7263-6823-ce18" shared="true" roundUp="false" includeChildSelections="false"/>
+              </repeats>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1220-f33e-5722-3252"/>
@@ -5780,7 +5806,7 @@ Guardian Generator (1)</characteristic>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Canadian Variant" hidden="false" id="15d7-40fe-42d0-de78" sortIndex="2">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
             <cost name="GP" typeId="a9f9-1d81-c3b4-b731" value="0"/>
           </costs>
@@ -5788,6 +5814,11 @@ Guardian Generator (1)</characteristic>
             <modifier type="remove" value="7058-6c87-fe81-e62a" field="category" scope="parent"/>
             <modifier type="add" value="ef53-291f-c810-f4b8" field="category" scope="parent"/>
             <modifier type="set" value="Ablative Armour: Fore (3), Hunter (Surface)" field="066c-1ce6-091e-90ab" affects="profiles.Properties" scope="parent"/>
+            <modifier type="increment" value="10" field="89fa-eeaa-958f-ca32">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="607f-1c8c-32a1-08bd" shared="true" roundUp="false" includeChildSelections="false"/>
+              </repeats>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee36-4577-8255-2f3c"/>
@@ -7052,7 +7083,7 @@ Guardian Generator (1)</characteristic>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Canadian Variant" hidden="false" id="66f7-4c6c-9453-fc5f" sortIndex="2">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
             <cost name="GP" typeId="a9f9-1d81-c3b4-b731" value="0"/>
           </costs>
@@ -7060,6 +7091,11 @@ Guardian Generator (1)</characteristic>
             <modifier type="remove" value="7058-6c87-fe81-e62a" field="category" scope="parent"/>
             <modifier type="add" value="ef53-291f-c810-f4b8" field="category" scope="parent"/>
             <modifier type="set" value="Ablative Armour: Fore (3)" field="066c-1ce6-091e-90ab" affects="profiles.Properties" scope="parent"/>
+            <modifier type="increment" value="10" field="89fa-eeaa-958f-ca32">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="451d-737d-32b9-1097" shared="true" roundUp="false" includeChildSelections="false"/>
+              </repeats>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8653-641b-024e-5655"/>
@@ -7202,6 +7238,20 @@ Guardian Generator (1)</characteristic>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Canadian Variant" hidden="false" id="3c23-2096-a241-dcbf" sortIndex="2">
+          <costs>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="GP" typeId="a9f9-1d81-c3b4-b731" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="remove" value="7058-6c87-fe81-e62a" field="category" scope="parent"/>
+            <modifier type="add" value="ef53-291f-c810-f4b8" field="category" scope="parent"/>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abae-ae72-ef6e-7f4a"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="88e5-632c-cf01-b5d5"/>
+          </constraints>
+        </selectionEntry>
       </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="3573-2574-c98a-62ca" includeChildSelections="true"/>
@@ -7214,7 +7264,6 @@ Guardian Generator (1)</characteristic>
         <categoryLink name="Carrier" hidden="false" id="14e0-e1e0-457d-9100" targetId="4521-8e16-2d0f-7dc6" primary="false"/>
         <categoryLink name="Support" hidden="false" id="e25b-fc70-3c89-3883" targetId="1711-6069-af06-c5cc" primary="true"/>
       </categoryLinks>
-      <comment>ATTACHMENT</comment>
       <profiles>
         <profile name="Hotspur" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="b350-5439-e09c-9dd4">
           <characteristics>
@@ -7273,7 +7322,7 @@ Guardian Generator (1)</characteristic>
         <infoLink name="Defiance Fighters" id="2344-39b0-1928-99bf" hidden="false" type="profile" targetId="6aae-7841-932f-5632"/>
       </infoLinks>
       <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="ce8e-8e51-5ec2-f6cf" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0" sortIndex="2"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="ce8e-8e51-5ec2-f6cf" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Offshore Defence Platform" hidden="false" id="05d0-c353-ff76-34a6" sortIndex="37">
@@ -8195,7 +8244,7 @@ Guardian Generator (1)</characteristic>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Crown Fleet Doctrines" hidden="false" id="874e-b2aa-d55c-0721">
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="d89d-bcf5-0f41-b24e" targetId="eb20-a962-fc6e-ce7f" primary="true"/>
+        <categoryLink name="Fleet Doctrines" hidden="false" id="d89d-bcf5-0f41-b24e" targetId="eb20-a962-fc6e-ce7f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Fleet Doctrines" hidden="false" id="43da-6ebe-f9b9-b248" type="selectionEntryGroup" targetId="3a8e-29a8-4109-7c1c">
@@ -8615,7 +8664,7 @@ If the Special Valour Effect fails, the Admiral may proceed with the Attack Run
   <forceEntries>
     <forceEntry name="Crown Faction Battlefleet (Main)" id="aeed-e780-f2cb-7a74" hidden="false" sortIndex="1">
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="a2e1-5d47-c445-5cc6" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="a2e1-5d47-c445-5cc6" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff21-d1ba-831d-b698"/>
           </constraints>
@@ -8702,7 +8751,7 @@ The Value of the card they discard is used for the Crew Check.</description>
 • Godavari Cruiser (Crown, Patrol)
 • Ceylon Guardian Platform (Crown, Support)</comment>
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="2d29-9379-b840-51ea" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="2d29-9379-b840-51ea" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41d4-a44c-5d6b-4815"/>
           </constraints>
@@ -8765,7 +8814,7 @@ When making an Action Roll for an EITC or Indian Raj unit, this Admiral can re-
     </forceEntry>
     <forceEntry name="Canadian Ranging Force Battlefleet (Specialist)" id="7b11-9633-f024-19fd" hidden="true" sortIndex="4">
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="213f-5b58-ac98-22a8" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="213f-5b58-ac98-22a8" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4fe7-57d9-f739-44e3"/>
           </constraints>
@@ -8823,7 +8872,7 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
     </forceEntry>
     <forceEntry name="The Nautilus (Legendary Specialist)" id="928c-3f01-64da-183c" hidden="false" sortIndex="4">
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="d443-94db-751a-27fa" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="d443-94db-751a-27fa" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95cc-3492-d2b5-c6dc"/>
           </constraints>
@@ -8845,7 +8894,7 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
     </forceEntry>
     <forceEntry name="Dominion Aegis Battlefleet (Specialist)" id="dad7-40cd-9885-d741" hidden="false" sortIndex="2">
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="7ea5-1d6b-55b3-7692" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="7ea5-1d6b-55b3-7692" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5729-c78f-c34d-6f3f"/>
           </constraints>
@@ -8924,15 +8973,8 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
                   <conditions>
                     <condition type="instanceOf" value="1" field="selections" scope="parent" childId="4b7e-c78d-b9be-8d7c" shared="true"/>
                     <condition type="instanceOf" value="1" field="selections" scope="parent" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="7058-6c87-fe81-e62a" shared="true"/>
                   </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="ef53-291f-c810-f4b8" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="7058-6c87-fe81-e62a" shared="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -9196,7 +9238,7 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="0829-bd63-c651-6cc8" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Excalibur Heavy Destroyer" hidden="false" id="c332-2a99-451b-3f75" type="selectionEntry" targetId="1e30-ec5a-703c-b343">
+        <entryLink import="true" name="Excalibur Heavy Destroyer" hidden="true" id="c332-2a99-451b-3f75" type="selectionEntry" targetId="1e30-ec5a-703c-b343">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="0db7-d86a-c771-4a08" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
