@@ -2575,7 +2575,7 @@ If it is an even number, the unit is removed from the Play Area and placed into
 
 If this model is the Initial Target of an Attack action, Submerged weapons cannot Contribute.</description>
     </rule>
-    <rule name="Low Altitude" id="778d-e49d-5c92-2d5f" hidden="true">
+    <rule name="Low Altitude" id="778d-e49d-5c92-2d5f" hidden="false">
       <description>During a Broadside action, this model’s flank batteries can Contribute if the Target has the Surface trait. 
 If the Target has the Airborne trait, this model’s flank batteries can only Contribute if the Target also has this Property.
 
