@@ -4767,20 +4767,7 @@
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink import="true" name="Generators" hidden="false" id="a274-c71e-ba6c-043d" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Francisco Solex Generator" hidden="false" id="2e0a-f2ed-a176-82a5">
-                      <costs>
-                        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="25"/>
-                        <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
-                      </costs>
-                      <modifiers>
-                        <modifier type="append" value="Solex Generator, Generator Ship
-" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
-                      </modifiers>
-                    </selectionEntry>
-                  </selectionEntries>
-                </entryLink>
+                <entryLink import="true" name="Generators" hidden="false" id="a274-c71e-ba6c-043d" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7a91-1687-5732-f3ca" automatic="true"/>
