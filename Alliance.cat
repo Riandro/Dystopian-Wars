@@ -4575,7 +4575,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Lyon" hidden="false" id="c906-3b0d-de39-41e1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="1d79-451f-3430-c281" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="1d79-451f-3430-c281" hidden="false" collapsible="true" sortIndex="2">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="bc8c-fb3f-49ec-34b5">
                   <profiles>
@@ -4631,27 +4631,26 @@
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink import="true" name="Generators" hidden="false" id="f60e-4816-4c43-560a" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Francisco Solex Generator" hidden="false" id="f341-54bc-518b-3ada">
-                      <costs>
-                        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
-                        <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
-                      </costs>
-                      <modifiers>
-                        <modifier type="append" value="Solex Generator, Generator Ship
-" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
-                      </modifiers>
-                    </selectionEntry>
-                  </selectionEntries>
-                </entryLink>
+                <entryLink import="true" name="Generators" hidden="false" id="f60e-4816-4c43-560a" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9bbb-e250-6e5b-77a3" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ad6-ccd0-66ad-5cc0" automatic="true"/>
               </constraints>
+              <modifiers>
+                <modifier type="set" value="0" field="9bbb-e250-6e5b-77a3">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="f341-54bc-518b-3ada" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="0" field="4ad6-ccd0-66ad-5cc0">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="f341-54bc-518b-3ada" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="56d6-6f48-bacf-aa1e" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="56d6-6f48-bacf-aa1e" hidden="false" collapsible="true" sortIndex="3">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heat Lancette" hidden="false" id="81b7-abd3-f802-3f28">
                   <profiles>
@@ -4711,7 +4710,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c62-1fc8-b907-eff0" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="3047-6780-4bbc-737d" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="3047-6780-4bbc-737d" hidden="false" collapsible="true" sortIndex="1">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="2982-9114-38ef-337d">
                   <profiles>
@@ -4783,6 +4782,22 @@
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="120"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Francisco Solex Generator" hidden="false" id="f341-54bc-518b-3ada" sortIndex="4">
+              <costs>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
+                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="append" value="Solex Generator, Generator Ship
+" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+                <modifier type="add" value="Replaces the FPSA Heavy Hardpoint." field="info"/>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac1b-f196-19f7-425c" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <profiles>
