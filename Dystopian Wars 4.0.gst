@@ -183,6 +183,9 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
               </conditions>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e8b3-16e9-6f19-2bec"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Atomic Generator" hidden="false" id="58f7-e7ee-9d53-bad0">
           <profiles>
@@ -204,7 +207,11 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
               </conditionGroups>
             </modifier>
             <modifier type="append" value="Atomic Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+            <modifier type="set" value="0" field="8258-b142-7b53-c744"/>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8258-b142-7b53-c744"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Guardian Generator (2)" hidden="true" id="ce68-644b-be24-86aa">
           <costs>
@@ -228,6 +235,9 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
               </conditions>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="409d-4812-e7de-a55c"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Repulsion Generator" hidden="false" id="7b42-5dc9-b860-bbea">
           <profiles>
@@ -253,6 +263,9 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
             </modifier>
             <modifier type="append" value="Repulsion Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="247c-3f05-6239-5925"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Shroud Generator" hidden="false" id="1e62-0f8c-804b-ede0">
           <profiles>
@@ -270,6 +283,9 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
               </conditions>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0f30-4921-5d3f-d04b"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Solex Generator " hidden="true" id="bf35-5171-b697-c69c">
           <profiles>
@@ -292,6 +308,9 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
               </conditions>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d770-e694-e774-eb88"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Trident Generator" hidden="true" id="9fd8-a76d-9026-6268">
           <costs>
@@ -314,6 +333,9 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
               </conditions>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9f71-83d6-40c3-3f3a"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Great Wall Generator" hidden="true" id="0b42-df31-a12f-d63a">
           <costs>
@@ -336,6 +358,9 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
               </conditions>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="fe49-3e82-d75b-f8ae"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Heavy Shield Generator" hidden="false" id="9a2f-ce13-d6d6-b6f6">
           <profiles>
@@ -358,6 +383,9 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
             </modifier>
             <modifier type="append" value="Heavy Shield Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="53d5-a010-d200-37a8"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Magnetic Generator" hidden="false" id="f9c4-aa9a-2f26-e295">
           <profiles>
@@ -375,6 +403,9 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
               </conditions>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d12a-1c04-b6fc-5c0b"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Chrono Generator" hidden="true" id="a9de-8bf2-aa82-b79e">
           <costs>
@@ -397,6 +428,9 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
               </conditions>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="84ba-6866-0536-535d"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Fury Generator" hidden="false" id="619c-b2c8-2800-5d93">
           <profiles>
@@ -414,6 +448,9 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
               </conditions>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="aff2-845a-c56e-0196"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Langsam Generator" hidden="true" id="9e60-c630-2442-73e8">
           <profiles>
@@ -436,6 +473,9 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
               </conditions>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5404-a2c2-022b-779b"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Mirage Generator" hidden="true" id="be1b-6f5d-0fd4-9214">
           <costs>
@@ -458,6 +498,9 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
               </conditions>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a212-a31f-9999-00f7"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Null-Clone Generator" hidden="true" id="5807-0de8-d905-258f">
           <costs>
@@ -480,6 +523,9 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
               </conditions>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="05d3-0e0a-debc-c65a"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Portal Generator" hidden="true" id="57ee-c42c-b782-3eac">
           <costs>
@@ -502,34 +548,15 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
               </conditions>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0cb4-7e8d-e7bb-b8a5"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <constraints>
         <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3b0d-a4dc-9372-b417" includeChildSelections="true" automatic="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ff4-de44-41fe-9db0" includeChildSelections="true" automatic="true"/>
       </constraints>
-      <modifiers>
-        <modifier type="set" value="2" field="1ff4-de44-41fe-9db0">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a990-e840-6693-1d74" shared="true"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" value="3" field="1ff4-de44-41fe-9db0">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2535-8da6-da28-a82d" shared="true"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" value="2" field="3b0d-a4dc-9372-b417">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a990-e840-6693-1d74" shared="true"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" value="3" field="3b0d-a4dc-9372-b417">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2535-8da6-da28-a82d" shared="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntryGroup>
     <selectionEntryGroup name="Fleet Doctrines" id="3a8e-29a8-4109-7c1c" hidden="false">
       <selectionEntries>

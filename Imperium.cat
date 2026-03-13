@@ -1879,7 +1879,12 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce53-042a-7aeb-b0ba" includeChildSelections="false" automatic="true"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Generators" hidden="false" id="ae06-92f9-80c4-a485" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b" sortIndex="3"/>
+            <entryLink import="true" name="Generators" hidden="false" id="ae06-92f9-80c4-a485" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b" sortIndex="3">
+              <modifiers>
+                <modifier type="set" value="3" field="3b0d-a4dc-9372-b417"/>
+                <modifier type="set" value="3" field="1ff4-de44-41fe-9db0"/>
+              </modifiers>
+            </entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink name="Escort" hidden="false" id="4c12-5e5b-b84b-83dd" targetId="d576-4983-e8cf-e556" primary="false"/>
@@ -9160,6 +9165,7 @@ All units in this Battlefleet gain the Scions of Jutland trait, if they do not 
     <categoryEntry name="Teutonic Scout" id="7e28-a45c-8592-b460" hidden="false"/>
     <categoryEntry name="Airborne Support" id="27e2-dd72-ef50-01f1" hidden="false"/>
     <categoryEntry name="Teutonic Support" id="5d81-a9ec-e87c-29b8" hidden="false"/>
+    <categoryEntry name="genoverride" id="9beb-83e1-42d7-04dd" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Generator" hidden="false" id="b5a4-875f-2d1e-05d7" collapsible="true">
@@ -9442,7 +9448,7 @@ All units in this Battlefleet gain the Scions of Jutland trait, if they do not 
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Attachments" id="f133-6e35-4c50-30dc" hidden="false" collapsible="true">
       <entryLinks>
-        <entryLink import="true" name="Blucher Configuration Cruiser" hidden="true" id="253e-3e0e-f2d6-31c4" type="selectionEntry" targetId="b013-f396-118e-9d07">
+        <entryLink import="true" name="Blucher Cruiser" hidden="true" id="253e-3e0e-f2d6-31c4" type="selectionEntry" targetId="b013-f396-118e-9d07">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
@@ -9498,7 +9504,7 @@ All units in this Battlefleet gain the Scions of Jutland trait, if they do not 
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="f58f-f575-3c47-3d4f" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Ferdinand Configuration Advanced Cruiser" hidden="true" id="52e1-df88-8389-8b81" type="selectionEntry" targetId="301f-bdae-96c8-af75">
+        <entryLink import="true" name="Ferdinand Advanced Cruiser" hidden="true" id="52e1-df88-8389-8b81" type="selectionEntry" targetId="301f-bdae-96c8-af75">
           <modifiers>
             <modifier type="set" value="1" field="c652-e815-8cb0-cf55">
               <conditions>
@@ -9547,7 +9553,7 @@ All units in this Battlefleet gain the Scions of Jutland trait, if they do not 
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="2b11-6c57-3b14-0826" includeChildSelections="true" includeChildForces="false" automatic="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Reiter Configuration Flak Cruiser" hidden="true" id="1c9f-d0fc-b236-9742" type="selectionEntry" targetId="a36c-1750-0002-2ec6">
+        <entryLink import="true" name="Reiter Flak Cruiser" hidden="true" id="1c9f-d0fc-b236-9742" type="selectionEntry" targetId="a36c-1750-0002-2ec6">
           <modifiers>
             <modifier type="set" value="1" field="8f72-d610-c75e-49ee">
               <conditions>
@@ -9570,7 +9576,7 @@ All units in this Battlefleet gain the Scions of Jutland trait, if they do not 
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="8f72-d610-c75e-49ee" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Sigimer Configuration Destroyer" hidden="true" id="e3b1-d343-f348-9d52" type="selectionEntry" targetId="b2da-d5d8-bd04-256d">
+        <entryLink import="true" name="Sigimer Destroyer" hidden="true" id="e3b1-d343-f348-9d52" type="selectionEntry" targetId="b2da-d5d8-bd04-256d">
           <modifiers>
             <modifier type="set" value="1" field="1030-7e57-94f0-a629">
               <conditions>
@@ -9660,7 +9666,7 @@ All units in this Battlefleet gain the Scions of Jutland trait, if they do not 
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="0064-f491-b2e4-913c" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Konrad Configuration Support Carrier" hidden="true" id="5a0f-2a01-3116-ffbf" type="selectionEntry" targetId="2b54-189e-fb9a-13a7">
+        <entryLink import="true" name="Konrad Support Carrier" hidden="true" id="5a0f-2a01-3116-ffbf" type="selectionEntry" targetId="2b54-189e-fb9a-13a7">
           <modifiers>
             <modifier type="set" value="1" field="ea52-3423-8ad9-5a58">
               <conditions>
@@ -9683,7 +9689,7 @@ All units in this Battlefleet gain the Scions of Jutland trait, if they do not 
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="ea52-3423-8ad9-5a58" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Schaumburg Configuration Escort Cruiser" hidden="true" id="2502-e081-2192-105d" type="selectionEntry" targetId="1585-e892-6530-1e3d">
+        <entryLink import="true" name="Schaumburg Escort Cruiser" hidden="true" id="2502-e081-2192-105d" type="selectionEntry" targetId="1585-e892-6530-1e3d">
           <modifiers>
             <modifier type="set" value="1" field="1c14-0c93-af3f-f48c">
               <conditions>

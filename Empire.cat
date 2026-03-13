@@ -1257,6 +1257,10 @@
                   </modifiers>
                 </selectionEntry>
               </selectionEntries>
+              <modifiers>
+                <modifier type="set" value="2" field="3b0d-a4dc-9372-b417"/>
+                <modifier type="set" value="2" field="1ff4-de44-41fe-9db0"/>
+              </modifiers>
             </entryLink>
           </entryLinks>
           <constraints>
@@ -6710,7 +6714,7 @@ Hunter (Airborne)</characteristic>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Empire Fleet Doctrines" hidden="false" id="35cd-4a76-6e27-7ab7">
       <categoryLinks>
-        <categoryLink targetId="eb20-a962-fc6e-ce7f" id="c468-7216-c747-f85b" primary="true" name="FleetDoctrines"/>
+        <categoryLink targetId="eb20-a962-fc6e-ce7f" id="c468-7216-c747-f85b" primary="true" name="Fleet Doctrines"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Fleet Doctrines" hidden="false" id="7ba7-887f-192f-8fad" type="selectionEntryGroup" targetId="3a8e-29a8-4109-7c1c">
@@ -6749,7 +6753,7 @@ If the effect is successfully enacted, the active Admiral adds 4 Action Dice to
         <constraint type="min" value="1" field="forces" scope="roster" shared="true" id="6702-212e-84ff-6e7f" includeChildSelections="true" includeChildForces="true" percentValue="false"/>
       </constraints>
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="e22c-a099-2c0d-db79" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="e22c-a099-2c0d-db79" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c39d-406c-a4ef-ab37"/>
           </constraints>
@@ -6881,7 +6885,7 @@ If they do so, they must discard another Victory &amp; Valour Card from their Ha
     </forceEntry>
     <forceEntry name="Yamata No Orochi Abyssal Battlefleet (Specialist)" id="ad02-e32e-3b72-669e" hidden="false" sortIndex="2">
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="75c4-cb61-30d3-89b7" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="75c4-cb61-30d3-89b7" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2378-d591-22cd-a53f"/>
           </constraints>
@@ -6968,7 +6972,7 @@ If they do, they convert all Standard Counters in the Action Roll to Standard St
     </forceEntry>
     <forceEntry name="Zhanmadao Battlefleet (Specialist)" id="657d-f575-073d-1c91" hidden="false" sortIndex="3">
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="4b21-8b69-1269-3981" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="4b21-8b69-1269-3981" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="838f-8805-2707-c243"/>
           </constraints>
