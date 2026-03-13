@@ -57,7 +57,7 @@
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FP" id="8063-9746-6adf-477e" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FP" id="8063-9746-6adf-477e" hidden="false" exportable="false">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="66da-4d15-1b43-85f7">
                   <profiles>
@@ -117,7 +117,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84ec-ca1b-f61e-ee1a"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="a699-ade9-3b56-41d3" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="a699-ade9-3b56-41d3" hidden="false" exportable="false">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="921a-ddb2-d15f-6e94">
                   <profiles>
@@ -177,7 +177,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c67d-0d95-1fb6-2b0c"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FS" id="8733-d4e0-d928-07b0" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FS" id="8733-d4e0-d928-07b0" hidden="false" exportable="false">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="009f-3f03-385e-42c1">
                   <profiles>
@@ -3681,6 +3681,16 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="c3cf-1919-2bc7-5843" field="category">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="b33e-80ff-695f-6d5b" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="770e-db45-05e2-c579" childId="force" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Escorts" hidden="false" id="b6bc-f883-1361-f5dd" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="3">
@@ -5003,6 +5013,16 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="c3cf-1919-2bc7-5843" field="category">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="b33e-80ff-695f-6d5b" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="770e-db45-05e2-c579" childId="force" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="dc07-b069-31c3-1a9b" includeChildSelections="false"/>
@@ -5553,6 +5573,16 @@
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
           </conditions>
+        </modifier>
+        <modifier type="add" value="c3cf-1919-2bc7-5843" field="category">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="b33e-80ff-695f-6d5b" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="770e-db45-05e2-c579" childId="force" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -6741,6 +6771,16 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="c3cf-1919-2bc7-5843" field="category">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="b33e-80ff-695f-6d5b" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="770e-db45-05e2-c579" childId="force" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="8dc3-f54a-308a-059f" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6"/>
@@ -7876,6 +7916,16 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="c3cf-1919-2bc7-5843" field="category">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="b33e-80ff-695f-6d5b" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="770e-db45-05e2-c579" childId="force" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Yak Transport Hovercraft" hidden="false" id="a8b9-7350-67f7-fa6f" sortIndex="40">
@@ -8805,14 +8855,14 @@ At the end of the Action, any models that contributed to this action gain 1 Dis
         </entryLink>
       </entryLinks>
       <categoryLinks>
-        <categoryLink targetId="eb20-a962-fc6e-ce7f" id="25c1-af61-8412-bb07" primary="true" name="FleetDoctrines"/>
+        <categoryLink targetId="eb20-a962-fc6e-ce7f" id="25c1-af61-8412-bb07" primary="true" name="Fleet Doctrines"/>
       </categoryLinks>
     </selectionEntry>
   </selectionEntries>
   <forceEntries>
     <forceEntry name="Commonwealth Faction Battlefleet (Main)" id="770e-db45-05e2-c579" hidden="false" sortIndex="1">
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="08e7-27e2-1784-22f2" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="08e7-27e2-1784-22f2" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1981-e1ee-d089-8e42"/>
           </constraints>
@@ -8928,7 +8978,7 @@ When a model is declared to be an Acceptable Loss, the opposing Admiral does not
     </forceEntry>
     <forceEntry name="Ukrainian Haydamak Battlefleet (Specialist)" id="571e-af67-1475-b79d" hidden="false" sortIndex="2">
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="b54c-d4d2-2f51-de8e" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="b54c-d4d2-2f51-de8e" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b036-afe5-fe54-c7ed"/>
           </constraints>
@@ -8974,7 +9024,7 @@ If they do so, the Action Roll is unaffected by Disorder.</description>
     </forceEntry>
     <forceEntry name="Skyhost Battlefleet (Specialist)" id="1a31-2f3e-67bd-fade" hidden="false" sortIndex="3">
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="4b66-eb39-d731-95fc" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="4b66-eb39-d731-95fc" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed67-0fd3-9c85-fb51"/>
           </constraints>
