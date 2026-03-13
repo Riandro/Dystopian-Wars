@@ -4013,9 +4013,9 @@ Guardian Generator (1)</characteristic>
             <profile name="Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="5998-bd67-5f26-eccb">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
@@ -5379,6 +5379,7 @@ Guardian Generator (1)</characteristic>
           </conditions>
         </modifier>
       </modifiers>
+      <comment>ATTACHMENT</comment>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Godavari Cruiser" hidden="false" id="6d8b-4380-9735-0770" sortIndex="25">
       <selectionEntries>
