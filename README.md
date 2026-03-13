@@ -2,15 +2,15 @@
 
 ## As of 23/02/26 catalogues are currently updated to the following:
 
-* Alliance Orbat LAUNCH EDITION
-* Commonwealth Orbat LAUNCH EDITION
-* Crown Orbat LAUNCH EDITION/BETA2
-* Empire Orbat v5 - old
-* Enlightened Orbat LAUNCH EDITION
-* Imperium Orbat v5 - old
-* Sultanate Orbat v5 - old
-* Union Orbat v5 - old
-* Rules Glossary LAUNCH EDITION
+* Alliance Orbat - LAUNCH EDITION V4.00A
+* Commonwealth Orbat - LAUNCH EDITION V4.00A
+* Crown Orbat L- LAUNCH EDITION V4.01 BETA 3
+* Empire Orbat v5 - old (awaiting the new Orbat that comes shortly after the starter box releases)
+* Enlightened Orbat - LAUNCH EDITION V4.00A
+* Imperium Orbat - LAUNCH EDITION V4.00A
+* Sultanate Orbat - LAUNCH EDITION V4.00A
+* Union Orbat - LAUNCH EDITION V4.00A
+* Rules Glossary - LAUNCH EDITION V4.00A
 
 ## Planned updates:
 
