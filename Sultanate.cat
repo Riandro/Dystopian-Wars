@@ -7409,7 +7409,6 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Ship" hidden="false" id="af67-8b08-ec72-0a19" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="ec12-b06d-45c3-280c" targetId="2251-0def-1b03-2e93" primary="false"/>
         <categoryLink name="Support" hidden="false" id="3b36-5a6a-0231-36c7" targetId="1711-6069-af06-c5cc" primary="true"/>
-        <categoryLink name="NoFury" hidden="false" id="7564-4415-01e2-6162" targetId="6c3a-1e64-fcc8-bb6c" primary="false"/>
         <categoryLink name="NoHeavyShield" hidden="false" id="7739-a4d1-6c13-dad9" targetId="9078-b6da-8d59-9fec" primary="false"/>
       </categoryLinks>
       <entryLinks>
@@ -8920,12 +8919,12 @@ This can only be done if there is at least one friendly model on the Play Area 
           <modifiers>
             <modifier type="decrement" value="1" field="dd15-c70d-2938-a618">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="be0c-d486-6fa7-ce3b" childId="force" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="be0c-d486-6fa7-ce3b" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="false"/>
               </repeats>
             </modifier>
             <modifier type="decrement" value="1" field="74fb-a280-801c-3b87">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="be0c-d486-6fa7-ce3b" childId="force" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="be0c-d486-6fa7-ce3b" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -8938,12 +8937,12 @@ This can only be done if there is at least one friendly model on the Play Area 
           <modifiers>
             <modifier type="decrement" value="1" field="1342-e062-372a-f1c8">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="ae99-8ab0-27f0-7bb6" childId="force" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="ae99-8ab0-27f0-7bb6" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
               </repeats>
             </modifier>
             <modifier type="decrement" value="1" field="9979-a395-0e4a-7b8b">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="ae99-8ab0-27f0-7bb6" childId="force" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="ae99-8ab0-27f0-7bb6" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -9102,8 +9101,7 @@ All units in this Battlefleet gain the Crimson League trait.
 This is a Mercenary Battlefleet, and can be fielded as a Specialist Battlefleet in a Force that is created using a different ORBAT.
 
 
-When it is fielded in this way, all of its units must still be chosen from this ORBAT
-</description>
+When it is fielded in this way, all of its units must still be chosen from this ORBAT</description>
         </rule>
         <rule name="Peer in Residence" id="e349-d476-7372-3a4f" hidden="false">
           <description>Whenever this Battlefleet’s Admiral Activates a Crimson League unit in their Force, they can remove a single System Failure Critical Damage Effect from one Battle-Ready model in that unit.</description>
