@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-b418-f41f-879e-6277" name="Dystopian Wars 4.0" battleScribeVersion="2.03" revision="4" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-b418-f41f-879e-6277" name="Dystopian Wars 4.0" battleScribeVersion="2.03" revision="5" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Flagship" id="0ec6-f5c8-25d7-89d8" hidden="false"/>
     <categoryEntry name="Line" id="ae99-8ab0-27f0-7bb6" hidden="false"/>
@@ -582,6 +582,13 @@ The Admiral can only use this Doctrine once per game.</description>
 If the Effect is successfully enacted, the Admiral can re-roll any number of dice in the pool.</description>
             </rule>
           </rules>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="6e9e-fe5b-0ca4-75b6" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="DEVIL’S OWN LUCK" hidden="false" id="6fe5-6023-d8e3-b7cd" sortIndex="4">
           <costs>
@@ -662,12 +669,12 @@ This can be used to allow the unit to launch a Boarding action when it could not
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" name="Freya Array" hidden="false" id="c529-9ead-a45b-fc1a">
+    <selectionEntry type="upgrade" name="Freya Array" hidden="false" id="c529-9ead-a45b-fc1a" sortIndex="-1">
       <modifiers>
         <modifier type="append" value="Freya Array" field="a14c-99af-eb72-2d3d" scope="unit" affects="self.entries.unit.profiles.Systems" join=", "/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Dummy Boat" hidden="false" id="a0f8-91ee-b540-5a5e">
+    <selectionEntry type="unit" import="true" name="Dummy Boat" hidden="false" id="a0f8-91ee-b540-5a5e" sortIndex="-1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Dummy Boat" hidden="false" id="44c8-b94f-b6ea-3d72" sortIndex="1">
           <selectionEntryGroups>
@@ -1108,6 +1115,370 @@ This can be used to allow the unit to launch a Boarding action when it could not
         </entryLink>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ketos Myriapoda Colossus" hidden="false" id="048e-48e5-ad80-0e4c">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Ketos" hidden="false" id="b47f-6d97-daf1-f92c">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="170"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="4"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="57ea-6385-f918-a06b" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="88fc-3a83-0b5a-ae8f" includeChildSelections="false" automatic="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Harmonised Transconductive Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="36fe-2f53-5549-3245">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation (8), Hazard (2), Intensive, Piercing (2), Powered</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ventral Atom Smashers" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2562-44c6-52b8-d858">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">9</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Torrent&lt;/span&gt;(2), Arc (1), Piercing (1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Ketos" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="eae1-4b3c-e756-e1f1">
+          <characteristics>
+            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">3</characteristic>
+            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">2&quot;-6&quot;</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">*</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">8</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
+            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">-</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">2</characteristic>
+            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">7</characteristic>
+            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1-3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ketos" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="f852-deab-3475-792f">
+          <characteristics>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Auxiliary Mine Layer (1), Mechanical Soul, Mobile, Self Destruct (2), Submarauder, Unexpected Arrival</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" value="Stoic" field="066c-1ce6-091e-90ab" join=",">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="ba89-c847-280c-f9a0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Ketos" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="518b-8cf0-57d7-bb37">
+          <characteristics>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Patrol" hidden="false" id="976a-c159-fe80-bd2f" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
+        <categoryLink name="Underwater" hidden="false" id="2113-5928-d433-ae4a" targetId="c636-bf34-4555-99bc" primary="false"/>
+        <categoryLink name="Enlightened" hidden="false" id="452a-2248-c74f-9afe" targetId="5df2-bc66-57ad-0a5b" primary="false"/>
+        <categoryLink name="Submarine" hidden="false" id="a8aa-53c8-1707-3594" targetId="c503-3bc7-2b45-91ef" primary="false"/>
+        <categoryLink name="Automata" hidden="false" id="9858-7941-aa1c-2d7c" targetId="c52e-c45f-9110-0c8c" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be35-1ab8-fbd7-c65d"/>
+      </constraints>
+      <comment>For Enlightened, and Sultanate Crimson League</comment>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Lotan Myriapoda Colossus" hidden="false" id="2ea3-c1be-060c-b9ca">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Lotan" hidden="false" id="0df5-b07f-541b-6327">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="165"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="4"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9bde-e279-588a-406f" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="c8c6-71e6-cdfe-d4dc" includeChildSelections="false" automatic="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Ceus Shockmaw" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="dfd6-d071-4040-d3e5">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">11</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Assault&lt;/span&gt;, Arc (1), Devastating (3)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ventral Atom Smashers" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="b389-e48f-d9d4-be84">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">9</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Torrent&lt;/span&gt;(2), Arc (2), Piercing (1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Lotan" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="53ee-dfa1-75a3-16ac">
+          <characteristics>
+            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">3</characteristic>
+            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">2&quot;-6&quot;</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">*</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">8</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
+            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">-</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">2</characteristic>
+            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">7</characteristic>
+            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1-3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lotan" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="55cc-33a0-b2b0-1976">
+          <characteristics>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Auxiliary Mine Layer (1), Mechanical Soul, Mobile, Self Destruct (4), Submarauder, Unexpected Arrival</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden"/>
+          </modifiers>
+        </profile>
+        <profile name="Lotan" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="a1ad-8ff1-0937-2b77">
+          <characteristics>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Patrol" hidden="false" id="901c-1d1a-9f98-da14" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
+        <categoryLink name="Enlightened" hidden="false" id="6fca-4fda-03e0-9877" targetId="5df2-bc66-57ad-0a5b" primary="false"/>
+        <categoryLink name="Underwater" hidden="false" id="94bf-fc3f-f1d9-c98f" targetId="c636-bf34-4555-99bc" primary="false"/>
+        <categoryLink name="Submarine" hidden="false" id="59c3-f7bd-675c-532b" targetId="c503-3bc7-2b45-91ef" primary="false"/>
+        <categoryLink name="Automata" hidden="false" id="4979-ee59-3f98-241b" targetId="c52e-c45f-9110-0c8c" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea1e-b021-917c-0970"/>
+      </constraints>
+      <comment>For Enlightened, and Sultanate Crimson League</comment>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Aronnax Vermiforma Colossus" hidden="false" id="aae9-5aca-484c-3dec">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Aronnax" hidden="false" id="e763-c37b-7f42-2805">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="120"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="3"/>
+          </costs>
+          <profiles>
+            <profile name="Precognisant Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2b2d-b624-f9e1-89dd">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Guided (2), Torpedo</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Heavy Conodontic Flenser" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a4c5-7b35-8d18-9d33">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Torrent&lt;/span&gt;(3), Devastating (1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e841-7da1-3c51-c78e" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a164-703e-65ec-719e" includeChildSelections="false" automatic="true"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Aronnax" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="bffa-5b06-2a33-ea4e">
+          <characteristics>
+            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">3</characteristic>
+            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">2&quot;-6&quot;</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">2</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">4</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">8</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
+            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">-</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">2</characteristic>
+            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">7</characteristic>
+            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1-3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Aronnax" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="fa26-3ae1-6682-f38f">
+          <characteristics>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Raking Strike (6), Mechanical Soul</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" value="Stoic" field="066c-1ce6-091e-90ab" join=",">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="ba89-c847-280c-f9a0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Aronnax" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="22b5-d323-c0af-b59e">
+          <characteristics>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Enlightened" hidden="false" id="bcf9-0162-c011-eb12" targetId="5df2-bc66-57ad-0a5b" primary="false"/>
+        <categoryLink name="Underwater" hidden="false" id="a1bd-b8c0-1b87-0e63" targetId="c636-bf34-4555-99bc" primary="false"/>
+        <categoryLink name="Automata" hidden="false" id="725e-c619-6e41-c96d" targetId="c52e-c45f-9110-0c8c" primary="false"/>
+        <categoryLink name="Scout" hidden="false" id="7ac2-14a3-e741-00b9" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f61f-e3a6-59c8-3483"/>
+      </constraints>
+      <comment>For Enlightened, and Sultanate Crimson League</comment>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Diogenes Submarine " hidden="false" id="9e2b-dcec-3169-3523">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Diogenes" hidden="false" id="96af-0f4f-d1e9-d9f8">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="35"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="1"/>
+          </costs>
+          <profiles>
+            <profile name="Weirding Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="57e1-50ae-b9ea-d63f">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Guided (2), Torpedo</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="8952-42f5-a56e-21b8" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="97c7-6194-6068-ef5d" includeChildSelections="false" automatic="true"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Diogenes" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="6d99-74d6-79b6-e0ac">
+          <characteristics>
+            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">1</characteristic>
+            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">1&quot;-6&quot;</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">4</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">2</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">4</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">1</characteristic>
+            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">1</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">1</characteristic>
+            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">5</characteristic>
+            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">2-5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Diogenes" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="9a89-71ee-ac5e-8e93">
+          <characteristics>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Forward Deployment, Hunter (Surface), Light Vessel, Maritime Patrol, Mechanical Soul</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" value="Stoic" field="066c-1ce6-091e-90ab" join=",">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="ba89-c847-280c-f9a0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Diogenes" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="0bb2-8da8-2758-1005">
+          <characteristics>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Scout" hidden="false" id="9257-0775-6a18-ecdc" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
+        <categoryLink name="Light Vessel" hidden="false" id="5fb4-bc1a-d245-c4b4" targetId="a788-9613-7ce1-5dd9" primary="false"/>
+        <categoryLink name="Unique" hidden="false" id="57a9-9539-4956-ceb1" targetId="4305-d7b2-6b3b-fd89" primary="false"/>
+        <categoryLink name="Submarine" hidden="false" id="43d3-f325-7b90-9267" targetId="c503-3bc7-2b45-91ef" primary="false"/>
+        <categoryLink name="Enlightened" hidden="false" id="d044-b263-7f7d-fbf0" targetId="5df2-bc66-57ad-0a5b" primary="false"/>
+        <categoryLink name="Automata" hidden="false" id="cc14-dc1e-0ea3-b720" targetId="c52e-c45f-9110-0c8c" primary="false"/>
+        <categoryLink name="Underwater" hidden="false" id="736b-f2db-dbf6-0ab4" targetId="c636-bf34-4555-99bc" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ef4-b037-c5e6-705a"/>
+      </constraints>
+      <comment>For Enlightened, and Sultanate Crimson League</comment>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Praxilla Submarine " hidden="false" id="89f7-18c5-81a0-11ba">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Praxilla" hidden="false" id="db17-4c6d-d994-a5ab">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="30"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="7bb2-655d-1edc-0e2f" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="73cb-50e2-4c8f-8f32" includeChildSelections="false" automatic="true"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Scout" hidden="false" id="2283-c867-ae7b-4f1a" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
+        <categoryLink name="Enlightened" hidden="false" id="f0ee-bc8b-aeb5-954b" targetId="5df2-bc66-57ad-0a5b" primary="false"/>
+        <categoryLink name="Underwater" hidden="false" id="bd10-3e77-eb4d-5ae8" targetId="c636-bf34-4555-99bc" primary="false"/>
+        <categoryLink name="Submarine" hidden="false" id="244a-27f5-91bd-afef" targetId="c503-3bc7-2b45-91ef" primary="false"/>
+        <categoryLink name="Automata" hidden="false" id="71e0-7397-09bb-1e64" targetId="c52e-c45f-9110-0c8c" primary="false"/>
+        <categoryLink name="Light Vessel" hidden="false" id="77a6-fd97-201a-087d" targetId="a788-9613-7ce1-5dd9" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Praxilla" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="99dd-ba99-7a42-b233">
+          <characteristics>
+            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">1</characteristic>
+            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">1&quot;-6&quot;</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">4</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">2</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">4</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">1</characteristic>
+            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">1</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">1</characteristic>
+            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">5</characteristic>
+            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">2-6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Praxilla" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="edcf-0c49-426e-4314">
+          <characteristics>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Light Vessel, Mechanical Soul, Raking Strike (6)</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" value="Stoic" field="066c-1ce6-091e-90ab" join=",">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="ba89-c847-280c-f9a0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Praxilla" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="1bf3-ce6b-5ebd-bcf2">
+          <characteristics>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+4”)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e60-77e5-a872-3599"/>
+      </constraints>
+      <comment>For Enlightened, and Sultanate Crimson League</comment>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Blitzen Bombers" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="b9cf-f00e-579b-ef39">
@@ -1292,7 +1663,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
     </profile>
     <profile name="Talon Autogyros (Alliance)" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="0c6d-c1f6-c477-a449">
       <characteristics>
-        <characteristic name="ATK" typeId="1727-4f83-903e-a65d">5</characteristic>
+        <characteristic name="ATK" typeId="1727-4f83-903e-a65d">4</characteristic>
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">-</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">-</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">2</characteristic>
