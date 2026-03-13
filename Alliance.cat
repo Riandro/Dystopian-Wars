@@ -3537,7 +3537,7 @@
           <profiles>
             <profile name="Focused Torpedo Turret " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="efbd-de78-3448-b7be">
               <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FSA</characteristic>
                 <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
@@ -3546,7 +3546,7 @@
             </profile>
             <profile name="Focused Torpedo Turret " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="16a9-742b-7363-765c">
               <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPA</characteristic>
                 <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
@@ -9806,6 +9806,8 @@
 
 
 When this Force’s Admiral declares a Broadside action with a French Surface unit, they may discard a Victory &amp; Valour Card to make this a Rolling Broadside. 
+
+
 For the duration of this action, models in the unit can Contribute to a Broadside action against a Target within 6” instead of the usual 4”.</description>
                 </rule>
               </rules>
@@ -10085,7 +10087,7 @@ Note that the Admiral cannot resolve an SRS Mission between the two Activations.
         </rule>
       </rules>
     </forceEntry>
-    <forceEntry name="Marine Levant Battlefleet (Main)" id="1379-10ac-ee38-19f0" hidden="false" sortIndex="2">
+    <forceEntry name="Marine Levante Battlefleet (Main)" id="1379-10ac-ee38-19f0" hidden="false" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Fleet Doctrines" hidden="false" id="f898-3f12-fbab-e1ea" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
@@ -10174,10 +10176,10 @@ Note that the Admiral cannot resolve an SRS Mission between the two Activations.
       </categoryLinks>
       <rules>
         <rule name="Levant Surge" id="df41-59ff-ad0c-0d96" hidden="false">
-          <description>When this Battlefleet’s Admiral Activates a Marine Levant unit, they can enact a Special Valour Effect with it.
+          <description>When this Battlefleet’s Admiral Activates a Marine Levante unit, they can declare that the unit will make a Levant Surge this Round.
 
 
-If the effect is successfully enacted, mark the unit with a Valour Effect token. Until the start of its next Activation, the unit’s Maximum Speed rating is increased by 3”, and it does not count as having the Levant property.</description>
+Mark the unit with a Special Effect token until the start of its next Activation. While it has the token, the unit’s Maximum Speed rating is increased by 3” and it does not count as having the Low Altitude property.</description>
         </rule>
       </rules>
       <comment>Mainstay Units
