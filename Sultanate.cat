@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="581b-677f-bf28-4009" name="Sultanate" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="5" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="581b-677f-bf28-4009" name="Sultanate" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="6" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Kadesh Barrage Battlecruiser" hidden="false" id="f7ba-3705-98a7-8c09" sortIndex="4">
       <selectionEntries>
@@ -231,8 +231,8 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f1f-06a3-c70e-1412" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="130"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="9"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="200"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="7"/>
           </costs>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Khepri Attendants" hidden="false" id="6ce4-57da-36fe-b16a" sortIndex="5">
@@ -296,7 +296,6 @@
       <categoryLinks>
         <categoryLink name="Sultanate" hidden="false" id="b905-0bf5-1100-fdd4" targetId="cd78-6cd9-35ad-756e" primary="false"/>
         <categoryLink name="Egyptian" hidden="false" id="8f45-7903-cbd8-ce89" targetId="8715-aab6-1878-9c12" primary="false"/>
-        <categoryLink name="Egyptian Flagship" hidden="false" id="7d6c-5ce8-1f65-752a" targetId="aacf-6b57-32c6-27c7" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="a5df-600f-8d1b-6fa9" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Hovercraft" hidden="false" id="ad2b-09f7-3955-6d1a" targetId="d041-8630-54dd-913e" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="fb55-80bd-82fc-3ce1" targetId="2251-0def-1b03-2e93" primary="false"/>
@@ -507,7 +506,7 @@
           </selectionEntryGroups>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="300"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="11"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c10a-8631-c694-5bdb" includeChildSelections="false" automatic="true"/>
@@ -538,7 +537,7 @@
             <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">11</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">4</characteristic>
-            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">8</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">4</characteristic>
             <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">10</characteristic>
             <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
           </characteristics>
@@ -574,7 +573,6 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <categoryLinks>
         <categoryLink name="Sultanate" hidden="false" id="6a9d-1bba-8543-e9b3" targetId="cd78-6cd9-35ad-756e" primary="false"/>
         <categoryLink name="Egyptian" hidden="false" id="985a-9c5d-d5c0-61ce" targetId="8715-aab6-1878-9c12" primary="false"/>
-        <categoryLink name="Egyptian Flagship" hidden="false" id="60aa-3dcf-993f-043e" targetId="aacf-6b57-32c6-27c7" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="589a-0574-89f3-7ab5" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Hovercraft" hidden="false" id="04b6-2ec7-c5d3-d60b" targetId="d041-8630-54dd-913e" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="d2d0-f86b-f059-7f10" targetId="30c3-7f1c-19e3-e772" primary="false"/>
@@ -816,8 +814,8 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="200"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="10"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="180"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="7"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b81a-ec78-d7d9-0fbc" includeChildSelections="false" automatic="true"/>
@@ -854,7 +852,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Anatolia" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="c75d-87d4-a4fd-9aa9">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Maritime Patrol</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Inspirational (7”), Maritime Patrol, Orichalcite Construction</characteristic>
           </characteristics>
         </profile>
         <profile name="Anatolia" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="abab-4be3-71a5-cd22">
@@ -1235,8 +1233,8 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="265"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="10"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="230"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="8"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f107-e39c-da63-4fa7" includeChildSelections="false" automatic="true"/>
@@ -1246,9 +1244,9 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <profile name="Ikili Torpedoes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="031f-0ac1-d400-fa49">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">8</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
@@ -1539,8 +1537,8 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b245-d96c-087e-b542" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="130"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="9"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="215"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="7"/>
           </costs>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Khepri Attendants" hidden="false" id="388f-facf-a788-c8b0" sortIndex="5">
@@ -1565,7 +1563,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                 <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Navigation Lock (2), Indirect</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Navigation Lock (2)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1646,7 +1644,6 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Hovercraft" hidden="false" id="2390-b15f-56b8-1cc5" targetId="d041-8630-54dd-913e" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="c9f0-ba17-d6bc-31ca" targetId="2251-0def-1b03-2e93" primary="false"/>
         <categoryLink name="Flagship" hidden="false" id="403c-17d2-5d39-88ad" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
-        <categoryLink name="Egyptian Flagship" hidden="false" id="64e5-bbbd-3d1b-727e" targetId="aacf-6b57-32c6-27c7" primary="false"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="aacf-6b57-32c6-27c7" field="category">
@@ -1792,8 +1789,8 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2beb-8265-b041-2a2d" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="310"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="12"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="315"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <profiles>
             <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="d71e-6134-0434-35ea">
@@ -1886,7 +1883,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Lyceum" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="4a55-b357-7822-46dd">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Descend, Encompassing Broadsides, Inspirational (10”), Mobile, Very Large</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Descend, Encompassing Broadsides, Inspirational (10”), Mobile, Orichalcite Construction, Very Large</characteristic>
           </characteristics>
         </profile>
         <profile name="Lyceum" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="3c69-9146-326f-0aaa">
@@ -1900,7 +1897,6 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       </constraints>
       <categoryLinks>
         <categoryLink name="Sultanate" hidden="false" id="801b-3cf7-c209-6148" targetId="cd78-6cd9-35ad-756e" primary="false"/>
-        <categoryLink name="Lyceum" hidden="false" id="fcf3-ef47-42ea-ceed" targetId="cf22-d499-ace9-24ec" primary="false"/>
         <categoryLink name="Turkish" hidden="false" id="a558-ffe5-4548-a0cd" targetId="106e-bd57-7f54-7adf" primary="false"/>
         <categoryLink name="Airborne" hidden="false" id="19b1-3054-7b91-42ec" targetId="139e-c78f-43c0-2957" primary="false"/>
         <categoryLink name="Airship" hidden="false" id="f8e9-5183-9d0e-e347" targetId="278c-665b-5dbe-3aad" primary="false"/>
@@ -1918,6 +1914,11 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <modifier type="add" value="a16d-413b-12d5-137c" field="category">
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="2d00-df96-4ac6-0e44" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="ccf5-9153-fc01-6fa0" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2160,8 +2161,8 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5f7-023c-8909-6335" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="140"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="9"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="210"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="7"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2206,7 +2207,6 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <categoryLinks>
         <categoryLink name="Sultanate" hidden="false" id="ae73-8258-95ea-38a9" targetId="cd78-6cd9-35ad-756e" primary="false"/>
         <categoryLink name="Egyptian" hidden="false" id="1eac-776b-14a5-cd38" targetId="8715-aab6-1878-9c12" primary="false"/>
-        <categoryLink name="Egyptian Flagship" hidden="false" id="75d8-162c-c03a-93c3" targetId="aacf-6b57-32c6-27c7" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="21da-133f-2791-135b" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Hovercraft" hidden="false" id="b75e-95b1-632a-fff6" targetId="d041-8630-54dd-913e" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="fd44-0152-f09c-8d19" targetId="2251-0def-1b03-2e93" primary="false"/>
@@ -2380,15 +2380,15 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0fca-5bec-4965-5db1" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="325"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="11"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="295"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <profiles>
             <profile name="Aetheric Lance Array" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="748d-24fe-eacb-174d">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">15</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">16</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">13</characteristic>
                 <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;</characteristic>
               </characteristics>
@@ -2396,8 +2396,8 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <profile name="Aetheric Lance Array" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="776a-8132-8ad8-0408">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">15</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">12</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">16</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">13</characteristic>
                 <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;</characteristic>
               </characteristics>
@@ -2456,7 +2456,6 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <categoryLinks>
         <categoryLink name="Sultanate" hidden="false" id="c4f9-3e21-530c-1ddc" targetId="cd78-6cd9-35ad-756e" primary="false"/>
         <categoryLink name="Egyptian" hidden="false" id="672b-1fdb-e644-8264" targetId="8715-aab6-1878-9c12" primary="false"/>
-        <categoryLink name="Egyptian Flagship" hidden="false" id="c297-6e7d-bb20-02cd" targetId="aacf-6b57-32c6-27c7" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="8c99-a098-29c3-7b11" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Hovercraft" hidden="false" id="8458-7f37-53ce-cea8" targetId="d041-8630-54dd-913e" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="b7ff-9a90-508b-5675" targetId="30c3-7f1c-19e3-e772" primary="false"/>
@@ -2482,8 +2481,8 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8713-58f5-d002-e6c9" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="245"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="11"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="225"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="8"/>
           </costs>
           <profiles>
             <profile name="Helio Blast" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="25f9-a9b7-b7ee-8a04">
@@ -2507,9 +2506,9 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <profile name="Ikili Torpedoes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="0db8-5a71-3192-5924">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">8</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
@@ -2543,7 +2542,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Retaj" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="d69c-a9eb-69fc-8151">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Boarding Parties (15), Reinforced Decking, Stoic, Terrifying (Order)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Boarding Parties (15), Orichalcite Construction, Reinforced Decking, Stoic, Terrifying (Order)</characteristic>
           </characteristics>
         </profile>
         <profile name="Retaj" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="ed32-6939-e225-bf62">
@@ -2558,7 +2557,6 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <categoryLinks>
         <categoryLink name="Sultanate" hidden="false" id="bb79-1237-a31d-9e4a" targetId="cd78-6cd9-35ad-756e" primary="false"/>
         <categoryLink name="Order" hidden="false" id="4402-7b80-225a-71ac" targetId="6d08-d1e2-f214-26f3" primary="false"/>
-        <categoryLink name="Order Flagship" hidden="false" id="5e1b-c947-c702-e445" targetId="aaf9-e90f-6b3e-ed2c" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="0086-7f3b-6a04-73f5" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="29d5-56d1-c8f6-6ccf" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="7e22-7617-e2fb-8185" targetId="2251-0def-1b03-2e93" primary="false"/>
@@ -2583,8 +2581,8 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b41b-6fb4-0563-06f0" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="265"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="10"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="295"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <profiles>
             <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="1fd0-ac60-b0b6-ed2f">
@@ -2644,8 +2642,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Suleiman" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="61af-88a2-cf70-6dce">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Carrier (12), Flotsam,
-SRS (Sabiha Attack Fighters)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Carrier (12), Flotsam, Orichalcite Construction, SRS (Sabiha Attack Fighters)</characteristic>
           </characteristics>
         </profile>
         <profile name="Suleiman" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="50fc-2812-08ef-e1d6">
@@ -2687,8 +2684,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6a2-57ff-7ebb-4917" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="324"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="11"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="330"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <profiles>
             <profile name="Heavy Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="3555-77aa-d445-5a91">
@@ -2810,7 +2807,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">12</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">4</characteristic>
-            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">6</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">4</characteristic>
             <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">10</characteristic>
             <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
           </characteristics>
@@ -2832,7 +2829,6 @@ SRS (Sabiha Attack Fighters)</characteristic>
       <categoryLinks>
         <categoryLink name="Sultanate" hidden="false" id="12b4-b922-4dd8-d041" targetId="cd78-6cd9-35ad-756e" primary="false"/>
         <categoryLink name="Egyptian" hidden="false" id="b05b-29ed-34d2-a66a" targetId="8715-aab6-1878-9c12" primary="false"/>
-        <categoryLink name="Egyptian Flagship" hidden="false" id="6eb1-1bc3-6de1-b3ab" targetId="aacf-6b57-32c6-27c7" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="8e90-9aaa-023e-295a" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Hovercraft" hidden="false" id="3868-9103-8682-08d1" targetId="d041-8630-54dd-913e" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="d6dc-9a01-18d0-dd54" targetId="30c3-7f1c-19e3-e772" primary="false"/>
@@ -2891,16 +2887,16 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c086-ca77-be6d-556e" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="245"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="10"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="185"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="7"/>
           </costs>
           <profiles>
             <profile name="Ikili Torpedoes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="c335-bbd7-8f9e-36d5">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">8</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
@@ -2943,7 +2939,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         </profile>
         <profile name="Topkapi" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="a75f-51ae-6a67-6e11">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Carrier (8), Flotsam, SRS (Sabiha Attack Fighters)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Carrier (8), Flotsam, Orichalcite Construction, SRS (Sabiha Attack Fighters)</characteristic>
           </characteristics>
         </profile>
         <profile name="Topkapi" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="50e7-ee5d-9501-5435">
@@ -3106,16 +3102,16 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="85ee-4dc9-5fe1-72e8" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="170"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="6"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="155"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <profiles>
             <profile name="Ikili Torpedoes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="84c4-cb43-f3b8-fc69">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">8</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
@@ -3400,7 +3396,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="c707-a449-3056-ff89" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="185"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="195"/>
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="6"/>
           </costs>
           <entryLinks>
@@ -3414,9 +3410,9 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <profile name="Ikili Torpedoes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="26ae-3774-93fe-d91a">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">8</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
@@ -3478,8 +3474,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="d467-b5d0-7cd9-358b" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="74"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="55"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="1"/>
           </costs>
           <profiles>
             <profile name="Judgement Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="3ede-cca2-5392-e5cc">
@@ -3534,7 +3530,6 @@ SRS (Sabiha Attack Fighters)</characteristic>
       <categoryLinks>
         <categoryLink name="Sultanate" hidden="false" id="d6a5-42b3-d691-c68d" targetId="cd78-6cd9-35ad-756e" primary="false"/>
         <categoryLink name="Order" hidden="false" id="5813-d0b2-cff2-4f71" targetId="6d08-d1e2-f214-26f3" primary="false"/>
-        <categoryLink name="Order Line" hidden="false" id="b142-4a22-c3a0-87df" targetId="64d1-835b-6ba6-66a8" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="8676-bbfb-b0ee-63a0" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="f553-6437-e1b5-37ae" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Line" hidden="false" id="7f07-30c1-4745-8c3c" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
@@ -3689,8 +3684,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="08dc-3140-d758-12fe" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="112"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="110"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <profiles>
             <profile name="Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2861-ecd8-321f-be5c">
@@ -3832,8 +3827,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="de9b-81c0-e8a7-3bd1" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="95"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="90"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <profiles>
             <profile name="Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="65d9-2c6f-61d8-ba83">
@@ -3893,7 +3888,6 @@ SRS (Sabiha Attack Fighters)</characteristic>
         <categoryLink name="Ship" hidden="false" id="d0ec-4293-8446-9ed3" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="8f04-5330-405f-a43a" targetId="2251-0def-1b03-2e93" primary="false"/>
         <categoryLink name="Patrol" hidden="false" id="9453-047a-2833-0ca6" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
-        <categoryLink name="Turkish Patrol" hidden="false" id="db18-f70a-23a3-ff3f" targetId="1b07-4f2d-17c9-6135" primary="false"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="1b07-4f2d-17c9-6135" field="category">
@@ -3916,16 +3910,16 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c902-292b-041b-9145" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="252"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="9"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="235"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="7"/>
           </costs>
           <profiles>
             <profile name="Ikili Torpedoes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="590f-c6cb-fafb-32df">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">8</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
@@ -4148,8 +4142,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="c90b-46ee-1ee4-a94c" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="105"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="100"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <modifiers>
             <modifier type="set" value="1" field="c90b-46ee-1ee4-a94c">
@@ -4407,8 +4401,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="48c1-c2b5-83f2-41b8" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="130"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="145"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4467,8 +4461,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="54cf-766a-c179-e169" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="46"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="30"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="1"/>
           </costs>
           <profiles>
             <profile name="Aetheric Lance " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="1463-142f-44b4-89c1">
@@ -4535,7 +4529,6 @@ SRS (Sabiha Attack Fighters)</characteristic>
         <categoryLink name="Airborne" hidden="false" id="a8e6-21c7-eba9-2d11" targetId="139e-c78f-43c0-2957" primary="false"/>
         <categoryLink name="Airship" hidden="false" id="44a8-8607-dbf1-aa50" targetId="278c-665b-5dbe-3aad" primary="false"/>
         <categoryLink name="Patrol" hidden="false" id="dfbb-86f7-47b0-570f" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
-        <categoryLink name="Turkish Patrol" hidden="false" id="07ef-09cc-cc42-f392" targetId="1b07-4f2d-17c9-6135" primary="false"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="1b07-4f2d-17c9-6135" field="category">
@@ -4551,6 +4544,11 @@ SRS (Sabiha Attack Fighters)</characteristic>
         <modifier type="add" value="a16d-413b-12d5-137c" field="category">
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="2d00-df96-4ac6-0e44" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="3a97-e4c5-067f-ab58" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4707,8 +4705,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="900b-0b6d-37e3-72e9" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="99"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="85"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <profiles>
             <profile name="Aerial Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="eb27-f59a-f289-5e2d">
@@ -4771,21 +4769,20 @@ SRS (Sabiha Attack Fighters)</characteristic>
       <categoryLinks>
         <categoryLink name="Sultanate" hidden="false" id="a253-ac7c-fb53-fff4" targetId="cd78-6cd9-35ad-756e" primary="false"/>
         <categoryLink name="Turkish" hidden="false" id="5f5d-9045-ee62-9e83" targetId="106e-bd57-7f54-7adf" primary="false"/>
-        <categoryLink name="Turkish Patrol" hidden="false" id="67d1-192a-ce2b-76c2" targetId="1b07-4f2d-17c9-6135" primary="false"/>
         <categoryLink name="Airborne" hidden="false" id="cd31-16ac-5328-a994" targetId="139e-c78f-43c0-2957" primary="false"/>
         <categoryLink name="Airship" hidden="false" id="9bc8-2b7d-192e-c7c0" targetId="278c-665b-5dbe-3aad" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="00e7-453e-8cdb-8fae" targetId="2251-0def-1b03-2e93" primary="false"/>
         <categoryLink name="Line" hidden="false" id="b6ff-76ea-43cd-90b8" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
       </categoryLinks>
       <modifiers>
-        <modifier type="set-primary" value="1b07-4f2d-17c9-6135" field="category">
+        <modifier type="set-primary" value="eabc-8c07-c1bc-d84d" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="2d00-df96-4ac6-0e44" shared="true" includeChildSelections="true"/>
+            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
-        <modifier type="add" value="a16d-413b-12d5-137c" field="category">
+        <modifier type="set" value="2" field="436d-a180-6f18-0ac5">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="force" childId="2d00-df96-4ac6-0e44" shared="true" includeChildSelections="true"/>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4850,8 +4847,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="7c2a-e6bf-05df-3783" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="62"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="50"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="1"/>
           </costs>
           <profiles>
             <profile name="Aerial Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="761e-f705-1fb2-29c8">
@@ -4902,7 +4899,6 @@ SRS (Sabiha Attack Fighters)</characteristic>
         <categoryLink name="Airborne" hidden="false" id="a3b8-1905-28a8-01fe" targetId="139e-c78f-43c0-2957" primary="false"/>
         <categoryLink name="Airship" hidden="false" id="d9c5-c3ec-201a-db5b" targetId="278c-665b-5dbe-3aad" primary="false"/>
         <categoryLink name="Turkish" hidden="false" id="8f0d-854b-429f-fb23" targetId="106e-bd57-7f54-7adf" primary="false"/>
-        <categoryLink name="Turkish Patrol" hidden="false" id="24d5-fe2a-04fb-f497" targetId="1b07-4f2d-17c9-6135" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="5bf2-3c4a-32cb-b02c" targetId="2251-0def-1b03-2e93" primary="false"/>
       </categoryLinks>
       <modifiers>
@@ -4919,6 +4915,11 @@ SRS (Sabiha Attack Fighters)</characteristic>
         <modifier type="add" value="a16d-413b-12d5-137c" field="category">
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="2d00-df96-4ac6-0e44" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="3a97-e4c5-067f-ab58" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5090,7 +5091,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="e7c4-6db5-0668-4fa6" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="96"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="145"/>
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <profiles>
@@ -5179,6 +5180,16 @@ SRS (Sabiha Attack Fighters)</characteristic>
           <conditions>
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
           </conditions>
+        </modifier>
+        <modifier type="set" value="2" field="1b56-e78b-9801-7227">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="forces" scope="force" childId="3274-3646-aed8-4e63" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="f8dd-e97b-1751-679d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -5363,8 +5374,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="579f-d0a3-985d-b1a1" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="76"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="100"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <profiles>
             <profile name="Heavy Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a729-3fc6-3e03-61fa">
@@ -5436,7 +5447,6 @@ SRS (Sabiha Attack Fighters)</characteristic>
       <categoryLinks>
         <categoryLink name="Sultanate" hidden="false" id="d7de-ab1f-e30c-5fbd" targetId="cd78-6cd9-35ad-756e" primary="false"/>
         <categoryLink name="Egyptian" hidden="false" id="7f17-abab-5a3a-be8f" targetId="8715-aab6-1878-9c12" primary="false"/>
-        <categoryLink name="Egyptian Patrol" hidden="false" id="85ef-20fc-17d2-20c6" targetId="19f5-ff22-407b-9bb8" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="aaa6-4626-b48e-fcee" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Hovercraft" hidden="false" id="14d5-8652-acc5-d8ec" targetId="d041-8630-54dd-913e" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="b06a-f3ec-6308-e4a5" targetId="2251-0def-1b03-2e93" primary="false"/>
@@ -5447,6 +5457,16 @@ SRS (Sabiha Attack Fighters)</characteristic>
           <conditions>
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
           </conditions>
+        </modifier>
+        <modifier type="set" value="2" field="a71b-de59-992d-9d5e">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="forces" scope="force" childId="3274-3646-aed8-4e63" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="17bc-d720-410d-084a" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -5584,8 +5604,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="158b-5ca9-f110-1fed" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="85"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="7"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="70"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Sabiha Guardians" hidden="false" id="6e3f-355b-75dc-05e9">
@@ -5645,6 +5665,13 @@ SRS (Sabiha Attack Fighters)</characteristic>
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="5648-71c1-15bf-0ad9" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="9664-57a2-6c6c-dcd5" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Nasr Skyship " hidden="false" id="1c58-8faa-61bf-65c2" sortIndex="24">
       <selectionEntries>
@@ -5810,8 +5837,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="047b-02df-ecef-b002" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="93"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="80"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Sabiha Guardians" hidden="false" id="d8e6-be6c-8ab6-8692">
@@ -5863,7 +5890,6 @@ SRS (Sabiha Attack Fighters)</characteristic>
       <categoryLinks>
         <categoryLink name="Sultanate" hidden="false" id="a5d5-d35d-e516-3c8e" targetId="cd78-6cd9-35ad-756e" primary="false"/>
         <categoryLink name="Turkish" hidden="false" id="3708-2b51-20b6-29ac" targetId="106e-bd57-7f54-7adf" primary="false"/>
-        <categoryLink name="Turkish Patrol" hidden="false" id="49c5-e5f9-4fa1-4034" targetId="1b07-4f2d-17c9-6135" primary="false"/>
         <categoryLink name="Airborne" hidden="false" id="ad16-c80f-d32c-ba5d" targetId="139e-c78f-43c0-2957" primary="false"/>
         <categoryLink name="Airship" hidden="false" id="753a-1685-3b19-ef18" targetId="278c-665b-5dbe-3aad" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="de80-52f8-82d5-b21a" targetId="2251-0def-1b03-2e93" primary="false"/>
@@ -5876,13 +5902,23 @@ SRS (Sabiha Attack Fighters)</characteristic>
           </conditions>
         </modifier>
         <modifier type="set" value="2" field="f50e-1629-902e-cd2b">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="2d00-df96-4ac6-0e44" shared="true" includeChildSelections="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
+                <condition type="instanceOf" value="1" field="forces" scope="force" childId="2d00-df96-4ac6-0e44" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="add" value="a16d-413b-12d5-137c" field="category">
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="2d00-df96-4ac6-0e44" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="3a97-e4c5-067f-ab58" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5994,8 +6030,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="926f-d8ec-691f-ad27" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="94"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="105"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <profiles>
             <profile name="Salvo Missile Silo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="bbcc-88bb-9039-026a">
@@ -6283,8 +6319,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="ee12-3e70-26b6-bbf9" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="80"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="6"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="115"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Khepri Attendants" hidden="false" id="5033-a1b5-177a-087a">
@@ -6445,8 +6481,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="b7e4-63dd-0a06-c3f3" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="35"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="30"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="1"/>
           </costs>
           <profiles>
             <profile name="Micro Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9e14-792f-af0e-4f6f">
@@ -6515,7 +6551,6 @@ SRS (Sabiha Attack Fighters)</characteristic>
       <categoryLinks>
         <categoryLink name="Sultanate" hidden="false" id="faf0-82fb-122c-dc8b" targetId="cd78-6cd9-35ad-756e" primary="false"/>
         <categoryLink name="Turkish" hidden="false" id="8d7e-288c-8201-393c" targetId="106e-bd57-7f54-7adf" primary="false"/>
-        <categoryLink name="Turkish Patrol" hidden="false" id="2909-71bd-bccf-0361" targetId="1b07-4f2d-17c9-6135" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="04b6-163f-3e37-18f6" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="0ad0-6021-98cd-ce13" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Patrol" hidden="false" id="52ac-3147-0523-e0f2" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
@@ -6543,7 +6578,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="110"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <profiles>
             <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4927-6830-901c-5684">
@@ -6688,8 +6723,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="2f0b-ecd5-6c52-f110" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="65"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="60"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <modifiers>
             <modifier type="set" value="1" field="2f0b-ecd5-6c52-f110">
@@ -6901,8 +6936,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aaa2-f28e-3e93-61f8" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="180"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="8"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="150"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <entryLinks>
             <entryLink import="true" name="Generators" hidden="false" id="ff62-3f00-cca0-0bed" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b" sortIndex="3"/>
@@ -6985,8 +7020,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a37b-2c3a-08fc-08c6" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="145"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="6"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="140"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <profiles>
             <profile name="Heavy Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="da09-18bd-bfa1-e06a">
@@ -7043,7 +7078,6 @@ SRS (Sabiha Attack Fighters)</characteristic>
       <categoryLinks>
         <categoryLink name="Sultanate" hidden="false" id="d517-20b9-7c13-3f48" targetId="cd78-6cd9-35ad-756e" primary="false"/>
         <categoryLink name="Order" hidden="false" id="8956-481f-bb1a-8e81" targetId="6d08-d1e2-f214-26f3" primary="false"/>
-        <categoryLink name="Order Support" hidden="false" id="22a9-891d-319a-9661" targetId="afc8-ac0b-5089-66ea" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="fb8b-76b4-4108-cdd0" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="6c58-4e85-9dbd-075b" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="9144-df9b-4fac-71e1" targetId="2251-0def-1b03-2e93" primary="false"/>
@@ -7315,7 +7349,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83e4-416c-7cb3-2748" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="232"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="210"/>
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="6"/>
           </costs>
           <entryLinks>
@@ -7329,9 +7363,9 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <profile name="Ikili Torpedoes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="f103-b964-c6a6-715a">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">8</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
@@ -7416,8 +7450,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7430-89e5-6b43-95ba" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="138"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="110"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <profiles>
             <profile name="Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e56d-8a26-6d2b-1a1a">
@@ -7496,6 +7530,18 @@ SRS (Sabiha Attack Fighters)</characteristic>
         <categoryLink name="Attachment host" hidden="false" id="fbaf-d76c-679f-e1e6" targetId="2251-0def-1b03-2e93" primary="false"/>
         <categoryLink name="Support" hidden="false" id="a7f6-c598-d7f3-5a2f" targetId="1711-6069-af06-c5cc" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="2" field="26a0-6d75-27e6-a26b">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="forces" scope="force" childId="3274-3646-aed8-4e63" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="a5a8-b5b5-2e5e-8fa5" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Morea Minelayer" hidden="false" id="fdf6-c932-40f5-e751" sortIndex="45">
       <selectionEntries>
@@ -7505,8 +7551,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="c49c-77d0-2bbd-72aa" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="82"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="70"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <profiles>
             <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="efdf-e953-98ce-eaf0">
@@ -7600,8 +7646,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="185"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="165"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7638,7 +7684,6 @@ SRS (Sabiha Attack Fighters)</characteristic>
       <categoryLinks>
         <categoryLink name="Sultanate" hidden="false" id="4f2d-ac2d-b6b3-30aa" targetId="cd78-6cd9-35ad-756e" primary="false"/>
         <categoryLink name="Order" hidden="false" id="7e15-24e4-0b53-06fc" targetId="6d08-d1e2-f214-26f3" primary="false"/>
-        <categoryLink name="Order Scout" hidden="false" id="8baa-a40f-3973-ad00" targetId="b365-a18b-f529-76a2" primary="false"/>
         <categoryLink name="Airborne" hidden="false" id="5633-5f96-9ed5-7e78" targetId="139e-c78f-43c0-2957" primary="false"/>
         <categoryLink name="Colossus" hidden="false" id="2394-35b1-523d-a23d" targetId="b1a6-61a9-0ae4-8b65" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="0862-8757-5ab8-e659" targetId="2251-0def-1b03-2e93" primary="false"/>
@@ -7759,8 +7804,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="7274-cdaf-b46a-74dc" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="48"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="55"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="1"/>
           </costs>
           <modifiers>
             <modifier type="set" value="2" field="7274-cdaf-b46a-74dc">
@@ -7815,7 +7860,6 @@ SRS (Sabiha Attack Fighters)</characteristic>
       <categoryLinks>
         <categoryLink name="Sultanate" hidden="false" id="389b-e3e9-c167-9aad" targetId="cd78-6cd9-35ad-756e" primary="false"/>
         <categoryLink name="Egyptian" hidden="false" id="7748-f98f-ad70-b3e4" targetId="8715-aab6-1878-9c12" primary="false"/>
-        <categoryLink name="Egyptian Scout" hidden="false" id="0185-5ce6-d06b-89e6" targetId="bed0-91fe-8bd9-89ea" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="b971-0b9b-0e27-8855" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Hovercraft" hidden="false" id="ad12-47e1-d289-0267" targetId="d041-8630-54dd-913e" primary="false"/>
         <categoryLink name="Scout" hidden="false" id="4f07-27b2-6cbf-ac63" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
@@ -7938,8 +7982,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="e7cb-46e5-c4d9-7b6a" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="49"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="60"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <profiles>
             <profile name="Micro Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="6b38-6161-45a4-c306">
@@ -7995,7 +8039,6 @@ SRS (Sabiha Attack Fighters)</characteristic>
       <categoryLinks>
         <categoryLink name="Sultanate" hidden="false" id="7c54-023b-d1c9-e041" targetId="cd78-6cd9-35ad-756e" primary="false"/>
         <categoryLink name="Egyptian" hidden="false" id="fa26-e48a-3016-15d3" targetId="8715-aab6-1878-9c12" primary="false"/>
-        <categoryLink name="Egyptian Scout" hidden="false" id="1960-8038-481a-2c62" targetId="bed0-91fe-8bd9-89ea" primary="false"/>
         <categoryLink name="Hovercraft" hidden="false" id="283a-fc2d-3426-fe9e" targetId="d041-8630-54dd-913e" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="804a-ada4-e1c4-7fa1" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="430d-6532-50ad-1af8" targetId="2251-0def-1b03-2e93" primary="false"/>
@@ -8017,8 +8060,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3ed0-4bf6-f848-0ad3" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="195"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="175"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <profiles>
             <profile name="Helio Blast" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2ad8-0256-1581-a5e9">
@@ -8066,7 +8109,6 @@ SRS (Sabiha Attack Fighters)</characteristic>
       <categoryLinks>
         <categoryLink name="Sultanate" hidden="false" id="d51d-0b6d-bb2b-8d28" targetId="cd78-6cd9-35ad-756e" primary="false"/>
         <categoryLink name="Order" hidden="false" id="abf6-841e-0cfd-a336" targetId="6d08-d1e2-f214-26f3" primary="false"/>
-        <categoryLink name="Order Scout" hidden="false" id="2573-3c20-3064-2a53" targetId="b365-a18b-f529-76a2" primary="false"/>
         <categoryLink name="Airborne" hidden="false" id="fbc7-c81c-77fc-19b3" targetId="139e-c78f-43c0-2957" primary="false"/>
         <categoryLink name="Colossus" hidden="false" id="4943-922e-313d-d2b1" targetId="b1a6-61a9-0ae4-8b65" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="e94e-8933-7175-ea2d" targetId="2251-0def-1b03-2e93" primary="false"/>
@@ -8091,8 +8133,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1057-d1e0-2150-6310" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="100"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="95"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <profiles>
             <profile name="Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="b62b-5bec-d520-60c9">
@@ -8178,7 +8220,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="65"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Defensive Mines" hidden="false" id="228d-19a0-c6cc-8098" sortIndex="2">
@@ -8251,8 +8293,8 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c17-0e76-54bf-6b42" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="95"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="80"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <profiles>
             <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="5b16-cb40-b9b2-670e">
@@ -8287,7 +8329,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">10</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">2</characteristic>
-            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">5</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">3</characteristic>
             <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">7</characteristic>
             <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
           </characteristics>
@@ -8315,18 +8357,72 @@ SRS (Sabiha Attack Fighters)</characteristic>
         <categoryLink name="Logistical" hidden="false" id="e950-cafd-771d-6602" targetId="366f-016b-5f80-0c09" primary="true"/>
       </categoryLinks>
       <comment>ATTACHMENT</comment>
+      <entryLinks>
+        <entryLink import="true" name="Escorts" hidden="false" id="8351-e7b6-8bc3-244e" type="selectionEntry" targetId="bd6e-dbef-4baf-e017">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="f03d-f1ec-2aa8-d623" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2653-a03b-d312-7a1f" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="89fa-eeaa-958f-ca32"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sultanate Fleet Doctrines" hidden="false" id="ae8a-1104-3ff2-e1f6">
       <entryLinks>
         <entryLink import="true" name="Fleet Doctrines" hidden="false" id="aa1f-cc49-64c3-bc7b" type="selectionEntryGroup" targetId="3a8e-29a8-4109-7c1c">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="THE SULTAN’S HAMMER" hidden="false" id="82d1-77e3-cd73-bd07" sortIndex="6">
+            <selectionEntry type="upgrade" import="true" name="THE THIRTEENTH" hidden="true" id="82d1-77e3-cd73-bd07" sortIndex="7">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="50"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
               <rules>
-                <rule name="New Rule" id="b3e0-88b4-77af-69f9" hidden="false">
+                <rule name="THE THIRTEENTH" id="b3e0-88b4-77af-69f9" hidden="false">
+                  <description>This Doctrine can only be purchased for an Egyptian Flagship unit.
+
+
+Once per Encounter, in the Clean Up step of the End Phase, this Force’s Admiral can discard a Victory &amp; Valour Card from their hand. 
+
+
+If they do so, they can immediately remove all levels of Disorder from any Egyptian models in the Play Area.</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fcfc-1c02-45d8-bd27" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="count" min="2">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="8715-aab6-1878-9c12" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="cf22-d499-ace9-24ec" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="cf22-d499-ace9-24ec" childId="8715-aab6-1878-9c12" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="ccf5-9153-fc01-6fa0" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="ccf5-9153-fc01-6fa0" childId="8715-aab6-1878-9c12" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="aaf9-e90f-6b3e-ed2c" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="aaf9-e90f-6b3e-ed2c" childId="8715-aab6-1878-9c12" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="THE SULTAN’S HAMMER" hidden="true" id="02d9-3b41-4cc0-5fd9" sortIndex="8">
+              <costs>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="50"/>
+                <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+              </costs>
+              <rules>
+                <rule name="THE SULTAN’S HAMMER" id="ec65-c2c9-05c4-414b" hidden="false">
                   <description>Can only be purchased for a Sultanate Flagship unit.
 
 
@@ -8337,8 +8433,68 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
                 </rule>
               </rules>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fcfc-1c02-45d8-bd27" includeChildSelections="true" includeChildForces="true"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f204-285b-2709-76a5" includeChildSelections="true" includeChildForces="true"/>
               </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="count" min="2">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="cd78-6cd9-35ad-756e" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="cf22-d499-ace9-24ec" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="cf22-d499-ace9-24ec" childId="cd78-6cd9-35ad-756e" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="ccf5-9153-fc01-6fa0" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="ccf5-9153-fc01-6fa0" childId="cd78-6cd9-35ad-756e" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="aaf9-e90f-6b3e-ed2c" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="aaf9-e90f-6b3e-ed2c" childId="cd78-6cd9-35ad-756e" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="CONTROL OF THE COSMOS" hidden="true" id="f22e-bc77-094d-4ecc" sortIndex="6">
+              <costs>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="40"/>
+                <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+              </costs>
+              <rules>
+                <rule name="CONTROL OF THE COSMOS" id="3811-f053-4109-b93c" hidden="false">
+                  <description>This Doctrine can only be purchased for an Order Flagship unit.
+
+
+Once per Round, in the Activation Phase, before choosing a unit to Activate, this Force’s Admiral can discard a Victory &amp; Valour Card from their hand.
+
+
+If they do so, instead of Resolving an SRS Mission, they can immediately Collapse a Portal marker. 
+Once this has been resolved, they may immediately Weave a Portal anywhere on the Play Area. This Portal marker cannot be placed within Proximity of a model, Terrain Feature, or another Marker, or overlapping an Airborne or Underwater model.
+
+
+This can only be done if there is at least one friendly model on the Play Area with a Portal Generator that does not have the System Failure Critical Damage Effect.</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cf2e-5b95-5f29-3930" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="count" min="2">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="6d08-d1e2-f214-26f3" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="cf22-d499-ace9-24ec" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="cf22-d499-ace9-24ec" childId="6d08-d1e2-f214-26f3" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="ccf5-9153-fc01-6fa0" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="ccf5-9153-fc01-6fa0" childId="6d08-d1e2-f214-26f3" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="aaf9-e90f-6b3e-ed2c" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="aaf9-e90f-6b3e-ed2c" childId="6d08-d1e2-f214-26f3" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -8347,7 +8503,7 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
         </entryLink>
       </entryLinks>
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="9192-dcab-04cd-42ca" targetId="eb20-a962-fc6e-ce7f" primary="true"/>
+        <categoryLink name="Fleet Doctrines" hidden="false" id="9192-dcab-04cd-42ca" targetId="eb20-a962-fc6e-ce7f" primary="true"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Europa Grand Conveyor" hidden="false" id="a2d8-b7fc-62ee-ef28" sortIndex="42">
@@ -8362,7 +8518,7 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Europa Grand Conveyor" hidden="false" id="f438-59f3-a2ce-ff52" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="110"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="90"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <selectionEntryGroups>
@@ -8472,7 +8628,7 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
         </profile>
         <profile name="Europa Grand Conveyor" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="fc92-a0b1-1b2d-4931">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Civilian Vessel, Flotsam, Forward Deployment, Resupply (2), Strategic Asset (6)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Civilian Vessel, Flotsam, Forward Deployment, Resupply (2), Strategic Asset (2)</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="append" value="Ground Assault (3)" field="066c-1ce6-091e-90ab" join=", ">
@@ -8558,7 +8714,7 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
         </profile>
         <profile name="Hermes Supply Freighter" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="11b5-e79a-71c8-eff0">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Surface), Civilian Vessel, Light Vessel, Resupply (1), Strategic Asset (2)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Surface), Civilian Vessel, Light Vessel, Resupply (1), Strategic Asset (1)</characteristic>
           </characteristics>
         </profile>
         <profile name="Hermes Supply Freighter" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="eac9-b947-148a-e56d">
@@ -8614,7 +8770,7 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
         </profile>
         <profile name="Titan Mass Conveyor" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="6048-9f28-a771-6a8c">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Civilian Vessel, Flotsam, Forward Deployment, Resupply (2), Strategic Asset (4)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Civilian Vessel, Flotsam, Forward Deployment, Resupply (2), Strategic Asset (2)</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="append" value="Ground Assault (2)" field="066c-1ce6-091e-90ab" join=", ">
@@ -8741,375 +8897,11 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
         <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="bcf6-983c-af57-39cb" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Praxilla Submarine " hidden="false" id="347d-a29d-4f34-d64e" sortIndex="62">
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Praxilla" hidden="false" id="f7ee-9609-e4be-2ec2" sortIndex="1">
-          <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="34"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="3"/>
-          </costs>
-          <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="5007-83f0-ec18-4b8a" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="baf9-9090-44d3-a1a5" includeChildSelections="false" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
-      <categoryLinks>
-        <categoryLink name="Scout" hidden="false" id="bdab-a876-3a93-ec0d" targetId="28fc-32cc-7e9c-28b4" primary="false"/>
-        <categoryLink name="Enlightened" hidden="false" id="15d1-f1c2-a9ad-da49" targetId="5df2-bc66-57ad-0a5b" primary="false"/>
-        <categoryLink name="Underwater" hidden="false" id="26e9-3e32-cee7-88d4" targetId="c636-bf34-4555-99bc" primary="false"/>
-        <categoryLink name="Submarine" hidden="false" id="ad8a-8ac4-0bf6-59db" targetId="c503-3bc7-2b45-91ef" primary="false"/>
-        <categoryLink name="Automata" hidden="false" id="5982-2dea-0b42-245c" targetId="c52e-c45f-9110-0c8c" primary="false"/>
-        <categoryLink name="Light Vessel" hidden="false" id="942c-af58-446f-18ff" targetId="a788-9613-7ce1-5dd9" primary="false"/>
-        <categoryLink name="Crimson League" hidden="false" id="4384-1a25-91cc-d5db" targetId="a16d-413b-12d5-137c" primary="false"/>
-        <categoryLink name="Sultanate" hidden="false" id="c913-0151-8afc-c1d6" targetId="cd78-6cd9-35ad-756e" primary="false"/>
-        <categoryLink name="Enlightened Underwater Automata " hidden="false" id="d369-19ed-b605-097b" targetId="2330-32fd-ec86-5236" primary="true"/>
-        <categoryLink name="Attachment host" hidden="false" id="dd89-fa7f-b6b5-62ad" targetId="2251-0def-1b03-2e93" primary="false"/>
-      </categoryLinks>
-      <profiles>
-        <profile name="Praxilla" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="b732-8d63-d528-49d3">
-          <characteristics>
-            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">1</characteristic>
-            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">1&quot;-6&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">4</characteristic>
-            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">2</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">4</characteristic>
-            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">1</characteristic>
-            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">1</characteristic>
-            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">1</characteristic>
-            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">5</characteristic>
-            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">2-6</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Praxilla" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="28b7-2f87-4f98-9ded">
-          <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Light Vessel, Mechanical Soul, Raking Strike (6)</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Praxilla" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="b063-9fb8-16ed-26c8">
-          <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+4”)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fc9c-a4b9-9014-8365"/>
-      </constraints>
-      <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="26a2-f51c-3203-5914" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
-      </entryLinks>
-    </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Diogenes Submarine " hidden="false" id="60a3-d804-bc0e-4f75" sortIndex="63">
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Diogenes" hidden="false" id="8934-d782-7d60-e969">
-          <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="38"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="3"/>
-          </costs>
-          <profiles>
-            <profile name="Weirding Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="475f-d725-274c-d3f5">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo, Triangulate (2)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="8367-c544-2da0-87ac" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="71be-a5eb-71ac-dc99" includeChildSelections="false" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
-      <profiles>
-        <profile name="Diogenes" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="c3c3-d68f-dc66-ff60">
-          <characteristics>
-            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">1</characteristic>
-            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">1&quot;-6&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">4</characteristic>
-            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">2</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">4</characteristic>
-            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">1</characteristic>
-            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">1</characteristic>
-            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">1</characteristic>
-            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">5</characteristic>
-            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">2-5</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Diogenes" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="1c1f-7290-fc6e-3558">
-          <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Forward Deployment, Hunter (Surface), Light Vessel, Maritime Patrol, Mechanical Soul</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Diogenes" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="ad92-ba16-344e-4b17">
-          <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink name="Scout" hidden="false" id="809b-b5f1-0dc5-661f" targetId="28fc-32cc-7e9c-28b4" primary="false"/>
-        <categoryLink name="Light Vessel" hidden="false" id="427e-be37-7d82-9097" targetId="a788-9613-7ce1-5dd9" primary="false"/>
-        <categoryLink name="Unique" hidden="false" id="e984-9ba5-74e7-465e" targetId="4305-d7b2-6b3b-fd89" primary="false"/>
-        <categoryLink name="Submarine" hidden="false" id="14bd-c7ed-77b1-7d4c" targetId="c503-3bc7-2b45-91ef" primary="false"/>
-        <categoryLink name="Enlightened" hidden="false" id="7348-d799-8e52-af64" targetId="5df2-bc66-57ad-0a5b" primary="false"/>
-        <categoryLink name="Automata" hidden="false" id="0758-e15f-2e30-2d33" targetId="c52e-c45f-9110-0c8c" primary="false"/>
-        <categoryLink name="Sultanate" hidden="false" id="65c2-8036-733d-52c2" targetId="cd78-6cd9-35ad-756e" primary="false"/>
-        <categoryLink name="Crimson League" hidden="false" id="5ff1-3040-3398-bddf" targetId="a16d-413b-12d5-137c" primary="false"/>
-        <categoryLink name="Enlightened Underwater Automata " hidden="false" id="2007-2223-cc45-00c0" targetId="2330-32fd-ec86-5236" primary="true"/>
-        <categoryLink name="Attachment host" hidden="false" id="02e4-a5df-42ab-80a3" targetId="2251-0def-1b03-2e93" primary="false"/>
-      </categoryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2601-022f-3751-5d2b"/>
-      </constraints>
-      <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="4b5e-a9d7-5be5-073e" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
-      </entryLinks>
-    </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Aronnax Vermiforma Colossus" hidden="false" id="f13f-0337-9b04-0864" sortIndex="64">
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Aronnax" hidden="false" id="b759-0336-97a2-a57a" sortIndex="1">
-          <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="159"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
-          </costs>
-          <profiles>
-            <profile name="Precognisant Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="5cc7-1af4-d1cb-1e7c">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Heavy Conodontic Flenser" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="fe32-255e-5a74-1dc3">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Torrent&lt;/span&gt;(3), Devastating (1)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f1f7-31a9-bcfe-fcd6" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="06de-d7e8-a814-648f" includeChildSelections="false" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
-      <profiles>
-        <profile name="Aronnax" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="bacd-bfec-ecdf-7fb1">
-          <characteristics>
-            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">3</characteristic>
-            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">2&quot;-6&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">2</characteristic>
-            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">4</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">8</characteristic>
-            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
-            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">-</characteristic>
-            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">2</characteristic>
-            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">7</characteristic>
-            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1-3</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Aronnax" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="8931-e2f8-e410-d625">
-          <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Raking Strike (6), Mechanical Soul</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Aronnax" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="2e23-9dac-2f2d-5b32">
-          <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink name="Scout" hidden="false" id="b2d2-f19f-6f27-307d" targetId="28fc-32cc-7e9c-28b4" primary="false"/>
-        <categoryLink name="Enlightened" hidden="false" id="e014-ea54-a496-aade" targetId="5df2-bc66-57ad-0a5b" primary="false"/>
-        <categoryLink name="Underwater" hidden="false" id="e91e-ac4e-4bca-11b3" targetId="c636-bf34-4555-99bc" primary="false"/>
-        <categoryLink name="Surface" hidden="false" id="9e2a-a36f-df1f-9b3a" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
-        <categoryLink name="Automata" hidden="false" id="534e-2568-34ec-decb" targetId="c52e-c45f-9110-0c8c" primary="false"/>
-        <categoryLink name="Crimson League" hidden="false" id="eaee-5c00-5d17-7454" targetId="a16d-413b-12d5-137c" primary="false"/>
-        <categoryLink name="Sultanate" hidden="false" id="84c1-bdfe-58ae-c1d5" targetId="cd78-6cd9-35ad-756e" primary="false"/>
-        <categoryLink name="Enlightened Underwater Automata " hidden="false" id="36a6-8c9a-a8aa-05f2" targetId="2330-32fd-ec86-5236" primary="true"/>
-        <categoryLink name="Attachment host" hidden="false" id="e491-a6ad-4447-9fda" targetId="2251-0def-1b03-2e93" primary="false"/>
-      </categoryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d224-fa54-14ca-4a05"/>
-      </constraints>
-      <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="33c2-8705-fd01-c949" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
-      </entryLinks>
-    </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ketos Myriapoda Colossus" hidden="false" id="d5d8-1311-0740-e15a" sortIndex="61">
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Ketos" hidden="false" id="59b8-cd9f-ad7b-1f10" sortIndex="1">
-          <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="166"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
-          </costs>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a5fa-d627-ff7b-cf89" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7a97-d535-3db0-8a31" includeChildSelections="false" automatic="true"/>
-          </constraints>
-          <profiles>
-            <profile name="Harmonised Transconductive Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9435-a32f-794d-17d8">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3 MAS</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation, Hazard (2), Intensive, Piercing (2), Powered</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ventral Atom Smashers" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="37fa-e6b5-5706-7337">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">9</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Torrent&lt;/span&gt;(2), Arc (1), Piercing (1)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-      </selectionEntries>
-      <profiles>
-        <profile name="Ketos" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="5920-fd11-ade7-2967">
-          <characteristics>
-            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">3</characteristic>
-            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">2&quot;-6&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">2</characteristic>
-            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">8</characteristic>
-            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
-            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">-</characteristic>
-            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">2</characteristic>
-            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">7</characteristic>
-            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1-3</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Ketos" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="869d-3d17-309e-2cc5">
-          <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Auxiliary Mine Layer (1), Mechanical Soul, Mobile, Self Destruct (2), Submarauder, Unexpected Arrival</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Ketos" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="0ff8-e2bb-a11d-4fda">
-          <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink name="Patrol" hidden="false" id="4f0d-104b-b094-589a" targetId="be0c-d486-6fa7-ce3b" primary="false"/>
-        <categoryLink name="Underwater" hidden="false" id="6458-d875-b9d5-acff" targetId="c636-bf34-4555-99bc" primary="false"/>
-        <categoryLink name="Enlightened" hidden="false" id="58f5-e2d3-9fd4-13e7" targetId="5df2-bc66-57ad-0a5b" primary="false"/>
-        <categoryLink name="Submarine" hidden="false" id="2b80-6819-4f67-b98e" targetId="c503-3bc7-2b45-91ef" primary="false"/>
-        <categoryLink name="Automata" hidden="false" id="f984-2892-2b8a-2aea" targetId="c52e-c45f-9110-0c8c" primary="false"/>
-        <categoryLink name="Crimson League" hidden="false" id="dd00-6710-1ea5-be1d" targetId="a16d-413b-12d5-137c" primary="false"/>
-        <categoryLink name="Sultanate" hidden="false" id="4d61-31a9-5578-438f" targetId="cd78-6cd9-35ad-756e" primary="false"/>
-        <categoryLink name="Enlightened Underwater Automata " hidden="false" id="c359-288f-2aef-30cd" targetId="2330-32fd-ec86-5236" primary="true"/>
-        <categoryLink name="Attachment host" hidden="false" id="877e-ee26-a17c-2f80" targetId="2251-0def-1b03-2e93" primary="false"/>
-      </categoryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b57-4061-3aaf-48c5"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="af24-35b6-829e-e922"/>
-      </constraints>
-      <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="a5e7-f2a3-0e1d-7cc0" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
-      </entryLinks>
-    </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Lotan Myriapoda Colossus" hidden="false" id="1331-948c-7bba-fa8d" sortIndex="60">
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Lotan" hidden="false" id="89ed-443d-af6f-8245" sortIndex="1">
-          <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="152"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
-          </costs>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0e49-5f3d-3905-8281" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="489c-05bc-3a6f-7b1a" includeChildSelections="false" automatic="true"/>
-          </constraints>
-          <profiles>
-            <profile name="Ceus Shockmaw" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="cff2-817d-ae60-072e">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">11</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Assault&lt;/span&gt;, Arc (1), Devastating (3)</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Ventral Atom Smashers" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="29d2-1128-509a-7e29">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">9</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Torrent&lt;/span&gt;(2), Arc (2), Piercing (1)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-      </selectionEntries>
-      <profiles>
-        <profile name="Lotan" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="89ce-7d08-a86f-d3c4">
-          <characteristics>
-            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">3</characteristic>
-            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">2&quot;-6&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">2</characteristic>
-            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">8</characteristic>
-            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
-            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">-</characteristic>
-            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">2</characteristic>
-            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">7</characteristic>
-            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1-3</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Lotan" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="d795-870a-3155-c248">
-          <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Auxiliary Mine Layer (1), Mechanical Soul, Mobile, Self Destruct (4), Submarauder, Unexpected Arrival</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Lotan" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="acf8-03e7-37c1-96f4">
-          <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink name="Patrol" hidden="false" id="56f6-87de-c617-d2a3" targetId="be0c-d486-6fa7-ce3b" primary="false"/>
-        <categoryLink name="Enlightened" hidden="false" id="156f-1e46-19fe-21c5" targetId="5df2-bc66-57ad-0a5b" primary="false"/>
-        <categoryLink name="Underwater" hidden="false" id="b383-e0dc-8116-fdcf" targetId="c636-bf34-4555-99bc" primary="false"/>
-        <categoryLink name="Submarine" hidden="false" id="799e-1779-d534-29e3" targetId="c503-3bc7-2b45-91ef" primary="false"/>
-        <categoryLink name="Automata" hidden="false" id="dbc7-5963-c409-cf3b" targetId="c52e-c45f-9110-0c8c" primary="false"/>
-        <categoryLink name="Crimson League" hidden="false" id="c15c-6c3c-501a-ed91" targetId="a16d-413b-12d5-137c" primary="false"/>
-        <categoryLink name="Sultanate" hidden="false" id="10fe-ecd3-80e7-5a05" targetId="cd78-6cd9-35ad-756e" primary="false"/>
-        <categoryLink name="Enlightened Underwater Automata " hidden="false" id="ecc9-1919-a373-4b19" targetId="2330-32fd-ec86-5236" primary="true"/>
-        <categoryLink name="Attachment host" hidden="false" id="b5a6-24d6-e2b2-59c7" targetId="2251-0def-1b03-2e93" primary="false"/>
-      </categoryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ae7-36b4-896a-1766"/>
-      </constraints>
-      <entryLinks>
-        <entryLink import="true" name="Attachments" hidden="false" id="a5d4-7449-73ed-b6b3" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
-      </entryLinks>
-    </selectionEntry>
   </selectionEntries>
   <forceEntries>
     <forceEntry name="Sultanate Faction Battlefleet (Main)" id="3274-3646-aed8-4e63" hidden="false" sortIndex="1">
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="b392-8be0-6678-8961" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="b392-8be0-6678-8961" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd4b-8ba1-bfa0-6c1f"/>
           </constraints>
@@ -9122,19 +8914,43 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
         </categoryLink>
         <categoryLink name="Line" hidden="false" id="eb35-6546-752f-feda" targetId="ae99-8ab0-27f0-7bb6">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dd15-c70d-2938-a618"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="74fb-a280-801c-3b87"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="dd15-c70d-2938-a618"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="74fb-a280-801c-3b87"/>
           </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="dd15-c70d-2938-a618">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="be0c-d486-6fa7-ce3b" childId="force" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="74fb-a280-801c-3b87">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="be0c-d486-6fa7-ce3b" childId="force" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="Patrol" hidden="false" id="8639-bdc8-869e-836f" targetId="be0c-d486-6fa7-ce3b">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b5ee-626d-ffe3-38c7"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="869c-6308-7084-10ac"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="1342-e062-372a-f1c8"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="9979-a395-0e4a-7b8b"/>
           </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="1342-e062-372a-f1c8">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="ae99-8ab0-27f0-7bb6" childId="force" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="9979-a395-0e4a-7b8b">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="ae99-8ab0-27f0-7bb6" childId="force" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="Support" hidden="false" id="f1af-57f9-77d5-3f4d" targetId="1711-6069-af06-c5cc">
           <constraints>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="bc7a-8de4-f07c-eb41"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="bc7a-8de4-f07c-eb41"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Scout" hidden="false" id="2bbf-da66-3b78-5c58" targetId="28fc-32cc-7e9c-28b4">
@@ -9174,16 +8990,22 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
       </categoryLinks>
       <comment>• Iskandar Cruiser (Sultanate, Line)</comment>
       <rules>
-        <rule name="Orichalcite Construction" id="d038-9103-2188-30cd" hidden="false">
-          <description>The Shredded Defences Critical Damage Effect only imposes a -1 Modifier to the Defences rating of Sultanate models in this Force, instead of -2.</description>
+        <rule name="Superior Weaponry" id="d038-9103-2188-30cd" hidden="false">
+          <description>Once per Round, when a Sultanate unit in this Force makes an Attack action, its Admiral may declare (before any dice are rolled) that the unit will benefit from Superior Weaponry.
+
+
+For the duration of this action, all Contributing weapons that have the Piercing (X) or Precise (X) quality increase all of their Firepower values by the X Value of that quality.
+
+
+If a weapon has both qualities, the higher X value is used. Firepower values that are listed as ‘-’ are unaffected.</description>
         </rule>
       </rules>
     </forceEntry>
-    <forceEntry name="Order Battlefleet (Specialist)" id="85f3-e084-0f12-6e71" hidden="false" sortIndex="3">
+    <forceEntry name="Allshard Order Aethernautic Battlefleet (Specialist)" id="85f3-e084-0f12-6e71" hidden="false" sortIndex="2">
       <comment>• Carolus Destroyer (Sultanate, Order, Line)
 • Lesath Exemplar Cruiser (Sultanate, Order, Support</comment>
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="b392-8be0-6678-8961" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="b392-8be0-6678-8961" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd4b-8ba1-bfa0-6c1f"/>
           </constraints>
@@ -9202,7 +9024,7 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
         </categoryLink>
         <categoryLink name="Order Support" hidden="false" id="89cd-2be9-a6ff-d56b" targetId="afc8-ac0b-5089-66ea">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0202-f9a0-de25-c275"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0202-f9a0-de25-c275"/>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="cf39-c541-9af7-fcc8"/>
           </constraints>
         </categoryLink>
@@ -9221,20 +9043,17 @@ If the effect is Denied, the unit is returned to the Reserve as normal. If it is
         </rule>
       </rules>
     </forceEntry>
-    <forceEntry name="Egyptian Battlefleet (Specialist)" id="180b-0560-42cb-d495" hidden="false" sortIndex="2">
+    <forceEntry name="Balik Kartali Air Fleet (Specialist)" id="180b-0560-42cb-d495" hidden="false" sortIndex="3">
       <rules>
-        <rule name="Special Rules" id="c11e-3ca9-e81e-8bd6" hidden="false">
-          <description>This is a Mercenary Battlefleet. All units in this Battlefleet gain the Crimson League and Sultanate Traits, if they do not already have them.
+        <rule name="Serpens Caput" id="d298-c076-6480-6fd3" hidden="false">
+          <description>Once per Round, when an Airborne Patrol unit in this Force makes an Attack action, and the Initial Target is in the Fore arc of all Participating models, its Admiral can reveal and discard a Victory &amp; Valour Card from their hand. 
 
 
-Alsaqr Skybarque units in this Battlefleet replace the Attachment (Turkish) property with Attachment (Crimson League).</description>
-        </rule>
-        <rule name="Enlightened Science" id="d298-c076-6480-6fd3" hidden="false">
-          <description>Whenever this Battlefleet’s Admiral Activates a Crimson League unit in their Force, they can remove a single System Failure Critical Damage Effect from one Battle-Ready model in that unit.</description>
+If they do, they add Bonus Dice equal to the Value of the card to the Action Pool.</description>
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="6a36-efdc-8d6d-9f97" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="6a36-efdc-8d6d-9f97" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="16a7-b371-8ccd-a16c"/>
           </constraints>
@@ -9272,20 +9091,26 @@ Alsaqr Skybarque units in this Battlefleet replace the Attachment (Turkish) prop
       <comment>• Hashashin Fast Skimmer (Sultanate, Egyptian, Scout)
 •Mandjet Heavy Skimmer (Sultanate, Egyptian, Line)</comment>
     </forceEntry>
-    <forceEntry name="Crimson League Mercenary Battlefleet (Mercenary)" id="2d00-df96-4ac6-0e44" hidden="false" sortIndex="4">
+    <forceEntry name="Crimson League Privateers (Main)" id="2d00-df96-4ac6-0e44" hidden="false" sortIndex="4">
       <rules>
         <rule name="Special Rules" id="c11e-3ca9-e81e-8bd6" hidden="false">
-          <description>This is a Mercenary Battlefleet. All units in this Battlefleet gain the Crimson League and Sultanate Traits, if they do not already have them.
+          <description>A Fleet Doctrine cannot be purchased for this Battlefleet’s Flagship.
 
 
-Alsaqr Skybarque units in this Battlefleet replace the Attachment (Turkish) property with Attachment (Crimson League).</description>
+All units in this Battlefleet gain the Crimson League trait.
+
+This is a Mercenary Battlefleet, and can be fielded as a Specialist Battlefleet in a Force that is created using a different ORBAT.
+
+
+When it is fielded in this way, all of its units must still be chosen from this ORBAT
+</description>
         </rule>
-        <rule name="Enlightened Science" id="e349-d476-7372-3a4f" hidden="false">
+        <rule name="Peer in Residence" id="e349-d476-7372-3a4f" hidden="false">
           <description>Whenever this Battlefleet’s Admiral Activates a Crimson League unit in their Force, they can remove a single System Failure Critical Damage Effect from one Battle-Ready model in that unit.</description>
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink name="FleetDoctrines" hidden="false" id="6a36-efdc-8d6d-9f97" targetId="eb20-a962-fc6e-ce7f">
+        <categoryLink name="Fleet Doctrines" hidden="false" id="6a36-efdc-8d6d-9f97" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="16a7-b371-8ccd-a16c"/>
           </constraints>
@@ -9332,6 +9157,10 @@ Alsaqr Skybarque units in this Battlefleet replace the Attachment (Turkish) prop
     <categoryEntry name="Crimson League" id="a16d-413b-12d5-137c" hidden="false"/>
     <categoryEntry name="Egyptian Support" id="915a-393f-3e57-2191" hidden="false"/>
     <categoryEntry name="Egyptian Line" id="5db4-a016-113b-ed41" hidden="false"/>
+    <categoryEntry name="Turkish Airborne Flagship" id="ccf5-9153-fc01-6fa0" hidden="false"/>
+    <categoryEntry name="Turkish Airborne Line" id="eabc-8c07-c1bc-d84d" hidden="false"/>
+    <categoryEntry name="Turkish Airborne Patrol" id="3a97-e4c5-067f-ab58" hidden="false"/>
+    <categoryEntry name="Turkish Airborne Support" id="9664-57a2-6c6c-dcd5" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Attachments" id="9de2-588f-dafe-da6a" hidden="false" collapsible="true">
@@ -9429,7 +9258,7 @@ Alsaqr Skybarque units in this Battlefleet replace the Attachment (Turkish) prop
                       <conditions>
                         <condition type="instanceOf" value="1" field="selections" scope="parent" childId="2251-0def-1b03-2e93" shared="true"/>
                         <condition type="instanceOf" value="1" field="selections" scope="parent" childId="a16d-413b-12d5-137c" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="2d00-df96-4ac6-0e44" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="force" childId="2d00-df96-4ac6-0e44" shared="true" includeChildSelections="true"/>
                         <condition type="instanceOf" value="1" field="selections" scope="parent" childId="139e-c78f-43c0-2957" shared="true" includeChildSelections="false"/>
                       </conditions>
                     </conditionGroup>
@@ -9641,4 +9470,36 @@ Alsaqr Skybarque units in this Battlefleet replace the Attachment (Turkish) prop
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <entryLinks>
+    <entryLink import="true" name="Lotan Myriapoda Colossus" hidden="false" id="bc47-fe39-1b34-0991" type="selectionEntry" targetId="2ea3-c1be-060c-b9ca" sortIndex="60">
+      <categoryLinks>
+        <categoryLink name="Enlightened Underwater Automata " hidden="false" id="197b-d4e4-e884-c168" targetId="2330-32fd-ec86-5236" primary="true"/>
+        <categoryLink name="Crimson League" hidden="false" id="e6a3-5196-7fab-eb5f" targetId="a16d-413b-12d5-137c" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ketos Myriapoda Colossus" hidden="false" id="a696-4a8d-e335-85d9" type="selectionEntry" targetId="048e-48e5-ad80-0e4c" sortIndex="61">
+      <categoryLinks>
+        <categoryLink name="Enlightened Underwater Automata " hidden="false" id="7a77-9702-5727-9033" targetId="2330-32fd-ec86-5236" primary="true"/>
+        <categoryLink name="Crimson League" hidden="false" id="0005-b77f-81bd-51be" targetId="a16d-413b-12d5-137c" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Praxilla Submarine " hidden="false" id="933c-69a5-1d10-d829" type="selectionEntry" targetId="89f7-18c5-81a0-11ba" sortIndex="62">
+      <categoryLinks>
+        <categoryLink name="Enlightened Underwater Automata " hidden="false" id="619f-9619-4864-ff7d" targetId="2330-32fd-ec86-5236" primary="true"/>
+        <categoryLink name="Crimson League" hidden="false" id="2f99-552c-f633-56d3" targetId="a16d-413b-12d5-137c" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Diogenes Submarine " hidden="false" id="f20b-a03e-8f74-32dc" type="selectionEntry" targetId="9e2b-dcec-3169-3523" sortIndex="63">
+      <categoryLinks>
+        <categoryLink name="Enlightened Underwater Automata " hidden="false" id="6ac4-6314-2853-1c3a" targetId="2330-32fd-ec86-5236" primary="true"/>
+        <categoryLink name="Crimson League" hidden="false" id="c311-5264-e7f9-ea05" targetId="a16d-413b-12d5-137c" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Aronnax Vermiforma Colossus" hidden="false" id="dab2-4eaa-285b-d8bc" type="selectionEntry" targetId="aae9-5aca-484c-3dec" sortIndex="64">
+      <categoryLinks>
+        <categoryLink name="Enlightened Underwater Automata " hidden="false" id="90e0-5c09-e231-b37b" targetId="2330-32fd-ec86-5236" primary="true"/>
+        <categoryLink name="Crimson League" hidden="false" id="9f79-0fec-8592-bfe7" targetId="a16d-413b-12d5-137c" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
 </catalogue>
