@@ -962,8 +962,11 @@ This must be a valid Target for the Stack, i.e. one that it could ordinarily be
     <rule name="Rail" id="1fda-a3c4-d0ae-1084" hidden="false">
       <description>In the Resolve Exploding Strikes step of the Action Roll for this Attack action, the first X Exploding Strikes cause two additional Action Dice to be rolled, instead of one.
 
+If multiple Contributing weapons have this Quality, their X values are combined.
 
-If multiple Contributing weapons have this Quality, their X values are combined.</description>
+
+*For example, the weapons Contributing to an attack have, in total, Rail (4). The initial Action Roll contains 3 Exploding Strikes, so they roll 6 additional dice (two for each Exploding Strike), scoring a further 2 Exploding Strikes. 
+They roll 3 additional dice: two for the first Exploding Strike, but only one for the second as Rail no longer applies.*</description>
     </rule>
     <rule name="Lingchi Shadow Jumpers" id="b3f7-99f4-5ad2-d5ce" hidden="false">
       <description>When this model’s unit makes a Boarding action, its Admiral can choose a Target that is within 6” of this model. 
@@ -1100,7 +1103,7 @@ If one or more dice show a Navigation Lock result, the Initial Target suffers on
 This is a Critical Damage Quality. If multiple different Critical Damage Qualities apply to an Attack, the Admiral makes a separate roll for each one.</description>
     </rule>
     <rule name="Pivot" id="8bf9-8870-f0df-edcf" hidden="false">
-      <description>This model can Pivot during its Movement step.</description>
+      <description>This model can Pivot when it Comes About during its Movement Step.</description>
     </rule>
     <rule name="Launch Range" id="db6d-821b-bacf-5ee0" hidden="false">
       <description>In the Choose SRS Mission step of an SRS Launch, a Stack containing one or more of these Tokens can only be allocated to a unit or marker that is within X” of the Carrier model from which it is being launched, instead of the normal 30”.</description>
@@ -1649,7 +1652,7 @@ If the Check is failed, the Action ends immediately and the unit counts as hav
 In addition, models with this Property can never benefit from the Raiding Parties rule.</description>
     </rule>
     <rule name="Devastating" id="ba56-0a64-ca62-488b" hidden="false">
-      <description>At the start of the Resolve Exploding Strikes step of an Attack action, each Contributing weapon with this Quality allows the active Admiral to convert up to X Heavy Strikes in the Action Roll to Exploding Strikes.
+      <description>Each Contributing weapon with this Quality allows the active Admiral to Convert up to X Heavy Strikes in the Action Roll to Exploding Strikes, immediately after rolling the dice, before beginning the Resolve Exploding Strikes step.
 
 
 *Note: this quality directly opposes the Ablative Armour (X) property. See that property for details.*</description>
@@ -2353,7 +2356,7 @@ If the Target of this Action has the Boarding Parties (X ) property, its Admira
       <alias>Lightning Raid</alias>
     </rule>
     <rule name="Ablative Armour" id="2b83-c3e8-428e-9697" hidden="false">
-      <description>When this model the Initial Target of an Attack action, Convert X Exploding Strikes in the Action Roll to Heavy Strikes at the start of the Resolve Exploding Strikes step.
+      <description>When this model the Initial Target of an Attack action, Convert X Exploding Strikes in the Action Roll to Heavy Strikes immediately after rolling the dice, before beginning the Resolve Exploding Strikes step.
 
 Sometimes, this Property will be listed for a specific Arc, e.g. Ablative Armour: Fore (3).In this case, the Property only applies if at least half of the models Participating in the Attack action are within the listed Arc of the Target Model.
 
