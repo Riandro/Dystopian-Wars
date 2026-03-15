@@ -4,7 +4,7 @@
 
 * Alliance Orbat - LAUNCH EDITION V4.00A
 * Commonwealth Orbat - LAUNCH EDITION V4.00A
-* Crown Orbat L- LAUNCH EDITION V4.01 BETA 3
+* Crown Orbat - LAUNCH EDITION V4.01 BETA 3
 * Empire Orbat v5 - old (awaiting the new Orbat that comes shortly after the starter box releases)
 * Enlightened Orbat - LAUNCH EDITION V4.00A
 * Imperium Orbat - LAUNCH EDITION V4.00A
