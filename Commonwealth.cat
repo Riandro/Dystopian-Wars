@@ -5235,7 +5235,7 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="6f79-2d72-f9d2-b051" includeChildSelections="true" includeChildForces="true" automatic="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6f79-2d72-f9d2-b051" includeChildSelections="false" includeChildForces="false" automatic="false"/>
       </constraints>
       <modifiers>
         <modifier type="set" value="2" field="6f79-2d72-f9d2-b051">
@@ -9319,92 +9319,6 @@ If the Special Valour Effect is unsuccessful, the unit does not Activate and thi
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="49a2-ff3c-4537-2bb1" includeChildSelections="true"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Piranya Hunter Submarine" hidden="true" id="d044-fa7d-7561-8069" type="selectionEntry" targetId="f5c9-7ef3-c3be-c2ac">
-          <modifiers>
-            <modifier type="set" value="1" field="2da0-76eb-c5a5-ecde">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="2" field="selections" scope="force" childId="f5c9-7ef3-c3be-c2ac" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                        <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-              <comment>Stops two attachments of self in a non mainstay force.</comment>
-            </modifier>
-            <modifier type="set" value="3" field="2da0-76eb-c5a5-ecde">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="force" childId="f5c9-7ef3-c3be-c2ac" shared="true" includeChildSelections="false" includeChildForces="false"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                        <condition type="instanceOf" value="1" field="forces" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-              <comment>Stops too many attachments of self in a mainstay force</comment>
-            </modifier>
-            <modifier type="set" value="4" field="2da0-76eb-c5a5-ecde">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="equalTo" value="2" field="selections" scope="force" childId="f5c9-7ef3-c3be-c2ac" shared="true" includeChildSelections="false"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                        <condition type="instanceOf" value="1" field="forces" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-              <comment>Stops too many attachments of self in a mainstay force part 2</comment>
-            </modifier>
-            <modifier type="add" value="be8b-fb87-de18-b1f2" field="category"/>
-            <modifier type="set" value="false" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditionGroups>
-                    <conditionGroup type="count" min="4" max="4">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="c636-bf34-4555-99bc" shared="true" includeChildSelections="false"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="8281-3830-2276-5bcd" shared="true" includeChildSelections="false"/>
-                      </conditions>
-                    </conditionGroup>
-                    <conditionGroup type="count" min="4" max="4">
-                      <conditions>
-                        <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="c636-bf34-4555-99bc" shared="true" includeChildSelections="false"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f421-3280-3483-3214" shared="true" includeChildSelections="false"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="2da0-76eb-c5a5-ecde" includeChildSelections="true" includeChildForces="false"/>
-          </constraints>
-        </entryLink>
         <entryLink import="true" name="Smok Aerial Destroyer" hidden="true" id="f12e-c773-a5a6-e97a" type="selectionEntry" targetId="4862-c367-5065-bbea">
           <modifiers>
             <modifier type="set" value="1" field="9027-378c-dfa6-96cc">
@@ -9455,6 +9369,74 @@ If the Special Valour Effect is unsuccessful, the unit does not Activate and thi
           </modifiers>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="9027-378c-dfa6-96cc" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Piranya Hunter Submarine" hidden="true" id="97d0-be0c-d32e-a25d" type="selectionEntry" targetId="f5c9-7ef3-c3be-c2ac">
+          <modifiers>
+            <modifier type="add" value="be8b-fb87-de18-b1f2" field="category"/>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditionGroups>
+                    <conditionGroup type="count" min="4" max="4">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="c636-bf34-4555-99bc" shared="true" includeChildSelections="false"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="8281-3830-2276-5bcd" shared="true" includeChildSelections="false"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="count" min="4" max="4">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="c636-bf34-4555-99bc" shared="true" includeChildSelections="false"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f421-3280-3483-3214" shared="true" includeChildSelections="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="1" field="195b-9591-cd5e-01fd">
+              <conditionGroups>
+                <conditionGroup type="count" min="2">
+                  <conditions>
+                    <condition type="atLeast" value="2" field="selections" scope="force" childId="f5c9-7ef3-c3be-c2ac" shared="true" includeChildSelections="true"/>
+                    <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Stops two attachments of self in a non mainstay force.</comment>
+            </modifier>
+            <modifier type="set" value="3" field="195b-9591-cd5e-01fd">
+              <conditionGroups>
+                <conditionGroup type="count" min="2">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="f5c9-7ef3-c3be-c2ac" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Stops too many attachments of self in a mainstay force</comment>
+            </modifier>
+            <modifier type="set" value="4" field="195b-9591-cd5e-01fd">
+              <conditionGroups>
+                <conditionGroup type="count" min="2">
+                  <conditions>
+                    <condition type="equalTo" value="2" field="selections" scope="force" childId="f5c9-7ef3-c3be-c2ac" shared="true" includeChildSelections="false"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="571e-af67-1475-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Stops too many attachments of self in a mainstay force part 2</comment>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="195b-9591-cd5e-01fd" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
         </entryLink>
       </entryLinks>
