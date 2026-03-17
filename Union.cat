@@ -1914,6 +1914,7 @@ New players keen to take on a project are more than welcome to convert their m
         <categoryLink name="Ship" hidden="false" id="055e-be50-f655-88b4" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Capital" hidden="false" id="4b2e-f87e-da57-060f" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Unique" hidden="false" id="c761-e347-93f9-04d5" targetId="4305-d7b2-6b3b-fd89" primary="false"/>
+        <categoryLink name="Attachment host" hidden="false" id="f5fe-8b17-3586-1351" targetId="2251-0def-1b03-2e93" primary="false"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e254-7f31-1b34-7e45" includeChildSelections="true" includeChildForces="true"/>
@@ -3275,9 +3276,11 @@ New players keen to take on a project are more than welcome to convert their m
       <modifiers>
         <modifier type="set" value="2" field="ef44-cd07-fa33-efb4">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="count" min="2">
               <conditions>
                 <condition type="instanceOf" value="1" field="forces" scope="force" childId="f03f-41e7-1123-2c51" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="0668-e438-3e52-a514" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="793e-7cf3-0977-1dec" shared="true" includeChildSelections="true"/>
                 <condition type="atLeast" value="1" field="selections" scope="force" childId="b1e2-5f41-5659-bdbf" shared="true" includeChildSelections="true"/>
               </conditions>
             </conditionGroup>
