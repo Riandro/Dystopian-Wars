@@ -8491,7 +8491,7 @@ with the Strategic Asset (1) property." field="info"/>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="COMBINED ARMS" hidden="true" id="4910-4cf2-b784-7b1f" sortIndex="8">
               <costs>
-                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="25"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
               <rules>
