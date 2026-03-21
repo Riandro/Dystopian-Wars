@@ -9073,33 +9073,26 @@ If they do, they add Bonus Dice equal to the Value of the card to the Action Po
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="16a7-b371-8ccd-a16c"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Egyptian Flagship" hidden="false" id="e7dc-9555-b997-d9fc" targetId="aacf-6b57-32c6-27c7">
+        <categoryLink name="Turkish Airborne Flagship" hidden="false" id="93f8-54e3-d485-458c" targetId="ccf5-9153-fc01-6fa0">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d971-a52c-f024-dedd"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb7c-bf96-28b9-6d2b"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f665-2e6f-c97a-4707"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47d2-ae0e-d180-aa43"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Egyptian Line" hidden="false" id="0880-9e5e-85e8-51a9" targetId="5db4-a016-113b-ed41">
+        <categoryLink name="Turkish Airborne Line" hidden="false" id="4b60-68bc-342c-e04c" targetId="eabc-8c07-c1bc-d84d">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5559-aa7c-48c1-532b"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f8d4-a494-4085-cf21"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="54b3-d85e-015b-811a"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7fdb-df65-850a-b32f"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Egyptian Patrol" hidden="false" id="2b84-30fe-9cb9-4b1f" targetId="19f5-ff22-407b-9bb8">
+        <categoryLink name="Turkish Airborne Patrol" hidden="false" id="da52-07cb-070c-fdf5" targetId="3a97-e4c5-067f-ab58">
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="606d-1935-27be-cac2"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="f241-0b86-96cd-bfbe"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Egyptian Support" hidden="false" id="0d2c-e1f8-414f-4d14" targetId="915a-393f-3e57-2191">
+        <categoryLink name="Turkish Airborne Support" hidden="false" id="aca1-fbb6-fb2d-5cdc" targetId="9664-57a2-6c6c-dcd5">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1b01-726e-2a57-627d"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e1ce-0e8a-c10c-6963"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Egyptian Scout" hidden="false" id="df72-ad62-7845-f974" targetId="bed0-91fe-8bd9-89ea">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7935-0312-c6c3-935b"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="19af-d6f0-8ba1-b048"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="828c-59c3-8b3f-0d18"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
