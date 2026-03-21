@@ -10224,7 +10224,7 @@ Mark the unit with a Special Effect token until the start of its next Activation
             </modifier>
             <modifier type="set" value="0" field="1f94-00c4-cf8c-350e">
               <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="force" childId="362f-81c2-86f2-8bd1" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="b17c-132b-a6cc-ed5d" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
