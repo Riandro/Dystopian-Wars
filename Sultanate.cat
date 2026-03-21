@@ -8379,11 +8379,6 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2653-a03b-d312-7a1f" includeChildSelections="false"/>
           </constraints>
           <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false" includeChildForces="false"/>
-              </conditions>
-            </modifier>
             <modifier type="set" value="0" field="89fa-eeaa-958f-ca32"/>
           </modifiers>
         </entryLink>
