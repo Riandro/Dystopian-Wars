@@ -5026,7 +5026,7 @@
             <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">3</characteristic>
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">2&quot;-7&quot;</characteristic>
             <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">2</characteristic>
-            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">3</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">4</characteristic>
             <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
             <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">9</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
