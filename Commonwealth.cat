@@ -8746,7 +8746,7 @@ If successful, any Exploding Strikes in the Resistance Roll are immediately Conv
                         <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
                         <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="f625-fe99-41c1-ff3d" shared="true"/>
                         <condition type="atLeast" value="1" field="selections" scope="1de0-514e-5b56-0c84" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="1de0-514e-5b56-0c84" childId="4b7e-c78d-b9be-8d7c" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="1de0-514e-5b56-0c84" childId="f625-fe99-41c1-ff3d" shared="true" childName="Polish-Lithuanian"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
