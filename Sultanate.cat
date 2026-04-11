@@ -9334,9 +9334,10 @@ When it is fielded in this way, all of its units must still be chosen from this 
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="aacf-6b57-32c6-27c7" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="0ec6-f5c8-25d7-89d8" shared="true" childName="Flagship"/>
                     <condition type="instanceOf" value="1" field="selections" scope="parent" childId="2251-0def-1b03-2e93" shared="true"/>
                     <condition type="instanceOf" value="1" field="selections" scope="parent" childId="4b7e-c78d-b9be-8d7c" shared="true" includeChildSelections="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="8715-aab6-1878-9c12" shared="true" childName="Egyptian"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
