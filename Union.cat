@@ -2219,7 +2219,7 @@ New players keen to take on a project are more than welcome to convert their m
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="USS Rio Grande" hidden="false" id="0668-e438-3e52-a514" sortIndex="13">
+    <selectionEntry type="unit" import="true" name="USS Rio Grande, Independance-Class Battlecruiser" hidden="false" id="0668-e438-3e52-a514" sortIndex="13">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="USS Rio Grande, Independence-Class Battlecruiser" hidden="false" id="7fbf-2385-1742-5bd3" sortIndex="1">
           <constraints>
