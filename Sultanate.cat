@@ -8983,6 +8983,11 @@ This can only be done if there is at least one friendly model on the Play Area 
                 <repeat value="1" repeats="1" field="selections" scope="force" childId="7d26-2409-950b-5133" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
             </modifier>
+            <modifier type="increment" value="1" field="0245-5793-e620-885b">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="868b-bd95-8fd8-15a7" shared="true" roundUp="false" includeChildSelections="true" childName="Alsaqr Skybarque"/>
+              </repeats>
+            </modifier>
           </modifiers>
         </categoryLink>
         <categoryLink name="Underwater" hidden="false" id="7ad8-45ac-cbcd-dd39" targetId="c636-bf34-4555-99bc">
@@ -9215,6 +9220,7 @@ When it is fielded in this way, all of its units must still be chosen from this 
               </conditionGroups>
               <comment>Stops too many attachments of self in a mainstay force part 2</comment>
             </modifier>
+            <modifier type="remove" value="ae99-8ab0-27f0-7bb6" field="category"/>
           </modifiers>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="de0e-ac88-616f-de90" includeChildSelections="true" includeChildForces="true"/>
@@ -9238,6 +9244,7 @@ When it is fielded in this way, all of its units must still be chosen from this 
                 <condition type="atLeast" value="2" field="selections" scope="force" childId="ebcb-60ea-4307-1ee1" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
+            <modifier type="remove" value="28fc-32cc-7e9c-28b4" field="category"/>
           </modifiers>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="f306-fc75-e304-c68c" includeChildSelections="true" includeChildForces="false"/>
@@ -9300,7 +9307,7 @@ When it is fielded in this way, all of its units must still be chosen from this 
               </conditionGroups>
               <comment>Stops too many attachments of self in a mainstay force part 2</comment>
             </modifier>
-            <modifier type="add" value="7d26-2409-950b-5133" field="category"/>
+            <modifier type="remove" value="be0c-d486-6fa7-ce3b" field="category"/>
           </modifiers>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="ff24-f440-00ed-f48b" includeChildSelections="true" includeChildForces="false"/>
@@ -9323,6 +9330,7 @@ When it is fielded in this way, all of its units must still be chosen from this 
                 <condition type="atLeast" value="2" field="selections" scope="force" childId="e701-d670-f7e3-cdb8" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
+            <modifier type="remove" value="1711-6069-af06-c5cc" field="category"/>
           </modifiers>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="9bdf-f575-803e-37be" includeChildSelections="true" includeChildForces="false"/>
@@ -9373,6 +9381,7 @@ When it is fielded in this way, all of its units must still be chosen from this 
               </conditionGroups>
               <comment>Stops too many attachments of self in a mainstay force part 2</comment>
             </modifier>
+            <modifier type="remove" value="28fc-32cc-7e9c-28b4" field="category"/>
           </modifiers>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="3d8f-a768-acfd-29a2" includeChildSelections="true" includeChildForces="true"/>
@@ -9396,6 +9405,7 @@ When it is fielded in this way, all of its units must still be chosen from this 
                 <condition type="atLeast" value="2" field="selections" scope="force" childId="e984-6a59-96d9-a067" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
+            <modifier type="remove" value="366f-016b-5f80-0c09" field="category"/>
           </modifiers>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="c320-5ff3-c074-9f84" includeChildSelections="true" includeChildForces="false"/>
@@ -9418,6 +9428,7 @@ When it is fielded in this way, all of its units must still be chosen from this 
                 <condition type="atLeast" value="2" field="selections" scope="force" childId="5a56-e81b-c273-6f39" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
+            <modifier type="remove" value="366f-016b-5f80-0c09" field="category"/>
           </modifiers>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="30fd-bd19-b2cf-a612" includeChildSelections="true" includeChildForces="false"/>
@@ -9441,6 +9452,7 @@ When it is fielded in this way, all of its units must still be chosen from this 
                 <condition type="atLeast" value="2" field="selections" scope="force" childId="9447-d3c6-8c99-2dc2" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
+            <modifier type="remove" value="366f-016b-5f80-0c09" field="category"/>
           </modifiers>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="5f8a-5d23-13cc-7b3d" includeChildSelections="true" includeChildForces="false"/>
@@ -9491,6 +9503,7 @@ When it is fielded in this way, all of its units must still be chosen from this 
               </conditionGroups>
               <comment>Stops too many attachments of self in a mainstay force part 2</comment>
             </modifier>
+            <modifier type="remove" value="be0c-d486-6fa7-ce3b" field="category"/>
           </modifiers>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="fee0-501d-0ea8-4db7" includeChildSelections="true" includeChildForces="false"/>
