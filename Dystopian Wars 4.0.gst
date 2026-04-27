@@ -98,6 +98,8 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
     <categoryEntry name="NoMirage" id="e297-c3e1-459d-8413" hidden="true"/>
     <categoryEntry name="NoInterphase" id="76e0-cc70-4f0e-a931" hidden="true"/>
     <categoryEntry name="NoMagnetic" id="f114-4bae-9e5b-c9fd" hidden="true"/>
+    <categoryEntry name="Magmafleet" id="7cb7-ba18-609f-2720" hidden="false"/>
+    <categoryEntry name="Attachment" id="f152-70a0-da07-33cd" hidden="false"/>
   </categoryEntries>
   <profileTypes>
     <profileType name="Model" id="9251-e433-d856-630b" hidden="false" sortIndex="1">
@@ -118,35 +120,35 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
     </profileType>
     <profileType name="Properties" id="7d8a-def1-ca09-d15c" hidden="false" sortIndex="4">
       <characteristicTypes>
-        <characteristicType name="Properties" id="066c-1ce6-091e-90ab"/>
+        <characteristicType name="Properties" id="066c-1ce6-091e-90ab" kind="longText"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Systems" id="72b1-e351-6742-457c" hidden="false" sortIndex="5">
       <characteristicTypes>
-        <characteristicType name="Systems" id="a14c-99af-eb72-2d3d"/>
+        <characteristicType name="Systems" id="a14c-99af-eb72-2d3d" kind="longText"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Weapons" id="9882-7112-4aa5-ffc1" hidden="false" sortIndex="2">
+    <profileType name="Weapons" id="9882-7112-4aa5-ffc1" hidden="false" sortIndex="2" kind="weapon">
       <characteristicTypes>
-        <characteristicType name="Arc" id="7e1f-87c9-897e-937b"/>
-        <characteristicType name="Close (0&quot;-10&quot;)" id="ac67-65a3-a5fa-bc21"/>
-        <characteristicType name="Standard (10&quot;- 30&quot;)" id="0cf7-57e2-ee10-3769"/>
-        <characteristicType name="Extreme (+30&quot;)" id="0ec8-d023-bf39-bb55"/>
-        <characteristicType name="Qualities" id="0089-722e-2cab-3357"/>
+        <characteristicType name="Arc" id="7e1f-87c9-897e-937b" kind="annotation"/>
+        <characteristicType name="Close (0&quot;-10&quot;)" id="ac67-65a3-a5fa-bc21" kind="annotation"/>
+        <characteristicType name="Standard (10&quot;- 30&quot;)" id="0cf7-57e2-ee10-3769" kind="annotation"/>
+        <characteristicType name="Extreme (+30&quot;)" id="0ec8-d023-bf39-bb55" kind="annotation"/>
+        <characteristicType name="Qualities" id="0089-722e-2cab-3357" kind="longText"/>
       </characteristicTypes>
       <comment>1</comment>
     </profileType>
     <profileType name="Generator" id="ac97-8b63-0528-d2b2" hidden="false" sortIndex="6"/>
-    <profileType name="Short Range Squadrons" id="ff20-fe28-72d8-b2fa" hidden="false">
+    <profileType name="Short Range Squadrons" id="ff20-fe28-72d8-b2fa" hidden="false" kind="weapon">
       <characteristicTypes>
-        <characteristicType name="ATK" id="1727-4f83-903e-a65d"/>
-        <characteristicType name="INT" id="6e75-0f84-3c4c-88ad"/>
-        <characteristicType name="SPT" id="c7cb-4c98-b625-1f98"/>
-        <characteristicType name="RES" id="890b-70a9-65a7-5e2a"/>
-        <characteristicType name="PROPERTIES" id="65e4-97a8-7a12-c50a"/>
+        <characteristicType name="ATK" id="1727-4f83-903e-a65d" kind="annotation"/>
+        <characteristicType name="INT" id="6e75-0f84-3c4c-88ad" kind="annotation"/>
+        <characteristicType name="SPT" id="c7cb-4c98-b625-1f98" kind="annotation"/>
+        <characteristicType name="RES" id="890b-70a9-65a7-5e2a" kind="annotation"/>
+        <characteristicType name="PROPERTIES" id="65e4-97a8-7a12-c50a" kind="longText"/>
       </characteristicTypes>
       <attributeTypes>
-        <attributeType name="SRS Properties" id="fe63-ead3-74ce-fd34"/>
+        <attributeType name="SRS Properties" id="fe63-ead3-74ce-fd34" kind="longText"/>
       </attributeTypes>
     </profileType>
   </profileTypes>
@@ -339,7 +341,7 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Great Wall Generator" hidden="true" id="0b42-df31-a12f-d63a">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <profiles>
@@ -552,6 +554,39 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0cb4-7e8d-e7bb-b8a5"/>
           </constraints>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Magma Cast Generator" hidden="true" id="5d1a-3cd0-08ef-0de2">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="35"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b839-7d9d-6209-14c0" includeChildSelections="true" automatic="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4711-0797-2f05-dff9" includeChildSelections="false" automatic="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="append" value="Magma Cast Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="profiles.Systems" join=", "/>
+            <modifier type="set" value="45" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7cb7-ba18-609f-2720" shared="true" childName="Magmafleet"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="d3bc-76cc-5efc-b06e" shared="true" childName="Empire"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="count" min="2" max="2">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="7cb7-ba18-609f-2720" shared="true" childName="Magmafleet"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="3658-a9c4-c9e8-2734" shared="true" childName="MagmaGen"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
       <constraints>
         <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3b0d-a4dc-9372-b417" includeChildSelections="true" automatic="false"/>
@@ -693,6 +728,21 @@ This can be used to allow the unit to launch a Boarding action when it could not
           <conditions>
             <condition type="lessThan" value="2" field="selections" scope="parent" childId="bd6e-dbef-4baf-e017" shared="true" includeChildSelections="true"/>
           </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f152-70a0-da07-33cd" shared="true" childName="Attachment"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="5" field="89fa-eeaa-958f-ca32">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="e0c9-e3ca-71cb-bb86" shared="true" includeChildSelections="true" childName="Chita-Swarm Battlefleet (Main)"/>
+                <condition type="lessThan" value="1" field="selections" scope="parent" childId="bd6e-dbef-4baf-e017" shared="true" childName="Escorts"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -1549,7 +1599,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="ATK" typeId="1727-4f83-903e-a65d">2</characteristic>
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">3</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
-        <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">2</characteristic>
+        <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Surgical Strike (Hazard)</characteristic>
       </characteristics>
       <attributes>
@@ -1645,7 +1695,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="ATK" typeId="1727-4f83-903e-a65d">4</characteristic>
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">3</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
-        <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">4</characteristic>
+        <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">5</characteristic>
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Exo-Sub, Offensive, Superior Mine Clearance</characteristic>
       </characteristics>
       <attributes>
