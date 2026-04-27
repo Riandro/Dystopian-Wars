@@ -10421,6 +10421,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="ca55-6b19-f5b7-eb08" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="8448-c24a-3124-99f1" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Hermes Supply Freighter" hidden="true" id="bf10-a435-b698-6bf9" type="selectionEntry" targetId="c07b-1d40-585b-f1f4">
           <modifiers>
@@ -10443,6 +10446,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="5baa-6f6e-25a5-1853" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="6177-53c3-da99-4d45" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Alma Levant Support Cruiser" hidden="true" id="3508-ce47-dd0e-7659" type="selectionEntry" targetId="c9ca-524e-c4f4-bf45">
           <modifiers>
@@ -10467,6 +10473,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="4e51-8343-483f-bec1" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="cf53-517e-79d7-f9c0" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Springfield Corvette" hidden="true" id="7fd1-f364-11ea-e446" type="selectionEntry" targetId="8ec8-af54-ec17-b491">
           <modifiers>
@@ -10517,6 +10526,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="3421-7f4d-012b-6818" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="fb43-cea6-7695-9e36" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Furieux Levant Grand Corvette" hidden="true" id="eaac-8ff3-8f96-83c1" type="selectionEntry" targetId="be63-00c8-a3cc-f979">
           <modifiers>
@@ -10542,6 +10554,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="c04d-b529-c395-888a" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="8d88-142f-abcc-45ee" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Ecuyere Frigate" hidden="true" id="e9da-a86d-20f8-bda3" type="selectionEntry" targetId="bc7b-99ba-cdcc-f83c">
           <constraints>
@@ -10592,6 +10607,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
               <comment>Stops too many attachments of self in a mainstay force part 2</comment>
             </modifier>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="611a-3ad4-c5e0-0177" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Offshore Defence Platform" hidden="true" id="a963-d4ae-91c1-4925" type="selectionEntry" targetId="ef33-b694-9317-97b2">
           <modifiers>
@@ -10615,6 +10633,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="07e2-9b81-7065-4a89" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="04e8-f666-cbbb-52e2" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Honneur Levant Destroyer" hidden="true" id="3da0-2b3c-8efb-487b" type="selectionEntry" targetId="49c6-d44f-5692-59ac">
           <modifiers>
@@ -10667,6 +10688,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="f102-33c5-443c-181b" includeChildSelections="true"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="645b-8dff-4fef-c6ab" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Pugio Destroyer" hidden="true" id="5433-e126-41ae-18d4" type="selectionEntry" targetId="fc05-5064-922e-6294">
           <modifiers>
@@ -10718,6 +10742,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="bb1d-f428-36e9-a143" includeChildSelections="true"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="60d9-5500-5776-d0f7" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
       </entryLinks>
       <constraints>

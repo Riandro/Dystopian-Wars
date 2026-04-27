@@ -9219,6 +9219,9 @@ When it is fielded in this way, all of its units must still be chosen from this 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="de0e-ac88-616f-de90" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="6c4c-2e42-637a-0c7c" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Pasha Light Cruiser" hidden="true" id="ebcb-60ea-4307-1ee1" type="selectionEntry" targetId="0169-7a1c-76ff-6067">
           <modifiers>
@@ -9242,6 +9245,9 @@ When it is fielded in this way, all of its units must still be chosen from this 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="f306-fc75-e304-c68c" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="d82b-5a79-f3ef-d0de" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Alsaqr Skybarque" hidden="true" id="868b-bd95-8fd8-15a7" type="selectionEntry" targetId="e32f-1b71-5656-2934">
           <modifiers>
@@ -9305,6 +9311,9 @@ When it is fielded in this way, all of its units must still be chosen from this 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="ff24-f440-00ed-f48b" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="d85a-ab3e-cf0e-41a2" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Offshore Defence Platform" hidden="true" id="e701-d670-f7e3-cdb8" type="selectionEntry" targetId="a46d-cc49-c9d7-8298">
           <modifiers>
@@ -9327,6 +9336,9 @@ When it is fielded in this way, all of its units must still be chosen from this 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="9bdf-f575-803e-37be" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="d3e8-db03-20b1-46d2" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Hashashin Fast Skimmer" hidden="true" id="dc48-968e-bace-1683" type="selectionEntry" targetId="bdd7-118d-c2c6-32ec">
           <modifiers>
@@ -9378,6 +9390,9 @@ When it is fielded in this way, all of its units must still be chosen from this 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="3d8f-a768-acfd-29a2" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="43d7-29cf-cb8e-82ec" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Aydin Supply Ship" hidden="true" id="e984-6a59-96d9-a067" type="selectionEntry" targetId="e601-82cf-84e6-9d27">
           <modifiers>
@@ -9401,6 +9416,9 @@ When it is fielded in this way, all of its units must still be chosen from this 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="c320-5ff3-c074-9f84" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="6517-a017-37b9-e60d" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Hermes Supply Freighter" hidden="true" id="5a56-e81b-c273-6f39" type="selectionEntry" targetId="7810-9697-0e6e-5e38">
           <modifiers>
@@ -9423,6 +9441,9 @@ When it is fielded in this way, all of its units must still be chosen from this 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="30fd-bd19-b2cf-a612" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="997a-37d6-52f6-2537" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Konya Maintenance Ship" hidden="true" id="9447-d3c6-8c99-2dc2" type="selectionEntry" targetId="ae6b-1d4b-7cdc-2770">
           <modifiers>
@@ -9446,6 +9467,9 @@ When it is fielded in this way, all of its units must still be chosen from this 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="5f8a-5d23-13cc-7b3d" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="2cf1-5f1f-7042-8dfd" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Temir Frigate" hidden="true" id="e960-65fc-f845-42c5" type="selectionEntry" targetId="89e5-e484-0961-7559">
           <modifiers>
@@ -9496,6 +9520,9 @@ When it is fielded in this way, all of its units must still be chosen from this 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="fee0-501d-0ea8-4db7" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="0de1-c131-6a28-d39f" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>

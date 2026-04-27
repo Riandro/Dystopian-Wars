@@ -537,30 +537,44 @@ The Iceberg’s Mass is increased by 1 for each Success, up to a maximum Mass o
     <rule name="Great Wall Generator" id="e0e8-beca-e662-2231" hidden="false">
       <description>This is a Generator.
 
-While this model is within 5” of another friendly model that has the same Positional Trait and a Great Wall Generator,an Energy Wall is generated, connecting the two models. 
+GREAT WALL NETWORKS
+While a model with a Great Wall Generator is within 7” of another friendly model that also has a Great Wall Generator and the same Positional Trait, an Energy Wall is generated between the two models. 
 
 
-This takes the form of a straight line, drawn between the Centre Points of the two models, and has a Strength equal to the highest Mass rating of the two models.
+This takes the form of a straight line, drawn between the Centre Points of the two models.
 
 
-A single model can generate multiple Energy Walls, provided it is within 5” of multiple eligible models. 
+Multiple models with Great Wall Generators can be connected to one another in a Great Wall Network. The number of models in a Great Wall Network determines the entire Wall’s Strength. The maximum Wall Strength achievable by a single Great Wall Network is equal to the highest Mass rating of any model connected to it. 
 
 
-Whenever an enemy unit makes an Attack action, trace a straight line from the Centre Point of each Participating Model to the Centre Point of the Initial Target. For each line that passes through an Energy Wall, add Bonus Dice equal to the Energy Wall’s Strength to the Resistance Roll.
+A single model can generate multiple Energy Walls, provided it is within 7” of multiple eligible models. 
+
+Whenever an enemy unit makes an Attack action, trace a straight line from the Centre Point of each Participating model to the Centre Point of the Initial Target. 
 
 
-Energy Walls that are connected to the Initial Target are disregarded. If the line passes through multiple Energy Walls, the Energy Wall with the highest Strength is
-counted. 
+For each line that passes through an Energy Wall, or that targets a model which is itself generating an Energy Wall, add a number of Standard Counters equal to the Energy Wall’s Strength to the Resistance Roll. If the Energy Wall is being generated by models of a different Positional Trait to the Initial Target, they provide no benefit.
 
-Attack actions made with &lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Assault&lt;/span&gt;, &lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Bomb&lt;/span&gt;, or &lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt; Weapons ignore Energy Walls.</description>
+
+If the line passes through multiple Energy Walls, the Energy Wall with the highest Strength is counted.
+
+
+Attack actions made with &lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Assault&lt;/span&gt;, &lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Bomb&lt;/span&gt;, or &lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt; Weapons  or weapons with the Indirect quality, ignore Energy Walls.
+
+
+*Note: the effects of a Great Wall Generator cannot be shared via the Generator Ship property. 
+A model must actually have a Great Wall Generator to create an Energy Wall! 
+Additionally, a model carrying a Great Wall Generator does not get any additional standard counters unless there is at least one other model in its Great Wall Network.*</description>
     </rule>
     <rule name="Magma Cast Generator" id="37db-427a-0ea2-0ebf" hidden="false">
       <description>This is a Generator.
 
-This model’s unit can make a Magma Sear Special Action.
+MAGMA FORMATIONS
 
-A Magma Sear is a Special Action which can be made by any unit that contains at least one model with a Magma Cast Generator system.
 
+A Magma Formation is a special type of Terrain Feature.
+Magma Formations follow the rules for Icebergs (see page 120 of the Dystopian Wars rulebook) but are treated as having an Armour rating of 5 instead of 3.
+
+MAGMA SEAR ACTIONS
 
 When a unit makes a Magma Sear action, its Admiral uses the following process.
 
@@ -570,76 +584,64 @@ The Admiral nominates any number of models in the active unit that will Partici
 
 
 2. MAKE THE MAGMA SEAR ROLL
-The active Admiral rolls a number of Action Dice equal to the number of Participating models. Then, they choose one die, and discard the others. This die will determine the Magma Mass rating and Eruption Range, which are used in the following steps.
-
-
-If all of the dice result in Blanks, the action ends immediately.
-
+The active Admiral rolls a number of Action Dice equal to the number of Participating models. If any of the Participating models have the Capital trait, roll 1 additional die.
+Then, they choose one die, and discard the others. This die determines the Magma Mass rating and Magma Eruption effects, which are used in the following steps.
+If all of the dice result in Blanks, the action ends immediately.
 
 &lt;table&gt;&lt;tbody&gt;
   &lt;tr&gt;
     &lt;td&gt;ACTION&lt;br&gt;DICE&lt;/td&gt;
     &lt;td&gt;MAGMA&lt;br&gt;MASS&lt;/td&gt;
-    &lt;td&gt;ERUPTION&lt;br&gt;RANGE&lt;/td&gt;
+    &lt;td&gt;MAGMA&lt;br&gt;ERUPTION&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;Exploding Strike&lt;br&gt;&lt;/td&gt;
     &lt;td&gt;Mass1 or Mass 2&lt;/td&gt;
-    &lt;td&gt;30&quot;&lt;/td&gt;
+    &lt;td&gt;1 Damage and 1 Disorder&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;Standard/Heavy Strike&lt;/td&gt;
     &lt;td&gt;Mass 1&lt;/td&gt;
-    &lt;td&gt;20&quot;&lt;/td&gt;
+    &lt;td&gt;1 Damage and 1 Disorder&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;Standard/Heavy Counter&lt;/td&gt;
     &lt;td&gt;Mass 1&lt;/td&gt;
-    &lt;td&gt;10&quot;&lt;/td&gt;
+    &lt;td&gt;1 Disorder&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-
 
 3. CREATE OR EXPAND A MAGMA FORMATION
 The active Admiral chooses one of the following options:
 
 
 CREATE NEW MAGMA FORMATION
-The Admiral places a Magma Formation in the Play Area. 
-It must have a Mass rating value that matches the Magma Mass rating, and it must be placed so that it is within the Eruption Range of at least one Participating model.
+The Admiral places a Magma Formation in the Play Area. It must have a Mass rating value that matches the Magma Mass rating, as determined by the Magma Sear Roll, and it must be placed so that it is within 15” of at least one Participating model.
+A Magma Formation cannot be placed in contact with another Terrain feature, or within 1” of a model or marker.
 
-
-A Magma Formation cannot be placed in contact with another Terrain feature, a model or a marker. 
 
 EXPAND EXISTING MAGMA FORMATION
-The admiral chooses an existing Magma Formation that is within the Eruption Range of at least one Participating model.
+The admiral chooses an existing Magma Formation that is within 15” of at least one Participating model. That Formation’s Mass is increased by the Magma Mass rating, to a maximum of 4.
 
 
-That Formation’s Mass is increased by the Magma Mass rating, to a maximum of 4. 
+(*For example, if an Exploding Strike was chosen in Step 2, a Mass 1 Magma Formation could be expanded to Mass 3, or a Mass 2 or Mass 3 Magma Formation could be expanded to Mass 4.*)
+
+*We recommend replacing the original Magma Formation with a larger one of the appropriate size. 
+When doing so, the new, expanded, Magma Formation should be placed so that the original Magma Formation would have been wholly within it.
 
 
+It cannot be placed in contact with any other Terrain Feature, model or Marker.
+If the larger Formation cannot be placed following these stipulations, then simply resolve the following Magma Eruption with the largest Magma Formation that can fit in the space.*
 
 
 4. RESOLVE MAGMA ERUPTIONS
-Each model (friend or foe) that is within Proximity of the Magma Formation that was Created or Expanded is targeted by a Magma Eruption.
-The active Admiral makes a single Action Roll, with no Resistance Roll. The Resolve Outcomes step is resolved separately for each target model. 
+Each model (friend or foe) within a number of inches equal to the Mass of the newly Created or Expanded Magma Formation becomes the Target of a Magma Eruption.
 
 
-&lt;table&gt;&lt;tbody&gt;
-  &lt;tr&gt;
-    &lt;td&gt;ACTION&lt;br&gt;POOL&lt;/td&gt;
-    &lt;td&gt;6 Action Dice, plus additional dice equal to the Mass of the Magma Formation. &lt;br&gt;For example, if the Magma Formation has a Mass of 3, the Action Pool consists of 9 dice.&lt;br&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;SUCCESS&lt;br&gt;THRESHOLD&lt;/td&gt;
-    &lt;td&gt;The Armour rating of the Target Model.&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+Each Target suffers the effects listed in the Magma Eruption column, based on the original Magma Sear roll.
 
-
-Each Target Model suffers 1 Damage for each Success scored in its Resolve Outcomes step. Any model that suffers at least 1 Damage also gains a level of Disorder and a Structural Failure Critical Damage Effect.</description>
+(*For example, an Exploding Strike was chosen in Step 2, and it was used to expand a Magma Formation to Mass 4. Each model within 4” of that Formation suffers 1 Damage and 1 Disorder.*)</description>
     </rule>
     <rule name="Power Transfer Generator" id="dda6-bda3-beba-cf21" hidden="false">
       <description>This is a Generator.
@@ -2466,32 +2468,41 @@ When this model is the Target of a Broadside action, the opposing Admiral adds 
 If this model is Destroyed, replace it with four Wreck markers. The first is positioned over the Centre Point of the model. This model’s Admiral then places the remaining three Markers, so that each is within 1” of the first, and none are in contact with any Markers, models, or Terrain Features. Any Markers that cannot be placed in accordance with these rules are not placed.</description>
     </rule>
     <rule name="Interphase Generator" id="594f-ba0c-7dbe-968c" hidden="false">
-      <description>This is a Generator. 
-Its effect cannot be conferred to another unit via the Generator Ship property.
-
-If every model in a unit has an Interphase Generator, its Admiral can declare that it will Interphase at the end of its Consolidation Step. Mark the unit with a Special Effect token.
+      <description>INTERPHASING
 
 
-All of the models in the unit are Interphasing until the start of the unit’s next Action Step.
-In the next Round, the Admiral must Activate any Interphasing units in their Force before they activate any units that are not Interphasing.
+If at least half the models in a unit have an Interphase Generator, its Admiral can declare that it will Interphase at the end of its Consolidation Step. 
 
 
-An Interphasing model cannot be targeted by any Actions, rules or effects, and cannot gain Damage, Critical Damage or Disorder by any means. It cannot Block Visibility (though it can still Obscure it as normal) and any Properties and Systems it may have other than Interphase Generator are ignored. 
+Mark the unit with a Special Effect token. All of the models in the unit are Interphasing until the start of the unit’s next Action Step. 
 
 
-Surface models can Pass Through an Interphasing model, but if they do so, they gain 1 level of Disorder. 
+In the subsequent Round, an Admiral must Activate any Interphasing units in their Force before they activate any units that are not Interphasing.
 
 
-In an Interphasing unit’s Movement Step, each model’s Maximum Speed rating is doubled, they treat all Terrain Features and Environmental Features as Open Water, can Pass Through all other models, and are unaffected by Markers of any kind. 
+An Interphasing model cannot be targeted by any Actions, rules or effects, and cannot gain Damage, Critical Damage or Disorder by any means. It cannot Block Visibility (though it can still Obscure it as normal) and any Properties and Systems it may have other than Interphase Generator are ignored. 
 
 
-They cannot Come About, but at the end of the move they can freely rotate around their Centre Point to face any direction. No model can end its move in contact with a Terrain Feature, model or Marker. 
+Surface models can Pass Through an Interphasing model, but if they do so, they gain 1 level of Disorder.
 
 
-At the end of the Movement Step, the Special Effect token is removed, and each other model, friend or foe, that one or more models in the active unit Passed Through gains 1 level of Disorder.
+In an Interphasing unit’s Movement Step, each model’s Maximum Speed rating is doubled, they treat all Terrain Features and Environmental Features as Open Water, they
+can Pass Through all other models, and are unaffected by Markers of any kind. 
 
-In the subsequent Action Step, the unit’s Action Limit is reduced to 1.
-It cannot Interphase again in its Consolidation step if it was Interphased at the start of its Activation.</description>
+
+They cannot Come About, but at the end of the move they can freely rotate around their Centre Point to face any direction. 
+
+
+No model can end its move in contact with a Terrain Feature, model or Marker. 
+
+
+At the end of the Movement Step, the Special Effect token is removed, and each other model, friend or foe, that one or more models in the active unit Passed Through gains 1 level of Disorder.
+
+
+In the subsequent Action Step, the unit’s Action Limit is reduced to 1.
+
+
+It cannot Interphase again in its Consolidation step if it was Interphased at the start of its Activation.</description>
     </rule>
     <rule name="Repair Facilities" id="1ae1-f503-9b3e-2108" hidden="false">
       <description>Models within 4” of at least one friendly model with this System are in Repair Range, as long as they share the same Positional Trait. 

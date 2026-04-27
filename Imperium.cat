@@ -9502,6 +9502,9 @@ All units in this Battlefleet gain the Scions of Jutland trait, if they do not 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="f58f-f575-3c47-3d4f" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="64b7-027a-ed3f-ecf5" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Ferdinand Advanced Cruiser" hidden="true" id="52e1-df88-8389-8b81" type="selectionEntry" targetId="301f-bdae-96c8-af75">
           <modifiers>
@@ -9525,6 +9528,9 @@ All units in this Battlefleet gain the Scions of Jutland trait, if they do not 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="c652-e815-8cb0-cf55" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="6359-4b9b-60d9-093d" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Hoth Corvette" hidden="true" id="9731-a962-aa4b-9bff" type="selectionEntry" targetId="aa93-8a8d-c4c8-cf2d">
           <modifiers>
@@ -9551,6 +9557,9 @@ All units in this Battlefleet gain the Scions of Jutland trait, if they do not 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="2b11-6c57-3b14-0826" includeChildSelections="true" includeChildForces="false" automatic="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="0050-ddc4-d8f6-0edf" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Reiter Flak Cruiser" hidden="true" id="1c9f-d0fc-b236-9742" type="selectionEntry" targetId="a36c-1750-0002-2ec6">
           <modifiers>
@@ -9574,6 +9583,9 @@ All units in this Battlefleet gain the Scions of Jutland trait, if they do not 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="8f72-d610-c75e-49ee" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="777f-afe3-b4f4-c72c" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Sigimer Destroyer" hidden="true" id="e3b1-d343-f348-9d52" type="selectionEntry" targetId="b2da-d5d8-bd04-256d">
           <modifiers>
@@ -9597,6 +9609,9 @@ All units in this Battlefleet gain the Scions of Jutland trait, if they do not 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="1030-7e57-94f0-a629" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="464e-5d55-ea86-5394" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Valkyrie Hunt Rotor" hidden="true" id="3827-6cc3-2f3b-0da3" type="selectionEntry" targetId="8090-1673-23da-d363">
           <modifiers>
@@ -9664,6 +9679,9 @@ All units in this Battlefleet gain the Scions of Jutland trait, if they do not 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="0064-f491-b2e4-913c" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="35f7-0bb5-1247-127d" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Konrad Support Carrier" hidden="true" id="5a0f-2a01-3116-ffbf" type="selectionEntry" targetId="2b54-189e-fb9a-13a7">
           <modifiers>
@@ -9687,6 +9705,9 @@ All units in this Battlefleet gain the Scions of Jutland trait, if they do not 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="ea52-3423-8ad9-5a58" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="9574-b34e-5d4e-5515" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Schaumburg Escort Cruiser" hidden="true" id="2502-e081-2192-105d" type="selectionEntry" targetId="1585-e892-6530-1e3d">
           <modifiers>
@@ -9710,6 +9731,9 @@ All units in this Battlefleet gain the Scions of Jutland trait, if they do not 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="1c14-0c93-af3f-f48c" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="c4ce-814a-7b7d-2634" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Offshore Defence Platform" hidden="true" id="c6e7-9210-1f70-3dfa" type="selectionEntry" targetId="280b-2169-a24b-9bb5">
           <modifiers>
@@ -9733,6 +9757,9 @@ All units in this Battlefleet gain the Scions of Jutland trait, if they do not 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="8e54-c8a4-4093-9921" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="bf0f-7e12-634b-af1f" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Hermes Supply Freighter" hidden="true" id="ed1b-822b-4372-f009" type="selectionEntry" targetId="fa4c-1c70-0fc3-3efa">
           <modifiers>
@@ -9755,6 +9782,9 @@ All units in this Battlefleet gain the Scions of Jutland trait, if they do not 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="af96-5073-2575-2a85" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="f8ca-ea22-ff47-71f9" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Gefjon Merchantman" hidden="true" id="4f31-8960-f248-f9b8" type="selectionEntry" targetId="3649-5fe8-f142-326c">
           <modifiers>
@@ -9804,6 +9834,9 @@ All units in this Battlefleet gain the Scions of Jutland trait, if they do not 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="1026-5830-a495-5d94" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="b5c8-ac7a-8b1f-d98c" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
       </entryLinks>
       <constraints>

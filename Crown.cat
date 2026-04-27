@@ -9012,6 +9012,9 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
               <comment>Stops too many attachments of self in a mainstay force part 2</comment>
             </modifier>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="af50-4fa8-2e1c-c4a4" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Devaki Monitor" hidden="true" id="e9d3-1304-db24-427f" type="selectionEntry" targetId="7582-6ea4-08c6-bb9e">
           <modifiers>
@@ -9034,6 +9037,9 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="50ad-e96b-f082-d486" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="bb87-07fb-fdbc-6e12" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Tintagel Battle Rotor" hidden="true" id="91c7-1a3c-0bc7-da3b" type="selectionEntry" targetId="ecd0-e2c0-9abe-52d9">
           <modifiers>
@@ -9057,6 +9063,9 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="d266-a3a6-856d-4a97" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="6c90-f25f-327b-e92c" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Athelstan Flak Cruiser" hidden="true" id="7501-b032-d2a6-3cbe" type="selectionEntry" targetId="ce16-8cce-d3d2-3dd2">
           <modifiers>
@@ -9080,6 +9089,9 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="d297-dcdb-e2f0-db95" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="99cb-2eb9-d4ad-19d9" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Ceylon Guardian Platform" hidden="true" id="1c8b-8139-66d2-e530" type="selectionEntry" targetId="fcad-0e81-3f0b-8c80">
           <modifiers>
@@ -9143,6 +9155,9 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="9291-ef2c-2633-5c45" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="4320-e393-236e-a9c5" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Chanura Repairship " hidden="true" id="366b-3efd-edbb-c09d" type="selectionEntry" targetId="adf3-61f0-2614-4a1a">
           <modifiers>
@@ -9165,6 +9180,9 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="21fd-3d19-8822-c321" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="9afc-4c34-53c2-5a2a" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Offshore Defence Platform" hidden="true" id="43ac-b349-2768-a2c4" type="selectionEntry" targetId="05d0-c353-ff76-34a6">
           <modifiers>
@@ -9221,6 +9239,9 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="2ae3-be22-bfe5-d6f9" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="cba8-064f-eef8-f28d" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Hermes Supply Freighter" hidden="true" id="abb7-0b23-5a47-08ee" type="selectionEntry" targetId="85f0-3249-9d6d-e7d0">
           <modifiers>
@@ -9238,6 +9259,9 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="0829-bd63-c651-6cc8" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="48b7-7f12-161b-af7d" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Excalibur Heavy Destroyer" hidden="true" id="c332-2a99-451b-3f75" type="selectionEntry" targetId="1e30-ec5a-703c-b343">
           <constraints>
@@ -9255,6 +9279,9 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
               </conditionGroups>
             </modifier>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="d135-6e57-45dd-e8b1" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
       </entryLinks>
       <constraints>

@@ -6582,6 +6582,9 @@ If they do so, models in the unit cannot move during their Movement Step.</descr
               </conditions>
             </modifier>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="6521-104f-3479-3e09" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Origen Lathe Ship" hidden="true" id="a5fd-8fa1-cc23-ce8c" type="selectionEntry" targetId="1b6f-7d0f-fe83-5520">
           <constraints>
@@ -6599,6 +6602,9 @@ If they do so, models in the unit cannot move during their Movement Step.</descr
               </conditions>
             </modifier>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="8e80-4d26-fd62-7bc2" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Zumeena Capacitor Ship " hidden="true" id="f2ec-ce6e-1966-7e5f" type="selectionEntry" targetId="ac30-5932-d78c-8b40">
           <constraints>
@@ -6616,6 +6622,9 @@ If they do so, models in the unit cannot move during their Movement Step.</descr
               </conditions>
             </modifier>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="41cd-c370-8331-d019" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Offshore Defence Platform" hidden="true" id="2d00-2ecf-6d89-25c2" type="selectionEntry" targetId="494e-1490-3f6d-8c48">
           <constraints>
@@ -6633,6 +6642,9 @@ If they do so, models in the unit cannot move during their Movement Step.</descr
               </conditions>
             </modifier>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="012f-382b-52cb-6cfd" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Merian Automata Frigate" hidden="true" id="92ef-b06d-fae2-3202" type="selectionEntry" targetId="e795-4b04-65bb-c1b1">
           <modifiers>
@@ -6682,6 +6694,9 @@ If they do so, models in the unit cannot move during their Movement Step.</descr
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="bcec-5dbe-7eae-08b0" includeChildSelections="true"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="a936-6547-46ed-a9ec" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
       </entryLinks>
       <constraints>

@@ -9231,6 +9231,9 @@ If the Special Valour Effect is unsuccessful, the unit does not Activate and thi
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="864e-b6a0-bd60-a884" includeChildSelections="true"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="88aa-9d8d-b31d-2f34" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Rurik Frigate" hidden="true" id="dca1-eabe-82dd-02c7" type="selectionEntry" targetId="ee94-6f67-15a6-26aa">
           <constraints>
@@ -9282,6 +9285,9 @@ If the Special Valour Effect is unsuccessful, the unit does not Activate and thi
               </conditionGroups>
             </modifier>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="f98e-6454-022b-2f7c" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Offshore Defence Platform" hidden="true" id="bc9a-5ebc-30cd-7d77" type="selectionEntry" targetId="b0a4-2ba5-b25d-8f2d">
           <modifiers>
@@ -9300,6 +9306,9 @@ If the Special Valour Effect is unsuccessful, the unit does not Activate and thi
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="7469-b124-bbae-0b6c" includeChildSelections="true"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="4ecc-7ad7-87de-5ee4" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Hermes Supply Freighter" hidden="true" id="28ac-0a01-eede-7e8f" type="selectionEntry" targetId="6276-6412-6211-eb2f">
           <modifiers>
@@ -9318,6 +9327,9 @@ If the Special Valour Effect is unsuccessful, the unit does not Activate and thi
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="49a2-ff3c-4537-2bb1" includeChildSelections="true"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="679f-77dd-4b4d-2570" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Smok Aerial Destroyer" hidden="true" id="f12e-c773-a5a6-e97a" type="selectionEntry" targetId="4862-c367-5065-bbea">
           <modifiers>
@@ -9370,6 +9382,9 @@ If the Special Valour Effect is unsuccessful, the unit does not Activate and thi
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="9027-378c-dfa6-96cc" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="5c86-974e-4db5-33e3" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Piranya Hunter Submarine" hidden="true" id="97d0-be0c-d32e-a25d" type="selectionEntry" targetId="f5c9-7ef3-c3be-c2ac">
           <modifiers>
@@ -9438,6 +9453,9 @@ If the Special Valour Effect is unsuccessful, the unit does not Activate and thi
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="195b-9591-cd5e-01fd" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="5b41-4a6a-86cb-1d91" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
       </entryLinks>
       <constraints>

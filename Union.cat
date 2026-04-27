@@ -9511,6 +9511,9 @@ This is a Mercenary Battlefleet. If this Battlefleet is taken as a Mercenary Bat
               </conditionGroups>
             </modifier>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="92fd-ccda-af87-d930" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Offshore Defence Platform" hidden="true" id="f714-3ecf-888e-2612" type="selectionEntry" targetId="b77f-3c67-75d3-6474">
           <constraints>
@@ -9534,6 +9537,9 @@ This is a Mercenary Battlefleet. If this Battlefleet is taken as a Mercenary Bat
               </conditionGroups>
             </modifier>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="6aac-8246-ce72-afe6" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Roanoke Carrier" hidden="true" id="4a02-16a1-9e84-47d7" type="selectionEntry" targetId="a45f-539d-e0db-50dc">
           <constraints>
@@ -9557,6 +9563,9 @@ This is a Mercenary Battlefleet. If this Battlefleet is taken as a Mercenary Bat
               </conditionGroups>
             </modifier>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="c820-3529-21e6-7459" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Steward Airship" hidden="true" id="2e55-b0c7-f2d0-1166" type="selectionEntry" targetId="9b50-8ffe-7169-32c6">
           <constraints>
@@ -9609,6 +9618,9 @@ This is a Mercenary Battlefleet. If this Battlefleet is taken as a Mercenary Bat
             </modifier>
             <modifier type="add" value="7d26-2409-950b-5133" field="category"/>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="3470-d41a-1c66-d19c" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Akron Rotor" hidden="true" id="cdc1-125c-241a-1e51" type="selectionEntry" targetId="644c-bb4d-358c-a061">
           <constraints>
@@ -9701,6 +9713,9 @@ This is a Mercenary Battlefleet. If this Battlefleet is taken as a Mercenary Bat
             </modifier>
             <modifier type="add" value="7d26-2409-950b-5133" field="category"/>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="62bf-71a9-046f-ff91" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="California Supply Cruiser" hidden="true" id="23f8-6fef-8eef-4516" type="selectionEntry" targetId="db53-2ba1-dd08-99c5">
           <constraints>
@@ -9724,6 +9739,9 @@ This is a Mercenary Battlefleet. If this Battlefleet is taken as a Mercenary Bat
               </conditionGroups>
             </modifier>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="6f5e-2e4d-1f6e-9f37" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Hermes Supply Freighter" hidden="true" id="5072-e5ed-a955-31ba" type="selectionEntry" targetId="cf78-eda7-26c7-12c9">
           <constraints>
@@ -9746,6 +9764,9 @@ This is a Mercenary Battlefleet. If this Battlefleet is taken as a Mercenary Bat
               </conditionGroups>
             </modifier>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="efb9-cb0a-f4fe-6f18" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Montgomery Repair Ship" hidden="true" id="b8a0-c084-19e8-a12b" type="selectionEntry" targetId="6851-556b-6603-b6d2">
           <constraints>
@@ -9769,6 +9790,9 @@ This is a Mercenary Battlefleet. If this Battlefleet is taken as a Mercenary Bat
               </conditionGroups>
             </modifier>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="0107-9ee9-01ac-4b3d" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Springfield Corvette" hidden="true" id="a3b6-a7c8-e1d0-d63d" type="selectionEntry" targetId="9395-abfd-7656-ef47">
           <constraints>
@@ -9819,6 +9843,9 @@ This is a Mercenary Battlefleet. If this Battlefleet is taken as a Mercenary Bat
               <comment>Stops too many attachments of self in a mainstay force part 2</comment>
             </modifier>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="65a5-8073-7f85-cbed" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Valiant Fast Destroyer" hidden="true" id="daf1-5d5f-0718-59f2" type="selectionEntry" targetId="81ce-a25f-90b7-0c54">
           <constraints>
@@ -9866,6 +9893,9 @@ This is a Mercenary Battlefleet. If this Battlefleet is taken as a Mercenary Bat
               <comment>Stops too many attachments of self in a mainstay force part 2</comment>
             </modifier>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="4949-6d81-2abe-e38e" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Bogota Carryall Rotor" hidden="true" id="13f8-ca1e-ad19-021d" type="selectionEntry" targetId="5373-2856-ffbe-8519">
           <constraints>
@@ -9916,6 +9946,9 @@ This is a Mercenary Battlefleet. If this Battlefleet is taken as a Mercenary Bat
             </modifier>
             <modifier type="add" value="7d26-2409-950b-5133" field="category"/>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="acdd-cef4-af8e-82b8" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Patriot Automata" hidden="true" id="91cf-b025-4e99-aede" type="selectionEntry" targetId="9bec-311a-c92e-9202">
           <constraints>
@@ -9939,6 +9972,9 @@ This is a Mercenary Battlefleet. If this Battlefleet is taken as a Mercenary Bat
               </conditionGroups>
             </modifier>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="fdea-377c-9ed5-92be" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Defiant Destroyer" hidden="true" id="9416-3651-9d02-6d8a" type="selectionEntry" targetId="a1e9-6a06-42c9-2b0b">
           <constraints>
@@ -9962,6 +9998,9 @@ This is a Mercenary Battlefleet. If this Battlefleet is taken as a Mercenary Bat
               </conditionGroups>
             </modifier>
           </modifiers>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="20fe-7e36-b53c-b6a9" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Farragut Frigate" hidden="true" id="6a89-1535-8a8d-d98d" type="selectionEntry" targetId="4950-d9a5-32f0-0bb9">
           <modifiers>
@@ -10012,6 +10051,9 @@ This is a Mercenary Battlefleet. If this Battlefleet is taken as a Mercenary Bat
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="4a64-244d-eee2-5a71" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink name="Attachment" hidden="false" id="7fe1-d212-163f-71dc" targetId="f152-70a0-da07-33cd" primary="false"/>
+          </categoryLinks>
         </entryLink>
       </entryLinks>
       <constraints>
