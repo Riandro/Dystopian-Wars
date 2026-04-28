@@ -6487,9 +6487,6 @@ Make a Group Crew Check for the models that are Participating in the action. If
 If they do so, models in the unit cannot move during their Movement Step.</description>
         </rule>
       </rules>
-      <constraints>
-        <constraint type="min" value="1" field="forces" scope="roster" shared="true" id="7ba3-a105-d87b-c404" includeChildSelections="true" includeChildForces="true" percentValue="false"/>
-      </constraints>
     </forceEntry>
     <forceEntry name="Autonomous Research Group (Specialist)" id="ba89-c847-280c-f9a0" hidden="false" sortIndex="3">
       <rules>

@@ -8965,16 +8965,6 @@ At the end of the Action, any models that contributed to this action gain 1 Dis
 When a model is declared to be an Acceptable Loss, the opposing Admiral does not score any Victory Points for Crippling it, but each model in its unit (including the Crippled model itself) gains 1 Disorder.</description>
         </rule>
       </rules>
-      <constraints>
-        <constraint type="min" value="1" field="forces" scope="roster" shared="true" id="6326-d6b8-2ca0-3a82" includeChildSelections="true" includeChildForces="true" percentValue="false"/>
-      </constraints>
-      <modifiers>
-        <modifier type="set" value="0" field="6326-d6b8-2ca0-3a82">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="18d5-9e75-e46d-8c91" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </forceEntry>
     <forceEntry name="Ukrainian Haydamak Battlefleet (Specialist)" id="571e-af67-1475-b79d" hidden="false" sortIndex="2">
       <categoryLinks>
@@ -9150,10 +9140,6 @@ If the Special Valour Effect is unsuccessful, the unit does not Activate and thi
           <description>When a friendly Black Wolf unit makes an Attack action or Boarding action, and the target has at least 2 levels of Disorder, the Admiral can re-roll any Blank results in the Action Roll.</description>
         </rule>
       </rules>
-      <constraints>
-        <constraint type="min" value="1" field="forces" scope="roster" shared="true" id="c78a-5b4e-65b2-34d7" includeChildSelections="true" includeChildForces="true"/>
-        <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="de5d-cdd8-07ba-aedb" includeChildSelections="true"/>
-      </constraints>
       <modifiers>
         <modifier type="set" value="0" field="c78a-5b4e-65b2-34d7">
           <conditions>

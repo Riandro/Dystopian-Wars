@@ -8912,9 +8912,6 @@ If successful, the Attack gains the Blast (X) quality, with an X value equal to
 (Weapons with both are only counted once.) Each Action Roll made against a Secondary Target gains 1 Bonus Die for each System Failure that model has.</description>
         </rule>
       </rules>
-      <constraints>
-        <constraint type="min" value="1" field="forces" scope="roster" shared="true" id="a08a-5514-394a-7bf7" includeChildSelections="true" includeChildForces="true" percentValue="false"/>
-      </constraints>
     </forceEntry>
     <forceEntry name="Iron Skies Battlefleet (Specialist)" id="423c-f97c-0081-cc78" hidden="false" sortIndex="2">
       <categoryLinks>
