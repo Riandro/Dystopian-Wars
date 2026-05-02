@@ -10109,13 +10109,6 @@ If successful, each Critical Damage Effect inflicted on an enemy model in the A
               </characteristics>
             </profile>
           </profiles>
-          <modifiers>
-            <modifier type="set" value="1" field="d63b-6625-e95d-ce5e">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Escort discount" hidden="true" id="b667-82ad-3d87-7967" sortIndex="9">
           <costs>
