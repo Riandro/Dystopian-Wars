@@ -10015,6 +10015,9 @@ If successful, each Critical Damage Effect inflicted on an enemy model in the A
               </conditions>
             </modifier>
           </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Bangpae" hidden="false" id="66ca-54f6-f5d8-b194" type="selectionEntry" targetId="cce9-cd7a-96ee-0fa1"/>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -10025,6 +10028,7 @@ If successful, each Critical Damage Effect inflicted on an enemy model in the A
         <categoryLink name="Airborne" hidden="false" id="81db-0b7d-2583-5af7" targetId="139e-c78f-43c0-2957" primary="false"/>
         <categoryLink name="NoRepulsion" hidden="false" id="bbb1-3a63-7985-e7bd" targetId="401d-07db-b6e3-82a7" primary="false"/>
         <categoryLink name="MagmaGen" hidden="false" id="cfa4-f070-d14f-1be0" targetId="3658-a9c4-c9e8-2734" primary="false"/>
+        <categoryLink name="KiteMothership" hidden="false" id="efb4-63aa-c998-e46e" targetId="202f-0e55-72b6-3cf0" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Hwanung" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="a49c-7152-e9a6-feb6">
@@ -10298,9 +10302,6 @@ If successful, each Critical Damage Effect inflicted on an enemy model in the A
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <entryLinks>
-            <entryLink import="true" name="Bangpae" hidden="false" id="66ca-54f6-f5d8-b194" type="selectionEntry" targetId="cce9-cd7a-96ee-0fa1"/>
-          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -10311,7 +10312,6 @@ If successful, each Critical Damage Effect inflicted on an enemy model in the A
         <categoryLink name="Attachment host" hidden="false" id="457c-10ef-75f4-83a3" targetId="2251-0def-1b03-2e93" primary="false"/>
         <categoryLink name="Scout" hidden="false" id="4b5f-f967-347f-d35b" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
         <categoryLink name="Light Vessel" hidden="false" id="35e9-0c72-8e36-7768" targetId="a788-9613-7ce1-5dd9" primary="false"/>
-        <categoryLink name="KiteMothership" hidden="false" id="3382-5101-2b20-0784" targetId="202f-0e55-72b6-3cf0" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Hobakbeol" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="1171-80d1-68ea-b8fa">
@@ -12422,7 +12422,7 @@ If they do so, they score a number of Victory Points equal to the Mass of the la
         <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
       </costs>
       <constraints>
-        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="1aff-6438-7468-4d46" includeChildSelections="false" automatic="false"/>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="1aff-6438-7468-4d46" includeChildSelections="false" automatic="false"/>
         <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="deec-270b-ecdf-69c2" includeChildSelections="false" automatic="false"/>
       </constraints>
       <modifiers>
@@ -12441,6 +12441,11 @@ If they do so, they score a number of Victory Points equal to the Mass of the la
             <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="202f-0e55-72b6-3cf0" shared="true" childName="KiteMothership"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="0" field="1aff-6438-7468-4d46">
+          <conditions>
+            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="202f-0e55-72b6-3cf0" shared="true" childName="KiteMothership"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <profiles>
         <profile name="Bangpae" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="25bf-c59d-d65a-bc0f">
@@ -12457,6 +12462,13 @@ If they do so, they score a number of Victory Points equal to the Mass of the la
             <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">12</characteristic>
             <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">2-6</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="0-2 Per Model" field="3fd7-54b8-bc78-4b5c">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="202f-0e55-72b6-3cf0" shared="true" childName="KiteMothership"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
         <profile name="Bangpae" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="14e0-c2c9-4581-b29c">
           <characteristics>
