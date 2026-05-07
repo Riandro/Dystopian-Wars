@@ -4755,15 +4755,15 @@
         <profile name="Voivode" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="f873-9d72-814a-6112">
           <characteristics>
             <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">3</characteristic>
-            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">2&quot;-7&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">2</characteristic>
-            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">3</characteristic>
+            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">2&quot;-9&quot;</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">3</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">4</characteristic>
             <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">10</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">8</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">3</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">2</characteristic>
-            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">6</characteristic>
+            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">7</characteristic>
             <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1-3</characteristic>
           </characteristics>
         </profile>
