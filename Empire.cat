@@ -8869,7 +8869,7 @@ In the case of a Group Crew Check, this Modifier applies to all models in the u
                 <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="PADDLEWHEEL SURGE" hidden="false" id="de23-98a1-cfa4-aef0" sortIndex="11">
+            <selectionEntry type="upgrade" import="true" name="PADDLEWHEEL SURGE" hidden="true" id="de23-98a1-cfa4-aef0" sortIndex="11">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1f5-a5f7-d1bb-2895"/>
               </constraints>
@@ -8888,8 +8888,21 @@ If successful, each model in the unit gains the Boosted Propulsion (X ) system 
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="30"/>
                 <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="count" min="2">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="f109-b8ed-138d-de5c" shared="true" childName="Chinese"/>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="4b7e-c78d-b9be-8d7c" shared="true" childName="Surface"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="MAZOKU’S IRE" hidden="false" id="3ac1-9e07-87cb-b8f9" sortIndex="6">
+            <selectionEntry type="upgrade" import="true" name="MAZOKU’S IRE" hidden="true" id="3ac1-9e07-87cb-b8f9" sortIndex="6">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a180-4db3-cb4e-bbd3"/>
               </constraints>
@@ -8908,8 +8921,20 @@ The opposing Admiral reveals their Victory &amp; Valour Card. If therevealed ca
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
                 <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="count" min="2">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="d3bc-76cc-5efc-b06e" shared="true" childName="Empire"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="BUSHIDO" hidden="false" id="c95b-df2c-2680-025c" sortIndex="7">
+            <selectionEntry type="upgrade" import="true" name="BUSHIDO" hidden="true" id="c95b-df2c-2680-025c" sortIndex="7">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78f5-49d0-da97-84ff"/>
               </constraints>
@@ -8928,8 +8953,20 @@ If they do so, they must discard another Victory &amp; Valour Card from their H
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
                 <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="count" min="2">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="208e-6396-cb29-1ffc" shared="true" childName="Japanese"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="FALLING AVALANCHE" hidden="false" id="1b81-1af4-b124-68d5" sortIndex="8">
+            <selectionEntry type="upgrade" import="true" name="FALLING AVALANCHE" hidden="true" id="1b81-1af4-b124-68d5" sortIndex="8">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a85-f37c-48c1-4be7"/>
               </constraints>
@@ -8949,8 +8986,20 @@ However, Visibility to the Target is always considered Hampered.</description>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
                 <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="count" min="2">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="d3bc-76cc-5efc-b06e" shared="true" childName="Empire"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="HUNTERS IN THE CLOUDS" hidden="false" id="7c4b-1a9d-d9c7-e372" sortIndex="9">
+            <selectionEntry type="upgrade" import="true" name="HUNTERS IN THE CLOUDS" hidden="true" id="7c4b-1a9d-d9c7-e372" sortIndex="9">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9975-4d30-6c10-6c08"/>
               </constraints>
@@ -8969,6 +9018,18 @@ If successful, each Critical Damage Effect inflicted on an enemy model in the A
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="25"/>
                 <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="count" min="2">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="4efb-4436-8a23-a6a5" shared="true" childName="Korean"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -10015,6 +10076,9 @@ If successful, each Critical Damage Effect inflicted on an enemy model in the A
               </conditions>
             </modifier>
           </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Bangpae" hidden="false" id="66ca-54f6-f5d8-b194" type="selectionEntry" targetId="cce9-cd7a-96ee-0fa1"/>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -10025,6 +10089,7 @@ If successful, each Critical Damage Effect inflicted on an enemy model in the A
         <categoryLink name="Airborne" hidden="false" id="81db-0b7d-2583-5af7" targetId="139e-c78f-43c0-2957" primary="false"/>
         <categoryLink name="NoRepulsion" hidden="false" id="bbb1-3a63-7985-e7bd" targetId="401d-07db-b6e3-82a7" primary="false"/>
         <categoryLink name="MagmaGen" hidden="false" id="cfa4-f070-d14f-1be0" targetId="3658-a9c4-c9e8-2734" primary="false"/>
+        <categoryLink name="KiteMothership" hidden="false" id="efb4-63aa-c998-e46e" targetId="202f-0e55-72b6-3cf0" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Hwanung" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="a49c-7152-e9a6-feb6">
@@ -10109,13 +10174,6 @@ If successful, each Critical Damage Effect inflicted on an enemy model in the A
               </characteristics>
             </profile>
           </profiles>
-          <modifiers>
-            <modifier type="set" value="1" field="d63b-6625-e95d-ce5e">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Escort discount" hidden="true" id="b667-82ad-3d87-7967" sortIndex="9">
           <costs>
@@ -10305,9 +10363,6 @@ If successful, each Critical Damage Effect inflicted on an enemy model in the A
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <entryLinks>
-            <entryLink import="true" name="Bangpae" hidden="false" id="66ca-54f6-f5d8-b194" type="selectionEntry" targetId="cce9-cd7a-96ee-0fa1"/>
-          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -10318,7 +10373,6 @@ If successful, each Critical Damage Effect inflicted on an enemy model in the A
         <categoryLink name="Attachment host" hidden="false" id="457c-10ef-75f4-83a3" targetId="2251-0def-1b03-2e93" primary="false"/>
         <categoryLink name="Scout" hidden="false" id="4b5f-f967-347f-d35b" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
         <categoryLink name="Light Vessel" hidden="false" id="35e9-0c72-8e36-7768" targetId="a788-9613-7ce1-5dd9" primary="false"/>
-        <categoryLink name="KiteMothership" hidden="false" id="3382-5101-2b20-0784" targetId="202f-0e55-72b6-3cf0" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Hobakbeol" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="1171-80d1-68ea-b8fa">
@@ -12429,7 +12483,7 @@ If they do so, they score a number of Victory Points equal to the Mass of the la
         <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
       </costs>
       <constraints>
-        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="1aff-6438-7468-4d46" includeChildSelections="false" automatic="false"/>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="1aff-6438-7468-4d46" includeChildSelections="false" automatic="false"/>
         <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="deec-270b-ecdf-69c2" includeChildSelections="false" automatic="false"/>
       </constraints>
       <modifiers>
@@ -12448,6 +12502,11 @@ If they do so, they score a number of Victory Points equal to the Mass of the la
             <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="202f-0e55-72b6-3cf0" shared="true" childName="KiteMothership"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="0" field="1aff-6438-7468-4d46">
+          <conditions>
+            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="202f-0e55-72b6-3cf0" shared="true" childName="KiteMothership"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <profiles>
         <profile name="Bangpae" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="25bf-c59d-d65a-bc0f">
@@ -12464,6 +12523,13 @@ If they do so, they score a number of Victory Points equal to the Mass of the la
             <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">12</characteristic>
             <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">2-6</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="0-2 Per Model" field="3fd7-54b8-bc78-4b5c">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="202f-0e55-72b6-3cf0" shared="true" childName="KiteMothership"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
         <profile name="Bangpae" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="14e0-c2c9-4581-b29c">
           <characteristics>
