@@ -350,7 +350,7 @@ When this Action is made, each enemy model within 5” of a Participating model 
 For every System Failure inflicted in this way, the active Admiral can remove a System Failure from a Participating model, or another friendly model within 10” of a Participating model.</description>
     </rule>
     <rule name="Exo-sub" id="1b59-0b10-4a1b-e70f" hidden="false">
-      <description>When this Token is the target of an Interception Attempt or Flak Barrage (see the Flak Barrage (X) system) treat its Resilience rating as being 2 higher.</description>
+      <description>When resolving an Attack Run mission with a Stack containing only SRS tokens with this Quality, each Breach or Structural Failure allocated to an Attack Run Target also inflicts 1 Damage.</description>
     </rule>
     <rule name="ATTACK RUN MISSION" id="a85f-8593-a2e7-99c6" hidden="false">
       <description>**RESOLVING AN ATTACK RUN MISSION**
@@ -487,8 +487,10 @@ In the Clean Up step of the End Phase, all Flagged models cease to be Flagged, 
     </rule>
     <rule name="Chang’an Tower Generator" id="2082-b63b-7dd0-9375" hidden="false">
       <description>This is a Generator and grants the following Unit Benefit:
+If any model in this unit, or a model in another friendly unit within 5”, is the target of an Attack action, you may convert up to 2 Exploding Strikes to Heavy Strikes at the start of the Resolve Exploding Strikes step.
 
-If any model in this unit is the target of an Attack action, add 4 Bonus Dice to the Resistance Pool.</description>
+
+Attack actions made with Assault, Bomb, or Submerged Weapons ignore this effect.</description>
     </rule>
     <rule name="Cryo Generator" id="400c-a9a8-9bc3-c329" hidden="false">
       <description>This is a Generator.
@@ -1453,7 +1455,6 @@ If the Initial Target has already suffered a System Failure during this Action 
     <rule name="Auxiliary Mine Layer" id="cad3-5c77-d46d-7d7b" hidden="false">
       <description>As a Special Deployment Action, this model’s unit can Distribute Mines.
 
-
 When it does, the unit’s Admiral places up to X Minefield markers anywhere in the Play Area. Each one must be placed at least 10” from the enemy Deployment Zone, and cannot be placed within 1” of a model, a Terrain Feature, or another Marker.</description>
     </rule>
     <rule name="Resupply" id="9850-aa57-e67e-2871" hidden="false">
@@ -1890,22 +1891,14 @@ The nominated model is Destroyed, and this model does not suffer the Critical D
 
 *Note: if there is no friendly Automata model within 10”, this property cannot be used*</description>
     </rule>
-    <rule name="Islands" id="cd30-c4ca-e6a4-78ec" hidden="false">
-      <description>Island is a catch-all term for islands, peninsulas, atolls and shorelines.
+    <rule name="Indomitable" id="cd30-c4ca-e6a4-78ec" hidden="false">
+      <description>This Model may always Rally, even if another rule would prevent it from doing so.
 
 
-All parts of the Play Area within 1” of an Island count as Treacherous Water.
+During the End Phase of each Round, before the Complete Objectives step, this Admiral may attempt to Enact a Special Valour Effect on this unit.
 
 
-Certain Properties may allow models to move across Islands as though they were Open Water.
-
-
-IMPASSABLE GROUND
-Some (or all) of an Island can be designated as Impassable Ground - thick forests, volcanoes, or towering research outposts.
-
-
-A model cannot move through these areas, even if they are otherwise able to move across Islands. 
-If a model is capable of ignoring Terrain Features entirely - for example, if it is an Airborne model - it can still move through Impassable Ground.</description>
+If successful, any Crippled models in this unit ignore the Unreliable rule and count as Battle-Ready until the start of the next Round.</description>
     </rule>
     <rule name="Mobile" id="c739-ee32-f115-8edf" hidden="false">
       <description>At the start of its Movement Step, this model can make up to two free Pivots before moving.
@@ -2454,6 +2447,7 @@ If a unit with Chita Support uses the Raiding Parties rule, the X value of the 
 
 Each time an Escort token is discarded from a unit with Chita Support, for any reason other than Raiding Parties, roll an Action Die. 
 If the result shows a Standard Counter or a Heavy Counter, the Token remains in play.</description>
+      <comment>Not used? </comment>
     </rule>
     <rule name="Reinforced Decking" id="0ef0-6a6d-884c-7efc" hidden="false">
       <description>When this model is targeted by an Attack action made with Aerial Weapons, any Heavy Strikes in the Action Roll are converted to Standard Strikes at the start of the Count Hits step.</description>
@@ -2764,6 +2758,202 @@ If the last token in the Stack is discarded, the Attack Run mission does not en
 
 
 Each token in the attacking SRS Stack with this property contributes X Action Dice to the Resistance Pool.</description>
+    </rule>
+    <rule name="Autonomous Explosive (X)" id="2405-59d5-57a1-17e5" hidden="false">
+      <description>This model is an Autonomous Explosive.
+
+
+Enemy Surface and Airborne models cannot Pass Through an Autonomous Explosive. When an Autonomous Explosive and an enemy model come into contact, each model within 2” of this model that shares a Positional Trait with the enemy model immediately gains 1 level of Disorder.
+
+
+The enemy model itself is then subject to a Bangpae Explosion.
+
+
+To resolve a Bangpae Explosion, roll X Action Dice. 
+The model suffers 1 Damage for each Standard Strike rolled, and 2 Damage for each Heavy Strike or Exploding Strike. 
+
+
+If the enemy model was moving and has not been Destroyed, it then continues its move. If a model comes into contact with multiple Autonomous Explosives at the same time, each explosive will Explode as described above.
+
+
+After resolving a Bangpae Explosion, this model is immediately Destroyed.
+
+
+*Note: Interphasing models (see Interphase Generator) can Pass Through
+Autonomous Explosives without triggering a Bangpae Explosion.*</description>
+    </rule>
+    <rule name="Bulnabang Tii-Pak" id="bbc5-eb75-f26c-6a40" hidden="false">
+      <description>When this model’s unit makes a Boarding action, the Target can be an Airborne model, and this model can Participate in the Action.
+
+
+Additionally, when this model Participates in a Boarding action, before making the Action Roll inflict 1 level of Disorder on the Target.</description>
+    </rule>
+    <rule name="Escort Support" id="8ae0-de9c-b564-9aae" hidden="false">
+      <description>This model’s unit, and every friendly unit within 10” of this model, has Escort Support, which grants the following benefits:
+
+
+If the unit uses the Raiding Parties rule (see page 103 of Dystopian Wars: The Rules) the X value of the Boarding Parties (X) property is equal to three times the number of Escort tokens discarded, instead of two times.
+
+
+In addition, if an Escort token is discarded from the unit for any reason other than Raiding Parties, its Admiral rolls an Action Die. If the result shows a Standard Counter or Heavy Counter, the Token remains in play.</description>
+    </rule>
+    <rule name="Evasive" id="f721-d0c1-9e76-0cce" hidden="false">
+      <description>During the Inflict Damage step of an Attack action in which this model is the Target, its Admiral may, so long as it does not already have 3 levels of Disorder, declare Evasive Manoeuvres.
+
+
+If they do so, then any Damage inflicted may be converted into Disorder until the model has 3 levels of Disorder. 
+
+
+If the Attack action resulted in more than this amount of Damage then the remainder is applied to the model as normal.
+
+
+If an Admiral declares Evasive Manoeuvres, then this model does not suffer from the effects of Under Fire.
+
+
+*Note: you do not have to convert all Damage to Disorder at once.
+If a model takes 3 Damage, they may choose to only convert 1 into Disorder, rather than all 3.*</description>
+    </rule>
+    <rule name="Islands" id="6aee-27cb-044c-fa8b" hidden="false">
+      <description>Island is a catch-all term for islands, peninsulas, atolls and shorelines.
+
+
+All parts of the Play Area within 1” of an Island count as Treacherous Water.
+
+
+Certain Properties may allow models to move across Islands as though they were Open Water.
+
+
+IMPASSABLE GROUND
+Some (or all) of an Island can be designated as Impassable Ground - thick forests, volcanoes, or towering research outposts.
+
+
+A model cannot move through these areas, even if they are otherwise able to move across Islands. 
+If a model is capable of ignoring Terrain Features entirely - for example, if it is an Airborne model - it can still move through Impassable Ground.</description>
+    </rule>
+    <rule name="Underwater Carrier (X)" id="1966-3e9a-9ed9-7ff2" hidden="false">
+      <description>In the Launch Phase, this model’s unit can resolve an SRS Launch. 
+
+
+When it does so, this model launches up to X SRS tokens, as described in Launching Short Range Squadrons on page108 of Dystopian Wars: The Rules.
+
+
+This Property’s X value is reduced by 1 for each level of Disorder on the model.
+
+
+The type(s) of SRS tokens that this model can launch is determined by other Properties on the unit profile, most commonly the SRS (Type) property. 
+
+
+If a model can launch more than one type of SRS token then these can be launched in any combination, so long as the total number of Tokens launched does not exceed X.
+
+
+Unlike models with the Carrier property, If an Underwater model has this Trait, it may launch SRS without first Surfacing.</description>
+    </rule>
+    <rule name="Valorous" id="2ae7-946b-4ffb-5d42" hidden="false">
+      <description>When a unit containing a model with this Property is chosen to Enact a Valour Effect, you may declare that this model is Valorous.
+
+
+Treat the value of their Card as being equal to this Model’s Crew Rating, taking into account any modifiers. 
+
+
+After the Valour Effect is resolved (even if it was Denied) every model in the unit gains 1 level of Disorder.</description>
+    </rule>
+    <rule name="Escort Bay (X)" id="90ad-2664-3fa1-f013" hidden="false">
+      <description>As a Special Action, this model’s unit can Deploy Escorts.
+
+
+Take a Group Crew Check for the unit. If the check is passed, the Admiral may assign X Escort tokens for each model with this system to any friendly unit within 10”, including itself.
+
+
+The Admiral may divide these Tokens amongst different units however they choose, but they cannot assign more Escort tokens to a unit than would normally be permissible during Force Selection.</description>
+    </rule>
+    <rule name="Eye Of Yeomna (X)" id="b180-1df3-10c4-ecf5" hidden="false">
+      <description>As a Special Action, this model’s unit can pronounce Yeomna’s Judgement against an enemy unit within 15”.
+
+
+Only models with this System and within 15” of the target unit may Participate.
+
+
+To resolve Yeomna’s Judgement, allocate an SRS stack of X Doksuri Fighter tokens for each Participating model to the target unit, as if it had just launched on an Attack Run mission.
+
+
+In addition, when resolving a friendly Attack Run mission where at least one Attack Run Target is within 15” of this model, increase the Attack rating of each Doksuri Fighter token in the Stack by 1 until the Mission is resolved.</description>
+    </rule>
+    <rule name="Coruscating" id="98b7-d3c6-8372-6e4a" hidden="false">
+      <description>This weapon cannot contribute to a normal Attack action.
+
+
+Instead this Admiral may declare that this model will fire a Coruscating Beam, a unique Action that can be considered an Attack action for the purpose of any other Qualities that this weapon may possess.
+
+
+To do so, this Admiral must draw a 2cm width line from the prow of this ship to the other side of the battlefield, ensuring the line is entirely within this weapon’s Targeting Arc(s). 
+
+
+Each Surface model (friend or foe) that this line crosses is a Coruscating Target.
+
+
+*Note: the Warcradle measuring tool is roughly 2 cm wide, and works perfectly for plotting the course of your beam.*
+
+
+The Admiral then rolls a number of Action Dice equal to the Firepower rating of this weapon at the relevant range band for each Coruscating Target.
+
+
+The Target suffers 1 Damage for each Standard Strike and 2 Damage for each Heavy Strike and Exploding Strike.
+
+
+If the Target suffers at least 1 Damage, it also gains 1 level of Disorder.
+
+
+*Note: This is not a standard Attack action and so Exploding Strikes do not cause additional dice to be rolled and the Under Fire rule does not apply.*</description>
+    </rule>
+    <rule name="Magma Tower Generator" id="6d60-c814-c614-6ecc" hidden="false">
+      <description>This is a Generator. Its effect cannot be conferred to another unit via the Generator Ship system.
+
+
+This model’s unit can make a Magma Sear Special Action, as described in the Empire ORBAT, with a slight alteration:
+When making the Magma Sear Roll, roll 4 Action Dice, instead of 1, and do not add any additional dice for the Capital trait. 
+
+
+In addition, if an Exploding Strike is chosen, then its Magma Eruption deals 2 Damage and 1 Disorder, instead of the usual effects.</description>
+    </rule>
+    <rule name="Magnetic Accelerator Tubes" id="5725-8375-2cab-64d4" hidden="false">
+      <description>In the Choose SRS Mission step of an SRS Launch in which this model is Participating, any SRS Tokens launched from this model can be allocated to a unit or Marker that is within 40” of this model, instead of the usual 30”.</description>
+    </rule>
+    <rule name="Leaping" id="41eb-4ec0-27d8-0200" hidden="false">
+      <description>Weapons with this Quality may Contribute to Attack actions against targets with the Elevated, Amphibious, or Landstrider properties, or models with the Descend property that are Surfacing, even if they are not normally able to.
+
+
+Weapons with this Quality ignore the Reinforced Waterline property.
+
+
+Additionally, if every Contributing weapon has this Quality, the unit’s Admiral may attempt to enact a Special Valour Effect.
+If successful, the Vulnerable Stern rule applies to the Target, even if the Participating models are outside of the Target’s Aft arc, and even if another rule would exempt it from Vulnerable Stern.</description>
+    </rule>
+    <rule name="Multiple Batteries (X)" id="b2db-e872-3b67-1f1b" hidden="false">
+      <description>This weapon may be selected to Contribute to an Attack action up to X times per Activation, instead of only once. 
+
+
+Each time it Contributes to an attack, the Target must be in a different Targeting Arc to one previously used in this Activation.</description>
+    </rule>
+    <rule name="Gaseous" id="3ca5-4e12-340b-68c6" hidden="false">
+      <description>If all weapons Contributing to an Attack action have this Quality, the Attack is considered Gaseous.
+
+
+When resolving a Gaseous attack, each Success scored in the Action Roll inflicts 1 Disorder instead of 1 Damage.
+
+
+If this would cause the Target to gain more than 3 levels of Disorder, then each excess point of Disorder inflicts 1 Damage instead. 
+
+
+A Gaseous attack does not trigger the Under Fire rule. However any model suffering Damage as the result of a Gaseous attack automatically gains a Hazard Critical Damage token if it does not already have one.
+
+
+*Note: Disorder Spreads as normal even when Damage is inflicted. Additionally, if the Jade Fury Battlefleet Bonus is in effect (see the Empire ORBAT ), the target suffers 1 Damage for each excess point of Disorder and not 2.*</description>
+    </rule>
+    <rule name="Protective Fire (X)" id="5232-b34c-9032-a1aa" hidden="false">
+      <description>When a model with this weapon is the target of an Attack Run mission, or of an Attack action in which at least one weapon with the Barrage quality is Contributing, it may perform Protective Fire.
+
+
+Add a number of Bonus Dice to the Resistance Roll equal to the combined X Values of all weapons on the model with this Quality.</description>
     </rule>
   </sharedRules>
   <publications>
