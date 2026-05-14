@@ -7742,13 +7742,6 @@
       </profiles>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Stanislaw" hidden="false" id="c702-c468-188c-1f3e" sortIndex="1">
-          <categoryLinks>
-            <categoryLink name="Scout" hidden="false" id="dca9-31a4-7509-d6ca" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
-            <categoryLink name="Commonwealth" hidden="false" id="7248-4d8f-c94e-2aca" targetId="1f78-904a-a9b7-2c8f" primary="false"/>
-            <categoryLink name="Polish-Lithuanian" hidden="false" id="eb74-b3b5-004a-ae20" targetId="f625-fe99-41c1-ff3d" primary="false"/>
-            <categoryLink name="Airborne" hidden="false" id="1b54-62a1-2445-ac49" targetId="139e-c78f-43c0-2957" primary="false"/>
-            <categoryLink name="Airship" hidden="false" id="0b0b-6405-f3e7-5ac1" targetId="278c-665b-5dbe-3aad" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="100"/>
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
