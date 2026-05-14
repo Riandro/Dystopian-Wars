@@ -5283,6 +5283,16 @@ with the Strategic Asset (1) property." field="info"/>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="0551-d3d8-7de1-4996" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="remove" value="1711-6069-af06-c5cc" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="0551-d3d8-7de1-4996" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="be64-e81a-a91d-8a0e" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="0551-d3d8-7de1-4996" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Farpoint Bunker Platform" hidden="false" id="6417-78a9-0b7f-e0d2" sortIndex="32">
@@ -5450,6 +5460,16 @@ with the Strategic Asset (1) property." field="info"/>
           </conditions>
         </modifier>
         <modifier type="set" value="2" field="1588-df2a-6e57-5edc">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="0551-d3d8-7de1-4996" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="be64-e81a-a91d-8a0e" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="0551-d3d8-7de1-4996" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="remove" value="1711-6069-af06-c5cc" field="category">
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="0551-d3d8-7de1-4996" shared="true" includeChildSelections="true"/>
           </conditions>
@@ -5635,6 +5655,16 @@ with the Strategic Asset (1) property." field="info"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="7875-66cc-53c0-2e19" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="0551-d3d8-7de1-4996" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="remove" value="1711-6069-af06-c5cc" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="0551-d3d8-7de1-4996" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="be64-e81a-a91d-8a0e" field="category">
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="0551-d3d8-7de1-4996" shared="true" includeChildSelections="true"/>
           </conditions>
@@ -7923,6 +7953,16 @@ with the Strategic Asset (1) property." field="info"/>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="0551-d3d8-7de1-4996" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="05e3-fb06-85f3-cdb5" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="0551-d3d8-7de1-4996" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="remove" value="366f-016b-5f80-0c09" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="0551-d3d8-7de1-4996" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Providence Merchantman" hidden="false" id="5b26-fca7-f40e-be49" sortIndex="57">
@@ -9485,6 +9525,12 @@ This is a Mercenary Battlefleet. If this Battlefleet is taken as a Mercenary Bat
     <categoryEntry name="Airborne Logistical" id="9ca3-bfd1-09e1-c0b3" hidden="false"/>
     <categoryEntry name="HEC Patrol" id="5d32-dc93-6403-08f5" hidden="false"/>
     <categoryEntry name="Airborne Patrol" id="f362-92c9-45bd-4057" hidden="false"/>
+    <categoryEntry name="Logistical" id="05e3-fb06-85f3-cdb5" hidden="false">
+      <comment>FAKE</comment>
+    </categoryEntry>
+    <categoryEntry name="Support" id="be64-e81a-a91d-8a0e" hidden="false">
+      <comment>FAKE</comment>
+    </categoryEntry>
   </categoryEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Attachments" id="ad77-82b3-82f2-6a05" hidden="false" sortIndex="6" collapsible="true">
@@ -9916,7 +9962,7 @@ This is a Mercenary Battlefleet. If this Battlefleet is taken as a Mercenary Bat
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="atLeast" value="2" field="selections" scope="force" childId="5373-2856-ffbe-8519" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="atLeast" value="2" field="selections" scope="force" childId="13f8-ca1e-ad19-021d" shared="true" includeChildSelections="true" includeChildForces="false" childName="Bogota Carryall Rotor"/>
                     <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
@@ -9926,7 +9972,7 @@ This is a Mercenary Battlefleet. If this Battlefleet is taken as a Mercenary Bat
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="force" childId="5373-2856-ffbe-8519" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="13f8-ca1e-ad19-021d" shared="true" includeChildSelections="false" includeChildForces="false" childName="Bogota Carryall Rotor"/>
                     <condition type="instanceOf" value="1" field="forces" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
@@ -9937,7 +9983,7 @@ This is a Mercenary Battlefleet. If this Battlefleet is taken as a Mercenary Bat
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="equalTo" value="2" field="selections" scope="force" childId="5373-2856-ffbe-8519" shared="true" includeChildSelections="false"/>
+                    <condition type="equalTo" value="2" field="selections" scope="force" childId="13f8-ca1e-ad19-021d" shared="true" includeChildSelections="false" childName="Bogota Carryall Rotor"/>
                     <condition type="instanceOf" value="1" field="forces" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
