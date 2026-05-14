@@ -4671,9 +4671,6 @@
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="47f0-c144-590d-36d9" includeChildSelections="false" automatic="true"/>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="8b2d-0c9b-f4e8-e4bf" includeChildSelections="false" automatic="true"/>
           </constraints>
-          <categoryLinks>
-            <categoryLink targetId="c3cf-1919-2bc7-5843" id="2963-f6df-e344-8081" primary="false" name="Airbornecon"/>
-          </categoryLinks>
           <modifiers>
             <modifier type="set" value="1" field="8b2d-0c9b-f4e8-e4bf">
               <conditions>
@@ -9219,6 +9216,7 @@ If the Special Valour Effect is unsuccessful, the unit does not Activate and thi
           </constraints>
           <categoryLinks>
             <categoryLink name="Attachment" hidden="false" id="88aa-9d8d-b31d-2f34" targetId="f152-70a0-da07-33cd" primary="false"/>
+            <categoryLink name="Airbornecon" hidden="false" id="7439-9dc2-3a57-5e1c" targetId="c3cf-1919-2bc7-5843" primary="false"/>
           </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Rurik Frigate" hidden="true" id="dca1-eabe-82dd-02c7" type="selectionEntry" targetId="ee94-6f67-15a6-26aa">
