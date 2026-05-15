@@ -1,16 +1,16 @@
 # A Dystopian Wars 4.0 repository for use with New Recruit!
 
-## As of 28/04/26 catalogues are currently updated to the following:
+## As of 15/05/26 catalogues are currently updated to the following:
 
 * Alliance Orbat - V4.00A
 * Commonwealth Orbat - V4.00A
-* Crown Orbat - V4.01 BETA 3
-* Empire Orbat - V4.01
+* Crown Orbat - V4.02 BETA
+* Empire Orbat - V4.01 BETA
 * Enlightened Orbat -  V4.00A
 * Imperium Orbat - V4.00A
 * Sultanate Orbat - V4.00A
 * Union Orbat - V4.00A
-* Rules Glossary - V4.00A
+* Rules Glossary - V4.01 BETA
 
 ## Planned updates:
 
@@ -22,5 +22,4 @@ You can do this by either telling me directly on my thread in the Warcradle [Dis
 
 
 
-I have spotted there are some kind people who has submitted Issues, earlier this month, please know i have seen them and will update accordingly one i get the relevant Orbats! <3
 
