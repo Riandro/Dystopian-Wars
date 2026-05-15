@@ -12316,7 +12316,7 @@ If they do so, they score a number of Victory Points equal to the Mass of the la
         <infoLink name="Doksuri Fighters" id="92d9-4f0a-414f-af1a" hidden="false" type="profile" targetId="3470-f1b1-d821-85ec"/>
       </infoLinks>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fabb-34fd-be28-30c1"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fabb-34fd-be28-30c1" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <modifiers>
         <modifier type="add" value="7cb7-ba18-609f-2720" field="category">
@@ -12633,15 +12633,17 @@ If they do so, they score a number of Victory Points equal to the Mass of the la
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Yuzhou City of Furnaces" hidden="false" id="2259-cfac-c52b-6ba0" type="selectionEntry" targetId="e245-bf70-5ac2-c113" sortIndex="1">
+    <entryLink import="true" name="Yuzhou City of Furnaces" hidden="true" id="2259-cfac-c52b-6ba0" type="selectionEntry" targetId="e245-bf70-5ac2-c113" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Airborne" hidden="false" id="a9f1-5c01-4921-310b" targetId="139e-c78f-43c0-2957" primary="true"/>
       </categoryLinks>
+      <comment>not needed</comment>
     </entryLink>
-    <entryLink import="true" name="Zhanmadao Sky Fortress" hidden="false" id="46ec-59b6-30db-8400" type="selectionEntry" targetId="c909-ae61-3987-15a8" sortIndex="1">
+    <entryLink import="true" name="Zhanmadao Sky Fortress" hidden="true" id="46ec-59b6-30db-8400" type="selectionEntry" targetId="c909-ae61-3987-15a8" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Airborne" hidden="false" id="08e8-5808-2c24-8abe" targetId="139e-c78f-43c0-2957" primary="true"/>
       </categoryLinks>
+      <comment>not needed</comment>
     </entryLink>
     <entryLink import="true" name="Bangpae Explosive Automata" hidden="false" id="9ad9-e2f1-2a5a-ee44" type="selectionEntry" targetId="72fb-6b12-b775-94e4" sortIndex="4">
       <modifiers>
