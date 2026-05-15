@@ -2447,7 +2447,7 @@ If a unit with Chita Support uses the Raiding Parties rule, the X value of the 
 
 Each time an Escort token is discarded from a unit with Chita Support, for any reason other than Raiding Parties, roll an Action Die. 
 If the result shows a Standard Counter or a Heavy Counter, the Token remains in play.</description>
-      <comment>Not used? </comment>
+      <comment>Not used?</comment>
     </rule>
     <rule name="Reinforced Decking" id="0ef0-6a6d-884c-7efc" hidden="false">
       <description>When this model is targeted by an Attack action made with Aerial Weapons, any Heavy Strikes in the Action Roll are converted to Standard Strikes at the start of the Count Hits step.</description>
