@@ -1444,6 +1444,7 @@ Firepower ratings of ‘-’ cannot be increased in this way. However, Firepowe
     </rule>
     <rule name="All Around" id="bbe4-03e4-180b-c745" hidden="false">
       <description>When Declaring Contributing Weapons for an Attack action, this weapon can Contribute regardless of which Targeting Arc the Initial Target is in.</description>
+      <alias>All-Around</alias>
     </rule>
     <rule name="Arc" id="f87a-1f84-2d45-fa74" hidden="false">
       <description>Before making the Action Roll for an Attack action, the active Admiral rolls X Critical Damage Dice for each Contributing weapon with this Quality.
