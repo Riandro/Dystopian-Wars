@@ -672,7 +672,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">9</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Piercing (4), Skystrike (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Piercing (4), Sky Strike (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1794,7 +1794,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Piercing (2), Skystrike (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Piercing (2), Sky Strike (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2629,7 +2629,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">9</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Piercing (4), Skystrike (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Piercing (4), Sky Strike (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3149,7 +3149,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Piercing (2), Skystrike (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Piercing (2), Sky Strike (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3437,7 +3437,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Piercing (2), Skystrike (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Piercing (2), Sky Strike (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4121,7 +4121,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Piercing (2), Skystrike (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Piercing (2), Sky Strike (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
