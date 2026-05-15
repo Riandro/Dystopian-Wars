@@ -8568,10 +8568,10 @@ If they do so, the model gains the Ablative Armour (2) property. If the model a
           <profiles>
             <profile name="Canberra Gyro-Bomb Launcher" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2905-8845-eb3f-dd47">
               <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">A</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Aerial&lt;/span&gt;, Barrage, Homing, Limited, Piercing (1)</characteristic>
               </characteristics>
             </profile>
@@ -8660,10 +8660,10 @@ If they do so, the model gains the Ablative Armour (2) property. If the model a
           <profiles>
             <profile name="Fragmentation Ripple Cannonade" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="10a9-279b-43a8-b452">
               <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">A</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Aerial&lt;/span&gt;, Shredded Defences (1)</characteristic>
               </characteristics>
             </profile>
