@@ -4339,13 +4339,6 @@
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="54c6-51fc-16e2-52de" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0"/>
       </entryLinks>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="5cf2-0c6d-f65f-2fe1" shared="true" includeChildSelections="true" childName="The Lords Hood (Legendary Specialist)"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Bedivere Monitor " hidden="false" id="4686-8aa4-b89b-8e7d" sortIndex="21">
       <selectionEntries>
