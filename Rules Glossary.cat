@@ -2760,7 +2760,7 @@ If the last token in the Stack is discarded, the Attack Run mission does not en
 
 Each token in the attacking SRS Stack with this property contributes X Action Dice to the Resistance Pool.</description>
     </rule>
-    <rule name="Autonomous Explosive (X)" id="2405-59d5-57a1-17e5" hidden="false">
+    <rule name="Autonomous Explosive" id="2405-59d5-57a1-17e5" hidden="false">
       <description>This model is an Autonomous Explosive.
 
 
@@ -2831,7 +2831,7 @@ Some (or all) of an Island can be designated as Impassable Ground - thick fores
 A model cannot move through these areas, even if they are otherwise able to move across Islands. 
 If a model is capable of ignoring Terrain Features entirely - for example, if it is an Airborne model - it can still move through Impassable Ground.</description>
     </rule>
-    <rule name="Underwater Carrier (X)" id="1966-3e9a-9ed9-7ff2" hidden="false">
+    <rule name="Underwater Carrier" id="1966-3e9a-9ed9-7ff2" hidden="false">
       <description>In the Launch Phase, this model’s unit can resolve an SRS Launch. 
 
 
@@ -2858,7 +2858,7 @@ Treat the value of their Card as being equal to this Model’s Crew Rating, tak
 
 After the Valour Effect is resolved (even if it was Denied) every model in the unit gains 1 level of Disorder.</description>
     </rule>
-    <rule name="Escort Bay (X)" id="90ad-2664-3fa1-f013" hidden="false">
+    <rule name="Escort Bay" id="90ad-2664-3fa1-f013" hidden="false">
       <description>As a Special Action, this model’s unit can Deploy Escorts.
 
 
@@ -2867,7 +2867,7 @@ Take a Group Crew Check for the unit. If the check is passed, the Admiral may a
 
 The Admiral may divide these Tokens amongst different units however they choose, but they cannot assign more Escort tokens to a unit than would normally be permissible during Force Selection.</description>
     </rule>
-    <rule name="Eye Of Yeomna (X)" id="b180-1df3-10c4-ecf5" hidden="false">
+    <rule name="Eye Of Yeomna" id="b180-1df3-10c4-ecf5" hidden="false">
       <description>As a Special Action, this model’s unit can pronounce Yeomna’s Judgement against an enemy unit within 15”.
 
 
@@ -2929,7 +2929,7 @@ Weapons with this Quality ignore the Reinforced Waterline property.
 Additionally, if every Contributing weapon has this Quality, the unit’s Admiral may attempt to enact a Special Valour Effect.
 If successful, the Vulnerable Stern rule applies to the Target, even if the Participating models are outside of the Target’s Aft arc, and even if another rule would exempt it from Vulnerable Stern.</description>
     </rule>
-    <rule name="Multiple Batteries (X)" id="b2db-e872-3b67-1f1b" hidden="false">
+    <rule name="Multiple Batteries" id="b2db-e872-3b67-1f1b" hidden="false">
       <description>This weapon may be selected to Contribute to an Attack action up to X times per Activation, instead of only once. 
 
 
@@ -2950,7 +2950,7 @@ A Gaseous attack does not trigger the Under Fire rule. However any model suffer
 
 *Note: Disorder Spreads as normal even when Damage is inflicted. Additionally, if the Jade Fury Battlefleet Bonus is in effect (see the Empire ORBAT ), the target suffers 1 Damage for each excess point of Disorder and not 2.*</description>
     </rule>
-    <rule name="Protective Fire (X)" id="5232-b34c-9032-a1aa" hidden="false">
+    <rule name="Protective Fire" id="5232-b34c-9032-a1aa" hidden="false">
       <description>When a model with this weapon is the target of an Attack Run mission, or of an Attack action in which at least one weapon with the Barrage quality is Contributing, it may perform Protective Fire.
 
 
