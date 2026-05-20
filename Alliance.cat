@@ -725,7 +725,7 @@
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">SA</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
                       </characteristics>
@@ -755,7 +755,7 @@
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
                       </characteristics>
@@ -785,7 +785,7 @@
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
                       </characteristics>
@@ -815,7 +815,7 @@
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PA</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
                       </characteristics>
