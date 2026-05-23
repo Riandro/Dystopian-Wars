@@ -1483,8 +1483,11 @@ A Portal marker is treated as having a Mass of 3, and can Block or Obscure Visi
 
 **PORTAL LIMITS**
 The maximum number of Portal markers allowed in the Play Area is the Portal Limit, and depends on the Engagement Scale of the game being played. 
-If both Admirals can create Portals, this limit applies to each of them separately
+If both Admirals can create Portals, this limit applies to each of them separately.
 
+Small Engagement:- 4
+Medium Engagement:- 6
+Larege Engagement:- 8
 
 
 **COLLIDING WITH PORTAL MARKERS**
@@ -3081,21 +3084,6 @@ A Gaseous attack does not trigger the Under Fire rule. However any model suffer
 
 
 Add a number of Bonus Dice to the Resistance Roll equal to the combined X Values of all weapons on the model with this Quality.</description>
-    </rule>
-    <rule name="Mirage Generator" id="4090-7bf7-489b-9591" hidden="false">
-      <description>This is a Generator and grants the following Unit Benefit:
-
-When a model in this unit is chosen as the Initial Target of an Attack action, and it is not within 10” of any Participating models, its Admiral can declare that they will Raise Refractive Fields before the Action Roll is made.
-They cannot do this if this model has 3 levels of Disorder.
-
-If they do so, their opponent must re-roll any Standard Strikes in the Action Roll. If no Participating models are within 30” When the Action Roll is made, they must also re-roll any Heavy Strikes.
-After the Attack action has been fully resolved, this model gains 1 level of Disorder. </description>
-    </rule>
-    <rule name="Portal Accelerator Array" id="1df9-c7f4-1a1b-80b8" hidden="false">
-      <description>This model has additional options when Weaving a Portal or Closing a Portal, as described in the Portal Technology section of the Sultanate ORBAT.
-
-**ACCELERATED WEAVING**
-If the nominated Weaver is equipped with a Portal Accelerator Array, the Admiral can either place up to 2 Portal markers (following the standard rules), or place a single Portal marker up to 20” away from the Weaver, plus 10” for each additional Portal Manipulator in the unit. (These additional models do not need to have Portal Accelerator Arrays.)</description>
     </rule>
   </sharedRules>
   <publications>

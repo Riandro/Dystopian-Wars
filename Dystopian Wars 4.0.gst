@@ -210,6 +210,11 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
             </modifier>
             <modifier type="append" value="Atomic Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
             <modifier type="set" value="0" field="8258-b142-7b53-c744"/>
+            <modifier type="set" value="0" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5190-e9fa-9afa-172d" shared="true" childName="Mihrimah" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8258-b142-7b53-c744"/>
@@ -264,6 +269,11 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
               </conditionGroups>
             </modifier>
             <modifier type="append" value="Repulsion Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+            <modifier type="set" value="0" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5190-e9fa-9afa-172d" shared="true" childName="Mihrimah" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="247c-3f05-6239-5925"/>
@@ -282,6 +292,11 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
             <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="unit" childId="4069-a277-355d-ae72" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5190-e9fa-9afa-172d" shared="true" childName="Mihrimah" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -384,6 +399,11 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
               </conditionGroups>
             </modifier>
             <modifier type="append" value="Heavy Shield Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+            <modifier type="set" value="0" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5190-e9fa-9afa-172d" shared="true" childName="Mihrimah" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="53d5-a010-d200-37a8"/>
@@ -402,6 +422,11 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
             <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="unit" childId="f114-4bae-9e5b-c9fd" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5190-e9fa-9afa-172d" shared="true" childName="Mihrimah" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -447,6 +472,11 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
             <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="unit" childId="6c3a-1e64-fcc8-bb6c" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5190-e9fa-9afa-172d" shared="true" childName="Mihrimah" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -499,6 +529,11 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
                 <condition type="instanceOf" value="1" field="selections" scope="unit" childId="4cfa-d98d-05ef-a274" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="set" value="0" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5190-e9fa-9afa-172d" shared="true" childName="Mihrimah" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a212-a31f-9999-00f7"/>
@@ -547,6 +582,11 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
             <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="unit" childId="9ac6-3417-ec6f-cba6" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5190-e9fa-9afa-172d" shared="true" childName="Mihrimah" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -627,6 +667,14 @@ The Admiral can only use this Doctrine once per game.</description>
               <description>Whenever this Admiral makes a Reserve Roll for a unit in their Force, they can roll one additional Action Die.</description>
             </rule>
           </rules>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden"/>
+            <modifier type="set" value="10" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="581b-677f-bf28-4009" shared="true" includeChildSelections="true" includeChildForces="true" childName="Sultanate"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="CHAIN OF COMMAND" hidden="false" id="d43b-3291-72ce-3015" sortIndex="3">
           <costs>
@@ -652,7 +700,7 @@ If the Effect is successfully enacted, the Admiral can re-roll any number of di
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="DEVIL’S OWN LUCK" hidden="false" id="6fe5-6023-d8e3-b7cd" sortIndex="4">
+        <selectionEntry type="upgrade" import="true" name="DEVIL’S OWN LUCK" hidden="false" id="6fe5-6023-d8e3-b7cd" sortIndex="3">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="25"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -668,6 +716,13 @@ If the Effect is successfully enacted, the Admiral can re-roll any number of di
 The opposing Admiral reveals their Valour Card. If it has a Value of 8 or less, it is discarded without being enacted.</description>
             </rule>
           </rules>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="9b3b-5cae-eda4-2941" shared="true" includeChildSelections="true" includeChildForces="true" childName="Empire"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="DO OR DIE" hidden="false" id="49c6-8e35-82e0-d120" sortIndex="5">
           <costs>
@@ -687,6 +742,13 @@ In the case of a Group Crew Check, this Modifier applies
 to all models in the unit.</description>
             </rule>
           </rules>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="581b-677f-bf28-4009" shared="true" includeChildSelections="true" includeChildForces="true" childName="Sultanate"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
