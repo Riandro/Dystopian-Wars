@@ -315,21 +315,6 @@
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="6ce4-57da-36fe-b16a" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Khepri Automata" id="589f-e59e-04a8-ff3b" hidden="true" type="profile" targetId="9950-469b-aef9-1d42">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="6ce4-57da-36fe-b16a" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </conditionGroup>
@@ -1616,22 +1601,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="388f-facf-a788-c8b0" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Khepri Automata" id="07c7-a6ce-6370-a527" hidden="true" type="profile" targetId="9950-469b-aef9-1d42">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="388f-facf-a788-c8b0" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="6ce4-57da-36fe-b16a" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -2485,7 +2455,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="d4f4-64cc-a87d-ccfa" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
-      <comment>Generator delete? </comment>
+      <comment>Generator delete?</comment>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Retaj Portalship" hidden="false" id="17c8-b5f6-3262-8cb3" sortIndex="1">
       <selectionEntries>
@@ -2868,20 +2838,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Khepri Automata" id="7f7e-7342-1d7e-41a5" hidden="true" type="profile" targetId="9950-469b-aef9-1d42">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="6ce4-57da-36fe-b16a" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -4029,7 +3986,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Izmir" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="aa58-0cd5-401c-e497">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Maritime Patrol, Shallow Draft, Vanguard (5”) </characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Maritime Patrol, Shallow Draft, Vanguard (5”)</characteristic>
           </characteristics>
         </profile>
         <profile name="Izmir" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="fe2d-3458-a7bf-bda2">
@@ -5378,22 +5335,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="f6f1-9235-c832-8719" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Khepri Automata" id="274c-8a70-b01f-b7dc" hidden="true" type="profile" targetId="9950-469b-aef9-1d42">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="f6f1-9235-c832-8719" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="6ce4-57da-36fe-b16a" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -5655,22 +5597,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="1d8a-eeb1-5c24-6069" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Khepri Automata" id="aded-9a0c-8920-f359" hidden="true" type="profile" targetId="9950-469b-aef9-1d42">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="1d8a-eeb1-5c24-6069" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="6ce4-57da-36fe-b16a" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -6059,9 +5986,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Nasr" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="6454-2902-3be5-f5b5">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+2”), Lateral Engines (6”)
-
-</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+2”), Lateral Engines (6”)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6305,22 +6230,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="6b38-eaaa-f56f-c1ba" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Khepri Automata" id="a5c8-dd48-782e-0ae5" hidden="true" type="profile" targetId="9950-469b-aef9-1d42">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="6b38-eaaa-f56f-c1ba" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="6ce4-57da-36fe-b16a" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -6574,22 +6484,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="5033-a1b5-177a-087a" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Khepri Automata" id="d183-a47f-c779-0f4b" hidden="true" type="profile" targetId="9950-469b-aef9-1d42">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="5033-a1b5-177a-087a" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="6ce4-57da-36fe-b16a" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -10121,7 +10016,7 @@ When it is fielded in this way, all of its units must still be chosen from this 
             <categoryLink name="Attachment" hidden="false" id="6c4c-2e42-637a-0c7c" targetId="f152-70a0-da07-33cd" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Pasha Light Cruiser" hidden="true" id="ebcb-60ea-4307-1ee1" type="selectionEntry" targetId="0169-7a1c-76ff-6067">
+        <entryLink import="true" name="Pasha Fast Cruiser" hidden="true" id="ebcb-60ea-4307-1ee1" type="selectionEntry" targetId="0169-7a1c-76ff-6067">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>
@@ -10214,7 +10109,7 @@ When it is fielded in this way, all of its units must still be chosen from this 
             <categoryLink name="Attachment" hidden="false" id="d85a-ab3e-cf0e-41a2" targetId="f152-70a0-da07-33cd" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Offshore Defence Platform" hidden="true" id="e701-d670-f7e3-cdb8" type="selectionEntry" targetId="a46d-cc49-c9d7-8298">
+        <entryLink import="true" name="Defence Platform Jebel Class" hidden="true" id="e701-d670-f7e3-cdb8" type="selectionEntry" targetId="a46d-cc49-c9d7-8298">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>
