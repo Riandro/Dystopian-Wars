@@ -1836,17 +1836,5 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Surgical Strike (Breach / System Failure), Underwater SRS</attribute>
       </attributes>
     </profile>
-    <profile name="Khepri Automata" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="9950-469b-aef9-1d42">
-      <characteristics>
-        <characteristic name="ATK" typeId="1727-4f83-903e-a65d">3</characteristic>
-        <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">2</characteristic>
-        <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
-        <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
-        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Hover SRS, Launch Range (20”), Surgical Strike (System Failure), Portal Strike</characteristic>
-      </characteristics>
-      <attributes>
-        <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Hover SRS, Launch Range (20”), Surgical Strike (System Failure), Portal Strike</attribute>
-      </attributes>
-    </profile>
   </sharedProfiles>
 </gameSystem>
