@@ -1375,7 +1375,6 @@ has at least two Actions remaining.*</description>
     <rule name="Cruor" id="4873-e3e1-097f-2f02" hidden="false">
       <description>After resolving an Attack action in which one or more weapons with this Quality Contributed, the active Admiral may attempt to enact a Special Valour Effect with the active unit.
 
-
 If successful, each model within 10” of the Initial Target gains 1 level of Disorder, unless they have the listed Trait.</description>
     </rule>
     <rule name="Crippled" id="740a-e45f-5ad7-db80" hidden="false">
@@ -1477,9 +1476,146 @@ In addition, if the model has a Depleted status token, its Admiral can choose t
 All Resupply tokens allocated to the unit are then discarded, whether or not they were used.</description>
     </rule>
     <rule name="Portal Generator" id="5f43-cf0c-4de9-7aaf" hidden="false">
-      <description>This is a Generator.
+      <description>This is a Generator, this model’s unit can Weave and Shift Portals.
 
-This model’s unit can Weave and Shift Portals, as described in the Portal Technology section of the Sultanate ORBAT</description>
+A Portal marker is treated as having a Mass of 3, and can Block or Obscure Visibility in the same way as a model. 
+
+
+**PORTAL LIMITS**
+The maximum number of Portal markers allowed in the Play Area is the Portal Limit, and depends on the Engagement Scale of the game being played. 
+If both Admirals can create Portals, this limit applies to each of them separately
+
+
+
+**COLLIDING WITH PORTAL MARKERS**
+Airborne and Underwater models can Pass Through a Portal marker.
+Surface models can Move through Portal markers. At the end of a Surface model’s Move, it gains 1 level of Disorder for each Portal marker it moved through. 
+Then, for each of those Portal markers, the model’s Admiral rolls a number of Action Dice equal to the model’s Mass rating.
+
+
+If one or more dice show a Heavy or Exploding Strike, the Portal collapses and the Marker is removed from the Play Area.
+If the model’s Move ends with it touching a Portal marker, the Marker is removed automatically (no dice roll is required). 
+
+
+*Note that the model gains Disorder for the Marker, even if it did not fully move through it.* 
+
+
+
+**MANIPULATING PORTALS**
+A model with a Portal Generator system is a Portal Manipulator. 
+It can be used to Weave a Portal in the Launch Phase, and Shift and/or Close a Portal as a Special Action during its Activation. 
+A model with a System Failure Critical Damage Effect does not count as a Portal Manipulator. 
+
+
+
+**WEAVING A PORTAL**
+During the Launch Phase, the controlling Admiral can nominate a unit containing at least one Portal Manipulator model, as if it were a Carrier unit, to Weave a Portal. 
+
+
+If a Carrier unit contains a Portal Manipulator model, it can be chosen twice in the Launch Phase—once to Weave a Portal, and once to Resolve an SRS Launch.
+
+
+When a unit Weaves a Portal, its Admiral nominates a Portal Manipulator model in the unit to be the Weaver, then places a Portal marker within 10” of that model. 
+This distance is increased by 10” for each additional Portal Manipulator model in the unit, not including the Weaver.
+
+
+A Portal marker cannot be placed within Proximity of a Surface model, Terrain Feature, or another Marker, or overlapping an Airborne or Underwater model.
+
+
+A unit cannot Weave a Portal if there are already Portal markers in the Play Area equal to its Admiral’s Portal Limit.
+
+
+
+**ACCELERATED WEAVING**
+If the nominated Weaver is equipped with a Portal  Accelerator Array, the Admiral can either place up to 2 Portal markers (following the standard rules), or place a single Portal marker up to 20” away from the Weaver, plus 10” for each additional Portal Manipulator in the unit. (These additional models do not need to have Portal Accelerator Arrays.)
+
+
+**SHIFTING A PORTAL**
+A unit that contains at least one Portal Manipulator model can Shift a Portal as a Special Action during its Activation.
+Only Portal Manipulator models can Participate in this Action.
+
+
+
+When it does so, the active Admiral chooses a Portal marker anywhere in the Play Area and repositions it within 10” of its current position. 
+Note that unlike when Weaving a Portal, this distance is not increased by having more than one Portal Manipulator model in the unit.
+
+
+The Portal marker cannot be repositioned to within Proximity of a Surface model, Terrain Feature, or another Marker, or overlapping an Airborne or Underwater model. 
+
+
+
+
+**CLOSING A PORTAL**
+A unit that contains at least one Portal Manipulator model can Close a Portal as a Special Action during its Activation. 
+Only Portal Manipulator models can Participate in this Action.
+
+
+When it does so, the active Admiral chooses a Portal marker anywhere in the Play Area. 
+Every model (friend or foe) within 3” of the Marker immediately gains 1 level of Disorder, then the Marker is removed from play.
+
+
+
+
+**IMPLODING A PORTAL**
+If at least one Portal Manipulator model in the unit is equipped with a Portal Acceleration Array, its Admiral can choose to Implode a Portal instead of Closing it normally.
+If they do so, they nominate a model in the active unit that has a Portal Accelerator Array, and choose a Portal marker within 20” of that model.
+
+
+Then, they make a Crew Check for the nominated model. 
+If the check fails, every model (friend or foe) within 3” of the chosen Marker immediately gains 1 level of Disorder, then the Marker is removed from play.
+
+
+If the check passes, the nominated model gains 1, 2, or 3 levels of Disorder, chosen by the active Admiral. 
+If this would take the model above 3 Disorder, it only counts as having gained enough levels to bring it to 3. 
+
+
+Then, every model (friend or foe) within 3” of the chosen Portal marker suffers Damage equal to the amount of Disorder gained by the nominated model, and gains 1 Disorder. Finally, the Marker is removed from play.
+
+
+
+
+**UTILISING PORTALS**
+Many Sultanate units can Deploy, Attack, and Depart through Portals.
+
+
+
+
+**DEPLOYING THROUGH A PORTAL**
+When a Sultanate Surface unit arrives from Reserve, it can Deploy through a Portal as long as no model in the unit has a Mass rating greater than 3.
+
+
+The unit’s Admiral nominates a Portal in the Play Area, then Deploys the unit so that each model is within 5” of the chosen Marker, and the chosen Marker is in each model’s Aft arc. Note that the unit is not marked with an Incoming status token.
+
+
+A model that Deploys from a Portal marker cannot be placed within Proximity of a Terrain Feature, or a model in another unit. 
+
+
+Attacking Through a Portal. When a Sultanate Surface unit makes an Attack action, its Admiral can declare that they will Attack through a Portal marker. 
+If they do this, the Admiral must nominate one Portal marker in the Play Area to be the Entry Portal, and another Portal marker in the Play Area to be the Exit Portal. 
+
+
+Models in the unit can only Participate in the Action if the Entry Portal is within 7”, and is Visible to it. 
+A weapon can only Contribute to the Action if the Entry Portal is in one of its Targeting Arcs.
+The Attack’s Range is determined by measuring the distance between the Initial Target and the Exit Portal.
+When determining Visibility, any lines are traced from the centre of the Exit Portal instead of an attacking model.
+
+
+The Portal always counts as Obscuring each Participating model’s Visibility. 
+As a result, the opposing Admiral always adds at least 3 Bonus Dice to their Resistance Roll for each Participating model.
+
+
+
+
+**DEPARTING THROUGH A PORTAL**
+At the start of a Sultanate Surface unit’s Movement Step, its Admiral can declare that the unit will Depart through a Portal.
+
+
+If, in the course of that Step, a model from that unit with a Mass rating of 3 or less moves into contact with a Portal marker, and the point of contact is in the model’s Fore arc, the model is removed from play and set aside.
+No Collision is resolved.
+
+
+At the end of the Movement Step, any models in the unit that are still in the Play Area are Abandoned. 
+The rest of the unit returns to its Admiral’s Reserve, and can return to the Play Area in the Ready Phase of a subsequent Round.</description>
     </rule>
     <rule name="Grounding Hazards" id="eba4-9ee7-f708-7cb4" hidden="false">
       <description>A Grounding Hazard might represent a sandbank, a large coral reef or similar.
@@ -1495,22 +1631,12 @@ Certain Properties and Systems may allow a model to Pass Through Grounding Haza
 Firepower ratings that do not have a value are not increased.</description>
       <comment>Currently not used</comment>
     </rule>
-    <rule name="Mirage Generator" id="ffbe-b452-3af9-b5d5" hidden="false">
-      <description>This is a Generator and grants the following Unit Benefit:
+    <rule name="Mirage Projector Array" id="ffbe-b452-3af9-b5d5" hidden="false">
+      <description>When a friendly model within 7” of this model is chosen as the Initial Target of an Attack action, its Admiral can use this system to grant that model the Mirage Generator system for the duration of the action, even if the target model has a System Failure Critical Damage Effect. 
 
-When an Attack action targets a model in this unit, add 1 Bonus Die to the Resistance Roll for each Participating model that is further than 5” from the Initial Target.
+They cannot do this if this model has 3 levels of Disorder.
 
-&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Torrent&lt;/span&gt; Weapons or weapons with the Indiscriminate quality are not affected by this rule.
-
-In addition, immediately before the Action Roll is made for an Attack action against a model in this unit, its Admiral can attempt to enact a Special Valour Effect with it.
-
-If successful, the Action immediately ends.
-
-A unit can attempt this Special Valour Effect only once per Round. 
-Mark the unit with a Valour Effect token, whether the Effect was successfully enacted or not. 
-
-
-Remove the Token in the Clean Up step of the End Phase.</description>
+After the Attack action has been fully resolved, this model gains 1 level of Disorder, as detailed in the Mirage Generator rules, instead of the target model.</description>
     </rule>
     <rule name="Crew Check" id="8d13-62fa-dc5c-0661" hidden="false">
       <description>**MAKING CREW CHECKS**
@@ -2955,6 +3081,21 @@ A Gaseous attack does not trigger the Under Fire rule. However any model suffer
 
 
 Add a number of Bonus Dice to the Resistance Roll equal to the combined X Values of all weapons on the model with this Quality.</description>
+    </rule>
+    <rule name="Mirage Generator" id="4090-7bf7-489b-9591" hidden="false">
+      <description>This is a Generator and grants the following Unit Benefit:
+
+When a model in this unit is chosen as the Initial Target of an Attack action, and it is not within 10” of any Participating models, its Admiral can declare that they will Raise Refractive Fields before the Action Roll is made.
+They cannot do this if this model has 3 levels of Disorder.
+
+If they do so, their opponent must re-roll any Standard Strikes in the Action Roll. If no Participating models are within 30” When the Action Roll is made, they must also re-roll any Heavy Strikes.
+After the Attack action has been fully resolved, this model gains 1 level of Disorder. </description>
+    </rule>
+    <rule name="Portal Accelerator Array" id="1df9-c7f4-1a1b-80b8" hidden="false">
+      <description>This model has additional options when Weaving a Portal or Closing a Portal, as described in the Portal Technology section of the Sultanate ORBAT.
+
+**ACCELERATED WEAVING**
+If the nominated Weaver is equipped with a Portal Accelerator Array, the Admiral can either place up to 2 Portal markers (following the standard rules), or place a single Portal marker up to 20” away from the Weaver, plus 10” for each additional Portal Manipulator in the unit. (These additional models do not need to have Portal Accelerator Arrays.)</description>
     </rule>
   </sharedRules>
   <publications>
