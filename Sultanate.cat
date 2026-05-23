@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="581b-677f-bf28-4009" name="Sultanate" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="6" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry type="unit" import="true" name="Kadesh Barrage Battlecruiser" hidden="false" id="f7ba-3705-98a7-8c09" sortIndex="4">
+    <selectionEntry type="unit" import="true" name="Kadesh Barrage Battlecruiser" hidden="false" id="f7ba-3705-98a7-8c09" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Kadesh" hidden="false" id="6a00-d017-9442-42d0" sortIndex="1">
           <selectionEntryGroups>
@@ -28,7 +28,7 @@
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -91,7 +91,7 @@
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -273,7 +273,7 @@
             <characteristic name="Armour" typeId="536a-39ed-80f6-7270">5</characteristic>
             <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">9</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
-            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">2</characteristic>
+            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">3</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">3</characteristic>
             <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">9</characteristic>
             <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
@@ -369,7 +369,7 @@
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -588,7 +588,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Anatolia Heavy Battlecruiser" hidden="false" id="c7df-6036-baff-c5e7" sortIndex="2">
+    <selectionEntry type="unit" import="true" name="Anatolia Heavy Battlecruiser" hidden="false" id="c7df-6036-baff-c5e7" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Anatolia" hidden="false" id="110f-1a2f-6701-90e8" sortIndex="1">
           <selectionEntryGroups>
@@ -615,7 +615,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -772,7 +772,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -881,7 +881,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Attachment host" hidden="false" id="dabb-31bd-2492-8b17" targetId="2251-0def-1b03-2e93" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hurrem Grand Cruiser" hidden="false" id="6209-eccb-8d37-52e3" sortIndex="3">
+    <selectionEntry type="unit" import="true" name="Hurrem Grand Cruiser" hidden="true" id="6209-eccb-8d37-52e3" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Hurrem" hidden="false" id="a532-2936-4587-df44" sortIndex="1">
           <selectionEntryGroups>
@@ -1306,8 +1306,9 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Attachment host" hidden="false" id="e1cc-5781-9964-b241" targetId="2251-0def-1b03-2e93" primary="false"/>
         <categoryLink name="Flagship" hidden="false" id="9ca3-a985-bece-4a07" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
       </categoryLinks>
+      <comment>Retired</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Khartoum Heavy Battleskimmer" hidden="false" id="f8dd-e97b-1751-679d" sortIndex="5">
+    <selectionEntry type="unit" import="true" name="Khartoum Heavy Battleskimmer" hidden="false" id="f8dd-e97b-1751-679d" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Khartoum" hidden="false" id="037d-45be-d1bf-6604" sortIndex="1">
           <selectionEntryGroups>
@@ -1334,7 +1335,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1397,7 +1398,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1560,9 +1561,9 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <profile name="Qaa Magnetic Bombard" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="eafc-1934-a51a-b5dc">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">9</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">9</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">9</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Navigation Lock (2)</characteristic>
               </characteristics>
             </profile>
@@ -1579,7 +1580,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <characteristic name="Armour" typeId="536a-39ed-80f6-7270">5</characteristic>
             <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">9</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
-            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">2</characteristic>
+            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">3</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">3</characteristic>
             <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">9</characteristic>
             <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
@@ -1597,10 +1598,11 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Escorts" hidden="false" id="7aa5-0c59-5a74-9b22" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="7">
+        <entryLink import="true" name="Escorts" hidden="true" id="7aa5-0c59-5a74-9b22" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="7">
           <constraints>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="dc09-92c7-5bcb-8d62" includeChildSelections="false"/>
           </constraints>
+          <comment>no longer needeD?</comment>
         </entryLink>
         <entryLink import="true" name="Attachments" hidden="false" id="2b82-35bc-e053-c97c" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
@@ -1653,7 +1655,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Lyceum Aerial Dreadnought" hidden="false" id="67b7-3f0f-f613-d7ea" sortIndex="6">
+    <selectionEntry type="unit" import="true" name="Lyceum Aerial Dreadnought" hidden="false" id="67b7-3f0f-f613-d7ea" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Lyceum" hidden="false" id="8022-f81b-3802-0406" sortIndex="1">
           <selectionEntryGroups>
@@ -1680,7 +1682,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1743,7 +1745,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1931,7 +1933,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <entryLink import="true" name="Attachments" hidden="false" id="ea05-4371-4255-3217" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Osiris Battleskimmer" hidden="false" id="965f-c075-6d51-dde1" sortIndex="7">
+    <selectionEntry type="unit" import="true" name="Osiris Battleskimmer" hidden="false" id="965f-c075-6d51-dde1" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Osiris" hidden="false" id="91c6-6c55-89df-26ba" sortIndex="1">
           <selectionEntryGroups>
@@ -1958,7 +1960,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2164,6 +2166,17 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="210"/>
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="7"/>
           </costs>
+          <profiles>
+            <profile name="Heavy Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="b35a-368c-c9d0-fbe5">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -2176,7 +2189,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <characteristic name="Armour" typeId="536a-39ed-80f6-7270">5</characteristic>
             <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">9</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
-            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">2</characteristic>
+            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">3</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">3</characteristic>
             <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">9</characteristic>
             <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
@@ -2220,7 +2233,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Pharos Hover Dreadnought" hidden="false" id="d0a3-a112-dad7-88ee" sortIndex="8">
+    <selectionEntry type="unit" import="true" name="Pharos Hover Dreadnought" hidden="false" id="d0a3-a112-dad7-88ee" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Pharos" hidden="false" id="d351-a0a4-cb08-9b02" sortIndex="1">
           <selectionEntryGroups>
@@ -2247,7 +2260,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2297,7 +2310,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2347,7 +2360,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2472,8 +2485,9 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="d4f4-64cc-a87d-ccfa" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
+      <comment>Generator delete? </comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Retaj Portalship" hidden="false" id="17c8-b5f6-3262-8cb3" sortIndex="9">
+    <selectionEntry type="unit" import="true" name="Retaj Portalship" hidden="false" id="17c8-b5f6-3262-8cb3" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Retaj" hidden="false" id="3ada-cf9f-bac6-0f35" sortIndex="1">
           <constraints>
@@ -2532,7 +2546,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">4</characteristic>
             <characteristic name="Defence" typeId="46f4-1304-4661-f62d">6</characteristic>
             <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">10</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">12</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">3</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">5</characteristic>
@@ -2542,7 +2556,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Retaj" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="d69c-a9eb-69fc-8151">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Boarding Parties (15), Orichalcite Construction, Reinforced Decking, Stoic, Terrifying (Order)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Boarding Parties (15), Cor Caroli Raiders, Orichalcite Construction, Reinforced Decking, Stoic, Terrifying (Order)</characteristic>
           </characteristics>
         </profile>
         <profile name="Retaj" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="ed32-6939-e225-bf62">
@@ -2573,7 +2587,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <entryLink import="true" name="Attachments" hidden="false" id="0653-f991-240d-2469" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Suleiman Fleet Carrier" hidden="false" id="a5a8-b5b5-2e5e-8fa5" sortIndex="10">
+    <selectionEntry type="unit" import="true" name="Suleiman Fleet Carrier" hidden="false" id="a5a8-b5b5-2e5e-8fa5" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Suleiman" hidden="false" id="eb87-6791-8441-9591" sortIndex="1">
           <constraints>
@@ -2647,7 +2661,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Suleiman" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="50fc-2812-08ef-e1d6">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flak Barrage (7), Heavy Shield Generator, Lateral Engines (4”), Portal Generator</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flak Barrage (7), Heavy Shield Generator, Lateral Engines (3”), Portal Generator</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2676,7 +2690,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <infoLink name="Sabiha Attack Fighters" id="1023-9156-ec8c-af67" hidden="false" type="profile" targetId="e1fd-301d-05e3-8718"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Tanis Battlecarrier" hidden="false" id="373e-1f17-3786-d29a" sortIndex="11">
+    <selectionEntry type="unit" import="true" name="Tanis Battlecarrier" hidden="false" id="373e-1f17-3786-d29a" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Tanis" hidden="false" id="22a6-8080-1c49-47f2" sortIndex="1">
           <constraints>
@@ -2814,12 +2828,12 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Tanis" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="0565-46f5-0b7b-b366">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Carrier (10), Elevated, Flotsam, Reinforced Decking, SRS (Khepri Automata)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Carrier (10), Elevated, Flotsam, Landing Party Support, Reinforced Decking, SRS (Khepri Automata)</characteristic>
           </characteristics>
         </profile>
         <profile name="Tanis" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="d115-f9f2-9a27-d1d4">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flight Command (2), Lateral Engines (4 ”), Portal Generator, Priority Signals, Repair Facilities (2)</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flight Command (2), Lateral Engines (3”), Portal Generator, Priority Signals, Repair Facilities (2)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2879,7 +2893,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <entryLink import="true" name="Attachments" hidden="false" id="3b4e-5696-4193-8a66" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Topkapi Carrier" hidden="false" id="2b53-95d6-eea7-9994" sortIndex="12">
+    <selectionEntry type="unit" import="true" name="Topkapi Carrier" hidden="false" id="2b53-95d6-eea7-9994" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Topkapi" hidden="false" id="1194-e437-a3fe-5493" sortIndex="1">
           <constraints>
@@ -2904,7 +2918,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
                 <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                 <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
               </characteristics>
@@ -2944,7 +2958,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Topkapi" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="50e7-ee5d-9501-5435">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Heavy Shield Generator, Lateral Engines (4”), Portal Generator</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Heavy Shield Generator, Lateral Engines (3”), Portal Generator</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2972,7 +2986,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <infoLink name="Sabiha Attack Fighters" id="da4f-5b6b-fbf3-d597" hidden="false" type="profile" targetId="e1fd-301d-05e3-8718"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Bayezid Ikili Cruiser" hidden="false" id="3840-5e5f-82f1-dfae" sortIndex="14">
+    <selectionEntry type="unit" import="true" name="Bayezid Grand Cruiser" hidden="false" id="3840-5e5f-82f1-dfae" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Bayezid" hidden="false" id="d935-8d3f-40b7-1a27" sortIndex="1">
           <selectionEntryGroups>
@@ -2999,7 +3013,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3030,11 +3044,27 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                     </profile>
                   </profiles>
                 </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Pala Railgun" hidden="false" id="2a7f-3a2b-1dbb-6fb8">
+                  <profiles>
+                    <profile name="Pala Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="b077-2fe8-76ed-163a">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1), Structural Failure (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
               </selectionEntries>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b298-dcd6-ce8e-90cf" includeChildSelections="false" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d3e-38ab-fbf9-d403" includeChildSelections="false" automatic="true"/>
               </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Generators" hidden="false" id="a4e1-0c5e-aca2-18d5" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
+              </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Heavy Hardpoint: FS" id="8be9-badc-dbe6-d0ac" hidden="false">
               <selectionEntries>
@@ -3059,7 +3089,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3090,10 +3120,120 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                     </profile>
                   </profiles>
                 </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Pala Railgun" hidden="false" id="121f-2dda-064a-5235">
+                  <profiles>
+                    <profile name="Pala Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a025-b334-99c0-80d9">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1), Structural Failure (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
               </selectionEntries>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b48e-8519-867a-7a72" includeChildSelections="false" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b7ed-53b6-4da0-d5bf" includeChildSelections="false" automatic="true"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Generators" hidden="false" id="d4a7-8e62-d872-c62c" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Light Hardpoint: FP" id="a15b-e96d-7380-9f3b" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="bc04-11df-73f7-7b91">
+                  <profiles>
+                    <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="3694-cfe2-4c3e-8d25">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="9c9e-b9de-6c6e-22ff">
+                  <profiles>
+                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="f0bf-3fca-ca10-4b9b">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Aetheric Lance" hidden="false" id="80ae-52f7-399e-de06">
+                  <profiles>
+                    <profile name="Aetheric Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4e44-8578-bcd4-0365">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Powered</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="834e-7c30-51c7-ea1f" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="53ee-2acb-5a61-2cd5" includeChildSelections="false" automatic="true"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Light Hardpoint: FS" id="9b77-b2b2-ac47-cabb" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="8741-cb26-6a67-bb38">
+                  <profiles>
+                    <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="3304-ded7-9ab1-79a8">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="e177-aeb7-59da-c6c2">
+                  <profiles>
+                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4529-a4cd-e71b-17fc">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Aetheric Lance" hidden="false" id="9f93-738f-f4c3-c550">
+                  <profiles>
+                    <profile name="Aetheric Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="68d0-44f8-a0ba-1b3f">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Powered</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5e88-1715-5329-2c41" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7456-a0b0-af89-ee77" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -3133,7 +3273,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">4</characteristic>
             <characteristic name="Defence" typeId="46f4-1304-4661-f62d">6</characteristic>
             <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">10</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">12</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">3</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">5</characteristic>
@@ -3148,7 +3288,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Bayezid" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="4c23-3cb8-d936-b0a9">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Heavy Shield Generator, Lateral Engines (4”), Mine Sweeper (1)</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Heavy Shield Generator, Lateral Engines (3”), Mine Sweeper (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3171,8 +3311,9 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
           </constraints>
         </entryLink>
       </entryLinks>
+      <comment>generators ong HHP possible wrong</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Bursa Ikili Heavy Cruiser" hidden="false" id="fca6-de3f-a52e-5295" sortIndex="15">
+    <selectionEntry type="unit" import="true" name="Bursa Ikili Heavy Cruiser" hidden="true" id="fca6-de3f-a52e-5295" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Bursa" hidden="false" id="75e0-09ec-5e07-9b21" sortIndex="1">
           <selectionEntryGroups>
@@ -3465,8 +3606,9 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Attachment host" hidden="false" id="c1f1-f3b6-04fb-49f6" targetId="2251-0def-1b03-2e93" primary="false"/>
         <categoryLink name="Line" hidden="false" id="de0d-bdb4-b954-a641" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
       </categoryLinks>
+      <comment>Retired</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Carolus Destroyer" hidden="false" id="4fa2-f310-ce8d-af08" sortIndex="16">
+    <selectionEntry type="unit" import="true" name="Carolus Destroyer" hidden="false" id="4fa2-f310-ce8d-af08" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Carolus" hidden="false" id="ba0b-3e77-f05f-c905" sortIndex="1">
           <constraints>
@@ -3515,12 +3657,12 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Carolus" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="17ff-8909-bb4b-4dad">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Order), Boarding Parties (10), Light Vessel, Reinforced Decking, Stoic, Terrifying (Order)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Order), Boarding Parties (8), Cor Caroli Raiders, Light Vessel, Reinforced Decking, Stoic, Terrifying (Order)</characteristic>
           </characteristics>
         </profile>
         <profile name="Carolus" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="ce5a-861f-a868-3794">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (7”)</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (5”)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3548,7 +3690,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Iskandar Cruiser " hidden="false" id="26df-296b-2e8e-11b5" sortIndex="17">
+    <selectionEntry type="unit" import="true" name="Iskandar Cruiser " hidden="false" id="26df-296b-2e8e-11b5" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Iskandar" hidden="false" id="4c5c-3023-6055-901e" sortIndex="1">
           <selectionEntryGroups>
@@ -3575,7 +3717,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3602,6 +3744,19 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Pala Railgun" hidden="false" id="a2c9-93d0-9caa-ad62">
+                  <profiles>
+                    <profile name="Pala Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9898-8b88-de66-72b5">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1), Structural Failure (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3638,7 +3793,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3665,6 +3820,19 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Pala Railgun" hidden="false" id="8e3e-70f9-07b9-4fbf">
+                  <profiles>
+                    <profile name="Pala Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="daf3-f3d5-cba7-d8c9">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1), Structural Failure (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3723,7 +3891,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Iskandar" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="fac0-1110-2a55-4dda">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (6”)</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (3”)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3754,7 +3922,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Izmir Monitor" hidden="false" id="35ee-67c6-4ff3-ae76" sortIndex="22">
+    <selectionEntry type="unit" import="true" name="Izmir Monitor" hidden="false" id="35ee-67c6-4ff3-ae76" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Izmir" hidden="false" id="b32d-534d-6d7f-e3af" sortIndex="1">
           <selectionEntryGroups>
@@ -3781,7 +3949,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3827,7 +3995,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="de9b-81c0-e8a7-3bd1" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="90"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="85"/>
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <profiles>
@@ -3861,12 +4029,12 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Izmir" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="aa58-0cd5-401c-e497">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Maritime Patrol, Vanguard (5”)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Maritime Patrol, Shallow Draft, Vanguard (5”) </characteristic>
           </characteristics>
         </profile>
         <profile name="Izmir" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="fe2d-3458-a7bf-bda2">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (7”)</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (5”)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3902,7 +4070,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Nemrut Battlecruiser" hidden="false" id="0d55-03ba-732d-20f5" sortIndex="31">
+    <selectionEntry type="unit" import="true" name="Nemrut Battlecruiser" hidden="false" id="0d55-03ba-732d-20f5" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Nemrut" hidden="false" id="8826-44d4-1392-f782" sortIndex="1">
           <constraints>
@@ -3988,7 +4156,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">4</characteristic>
             <characteristic name="Defence" typeId="46f4-1304-4661-f62d">6</characteristic>
             <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">10</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">12</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">4</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">3</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">5</characteristic>
@@ -4003,7 +4171,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Nemrut" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="8910-4925-560f-a573">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Heavy Shield Generator, Lateral Engines (7”), Portal Generator</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Heavy Shield Generator, Lateral Engines (5”), Portal Generator</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4022,7 +4190,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <entryLink import="true" name="Attachments" hidden="false" id="e2a2-0352-540f-339b" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Pasha Light Cruiser" hidden="false" id="0169-7a1c-76ff-6067" sortIndex="39">
+    <selectionEntry type="unit" import="true" name="Pasha Fast Cruiser" hidden="false" id="0169-7a1c-76ff-6067" sortIndex="5">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Pasha" hidden="false" id="1863-32da-30e8-5f0a" sortIndex="1">
           <selectionEntryGroups>
@@ -4049,7 +4217,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4188,7 +4356,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Pasha" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="2b47-2399-b9b4-723e">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (7”)</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (5”)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4218,7 +4386,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       </categoryLinks>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Sadrazam Heavy Cruiser" hidden="false" id="a63c-34de-b4af-c7f3" sortIndex="19">
+    <selectionEntry type="unit" import="true" name="Sadrazam Heavy Cruiser" hidden="false" id="a63c-34de-b4af-c7f3" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Sadrazam" hidden="false" id="e5b8-6040-8691-4b55" sortIndex="1">
           <selectionEntryGroups>
@@ -4292,7 +4460,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4355,7 +4523,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4440,7 +4608,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Sadrazam" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="c183-80d9-da0c-35ef">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (5”)</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (3”)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4464,7 +4632,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Line" hidden="false" id="c167-1035-3fd4-bc6d" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Alsaqr Skybarque" hidden="false" id="e32f-1b71-5656-2934" sortIndex="20">
+    <selectionEntry type="unit" import="true" name="Alsaqr Skybarque" hidden="false" id="e32f-1b71-5656-2934" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Alsaqr" hidden="false" id="b348-4e3e-8ee8-e447" sortIndex="1">
           <constraints>
@@ -4527,7 +4695,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Alsaqr" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="efd7-749b-505a-b33b">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+2”), Lateral Engines (7”)</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+2”), Lateral Engines (6”)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4565,7 +4733,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       </modifiers>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Awsbiri Skylancer" hidden="false" id="9883-baf4-1475-bd8d" sortIndex="13">
+    <selectionEntry type="unit" import="true" name="Awsbiri Skylancer" hidden="false" id="9883-baf4-1475-bd8d" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Awsbiri" hidden="false" id="c272-5ef9-bb87-eacd" sortIndex="1">
           <selectionEntryGroups>
@@ -4770,7 +4938,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Awsbiri" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="ae74-9d0e-09bb-f7c7">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+2”), Lateral Engines (7”)</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+2”), Lateral Engines (6”)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4801,7 +4969,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <entryLink import="true" name="Attachments" hidden="false" id="1e7f-e948-27e6-2b11" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hirka Skycutter" hidden="false" id="df10-435e-db14-5505" sortIndex="21">
+    <selectionEntry type="unit" import="true" name="Hirka Skycutter" hidden="false" id="df10-435e-db14-5505" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Hirka" hidden="false" id="1082-8058-26aa-1f78" sortIndex="1">
           <selectionEntryGroups>
@@ -4883,7 +5051,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <characteristic name="Defence" typeId="46f4-1304-4661-f62d">4</characteristic>
             <characteristic name="Armour" typeId="536a-39ed-80f6-7270">3</characteristic>
             <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">5</characteristic>
-            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">1</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">1</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">1</characteristic>
             <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">6</characteristic>
@@ -4892,12 +5060,12 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Hirka" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="ec7f-809b-92bf-efd2">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Light Vessel</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Landing Party Support, Hunter (Light Vessel), Light Vessel</characteristic>
           </characteristics>
         </profile>
         <profile name="Hirka" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="9210-c4b9-94d1-7588">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (7”)</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (6”)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4938,7 +5106,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <entryLink import="true" name="Attachments" hidden="false" id="c65b-7e78-ab5f-1511" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mandjet Heavy Skimmer" hidden="false" id="fbcb-58b0-8098-a2e9" sortIndex="18">
+    <selectionEntry type="unit" import="true" name="Mandjet Heavy Skimmer" hidden="false" id="fbcb-58b0-8098-a2e9" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Mandjet" hidden="false" id="efe8-a846-04b8-5d81" sortIndex="1">
           <selectionEntryGroups>
@@ -5059,7 +5227,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5123,7 +5291,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
               <modifiers>
-                <modifier type="append" value="Carrier (1), SRS (Khepri Automata)
+                <modifier type="append" value="Carrier (2), SRS (Khepri Automata)
 " field="066c-1ce6-091e-90ab" scope="unit" affects="unit.profiles.Properties" join=", "/>
                 <modifier type="add" value="4521-8e16-2d0f-7dc6" field="category"/>
               </modifiers>
@@ -5234,7 +5402,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </infoLink>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mesektet Skimmer" hidden="false" id="19c4-926a-9f38-b4ba" sortIndex="23">
+    <selectionEntry type="unit" import="true" name="Mesektet Skimmer" hidden="false" id="19c4-926a-9f38-b4ba" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Mesektet" hidden="false" id="15e6-3be1-5bc6-f5b5" sortIndex="1">
           <selectionEntryGroups>
@@ -5435,7 +5603,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Mesektet" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="d5eb-0b73-e2c7-f965">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Elevated, Reinforced Decking, Vanguard (5”)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Elevated, Reinforced Decking, Hunter (Light Vessel), Vanguard (5”)</characteristic>
           </characteristics>
         </profile>
         <profile name="Mesektet" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="1522-9238-c52d-0153">
@@ -5511,7 +5679,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </infoLink>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Muharib Skyrunner " hidden="false" id="6d22-f4fe-1181-9597" sortIndex="30">
+    <selectionEntry type="unit" import="true" name="Muharib Skyrunner " hidden="false" id="6d22-f4fe-1181-9597" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Muharib" hidden="false" id="b40e-c378-2d16-61ad" sortIndex="1">
           <selectionEntryGroups>
@@ -5570,7 +5738,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
                       </characteristics>
@@ -5621,7 +5789,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Sabiha Guardians" hidden="false" id="6e3f-355b-75dc-05e9">
               <costs>
-                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
               <modifiers>
@@ -5644,7 +5812,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
             <characteristic name="Armour" typeId="536a-39ed-80f6-7270">3</characteristic>
             <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">6</characteristic>
-            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">1</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">2</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">1</characteristic>
             <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">6</characteristic>
@@ -5658,7 +5826,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Muharib" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="e198-d88d-acca-2b4b">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+2”), Lateral Engines (7”)</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+2”), Lateral Engines (6”)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5684,7 +5852,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Nasr Skyship " hidden="false" id="1c58-8faa-61bf-65c2" sortIndex="24">
+    <selectionEntry type="unit" import="true" name="Nasr Skyship " hidden="false" id="1c58-8faa-61bf-65c2" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Nasr" hidden="false" id="1b11-1c17-0e0c-ba12" sortIndex="1">
           <selectionEntryGroups>
@@ -5711,7 +5879,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5854,7 +6022,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Sabiha Guardians" hidden="false" id="d8e6-be6c-8ab6-8692">
               <costs>
-                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
               <modifiers>
@@ -5891,7 +6059,9 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Nasr" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="6454-2902-3be5-f5b5">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+2”), Lateral Engines (7”)</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Boosted Propulsion (+2”), Lateral Engines (6”)
+
+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5937,7 +6107,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <entryLink import="true" name="Attachments" hidden="false" id="1f20-ea8e-dec6-56b5" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Sabah Barrage Skimmer" hidden="false" id="0fcc-9a3c-c565-5589" sortIndex="34">
+    <selectionEntry type="unit" import="true" name="Sabah Barrage Skimmer" hidden="false" id="0fcc-9a3c-c565-5589" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Sabah" hidden="false" id="60d4-4849-ca24-139f" sortIndex="1">
           <selectionEntryGroups>
@@ -6051,7 +6221,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                 <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Aerial&lt;/span&gt;, Blast (2)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Aerial&lt;/span&gt;, Blast (5)</characteristic>
               </characteristics>
             </profile>
             <profile name="Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="1da0-123c-77d0-ea21">
@@ -6071,7 +6241,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
               <modifiers>
-                <modifier type="append" value="Carrier (1), SRS (Khepri Automata)
+                <modifier type="append" value="Carrier (2), SRS (Khepri Automata)
 " field="066c-1ce6-091e-90ab" scope="unit" affects="unit.profiles.Properties" join=", "/>
                 <modifier type="add" value="4521-8e16-2d0f-7dc6" field="category"/>
               </modifiers>
@@ -6100,7 +6270,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Sabah" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="6d9d-363e-a418-cea1">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Elevated, Reinforced Decking, Vanguard (5”)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Elevated, Reinforced Decking, Vanguard (5”), Hunter (Airborne</characteristic>
           </characteristics>
         </profile>
         <profile name="Sabah" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="dade-b4f8-eacb-818a">
@@ -6166,7 +6336,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Sobek Skimmer " hidden="false" id="8e0c-11d0-eba7-298c" sortIndex="35">
+    <selectionEntry type="unit" import="true" name="Sobek Skimmer " hidden="false" id="8e0c-11d0-eba7-298c" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Sobek" hidden="false" id="1be3-3bcb-16d8-c97f" sortIndex="1">
           <selectionEntryGroups>
@@ -6193,7 +6363,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6358,7 +6528,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">1&quot;-9&quot;</characteristic>
             <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">3</characteristic>
             <characteristic name="Defence" typeId="46f4-1304-4661-f62d">3</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">5</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
             <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">7</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">3</characteristic>
@@ -6435,7 +6605,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Temir Frigate" hidden="false" id="89e5-e484-0961-7559" sortIndex="25">
+    <selectionEntry type="unit" import="true" name="Temir Frigate" hidden="false" id="89e5-e484-0961-7559" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Temir" hidden="false" id="8496-370b-c238-6445" sortIndex="1">
           <selectionEntryGroups>
@@ -6538,7 +6708,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Temir" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="179f-7ec0-a2ed-baa3">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (7”)</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (6”)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6585,7 +6755,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Constantinople Support Carrier" hidden="false" id="1712-f25c-a2d1-dc1b" sortIndex="26">
+    <selectionEntry type="unit" import="true" name="Constantinople Support Carrier" hidden="false" id="1712-f25c-a2d1-dc1b" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Constantinople" hidden="false" id="a44f-7831-dbac-5137" sortIndex="1">
           <constraints>
@@ -6641,7 +6811,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Constantinople" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="85aa-1a6b-3cb5-b469">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (7”)</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (5”)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6669,9 +6839,9 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <infoLink name="Sabiha Attack Fighters" id="b96b-fb1a-09c0-30a6" hidden="false" type="profile" targetId="e1fd-301d-05e3-8718"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Offshore Defence Platform" hidden="false" id="a46d-cc49-c9d7-8298" sortIndex="32">
+    <selectionEntry type="unit" import="true" name="Defence Platform Jebel Class" hidden="false" id="a46d-cc49-c9d7-8298" sortIndex="4">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Offshore Defence Platform" hidden="false" id="4466-0fdc-56af-7a7f" sortIndex="1">
+        <selectionEntry type="model" import="true" name="Defence Platform" hidden="false" id="4466-0fdc-56af-7a7f" sortIndex="1">
           <selectionEntryGroups>
             <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="74ca-64bd-d120-0b7b" hidden="false">
               <selectionEntries>
@@ -6696,7 +6866,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6770,7 +6940,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </selectionEntry>
       </selectionEntries>
       <profiles>
-        <profile name="Offshore Defence Platform" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="eb9a-6d91-0341-19f5">
+        <profile name="Defence Platform" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="eb9a-6d91-0341-19f5">
           <characteristics>
             <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">3</characteristic>
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">-</characteristic>
@@ -6785,19 +6955,19 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1-3</characteristic>
           </characteristics>
         </profile>
-        <profile name="Offshore Defence Platform" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="f475-5d84-ce6b-2178">
+        <profile name="Defence Platform" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="f475-5d84-ce6b-2178">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Offshore Heavy Platform), Forward Deployment, Platform</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Khoms War Platform), Forward Deployment, Platform</characteristic>
           </characteristics>
         </profile>
-        <profile name="Offshore Defence Platform" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="8cd0-f4d3-a0b2-a2ea">
+        <profile name="Defence Platform" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="8cd0-f4d3-a0b2-a2ea">
           <characteristics>
             <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flak Barrage (3)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Escorts" hidden="false" id="3209-026c-2356-857f" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="7">
+        <entryLink import="true" name="Escorts" hidden="true" id="3209-026c-2356-857f" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="7">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d3f2-2e0b-102a-9458" includeChildSelections="false" automatic="true"/>
           </constraints>
@@ -6808,6 +6978,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
               </conditions>
             </modifier>
           </modifiers>
+          <comment>none?</comment>
         </entryLink>
       </entryLinks>
       <constraints>
@@ -6822,9 +6993,9 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       </categoryLinks>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Offshore Heavy Platform" hidden="false" id="b9dd-59cd-3d46-be64" sortIndex="33">
+    <selectionEntry type="unit" import="true" name="Heavy Platform Khoms Class" hidden="false" id="b9dd-59cd-3d46-be64" sortIndex="4">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Offshore Heavy Platform" hidden="false" id="33da-37bc-b30e-281b" sortIndex="1">
+        <selectionEntry type="model" import="true" name="Heavy Platform" hidden="false" id="33da-37bc-b30e-281b" sortIndex="1">
           <selectionEntryGroups>
             <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="2965-5786-fb4e-f095" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -6849,7 +7020,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6909,7 +7080,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6976,7 +7147,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </selectionEntry>
       </selectionEntries>
       <profiles>
-        <profile name="Offshore Heavy Platform" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="2bd0-8e01-9dc2-b33c">
+        <profile name="Heavy Platform" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="2bd0-8e01-9dc2-b33c">
           <characteristics>
             <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">5</characteristic>
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">-</characteristic>
@@ -6991,12 +7162,12 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
           </characteristics>
         </profile>
-        <profile name="Offshore Heavy Platform" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="3d85-6992-7bcf-dede">
+        <profile name="Heavy Platform" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="3d85-6992-7bcf-dede">
           <characteristics>
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Forward Deployment, Platform</characteristic>
           </characteristics>
         </profile>
-        <profile name="Offshore Heavy Platform" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="59cb-a990-2035-af37">
+        <profile name="Heavy Platform" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="59cb-a990-2035-af37">
           <characteristics>
             <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flak Barrage (5), Priority Signals, Repair Facilities (2)</characteristic>
           </characteristics>
@@ -7028,7 +7199,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="NoMirage" hidden="false" id="e491-8be2-28be-2a6a" targetId="e297-c3e1-459d-8413" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Lesath Exemplar Cruiser" hidden="false" id="436d-7ae1-c4a7-66e8" sortIndex="27">
+    <selectionEntry type="unit" import="true" name="Lesath Exemplar Cruiser" hidden="false" id="436d-7ae1-c4a7-66e8" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Lesath" hidden="false" id="a15b-d73c-4a47-79a1" sortIndex="1">
           <constraints>
@@ -7079,12 +7250,12 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Lesath" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="807a-0fd9-5151-38a7">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Boarding Parties (15), Reinforced Decking, Stoic, Terrifying (Order)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Boarding Parties (15), Cor Caroli Raiders, Reinforced Decking, Stoic, Terrifying (Order)</characteristic>
           </characteristics>
         </profile>
         <profile name="Lesath" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="0565-7547-c872-b2ba">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (7”), Portal Generator</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (5”), Portal Generator</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7115,7 +7286,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <entryLink import="true" name="Attachments" hidden="false" id="4eea-eee2-8acd-9b58" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mehmed Grand Monitor" hidden="false" id="4171-c8cd-f490-e3bd" sortIndex="28">
+    <selectionEntry type="unit" import="true" name="Mehmed Grand Monitor" hidden="true" id="4171-c8cd-f490-e3bd" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Mehmed" hidden="false" id="f31c-9a8f-95f7-f5ea" sortIndex="1">
           <selectionEntryGroups>
@@ -7435,31 +7606,11 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </entryLink>
         <entryLink import="true" name="Attachments" hidden="false" id="59c6-5f18-6380-f487" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
+      <comment>Retired</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mihrimah Flechette Cruiser" hidden="false" id="1981-92cf-8d26-e889" sortIndex="29">
+    <selectionEntry type="unit" import="true" name="Mihrimah Flechette Cruiser" hidden="false" id="1981-92cf-8d26-e889" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Mihrimah" hidden="false" id="5190-e9fa-9afa-172d" sortIndex="1">
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Generator" id="6015-412c-a5d6-7bd3" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Mirage Generator" hidden="false" id="88d5-6bd4-4520-023e">
-                  <modifiers>
-                    <modifier type="append" value="Mirage Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
-                  </modifiers>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Portal Generator" hidden="false" id="457e-93d7-ebb0-0b41">
-                  <modifiers>
-                    <modifier type="append" value="Portal Generator
-" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
-                  </modifiers>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1bb-362b-48ea-89fa-min" includeChildSelections="false" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1bb-362b-48ea-89fa-max" includeChildSelections="false" automatic="true"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ea12-1518-6565-7fec" includeChildSelections="false" automatic="true"/>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7430-89e5-6b43-95ba" includeChildSelections="false" automatic="true"/>
@@ -7497,6 +7648,9 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Generators" hidden="false" id="c9f9-4336-9d3c-ffbf" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -7522,7 +7676,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Mihrimah" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="c8ed-69e2-70cc-ba9c">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flak Barrage (3), Lateral Engines (7”)</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flak Barrage (3), Lateral Engines (5”)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7557,8 +7711,9 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
           </conditionGroups>
         </modifier>
       </modifiers>
+      <comment>gen sort? if so system change</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Morea Minelayer" hidden="false" id="fdf6-c932-40f5-e751" sortIndex="45">
+    <selectionEntry type="unit" import="true" name="Morea Minelayer" hidden="false" id="fdf6-c932-40f5-e751" sortIndex="6">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Morea" hidden="false" id="2e40-3d4f-c89c-25bf" sortIndex="1">
           <constraints>
@@ -7614,7 +7769,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Morea" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="b062-f848-410a-834c">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (5”), Mine Sweeper (2), Mirage Generator</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (3”), Mine Sweeper (2), Mirage Generator</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7633,7 +7788,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Logistical" hidden="false" id="4782-5cfc-be66-32d1" targetId="366f-016b-5f80-0c09" primary="true"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Chaska Vitruvian Colossus" hidden="false" id="1d3f-9c7d-f0a9-822e" sortIndex="36">
+    <selectionEntry type="unit" import="true" name="Chaska Vitruvian Colossus" hidden="false" id="1d3f-9c7d-f0a9-822e" sortIndex="5">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Chaska" hidden="false" id="76df-7eea-a28c-8233" sortIndex="1">
           <constraints>
@@ -7689,7 +7844,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Chaska" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="d9fb-c8c8-3680-2042">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (6”), Mirage Generator, Portal Generator</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (5”), Mirage Generator, Portal Generator</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7715,7 +7870,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <entryLink import="true" name="Attachments" hidden="false" id="78f5-92f3-89f3-8f82" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hashashin Fast Skimmer" hidden="false" id="bdd7-118d-c2c6-32ec" sortIndex="37">
+    <selectionEntry type="unit" import="true" name="Hashashin Fast Skimmer" hidden="false" id="bdd7-118d-c2c6-32ec" sortIndex="5">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Hashashin" hidden="false" id="356b-b65e-739e-8457" sortIndex="1">
           <selectionEntryGroups>
@@ -7820,7 +7975,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="55"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="1"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <modifiers>
             <modifier type="set" value="2" field="7274-cdaf-b46a-74dc">
@@ -7865,7 +8020,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Hashashin" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="d511-6fbe-35ff-8c0d">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (10”)</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (7”)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7893,7 +8048,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Kopesh Scout Skimmer" hidden="false" id="2ff5-6092-f22f-5a6c" sortIndex="38">
+    <selectionEntry type="unit" import="true" name="Kopesh Scout Skimmer" hidden="false" id="2ff5-6092-f22f-5a6c" sortIndex="5">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Kopesh" hidden="false" id="8e57-e035-d4ed-7a7b" sortIndex="1">
           <selectionEntryGroups>
@@ -8036,7 +8191,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Kopesh" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="f0c6-8ad9-30ba-d2ca">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Hydrophone Relay, Lateral Engines (10”), Mine Sweeper (1)</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Hydrophone Relay, Lateral Engines (7”), Mine Sweeper (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8067,7 +8222,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Qualor Vitruvian Colossus" hidden="false" id="2b03-667e-e031-178b" sortIndex="40">
+    <selectionEntry type="unit" import="true" name="Qualor Vitruvian Colossus" hidden="false" id="2b03-667e-e031-178b" sortIndex="5">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Qualor" hidden="false" id="2cfb-188c-5eab-7f27" sortIndex="1">
           <constraints>
@@ -8082,10 +8237,10 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <profile name="Helio Blast" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2ad8-0256-1581-a5e9">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">15</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                 <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Torrent&lt;/span&gt;(2), Blast (5), Cruor (Order), Hazard (2), Invalid Target (Airborne)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (2), Blast (5), Hazard (2), Invalid Target (Airborne)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8114,7 +8269,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Qualor" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="0e08-1bb7-14b9-0ec8">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (6”), Mirage Generator, Portal Generator</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (5”), Mirage Generator, Portal Generator</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8140,7 +8295,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <entryLink import="true" name="Attachments" hidden="false" id="16e5-20cd-8906-cee9" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Aydin Supply Ship" hidden="false" id="e601-82cf-84e6-9d27" sortIndex="41">
+    <selectionEntry type="unit" import="true" name="Aydin Supply Ship" hidden="false" id="e601-82cf-84e6-9d27" sortIndex="6">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Aydin" hidden="false" id="f4dc-0db3-3c97-8efe" sortIndex="1">
           <constraints>
@@ -8196,7 +8351,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Aydin" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="a729-d7dd-0abf-a5d3">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (6”), Logistical Support</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (5”), Logistical Support</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8226,9 +8381,9 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Offshore Supply Platform" hidden="false" id="3843-b2ad-478d-ce83" sortIndex="46">
+    <selectionEntry type="unit" import="true" name="Supply Platform Benghazi Class" hidden="false" id="3843-b2ad-478d-ce83" sortIndex="6">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Offshore Supply Platform" hidden="false" id="5ec7-bf9b-059a-ac79" sortIndex="1">
+        <selectionEntry type="model" import="true" name="Supply Platform" hidden="false" id="5ec7-bf9b-059a-ac79" sortIndex="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fc41-c738-c58b-8d30" includeChildSelections="false" automatic="true"/>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="b5c5-f7e6-10c2-4de4" includeChildSelections="false" automatic="true"/>
@@ -8253,7 +8408,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </selectionEntry>
       </selectionEntries>
       <profiles>
-        <profile name="Offshore Supply Platform" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="aa47-087f-a70a-20bf">
+        <profile name="Supply Platform" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="aa47-087f-a70a-20bf">
           <characteristics>
             <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">3</characteristic>
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">-</characteristic>
@@ -8268,12 +8423,12 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1-3</characteristic>
           </characteristics>
         </profile>
-        <profile name="Offshore Supply Platform" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="c902-ec63-b422-8ed6">
+        <profile name="Supply Platform" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="c902-ec63-b422-8ed6">
           <characteristics>
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Forward Deployment, Platform, Stockpile (3)</characteristic>
           </characteristics>
         </profile>
-        <profile name="Offshore Supply Platform" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="92a6-17e9-079b-9196">
+        <profile name="Supply Platform" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="92a6-17e9-079b-9196">
           <characteristics>
             <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Priority Signals, Repair Facilities (2)</characteristic>
           </characteristics>
@@ -8300,7 +8455,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Logistical" hidden="false" id="864b-1d5d-6311-d46d" targetId="366f-016b-5f80-0c09" primary="true"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Konya Maintenance Ship" hidden="false" id="ae6b-1d4b-7cdc-2770" sortIndex="44">
+    <selectionEntry type="unit" import="true" name="Konya Maintenance Ship" hidden="false" id="ae6b-1d4b-7cdc-2770" sortIndex="6">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Konya" hidden="false" id="793d-99f6-eaf7-5d97" sortIndex="1">
           <constraints>
@@ -8312,13 +8467,13 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <profiles>
-            <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="5b16-cb40-b9b2-670e">
+            <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="5b16-cb40-b9b2-670e">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                 <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
               </characteristics>
             </profile>
             <profile name="Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="25f0-5a86-d40b-7fb0">
@@ -8351,12 +8506,12 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Konya" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="a422-47ab-4ce0-03bb">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Turkish)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Turkish), Escort Support</characteristic>
           </characteristics>
         </profile>
         <profile name="Konya" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="7e11-5c10-c89f-96b5">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (4”), Repair Facilities (2)</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (3”), Repair Facilities (2)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8384,13 +8539,13 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Sultanate Fleet Doctrines" hidden="false" id="ae8a-1104-3ff2-e1f6">
+    <selectionEntry type="upgrade" import="true" name="Sultanate Fleet Doctrines" hidden="false" id="ae8a-1104-3ff2-e1f6" sortIndex="0">
       <entryLinks>
         <entryLink import="true" name="Fleet Doctrines" hidden="false" id="aa1f-cc49-64c3-bc7b" type="selectionEntryGroup" targetId="3a8e-29a8-4109-7c1c">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="THE THIRTEENTH" hidden="true" id="82d1-77e3-cd73-bd07" sortIndex="7">
+            <selectionEntry type="upgrade" import="true" name="THE THIRTEENTH" hidden="true" id="82d1-77e3-cd73-bd07" sortIndex="8">
               <costs>
-                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="50"/>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="30"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
               <rules>
@@ -8398,7 +8553,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                   <description>This Doctrine can only be purchased for an Egyptian Flagship unit.
 
 
-Once per Encounter, in the Clean Up step of the End Phase, this Force’s Admiral can discard a Victory &amp; Valour Card from their hand. 
+Once per Game, in the Clean Up step of the End Phase, this Force’s Admiral can discard a Victory &amp; Valour Card from their hand. 
 
 
 If they do so, they can immediately remove all levels of Disorder from any Egyptian models in the Play Area.</description>
@@ -8426,9 +8581,9 @@ If they do so, they can immediately remove all levels of Disorder from any Egyp
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="THE SULTAN’S HAMMER" hidden="true" id="02d9-3b41-4cc0-5fd9" sortIndex="8">
+            <selectionEntry type="upgrade" import="true" name="THE SULTAN’S HAMMER" hidden="true" id="02d9-3b41-4cc0-5fd9" sortIndex="12">
               <costs>
-                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="50"/>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="30"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
               <rules>
@@ -8436,7 +8591,7 @@ If they do so, they can immediately remove all levels of Disorder from any Egyp
                   <description>Can only be purchased for a Sultanate Flagship unit.
 
 
-Once per Round, this Force’s Admiral can discard a Victory &amp; Valour Card from their hand when they declare an Attack action with a Flagship unit.
+Once per Round, this Admiral can discard a Victory &amp; Valour Card from their hand when they declare an Attack action with a Flagship unit.
 
 
 The Action Pool for this action gains a number of Bonus Dice equal to the Value of the discarded card.</description>
@@ -8464,28 +8619,135 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="CONTROL OF THE COSMOS" hidden="true" id="f22e-bc77-094d-4ecc" sortIndex="6">
+            <selectionEntry type="upgrade" import="true" name="TO THE SULTAN I COMMEND MYSELF" hidden="false" id="f22e-bc77-094d-4ecc" sortIndex="6">
               <costs>
-                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="40"/>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
               <rules>
-                <rule name="CONTROL OF THE COSMOS" id="3811-f053-4109-b93c" hidden="false">
-                  <description>This Doctrine can only be purchased for an Order Flagship unit.
+                <rule name="TO THE SULTAN I COMMEND MYSELF" id="3811-f053-4109-b93c" hidden="false">
+                  <description>Once per Round, before this Admiral makes a Crew check for a model, they can use this Doctrine to grant a +2 Modifier to that model’s Crew rating, for the purposes of this test only.
 
 
-Once per Round, in the Activation Phase, before choosing a unit to Activate, this Force’s Admiral can discard a Victory &amp; Valour Card from their hand.
-
-
-If they do so, instead of Resolving an SRS Mission, they can immediately Collapse a Portal marker. 
-Once this has been resolved, they may immediately Weave a Portal anywhere on the Play Area. This Portal marker cannot be placed within Proximity of a model, Terrain Feature, or another Marker, or overlapping an Airborne or Underwater model.
-
-
-This can only be done if there is at least one friendly model on the Play Area with a Portal Generator that does not have the System Failure Critical Damage Effect.</description>
+In the case of a Group Crew Check, this Modifier applies to all models in the unit.</description>
                 </rule>
               </rules>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cf2e-5b95-5f29-3930" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="count" min="2">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="6d08-d1e2-f214-26f3" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="cf22-d499-ace9-24ec" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="cf22-d499-ace9-24ec" childId="6d08-d1e2-f214-26f3" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="ccf5-9153-fc01-6fa0" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="ccf5-9153-fc01-6fa0" childId="6d08-d1e2-f214-26f3" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="aaf9-e90f-6b3e-ed2c" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="aaf9-e90f-6b3e-ed2c" childId="6d08-d1e2-f214-26f3" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="CONTROL OF THE COSMOS" hidden="true" id="f52c-692d-2bfd-4ba7" sortIndex="7">
+              <costs>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
+                <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+              </costs>
+              <rules>
+                <rule name="CONTROL OF THE COSMOS" id="aa96-24b9-f475-6eea" hidden="false">
+                  <description>This Doctrine can only be purchased for an Order Flagship unit.
+
+
+Once per Round, at the start of their Activation Phase this Force’s Admiral can discard a Victory &amp; Valour Card from their hand instead of resolving an SRS Mission.
+
+If they do so, they immediately Collapse a Portal marker. 
+Once this has been resolved, they can immediately Weave a Portal anywhere in the Play Area that is not within Proximity of a model, Terrain Feature, or another Marker, or overlapping an Airborne or Underwater model. 
+
+
+This can only be done if there is at least one friendly Portal Manipulator model in the Play Area.</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="082c-cd55-ecf0-a900" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="count" min="2">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="6d08-d1e2-f214-26f3" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="cf22-d499-ace9-24ec" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="cf22-d499-ace9-24ec" childId="6d08-d1e2-f214-26f3" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="ccf5-9153-fc01-6fa0" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="ccf5-9153-fc01-6fa0" childId="6d08-d1e2-f214-26f3" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="aaf9-e90f-6b3e-ed2c" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="aaf9-e90f-6b3e-ed2c" childId="6d08-d1e2-f214-26f3" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="EVERYONE HAS THEIR PRICE" hidden="false" id="f980-66e6-5d68-9c98" sortIndex="6">
+              <costs>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
+                <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+              </costs>
+              <rules>
+                <rule name="EVERYONE HAS THEIR PRICE" id="d97d-7b5a-ec72-d09d" hidden="false">
+                  <description>Once per game, before making an Action Roll for a Boarding action, this Admiral can discard a Victory and Valour Card from their hand. 
+
+
+If they do so for the duration of the Action the Target’s Defence rating is reduced to 0</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fdc4-8141-e3ee-aee1" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="count" min="2">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="0ec6-f5c8-25d7-89d8" childId="6d08-d1e2-f214-26f3" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="cf22-d499-ace9-24ec" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="cf22-d499-ace9-24ec" childId="6d08-d1e2-f214-26f3" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="ccf5-9153-fc01-6fa0" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="ccf5-9153-fc01-6fa0" childId="6d08-d1e2-f214-26f3" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="aaf9-e90f-6b3e-ed2c" childId="0ec6-f5c8-25d7-89d8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="aaf9-e90f-6b3e-ed2c" childId="6d08-d1e2-f214-26f3" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="FLY, SABIHA, FLY!" hidden="false" id="b540-532f-4d38-74e9" sortIndex="6">
+              <costs>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
+                <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+              </costs>
+              <rules>
+                <rule name="FLY, SABIHA, FLY!" id="6481-17af-166c-833e" hidden="false">
+                  <description>During the Launch Phase, this Admiral can assign any number of Sabiha SRS token stacks to a Portal marker as if it were a Target.
+
+
+At the start of their Activation Phase, when nominating an SRS Stack that is assigned to a Portal marker, the Admiral chooses an SRS  Mission, as though it were the Launch Phase, and moves the Stack to a valid target that is within 10” of any Portal marker. 
+
+
+Then they immediately resolve the SRS Mission.</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7291-d2a5-8a08-1edd" includeChildSelections="true" includeChildForces="true"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
@@ -8516,7 +8778,7 @@ This can only be done if there is at least one friendly model on the Play Area 
         <categoryLink name="Fleet Doctrines" hidden="false" id="9192-dcab-04cd-42ca" targetId="eb20-a962-fc6e-ce7f" primary="true"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Europa Grand Conveyor" hidden="false" id="a2d8-b7fc-62ee-ef28" sortIndex="42">
+    <selectionEntry type="unit" import="true" name="Europa Grand Conveyor" hidden="false" id="a2d8-b7fc-62ee-ef28" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Surface" hidden="false" id="46e1-a891-f2e3-258b" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Logistical" hidden="false" id="3a4d-9e44-65ad-e033" targetId="366f-016b-5f80-0c09" primary="true"/>
@@ -8583,7 +8845,7 @@ This can only be done if there is at least one friendly model on the Play Area 
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Olympia Levant Drive" hidden="false" id="4e7b-a83d-264b-c533" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
                 <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
               <constraints>
@@ -8592,7 +8854,7 @@ This can only be done if there is at least one friendly model on the Play Area 
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Troop Transport" hidden="false" id="2cb7-454f-45a9-102f" sortIndex="4">
               <costs>
-                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="25"/>
                 <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
               <constraints>
@@ -8672,7 +8934,7 @@ This can only be done if there is at least one friendly model on the Play Area 
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hermes Supply Freighter" hidden="false" id="7810-9697-0e6e-5e38" sortIndex="43">
+    <selectionEntry type="unit" import="true" name="Hermes Supply Freighter" hidden="false" id="7810-9697-0e6e-5e38" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Logistical" hidden="false" id="ffa7-4909-53e0-278d" targetId="366f-016b-5f80-0c09" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="55ab-aa5b-2dd4-3099" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
@@ -8724,7 +8986,7 @@ This can only be done if there is at least one friendly model on the Play Area 
         </profile>
         <profile name="Hermes Supply Freighter" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="11b5-e79a-71c8-eff0">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Surface), Civilian Vessel, Light Vessel, Resupply (1), Strategic Asset (1)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Merchantman), Civilian Vessel, Light Vessel, Resupply (1), Strategic Asset (1)</characteristic>
           </characteristics>
         </profile>
         <profile name="Hermes Supply Freighter" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="eac9-b947-148a-e56d">
@@ -8749,7 +9011,7 @@ This can only be done if there is at least one friendly model on the Play Area 
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Titan Mass Conveyor" hidden="false" id="767f-731f-2a1d-dbc9" sortIndex="47">
+    <selectionEntry type="unit" import="true" name="Titan Mass Conveyor" hidden="false" id="767f-731f-2a1d-dbc9" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Ship" hidden="false" id="7a34-e136-4909-ae14" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Logistical" hidden="false" id="2221-d2d2-39f6-83c8" targetId="366f-016b-5f80-0c09" primary="true"/>
@@ -8804,7 +9066,7 @@ This can only be done if there is at least one friendly model on the Play Area 
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Escorts" hidden="false" id="5eb4-95ed-e861-cc36" sortIndex="7">
           <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="d6fa-d5a2-9ef0-f036" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="d6fa-d5a2-9ef0-f036" includeChildSelections="false"/>
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
@@ -8873,7 +9135,7 @@ This can only be done if there is at least one friendly model on the Play Area 
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Troop Transport" hidden="false" id="e855-244e-38bb-dda4" sortIndex="3">
               <costs>
-                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
                 <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
             </selectionEntry>
@@ -8906,6 +9168,638 @@ This can only be done if there is at least one friendly model on the Play Area 
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="bcf6-983c-af57-39cb" includeChildSelections="true"/>
       </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Mehmed Command Cruiser" hidden="false" id="ec8b-aa90-0467-3b5c" sortIndex="1">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Mehmed" hidden="false" id="32b2-0622-a771-c387" sortIndex="1">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Light Hardpoint: FS" id="c0f5-add7-8c54-69ca" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="c951-3f32-9967-ce8f">
+                  <profiles>
+                    <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e0c4-5629-6ddd-f6ff">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="4b90-59b5-69e3-d91b">
+                  <profiles>
+                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="c8e8-445a-0dd4-74bd">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Aetheric Lance" hidden="false" id="1cb0-be0e-dc96-54b5">
+                  <profiles>
+                    <profile name="Aetheric Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ca32-a5ec-3a5f-787c">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Powered</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="11b7-4525-d438-05f6" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3832-cabb-9caa-bed5" includeChildSelections="false" automatic="true"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Light Hardpoint: SA" id="99d4-022d-c9d1-ef23" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="2de2-30d2-0b78-cad3">
+                  <profiles>
+                    <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="985a-1abb-0045-09e0">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">SA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="4a54-1ec5-76bf-ce65">
+                  <profiles>
+                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a771-7938-bb95-8344">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">SA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Aetheric Lance" hidden="false" id="789d-2e9d-ba93-ea28">
+                  <profiles>
+                    <profile name="Aetheric Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="39a4-bc8f-97dc-da94">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">SA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Powered</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b2f8-c822-6fcb-e6fb" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="71d1-f159-b1ad-fc7b" includeChildSelections="false" automatic="true"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Heavy Hardpoint: FS" id="d368-0270-19e3-338f" hidden="false" sortIndex="1">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="d685-c3c0-eb88-0d1a">
+                  <profiles>
+                    <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="79cb-5eb2-ee8e-4c55">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="D-Cannon Battery" hidden="false" id="d948-cf52-b6cc-2cf2">
+                  <profiles>
+                    <profile name="D-Cannon Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="976f-2885-75d6-9464">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="1cda-6684-06c7-eec1">
+                  <profiles>
+                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="b29d-6a48-28f5-1f22">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Particle Beamer" hidden="false" id="779b-565b-aa96-9d66">
+                  <profiles>
+                    <profile name="Particle Beamer" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4182-8300-f371-5672">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Pala Railgun" hidden="false" id="6b67-df24-807a-e6dd">
+                  <profiles>
+                    <profile name="Pala Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="1722-fb7d-5301-3196">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1), Structural Failure (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="46e3-380c-2485-a717" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3c7-31a8-afde-902e" includeChildSelections="false" automatic="true"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Generators" hidden="true" id="8e30-67b2-72ee-1448" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Heavy Hardpoint: FP" id="8939-ac69-fd51-ebf3" hidden="false" sortIndex="1">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="1874-000e-548e-0c9f">
+                  <profiles>
+                    <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ca37-d203-5bb3-9a26">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="D-Cannon Battery" hidden="false" id="63f9-ca7f-c6cd-0a7e">
+                  <profiles>
+                    <profile name="D-Cannon Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a765-0338-23bc-1d92">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="e269-7e8d-627b-c767">
+                  <profiles>
+                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="f244-70e8-3f14-901e">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Particle Beamer" hidden="false" id="386b-42f7-af77-2c18">
+                  <profiles>
+                    <profile name="Particle Beamer" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="79ed-3b9f-db1d-ddfa">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Pala Railgun" hidden="false" id="1602-d5a7-5470-d74b">
+                  <profiles>
+                    <profile name="Pala Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ceec-3039-a78f-e364">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1), Structural Failure (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="03b3-9ce6-2497-eb86" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e100-a607-917c-bb14" includeChildSelections="false" automatic="true"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Generators" hidden="true" id="5695-2a2c-51aa-fbb0" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Light Hardpoint: PA" id="3ac7-5522-c523-f72a" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="1c2e-9010-872e-dc6d">
+                  <profiles>
+                    <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="29e8-1254-80eb-433a">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="da86-b7d8-4947-78d8">
+                  <profiles>
+                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="1ed6-267d-b8ed-023e">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Aetheric Lance" hidden="false" id="48bc-54bf-f724-0954">
+                  <profiles>
+                    <profile name="Aetheric Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="1a0c-290b-7dab-0457">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Powered</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b36b-a4cf-d88c-9f5a" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9d1-2284-d65c-75ad" includeChildSelections="false" automatic="true"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Light Hardpoint: FP" id="2723-22e8-9473-0cd6" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="aac9-6660-4a15-f4be">
+                  <profiles>
+                    <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="801c-a416-1b6a-0955">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="10cb-df6b-21cc-b906">
+                  <profiles>
+                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="f82d-5da6-163a-fc6e">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Aetheric Lance" hidden="false" id="4e7a-e781-8d17-62ee">
+                  <profiles>
+                    <profile name="Aetheric Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9323-f1a7-90a5-a4e1">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Powered</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fab3-bd8b-7cee-a749" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="07a3-854e-849b-9775" includeChildSelections="false" automatic="true"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="250"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="6"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b1bb-5a15-7953-c84d" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a5dc-34d7-c2ac-d817" includeChildSelections="false" automatic="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Ikili Torpedoes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="16c2-805f-2732-5d64">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">8</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Serap Subclass" hidden="false" id="e120-fa13-a4bf-b3b5">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ffbf-fd99-3917-a192"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Mehmed" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="6c03-f725-04cc-ac65">
+          <characteristics>
+            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">4</characteristic>
+            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">2&quot;-12&quot;</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">4</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">6</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">12</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
+            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">3</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">3</characteristic>
+            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">9</characteristic>
+            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mehmed" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="20dc-38d2-8344-6677">
+          <characteristics>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Boarding Parties (8)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mehmed" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="6fde-2abf-4304-6820">
+          <characteristics>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Heavy Shield Generator, Lateral Engines (5”), Portal Accelerator Array, Portal Generator</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="e120-fa13-a4bf-b3b5" shared="true" childName="Serap Subclass" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Serap" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="213e-ece3-4ac7-ec90">
+          <characteristics>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Heavy Shield Generator, Lateral Engines (5”), Mirage Projector Array, Mirage Generator</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="parent" childId="e120-fa13-a4bf-b3b5" shared="true" childName="Serap Subclass" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Escorts" hidden="false" id="8394-1768-dcd1-72b9" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="7">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7086-dd23-4fd0-0024" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Attachments" hidden="false" id="f5fb-e60a-250a-591f" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="70f9-ac7e-b846-081c" includeChildSelections="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Sultanate" hidden="false" id="6d08-98d3-cd97-d194" targetId="cd78-6cd9-35ad-756e" primary="false"/>
+        <categoryLink name="Turkish" hidden="false" id="a181-02c8-2510-fb7d" targetId="106e-bd57-7f54-7adf" primary="false"/>
+        <categoryLink name="Surface" hidden="false" id="31c8-a103-04cf-3504" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
+        <categoryLink name="Ship" hidden="false" id="ade7-9ca3-5ed4-c972" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
+        <categoryLink name="Attachment host" hidden="false" id="5144-aa93-c89a-215c" targetId="2251-0def-1b03-2e93" primary="false"/>
+        <categoryLink name="Flagship" hidden="false" id="9ad9-72f0-c5cc-4603" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+      </categoryLinks>
+      <comment>Needs generator work</comment>
+      <modifiers>
+        <modifier type="set" value="Serap Command Cruiser" field="name">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="e120-fa13-a4bf-b3b5" shared="true" childName="Serap Subclass" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Celik Destroyer" hidden="false" id="928b-710e-fcfb-67a8" sortIndex="3">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Celik" hidden="false" id="1b0a-6be4-35d1-1074" sortIndex="1">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Light Hardpoint: FPSA" id="ad3e-dfba-e163-a943" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="8d57-b24e-c29a-de59">
+                  <profiles>
+                    <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="b73a-d72b-6280-1078">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="19fd-c43f-8d53-5256">
+                  <profiles>
+                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e6f4-1627-cb7a-6433">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Aetheric Lance" hidden="false" id="55f6-1e58-89ed-cbeb">
+                  <profiles>
+                    <profile name="Aetheric Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="1160-a224-f95c-b130">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Powered</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d245-f2ee-4911-5375" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fccf-badf-d479-9e2a" includeChildSelections="false" automatic="true"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="a900-88e6-a842-f79f" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="0a78-ebe6-7702-2041">
+                  <profiles>
+                    <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="d35d-9e9c-dfec-afad">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="8563-5df3-89b1-1e27">
+                  <profiles>
+                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="0f82-e909-8023-161a">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Aetheric Lance" hidden="false" id="45bf-2764-d54f-4562">
+                  <profiles>
+                    <profile name="Aetheric Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4076-f268-95f8-1822">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Powered</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5659-eed5-0c00-4cc7" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c64d-f439-28d5-3151" includeChildSelections="false" automatic="true"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9f2b-3461-b6f7-dc0e" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="3a82-37a9-ecf8-b2ce" includeChildSelections="false" automatic="true"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="55"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="1"/>
+          </costs>
+          <profiles>
+            <profile name="Micro Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9b00-0305-c381-aab5">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Celik" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="5c6f-4469-cad1-44a6">
+          <characteristics>
+            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">2</characteristic>
+            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">1&quot;-10&quot;</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">4</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">4</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">3</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">4</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
+            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">2</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">2</characteristic>
+            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">6</characteristic>
+            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">2-6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Celik" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="8597-8a18-f423-87aa">
+          <characteristics>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Hunter (Capital), Light Vessel, Shallow Draught</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Celik" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="82cd-308c-d75c-0e2e">
+          <characteristics>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Lateral Engines (5”)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Escorts" hidden="false" id="8b9e-7796-5069-d779" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="7">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c5e5-c6b6-fd72-ba09" includeChildSelections="false" automatic="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Attachments" hidden="false" id="df55-e9ef-00d4-9132" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="2"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="594d-3df9-12bc-b062" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Sultanate" hidden="false" id="404e-3dad-6538-ccc0" targetId="cd78-6cd9-35ad-756e" primary="false"/>
+        <categoryLink name="Turkish" hidden="false" id="0dd0-e9f7-a685-1d8d" targetId="106e-bd57-7f54-7adf" primary="false"/>
+        <categoryLink name="Surface" hidden="false" id="f23c-de03-4000-7d62" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
+        <categoryLink name="Ship" hidden="false" id="9607-1d44-aa96-6910" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
+        <categoryLink name="Patrol" hidden="false" id="610a-354e-5d1f-8ff0" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="1b07-4f2d-17c9-6135" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="forces" scope="force" childId="2d00-df96-4ac6-0e44" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="a16d-413b-12d5-137c" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="2d00-df96-4ac6-0e44" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </selectionEntries>
   <forceEntries>
@@ -9006,13 +9900,11 @@ This can only be done if there is at least one friendly model on the Play Area 
       <comment>• Iskandar Cruiser (Sultanate, Line)</comment>
       <rules>
         <rule name="Superior Weaponry" id="d038-9103-2188-30cd" hidden="false">
-          <description>Once per Round, when a Sultanate unit in this Force makes an Attack action, its Admiral may declare (before any dice are rolled) that the unit will benefit from Superior Weaponry.
+          <description>Once per Round, when declaring Contributing Weapons for an Attack action made by a Sultanate unit in this Force, this Battlefleet’s Admiral can declare that the unit will benefit from Superior Weaponry.
 
 
-For the duration of this action, all Contributing weapons that have the Piercing (X) or Precise (X) quality increase all of their Firepower values by the X Value of that quality.
-
-
-If a weapon has both qualities, the higher X value is used. Firepower values that are listed as ‘-’ are unaffected.</description>
+For the duration of this Action, all Contributing weapons that have the Piercing (X), Precise (X), or Structural Failure (X) quality increase all of their Firepower values by the X Value of that Quality. 
+If a weapon has multiple Qualities, the single highest X Value is used. Firepower Values that are listed as ‘-’ are unaffected.</description>
         </rule>
       </rules>
     </forceEntry>
@@ -9061,10 +9953,10 @@ If the effect is Denied, the unit is returned to the Reserve as normal. If it is
     <forceEntry name="Balik Kartali Air Fleet (Specialist)" id="180b-0560-42cb-d495" hidden="false" sortIndex="3">
       <rules>
         <rule name="Serpens Caput" id="d298-c076-6480-6fd3" hidden="false">
-          <description>Once per Round, when an Airborne Patrol unit in this Force makes an Attack action, and the Initial Target is in the Fore arc of all Participating models, its Admiral can reveal and discard a Victory &amp; Valour Card from their hand. 
+          <description>Once per Round, when declaring Contributing Weapons for an Attack action made by an Airborne Patrol unit in this Force where the Initial Target is in the Fore arc of all Participating models, this Battlefleet’s Admiral can reveal and discard a Victory &amp; Valour Card from their hand. 
 
 
-If they do, they add Bonus Dice equal to the Value of the card to the Action Pool.</description>
+If they do, they add Bonus Dice to the Action Pool equal to the Value of the card.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -9436,8 +10328,9 @@ When it is fielded in this way, all of its units must still be chosen from this 
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="4b7e-c78d-b9be-8d7c" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="33e6-1c11-bb7d-3918" shared="true" childName="Merchantman"/>
                     <condition type="instanceOf" value="1" field="selections" scope="parent" childId="2251-0def-1b03-2e93" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="4b7e-c78d-b9be-8d7c" shared="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -9541,31 +10434,31 @@ When it is fielded in this way, all of its units must still be chosen from this 
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <entryLinks>
-    <entryLink import="true" name="Lotan Myriapoda Colossus" hidden="false" id="bc47-fe39-1b34-0991" type="selectionEntry" targetId="2ea3-c1be-060c-b9ca" sortIndex="60">
+    <entryLink import="true" name="Lotan Myriapoda Colossus" hidden="false" id="bc47-fe39-1b34-0991" type="selectionEntry" targetId="2ea3-c1be-060c-b9ca" sortIndex="7">
       <categoryLinks>
         <categoryLink name="Enlightened Underwater Automata " hidden="false" id="197b-d4e4-e884-c168" targetId="2330-32fd-ec86-5236" primary="true"/>
         <categoryLink name="Crimson League" hidden="false" id="e6a3-5196-7fab-eb5f" targetId="a16d-413b-12d5-137c" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Ketos Myriapoda Colossus" hidden="false" id="a696-4a8d-e335-85d9" type="selectionEntry" targetId="048e-48e5-ad80-0e4c" sortIndex="61">
+    <entryLink import="true" name="Ketos Myriapoda Colossus" hidden="false" id="a696-4a8d-e335-85d9" type="selectionEntry" targetId="048e-48e5-ad80-0e4c" sortIndex="7">
       <categoryLinks>
         <categoryLink name="Enlightened Underwater Automata " hidden="false" id="7a77-9702-5727-9033" targetId="2330-32fd-ec86-5236" primary="true"/>
         <categoryLink name="Crimson League" hidden="false" id="0005-b77f-81bd-51be" targetId="a16d-413b-12d5-137c" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Praxilla Submarine " hidden="false" id="933c-69a5-1d10-d829" type="selectionEntry" targetId="89f7-18c5-81a0-11ba" sortIndex="62">
+    <entryLink import="true" name="Praxilla Submarine " hidden="false" id="933c-69a5-1d10-d829" type="selectionEntry" targetId="89f7-18c5-81a0-11ba" sortIndex="7">
       <categoryLinks>
         <categoryLink name="Enlightened Underwater Automata " hidden="false" id="619f-9619-4864-ff7d" targetId="2330-32fd-ec86-5236" primary="true"/>
         <categoryLink name="Crimson League" hidden="false" id="2f99-552c-f633-56d3" targetId="a16d-413b-12d5-137c" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Diogenes Submarine " hidden="false" id="f20b-a03e-8f74-32dc" type="selectionEntry" targetId="9e2b-dcec-3169-3523" sortIndex="63">
+    <entryLink import="true" name="Diogenes Submarine " hidden="false" id="f20b-a03e-8f74-32dc" type="selectionEntry" targetId="9e2b-dcec-3169-3523" sortIndex="7">
       <categoryLinks>
         <categoryLink name="Enlightened Underwater Automata " hidden="false" id="6ac4-6314-2853-1c3a" targetId="2330-32fd-ec86-5236" primary="true"/>
         <categoryLink name="Crimson League" hidden="false" id="c311-5264-e7f9-ea05" targetId="a16d-413b-12d5-137c" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Aronnax Vermiforma Colossus" hidden="false" id="dab2-4eaa-285b-d8bc" type="selectionEntry" targetId="aae9-5aca-484c-3dec" sortIndex="64">
+    <entryLink import="true" name="Aronnax Vermiforma Colossus" hidden="false" id="dab2-4eaa-285b-d8bc" type="selectionEntry" targetId="aae9-5aca-484c-3dec" sortIndex="7">
       <categoryLinks>
         <categoryLink name="Enlightened Underwater Automata " hidden="false" id="90e0-5c09-e231-b37b" targetId="2330-32fd-ec86-5236" primary="true"/>
         <categoryLink name="Crimson League" hidden="false" id="9f79-0fec-8592-bfe7" targetId="a16d-413b-12d5-137c" primary="false"/>
