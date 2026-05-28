@@ -1227,6 +1227,7 @@ to all models in the unit.</description>
         <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="6e62-bc78-ac03-8a0b" includeChildSelections="true" automatic="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a6a-7f2d-ef6c-dd8a" includeChildSelections="true" automatic="true"/>
       </constraints>
+      <comment>Awkward ones</comment>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
