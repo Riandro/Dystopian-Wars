@@ -5,7 +5,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Kadesh" hidden="false" id="6a00-d017-9442-42d0" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPA" id="7d49-529a-7544-79d9" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPA" id="7d49-529a-7544-79d9" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="e420-1b3f-fb62-604c">
                   <profiles>
@@ -68,7 +68,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="1124-70bb-1beb-47c8" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FSA" id="e1ee-7abe-e0b1-e138" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FSA" id="e1ee-7abe-e0b1-e138" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="766a-5645-4850-15d3">
                   <profiles>
@@ -131,7 +131,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="2682-3943-b3f9-5695" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPA" id="cfdf-a935-185c-182a" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPA" id="cfdf-a935-185c-182a" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="5976-fdef-02a1-6fd2">
                   <profiles>
@@ -178,7 +178,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a92-172e-3f2e-00a5" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FSA" id="3d92-477a-1f37-09fa" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FSA" id="3d92-477a-1f37-09fa" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="6629-f9ea-51b2-1d7c">
                   <profiles>
@@ -301,13 +301,6 @@
         <categoryLink name="Attachment host" hidden="false" id="fb55-80bd-82fc-3ce1" targetId="2251-0def-1b03-2e93" primary="false"/>
         <categoryLink name="Flagship" hidden="false" id="009f-9011-4a78-50d3" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
       </categoryLinks>
-      <modifiers>
-        <modifier type="set-primary" value="aacf-6b57-32c6-27c7" field="category">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <infoLinks>
         <infoLink name="Khepri Automata" id="6c51-0957-0681-38c9" hidden="true" type="profile" targetId="9b6f-ac6d-ba08-426e">
           <modifiers>
@@ -331,7 +324,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Abydos" hidden="false" id="dda7-133b-98b5-4fbb" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="a0d3-3bb4-5bd7-eec5" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="a0d3-3bb4-5bd7-eec5" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="12f3-9d29-5395-8f09">
                   <profiles>
@@ -394,7 +387,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="34ac-6cbd-d577-f459" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FS" id="db32-2316-aca0-4deb" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FS" id="db32-2316-aca0-4deb" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="6063-6a9f-e487-2827">
                   <profiles>
@@ -441,7 +434,7 @@
                 <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="232a-d98c-7e8b-7e03" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FP" id="bad8-10d7-aa02-1af7" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FP" id="bad8-10d7-aa02-1af7" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="175b-b098-4785-173b">
                   <profiles>
@@ -565,19 +558,12 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Flagship" hidden="false" id="8e6e-8221-7bbc-f106" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Attachment host" hidden="false" id="4970-c185-4d19-72cb" targetId="2251-0def-1b03-2e93" primary="false"/>
       </categoryLinks>
-      <modifiers>
-        <modifier type="set-primary" value="aacf-6b57-32c6-27c7" field="category">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Anatolia Heavy Battlecruiser" hidden="false" id="c7df-6036-baff-c5e7" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Anatolia" hidden="false" id="110f-1a2f-6701-90e8" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="f662-752b-d7c3-c96e" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="f662-752b-d7c3-c96e" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="f1da-4eee-4480-9dd2">
                   <profiles>
@@ -640,7 +626,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <entryLink import="true" name="Generators" hidden="false" id="0666-9e8b-0402-3bb6" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: SA" id="5394-df69-e70a-c951" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: SA" id="5394-df69-e70a-c951" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="3b50-dd00-3514-4a34">
                   <profiles>
@@ -687,7 +673,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc6a-6b28-d97f-16a9" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: PA" id="98d8-7c67-4c2f-5b58" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PA" id="98d8-7c67-4c2f-5b58" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="7a79-c1d9-6e7e-52e4">
                   <profiles>
@@ -734,7 +720,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="23bb-7d04-79c5-18ad" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="698e-fab2-1129-6f14" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="698e-fab2-1129-6f14" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="89be-e08a-e865-51c6">
                   <profiles>
@@ -866,11 +852,11 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Attachment host" hidden="false" id="dabb-31bd-2492-8b17" targetId="2251-0def-1b03-2e93" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hurrem Grand Cruiser" hidden="true" id="6209-eccb-8d37-52e3" sortIndex="1">
+    <selectionEntry type="unit" import="true" name="Hurrem Grand Cruiser" hidden="true" id="6209-eccb-8d37-52e3" sortIndex="20">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Hurrem" hidden="false" id="a532-2936-4587-df44" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: PA" id="78d0-b055-83af-d02c" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PA" id="78d0-b055-83af-d02c" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="a202-523c-ee36-fa1b">
                   <profiles>
@@ -917,7 +903,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b93a-6061-11c8-5c0f" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: SA" id="6c64-53f4-9b82-60e6" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: SA" id="6c64-53f4-9b82-60e6" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="7529-93bd-4c4f-f4ac">
                   <profiles>
@@ -964,7 +950,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c22-5282-8a2c-5b0c" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FS" id="0050-5e57-d392-8307" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Heavy Hardpoint: FS" id="0050-5e57-d392-8307" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="ebb8-16aa-05fd-d54b">
                   <profiles>
@@ -1027,7 +1013,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <entryLink import="true" name="Generators" hidden="false" id="4279-ebe0-9e37-d177" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FP" id="e3c6-7a5b-f1c5-f7d3" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Heavy Hardpoint: FP" id="e3c6-7a5b-f1c5-f7d3" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="598a-a4f6-61be-f1ef">
                   <profiles>
@@ -1090,7 +1076,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <entryLink import="true" name="Generators" hidden="false" id="4ec0-70a8-b5f0-8b9f" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FP" id="a913-4c86-2092-f6b6" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Heavy Hardpoint: FP" id="a913-4c86-2092-f6b6" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="ddb7-ed56-2b33-cf2f">
                   <profiles>
@@ -1153,7 +1139,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <entryLink import="true" name="Generators" hidden="false" id="c3f0-9fbb-ab28-a512" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FS" id="e0de-acc5-f95e-40d9" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Heavy Hardpoint: FS" id="e0de-acc5-f95e-40d9" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="e362-33c6-80b8-0bb2">
                   <profiles>
@@ -1289,7 +1275,8 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Surface" hidden="false" id="6f59-8204-7900-cac0" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="7d33-7bc9-19ca-50e7" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="e1cc-5781-9964-b241" targetId="2251-0def-1b03-2e93" primary="false"/>
-        <categoryLink name="Flagship" hidden="false" id="9ca3-a985-bece-4a07" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="9ca3-a985-bece-4a07" targetId="0ec6-f5c8-25d7-89d8" primary="false"/>
+        <categoryLink name="Retired" hidden="false" id="2424-7f23-9660-d23d" targetId="0eeb-2bfd-b6d2-8eef" primary="true"/>
       </categoryLinks>
       <comment>Retired</comment>
     </selectionEntry>
@@ -1297,7 +1284,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Khartoum" hidden="false" id="037d-45be-d1bf-6604" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPA" id="a5de-e895-ead0-71e1" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPA" id="a5de-e895-ead0-71e1" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="3a55-024f-a4a1-e438">
                   <profiles>
@@ -1360,7 +1347,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <entryLink import="true" name="Generators" hidden="false" id="ee9e-982a-6c41-3dc8" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FSA" id="0bce-77d3-b563-d419" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FSA" id="0bce-77d3-b563-d419" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="3585-f4da-fdf8-ed8c">
                   <profiles>
@@ -1423,7 +1410,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <entryLink import="true" name="Generators" hidden="false" id="283f-62fa-4920-4009" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPA" id="f538-d0f3-95a1-60e3" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPA" id="f538-d0f3-95a1-60e3" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="bb3e-0936-5599-7b95">
                   <profiles>
@@ -1470,7 +1457,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6768-213b-c6f4-ecca" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FSA" id="bd45-b12e-e3af-2a71" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FSA" id="bd45-b12e-e3af-2a71" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="79bd-f376-1b31-8306">
                   <profiles>
@@ -1617,19 +1604,12 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Attachment host" hidden="false" id="c9f0-ba17-d6bc-31ca" targetId="2251-0def-1b03-2e93" primary="false"/>
         <categoryLink name="Flagship" hidden="false" id="403c-17d2-5d39-88ad" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
       </categoryLinks>
-      <modifiers>
-        <modifier type="set-primary" value="aacf-6b57-32c6-27c7" field="category">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Lyceum Aerial Dreadnought" hidden="false" id="67b7-3f0f-f613-d7ea" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Lyceum" hidden="false" id="8022-f81b-3802-0406" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FP" id="7d46-9270-47f0-6c9a" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FP" id="7d46-9270-47f0-6c9a" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="eed3-e34c-cbb3-d1d4">
                   <profiles>
@@ -1692,7 +1672,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <entryLink import="true" name="Generators" hidden="false" id="3168-e71c-277d-c199" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FS" id="1f9d-b6d1-6dcb-a3bb" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FS" id="1f9d-b6d1-6dcb-a3bb" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="9b6a-8caf-4965-032b">
                   <profiles>
@@ -1907,7 +1887,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Osiris" hidden="false" id="91c6-6c55-89df-26ba" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPA" id="c377-a6ad-e55f-7c9e" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPA" id="c377-a6ad-e55f-7c9e" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="8fdc-be1b-0257-2502">
                   <profiles>
@@ -1970,7 +1950,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <entryLink import="true" name="Generators" hidden="false" id="3449-b89f-034f-69d2" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FSA" id="7106-2fe6-defa-3cee" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FSA" id="7106-2fe6-defa-3cee" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="12a8-acaf-0356-f97e">
                   <profiles>
@@ -2033,7 +2013,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <entryLink import="true" name="Generators" hidden="false" id="a84c-24bd-5279-0f72" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPA" id="08a3-04e8-9e0f-e309" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPA" id="08a3-04e8-9e0f-e309" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="cfc0-ce9f-0400-5a13">
                   <profiles>
@@ -2080,7 +2060,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e37-8c4e-5f35-5636" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FSA" id="319c-c424-5ca6-8f70" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FSA" id="319c-c424-5ca6-8f70" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="86bc-4313-c2e8-74a2">
                   <profiles>
@@ -2195,19 +2175,12 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Attachment host" hidden="false" id="fd44-0152-f09c-8d19" targetId="2251-0def-1b03-2e93" primary="false"/>
         <categoryLink name="Flagship" hidden="false" id="6f05-8d3c-1fd4-3b54" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
       </categoryLinks>
-      <modifiers>
-        <modifier type="set-primary" value="aacf-6b57-32c6-27c7" field="category">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Pharos Hover Dreadnought" hidden="false" id="d0a3-a112-dad7-88ee" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Pharos" hidden="false" id="d351-a0a4-cb08-9b02" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FS" id="5a6a-1348-bd5b-394f" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FS" id="5a6a-1348-bd5b-394f" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="8eef-5eac-0843-5f3d">
                   <profiles>
@@ -2253,11 +2226,8 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="062d-bd18-39ba-223a" includeChildSelections="false" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f18-9941-3946-4c7c" includeChildSelections="false" automatic="true"/>
               </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Generators" hidden="false" id="e5bf-32b5-17a3-177f" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
-              </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="0f84-bb97-e400-5923" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="0f84-bb97-e400-5923" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="fb7f-19bf-8085-934d">
                   <profiles>
@@ -2303,11 +2273,8 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1a69-1cb7-122d-1689" includeChildSelections="false" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee01-b130-3da9-04b2" includeChildSelections="false" automatic="true"/>
               </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Generators" hidden="false" id="f703-8a0f-da82-7eb0" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
-              </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FP" id="c941-4fab-82f6-58de" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FP" id="c941-4fab-82f6-58de" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="ed6c-ca07-da0e-1257">
                   <profiles>
@@ -2353,9 +2320,6 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6cba-545e-07fb-ab14" includeChildSelections="false" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="917d-65ea-f3ab-280b" includeChildSelections="false" automatic="true"/>
               </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Generators" hidden="false" id="c094-ba57-51b2-b414" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
-              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
@@ -2445,17 +2409,9 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Attachment host" hidden="false" id="cbcc-f705-3647-9b72" targetId="2251-0def-1b03-2e93" primary="false"/>
         <categoryLink name="Flagship" hidden="false" id="22b3-4db3-9fa9-5ec4" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
       </categoryLinks>
-      <modifiers>
-        <modifier type="set-primary" value="aacf-6b57-32c6-27c7" field="category">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="d4f4-64cc-a87d-ccfa" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
-      <comment>Generator delete?</comment>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Retaj Portalship" hidden="false" id="17c8-b5f6-3262-8cb3" sortIndex="1">
       <selectionEntries>
@@ -2683,7 +2639,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FS" id="5fa1-8fc4-f6a3-8c13" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FS" id="5fa1-8fc4-f6a3-8c13" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="ee6c-fa80-b7f7-1c71">
                   <profiles>
@@ -2730,7 +2686,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="bbde-d77c-426c-40bd" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FP" id="d7a8-6089-6531-e6b8" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FP" id="d7a8-6089-6531-e6b8" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="82bc-5391-8a04-70b7">
                   <profiles>
@@ -2824,13 +2780,6 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <costs>
         <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
       </costs>
-      <modifiers>
-        <modifier type="set-primary" value="aacf-6b57-32c6-27c7" field="category">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <infoLinks>
         <infoLink name="Khepri Automata" id="52fb-71ea-f740-feaf" hidden="true" type="profile" targetId="9b6f-ac6d-ba08-426e">
           <modifiers>
@@ -2947,7 +2896,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Bayezid" hidden="false" id="d935-8d3f-40b7-1a27" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FP" id="b353-8cc3-4216-b43f" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FP" id="b353-8cc3-4216-b43f" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="06c8-da1d-4c52-0fe1">
                   <profiles>
@@ -3023,7 +2972,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <entryLink import="true" name="Generators" hidden="false" id="a4e1-0c5e-aca2-18d5" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FS" id="8be9-badc-dbe6-d0ac" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FS" id="8be9-badc-dbe6-d0ac" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="2483-07d6-22be-f05f">
                   <profiles>
@@ -3099,7 +3048,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <entryLink import="true" name="Generators" hidden="false" id="d4a7-8e62-d872-c62c" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FP" id="a15b-e96d-7380-9f3b" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FP" id="a15b-e96d-7380-9f3b" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="bc04-11df-73f7-7b91">
                   <profiles>
@@ -3146,7 +3095,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="53ee-2acb-5a61-2cd5" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FS" id="9b77-b2b2-ac47-cabb" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FS" id="9b77-b2b2-ac47-cabb" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="8741-cb26-6a67-bb38">
                   <profiles>
@@ -3214,11 +3163,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink import="true" name="Generators" hidden="false" id="1a6d-3b06-0227-ea5e" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b">
-              <modifiers>
-                <modifier type="set" value="1" field="3b0d-a4dc-9372-b417"/>
-              </modifiers>
-            </entryLink>
+            <entryLink import="true" name="Generators" hidden="false" id="0029-2480-06e4-efde" type="selectionEntryGroup" targetId="68d9-1c01-bf2d-8f49"/>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -3268,13 +3213,12 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
           </constraints>
         </entryLink>
       </entryLinks>
-      <comment>generators ong HHP possible wrong</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Bursa Ikili Heavy Cruiser" hidden="true" id="fca6-de3f-a52e-5295" sortIndex="2">
+    <selectionEntry type="unit" import="true" name="Bursa Ikili Heavy Cruiser" hidden="true" id="fca6-de3f-a52e-5295" sortIndex="20">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Bursa" hidden="false" id="75e0-09ec-5e07-9b21" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: SA" id="0f8f-61d2-88bd-03b3" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: SA" id="0f8f-61d2-88bd-03b3" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="20d5-3ea9-61cf-243f">
                   <profiles>
@@ -3321,7 +3265,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a8a4-29a7-12e6-550e" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: PA" id="789f-9428-97d5-413c" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PA" id="789f-9428-97d5-413c" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="2eb6-f4b9-0af5-dd60">
                   <profiles>
@@ -3368,7 +3312,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eab4-221d-fb7f-0c9f" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FP" id="00fd-53b9-f35b-dc8a" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FP" id="00fd-53b9-f35b-dc8a" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="66e5-82ff-d1f0-e422">
                   <profiles>
@@ -3428,7 +3372,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a9ba-2103-4108-97ad" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FS" id="db61-7a7a-0434-a695" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FS" id="db61-7a7a-0434-a695" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="6861-0d5d-aefa-5ee7">
                   <profiles>
@@ -3561,7 +3505,8 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Surface" hidden="false" id="fd80-2566-1c4f-2121" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="5bfa-3cf1-cafb-a8e5" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="c1f1-f3b6-04fb-49f6" targetId="2251-0def-1b03-2e93" primary="false"/>
-        <categoryLink name="Line" hidden="false" id="de0d-bdb4-b954-a641" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
+        <categoryLink name="Line" hidden="false" id="de0d-bdb4-b954-a641" targetId="ae99-8ab0-27f0-7bb6" primary="false"/>
+        <categoryLink name="Retired" hidden="false" id="09db-c784-090c-a9c4" targetId="0eeb-2bfd-b6d2-8eef" primary="true"/>
       </categoryLinks>
       <comment>Retired</comment>
     </selectionEntry>
@@ -3651,7 +3596,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Iskandar" hidden="false" id="4c5c-3023-6055-901e" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="e029-d5c6-d77f-c74b" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="e029-d5c6-d77f-c74b" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="e335-c170-df81-6711">
                   <profiles>
@@ -3727,7 +3672,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <entryLink import="true" name="Generators" hidden="false" id="3f61-dc96-c9b7-9500" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="a47d-5ff0-45b0-fcc1" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="a47d-5ff0-45b0-fcc1" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="fea3-9d08-4d65-ab62">
                   <profiles>
@@ -3883,7 +3828,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Izmir" hidden="false" id="b32d-534d-6d7f-e3af" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="8df1-adab-8950-9374" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="8df1-adab-8950-9374" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="53af-b669-c856-d8c0">
                   <profiles>
@@ -4151,7 +4096,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Pasha" hidden="false" id="1863-32da-30e8-5f0a" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="bf6e-a5df-d20e-05a7" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="bf6e-a5df-d20e-05a7" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="e376-b859-77ff-37c4">
                   <profiles>
@@ -4214,7 +4159,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <entryLink import="true" name="Generators" hidden="false" id="17e7-f209-cc11-1ac1" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: PSA" id="df6e-1d0a-d13e-6049" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PSA" id="df6e-1d0a-d13e-6049" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="e7cc-5b48-2fa1-eb2e">
                   <profiles>
@@ -4347,7 +4292,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Sadrazam" hidden="false" id="e5b8-6040-8691-4b55" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: PSA" id="1604-ade6-78c2-17ea" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PSA" id="1604-ade6-78c2-17ea" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="5877-81b2-cb8c-2b8e">
                   <profiles>
@@ -4394,7 +4339,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8cc8-ee0e-c84b-3c17" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="526a-62aa-9b7b-7dd0" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="526a-62aa-9b7b-7dd0" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="c11c-319f-971c-a6cd">
                   <profiles>
@@ -4457,7 +4402,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <entryLink import="true" name="Generators" hidden="false" id="337e-e8e4-4fd3-19d9" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="c85c-378d-c20e-3796" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="c85c-378d-c20e-3796" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="5689-2346-a208-aaa1">
                   <profiles>
@@ -4694,7 +4639,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Awsbiri" hidden="false" id="c272-5ef9-bb87-eacd" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FS" id="0062-6e20-575d-18d9" hidden="false" sortIndex="3">
+            <selectionEntryGroup name="Light Hardpoint: FS" id="0062-6e20-575d-18d9" hidden="false" sortIndex="3" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="c6a8-886b-f3fa-fc65">
                   <profiles>
@@ -4741,7 +4686,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b110-8f11-b6fa-d531" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="60bc-6366-ae10-5c9e" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="60bc-6366-ae10-5c9e" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="f644-c3bf-eb8d-8e57">
                   <profiles>
@@ -4788,7 +4733,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a94d-c5f8-1499-7206" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FP" id="8b44-1ce2-394b-63a2" hidden="false" sortIndex="2">
+            <selectionEntryGroup name="Light Hardpoint: FP" id="8b44-1ce2-394b-63a2" hidden="false" sortIndex="2" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="d680-13f4-866d-8ef2">
                   <profiles>
@@ -4930,7 +4875,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Hirka" hidden="false" id="1082-8058-26aa-1f78" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="0763-71b4-b504-c8d7" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="0763-71b4-b504-c8d7" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="03f2-5442-f5c5-8282">
                   <profiles>
@@ -5067,7 +5012,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Mandjet" hidden="false" id="efe8-a846-04b8-5d81" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FSA" id="cadc-6d1c-bb3d-f9b5" hidden="false" sortIndex="2">
+            <selectionEntryGroup name="Light Hardpoint: FSA" id="cadc-6d1c-bb3d-f9b5" hidden="false" sortIndex="2" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="603f-1a24-b288-ab5e">
                   <profiles>
@@ -5114,7 +5059,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="949e-a7eb-223f-ea36" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPA" id="6b89-0e9b-1766-27ec" hidden="false" sortIndex="2">
+            <selectionEntryGroup name="Light Hardpoint: FPA" id="6b89-0e9b-1766-27ec" hidden="false" sortIndex="2" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="3713-4a0a-5a5e-2521">
                   <profiles>
@@ -5161,7 +5106,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f614-ef54-ab11-9f01" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="9651-4104-d0e5-4e83" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="9651-4104-d0e5-4e83" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="d93e-fa2d-2f72-dcff">
                   <profiles>
@@ -5312,11 +5257,6 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
           </conditions>
           <comment>awaiting beta 5</comment>
         </modifier>
-        <modifier type="set-primary" value="5db4-a016-113b-ed41" field="category">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
         <modifier type="set" value="2" field="1b56-e78b-9801-7227">
           <conditionGroups>
             <conditionGroup type="and">
@@ -5348,7 +5288,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Mesektet" hidden="false" id="15e6-3be1-5bc6-f5b5" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FSA" id="ba46-c614-1d92-1aff" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Light Hardpoint: FSA" id="ba46-c614-1d92-1aff" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="918b-a5be-45d8-58e7">
                   <profiles>
@@ -5395,7 +5335,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="890b-9ba9-1dcf-c68a" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="bc21-3640-9618-cf46" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="bc21-3640-9618-cf46" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="955a-c673-eead-83ba">
                   <profiles>
@@ -5442,7 +5382,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0f8-5562-93f1-0bed" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPA" id="b2f9-dce2-6c6d-d124" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Light Hardpoint: FPA" id="b2f9-dce2-6c6d-d124" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="e94d-442d-0764-52ca">
                   <profiles>
@@ -5574,11 +5514,6 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Patrol" hidden="false" id="3569-c61c-6f24-d188" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
       </categoryLinks>
       <modifiers>
-        <modifier type="set-primary" value="19f5-ff22-407b-9bb8" field="category">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
         <modifier type="set" value="2" field="a71b-de59-992d-9d5e">
           <conditionGroups>
             <conditionGroup type="and">
@@ -5610,7 +5545,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Muharib" hidden="false" id="b40e-c378-2d16-61ad" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FS" id="655d-8db6-985b-4f2e" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Light Hardpoint: FS" id="655d-8db6-985b-4f2e" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="ab81-da18-6e26-715a">
                   <profiles>
@@ -5657,7 +5592,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2924-8efa-1fca-0490" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FP" id="e610-7066-f7e4-772e" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Light Hardpoint: FP" id="e610-7066-f7e4-772e" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="dfe6-3ce2-56e5-6b7d">
                   <profiles>
@@ -5783,7 +5718,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Nasr" hidden="false" id="1b11-1c17-0e0c-ba12" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="3a69-13e7-cb23-e542" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="3a69-13e7-cb23-e542" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="6874-7397-29be-bbfc">
                   <profiles>
@@ -5843,7 +5778,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8180-405d-95b8-95db" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FS" id="5885-c60c-0dd9-d33e" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Light Hardpoint: FS" id="5885-c60c-0dd9-d33e" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="ecf3-3240-ecc5-29b8">
                   <profiles>
@@ -5890,7 +5825,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a2b-0d38-7a3d-7af8" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FP" id="9b0f-aeea-1e56-7289" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Light Hardpoint: FP" id="9b0f-aeea-1e56-7289" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="fae5-186b-4939-e884">
                   <profiles>
@@ -6036,7 +5971,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Sabah" hidden="false" id="60d4-4849-ca24-139f" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FSA" id="0040-fb89-b25a-928f" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FSA" id="0040-fb89-b25a-928f" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="b073-c950-fb5b-b2cc">
                   <profiles>
@@ -6083,7 +6018,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29b3-743c-6019-6c15" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPA" id="c6d1-95d8-3f74-523b" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPA" id="c6d1-95d8-3f74-523b" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="0264-354d-e208-d019">
                   <profiles>
@@ -6238,19 +6173,12 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
           </modifiers>
         </infoLink>
       </infoLinks>
-      <modifiers>
-        <modifier type="set-primary" value="915a-393f-3e57-2191" field="category">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Sobek Skimmer " hidden="false" id="8e0c-11d0-eba7-298c" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Sobek" hidden="false" id="1be3-3bcb-16d8-c97f" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="dcd3-652e-06f9-b517" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="dcd3-652e-06f9-b517" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="de7c-b76f-2663-e9db">
                   <profiles>
@@ -6310,7 +6238,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad3c-8009-8abf-356a" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPA" id="89dd-d89e-a0a2-f0c5" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPA" id="89dd-d89e-a0a2-f0c5" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="f2ef-eeff-de80-71eb">
                   <profiles>
@@ -6357,7 +6285,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="406f-0d04-7a99-0c69" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FSA" id="9e67-fd0e-ea07-a576" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FSA" id="9e67-fd0e-ea07-a576" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="5a85-52f2-f7ed-4829">
                   <profiles>
@@ -6492,19 +6420,12 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
           </modifiers>
         </infoLink>
       </infoLinks>
-      <modifiers>
-        <modifier type="set-primary" value="915a-393f-3e57-2191" field="category">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Temir Frigate" hidden="false" id="89e5-e484-0961-7559" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Temir" hidden="false" id="8496-370b-c238-6445" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="d24f-d926-511c-1641" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="d24f-d926-511c-1641" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="c252-b0bb-8c31-b5ea">
                   <profiles>
@@ -6738,7 +6659,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Defence Platform" hidden="false" id="4466-0fdc-56af-7a7f" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="74ca-64bd-d120-0b7b" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="74ca-64bd-d120-0b7b" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="fd3d-ac0f-daaf-0d96">
                   <profiles>
@@ -6892,7 +6813,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Heavy Platform" hidden="false" id="33da-37bc-b30e-281b" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="2965-5786-fb4e-f095" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="2965-5786-fb4e-f095" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="4716-9c6f-2c6f-3180">
                   <profiles>
@@ -6952,7 +6873,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f429-e21a-ca77-3b30" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="29b7-f550-fba9-3a7c" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="29b7-f550-fba9-3a7c" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="3445-c44b-7328-7175">
                   <profiles>
@@ -7181,11 +7102,11 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <entryLink import="true" name="Attachments" hidden="false" id="4eea-eee2-8acd-9b58" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mehmed Grand Monitor" hidden="true" id="4171-c8cd-f490-e3bd" sortIndex="4">
+    <selectionEntry type="unit" import="true" name="Mehmed Grand Monitor" hidden="true" id="4171-c8cd-f490-e3bd" sortIndex="20">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Mehmed" hidden="false" id="f31c-9a8f-95f7-f5ea" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FS" id="5fed-4ce9-0c91-93a0" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FS" id="5fed-4ce9-0c91-93a0" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="378f-ee49-abf5-ddce">
                   <profiles>
@@ -7245,7 +7166,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49cf-54b9-5f3d-eb54" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FP" id="da9a-c703-40c8-bf13" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FP" id="da9a-c703-40c8-bf13" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="6867-0cd2-d7c9-1e80">
                   <profiles>
@@ -7305,7 +7226,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7348-05c3-d066-9334" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FP" id="6dd1-4c92-b048-29b7" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FP" id="6dd1-4c92-b048-29b7" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="6133-74ce-cafa-42fc">
                   <profiles>
@@ -7365,7 +7286,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8002-1ce2-07b2-40a9" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FS" id="9316-10e4-6e04-22f3" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FS" id="9316-10e4-6e04-22f3" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="32a2-8067-9a81-1fb3">
                   <profiles>
@@ -7435,7 +7356,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="6"/>
           </costs>
           <entryLinks>
-            <entryLink import="true" name="Generators" hidden="false" id="066d-898c-e2e3-b7ba" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b">
+            <entryLink import="true" name="Generators" hidden="false" id="066d-898c-e2e3-b7ba" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b" collapsible="true">
               <modifiers>
                 <modifier type="set" value="1" field="3b0d-a4dc-9372-b417"/>
               </modifiers>
@@ -7490,8 +7411,9 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Surface" hidden="false" id="f28b-78d9-c4fc-8ac7" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="af67-8b08-ec72-0a19" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="ec12-b06d-45c3-280c" targetId="2251-0def-1b03-2e93" primary="false"/>
-        <categoryLink name="Support" hidden="false" id="3b36-5a6a-0231-36c7" targetId="1711-6069-af06-c5cc" primary="true"/>
+        <categoryLink name="Support" hidden="false" id="3b36-5a6a-0231-36c7" targetId="1711-6069-af06-c5cc" primary="false"/>
         <categoryLink name="NoHeavyShield" hidden="false" id="7739-a4d1-6c13-dad9" targetId="9078-b6da-8d59-9fec" primary="false"/>
+        <categoryLink name="Retired" hidden="false" id="44dd-c9f2-0e24-0e10" targetId="0eeb-2bfd-b6d2-8eef" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Escorts" hidden="false" id="e959-ffe7-9040-9240" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="7">
@@ -7606,7 +7528,6 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
           </conditionGroups>
         </modifier>
       </modifiers>
-      <comment>gen sort? if so system change</comment>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Morea Minelayer" hidden="false" id="fdf6-c932-40f5-e751" sortIndex="6">
       <selectionEntries>
@@ -7769,7 +7690,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Hashashin" hidden="false" id="356b-b65e-739e-8457" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: PSA" id="e119-2668-a3d5-ed34" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PSA" id="e119-2668-a3d5-ed34" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="ebd4-1bca-e774-4cc4">
                   <profiles>
@@ -7816,7 +7737,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84e3-c1f0-31b6-5895" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="9883-5898-0931-7b98" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="9883-5898-0931-7b98" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="9107-0aee-cb2f-be4f">
                   <profiles>
@@ -7931,11 +7852,6 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       </categoryLinks>
       <comment>ATTACHMENT</comment>
       <modifiers>
-        <modifier type="set-primary" value="bed0-91fe-8bd9-89ea" field="category">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
         <modifier type="set" value="2" field="53c0-3ced-7ea9-a27e">
           <conditions>
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
@@ -7947,7 +7863,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Kopesh" hidden="false" id="8e57-e035-d4ed-7a7b" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="44fa-94f5-76bf-80e7" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="44fa-94f5-76bf-80e7" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="28e7-b1f3-39bb-5d48">
                   <profiles>
@@ -7994,7 +7910,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f492-831e-ce20-3d46" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: PSA" id="e3ac-74e2-9953-6838" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PSA" id="e3ac-74e2-9953-6838" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="3116-ff08-6b90-9b84">
                   <profiles>
@@ -8109,13 +8025,6 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Attachment host" hidden="false" id="430d-6532-50ad-1af8" targetId="2251-0def-1b03-2e93" primary="false"/>
         <categoryLink name="Scout" hidden="false" id="4781-c57d-e054-6549" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
       </categoryLinks>
-      <modifiers>
-        <modifier type="set-primary" value="bed0-91fe-8bd9-89ea" field="category">
-          <conditions>
-            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Qualor Vitruvian Colossus" hidden="false" id="2b03-667e-e031-178b" sortIndex="5">
       <selectionEntries>
@@ -8689,7 +8598,7 @@ Then they immediately resolve the SRS Mission.</description>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="56b8-a07e-4b00-0cb0" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="56b8-a07e-4b00-0cb0" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="ddaa-cc32-6399-6151">
                   <profiles>
@@ -8973,7 +8882,7 @@ Then they immediately resolve the SRS Mission.</description>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Titan Mass Conveyor" hidden="false" id="89d1-9f4b-675b-b290" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="d724-b735-3bbb-f63f" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="d724-b735-3bbb-f63f" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="2d47-d88b-9df0-59ed">
                   <profiles>
@@ -9068,7 +8977,7 @@ Then they immediately resolve the SRS Mission.</description>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Mehmed" hidden="false" id="32b2-0622-a771-c387" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FS" id="c0f5-add7-8c54-69ca" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FS" id="c0f5-add7-8c54-69ca" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="c951-3f32-9967-ce8f">
                   <profiles>
@@ -9115,7 +9024,7 @@ Then they immediately resolve the SRS Mission.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3832-cabb-9caa-bed5" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: SA" id="99d4-022d-c9d1-ef23" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: SA" id="99d4-022d-c9d1-ef23" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="2de2-30d2-0b78-cad3">
                   <profiles>
@@ -9162,7 +9071,7 @@ Then they immediately resolve the SRS Mission.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="71d1-f159-b1ad-fc7b" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FS" id="d368-0270-19e3-338f" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Heavy Hardpoint: FS" id="d368-0270-19e3-338f" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="d685-c3c0-eb88-0d1a">
                   <profiles>
@@ -9234,11 +9143,8 @@ Then they immediately resolve the SRS Mission.</description>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="46e3-380c-2485-a717" includeChildSelections="false" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3c7-31a8-afde-902e" includeChildSelections="false" automatic="true"/>
               </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Generators" hidden="true" id="8e30-67b2-72ee-1448" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
-              </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FP" id="8939-ac69-fd51-ebf3" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Heavy Hardpoint: FP" id="8939-ac69-fd51-ebf3" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="1874-000e-548e-0c9f">
                   <profiles>
@@ -9310,11 +9216,8 @@ Then they immediately resolve the SRS Mission.</description>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="03b3-9ce6-2497-eb86" includeChildSelections="false" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e100-a607-917c-bb14" includeChildSelections="false" automatic="true"/>
               </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Generators" hidden="true" id="5695-2a2c-51aa-fbb0" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
-              </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: PA" id="3ac7-5522-c523-f72a" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PA" id="3ac7-5522-c523-f72a" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="1c2e-9010-872e-dc6d">
                   <profiles>
@@ -9361,7 +9264,7 @@ Then they immediately resolve the SRS Mission.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9d1-2284-d65c-75ad" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FP" id="2723-22e8-9473-0cd6" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FP" id="2723-22e8-9473-0cd6" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="aac9-6660-4a15-f4be">
                   <profiles>
@@ -9429,12 +9332,19 @@ Then they immediately resolve the SRS Mission.</description>
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Serap Subclass" hidden="false" id="e120-fa13-a4bf-b3b5">
+            <selectionEntry type="upgrade" import="true" name="Serap Subclass" hidden="false" id="e120-fa13-a4bf-b3b5" sortIndex="-1">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ffbf-fd99-3917-a192"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="Serap" field="name">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="e120-fa13-a4bf-b3b5" shared="true" childName="Serap Subclass" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -9452,11 +9362,25 @@ Then they immediately resolve the SRS Mission.</description>
             <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">9</characteristic>
             <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="Serap" field="name">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="e120-fa13-a4bf-b3b5" shared="true" childName="Serap Subclass" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
         <profile name="Mehmed" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="20dc-38d2-8344-6677">
           <characteristics>
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Boarding Parties (8)</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="Serap" field="name">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="e120-fa13-a4bf-b3b5" shared="true" childName="Serap Subclass" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
         <profile name="Mehmed" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="6fde-2abf-4304-6820">
           <characteristics>
@@ -9502,7 +9426,6 @@ Then they immediately resolve the SRS Mission.</description>
         <categoryLink name="Attachment host" hidden="false" id="5144-aa93-c89a-215c" targetId="2251-0def-1b03-2e93" primary="false"/>
         <categoryLink name="Flagship" hidden="false" id="9ad9-72f0-c5cc-4603" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
       </categoryLinks>
-      <comment>Needs generator work</comment>
       <modifiers>
         <modifier type="set" value="Serap Command Cruiser" field="name">
           <conditions>
@@ -9515,7 +9438,7 @@ Then they immediately resolve the SRS Mission.</description>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Celik" hidden="false" id="1b0a-6be4-35d1-1074" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPSA" id="ad3e-dfba-e163-a943" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPSA" id="ad3e-dfba-e163-a943" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="8d57-b24e-c29a-de59">
                   <profiles>
@@ -9562,7 +9485,7 @@ Then they immediately resolve the SRS Mission.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fccf-badf-d479-9e2a" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="a900-88e6-a842-f79f" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="a900-88e6-a842-f79f" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="0a78-ebe6-7702-2041">
                   <profiles>
@@ -9942,19 +9865,15 @@ When it is fielded in this way, all of its units must still be chosen from this 
     <categoryEntry name="Order Flagship" id="aaf9-e90f-6b3e-ed2c" hidden="false"/>
     <categoryEntry name="Order Line" id="64d1-835b-6ba6-66a8" hidden="false"/>
     <categoryEntry name="Order Support" id="afc8-ac0b-5089-66ea" hidden="false"/>
-    <categoryEntry name="Egyptian Scout" id="bed0-91fe-8bd9-89ea" hidden="false"/>
-    <categoryEntry name="Egyptian Flagship" id="aacf-6b57-32c6-27c7" hidden="false"/>
-    <categoryEntry name="Egyptian Patrol" id="19f5-ff22-407b-9bb8" hidden="false"/>
     <categoryEntry name="Turkish Patrol" id="1b07-4f2d-17c9-6135" hidden="false"/>
     <categoryEntry name="Enlightened Underwater Automata " id="2330-32fd-ec86-5236" hidden="false"/>
     <categoryEntry name="Lyceum" id="cf22-d499-ace9-24ec" hidden="false"/>
     <categoryEntry name="Crimson League" id="a16d-413b-12d5-137c" hidden="false"/>
-    <categoryEntry name="Egyptian Support" id="915a-393f-3e57-2191" hidden="false"/>
-    <categoryEntry name="Egyptian Line" id="5db4-a016-113b-ed41" hidden="false"/>
     <categoryEntry name="Turkish Airborne Flagship" id="ccf5-9153-fc01-6fa0" hidden="false"/>
     <categoryEntry name="Turkish Airborne Line" id="eabc-8c07-c1bc-d84d" hidden="false"/>
     <categoryEntry name="Turkish Airborne Patrol" id="3a97-e4c5-067f-ab58" hidden="false"/>
     <categoryEntry name="Turkish Airborne Support" id="9664-57a2-6c6c-dcd5" hidden="false"/>
+    <categoryEntry name="Retired" id="0eeb-2bfd-b6d2-8eef" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Attachments" id="9de2-588f-dafe-da6a" hidden="false" collapsible="true">
