@@ -3085,6 +3085,36 @@ A Gaseous attack does not trigger the Under Fire rule. However any model suffer
 
 Add a number of Bonus Dice to the Resistance Roll equal to the combined X Values of all weapons on the model with this Quality.</description>
     </rule>
+    <rule name="Portal Accelerator Array" id="2191-2148-7dbf-4dff" hidden="false">
+      <description>This model has additional options when Weaving a Portal or Closing a Portal, as described in the Portal Technology section of the Sultanate ORBAT.
+
+**ACCELERATED WEAVING**
+If the nominated Weaver is equipped with a Portal Accelerator Array, the Admiral can either place up to 2 Portal markers (following the standard rules), or place a single Portal marker up to 20” away from the Weaver, plus 10” for each additional Portal Manipulator in the unit. (These additional models do not need to have Portal Accelerator Arrays.)
+
+
+
+
+**IMPLODING A PORTAL**
+If at least one Portal Manipulator model in the unit is equipped with a Portal Acceleration Array, its Admiral can choose to Implode a Portal instead of Closing it normally.
+If they do so, they nominate a model in the active unit that has a Portal Accelerator Array, and choose a Portal marker within 20” of that model.
+
+
+
+
+Then, they make a Crew Check for the nominated model. 
+If the check fails, every model (friend or foe) within 3” of the chosen Marker immediately gains 1 level of Disorder, then the Marker is removed from play.
+
+
+
+
+If the check passes, the nominated model gains 1, 2, or 3 levels of Disorder, chosen by the active Admiral. 
+If this would take the model above 3 Disorder, it only counts as having gained enough levels to bring it to 3. 
+
+
+
+
+Then, every model (friend or foe) within 3” of the chosen Portal marker suffers Damage equal to the amount of Disorder gained by the nominated model, and gains 1 Disorder. Finally, the Marker is removed from play.</description>
+    </rule>
   </sharedRules>
   <publications>
     <publication name="DW4-Rules-Glossary-v4.0_W.pdf" id="14a6-3b96-497a-488d" hidden="false" publisherUrl="https://www.warcradle.com/assets/warcradleGames/dystopianWars/pdfs/essentials/DW4-Rules-Glossary-v4.0_W.pdf" shortName="Rules glossary" publisher="V4.00 Beta"/>
