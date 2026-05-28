@@ -752,15 +752,15 @@ to all models in the unit.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Generators" id="68d9-1c01-bf2d-8f49" hidden="false" collapsible="true">
+    <selectionEntryGroup name="Generators" id="5ef5-232e-411c-ee62" hidden="false" collapsible="true">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Interphase Generator" hidden="true" id="b5a3-04c9-b967-a990">
+        <selectionEntry type="upgrade" import="true" name="Interphase Generator" hidden="true" id="bbf4-aa42-8e30-4794">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="25"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <profiles>
-            <profile name="Interphase Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="62ee-a2ed-cd6b-e4b1"/>
+            <profile name="Interphase Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="2391-d388-7215-9541"/>
           </profiles>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -781,12 +781,12 @@ to all models in the unit.</description>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="45da-d3e8-061f-8fb4"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a94b-e5c6-59b8-2741"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Atomic Generator" hidden="false" id="0391-353d-e18d-2a99">
+        <selectionEntry type="upgrade" import="true" name="Atomic Generator" hidden="false" id="c1e3-5ced-6f3e-1d01">
           <profiles>
-            <profile name="Atomic Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="6c0d-3556-4026-8392"/>
+            <profile name="Atomic Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="5ccb-fd44-4c6a-e799"/>
           </profiles>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="5"/>
@@ -804,7 +804,7 @@ to all models in the unit.</description>
               </conditionGroups>
             </modifier>
             <modifier type="append" value="Atomic Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
-            <modifier type="set" value="0" field="9d22-b7e4-ccc7-7485"/>
+            <modifier type="set" value="0" field="ef8a-df54-683b-a964"/>
             <modifier type="set" value="0" field="89fa-eeaa-958f-ca32">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5190-e9fa-9afa-172d" shared="true" childName="Mihrimah" includeChildSelections="true"/>
@@ -812,17 +812,17 @@ to all models in the unit.</description>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9d22-b7e4-ccc7-7485"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ef8a-df54-683b-a964"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Guardian Generator (2)" hidden="true" id="c476-0c93-343b-44a0">
+        <selectionEntry type="upgrade" import="true" name="Guardian Generator (2)" hidden="true" id="d460-eb49-0120-b2be">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
             <cost name="GP" typeId="a9f9-1d81-c3b4-b731" value="2"/>
           </costs>
           <profiles>
-            <profile name="Guardian Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="2edb-b799-eea7-3d81"/>
+            <profile name="Guardian Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="2c5e-1b2b-a926-24d1"/>
           </profiles>
           <modifiers>
             <modifier type="append" value="Guardian Generator (2)" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
@@ -838,12 +838,12 @@ to all models in the unit.</description>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="eb8f-9cbb-b11f-1138"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="f653-cf94-10bc-ede6"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Repulsion Generator" hidden="false" id="16f8-78f1-c0af-6d47">
+        <selectionEntry type="upgrade" import="true" name="Repulsion Generator" hidden="false" id="ccf3-b00d-3d54-92e0">
           <profiles>
-            <profile name="Repulsion Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="f74b-a4ab-095f-b9a3"/>
+            <profile name="Repulsion Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="1ab8-a7f1-28d8-2689"/>
           </profiles>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
@@ -871,12 +871,12 @@ to all models in the unit.</description>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c3d3-b481-00ea-95dc"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5f41-9c7a-caf6-158a"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Shroud Generator" hidden="false" id="2da4-edd4-54ec-3ea9">
+        <selectionEntry type="upgrade" import="true" name="Shroud Generator" hidden="false" id="a836-2c4c-8663-8034">
           <profiles>
-            <profile name="Shroud Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="98d7-5c86-1e78-3019"/>
+            <profile name="Shroud Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="93a0-6faa-fe78-481b"/>
           </profiles>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
@@ -896,12 +896,12 @@ to all models in the unit.</description>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d9e2-6bd1-b692-b5b7"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2b42-2b5b-194d-86e9"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Solex Generator " hidden="true" id="a01a-df0e-208b-9455">
+        <selectionEntry type="upgrade" import="true" name="Solex Generator " hidden="true" id="69b2-1826-48eb-d2bd">
           <profiles>
-            <profile name="Solex Generator " typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="e3d1-d14a-af89-4255"/>
+            <profile name="Solex Generator " typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="90f8-6cd0-0cff-01ef"/>
           </profiles>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
@@ -921,16 +921,16 @@ to all models in the unit.</description>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9b78-07c9-44a8-33e4"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="87d4-47f7-c3bb-29cd"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Trident Generator" hidden="true" id="c443-c5f5-0fb0-e84e">
+        <selectionEntry type="upgrade" import="true" name="Trident Generator" hidden="true" id="6148-0227-2fe9-e351">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <profiles>
-            <profile name="Trident Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="3a64-fd08-1160-381f"/>
+            <profile name="Trident Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="8714-c476-b918-70db"/>
           </profiles>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -946,16 +946,16 @@ to all models in the unit.</description>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="f460-ab26-45cb-fd97"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c974-c0fb-5239-ce8f"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Great Wall Generator" hidden="true" id="cb1d-90f1-0304-c66d">
+        <selectionEntry type="upgrade" import="true" name="Great Wall Generator" hidden="true" id="d2be-4889-c553-2338">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <profiles>
-            <profile name="Great Wall Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="74d1-55e9-e106-4a12"/>
+            <profile name="Great Wall Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="cbc1-5911-13a6-9a25"/>
           </profiles>
           <modifiers>
             <modifier type="append" value="Great Wall Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
@@ -971,12 +971,12 @@ to all models in the unit.</description>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a918-915c-7377-5a75"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7712-f463-8720-4236"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Heavy Shield Generator" hidden="false" id="5bfc-d388-6987-1b13">
+        <selectionEntry type="upgrade" import="true" name="Heavy Shield Generator" hidden="false" id="2052-034e-755c-e921">
           <profiles>
-            <profile name="Heavy Shield Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="866a-97c2-7657-b916"/>
+            <profile name="Heavy Shield Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="03de-5828-97d4-b60b"/>
           </profiles>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
@@ -1001,12 +1001,12 @@ to all models in the unit.</description>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e092-1e29-e2dc-3a43"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c33d-eabb-9265-acb8"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Magnetic Generator" hidden="false" id="e09a-b03c-23e5-c41e">
+        <selectionEntry type="upgrade" import="true" name="Magnetic Generator" hidden="false" id="a55b-5eb3-f2f5-23d8">
           <profiles>
-            <profile name="Magnetic Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="77ab-97b1-47fe-1668"/>
+            <profile name="Magnetic Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="1827-42b6-85f5-92eb"/>
           </profiles>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
@@ -1026,16 +1026,16 @@ to all models in the unit.</description>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="dbf1-a239-2f86-bfb0"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b943-89f3-f3d0-9cac"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Chrono Generator" hidden="true" id="a664-ef1f-2e81-4d77">
+        <selectionEntry type="upgrade" import="true" name="Chrono Generator" hidden="true" id="1ef1-a021-e45d-ae22">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <profiles>
-            <profile name="Chrono Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="e560-2e2c-f842-dc3b"/>
+            <profile name="Chrono Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="420b-5321-7e3e-2874"/>
           </profiles>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -1051,12 +1051,12 @@ to all models in the unit.</description>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a730-ec41-a633-1b75"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="df07-50cd-3855-2582"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Fury Generator" hidden="false" id="7452-0d0e-537f-87b5">
+        <selectionEntry type="upgrade" import="true" name="Fury Generator" hidden="false" id="f2e7-3f4b-452a-8acb">
           <profiles>
-            <profile name="Fury Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="8eaa-5e59-22dc-b7d3"/>
+            <profile name="Fury Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="e4e6-2e87-d430-82db"/>
           </profiles>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
@@ -1076,12 +1076,12 @@ to all models in the unit.</description>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7238-509a-6c9a-c522"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a221-9b2f-f16c-cb22"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Langsam Generator" hidden="true" id="6795-c79b-5f90-6cd5">
+        <selectionEntry type="upgrade" import="true" name="Langsam Generator" hidden="true" id="7a4b-b3a5-1a10-8570">
           <profiles>
-            <profile name="Langsam Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="df7e-8ed5-230f-bf91"/>
+            <profile name="Langsam Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="d823-2a4f-e155-5ef9"/>
           </profiles>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
@@ -1101,16 +1101,16 @@ to all models in the unit.</description>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0715-6339-962d-ddbf"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="48ec-e02c-cfe8-e439"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Mirage Generator" hidden="true" id="48ad-88e7-0723-d765">
+        <selectionEntry type="upgrade" import="true" name="Mirage Generator" hidden="true" id="8729-e4bd-5262-18f3">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <profiles>
-            <profile name="Mirage Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="9994-7efe-06ce-bb8a"/>
+            <profile name="Mirage Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="0523-6795-fd11-6c21"/>
           </profiles>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -1131,16 +1131,16 @@ to all models in the unit.</description>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7f22-1e37-05ec-d6f4"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e7f0-e0ca-f906-6329"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Null-Clone Generator" hidden="true" id="f77c-dbc2-f98a-48fb">
+        <selectionEntry type="upgrade" import="true" name="Null-Clone Generator" hidden="true" id="1f5b-9c9d-b95e-1731">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <profiles>
-            <profile name="Null-Clone Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="682e-2842-dc7b-09f5"/>
+            <profile name="Null-Clone Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="2241-ff50-7e24-c4f4"/>
           </profiles>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -1156,16 +1156,16 @@ to all models in the unit.</description>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="76e3-7143-6cf5-f7a3"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8fad-d3a9-8ca2-8ed7"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Portal Generator" hidden="true" id="c46c-7503-676a-6c4c">
+        <selectionEntry type="upgrade" import="true" name="Portal Generator" hidden="true" id="0f97-a58f-10c1-b943">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <profiles>
-            <profile name="Portal Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="a670-dcb3-5efb-2347"/>
+            <profile name="Portal Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="b177-146f-119a-b72f"/>
           </profiles>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -1186,17 +1186,17 @@ to all models in the unit.</description>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b7f1-1608-4d30-e9b5"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b380-e04b-4041-0871"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Magma Cast Generator" hidden="true" id="81b4-ad9f-05d4-744e">
+        <selectionEntry type="upgrade" import="true" name="Magma Cast Generator" hidden="true" id="090d-bfc5-8e1b-2690">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="35"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <constraints>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5ad9-7a66-697b-12d7" includeChildSelections="true" automatic="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="25fe-dae0-4930-573b" includeChildSelections="false" automatic="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="d8f4-7e4d-3abf-66a5" includeChildSelections="true" automatic="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1399-d238-1ec8-dd75" includeChildSelections="false" automatic="false"/>
           </constraints>
           <modifiers>
             <modifier type="append" value="Magma Cast Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="profiles.Systems" join=", "/>
@@ -1224,10 +1224,9 @@ to all models in the unit.</description>
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="ea4c-51e2-2400-1cb6" includeChildSelections="true" automatic="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d64-c642-bcaf-b55c" includeChildSelections="true" automatic="true"/>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="6e62-bc78-ac03-8a0b" includeChildSelections="true" automatic="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a6a-7f2d-ef6c-dd8a" includeChildSelections="true" automatic="true"/>
       </constraints>
-      <comment>for bastard boats</comment>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
