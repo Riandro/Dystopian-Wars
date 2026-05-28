@@ -6869,68 +6869,8 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
                 </selectionEntry>
               </selectionEntries>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d00b-3956-3c2e-2d88" includeChildSelections="false" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f429-e21a-ca77-3b30" includeChildSelections="false" automatic="true"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="29b7-f550-fba9-3a7c" hidden="false" sortIndex="1" collapsible="true">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="3445-c44b-7328-7175">
-                  <profiles>
-                    <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="5a37-d312-5d13-1bd8">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="D-Cannon Battery" hidden="false" id="44df-97ca-a311-d0c3">
-                  <profiles>
-                    <profile name="D-Cannon Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="936f-676c-f1a3-017f">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indirect, Piercing (1)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="c694-ba9c-ed8a-5e6d">
-                  <profiles>
-                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e5e7-8f49-556d-b2f8">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Particle Beamer" hidden="false" id="5fed-5834-5e98-0ab3">
-                  <profiles>
-                    <profile name="Particle Beamer" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="47cb-94d7-7ad3-aa4f">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e6db-944e-cefc-d8c2" includeChildSelections="false" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58c8-ceb0-8b0e-5941" includeChildSelections="false" automatic="true"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="d00b-3956-3c2e-2d88" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f429-e21a-ca77-3b30" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>

@@ -1,270 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="e622-53e4-3b22-04b4" name="Imperium" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="6" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry type="unit" import="true" name="Heidelberg Logistics Battlecruiser" hidden="false" id="b50b-d15c-7e0d-db3e" sortIndex="49">
-      <categoryLinks>
-        <categoryLink name="Imperium" hidden="false" id="28f9-cfa7-d4ef-5c7e" targetId="efb4-747e-0463-9b2c" primary="false"/>
-        <categoryLink name="Surface" hidden="false" id="66a0-572d-41ff-9977" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
-        <categoryLink name="Ship" hidden="false" id="deeb-9347-ac21-a47d" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
-        <categoryLink name="Capital" hidden="false" id="6e95-3a20-ca2d-79e2" targetId="30c3-7f1c-19e3-e772" primary="false"/>
-        <categoryLink name="Prussian" hidden="false" id="1200-6535-0fb3-cb76" targetId="17e3-2e7f-4774-a0c2" primary="false"/>
-        <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="e186-20c4-bea4-cf45" primary="true" name="Flagship"/>
-        <categoryLink targetId="2251-0def-1b03-2e93" id="929f-5a63-3ff0-f2c0" primary="false" name="Attachment host"/>
-        <categoryLink targetId="354b-f513-a8ad-efba" id="2529-3fd2-6655-9069" primary="false" name="AttachmentHostHermes"/>
-      </categoryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="cad2-d9a1-3d92-50d4" includeChildSelections="false"/>
-      </constraints>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Configurations" id="19ec-7b40-935f-bf37" hidden="false" sortIndex="1">
-          <selectionEntries>
-            <selectionEntry type="model" import="true" name=" Sekundar" hidden="false" id="9e95-79bb-7668-4264" sortIndex="2">
-              <costs>
-                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="190"/>
-                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
-              </costs>
-              <categoryLinks>
-                <categoryLink name="Escort" hidden="false" id="f4e3-77dd-5845-a63d" targetId="d576-4983-e8cf-e556" primary="false"/>
-              </categoryLinks>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Admiral&apos;s Flag" hidden="false" id="a7e8-21cb-8b55-4594">
-                  <costs>
-                    <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="5"/>
-                    <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="31fd-96bc-7ce3-2fcb" includeChildSelections="false" automatic="true"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95ba-165d-d592-8fb2" includeChildSelections="false" automatic="true"/>
-                  </constraints>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name=" Primar" hidden="false" id="2e00-a534-328d-7bb3" sortIndex="1">
-              <costs>
-                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="180"/>
-                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
-              </costs>
-              <categoryLinks>
-                <categoryLink name="Escort" hidden="false" id="74bc-bf81-e4e0-c4e7" targetId="d576-4983-e8cf-e556" primary="false"/>
-              </categoryLinks>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Admiral&apos;s Flag" hidden="false" id="9ba7-928f-6ea2-3cdd">
-                  <costs>
-                    <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="5"/>
-                    <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8693-7a3b-5145-adaf-min" includeChildSelections="false" automatic="true"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8693-7a3b-5145-adaf-max" includeChildSelections="false" automatic="true"/>
-                  </constraints>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3edd-a8f5-9892-fab8" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38b9-5e8e-a82b-0dd3" automatic="true"/>
-          </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Heavy Hardpoints" id="e07a-a94e-8064-576a" hidden="true" sortIndex="2">
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="60cb-734e-1bca-da99" hidden="false" sortIndex="1">
-              <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9a5c-679c-fd2f-7c68" automatic="true"/>
-                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f7c5-504a-752a-3758" automatic="true"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Stromschlag Rocket Battery" hidden="false" id="0261-4909-06da-5318" sortIndex="2">
-                  <profiles>
-                    <profile name="Stromschlag Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="bd01-f720-8a0a-ce38">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage, Voltaic (2)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy Voltaic Gun Battery" hidden="false" id="ae09-4291-345c-8634" sortIndex="1">
-                  <profiles>
-                    <profile name="Heavy Voltaic Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="de8d-1dc9-77d2-3229">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Voltaic (2)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <comment>Heavy Hardpoint</comment>
-              <modifiers>
-                <modifier type="set" value="0" field="9a5c-679c-fd2f-7c68">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="9e95-79bb-7668-4264" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="47e9-8632-ed7d-c230" shared="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink import="true" name="Generators" hidden="false" id="47e9-8632-ed7d-c230" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b" sortIndex="2">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a3d4-2211-da76-c749"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" value="0" field="1ff4-de44-41fe-9db0">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="9e95-79bb-7668-4264" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="60cb-734e-1bca-da99" shared="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-                <modifier type="set" value="0" field="a3d4-2211-da76-c749">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="9e95-79bb-7668-4264" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="60cb-734e-1bca-da99" shared="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-            </entryLink>
-          </entryLinks>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="9e95-79bb-7668-4264" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="2e00-a534-328d-7bb3" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Special Hardpoint: F" id="308d-7d90-aece-dd2d" hidden="true" sortIndex="3">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="986b-f167-4f54-7016" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="164a-4c49-f832-c378" automatic="true"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Gustav Twin Bombard" hidden="false" id="10b3-d2aa-3985-f91b">
-              <profiles>
-                <profile name="Gustav Twin Bombard" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="true" id="7712-8f5d-07a0-b2b0">
-                  <characteristics>
-                    <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                    <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                    <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">9</characteristic>
-                    <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">16</characteristic>
-                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (2), Guided (2)</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Bertha Heavy Bombard" hidden="false" id="de85-1626-f72d-5727">
-              <profiles>
-                <profile name="Bertha Heavy Bombard" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="true" id="0aa7-41aa-6198-371e">
-                  <characteristics>
-                    <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                    <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                    <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
-                    <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
-                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (3), Blast (6), Guided (2</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-          </selectionEntries>
-          <comment>Heavy Hardpoint</comment>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="2e00-a534-328d-7bb3" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="9e95-79bb-7668-4264" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="0" field="986b-f167-4f54-7016">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="2e00-a534-328d-7bb3" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="0" field="164a-4c49-f832-c378">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="2e00-a534-328d-7bb3" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
-      </costs>
-      <comment>Flagship VER</comment>
-      <profiles>
-        <profile name="Heidelberg" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="0cda-30f8-e861-96c6">
-          <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Logistical Support, Mine Sweeper (3), Priority Signals, Storm Generator</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Heidelberg" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="6aac-db71-60f8-33b9">
-          <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Flotsam, Mine Layer (2), Stockpile (2), Strategic Asset (3)</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Heidelberg" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="7619-fdb4-9f43-7cf9">
-          <characteristics>
-            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">5</characteristic>
-            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">3&quot;-7&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">2</characteristic>
-            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">9</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">5</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">12</characteristic>
-            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
-            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">4</characteristic>
-            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">3</characteristic>
-            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">9</characteristic>
-            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Sturmfahne" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="0d39-d9c7-8270-5697">
-          <characteristics>
-            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-            <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
-            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
-            <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Homing, Limited, Mayhem, Powered</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <entryLinks>
-        <entryLink import="true" name="Escorts" hidden="false" id="7c5b-d5d9-7905-40bb" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="5">
-          <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="32e8-1bee-ab22-b264"/>
-          </constraints>
-        </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="c4d4-7ffd-978c-42ef" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="4"/>
-      </entryLinks>
-    </selectionEntry>
     <selectionEntry type="unit" import="true" name="Asgard Rotor Tethership" hidden="false" id="37b8-877c-38e0-dab5" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="3cbf-39b1-4d22-cc16" targetId="efb4-747e-0463-9b2c" primary="false"/>
@@ -388,7 +124,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Elector" hidden="false" id="dc38-fd36-ff99-a116" sortIndex="2">
+    <selectionEntry type="unit" import="true" name="Elector" hidden="false" id="dc38-fd36-ff99-a116" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="0251-29ed-3c3d-c94b" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="2a99-5e69-8e21-95cd" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
@@ -761,7 +497,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="1ebe-31ab-635e-4e2e" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Falkenstein Battlecarrier" hidden="false" id="b397-6c43-9cec-d9eb" sortIndex="3">
+    <selectionEntry type="unit" import="true" name="Falkenstein Battlecarrier" hidden="false" id="b397-6c43-9cec-d9eb" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="45f2-90e8-8aa7-bcf4" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="6502-4846-aee7-dddb" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
@@ -1241,7 +977,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="c240-b07c-2862-770a" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ice Maiden Dreadnought Supercarrier" hidden="false" id="fc15-6f16-a6d8-b8d4" sortIndex="4">
+    <selectionEntry type="unit" import="true" name="Ice Maiden Dreadnought Supercarrier" hidden="false" id="fc15-6f16-a6d8-b8d4" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="ad34-c7e0-b2d9-9c6f" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Imperium" hidden="false" id="18cb-c1a5-8df4-474f" targetId="efb4-747e-0463-9b2c" primary="false"/>
@@ -1504,7 +1240,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Kaiser Heavy Battleship" hidden="false" id="7471-e7a9-44e6-d94e" sortIndex="5">
+    <selectionEntry type="unit" import="true" name="Kaiser Heavy Battleship" hidden="false" id="7471-e7a9-44e6-d94e" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="1d0d-f467-d373-4950" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="f066-d855-b62f-b601" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
@@ -1748,7 +1484,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Konig Generator Ship" hidden="false" id="a0c4-2c3c-d5b0-69cb" sortIndex="6">
+    <selectionEntry type="unit" import="true" name="Konig Generator Ship" hidden="false" id="a0c4-2c3c-d5b0-69cb" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="5023-4d56-6c2b-a05b" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Teutonic" hidden="false" id="4bea-77ab-9ae3-6be2" targetId="4b3e-0aac-bc34-696d" primary="false"/>
@@ -1951,7 +1687,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ragnarok Heavy Reaver" hidden="false" id="2b9a-1a99-4053-49e0" sortIndex="8">
+    <selectionEntry type="unit" import="true" name="Ragnarok Heavy Reaver" hidden="false" id="2b9a-1a99-4053-49e0" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="970f-cf02-9a9f-82a3" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Imperium" hidden="false" id="3351-ecd1-dac2-4f3c" targetId="efb4-747e-0463-9b2c" primary="false"/>
@@ -2135,7 +1871,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="SMS Skjalden The Dark Omen" hidden="false" id="3202-2d84-cb8b-f633" sortIndex="10">
+    <selectionEntry type="unit" import="true" name="SMS Skjalden The Dark Omen" hidden="false" id="3202-2d84-cb8b-f633" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="ea59-cecd-15ac-13c0" targetId="0ec6-f5c8-25d7-89d8" primary="false"/>
         <categoryLink name="Imperium" hidden="false" id="b61d-d905-31a8-6f21" targetId="efb4-747e-0463-9b2c" primary="false"/>
@@ -2268,7 +2004,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Stark Imperium Skyfortress" hidden="false" id="e5de-6d26-e64a-1a78" sortIndex="11">
+    <selectionEntry type="unit" import="true" name="Stark Imperium Skyfortress" hidden="false" id="e5de-6d26-e64a-1a78" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="067a-ade3-4884-a6a5" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Imperium" hidden="false" id="40b5-2f18-cd4e-dad5" targetId="efb4-747e-0463-9b2c" primary="false"/>
@@ -2425,7 +2161,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Tempelhof Fleet Carrier" hidden="false" id="fa5a-216e-077e-b9be" sortIndex="12">
+    <selectionEntry type="unit" import="true" name="Tempelhof Fleet Carrier" hidden="false" id="fa5a-216e-077e-b9be" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="1ce3-4db8-b1f8-701d" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Imperium" hidden="false" id="f56e-99dc-b33c-99fb" targetId="efb4-747e-0463-9b2c" primary="false"/>
@@ -2538,7 +2274,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Valhalla Fast Dreadnought" hidden="false" id="3b83-a07b-9fbe-afa9" sortIndex="13">
+    <selectionEntry type="upgrade" import="true" name="Valhalla Fast Dreadnought" hidden="false" id="3b83-a07b-9fbe-afa9" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="d40a-dbfd-2a6c-09a2" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Scandinavian" hidden="false" id="4885-5cb3-63ef-1cd5" targetId="04fd-b227-5327-13f0" primary="false"/>
@@ -2785,7 +2521,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Zeppelin Aerial Dreadnought" hidden="false" id="76ac-9134-5de1-050e" sortIndex="14">
+    <selectionEntry type="unit" import="true" name="Zeppelin Aerial Dreadnought" hidden="false" id="76ac-9134-5de1-050e" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="fb36-460e-b05b-8948" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Imperium" hidden="false" id="33b6-02e3-c945-b912" targetId="efb4-747e-0463-9b2c" primary="false"/>
@@ -2947,7 +2683,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Baldr Raider" hidden="false" id="090e-4799-da35-a6a7" sortIndex="22">
+    <selectionEntry type="unit" import="true" name="Baldr Raider" hidden="false" id="090e-4799-da35-a6a7" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="d8e3-2bfd-70b7-3fe8" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Scandinavian" hidden="false" id="df42-a4af-67ec-af25" targetId="04fd-b227-5327-13f0" primary="false"/>
@@ -3124,7 +2860,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Blucher Cruiser" hidden="false" id="b013-f396-118e-9d07" sortIndex="15">
+    <selectionEntry type="unit" import="true" name="Blucher Cruiser" hidden="false" id="b013-f396-118e-9d07" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="3949-1e07-fa23-cf44" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="2a41-7862-e748-2db0" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
@@ -3283,7 +3019,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
       </modifiers>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ferdinand Advanced Cruiser" hidden="false" id="301f-bdae-96c8-af75" sortIndex="33">
+    <selectionEntry type="unit" import="true" name="Ferdinand Advanced Cruiser" hidden="false" id="301f-bdae-96c8-af75" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="2168-c6c7-ea92-9084" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Teutonic" hidden="false" id="f473-4e59-4e98-1f0b" targetId="4b3e-0aac-bc34-696d" primary="false"/>
@@ -3508,7 +3244,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Gungnir Raider" hidden="false" id="0e1c-39f6-76ea-1bbc" sortIndex="23">
+    <selectionEntry type="unit" import="true" name="Gungnir Raider" hidden="false" id="0e1c-39f6-76ea-1bbc" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="09ef-f701-5cad-f009" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Scandinavian" hidden="false" id="076a-c72d-dc77-b6fb" targetId="04fd-b227-5327-13f0" primary="false"/>
@@ -3674,7 +3410,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Jotunn Heavy Raider" hidden="false" id="9adc-90f1-7953-ff0f" sortIndex="16">
+    <selectionEntry type="unit" import="true" name="Jotunn Heavy Raider" hidden="false" id="9adc-90f1-7953-ff0f" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="58cf-31e0-4edf-b188" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Scandinavian" hidden="false" id="c8a5-4925-e46b-75fc" targetId="04fd-b227-5327-13f0" primary="false"/>
@@ -3850,7 +3586,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Kriegsturm Assault Airship" hidden="false" id="6945-aafe-a935-bd7f" sortIndex="35">
+    <selectionEntry type="unit" import="true" name="Kriegsturm Assault Airship" hidden="false" id="6945-aafe-a935-bd7f" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="99f0-b536-60f6-5702" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Prussian" hidden="false" id="1479-82d2-8743-038e" targetId="17e3-2e7f-4774-a0c2" primary="false"/>
@@ -3984,7 +3720,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Nuremberg Heavy Airship" hidden="false" id="2508-0300-a0a5-0ccf" sortIndex="17">
+    <selectionEntry type="unit" import="true" name="Nuremberg Heavy Airship" hidden="false" id="2508-0300-a0a5-0ccf" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="7ebc-eb6c-d2b2-1fc4" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Airborne" hidden="false" id="26d0-94ba-d244-697c" targetId="139e-c78f-43c0-2957" primary="false"/>
@@ -4105,7 +3841,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Odin Reaver" hidden="false" id="d867-683e-3662-2416" sortIndex="18">
+    <selectionEntry type="unit" import="true" name="Odin Reaver" hidden="false" id="d867-683e-3662-2416" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="e2d5-b5ac-53c4-cb09" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Scandinavian" hidden="false" id="d274-af9e-b325-8a9e" targetId="04fd-b227-5327-13f0" primary="false"/>
@@ -4244,7 +3980,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Thor Assault Raider" hidden="false" id="2a19-a75f-64e1-f54a" sortIndex="19">
+    <selectionEntry type="unit" import="true" name="Thor Assault Raider" hidden="false" id="2a19-a75f-64e1-f54a" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="8633-75b5-b855-fccb" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Scandinavian" hidden="false" id="82b2-328e-11dd-ba40" targetId="04fd-b227-5327-13f0" primary="false"/>
@@ -4401,7 +4137,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Volsung Cruiser" hidden="false" id="b16d-a6bf-08b5-b700" sortIndex="20">
+    <selectionEntry type="unit" import="true" name="Volsung Cruiser" hidden="false" id="b16d-a6bf-08b5-b700" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="445b-fc0a-d628-55e4" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="e288-d0f1-41a7-a4ea" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
@@ -4611,7 +4347,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Arminius Frigate" hidden="false" id="5153-77c9-a6a0-2279" sortIndex="21">
+    <selectionEntry type="unit" import="true" name="Arminius Frigate" hidden="false" id="5153-77c9-a6a0-2279" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="d7e3-8b26-0251-d049" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="0d2d-620b-d564-9b7c" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
@@ -4746,7 +4482,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hoth Corvette" hidden="false" id="aa93-8a8d-c4c8-cf2d" sortIndex="24">
+    <selectionEntry type="unit" import="true" name="Hoth Corvette" hidden="false" id="aa93-8a8d-c4c8-cf2d" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="7808-48a9-ce98-1a9e" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="7eb6-fd95-fa50-e0f9" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
@@ -4843,7 +4579,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
       </modifiers>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Jaeger Aerial Destroyer" hidden="false" id="18d9-b528-b826-268e" sortIndex="25">
+    <selectionEntry type="unit" import="true" name="Jaeger Aerial Destroyer" hidden="false" id="18d9-b528-b826-268e" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="7ff9-70ba-8992-0cde" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Patrol" hidden="false" id="ba30-d8ed-2ddf-7136" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
@@ -4935,7 +4671,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Malus Flak Destroyer" hidden="false" id="f1fd-45d9-75cc-a3db" sortIndex="44">
+    <selectionEntry type="unit" import="true" name="Malus Flak Destroyer" hidden="false" id="f1fd-45d9-75cc-a3db" sortIndex="5">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="94d7-62cd-ece7-8628" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Prussian" hidden="false" id="22dc-87e7-cc46-4b09" targetId="17e3-2e7f-4774-a0c2" primary="false"/>
@@ -5044,7 +4780,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="ce76-8387-50bf-43eb" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Munich Aerial Destroyer" hidden="false" id="2f3f-df5f-7992-eb73" sortIndex="26">
+    <selectionEntry type="unit" import="true" name="Munich Aerial Destroyer" hidden="false" id="2f3f-df5f-7992-eb73" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="fe65-5765-e458-3d8c" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Patrol" hidden="false" id="f286-9642-5dcf-0315" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
@@ -5127,7 +4863,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Nachtsturm Flak Frigate" hidden="false" id="1136-aecb-be6a-42e8" sortIndex="27">
+    <selectionEntry type="unit" import="true" name="Nachtsturm Flak Frigate" hidden="false" id="1136-aecb-be6a-42e8" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="bfd9-890c-0dd5-2b90" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Teutonic" hidden="false" id="b540-da22-83e0-b814" targetId="4b3e-0aac-bc34-696d" primary="false"/>
@@ -5206,7 +4942,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Reiter Flak Cruiser" hidden="false" id="a36c-1750-0002-2ec6" sortIndex="28">
+    <selectionEntry type="unit" import="true" name="Reiter Flak Cruiser" hidden="false" id="a36c-1750-0002-2ec6" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="5f5e-503f-d6f6-84a7" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Prussian" hidden="false" id="7cdd-880f-3b85-92f5" targetId="17e3-2e7f-4774-a0c2" primary="false"/>
@@ -5328,7 +5064,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
       </profiles>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Sigimer Destroyer" hidden="false" id="b2da-d5d8-bd04-256d" sortIndex="29">
+    <selectionEntry type="unit" import="true" name="Sigimer Destroyer" hidden="false" id="b2da-d5d8-bd04-256d" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="4a53-b35d-948a-1a74" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Prussian" hidden="false" id="d52c-501b-9919-406c" targetId="17e3-2e7f-4774-a0c2" primary="false"/>
@@ -5452,7 +5188,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
       </profiles>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Toten Heavy Destroyer" hidden="false" id="7be1-a62a-b1cd-6134" sortIndex="30">
+    <selectionEntry type="unit" import="true" name="Toten Heavy Destroyer" hidden="false" id="7be1-a62a-b1cd-6134" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="e549-bed6-88a3-cce0" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Prussian" hidden="false" id="4ee5-208f-9127-027e" targetId="17e3-2e7f-4774-a0c2" primary="false"/>
@@ -5572,7 +5308,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Valkyrie Hunt Rotor" hidden="false" id="8090-1673-23da-d363" sortIndex="45">
+    <selectionEntry type="unit" import="true" name="Valkyrie Hunt Rotor" hidden="false" id="8090-1673-23da-d363" sortIndex="5">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="971a-bf67-1074-ef9d" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Scandinavian" hidden="false" id="8644-a92b-090b-16a6" targetId="04fd-b227-5327-13f0" primary="false"/>
@@ -5706,7 +5442,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
       </modifiers>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Angrboda Midget Sub-Carrier" hidden="false" id="5067-0250-9024-3968" sortIndex="31">
+    <selectionEntry type="unit" import="true" name="Angrboda Midget Sub-Carrier" hidden="false" id="5067-0250-9024-3968" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="47e9-d5c2-86a1-fbdb" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Scandinavian" hidden="false" id="e457-1f93-ac09-6cd9" targetId="04fd-b227-5327-13f0" primary="false"/>
@@ -5851,7 +5587,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Augustus Bombardment Cruiser" hidden="false" id="5769-704b-036d-cffa" sortIndex="32">
+    <selectionEntry type="unit" import="true" name="Augustus Bombardment Cruiser" hidden="false" id="5769-704b-036d-cffa" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="0472-7df1-8dbd-9c6d" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Prussian" hidden="false" id="3fcb-ccf5-8977-955b" targetId="17e3-2e7f-4774-a0c2" primary="false"/>
@@ -5963,7 +5699,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="b50b-d15c-7e0d-db3e" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="b098-cede-a4de-1f90" shared="true" includeChildSelections="true" childName="Heidelberg Logistics Battlecruiser"/>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="6c46-4dc0-2d14-33ae" shared="true" includeChildSelections="true"/>
               </conditions>
             </conditionGroup>
@@ -5971,7 +5707,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Konrad Support Carrier" hidden="false" id="2b54-189e-fb9a-13a7" sortIndex="34">
+    <selectionEntry type="unit" import="true" name="Konrad Support Carrier" hidden="false" id="2b54-189e-fb9a-13a7" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="bbd7-a09d-44dd-a2da" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Prussian" hidden="false" id="9f26-c2de-290e-cf49" targetId="17e3-2e7f-4774-a0c2" primary="false"/>
@@ -6114,7 +5850,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Schaumburg Escort Cruiser" hidden="false" id="1585-e892-6530-1e3d" sortIndex="38">
+    <selectionEntry type="unit" import="true" name="Schaumburg Escort Cruiser" hidden="false" id="1585-e892-6530-1e3d" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="caf8-3174-f3dc-c269" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Prussian" hidden="false" id="eed3-4c16-3449-e62c" targetId="17e3-2e7f-4774-a0c2" primary="false"/>
@@ -6188,7 +5924,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
       </profiles>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Offshore Heavy Platform" hidden="false" id="efca-980e-027a-caad" sortIndex="36">
+    <selectionEntry type="unit" import="true" name="Offshore Heavy Platform" hidden="false" id="efca-980e-027a-caad" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="bba9-72b3-2771-4031" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Croatian" hidden="false" id="d9be-9923-8ee4-7a85" targetId="c84e-783d-e32e-afd3" primary="false"/>
@@ -6347,7 +6083,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="dcaf-f26d-acf9-e454" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Offshore Defence Platform" hidden="false" id="280b-2169-a24b-9bb5" sortIndex="37">
+    <selectionEntry type="unit" import="true" name="Offshore Defence Platform" hidden="false" id="280b-2169-a24b-9bb5" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="49c5-300b-4111-e7a4" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Croatian" hidden="false" id="2422-9895-5e3a-9280" targetId="c84e-783d-e32e-afd3" primary="false"/>
@@ -6483,7 +6219,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
       </profiles>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Einherjar Vitruvian Colossus" hidden="false" id="de0a-7db2-2a49-fb91" sortIndex="39">
+    <selectionEntry type="unit" import="true" name="Einherjar Vitruvian Colossus" hidden="false" id="de0a-7db2-2a49-fb91" sortIndex="5">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="2023-5ea5-d217-d0a0" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Scandinavian" hidden="false" id="1038-f0a1-90ca-b257" targetId="04fd-b227-5327-13f0" primary="false"/>
@@ -6651,7 +6387,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Fenrir Submarine" hidden="false" id="b55c-dd93-aaa7-e39d" sortIndex="40">
+    <selectionEntry type="unit" import="true" name="Fenrir Submarine" hidden="false" id="b55c-dd93-aaa7-e39d" sortIndex="5">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="009c-bbd4-dba1-ca72" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Scandinavian" hidden="false" id="7071-0838-c92f-df04" targetId="04fd-b227-5327-13f0" primary="false"/>
@@ -6773,7 +6509,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Grand Master’s Hochmeister Vitruvian Colossus" hidden="false" id="7c40-0877-3f44-2cc0" sortIndex="41">
+    <selectionEntry type="unit" import="true" name="Grand Master’s Hochmeister Vitruvian Colossus" hidden="false" id="7c40-0877-3f44-2cc0" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="94f4-e4eb-37ed-d6c2" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Teutonic" hidden="false" id="7375-df5a-8573-ee5d" targetId="4b3e-0aac-bc34-696d" primary="false"/>
@@ -6785,155 +6521,6 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         <categoryLink name="NoFury" hidden="false" id="e74d-11be-07b1-c76e" targetId="6c3a-1e64-fcc8-bb6c" primary="false"/>
         <categoryLink name="NoLangsam" hidden="false" id="8ea2-fe4e-ec86-428b" targetId="4cfa-d98d-05ef-a274" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Grand Master’s Hochmeister Vitruvian Colossus" hidden="false" id="f97a-16c4-666d-597d">
-          <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="180"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
-          </costs>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPA" id="a46a-f98c-8805-81b0" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Heavy Voltaic Gun Battery" hidden="false" id="2ca5-28a7-f45a-a15c" sortIndex="1">
-                  <profiles>
-                    <profile name="Heavy Voltaic Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="358d-6dd1-d3ed-6d06">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Voltaic (2)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Stromschlag Rocket Battery" hidden="false" id="6ff7-6260-4424-0e4d" sortIndex="2">
-                  <profiles>
-                    <profile name="Stromschlag Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="142f-7258-e5c3-53bf">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage, Voltaic (2)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6e36-0685-2f31-e43c" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c09-402d-d158-2250" automatic="true"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Generators" hidden="false" id="8243-13c4-3036-a3cc" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FSA" id="f3bc-b43a-aca2-3a28" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Heavy Voltaic Gun Battery" hidden="false" id="7a0f-1cbd-ab30-8559" sortIndex="1">
-                  <profiles>
-                    <profile name="Heavy Voltaic Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="898e-3f43-cf5b-0c77">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FSA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Voltaic (2)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Stromschlag Rocket Battery" hidden="false" id="57e8-76bb-c961-8256" sortIndex="2">
-                  <profiles>
-                    <profile name="Stromschlag Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="b90e-8761-d80d-3b07">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FSA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage, Voltaic (2)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7c91-5558-76c7-f531" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9554-882b-f938-4d5c" automatic="true"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Generators" hidden="false" id="f7a8-a7d6-824d-3a8b" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Special Hardpoint: FPS" id="36d1-ea85-9f4e-b204" hidden="false">
-              <comment>Special Hardpoint</comment>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Zweihander Greatsword" hidden="false" id="7e99-32ee-a075-c1d1" sortIndex="1">
-                  <profiles>
-                    <profile name="Zweihander Greatsword" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9c28-12c9-8386-6683">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Assault&lt;/span&gt;, Deathblow</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Kanzler Great Maul" hidden="false" id="32b1-908f-86d6-009c" sortIndex="2">
-                  <profiles>
-                    <profile name="Kanzler Great Maul" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9a3f-d1c1-1d7a-3d63">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">9</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Assault&lt;/span&gt;, Devastating (3), Structural Failure (3)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc89-b09b-7bad-901c" automatic="true"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6dc4-ee1f-bb55-c76b" automatic="true"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ba9-5730-fbd9-3c55" automatic="true"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4172-65a8-46c6-91a1" automatic="true"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink targetId="6ad6-48d6-db5c-84e4" id="138c-8a69-71e0-0b77" primary="false" name="NoAtomic"/>
-            <categoryLink targetId="047c-73c0-89c8-f01f" id="071d-0239-0104-004b" primary="false" name="NoChrono"/>
-            <categoryLink targetId="1251-fac6-d468-621c" id="e8f5-750e-53e5-f059" primary="false" name="NoNull-Clone"/>
-            <categoryLink targetId="401d-07db-b6e3-82a7" id="1a42-3369-7906-d375" primary="false" name="NoRepulsion"/>
-            <categoryLink targetId="fa05-3cea-45b9-c91f" id="784d-93d8-b90f-516d" primary="false" name="NoGreatwall"/>
-            <categoryLink targetId="ee1b-34ec-7402-160c" id="5414-a103-c368-5b17" primary="false" name="NoGuardian"/>
-            <categoryLink targetId="481d-3241-3b6e-c0c0" id="a0a5-ec7a-a00a-30c3" primary="false" name="NoTrident"/>
-            <categoryLink targetId="9ac6-3417-ec6f-cba6" id="7c3b-ce7f-3fcf-97ae" primary="false" name="NoPortal"/>
-            <categoryLink targetId="f579-ee32-2e81-d251" id="4873-3870-4f4c-0d45" primary="false" name="NoSolex"/>
-            <categoryLink targetId="e297-c3e1-459d-8413" id="e8b2-ffb1-8b89-8f4b" primary="false" name="NoMirage"/>
-            <categoryLink targetId="76e0-cc70-4f0e-a931" id="1386-7625-8dde-e878" primary="false" name="NoInterphase"/>
-            <categoryLink targetId="4cfa-d98d-05ef-a274" id="f9eb-cfb9-ad49-1466" primary="false" name="NoLangsam"/>
-          </categoryLinks>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Grand Master’s Commandery" hidden="false" id="8d6d-054f-84fa-9e6f">
-              <costs>
-                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
-                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
-              </costs>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0205-74cb-ea07-8d55-min" includeChildSelections="false" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0205-74cb-ea07-8d55-max" includeChildSelections="false" automatic="true"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntry>
-      </selectionEntries>
       <costs>
         <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
       </costs>
@@ -6975,8 +6562,27 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
           </conditions>
         </modifier>
       </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Hochmeister Vitruvian Colossus" hidden="false" id="ff39-6122-09c1-c7ab" type="selectionEntry" targetId="3caa-a976-3418-d44a">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Grand Master’s Commandery" hidden="false" id="3859-1858-69cd-a0fc">
+              <costs>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7be6-1ea8-57d5-d04a" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1630-7fed-8906-e3bc" includeChildSelections="false" automatic="true"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="Grand Master’s Hochmeister Vitruvian Colossus" field="name"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Loki Shadow Raider" hidden="false" id="b3de-5117-c59c-2143" sortIndex="42">
+    <selectionEntry type="unit" import="true" name="Loki Shadow Raider" hidden="false" id="b3de-5117-c59c-2143" sortIndex="5">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="bccb-645d-43de-07d7" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Scandinavian" hidden="false" id="e645-3b4f-96a9-de29" targetId="04fd-b227-5327-13f0" primary="false"/>
@@ -7125,7 +6731,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Metzger Vitruivian Colossus" hidden="false" id="6fa0-3b52-85a1-d250" sortIndex="43">
+    <selectionEntry type="unit" import="true" name="Metzger Vitruivian Colossus" hidden="false" id="6fa0-3b52-85a1-d250" sortIndex="5">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="b14f-e565-531d-9603" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Teutonic" hidden="false" id="b31f-6df1-f2a9-563d" targetId="4b3e-0aac-bc34-696d" primary="false"/>
@@ -7266,7 +6872,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Offshore Supply Platform" hidden="false" id="651b-097c-0cae-389e" sortIndex="50">
+    <selectionEntry type="unit" import="true" name="Offshore Supply Platform" hidden="false" id="651b-097c-0cae-389e" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="5c74-454c-b998-7237" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Croatian" hidden="false" id="53bc-81b1-3a0d-1fc7" targetId="c84e-783d-e32e-afd3" primary="false"/>
@@ -7350,7 +6956,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="0737-0630-3486-6836" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Europa Grand Conveyor" hidden="false" id="923c-fb71-4ccf-1ecd" sortIndex="46">
+    <selectionEntry type="unit" import="true" name="Europa Grand Conveyor" hidden="false" id="923c-fb71-4ccf-1ecd" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="1854-e876-737d-6809" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="6175-2e79-c419-0d51" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
@@ -7508,7 +7114,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hermes Supply Freighter" hidden="false" id="fa4c-1c70-0fc3-3efa" sortIndex="48">
+    <selectionEntry type="unit" import="true" name="Hermes Supply Freighter" hidden="false" id="fa4c-1c70-0fc3-3efa" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="22ef-249a-fe12-ded7" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Logistical" hidden="false" id="b56a-c8d7-e84a-0fcc" targetId="366f-016b-5f80-0c09" primary="true"/>
@@ -7583,7 +7189,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
       </entryLinks>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Gefjon Merchantman" hidden="false" id="3649-5fe8-f142-326c" sortIndex="47">
+    <selectionEntry type="unit" import="true" name="Gefjon Merchantman" hidden="false" id="3649-5fe8-f142-326c" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="80f4-8ace-9fef-7f21" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Scandinavian" hidden="false" id="ea58-9cc4-436c-e8c0" targetId="04fd-b227-5327-13f0" primary="false"/>
@@ -7740,7 +7346,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
       </modifiers>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Titan Mass Conveyor" hidden="false" id="78b8-6ea5-e1a4-4f3a" sortIndex="51">
+    <selectionEntry type="unit" import="true" name="Titan Mass Conveyor" hidden="false" id="78b8-6ea5-e1a4-4f3a" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Ship" hidden="false" id="b228-87ab-172d-4792" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Logistical" hidden="false" id="09c6-00e2-b1cd-9a27" targetId="366f-016b-5f80-0c09" primary="true"/>
@@ -7896,7 +7502,7 @@ SRS (Vali Midget Subs), Vikingr (6)</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="f9fb-ffa4-4029-86e6" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Fleet Doctrines" hidden="false" id="aff5-ce2e-767b-4367">
+    <selectionEntry type="upgrade" import="true" name="Fleet Doctrines" hidden="false" id="aff5-ce2e-767b-4367" sortIndex="-1">
       <entryLinks>
         <entryLink import="true" name="Fleet Doctrines" hidden="false" id="a916-4119-6692-cbb0" type="selectionEntryGroup" targetId="3a8e-29a8-4109-7c1c">
           <selectionEntries>
@@ -8048,7 +7654,7 @@ In addition, all Prussian models in this Force that are within 7” of at least
         <categoryLink targetId="eb20-a962-fc6e-ce7f" id="2dcd-49ff-c8db-382b" primary="true" name="Fleet Doctrines"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Heidelberg Logistics Battlecruiser" hidden="false" id="af70-4608-7e60-5382" sortIndex="49">
+    <selectionEntry type="unit" import="true" name="Heidelberg Logistics Battlecruiser" hidden="false" id="af70-4608-7e60-5382" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="4900-bf37-e161-476b" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="ef6f-2664-949d-2afa" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
@@ -8298,7 +7904,7 @@ In addition, all Prussian models in this Force that are within 7” of at least
         <entryLink import="true" name="Attachments" hidden="false" id="d9c9-e341-ca5e-6b01" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hochmeister Vitruvian Colossus" hidden="false" id="b5a4-0937-b13e-b94d" sortIndex="41">
+    <selectionEntry type="unit" import="true" name="Hochmeister Vitruvian Colossus" hidden="false" id="b5a4-0937-b13e-b94d" sortIndex="5">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="0136-b801-ad2e-13e3" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Teutonic" hidden="false" id="3f2a-21fb-a10c-ca6c" targetId="4b3e-0aac-bc34-696d" primary="false"/>
@@ -8489,7 +8095,7 @@ In addition, all Prussian models in this Force that are within 7” of at least
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Maximilian Aerial Linebreaker" hidden="false" id="aa0d-a482-38f3-9439" sortIndex="7">
+    <selectionEntry type="unit" import="true" name="Maximilian Aerial Linebreaker" hidden="false" id="aa0d-a482-38f3-9439" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="23fc-7841-fc43-5776" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Flagship" hidden="false" id="13af-287d-291e-55e5" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
@@ -8668,7 +8274,7 @@ In addition, all Prussian models in this Force that are within 7” of at least
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="SMS Brandenburg Elector-Class Battleship" hidden="false" id="a847-90a0-c606-b635" sortIndex="9">
+    <selectionEntry type="unit" import="true" name="SMS Brandenburg Elector-Class Battleship" hidden="false" id="a847-90a0-c606-b635" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="5c4b-1511-44bf-e2f1" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Imperium" hidden="false" id="6c2f-209e-4c1f-3323" targetId="efb4-747e-0463-9b2c" primary="false"/>
@@ -9440,6 +9046,392 @@ All units in this Battlefleet gain the Scions of Jutland trait, if they do not 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hochmeister Vitruvian Colossus" hidden="false" id="3caa-a976-3418-d44a">
+      <costs>
+        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="180"/>
+        <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Special Hardpoint: FPS" id="b087-f2bb-cccb-a439" hidden="false">
+          <comment>Special Hardpoint</comment>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Zweihander Greatsword" hidden="false" id="22a6-694b-bbf0-3c70" sortIndex="1">
+              <profiles>
+                <profile name="Zweihander Greatsword" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="1ed2-c75b-12fc-bba3">
+                  <characteristics>
+                    <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                    <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
+                    <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
+                    <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Assault&lt;/span&gt;, Deathblow</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Kanzler Great Maul" hidden="false" id="b649-97d7-ba6e-d0fe" sortIndex="2">
+              <profiles>
+                <profile name="Kanzler Great Maul" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7b3b-076e-0c09-fb3d">
+                  <characteristics>
+                    <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                    <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">9</characteristic>
+                    <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
+                    <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Assault&lt;/span&gt;, Devastating (3), Structural Failure (3)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7385-f172-13ee-2258" automatic="true"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cbdc-40d8-1f7e-f8dc" automatic="true"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Heavy Hardpoint: FPA" id="ba2d-f8b3-cdc5-c849" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Heavy Voltaic Gun Battery" hidden="false" id="0d9f-a87e-2822-c519" sortIndex="1">
+              <profiles>
+                <profile name="Heavy Voltaic Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="000f-b417-90b5-89eb">
+                  <characteristics>
+                    <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPA</characteristic>
+                    <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                    <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
+                    <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Voltaic (2)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Stromschlag Rocket Battery" hidden="false" id="f886-fdcf-8605-08d6" sortIndex="2">
+              <profiles>
+                <profile name="Stromschlag Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="74a1-fcec-7eb8-09dc">
+                  <characteristics>
+                    <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPA</characteristic>
+                    <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                    <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
+                    <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage, Voltaic (2)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5c55-da38-e29e-d977" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b57a-5b9b-ec93-8203" automatic="true"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Generators" hidden="false" id="cf5a-71e3-1129-204d" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Heavy Hardpoint: FSA" id="9afa-68c3-2f74-0ff1" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Heavy Voltaic Gun Battery" hidden="false" id="5a3c-dc5e-3f2a-ca4f" sortIndex="1">
+              <profiles>
+                <profile name="Heavy Voltaic Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a201-ab61-34ad-59f0">
+                  <characteristics>
+                    <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FSA</characteristic>
+                    <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                    <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
+                    <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Voltaic (2)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Stromschlag Rocket Battery" hidden="false" id="ed7d-7c2c-1f27-476c" sortIndex="2">
+              <profiles>
+                <profile name="Stromschlag Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="103a-67d8-0143-36bc">
+                  <characteristics>
+                    <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FSA</characteristic>
+                    <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                    <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
+                    <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage, Voltaic (2)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bf61-90af-c544-39d1" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d69c-b4dc-3003-9720" automatic="true"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Generators" hidden="false" id="570a-b337-2dc6-9bf8" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2dc1-1d55-6bb3-c676" automatic="true"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2334-58df-08f4-1474" automatic="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="NoAtomic" hidden="false" id="2030-2c6a-a17a-5f44" targetId="6ad6-48d6-db5c-84e4" primary="false"/>
+        <categoryLink name="NoChrono" hidden="false" id="73e8-4217-4a61-9b4a" targetId="047c-73c0-89c8-f01f" primary="false"/>
+        <categoryLink name="NoNull-Clone" hidden="false" id="00f2-fa07-6c66-478b" targetId="1251-fac6-d468-621c" primary="false"/>
+        <categoryLink name="NoRepulsion" hidden="false" id="0085-90a1-8c64-e64e" targetId="401d-07db-b6e3-82a7" primary="false"/>
+        <categoryLink name="NoGreatwall" hidden="false" id="47da-3959-15ce-ffde" targetId="fa05-3cea-45b9-c91f" primary="false"/>
+        <categoryLink name="NoGuardian" hidden="false" id="426f-eabd-a8d9-4ae3" targetId="ee1b-34ec-7402-160c" primary="false"/>
+        <categoryLink name="NoTrident" hidden="false" id="c29e-0a19-3c4b-b776" targetId="481d-3241-3b6e-c0c0" primary="false"/>
+        <categoryLink name="NoPortal" hidden="false" id="4e09-ef47-1b9f-a013" targetId="9ac6-3417-ec6f-cba6" primary="false"/>
+        <categoryLink name="NoSolex" hidden="false" id="1310-62c2-0000-396f" targetId="f579-ee32-2e81-d251" primary="false"/>
+        <categoryLink name="NoMirage" hidden="false" id="df71-0a9f-2ec9-6311" targetId="e297-c3e1-459d-8413" primary="false"/>
+        <categoryLink name="NoInterphase" hidden="false" id="cafc-9283-ec45-2e93" targetId="76e0-cc70-4f0e-a931" primary="false"/>
+        <categoryLink name="NoLangsam" hidden="false" id="31c0-338e-a779-5a4e" targetId="4cfa-d98d-05ef-a274" primary="false"/>
+      </categoryLinks>
+      <comment>shared</comment>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Heidelberg Logistics Battlecruiser" hidden="false" id="3009-5668-4078-833b">
+      <categoryLinks>
+        <categoryLink name="Imperium" hidden="false" id="45cf-71a8-1671-00fc" targetId="efb4-747e-0463-9b2c" primary="false"/>
+        <categoryLink name="Surface" hidden="false" id="2c6e-5f48-7977-aa66" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
+        <categoryLink name="Ship" hidden="false" id="0005-47ed-ae7c-daac" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
+        <categoryLink name="Capital" hidden="false" id="0bc3-83c5-b001-8b6a" targetId="30c3-7f1c-19e3-e772" primary="false"/>
+        <categoryLink name="Prussian" hidden="false" id="0b4b-915e-8762-8647" targetId="17e3-2e7f-4774-a0c2" primary="false"/>
+        <categoryLink name="Logistical" hidden="false" id="b0e6-01e9-b3f1-e686" targetId="366f-016b-5f80-0c09" primary="true"/>
+        <categoryLink name="Attachment host" hidden="false" id="bd34-b13f-944d-2f4f" targetId="2251-0def-1b03-2e93" primary="false"/>
+        <categoryLink name="AttachmentHostHermes" hidden="false" id="71f9-960e-f022-148d" targetId="354b-f513-a8ad-efba" primary="false"/>
+        <categoryLink name="Logisticaltwo" hidden="false" id="7c37-0e5a-e753-c80a" targetId="fa85-80ac-ff67-bade" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="952c-4dd9-a552-2cb0" includeChildSelections="false"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Configurations" id="64fc-b27f-53e8-7c2e" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name=" Sekundar" hidden="false" id="d0ae-f954-63e9-8a28" collapsible="true" sortIndex="2">
+              <costs>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="190"/>
+                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
+              </costs>
+              <categoryLinks>
+                <categoryLink name="Escort" hidden="false" id="8262-b5b0-1381-80ee" targetId="d576-4983-e8cf-e556" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name=" Primar" hidden="false" id="7eec-a6ff-7f57-cfad" collapsible="true" sortIndex="1">
+              <costs>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="180"/>
+                <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
+              </costs>
+              <categoryLinks>
+                <categoryLink name="Escort" hidden="false" id="65cc-2981-af39-e12e" targetId="d576-4983-e8cf-e556" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="301e-d8c4-79c6-aabd" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f4f-dc46-5760-cb5c" automatic="true"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Special Hardpoint: F" id="426d-5ed1-d9c8-fc59" hidden="true" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fb6a-f0a9-34ab-990f" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="686c-c228-d3d0-6b72" automatic="true"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Gustav Twin Bombard" hidden="false" id="a278-ae1b-c8a6-ac92">
+              <profiles>
+                <profile name="Gustav Twin Bombard" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="true" id="123c-dfec-b7a3-0244">
+                  <characteristics>
+                    <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                    <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                    <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">9</characteristic>
+                    <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">16</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (2), Guided (2)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bertha Heavy Bombard" hidden="false" id="9db8-57d6-f60b-1f3b">
+              <profiles>
+                <profile name="Bertha Heavy Bombard" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="true" id="6083-2c28-fba6-42db">
+                  <characteristics>
+                    <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                    <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                    <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                    <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (3), Blast (6), Guided (2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <comment>Heavy Hardpoint</comment>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="7eec-a6ff-7f57-cfad" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d0ae-f954-63e9-8a28" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="fb6a-f0a9-34ab-990f">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="7eec-a6ff-7f57-cfad" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="686c-c228-d3d0-6b72">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="7eec-a6ff-7f57-cfad" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Heavy Hardpoints" id="dee1-853d-02b7-f361" hidden="true" sortIndex="2">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="eaca-8077-2f45-c026" hidden="false" sortIndex="1">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3f10-218e-1f76-2f05" automatic="true"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ea00-0f3e-b327-4d25" automatic="true"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Stromschlag Rocket Battery" hidden="false" id="65e2-c856-ce85-53ed" sortIndex="2">
+                  <profiles>
+                    <profile name="Stromschlag Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="12e1-5b13-14e7-f5e4">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage, Voltaic (2)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Voltaic Gun Battery" hidden="false" id="eea7-2cf7-a4e4-83da" sortIndex="1">
+                  <profiles>
+                    <profile name="Heavy Voltaic Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="f33f-da52-6701-d27c">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Voltaic (2)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <comment>Heavy Hardpoint</comment>
+              <modifiers>
+                <modifier type="set" value="0" field="3f10-218e-1f76-2f05">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="d0ae-f954-63e9-8a28" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="38f4-3372-8b3f-8e5a" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink import="true" name="Generators" hidden="false" id="38f4-3372-8b3f-8e5a" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b" sortIndex="2">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f3f-698e-747c-977f"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="0" field="1ff4-de44-41fe-9db0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="d0ae-f954-63e9-8a28" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="eaca-8077-2f45-c026" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="0" field="8f3f-698e-747c-977f">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="d0ae-f954-63e9-8a28" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="eaca-8077-2f45-c026" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d0ae-f954-63e9-8a28" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="7eec-a6ff-7f57-cfad" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+      </costs>
+      <comment>shared</comment>
+      <profiles>
+        <profile name="Heidelberg" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="b04a-f846-c371-b37a">
+          <characteristics>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Logistical Support, Mine Sweeper (3), Priority Signals, Storm Generator</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Heidelberg" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="afb2-b0f1-87c2-e567">
+          <characteristics>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Flotsam, Mine Layer (2), Stockpile (2), Strategic Asset (3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Heidelberg" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="ae05-63a9-2d18-6b62">
+          <characteristics>
+            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">5</characteristic>
+            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">3&quot;-7&quot;</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">2</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">9</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">5</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">12</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
+            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">4</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">3</characteristic>
+            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">9</characteristic>
+            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Heavy Speerschleuders" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="abf4-37c1-d593-6b6a">
+          <characteristics>
+            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+            <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
+            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
+            <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
+            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Torpedo, Voltaic (2)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Sturmfahne" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="f08f-1943-54c9-fcfd">
+          <characteristics>
+            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
+            <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
+            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
+            <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Homing, Limited, Mayhem, Powered</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Escorts" hidden="false" id="35a0-aad5-ec0b-d1e6" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="4">
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="6def-5400-819b-b384"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Attachments" hidden="false" id="e9b5-f854-7ef5-751a" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="3"/>
+      </entryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Attachments" id="f133-6e35-4c50-30dc" hidden="false" collapsible="true">
@@ -9840,5 +9832,51 @@ All units in this Battlefleet gain the Scions of Jutland trait, if they do not 
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0776-6fb0-ab8c-f12a" includeChildSelections="true"/>
       </constraints>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Configurations" id="df34-edaf-83ce-3220" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name=" Sekundar" hidden="false" id="9da3-236d-f796-deb5" collapsible="true" sortIndex="2">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="190"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Escort" hidden="false" id="b176-bffe-d25e-1340" targetId="d576-4983-e8cf-e556" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name=" Primar" hidden="false" id="e143-b7f6-18e7-ae11" collapsible="true" sortIndex="1">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="180"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Escort" hidden="false" id="0a05-425e-95bd-6c3f" targetId="d576-4983-e8cf-e556" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="41c2-b83e-bca1-e624" automatic="true"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e9cb-e067-b834-fba2" automatic="true"/>
+      </constraints>
+      <comment>Heidelberg Logistics Battlecruiser</comment>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <entryLinks>
+    <entryLink import="true" name="Heidelberg Logistics Battlecruiser" hidden="false" id="b098-cede-a4de-1f90" type="selectionEntry" targetId="3009-5668-4078-833b" sortIndex="1">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="328f-c34a-843e-c999" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Admiral’s Flag" hidden="false" id="378c-5f46-24e8-735f">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="5"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7f4c-f008-3cbb-c389" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ee9-0f3c-8a98-7bf9" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </entryLink>
+  </entryLinks>
 </catalogue>

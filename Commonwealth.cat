@@ -57,7 +57,7 @@
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FP" id="8063-9746-6adf-477e" hidden="false" exportable="false">
+            <selectionEntryGroup name="Light Hardpoint: FP" id="8063-9746-6adf-477e" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="66da-4d15-1b43-85f7">
                   <profiles>
@@ -117,7 +117,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84ec-ca1b-f61e-ee1a"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="a699-ade9-3b56-41d3" hidden="false" exportable="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="a699-ade9-3b56-41d3" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="921a-ddb2-d15f-6e94">
                   <profiles>
@@ -177,7 +177,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c67d-0d95-1fb6-2b0c"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FS" id="8733-d4e0-d928-07b0" hidden="false" exportable="false">
+            <selectionEntryGroup name="Light Hardpoint: FS" id="8733-d4e0-d928-07b0" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="009f-3f03-385e-42c1">
                   <profiles>
@@ -259,7 +259,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="2c0a-3fe2-b3e5-06f5" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Anastasia Legendary Mobile Stronghold" hidden="false" id="a7a1-415e-f60e-50a9" page="16" sortIndex="2">
+    <selectionEntry type="unit" import="true" name="Anastasia Legendary Mobile Stronghold" hidden="false" id="a7a1-415e-f60e-50a9" page="16" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="8016-4897-7116-ffc8" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="14fb-9e60-1239-c7df" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
@@ -379,7 +379,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="c4ad-527c-b849-712a" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Borodino Battleship" hidden="false" id="b7e9-22fb-7a22-a295" sortIndex="3">
+    <selectionEntry type="unit" import="true" name="Borodino Battleship" hidden="false" id="b7e9-22fb-7a22-a295" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="0995-0a97-543b-d840" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Surface" hidden="false" id="f55b-c456-6dd3-04f6" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
@@ -612,7 +612,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="5218-72f0-002f-503e" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Death Bringer Prototype Grand Submarine" hidden="false" id="961f-9d24-76a7-79c0" sortIndex="4">
+    <selectionEntry type="unit" import="true" name="Death Bringer Prototype Grand Submarine" hidden="false" id="961f-9d24-76a7-79c0" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="7d55-5154-7bd9-df62" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Capital" hidden="false" id="27da-a729-10d5-d59c" targetId="30c3-7f1c-19e3-e772" primary="false"/>
@@ -662,7 +662,7 @@
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: PSA" id="0a16-046f-badd-15a5" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PSA" id="0a16-046f-badd-15a5" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="e640-914c-39e6-1699">
                   <profiles>
@@ -722,7 +722,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0382-7278-30b6-8c70"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: PSA" id="8dd5-b7f8-3f0c-5214" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PSA" id="8dd5-b7f8-3f0c-5214" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="e618-18a9-5194-2a3f">
                   <profiles>
@@ -813,7 +813,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="0561-1d6d-47e6-8308" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Khodynka Heavy Skycruiser" hidden="false" id="34a6-60e4-ff55-8f9b" sortIndex="5">
+    <selectionEntry type="unit" import="true" name="Khodynka Heavy Skycruiser" hidden="false" id="34a6-60e4-ff55-8f9b" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="1a56-f207-dfcf-3056" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Capital" hidden="false" id="2f05-e4b8-442d-0577" targetId="30c3-7f1c-19e3-e772" primary="false"/>
@@ -871,7 +871,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Khodynka" hidden="false" id="6312-63bc-9fe7-8507" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="1fff-391f-6596-c3a5" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="1fff-391f-6596-c3a5" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="589b-146d-87df-75ad">
                   <profiles>
@@ -921,7 +921,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="a69a-06a1-fc8a-bd7c" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="37e1-f688-7b34-301c" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="37e1-f688-7b34-301c" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="21f7-8531-94a4-775d">
                   <profiles>
@@ -971,7 +971,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="a4de-812a-defd-59b2" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="ef0f-77f3-465b-f9a7" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="ef0f-77f3-465b-f9a7" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="0c80-6865-3fad-3620">
                   <profiles>
@@ -1050,7 +1050,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="93e8-a4f9-9fea-3ae2" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Krasnaya Heavy Skydrill" hidden="false" id="7789-952e-c049-8fc9" sortIndex="6">
+    <selectionEntry type="unit" import="true" name="Krasnaya Heavy Skydrill" hidden="false" id="7789-952e-c049-8fc9" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="8aa8-e563-acde-e328" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Capital" hidden="false" id="bc5f-142a-1825-6e29" targetId="30c3-7f1c-19e3-e772" primary="false"/>
@@ -1109,7 +1109,7 @@
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="7"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="5ac5-e9ca-a343-4af4" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="5ac5-e9ca-a343-4af4" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="2f7c-0906-f7eb-e003">
                   <profiles>
@@ -1159,7 +1159,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="f4a8-d681-382b-ec83" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="2dba-7c62-3908-7069" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="2dba-7c62-3908-7069" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="0fb8-eb77-468a-2dd2">
                   <profiles>
@@ -1234,7 +1234,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="b5c9-a982-3879-acf9" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Moskva Heavy Battleship" hidden="false" id="db81-1a6a-247c-19ca" sortIndex="7">
+    <selectionEntry type="unit" import="true" name="Moskva Heavy Battleship" hidden="false" id="db81-1a6a-247c-19ca" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="b436-0634-72b1-0707" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="f5aa-ca0b-7724-645c" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
@@ -1283,7 +1283,7 @@
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FS" id="7d08-35a8-0a71-7684" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FS" id="7d08-35a8-0a71-7684" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="af97-0db0-ff68-495c">
                   <profiles>
@@ -1333,7 +1333,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="7ad2-df38-4374-1659" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FS" id="6c1c-adac-d38d-5af8" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FS" id="6c1c-adac-d38d-5af8" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="65fe-56c4-d9c4-570a">
                   <profiles>
@@ -1393,7 +1393,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a541-8de5-61a4-af86"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="43e2-17f5-a5ce-5f1f" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="43e2-17f5-a5ce-5f1f" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="6468-acef-eb63-8733">
                   <profiles>
@@ -1443,7 +1443,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="17ad-15d8-e6e1-0356" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FP" id="1f72-3f2d-d915-0a72" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FP" id="1f72-3f2d-d915-0a72" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="4b3b-dd59-7383-7254">
                   <profiles>
@@ -1493,7 +1493,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="74a3-2913-9726-3945" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FP" id="1383-da56-4443-d240" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FP" id="1383-da56-4443-d240" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="7872-4a04-cf9d-854b">
                   <profiles>
@@ -1590,7 +1590,7 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e6a3-4462-9174-2edd" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mozhayski Fleet Carrier" hidden="false" id="d825-587e-9df2-0f04" sortIndex="8">
+    <selectionEntry type="unit" import="true" name="Mozhayski Fleet Carrier" hidden="false" id="d825-587e-9df2-0f04" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="a164-ebb3-5318-de1f" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="89f3-0dee-c6b0-c129" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
@@ -1637,7 +1637,7 @@
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="7"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FSA" id="4e6d-1a31-f21b-418b" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FSA" id="4e6d-1a31-f21b-418b" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="eb14-b521-14d7-24e4">
                   <profiles>
@@ -1697,7 +1697,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="325a-1358-744a-8bad"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPA" id="d4f3-1e8e-2c9d-cb2f" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPA" id="d4f3-1e8e-2c9d-cb2f" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="e6e8-1a21-347f-4095">
                   <profiles>
@@ -1757,7 +1757,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17f5-ba61-1b54-79c8"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="1c3c-f17e-bae7-8eb0" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="1c3c-f17e-bae7-8eb0" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="1c98-20ca-875a-e948">
                   <profiles>
@@ -1846,7 +1846,7 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a270-85fb-d317-e1ce" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Murmansk Mobile Stronghold" hidden="false" id="7f83-2bf0-9f03-340d" sortIndex="9">
+    <selectionEntry type="unit" import="true" name="Murmansk Mobile Stronghold" hidden="false" id="7f83-2bf0-9f03-340d" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="f4fa-2219-5672-0564" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="b2bb-ccb8-f239-59b0" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
@@ -1893,7 +1893,7 @@
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="12"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: SA" id="d4d3-c768-f1f4-a919" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: SA" id="d4d3-c768-f1f4-a919" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="eeee-c54a-8e46-65f6">
                   <profiles>
@@ -1940,7 +1940,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee55-b298-7746-f572"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FP" id="a702-b719-977b-6801" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FP" id="a702-b719-977b-6801" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="fc64-2aab-9b8b-7c8a">
                   <profiles>
@@ -1987,7 +1987,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="08ae-e729-a231-efa9"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FS" id="6849-0448-c615-07c9" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FS" id="6849-0448-c615-07c9" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="8c6f-55e1-5380-4a62">
                   <profiles>
@@ -2034,7 +2034,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b203-b86e-b151-2174"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PA" id="3392-d04b-8eb9-9d64" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PA" id="3392-d04b-8eb9-9d64" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="624a-9d38-2f4b-ef36">
                   <profiles>
@@ -2118,7 +2118,7 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ce40-6153-788f-9f56" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Prezidium Command Ship" hidden="false" id="dc33-5aa7-12ff-1395" sortIndex="10">
+    <selectionEntry type="unit" import="true" name="Prezidium Command Ship" hidden="false" id="dc33-5aa7-12ff-1395" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="83d4-b802-655e-0c78" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="e880-c9e1-ad64-e1ed" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
@@ -2164,7 +2164,7 @@
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FS" id="da9a-7f5d-e471-af23" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FS" id="da9a-7f5d-e471-af23" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="70cd-c7ba-5f64-e1cb">
                   <profiles>
@@ -2211,7 +2211,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="deb7-93e3-abe3-e0f5"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FS" id="5a9e-0ac0-40c2-72de" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FS" id="5a9e-0ac0-40c2-72de" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="016e-1215-358c-ae74">
                   <profiles>
@@ -2271,7 +2271,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a460-2bcc-a741-a668"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FP" id="0896-3457-2e72-381f" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FP" id="0896-3457-2e72-381f" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="1d38-3db6-2a93-9707">
                   <profiles>
@@ -2318,7 +2318,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f984-d187-b8de-3cfb"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FP" id="5225-73f8-0490-70f2" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FP" id="5225-73f8-0490-70f2" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="2408-3036-a72e-1560">
                   <profiles>
@@ -2415,7 +2415,7 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="cd72-6b42-d60e-2690" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Rikhter Artillery Dreadnought" hidden="false" id="5ccf-6ff3-a0aa-6a2f" sortIndex="11">
+    <selectionEntry type="unit" import="true" name="Rikhter Artillery Dreadnought" hidden="false" id="5ccf-6ff3-a0aa-6a2f" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="2b5b-b32b-c872-582b" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="0fdf-6203-d10d-c93d" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
@@ -2461,7 +2461,7 @@
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FS" id="3dd7-bb47-f109-f3a6" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FS" id="3dd7-bb47-f109-f3a6" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="98f4-2b3d-5e84-e641">
                   <profiles>
@@ -2521,7 +2521,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7389-5d6d-fc4e-eb7a"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FP" id="aa46-fbb3-ac2b-ab35" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FP" id="aa46-fbb3-ac2b-ab35" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="fb69-abe8-b4be-0356">
                   <profiles>
@@ -2627,7 +2627,7 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2f52-e5bf-2207-5650" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Tobolsk Mobile Stronghold" hidden="false" id="fdb7-f449-8a20-f571" sortIndex="12">
+    <selectionEntry type="unit" import="true" name="Tobolsk Mobile Stronghold" hidden="false" id="fdb7-f449-8a20-f571" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="7902-8acc-472a-9c76" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="eca1-e728-ee92-e6ff" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
@@ -2674,7 +2674,7 @@
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="12"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FS" id="f635-d8c4-0270-de00" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FS" id="f635-d8c4-0270-de00" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="704f-fb8d-931e-7220">
                   <profiles>
@@ -2730,11 +2730,12 @@
                 </selectionEntry>
               </selectionEntries>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="93e4-feb3-9f64-2966"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1cca-c275-0145-8751"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="93e4-feb3-9f64-2966" automatic="true"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1cca-c275-0145-8751" automatic="true"/>
               </constraints>
+              <comment>x2</comment>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: SA" id="e486-d24d-6a7a-11aa" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: SA" id="e486-d24d-6a7a-11aa" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="11df-3c4c-cf29-f48b">
                   <profiles>
@@ -2781,7 +2782,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="59ac-20af-af20-3db3"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FP" id="3740-3a9e-cd7f-af74" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FP" id="3740-3a9e-cd7f-af74" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="ac24-b603-b3b1-d1f4">
                   <profiles>
@@ -2828,7 +2829,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="591f-2259-0e0d-1aa4"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FS" id="ee19-567d-1f6e-e239" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FS" id="ee19-567d-1f6e-e239" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="e317-3e64-6263-2a74">
                   <profiles>
@@ -2875,7 +2876,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7553-d0a9-d974-1ad4"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PA" id="2b5c-3717-3359-67fa" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PA" id="2b5c-3717-3359-67fa" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="80ff-6392-b47c-4673">
                   <profiles>
@@ -2922,7 +2923,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ba0-44b4-716f-4a39"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FP" id="fdb4-6ee2-3cb4-579d" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FP" id="fdb4-6ee2-3cb4-579d" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="bbac-f3d9-3316-cdec">
                   <profiles>
@@ -2978,129 +2979,10 @@
                 </selectionEntry>
               </selectionEntries>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="78a2-036e-4d93-956b"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b7b3-c4f3-43c3-d4fe"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="78a2-036e-4d93-956b" automatic="true"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="b7b3-c4f3-43c3-d4fe" automatic="true"/>
               </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FP" id="3a78-3747-6613-588a" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="165a-b656-06bb-31fd">
-                  <profiles>
-                    <profile name="Zhalo Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="658a-b5a9-6d3b-8b54">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All Around, Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="15a7-f426-e162-d16e">
-                  <profiles>
-                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="20e0-5b4e-e787-6af8">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Railgun" hidden="false" id="8aec-1184-b33a-c740">
-                  <profiles>
-                    <profile name="Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="1e3f-6a39-7067-7f01">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Seismic Mortar" hidden="false" id="b626-7418-3449-ca88">
-                  <profiles>
-                    <profile name="Seismic Mortar" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="50c2-2d10-b864-e8e6">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">2</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Depth Charge, Devastating (1), Mayhem</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fb62-0369-7547-7d51"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b165-22fa-c27b-6c71"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FS" id="0f53-12c1-f4f4-ad29" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="46c6-265a-64a3-03af">
-                  <profiles>
-                    <profile name="Zhalo Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="6678-ebfd-3b11-28a1">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All Around, Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="d2ae-4a93-17c9-3e35">
-                  <profiles>
-                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="16c8-b323-6b71-4297">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Railgun" hidden="false" id="7b88-08c7-dc24-74fe">
-                  <profiles>
-                    <profile name="Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ecbc-91be-0c63-c91f">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Seismic Mortar" hidden="false" id="2646-ebf5-3fe1-7e64">
-                  <profiles>
-                    <profile name="Seismic Mortar" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="87f0-c0f3-a401-7663">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">2</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Depth Charge, Devastating (1), Mayhem</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="25e2-c523-2f4f-4dc3"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7615-2a5e-a303-095a"/>
-              </constraints>
+              <comment>x2</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
@@ -3142,7 +3024,7 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="db1d-115e-79ba-9342" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Zamiec Skyfortress" hidden="false" id="b33e-80ff-695f-6d5b" sortIndex="13">
+    <selectionEntry type="unit" import="true" name="Zamiec Skyfortress" hidden="false" id="b33e-80ff-695f-6d5b" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="2a69-86c3-4d49-68aa" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Capital" hidden="false" id="05af-d322-d5c2-9003" targetId="30c3-7f1c-19e3-e772" primary="false"/>
@@ -3189,7 +3071,7 @@
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="92da-aa86-7c70-56a9" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="92da-aa86-7c70-56a9" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="077c-af5f-6719-577b">
                   <profiles>
@@ -3245,189 +3127,10 @@
                 </selectionEntry>
               </selectionEntries>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="413a-0b89-3223-c919"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61d2-02f1-cb61-fb3e"/>
+                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="413a-0b89-3223-c919" automatic="true"/>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="61d2-02f1-cb61-fb3e" automatic="true"/>
               </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="a631-8adf-10ad-aa6d" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="3c3d-703c-8c9f-99d3">
-                  <profiles>
-                    <profile name="Zhalo Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9a7a-f60e-3d45-55ff">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All Around, Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="fc4c-a83a-d659-96f5">
-                  <profiles>
-                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="6c51-d667-64d3-9a54">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Railgun" hidden="false" id="51d0-a40e-3c69-7931">
-                  <profiles>
-                    <profile name="Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="21dc-e3d8-6791-6968">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Seismic Mortar" hidden="false" id="b2b9-6f03-1756-251b">
-                  <profiles>
-                    <profile name="Seismic Mortar" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ee6a-7bf7-e842-7c3c">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">2</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Depth Charge, Devastating (1), Mayhem</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1778-0b5b-f1e6-72e4"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="44d2-7a71-6bfb-cca3"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="b33b-352d-ff94-a270" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="2069-f7b5-1e03-f4a9">
-                  <profiles>
-                    <profile name="Zhalo Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="509d-04f0-7fb9-faaf">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All Around, Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="2618-8330-3dce-0602">
-                  <profiles>
-                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a6bf-9d70-3eb3-d2b1">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Railgun" hidden="false" id="4974-67e5-28bb-def9">
-                  <profiles>
-                    <profile name="Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="3140-f308-1b54-b8ab">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Seismic Mortar" hidden="false" id="ccbb-4956-9ac0-d8cc">
-                  <profiles>
-                    <profile name="Seismic Mortar" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="521e-b5f1-81a3-af9b">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">2</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Depth Charge, Devastating (1), Mayhem</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d4a1-128c-336d-e9ff"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="79b2-8ac7-c305-973f"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="45e8-fe1e-d901-2076" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="11c2-4bdb-6d95-acda">
-                  <profiles>
-                    <profile name="Zhalo Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="5b3a-73f3-a63f-d073">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All Around, Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="724b-ac64-73d6-f73b">
-                  <profiles>
-                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="67db-e42d-7eb4-fe80">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Railgun" hidden="false" id="4171-02db-40eb-337e">
-                  <profiles>
-                    <profile name="Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="b02e-64ba-de07-3f19">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Seismic Mortar" hidden="false" id="b207-8492-5a77-719b">
-                  <profiles>
-                    <profile name="Seismic Mortar" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="30dc-2ce7-48d7-b99f">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">2</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Depth Charge, Devastating (1), Mayhem</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="36fb-a70c-508d-4ee6"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="62c4-85f8-4d32-f0be"/>
-              </constraints>
+              <comment>x4</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
@@ -3479,7 +3182,7 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1fc1-e88c-65c1-e6e8" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Jadwiga Airborne Monitor" hidden="false" id="2fe6-bdfb-b7cb-a74b" sortIndex="21">
+    <selectionEntry type="unit" import="true" name="Jadwiga Airborne Monitor" hidden="false" id="2fe6-bdfb-b7cb-a74b" sortIndex="3">
       <categoryLinks>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="94b1-5573-e5c4-b279" primary="false" name="Commonwealth"/>
         <categoryLink targetId="f625-fe99-41c1-ff3d" id="e693-22d8-e3f4-080e" primary="false" name="Polish-Lithuanian"/>
@@ -3525,7 +3228,7 @@
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="14d8-a285-4d10-3765" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="14d8-a285-4d10-3765" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="d704-79f7-fbd5-2928">
                   <profiles>
@@ -3581,69 +3284,10 @@
                 </selectionEntry>
               </selectionEntries>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4ccb-cc9b-027c-a02b"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="399f-8ddd-1ed0-f875"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1719-c42c-b92a-26b7" automatic="true"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="67b9-d42f-0556-58eb" automatic="true"/>
               </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="d5b5-a82c-2129-f87a" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="348c-8c76-2da3-dc45">
-                  <profiles>
-                    <profile name="Zhalo Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4125-c747-05fd-2f0b">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All Around, Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="9a89-fed0-34dc-77aa">
-                  <profiles>
-                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="1b87-32e0-6797-0e45">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Railgun" hidden="false" id="d7c8-b860-6cf8-c582">
-                  <profiles>
-                    <profile name="Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e409-a082-fc45-1f0e">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Seismic Mortar" hidden="false" id="e0d2-d558-2ba3-d439">
-                  <profiles>
-                    <profile name="Seismic Mortar" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="8972-28bf-cd42-3f42">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">1</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Depth Charge, Devastating (1), Mayhem</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="22a7-d2a8-3996-9def"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aaa7-36cc-1b74-e896"/>
-              </constraints>
+              <comment>x2</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
@@ -3701,7 +3345,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="26f4-12ab-238d-1144" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Khyzhak Attack Submarine" hidden="false" id="0034-6bd8-6f0b-f3c2" sortIndex="14">
+    <selectionEntry type="unit" import="true" name="Khyzhak Attack Submarine" hidden="false" id="0034-6bd8-6f0b-f3c2" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Line" hidden="false" id="a458-0b83-b72e-9ce7" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="772d-5a44-137d-49e2" primary="false" name="Commonwealth"/>
@@ -3746,7 +3390,7 @@
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPSA" id="c2c3-a7b8-1241-8379" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPSA" id="c2c3-a7b8-1241-8379" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="eb0d-ec7b-76fb-5a36">
                   <profiles>
@@ -3857,7 +3501,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="48f0-a9cb-3420-b12c" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Kutsov Cruiser" hidden="false" id="7563-a487-7b0a-082e" sortIndex="15">
+    <selectionEntry type="unit" import="true" name="Kutsov Cruiser" hidden="false" id="7563-a487-7b0a-082e" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Ship" hidden="false" id="73fd-4731-3517-f7de" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Line" hidden="false" id="2faa-07bc-6040-1cb2" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
@@ -3921,7 +3565,7 @@
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="472c-f0df-5e2c-9470" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="472c-f0df-5e2c-9470" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="9e08-d008-3658-9701">
                   <profiles>
@@ -3971,7 +3615,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="de1e-7c8f-fb1b-dd11" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="67c8-a321-c2c7-432f" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="67c8-a321-c2c7-432f" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="1090-77cc-3c3e-10ca">
                   <profiles>
@@ -4032,7 +3676,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="5a5c-3df8-a974-b8fe" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="12"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Morozko Heavy Cryo Cruiser" hidden="false" id="6e83-523e-7a27-084c" sortIndex="16">
+    <selectionEntry type="unit" import="true" name="Morozko Heavy Cryo Cruiser" hidden="false" id="6e83-523e-7a27-084c" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Ship" hidden="false" id="d2b9-94e8-ed12-fb1d" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Line" hidden="false" id="67b8-3480-6f08-f3f5" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
@@ -4117,7 +3761,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="093a-f8d7-b267-44db-max" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="423f-ec7d-55bf-7c67" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="423f-ec7d-55bf-7c67" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="ebdb-9b7f-b7ed-c043">
                   <profiles>
@@ -4167,7 +3811,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="58db-0b87-9afa-482b" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="58ba-e400-9918-832c" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="58ba-e400-9918-832c" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="63f2-f1cb-0772-29ef">
                   <profiles>
@@ -4217,7 +3861,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="9dbe-4495-7df8-c30b" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="7678-495c-ca53-b6f9" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="7678-495c-ca53-b6f9" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="77aa-7f27-0286-8c42">
                   <profiles>
@@ -4313,7 +3957,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="a91f-42df-32cb-22cf" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Norilsk Heavy Cruiser" hidden="false" id="c182-e1a9-9d66-b773" sortIndex="17">
+    <selectionEntry type="unit" import="true" name="Norilsk Heavy Cruiser" hidden="false" id="c182-e1a9-9d66-b773" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Ship" hidden="false" id="d7b2-2ff3-f81a-98e4" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Line" hidden="false" id="6f87-b6e4-3ee8-843e" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
@@ -4364,7 +4008,7 @@
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="2155-2bbf-e9c5-9ea1" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="2155-2bbf-e9c5-9ea1" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="5b2b-1361-f53e-c1aa">
                   <profiles>
@@ -4414,7 +4058,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="19a8-2758-a251-457b" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="1def-4432-c55b-d15e" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="1def-4432-c55b-d15e" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="4f18-2e41-0413-ac8f">
                   <profiles>
@@ -4474,7 +4118,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54ea-61ae-27a6-e182"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="9236-8e3b-18c6-d621" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="9236-8e3b-18c6-d621" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="94a3-4aaa-d490-68e3">
                   <profiles>
@@ -4550,7 +4194,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="a720-eec7-3a47-77d7" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Tunguska Skycruiser" hidden="false" id="4db1-908f-6411-3b87" sortIndex="18">
+    <selectionEntry type="unit" import="true" name="Tunguska Skycruiser" hidden="false" id="4db1-908f-6411-3b87" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Line" hidden="false" id="3a4b-609c-9779-b0a8" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="5ffa-964a-dc97-b980" primary="false" name="Commonwealth"/>
@@ -4566,7 +4210,7 @@
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="4dcc-2e05-4e86-5ede" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="4dcc-2e05-4e86-5ede" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="5c00-4404-ad78-bd58">
                   <profiles>
@@ -4616,7 +4260,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="12f1-403c-0fbb-ff7c" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="0e3a-ec75-614b-cb35" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="0e3a-ec75-614b-cb35" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="7207-ddef-8cf0-8aaf">
                   <profiles>
@@ -4739,7 +4383,7 @@
       </modifiers>
       <comment>Attachment</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Voivode Heavy Airship" hidden="false" id="033b-0dac-b831-03e4" sortIndex="19">
+    <selectionEntry type="unit" import="true" name="Voivode Heavy Airship" hidden="false" id="033b-0dac-b831-03e4" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Line" hidden="false" id="0690-c2d5-e5dd-09c2" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="af20-0ba5-c433-338e" primary="false" name="Commonwealth"/>
@@ -4778,7 +4422,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Voivode" hidden="false" id="29af-dbe6-6340-acf6" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="5669-4a09-a184-0fc8" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="5669-4a09-a184-0fc8" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Focused Zhalo Rocket Battery" hidden="false" id="109c-60c1-a1d1-ecd3">
                   <profiles>
@@ -4834,129 +4478,10 @@
                 </selectionEntry>
               </selectionEntries>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="69f1-bae9-f899-ffd0"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab75-02ca-2eb2-9818"/>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="69f1-bae9-f899-ffd0" automatic="true"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="ab75-02ca-2eb2-9818" automatic="true"/>
               </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="6acc-82b5-24ba-e434" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Focused Zhalo Rocket Battery" hidden="false" id="3557-c2d1-c8f5-92ca">
-                  <profiles>
-                    <profile name="Zhalo Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="178f-b857-32c4-a2f1">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All Around, Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="5441-81a4-c0dc-537e">
-                  <profiles>
-                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="17f4-9c58-3dfc-bb2a">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Railgun" hidden="false" id="c03e-99b0-766b-51ad">
-                  <profiles>
-                    <profile name="Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="1e43-7d1e-0eb8-c921">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Seismic Mortar" hidden="false" id="a859-ebad-25b8-e3bc">
-                  <profiles>
-                    <profile name="Seismic Mortar" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="0872-483a-aab6-28b6">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">1</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Depth Charge, Devastating (1), Mayhem</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="14b6-aff5-be72-65ad"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="af37-a7cc-8de0-e0fd"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="bc49-2aaa-dcb7-ab2c" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Focused Zhalo Rocket Battery" hidden="false" id="1fe8-97fc-429e-1756">
-                  <profiles>
-                    <profile name="Zhalo Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="c741-45c1-4c12-1b97">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All Around, Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="bfde-0f40-92aa-ecd9">
-                  <profiles>
-                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4a6a-4d05-f754-34c3">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Railgun" hidden="false" id="c756-c840-2138-85ef">
-                  <profiles>
-                    <profile name="Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e6dc-37c8-22cd-5f79">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Seismic Mortar" hidden="false" id="4cd7-198d-a35d-7d16">
-                  <profiles>
-                    <profile name="Seismic Mortar" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="dc45-c686-d62d-256d">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">1</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Depth Charge, Devastating (1), Mayhem</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7a95-d4a0-d761-c682"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="712a-0a2f-32cd-7353"/>
-              </constraints>
+              <comment>x3</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
@@ -5033,7 +4558,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="4f75-b823-d67e-23af" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Oleg Monitor" hidden="false" id="3d79-b65e-d6d9-4724" sortIndex="22">
+    <selectionEntry type="unit" import="true" name="Oleg Monitor" hidden="false" id="3d79-b65e-d6d9-4724" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Ship" hidden="false" id="293b-062b-8c53-22f9" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Patrol" hidden="false" id="24f3-115f-5a0e-f63a" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
@@ -5077,7 +4602,7 @@
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="553c-fe08-4491-e3ae" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="553c-fe08-4491-e3ae" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="15e0-a31d-18d2-2947">
                   <profiles>
@@ -5158,7 +4683,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Piranya Hunter Submarine" hidden="false" id="f5c9-7ef3-c3be-c2ac" sortIndex="23">
+    <selectionEntry type="unit" import="true" name="Piranya Hunter Submarine" hidden="false" id="f5c9-7ef3-c3be-c2ac" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Patrol" hidden="false" id="c5a4-d3bf-fd65-bfd3" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="3f29-83ae-2cec-d3c4" primary="false" name="Commonwealth"/>
@@ -5253,7 +4778,7 @@
       </modifiers>
       <comment>Attachment</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Rurik Frigate" hidden="false" id="ee94-6f67-15a6-26aa" sortIndex="24">
+    <selectionEntry type="unit" import="true" name="Rurik Frigate" hidden="false" id="ee94-6f67-15a6-26aa" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Ship" hidden="false" id="dc4c-7655-607a-51f8" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Patrol" hidden="false" id="896a-e103-f08a-7469" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
@@ -5359,7 +4884,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f545-462a-b6ae-a7a2" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="eb71-5f90-9aff-b437" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="eb71-5f90-9aff-b437" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="767c-1d59-b849-4eab">
                   <profiles>
@@ -5435,7 +4960,7 @@
       </selectionEntries>
       <comment>Attachment</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Smok Aerial Destroyer" hidden="false" id="4862-c367-5065-bbea" sortIndex="25">
+    <selectionEntry type="unit" import="true" name="Smok Aerial Destroyer" hidden="false" id="4862-c367-5065-bbea" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Patrol" hidden="false" id="7757-1240-9ab6-4faa" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="8bb7-99f2-78aa-99cd" primary="false" name="Commonwealth"/>
@@ -5474,7 +4999,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Smok" hidden="false" id="e2ac-ebe7-6560-6386" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="dedd-73b6-e98b-e300" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="dedd-73b6-e98b-e300" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="dba3-b2d4-dcf8-2a15">
                   <profiles>
@@ -5594,7 +5119,7 @@
       </entryLinks>
       <comment>Attachment</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Offshore Heavy Platform" hidden="false" id="13e6-f212-77b9-933b" sortIndex="31">
+    <selectionEntry type="unit" import="true" name="Offshore Heavy Platform" hidden="false" id="13e6-f212-77b9-933b" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Repair" hidden="false" id="cbd1-c1fe-4919-4fe3" targetId="cb1d-41cb-d83d-fd73" primary="false"/>
         <categoryLink name="Support" hidden="false" id="0bb9-5833-bc0a-eb6b" targetId="1711-6069-af06-c5cc" primary="true"/>
@@ -5657,7 +5182,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Defensive Mines" hidden="false" id="d953-f488-3291-b97e" sortIndex="2">
+        <selectionEntry type="upgrade" import="true" name="Defensive Mines" hidden="false" id="d953-f488-3291-b97e" sortIndex="3">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -5672,57 +5197,7 @@
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="9626-7118-0f4f-e707" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="6d8f-dba4-2502-ec3b">
-                  <profiles>
-                    <profile name="Yastreb Missile Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e0cd-5692-174a-a245">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">2</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All Around, Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="9c3a-8405-e414-96ee">
-                  <profiles>
-                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2b72-5301-825e-1a63">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Tri-Railgun" hidden="false" id="2fd5-0727-3050-e778">
-                  <profiles>
-                    <profile name="Tri-Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="c521-2ef4-3562-75a2">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (2)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3ab0-6a20-8ac8-167d"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="81ed-0c0e-437b-c31f"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Generators" hidden="false" id="a25a-7bb9-3ce5-2384" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="8b2b-3a43-c0ba-223a" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="8b2b-3a43-c0ba-223a" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="c8b7-44bc-e26c-3f32">
                   <profiles>
@@ -5765,27 +5240,27 @@
                 </selectionEntry>
               </selectionEntries>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6461-2c7d-db18-93e7"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="919d-84b6-6e59-2e1c"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="6461-2c7d-db18-93e7" automatic="true"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="919d-84b6-6e59-2e1c" automatic="true"/>
               </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Generators" hidden="false" id="c600-7af1-09f5-fcf9" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
-              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="41b8-4db8-e5bc-5a85" includeChildSelections="false" automatic="true"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b37-e654-ebe4-0b09" includeChildSelections="false" automatic="true"/>
           </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Generators" hidden="false" id="c1d7-2fe1-3707-aaf9" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Escorts" hidden="false" id="2d2e-bbff-02e3-c5ba" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="4">
+        <entryLink import="true" name="Escorts" hidden="false" id="2d2e-bbff-02e3-c5ba" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="5">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5b43-d005-d093-58d1"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="6177-6bdf-93d3-e140" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
+        <entryLink import="true" name="Attachments" hidden="false" id="6177-6bdf-93d3-e140" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="4"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="c4dc-0ca0-a1b4-9e6e" includeChildSelections="true" includeChildForces="true"/>
@@ -5808,7 +5283,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Konostoga Heavy Skycannon" hidden="false" id="f3ce-c136-fd92-095c" sortIndex="28">
+    <selectionEntry type="unit" import="true" name="Konostoga Heavy Skycannon" hidden="false" id="f3ce-c136-fd92-095c" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Support" hidden="false" id="9578-2e93-9051-8f5c" targetId="1711-6069-af06-c5cc" primary="true"/>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="80eb-90ff-4335-5c33" primary="false" name="Commonwealth"/>
@@ -5892,7 +5367,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="b438-e6dc-d7e0-72d0" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Markov’s Prometheus Legendary Generator Ship" hidden="false" id="8a93-4108-0da9-112a" sortIndex="29">
+    <selectionEntry type="unit" import="true" name="Markov’s Prometheus Legendary Generator Ship" hidden="false" id="8a93-4108-0da9-112a" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Ship" hidden="false" id="e645-55a2-726d-2e67" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Support" hidden="false" id="1b9b-0f65-6a31-904e" targetId="1711-6069-af06-c5cc" primary="true"/>
@@ -5997,7 +5472,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Pravda Support Carrier" hidden="false" id="b486-cc83-b66d-9d52" sortIndex="32">
+    <selectionEntry type="unit" import="true" name="Pravda Support Carrier" hidden="false" id="b486-cc83-b66d-9d52" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Ship" hidden="false" id="babd-d32d-cdf9-2c0a" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Support" hidden="false" id="c245-b7c1-c4b2-cb26" targetId="1711-6069-af06-c5cc" primary="true"/>
@@ -6051,7 +5526,7 @@
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPSA" id="0c36-5c65-df93-c8a9" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPSA" id="0c36-5c65-df93-c8a9" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="38b2-b3e4-6b52-d0c9">
                   <profiles>
@@ -6145,7 +5620,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Saransk Skyfurnace" hidden="false" id="3c11-1bb4-af14-512d" sortIndex="33">
+    <selectionEntry type="unit" import="true" name="Saransk Skyfurnace" hidden="false" id="3c11-1bb4-af14-512d" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Support" hidden="false" id="20d0-8e01-7fba-5385" targetId="1711-6069-af06-c5cc" primary="true"/>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="8bb4-d071-76ab-b776" primary="false" name="Commonwealth"/>
@@ -6238,7 +5713,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="2231-f8b4-9e8e-8601" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Stoletov Ekranoplan Harrier" hidden="false" id="3e4c-67ea-1041-dde5" sortIndex="34">
+    <selectionEntry type="unit" import="true" name="Stoletov Ekranoplan Harrier" hidden="false" id="3e4c-67ea-1041-dde5" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Support" hidden="false" id="db69-bac7-70e6-1913" targetId="1711-6069-af06-c5cc" primary="true"/>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="5fc1-f56b-05f8-7064" primary="false" name="Commonwealth"/>
@@ -6292,7 +5767,7 @@
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="4440-cde0-8a52-9872" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="4440-cde0-8a52-9872" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="756c-8473-4369-f3dd">
                   <profiles>
@@ -6398,7 +5873,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="38c3-6f06-00cc-5d57" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Offshore Defence Platform" hidden="false" id="b0a4-2ba5-b25d-8f2d" sortIndex="30">
+    <selectionEntry type="unit" import="true" name="Offshore Defence Platform" hidden="false" id="b0a4-2ba5-b25d-8f2d" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Support" hidden="false" id="8596-4e2d-f2f9-696d" targetId="1711-6069-af06-c5cc" primary="true"/>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="1fef-b349-ba94-c3a1" primary="false" name="Commonwealth"/>
@@ -6457,7 +5932,7 @@
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="919c-df90-385a-97e5" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="919c-df90-385a-97e5" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="f8fa-5dca-4360-2ed6">
                   <profiles>
@@ -6569,7 +6044,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Szlachta Swordwing Carrier" hidden="false" id="f0c3-1470-d3fc-76fb" sortIndex="35">
+    <selectionEntry type="unit" import="true" name="Szlachta Swordwing Carrier" hidden="false" id="f0c3-1470-d3fc-76fb" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Support" hidden="false" id="cd51-8b20-8a33-cc87" targetId="1711-6069-af06-c5cc" primary="true"/>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="3d9c-1991-bb4c-d0e7" primary="false" name="Commonwealth"/>
@@ -6610,7 +6085,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Szlachta" hidden="false" id="d454-c9a4-d7ff-a67c">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="73d4-dd06-48d9-6a72" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="73d4-dd06-48d9-6a72" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="37eb-c257-c95a-dedc">
                   <profiles>
@@ -6666,69 +6141,10 @@
                 </selectionEntry>
               </selectionEntries>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="612b-00a4-7b9b-76c3"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78e4-eb87-1c4b-10c6"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5106-8058-5f4a-ee7c" automatic="true"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="d568-63b4-b1b7-486b" automatic="true"/>
               </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="1bcb-fcb2-2fec-0b27" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="b138-1132-5509-f47e">
-                  <profiles>
-                    <profile name="Zhalo Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9907-c6ca-c37f-c4ea">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All Around, Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="982b-c3c0-5038-56b2">
-                  <profiles>
-                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="3380-9378-011b-d1c0">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Railgun" hidden="false" id="a6ff-ddd7-65ff-e7ea">
-                  <profiles>
-                    <profile name="Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="fa3a-ab6e-5b93-8f45">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Seismic Mortar" hidden="false" id="1254-0550-f74b-df96">
-                  <profiles>
-                    <profile name="Seismic Mortar" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="553d-1e2c-fa9d-0140">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">1</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Depth Charge, Devastating (1), Mayhem</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eecd-e7bd-86c9-5161"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c459-4465-7f6c-f50f"/>
-              </constraints>
+              <comment>x2</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
@@ -6783,7 +6199,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="8dc3-f54a-308a-059f" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Dragunov Ekranoplan Brawler" hidden="false" id="e62a-bb54-6048-8e79" sortIndex="20">
+    <selectionEntry type="unit" import="true" name="Dragunov Ekranoplan Brawler" hidden="false" id="e62a-bb54-6048-8e79" sortIndex="3">
       <categoryLinks>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="ddce-ba7d-7fed-a92b" primary="false" name="Commonwealth"/>
         <categoryLink targetId="64b9-23dd-5700-e555" id="43d2-da9c-3560-3e55" primary="false" name="Russian"/>
@@ -6831,7 +6247,7 @@
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="f936-bde4-236e-6bf5" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="f936-bde4-236e-6bf5" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="b5a4-6232-3ca2-9700">
                   <profiles>
@@ -6887,69 +6303,10 @@
                 </selectionEntry>
               </selectionEntries>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eb9e-0094-8ca8-4018"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17ee-9854-532c-1809"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="eb9e-0094-8ca8-4018" automatic="true"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="17ee-9854-532c-1809" automatic="true"/>
               </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="3980-dcd0-d68f-b278" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="8b26-4068-cb37-0efd">
-                  <profiles>
-                    <profile name="Zhalo Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4626-9f62-67d8-0d42">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All Around, Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="a013-5bd6-52a2-81d2">
-                  <profiles>
-                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2c3e-d20d-db30-812a">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Railgun" hidden="false" id="fd10-9e8d-4d00-5739">
-                  <profiles>
-                    <profile name="Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a557-c719-ded6-98ed">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">2</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Seismic Mortar" hidden="false" id="930a-b1ad-b234-94b7">
-                  <profiles>
-                    <profile name="Seismic Mortar" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="fd25-019a-4188-876e">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">1</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Depth Charge, Devastating (1), Mayhem</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0cdc-52b7-7bc0-c370"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1144-4486-3987-3b7f"/>
-              </constraints>
+              <comment>x2</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
@@ -6998,7 +6355,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Irkutsk Skydrill " hidden="false" id="3ad5-0c15-248a-b277" sortIndex="37">
+    <selectionEntry type="unit" import="true" name="Irkutsk Skydrill " hidden="false" id="3ad5-0c15-248a-b277" sortIndex="5">
       <categoryLinks>
         <categoryLink name="Scout" hidden="false" id="dfc9-1336-5234-dd4c" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="f4fe-806a-6371-892e" primary="false" name="Commonwealth"/>
@@ -7076,7 +6433,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="8789-8719-a090-6b0c" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Kostroma Vitruvian Colossus" hidden="false" id="efff-1356-fffb-1465" sortIndex="27">
+    <selectionEntry type="unit" import="true" name="Kostroma Vitruvian Colossus" hidden="false" id="efff-1356-fffb-1465" sortIndex="4">
       <categoryLinks>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="88e8-3069-5a4a-c8f0" primary="false" name="Commonwealth"/>
         <categoryLink targetId="64b9-23dd-5700-e555" id="4d2a-087e-271f-7356" primary="false" name="Russian"/>
@@ -7119,7 +6476,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Kostroma" hidden="false" id="a22a-c8f6-67b7-aef3">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FSA" id="7250-c49a-66e4-18d3" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FSA" id="7250-c49a-66e4-18d3" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="cb60-6cc4-3f61-e267">
                   <profiles>
@@ -7179,7 +6536,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="55e7-c0b3-3d15-27ca"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPA" id="b3da-a849-927d-fa03" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPA" id="b3da-a849-927d-fa03" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="f2f4-2664-2bdd-cfa3">
                   <profiles>
@@ -7315,7 +6672,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Marena Vitruvian Colossus" hidden="false" id="c3e2-48e5-3381-d4dc" sortIndex="38">
+    <selectionEntry type="unit" import="true" name="Marena Vitruvian Colossus" hidden="false" id="c3e2-48e5-3381-d4dc" sortIndex="5">
       <categoryLinks>
         <categoryLink name="Scout" hidden="false" id="2b3f-5b03-2396-f493" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="710e-5e66-ddad-ba29" primary="false" name="Commonwealth"/>
@@ -7359,7 +6716,7 @@
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FSA" id="7561-efa0-7ca7-bf01" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FSA" id="7561-efa0-7ca7-bf01" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="c9de-bcd3-e92c-cab4">
                   <profiles>
@@ -7419,7 +6776,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e9d-5766-c430-db8a"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPA" id="cddc-6126-e09a-a574" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPA" id="cddc-6126-e09a-a574" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="b16d-cf2f-58e4-15e3">
                   <profiles>
@@ -7519,7 +6876,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Sineus Fast Cruiser" hidden="false" id="01f5-793f-4da8-4f93" sortIndex="39">
+    <selectionEntry type="unit" import="true" name="Sineus Fast Cruiser" hidden="false" id="01f5-793f-4da8-4f93" sortIndex="5">
       <categoryLinks>
         <categoryLink name="Scout" hidden="false" id="c99e-ffcf-47c8-60cc" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="5a06-acb2-a100-6b7f" primary="false" name="Commonwealth"/>
@@ -7575,7 +6932,7 @@
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="2e59-cfb0-c9d9-ce27" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="2e59-cfb0-c9d9-ce27" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Yastreb Missile Battery" hidden="false" id="6db0-1110-5563-1987">
                   <profiles>
@@ -7622,7 +6979,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d463-b09a-ec14-68e5"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="7429-22b7-dd20-36cc" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="7429-22b7-dd20-36cc" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="627b-2496-051e-46ce">
                   <profiles>
@@ -7703,7 +7060,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Stanislaw Assault Airship" hidden="false" id="db47-6e38-a705-77ad" sortIndex="36">
+    <selectionEntry type="unit" import="true" name="Stanislaw Assault Airship" hidden="false" id="db47-6e38-a705-77ad" sortIndex="4">
       <categoryLinks>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="72d9-a65f-1c43-48de" primary="false" name="Commonwealth"/>
         <categoryLink targetId="f625-fe99-41c1-ff3d" id="d9e9-e90b-1145-1445" primary="false" name="Polish-Lithuanian"/>
@@ -7747,7 +7104,7 @@
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="c10b-bde8-25d8-a74b" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="c10b-bde8-25d8-a74b" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="c054-0326-435d-70a2">
                   <profiles>
@@ -7803,68 +7160,8 @@
                 </selectionEntry>
               </selectionEntries>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9e35-641b-0513-f952"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b71-0d48-dfbf-5bb3"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="d1a1-cc30-eb88-772b" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="fa71-b5e0-2748-760b">
-                  <profiles>
-                    <profile name="Zhalo Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ca21-b6cb-8f0f-5c7b">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All Around, Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="8bb8-8d11-6c9c-0695">
-                  <profiles>
-                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4345-dce0-1dc1-b544">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Railgun" hidden="false" id="8b25-5283-c743-907a">
-                  <profiles>
-                    <profile name="Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4f5a-4bcc-28e8-eaed">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Seismic Mortar" hidden="false" id="4112-0f78-9743-7df5">
-                  <profiles>
-                    <profile name="Seismic Mortar" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="cfeb-ab06-3f4d-73c2">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">1</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Depth Charge, Devastating (1), Mayhem</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d3ac-e59d-b26a-9cca"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5643-5434-750a-039a"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="dc4c-0281-d8cc-dfa1" automatic="true"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="1fb3-69c7-db2b-e10f" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -7918,7 +7215,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Yak Transport Hovercraft" hidden="false" id="a8b9-7350-67f7-fa6f" sortIndex="40">
+    <selectionEntry type="unit" import="true" name="Yak Transport Hovercraft" hidden="false" id="a8b9-7350-67f7-fa6f" sortIndex="5">
       <categoryLinks>
         <categoryLink name="Scout" hidden="false" id="fb0a-33b8-09a0-4316" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
         <categoryLink targetId="1f78-904a-a9b7-2c8f" id="a513-8567-c56e-bf83" primary="false" name="Commonwealth"/>
@@ -8015,7 +7312,7 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a63-b513-9d17-43d7" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FS" id="04a4-c97d-9125-9898" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Light Hardpoint: FS" id="04a4-c97d-9125-9898" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="2d5e-129a-3184-b182">
                   <profiles>
@@ -8075,7 +7372,7 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3295-f5c2-59c1-53e4"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FP" id="590c-a701-578b-75ba" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Light Hardpoint: FP" id="590c-a701-578b-75ba" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="9b45-6dfa-c238-b0c1">
                   <profiles>
@@ -8161,7 +7458,7 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Europa Grand Conveyor" hidden="false" id="2315-c0ee-8a1e-947d" sortIndex="41">
+    <selectionEntry type="model" import="true" name="Europa Grand Conveyor" hidden="false" id="2315-c0ee-8a1e-947d" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Ship" hidden="false" id="6582-582a-ea03-d00c" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Logistical" hidden="false" id="9e2d-2051-2afc-4153" targetId="366f-016b-5f80-0c09" primary="true"/>
@@ -8221,7 +7518,7 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="afcc-f9a1-f3ef-ead3" includeChildSelections="false" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="06a8-6b73-cc3a-9a59" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="06a8-6b73-cc3a-9a59" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="331d-c917-2f70-6dbd">
                   <profiles>
@@ -8332,7 +7629,7 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="0736-482a-6216-1813" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hermes Supply Freighter" hidden="false" id="6276-6412-6211-eb2f" sortIndex="42">
+    <selectionEntry type="unit" import="true" name="Hermes Supply Freighter" hidden="false" id="6276-6412-6211-eb2f" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Ship" hidden="false" id="f8fa-1d07-ad57-e1f2" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Repair" hidden="false" id="385b-8571-ed48-a384" targetId="cb1d-41cb-d83d-fd73" primary="false"/>
@@ -8431,7 +7728,7 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Offshore Supply Platform" hidden="false" id="9e7c-d2dc-5a8e-f154" sortIndex="43">
+    <selectionEntry type="unit" import="true" name="Offshore Supply Platform" hidden="false" id="9e7c-d2dc-5a8e-f154" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Repair" hidden="false" id="9184-cdfa-53b5-f024" targetId="cb1d-41cb-d83d-fd73" primary="false"/>
         <categoryLink name="Logistical" hidden="false" id="e5ba-3937-f284-3b7e" targetId="366f-016b-5f80-0c09" primary="true"/>
@@ -8533,7 +7830,7 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Titan Mass Conveyor" hidden="false" id="75b4-91de-a43c-7c15" sortIndex="44">
+    <selectionEntry type="unit" import="true" name="Titan Mass Conveyor" hidden="false" id="75b4-91de-a43c-7c15" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Ship" hidden="false" id="9628-709d-3592-595d" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Logistical" hidden="false" id="89e0-863c-aacd-8b3a" targetId="366f-016b-5f80-0c09" primary="true"/>
@@ -8591,7 +7888,7 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="70"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="00f2-26e3-91c8-66aa" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="00f2-26e3-91c8-66aa" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="e64f-bfeb-7d1e-1a0b">
                   <profiles>
@@ -8706,7 +8003,7 @@ Ground Assault (1), Strategic Asset (2), Hunter (Airborne)</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="b2a5-967a-f258-fc4b" type="selectionEntryGroup" targetId="ea67-cb8e-a4c7-e7c6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Fleet Doctrines" hidden="false" id="aa37-cb2b-0639-c301">
+    <selectionEntry type="upgrade" import="true" name="Fleet Doctrines" hidden="false" id="aa37-cb2b-0639-c301" sortIndex="-1">
       <entryLinks>
         <entryLink import="true" name="Fleet Doctrines" hidden="false" id="96bc-3380-564b-736b" type="selectionEntryGroup" targetId="3a8e-29a8-4109-7c1c">
           <selectionEntries>
@@ -9504,7 +8801,7 @@ If the Special Valour Effect is unsuccessful, the unit does not Activate and thi
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: PSA" id="4a10-7703-e589-f28d" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PSA" id="4a10-7703-e589-f28d" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="c361-de91-5f58-c26d">
                   <profiles>
@@ -9560,68 +8857,8 @@ If the Special Valour Effect is unsuccessful, the unit does not Activate and thi
                 </selectionEntry>
               </selectionEntries>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7693-3135-591f-5ef0"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b27e-a5fb-5aab-f43c"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: PSA" id="9b09-7e58-3d6e-dcba" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="aecb-35b7-171f-a3d1">
-                  <profiles>
-                    <profile name="Zhalo Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="097e-b6d0-e5b3-68bd">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All Around, Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="dd52-e059-06f4-a251">
-                  <profiles>
-                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="dfc5-4d24-fab9-144c">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Railgun" hidden="false" id="c0a8-2ce9-95e1-09cc">
-                  <profiles>
-                    <profile name="Railgun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="cd84-c684-9faf-c427">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Rail (1)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Seismic Mortar" hidden="false" id="707d-b41f-aca5-8d55">
-                  <profiles>
-                    <profile name="Seismic Mortar" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="51a7-63e8-3c7a-fc46">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">2</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Depth Charge, Devastating (1), Mayhem</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="de0a-61c7-1773-150a"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a96d-a95e-d8b9-d1e3"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="7693-3135-591f-5ef0" automatic="true"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="b27e-a5fb-5aab-f43c" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -9667,7 +8904,7 @@ If the Special Valour Effect is unsuccessful, the unit does not Activate and thi
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Akula Grand Submarine" hidden="false" id="9115-166d-5cb0-f0ee" type="selectionEntry" targetId="24bd-a96b-0355-9e1f" sortIndex="26">
+    <entryLink import="true" name="Akula Grand Submarine" hidden="false" id="9115-166d-5cb0-f0ee" type="selectionEntry" targetId="24bd-a96b-0355-9e1f" sortIndex="4">
       <modifiers>
         <modifier type="set" value="2" field="8be5-0bfc-0ea1-9eeb">
           <conditionGroups>
@@ -9685,7 +8922,7 @@ If the Special Valour Effect is unsuccessful, the unit does not Activate and thi
         <categoryLink name="Supportcon" hidden="false" id="0b79-bcb5-801d-5948" targetId="177a-2809-f30c-07f1" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Akula Grand Submarine" hidden="false" id="a5a4-f1c3-92c5-918d" type="selectionEntry" targetId="24bd-a96b-0355-9e1f" sortIndex="14">
+    <entryLink import="true" name="Akula Grand Submarine" hidden="false" id="a5a4-f1c3-92c5-918d" type="selectionEntry" targetId="24bd-a96b-0355-9e1f" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Ukrainian Flagship" hidden="false" id="79f3-8476-baac-57f5" targetId="25c0-69c4-468a-94b9" primary="true"/>
         <categoryLink name="Flagship" hidden="false" id="b70b-1bd7-54b9-4a49" targetId="0ec6-f5c8-25d7-89d8" primary="false"/>

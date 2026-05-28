@@ -9,7 +9,7 @@
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="abf2-f7a0-0af2-c3ee" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="abf2-f7a0-0af2-c3ee" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="e7bf-d27e-6e49-8cd6" sortIndex="5">
                   <profiles>
@@ -82,7 +82,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d09-ffef-d48a-b93c"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FP" id="5864-2f30-51f3-88c0" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FP" id="5864-2f30-51f3-88c0" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="20a4-f23c-205c-e8e1" sortIndex="5">
                   <profiles>
@@ -155,7 +155,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2047-84d7-1dce-a5a0"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FS" id="8663-e691-acd8-1561" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FS" id="8663-e691-acd8-1561" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="0353-bbf4-4a91-4afc" sortIndex="5">
                   <profiles>
@@ -228,7 +228,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="457d-895c-4da3-dffe"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="3dfe-03e6-afe2-5027" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="3dfe-03e6-afe2-5027" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="ca3c-5e5b-4936-3062" sortIndex="5">
                   <profiles>
@@ -411,7 +411,7 @@ Priority Signals" field="a14c-99af-eb72-2d3d">
         <entryLink import="true" name="Attachments" hidden="false" id="5b58-4d3d-0afb-e928" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Chione Subnautical Explorer " hidden="false" id="a495-57aa-19fa-dd21" sortIndex="2">
+    <selectionEntry type="unit" import="true" name="Chione Subnautical Explorer " hidden="false" id="a495-57aa-19fa-dd21" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Chione" hidden="false" id="3348-1bd3-d199-a8b4" sortIndex="1">
           <costs>
@@ -555,7 +555,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Daedalus Tethership" hidden="false" id="79dc-8c4e-1567-8331" sortIndex="4">
+    <selectionEntry type="unit" import="true" name="Daedalus Tethership" hidden="false" id="79dc-8c4e-1567-8331" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Daedalus" hidden="false" id="77d8-4c3e-ea45-406d" sortIndex="1">
           <costs>
@@ -563,7 +563,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="e312-6d8e-28d3-fc6a" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="e312-6d8e-28d3-fc6a" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="da28-5846-d190-c0f7" sortIndex="5">
                   <profiles>
@@ -636,7 +636,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2cf2-f36a-308a-69d2"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Special Hardpoint: F" id="c39e-4d33-9e44-213d" hidden="false">
+            <selectionEntryGroup name="Special Hardpoint: F" id="c39e-4d33-9e44-213d" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Particle Cannon" hidden="false" id="3f39-ac2e-2d7c-7599" sortIndex="1">
                   <profiles>
@@ -770,11 +770,11 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="d067-dace-3beb-8710" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Titan Mass Conveyer" hidden="false" id="eae0-0742-2c77-1f92" sortIndex="41">
+    <selectionEntry type="unit" import="true" name="Titan Mass Conveyer" hidden="false" id="eae0-0742-2c77-1f92" sortIndex="6">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Titan" hidden="false" id="21e2-e0a4-a8fe-b23d" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="2acc-935e-e076-b497" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="2acc-935e-e076-b497" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="0e50-3e2b-22b1-4c6c">
                   <profiles>
@@ -911,7 +911,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="cfbf-bcd9-0410-a4c2" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="4"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Descartes Control Ship" hidden="false" id="cb1d-a6b0-8e37-49d3" sortIndex="5">
+    <selectionEntry type="unit" import="true" name="Descartes Control Ship" hidden="false" id="cb1d-a6b0-8e37-49d3" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Descartes" hidden="false" id="2082-a8f2-7277-0239" sortIndex="1">
           <costs>
@@ -919,7 +919,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="7"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="eb92-1523-4b44-0947" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="eb92-1523-4b44-0947" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="91a2-524f-3ee2-b1fc" sortIndex="5">
                   <profiles>
@@ -992,7 +992,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17c2-bf55-85dc-9e84"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FP" id="6963-e9c5-e788-4551" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FP" id="6963-e9c5-e788-4551" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="80e0-ae96-3c41-bea9" sortIndex="5">
                   <profiles>
@@ -1065,7 +1065,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="917f-778f-74cc-976b"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FS" id="85d8-5732-f065-bf1d" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FS" id="85d8-5732-f065-bf1d" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="80ce-580e-0c6a-58bf" sortIndex="5">
                   <profiles>
@@ -1225,7 +1225,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hypatia Generator Ship" hidden="false" id="954e-f178-2caa-e4ed" sortIndex="6">
+    <selectionEntry type="unit" import="true" name="Hypatia Generator Ship" hidden="false" id="954e-f178-2caa-e4ed" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Hypatia" hidden="false" id="84e6-4526-de17-4e56" sortIndex="1">
           <costs>
@@ -1233,7 +1233,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="7cca-889d-df3d-51d7" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="7cca-889d-df3d-51d7" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="4655-828d-e814-bddf" sortIndex="5">
                   <profiles>
@@ -1306,7 +1306,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="401a-f345-616b-2a48"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FP" id="4823-9d6f-36e0-3dba" hidden="false" sortIndex="2">
+            <selectionEntryGroup name="Heavy Hardpoint: FP" id="4823-9d6f-36e0-3dba" hidden="false" sortIndex="2" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="59d4-3def-4b8b-5d47" sortIndex="5">
                   <profiles>
@@ -1379,7 +1379,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb76-eef1-a30f-181a"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FS" id="ded4-02f1-3ad3-482f" hidden="false" sortIndex="3">
+            <selectionEntryGroup name="Heavy Hardpoint: FS" id="ded4-02f1-3ad3-482f" hidden="false" sortIndex="3" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="ed86-91fb-dd51-807b" sortIndex="5">
                   <profiles>
@@ -1528,7 +1528,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="6625-7625-67c8-a563" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Icarus Aeronautic Fabricator " hidden="false" id="7ab5-c13d-9280-0b5b" sortIndex="7">
+    <selectionEntry type="unit" import="true" name="Icarus Aeronautic Fabricator " hidden="false" id="7ab5-c13d-9280-0b5b" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Icarus" hidden="false" id="2f41-0e6f-6463-e61d" sortIndex="1">
           <costs>
@@ -1536,7 +1536,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="c810-45a3-0641-7555" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="c810-45a3-0641-7555" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="0bf2-9e16-26c6-a63a" sortIndex="5">
                   <profiles>
@@ -1609,7 +1609,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b242-b269-d724-847e"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="6b62-3939-2aec-4124" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="6b62-3939-2aec-4124" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="af9e-0d18-8062-4b10" sortIndex="5">
                   <profiles>
@@ -1750,7 +1750,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <infoLink name="Scythe Fighters" id="19bf-b111-e7e6-6f02" hidden="false" type="profile" targetId="d9fa-f9ea-c689-e3f3"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Kepler Battlecruiser" hidden="false" id="23ab-9a12-5c05-b100" sortIndex="8">
+    <selectionEntry type="unit" import="true" name="Kepler Battlecruiser" hidden="false" id="23ab-9a12-5c05-b100" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Kepler" hidden="false" id="8a5d-e3f1-0b74-9d9b" sortIndex="1">
           <costs>
@@ -1758,7 +1758,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Special Hardpoint: FPSA" id="205c-9788-56ae-5a93" hidden="false">
+            <selectionEntryGroup name="Special Hardpoint: FPSA" id="205c-9788-56ae-5a93" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Particle Cannon" hidden="false" id="64a6-a428-e968-ff53" sortIndex="1">
                   <profiles>
@@ -1818,7 +1818,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ff6-f7a5-8de7-8d3e" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="49a5-4bed-73eb-04c9" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="49a5-4bed-73eb-04c9" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="8acd-25da-f0ae-fa55" sortIndex="5">
                   <profiles>
@@ -1891,7 +1891,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ebfd-c71e-5ffc-9b89"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="5e6a-a065-2c86-2b6e" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="5e6a-a065-2c86-2b6e" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="4433-766b-beaa-a66b" sortIndex="5">
                   <profiles>
@@ -2038,7 +2038,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="62ef-5ec8-3aa1-e80c" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Loew Fast Explorer" hidden="false" id="8541-bdbc-c81c-53cc" sortIndex="9">
+    <selectionEntry type="unit" import="true" name="Loew Fast Explorer" hidden="false" id="8541-bdbc-c81c-53cc" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Loew" hidden="false" id="83a8-6a59-dc5f-e36b" sortIndex="1">
           <costs>
@@ -2046,7 +2046,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="1422-e4a0-82a3-7fee" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="1422-e4a0-82a3-7fee" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="5f74-ea02-9dc1-75eb" sortIndex="5">
                   <profiles>
@@ -2197,7 +2197,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="f1be-edc0-9b58-15a4" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Nansen Explorer" hidden="false" id="4515-3fab-1807-8954" sortIndex="10">
+    <selectionEntry type="unit" import="true" name="Nansen Explorer" hidden="false" id="4515-3fab-1807-8954" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Nansen" hidden="false" id="4e0d-4262-c9dc-dce0" sortIndex="1">
           <costs>
@@ -2205,7 +2205,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="9"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="5c8e-a312-14b2-9313" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="5c8e-a312-14b2-9313" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="c230-a4d7-95d8-9d2c" sortIndex="5">
                   <profiles>
@@ -2278,7 +2278,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab58-86b5-61c3-ac2c"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FP" id="ef7d-b531-84c0-32f1" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FP" id="ef7d-b531-84c0-32f1" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="7be3-084d-66ff-b1da" sortIndex="5">
                   <profiles>
@@ -2351,7 +2351,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="085e-bfa0-b0cd-2746"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="9da0-2030-e1d2-05ea" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="9da0-2030-e1d2-05ea" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="1f70-09de-5e1c-5c93" sortIndex="5">
                   <profiles>
@@ -2424,7 +2424,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a59-d6d8-514f-37d7"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FS" id="baa6-b584-fc3b-3d44" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FS" id="baa6-b584-fc3b-3d44" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="8a8d-48f9-e76c-3181" sortIndex="5">
                   <profiles>
@@ -2585,7 +2585,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="ea31-1176-a68b-8cbf" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Thule Skyfortress" hidden="false" id="a152-a931-bcbd-46c7" sortIndex="11">
+    <selectionEntry type="unit" import="true" name="Thule Skyfortress" hidden="false" id="a152-a931-bcbd-46c7" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Thule" hidden="false" id="9881-29cd-9837-6e3a">
           <costs>
@@ -2593,7 +2593,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Special Hardpoint: FPSA" id="4c1f-9a22-d4c3-5385" hidden="false">
+            <selectionEntryGroup name="Special Hardpoint: FPSA" id="4c1f-9a22-d4c3-5385" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Particle Cannon" hidden="false" id="e160-20bb-288b-f343" sortIndex="1">
                   <profiles>
@@ -2730,7 +2730,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Xenophon Battlecruiser" hidden="false" id="df1a-a22f-5ffe-ab2c" sortIndex="12">
+    <selectionEntry type="unit" import="true" name="Xenophon Battlecruiser" hidden="false" id="df1a-a22f-5ffe-ab2c" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Xenophon" hidden="false" id="d19b-b46e-3d77-42db" sortIndex="1">
           <costs>
@@ -2738,7 +2738,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="493f-462c-c46e-e25c" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="493f-462c-c46e-e25c" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="d13e-821d-b237-36e8" sortIndex="5">
                   <profiles>
@@ -2811,7 +2811,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c62e-29f4-07eb-0a57"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="b020-513d-37f7-227e" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="b020-513d-37f7-227e" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="c790-1861-eb4d-2fd6" sortIndex="5">
                   <profiles>
@@ -2884,7 +2884,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba6c-68ba-08de-e9dd"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="c799-d416-0a23-58e9" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="c799-d416-0a23-58e9" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="19e2-eb97-77ea-1593" sortIndex="5">
                   <profiles>
@@ -3032,7 +3032,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="173e-3a4b-5eb3-2c56" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Antarctica Cruiser " hidden="false" id="44de-0441-25ef-11f9" sortIndex="13">
+    <selectionEntry type="unit" import="true" name="Antarctica Cruiser " hidden="false" id="44de-0441-25ef-11f9" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Antarctica" hidden="false" id="b368-811e-a1f1-ee78" sortIndex="1">
           <costs>
@@ -3040,7 +3040,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="f847-d6a2-0088-b87d" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="f847-d6a2-0088-b87d" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="8ca9-6838-b51e-9212" sortIndex="5">
                   <profiles>
@@ -3113,7 +3113,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2c8-e130-2286-197e"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Special Hardpoint: F" id="53b2-2597-dbb5-d908" hidden="false">
+            <selectionEntryGroup name="Special Hardpoint: F" id="53b2-2597-dbb5-d908" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Particle Cannon" hidden="false" id="ddab-3126-21d8-1a63" sortIndex="1">
                   <profiles>
@@ -3173,7 +3173,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d984-8647-08d7-67e0" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="f0c8-0b82-d950-5af8" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="f0c8-0b82-d950-5af8" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="e60a-ffa0-e7f3-fbfb" sortIndex="5">
                   <profiles>
@@ -3320,7 +3320,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Copernicus Heavy Cruiser" hidden="false" id="430e-307e-773d-570d" sortIndex="14">
+    <selectionEntry type="unit" import="true" name="Copernicus Heavy Cruiser" hidden="false" id="430e-307e-773d-570d" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Copernicus" hidden="false" id="f4c8-e2cf-7ee7-035c" sortIndex="1">
           <costs>
@@ -3328,7 +3328,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="483e-691c-fe19-c461" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="483e-691c-fe19-c461" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="c713-4073-d156-edc3" sortIndex="5">
                   <profiles>
@@ -3401,7 +3401,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c9ad-9b46-f0e0-95c0"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Special Hardpoint: F" id="6c7a-ca6e-e243-3ce0" hidden="false">
+            <selectionEntryGroup name="Special Hardpoint: F" id="6c7a-ca6e-e243-3ce0" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Particle Cannon" hidden="false" id="75bf-80e9-0428-c290" sortIndex="1">
                   <profiles>
@@ -3544,7 +3544,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Lovelace Cruiser" hidden="false" id="6b4c-bd22-f82f-6bab" sortIndex="15">
+    <selectionEntry type="unit" import="true" name="Lovelace Cruiser" hidden="false" id="6b4c-bd22-f82f-6bab" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Lovelace" hidden="false" id="0a13-440e-61b5-d88a" sortIndex="1">
           <costs>
@@ -3552,7 +3552,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="0bab-371b-c474-47de" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="0bab-371b-c474-47de" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="f076-a8a7-0b61-946e" sortIndex="5">
                   <profiles>
@@ -3625,7 +3625,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7500-b576-fcc0-1bfa"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="0585-b5aa-4ddd-2a5d" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="0585-b5aa-4ddd-2a5d" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="bff6-4c50-a725-b4a2" sortIndex="5">
                   <profiles>
@@ -3811,7 +3811,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         </infoLink>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Tacitus Assault Cruiser" hidden="false" id="c6f8-07a6-f5c5-fed5" sortIndex="16">
+    <selectionEntry type="unit" import="true" name="Tacitus Assault Cruiser" hidden="false" id="c6f8-07a6-f5c5-fed5" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Tacitus" hidden="false" id="b47b-84f9-25ae-1cf1" sortIndex="1">
           <costs>
@@ -3819,7 +3819,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="3"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FS" id="436a-2eba-8e8a-1c79" hidden="false" sortIndex="2">
+            <selectionEntryGroup name="Heavy Hardpoint: FS" id="436a-2eba-8e8a-1c79" hidden="false" sortIndex="2" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="af80-c06c-8b76-c071" sortIndex="5">
                   <profiles>
@@ -3892,7 +3892,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d88-0089-f038-20fd"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FP" id="1316-6c68-986f-2fa7" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Heavy Hardpoint: FP" id="1316-6c68-986f-2fa7" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="b080-0547-9a6e-97e2" sortIndex="5">
                   <profiles>
@@ -4077,7 +4077,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="585a-75bd-2264-0fde" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Valtar Saucer" hidden="false" id="44fb-9a5c-df6e-aa79" sortIndex="17">
+    <selectionEntry type="unit" import="true" name="Valtar Saucer" hidden="false" id="44fb-9a5c-df6e-aa79" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Valtar" hidden="false" id="7816-051d-92f3-40c7" sortIndex="1">
           <costs>
@@ -4085,7 +4085,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="4"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Special Hardpoint: FPSA" id="dc1f-57d8-51eb-8a85" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Special Hardpoint: FPSA" id="dc1f-57d8-51eb-8a85" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Particle Cannon" hidden="false" id="f1bd-aff9-d4b2-183e" sortIndex="1">
                   <profiles>
@@ -4219,7 +4219,7 @@ Hydrophone Relay</characteristic>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e433-4073-378c-d779"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Adamski Saucer" hidden="false" id="052f-96f2-d630-fa07" sortIndex="18">
+    <selectionEntry type="unit" import="true" name="Adamski Saucer" hidden="false" id="052f-96f2-d630-fa07" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Adamski" hidden="false" id="9ddf-5d5f-1a39-63b8" sortIndex="1">
           <costs>
@@ -4287,7 +4287,7 @@ Hydrophone Relay</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Merian Automata Frigate" hidden="false" id="e795-4b04-65bb-c1b1" sortIndex="19">
+    <selectionEntry type="unit" import="true" name="Merian Automata Frigate" hidden="false" id="e795-4b04-65bb-c1b1" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Merian" hidden="false" id="fd92-67ec-5f7e-9938" sortIndex="1">
           <costs>
@@ -4295,7 +4295,7 @@ Hydrophone Relay</characteristic>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="1"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="6d2b-48a6-4627-4907" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="6d2b-48a6-4627-4907" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="c8dd-4f4b-d97d-cec2" sortIndex="5">
                   <profiles>
@@ -4444,7 +4444,7 @@ Hydrophone Relay</characteristic>
       </modifiers>
       <comment>ATTACHMENT UNIT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Stiletto Fast Cruiser " hidden="false" id="a1e5-10c4-eac1-6ef6" sortIndex="22">
+    <selectionEntry type="unit" import="true" name="Stiletto Fast Cruiser " hidden="false" id="a1e5-10c4-eac1-6ef6" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Stiletto" hidden="false" id="88d2-b270-4251-0782" sortIndex="1">
           <costs>
@@ -4452,7 +4452,7 @@ Hydrophone Relay</characteristic>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="9ee1-d11f-47f9-9ae6" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="9ee1-d11f-47f9-9ae6" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="b59e-e407-be0e-4a69" sortIndex="5">
                   <profiles>
@@ -4657,7 +4657,7 @@ Hydrophone Relay</characteristic>
         </infoLink>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Amo Carrier Frigate " hidden="false" id="78d0-bc11-d23d-e2cb" sortIndex="23">
+    <selectionEntry type="unit" import="true" name="Amo Carrier Frigate " hidden="false" id="78d0-bc11-d23d-e2cb" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Amo" hidden="false" id="bef9-f500-02e3-3efd" sortIndex="1">
           <costs>
@@ -4735,7 +4735,7 @@ Hydrophone Relay</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="dda7-58aa-c6a0-4f7a" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Offshore Heavy Platform" hidden="false" id="1e3f-5eb5-95d5-34e6" sortIndex="26">
+    <selectionEntry type="unit" import="true" name="Offshore Heavy Platform" hidden="false" id="1e3f-5eb5-95d5-34e6" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Offshore Heavy Platform" hidden="false" id="40b2-d1c2-0443-ae45" sortIndex="1">
           <costs>
@@ -4773,42 +4773,8 @@ Hydrophone Relay</characteristic>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="da7d-2d0e-8d89-c9fd-min" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da7d-2d0e-8d89-c9fd-max" automatic="true"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="d73e-6c01-8da5-ac4f" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="0807-4762-401c-dd99">
-                  <profiles>
-                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="036a-89af-5289-4bd0">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="1b9f-9fcb-663a-a4eb">
-                  <profiles>
-                    <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9ae4-13cb-552d-a309">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="54a3-683e-6090-4bbb" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ab5-4ca8-b7bd-934b" automatic="true"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="da7d-2d0e-8d89-c9fd-min" automatic="true"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="da7d-2d0e-8d89-c9fd-max" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -4886,7 +4852,7 @@ Hydrophone Relay</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="712c-9bc6-e083-a5bd" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Offshore Defence Platform" hidden="false" id="494e-1490-3f6d-8c48" sortIndex="25">
+    <selectionEntry type="unit" import="true" name="Offshore Defence Platform" hidden="false" id="494e-1490-3f6d-8c48" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Offshore Defence Platform" hidden="false" id="3db7-1fa0-a001-86d6" sortIndex="1">
           <costs>
@@ -4894,7 +4860,7 @@ Hydrophone Relay</characteristic>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="d1ba-7a8a-d2a9-161e" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="d1ba-7a8a-d2a9-161e" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="eee2-6aa3-9000-2713" sortIndex="1">
                   <profiles>
@@ -5084,7 +5050,7 @@ Hydrophone Relay</characteristic>
       </entryLinks>
       <comment>ATTACHMENT UNIT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Newton Cruiser" hidden="false" id="3318-121f-9138-fd31" sortIndex="24">
+    <selectionEntry type="unit" import="true" name="Newton Cruiser" hidden="false" id="3318-121f-9138-fd31" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Newton" hidden="false" id="d894-c24a-e26e-ec28" sortIndex="1">
           <costs>
@@ -5175,7 +5141,7 @@ Hydrophone Relay</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="26da-2a54-b8bb-406b" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Origen Lathe Ship" hidden="false" id="1b6f-7d0f-fe83-5520" sortIndex="27">
+    <selectionEntry type="unit" import="true" name="Origen Lathe Ship" hidden="false" id="1b6f-7d0f-fe83-5520" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Origen" hidden="false" id="b3b4-3a14-f5bf-f0a8" sortIndex="1">
           <costs>
@@ -5259,7 +5225,7 @@ Hydrophone Relay</characteristic>
       </modifiers>
       <comment>ATTACHMENT UNIT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Plinius Support Carrier" hidden="false" id="9ed2-ef45-a848-1e25" sortIndex="28">
+    <selectionEntry type="unit" import="true" name="Plinius Support Carrier" hidden="false" id="9ed2-ef45-a848-1e25" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Plinius" hidden="false" id="614d-df71-cfab-5b63" sortIndex="1">
           <costs>
@@ -5349,7 +5315,7 @@ Hydrophone Relay</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="9fd4-105b-7c4f-c210" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Quintilian Bombardment Cruiser" hidden="false" id="3d1c-a183-2801-91da" sortIndex="29">
+    <selectionEntry type="unit" import="true" name="Quintilian Bombardment Cruiser" hidden="false" id="3d1c-a183-2801-91da" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Quintilian" hidden="false" id="e660-cb39-a452-32e7" sortIndex="1">
           <costs>
@@ -5461,7 +5427,7 @@ Hydrophone Relay</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="358c-d2c9-d5af-14a6" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Vesalius Cetacean Surgical Ship" hidden="false" id="9ac7-2c3d-98cb-ccbc" sortIndex="30">
+    <selectionEntry type="unit" import="true" name="Vesalius Cetacean Surgical Ship" hidden="false" id="9ac7-2c3d-98cb-ccbc" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Vesalius" hidden="false" id="fb6e-7ab9-00a8-5348" sortIndex="1">
           <costs>
@@ -5549,7 +5515,7 @@ Hydrophone Relay</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="1c53-bed0-30af-c7c9" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Zumeena Capacitor Ship " hidden="false" id="ac30-5932-d78c-8b40" sortIndex="31">
+    <selectionEntry type="unit" import="true" name="Zumeena Capacitor Ship " hidden="false" id="ac30-5932-d78c-8b40" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Zumeena" hidden="false" id="efa3-c7ef-ec5c-4133" sortIndex="1">
           <costs>
@@ -5634,7 +5600,7 @@ Hydrophone Relay</characteristic>
       </entryLinks>
       <comment>ATTACHMENT UNIT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Euclid Scout Saucer" hidden="false" id="a418-5a59-b975-cc3b" sortIndex="35">
+    <selectionEntry type="unit" import="true" name="Euclid Scout Saucer" hidden="false" id="a418-5a59-b975-cc3b" sortIndex="5">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Euclid" hidden="false" id="8aaf-f2af-4977-6018">
           <costs>
@@ -5642,7 +5608,7 @@ Hydrophone Relay</characteristic>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="bb45-5c95-0bcd-44dd" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="bb45-5c95-0bcd-44dd" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="207f-fd08-7844-b978" sortIndex="5">
                   <profiles>
@@ -5767,7 +5733,7 @@ Hydrophone Relay</characteristic>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d8c-ee22-7683-7b3b"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Pytheus Saucer" hidden="false" id="1302-8060-8fb8-78c4" sortIndex="36">
+    <selectionEntry type="unit" import="true" name="Pytheus Saucer" hidden="false" id="1302-8060-8fb8-78c4" sortIndex="5">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Pytheus" hidden="false" id="854f-cd35-e9a6-6ecf">
           <costs>
@@ -5821,7 +5787,7 @@ Hydrophone Relay</characteristic>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="85f4-dd89-b929-f291"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Claudius Merchantman" hidden="false" id="2e20-ab4b-894e-4e06" sortIndex="37">
+    <selectionEntry type="unit" import="true" name="Claudius Merchantman" hidden="false" id="2e20-ab4b-894e-4e06" sortIndex="6">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Claudius" hidden="false" id="3fde-83dc-0f80-fcc5" sortIndex="1">
           <costs>
@@ -5920,7 +5886,7 @@ Hydrophone Relay</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="1a3a-4588-2fe1-acf4" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Offshore Supply Platform" hidden="false" id="deea-87ff-944f-4f67" sortIndex="40">
+    <selectionEntry type="unit" import="true" name="Offshore Supply Platform" hidden="false" id="deea-87ff-944f-4f67" sortIndex="6">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Offshore Supply Platform" hidden="false" id="25fc-c1df-77ef-d8a3" sortIndex="1">
           <costs>
@@ -6009,7 +5975,7 @@ Hydrophone Relay</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="f64e-e977-76ae-7dd5" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Europa Grand Conveyor" hidden="false" id="0b44-8c06-3793-9125" sortIndex="38">
+    <selectionEntry type="unit" import="true" name="Europa Grand Conveyor" hidden="false" id="0b44-8c06-3793-9125" sortIndex="6">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Europa" hidden="false" id="842c-de27-d5cd-b321" sortIndex="1">
           <costs>
@@ -6017,7 +5983,7 @@ Hydrophone Relay</characteristic>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="dad4-2594-4ec9-28dd" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="dad4-2594-4ec9-28dd" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="d512-fa30-1033-7d62">
                   <profiles>
@@ -6150,7 +6116,7 @@ Hydrophone Relay</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hermes Supply Freighter " hidden="false" id="f68a-381b-814e-f2fb" sortIndex="39">
+    <selectionEntry type="unit" import="true" name="Hermes Supply Freighter " hidden="false" id="f68a-381b-814e-f2fb" sortIndex="6">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Hermes" hidden="false" id="4513-c945-d443-a92d" sortIndex="1">
           <costs>
@@ -6224,7 +6190,7 @@ Hydrophone Relay</characteristic>
       </entryLinks>
       <comment>ATTACHMENT UNIT</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Enlightened Fleet Doctrines" hidden="false" id="39db-0577-ea34-de65">
+    <selectionEntry type="upgrade" import="true" name="Enlightened Fleet Doctrines" hidden="false" id="39db-0577-ea34-de65" sortIndex="-1">
       <entryLinks>
         <entryLink import="true" name="Fleet Doctrines" hidden="false" id="1645-cbb3-8e4e-12a0" type="selectionEntryGroup" targetId="3a8e-29a8-4109-7c1c">
           <selectionEntries>
@@ -6705,7 +6671,7 @@ If they do so, models in the unit cannot move during their Movement Step.</descr
     <catalogueLink type="catalogue" name="Rules Glossary" id="6f09-c9f4-24f6-b616" targetId="8551-5b95-4980-851f"/>
   </catalogueLinks>
   <entryLinks>
-    <entryLink import="true" name="Lotan Myriapoda Colossus" hidden="false" id="8903-bbd4-bb74-fee5" type="selectionEntry" targetId="2ea3-c1be-060c-b9ca" sortIndex="21">
+    <entryLink import="true" name="Lotan Myriapoda Colossus" hidden="false" id="8903-bbd4-bb74-fee5" type="selectionEntry" targetId="2ea3-c1be-060c-b9ca" sortIndex="3">
       <modifiers>
         <modifier type="append" value="Stoic" field="066c-1ce6-091e-90ab" join=",">
           <conditions>
@@ -6714,7 +6680,7 @@ If they do so, models in the unit cannot move during their Movement Step.</descr
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Ketos Myriapoda Colossus" hidden="false" id="d27e-e389-c72f-d4a9" type="selectionEntry" targetId="048e-48e5-ad80-0e4c" sortIndex="20">
+    <entryLink import="true" name="Ketos Myriapoda Colossus" hidden="false" id="d27e-e389-c72f-d4a9" type="selectionEntry" targetId="048e-48e5-ad80-0e4c" sortIndex="3">
       <modifiers>
         <modifier type="set" value="2" field="be35-1ab8-fbd7-c65d">
           <conditions>
@@ -6723,7 +6689,7 @@ If they do so, models in the unit cannot move during their Movement Step.</descr
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Praxilla Submarine " hidden="false" id="c254-0a8c-eddd-9d00" type="selectionEntry" targetId="89f7-18c5-81a0-11ba" sortIndex="34">
+    <entryLink import="true" name="Praxilla Submarine " hidden="false" id="c254-0a8c-eddd-9d00" type="selectionEntry" targetId="89f7-18c5-81a0-11ba" sortIndex="5">
       <modifiers>
         <modifier type="set" value="2" field="5e60-77e5-a872-3599">
           <conditions>
@@ -6732,7 +6698,7 @@ If they do so, models in the unit cannot move during their Movement Step.</descr
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Diogenes Submarine " hidden="false" id="c3de-fb34-c087-02fc" type="selectionEntry" targetId="9e2b-dcec-3169-3523" sortIndex="33">
+    <entryLink import="true" name="Diogenes Submarine " hidden="false" id="c3de-fb34-c087-02fc" type="selectionEntry" targetId="9e2b-dcec-3169-3523" sortIndex="5">
       <modifiers>
         <modifier type="set" value="2" field="1ef4-b037-c5e6-705a">
           <conditions>
@@ -6741,7 +6707,7 @@ If they do so, models in the unit cannot move during their Movement Step.</descr
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Aronnax Vermiforma Colossus" hidden="false" id="3a9e-ea25-83f8-8920" type="selectionEntry" targetId="aae9-5aca-484c-3dec" sortIndex="32">
+    <entryLink import="true" name="Aronnax Vermiforma Colossus" hidden="false" id="3a9e-ea25-83f8-8920" type="selectionEntry" targetId="aae9-5aca-484c-3dec" sortIndex="5">
       <modifiers>
         <modifier type="set" value="2" field="f61f-e3a6-59c8-3483">
           <conditions>
