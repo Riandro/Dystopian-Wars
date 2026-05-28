@@ -226,7 +226,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Columbia Heavy Battleship " hidden="false" id="fd93-8804-1277-82be" sortIndex="2">
+    <selectionEntry type="unit" import="true" name="Columbia Heavy Battleship " hidden="false" id="fd93-8804-1277-82be" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Columbia" hidden="false" id="0438-f5a5-89d4-a8d6" sortIndex="1">
           <constraints>
@@ -539,7 +539,7 @@ Previous editions of Dystopian Wars offered the option of replacing these with 
 New players keen to take on a project are more than welcome to convert their models if they wish!" field="info"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Constitution Battleship" hidden="false" id="ea77-50dd-36c9-a301" sortIndex="3">
+    <selectionEntry type="unit" import="true" name="Constitution Battleship" hidden="false" id="ea77-50dd-36c9-a301" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Constitution" hidden="false" id="8af5-2e17-5c2c-c024" sortIndex="1">
           <constraints>
@@ -769,7 +769,7 @@ New players keen to take on a project are more than welcome to convert their m
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Custodian Aircruiser " hidden="true" id="52d9-2bd4-e61a-2195" sortIndex="4">
+    <selectionEntry type="unit" import="true" name="Custodian Aircruiser " hidden="true" id="52d9-2bd4-e61a-2195" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Custodian" hidden="false" id="ab09-5c26-99a2-2e77" sortIndex="1">
           <constraints>
@@ -896,7 +896,7 @@ New players keen to take on a project are more than welcome to convert their m
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Enterprise Heavy Carrier" hidden="false" id="2047-58c9-9130-57a8" sortIndex="6">
+    <selectionEntry type="unit" import="true" name="Enterprise Heavy Carrier" hidden="false" id="2047-58c9-9130-57a8" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Enterprise" hidden="false" id="16a0-013b-1d28-b9fa" sortIndex="1">
           <constraints>
@@ -996,7 +996,7 @@ New players keen to take on a project are more than welcome to convert their m
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Destiny Skyfortress" hidden="false" id="3e90-b005-35c3-481d" sortIndex="5">
+    <selectionEntry type="unit" import="true" name="Destiny Skyfortress" hidden="false" id="3e90-b005-35c3-481d" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Destiny" hidden="false" id="6615-c239-baad-4139" sortIndex="1">
           <constraints>
@@ -1145,7 +1145,7 @@ New players keen to take on a project are more than welcome to convert their m
         <infoLink name="Corsair Fighters" id="6f64-7e69-733f-4ee8" hidden="false" type="profile" targetId="37fc-23b4-f192-5ccc"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Independence Battlecruiser" hidden="false" id="23e1-c331-efdb-961e" sortIndex="8">
+    <selectionEntry type="unit" import="true" name="Independence Battlecruiser" hidden="false" id="23e1-c331-efdb-961e" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Independence" hidden="false" id="cef2-4e45-b5d8-0e6b" sortIndex="1">
           <constraints>
@@ -1413,7 +1413,7 @@ New players keen to take on a project are more than welcome to convert their m
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="USS Indianapolis, Independence-Class Battlecruiser" hidden="false" id="b1e2-5f41-5659-bdbf" sortIndex="9">
+    <selectionEntry type="unit" import="true" name="USS Indianapolis, Independence-Class Battlecruiser" hidden="false" id="b1e2-5f41-5659-bdbf" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="USS Indianapolis" hidden="false" id="3b31-5bf4-3395-d8a9" sortIndex="1">
           <constraints>
@@ -1541,7 +1541,7 @@ New players keen to take on a project are more than welcome to convert their m
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Gotham Assault Carrier" hidden="false" id="73fa-c370-377e-3727" sortIndex="7">
+    <selectionEntry type="unit" import="true" name="Gotham Assault Carrier" hidden="false" id="73fa-c370-377e-3727" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Gotham" hidden="false" id="a8e2-c768-2480-762c" sortIndex="1">
           <constraints>
@@ -1650,7 +1650,7 @@ New players keen to take on a project are more than welcome to convert their m
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Liberty Battlecarrier" hidden="false" id="6b2d-ee85-8f05-6555" sortIndex="10">
+    <selectionEntry type="unit" import="true" name="Liberty Battlecarrier" hidden="false" id="6b2d-ee85-8f05-6555" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Liberty" hidden="false" id="0ca3-5e4e-8baf-16f8" sortIndex="1">
           <constraints>
@@ -1828,7 +1828,7 @@ New players keen to take on a project are more than welcome to convert their m
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="USS Mexico, Constitution-Class Battleship" hidden="false" id="793e-7cf3-0977-1dec" sortIndex="11">
+    <selectionEntry type="unit" import="true" name="USS Mexico, Constitution-Class Battleship" hidden="false" id="793e-7cf3-0977-1dec" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="USS Mexico" hidden="false" id="62a0-542b-bd8d-5238" sortIndex="1">
           <constraints>
@@ -1935,7 +1935,7 @@ New players keen to take on a project are more than welcome to convert their m
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="USS Monitor, Virginia-Class Assault Battleship" hidden="false" id="312e-3fe7-eed6-7439" sortIndex="12">
+    <selectionEntry type="unit" import="true" name="USS Monitor, Virginia-Class Assault Battleship" hidden="false" id="312e-3fe7-eed6-7439" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="USS Monitor" hidden="false" id="f8dc-1a2e-6cf5-227e" sortIndex="1">
           <constraints>
@@ -2219,7 +2219,7 @@ New players keen to take on a project are more than welcome to convert their m
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="USS Rio Grande, Independance-Class Battlecruiser" hidden="false" id="0668-e438-3e52-a514" sortIndex="13">
+    <selectionEntry type="unit" import="true" name="USS Rio Grande, Independance-Class Battlecruiser" hidden="false" id="0668-e438-3e52-a514" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="USS Rio Grande, Independence-Class Battlecruiser" hidden="false" id="7fbf-2385-1742-5bd3" sortIndex="1">
           <constraints>
@@ -2344,7 +2344,7 @@ New players keen to take on a project are more than welcome to convert their m
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Senator Command Cruiser" hidden="false" id="3a53-3d83-3115-b124" sortIndex="14">
+    <selectionEntry type="unit" import="true" name="Senator Command Cruiser" hidden="false" id="3a53-3d83-3115-b124" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Senator" hidden="false" id="ec82-2922-4cf6-0f6b" sortIndex="1">
           <constraints>
@@ -2611,7 +2611,7 @@ New players keen to take on a project are more than welcome to convert their m
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Venture Assault Aircruiser" hidden="false" id="7a93-d30e-0824-c315" sortIndex="15">
+    <selectionEntry type="unit" import="true" name="Venture Assault Aircruiser" hidden="false" id="7a93-d30e-0824-c315" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Venture" hidden="false" id="4f15-9341-f8e9-1731" sortIndex="1">
           <constraints>
@@ -2748,7 +2748,7 @@ New players keen to take on a project are more than welcome to convert their m
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Chicago Cruiser" hidden="false" id="82a4-3b6f-ed63-d82c" sortIndex="16">
+    <selectionEntry type="unit" import="true" name="Chicago Cruiser" hidden="false" id="82a4-3b6f-ed63-d82c" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Chicago" hidden="false" id="7511-bf73-24e8-5c01" sortIndex="1">
           <constraints>
@@ -3015,7 +3015,7 @@ New players keen to take on a project are more than welcome to convert their m
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Constellation Airship" hidden="false" id="2ef3-ae55-6b6d-2e3a" sortIndex="17">
+    <selectionEntry type="unit" import="true" name="Constellation Airship" hidden="false" id="2ef3-ae55-6b6d-2e3a" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Constellation" hidden="false" id="abe4-0fa8-112e-1d7f" sortIndex="1">
           <constraints>
@@ -3132,7 +3132,7 @@ New players keen to take on a project are more than welcome to convert their m
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Discovery Arc Cruiser" hidden="false" id="1c00-f243-882e-b6ef" sortIndex="18">
+    <selectionEntry type="unit" import="true" name="Discovery Arc Cruiser" hidden="false" id="1c00-f243-882e-b6ef" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Discovery" hidden="false" id="b3e8-ded1-41fb-19d1" sortIndex="1">
           <constraints>
@@ -3288,163 +3288,7 @@ New players keen to take on a project are more than welcome to convert their m
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Excelsior Heavy Aircruiser" hidden="false" id="2b96-da02-2122-4117" sortIndex="19">
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Excelsior" hidden="false" id="2efd-fe23-28c1-4c16" sortIndex="1">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6937-5fdb-17be-f1ca" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="821b-8dce-ee96-9782" includeChildSelections="false" automatic="true"/>
-          </constraints>
-          <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="185"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="6"/>
-          </costs>
-          <profiles>
-            <profile name="Dual Harper Autocannon" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="0467-4e80-acd4-34a1">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">9</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Sky Strike (2)</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Freedom Incendiary Bombs" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="79ac-ebbe-826e-7bb5">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">A</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Bomb&lt;/span&gt;, Hazard (1)</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="8c85-d25b-c4e9-ec0d">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-              </characteristics>
-            </profile>
-            <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="6ab1-25a8-7ed1-d665">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="af5b-e8e5-d3ab-f896">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Admiral’s Flag" hidden="false" id="9bfb-3f6c-3202-a89b">
-          <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="5"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0060-3135-87df-7588-min" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0060-3135-87df-7588-max" includeChildSelections="false" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Honorable Eclipse Company Variant" hidden="false" id="2cd6-b396-af59-2543">
-          <constraints>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="07c6-cb14-e0b1-7cf7" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7239-1afc-8132-deb6"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="1" field="07c6-cb14-e0b1-7cf7">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="remove" value="2c58-03eb-5f76-9d53" field="category" scope="unit"/>
-            <modifier type="add" value="c43c-2362-36ac-f58f" field="category" scope="unit"/>
-          </modifiers>
-        </selectionEntry>
-      </selectionEntries>
-      <profiles>
-        <profile name="Excelsior" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="d438-36ef-9f53-aaaf">
-          <characteristics>
-            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">4</characteristic>
-            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">2&quot;-7&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">3</characteristic>
-            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">6</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">12</characteristic>
-            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
-            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">4</characteristic>
-            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">3</characteristic>
-            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">8</characteristic>
-            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Excelsior" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="576e-3b77-a375-033b">
-          <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Dirigible, Fusillade, Vanguard (5”)</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="append" value="Descend" field="066c-1ce6-091e-90ab" join=", ">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
-        <profile name="Excelsior" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="7e89-b844-b243-9a88">
-          <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink name="Union" hidden="false" id="0356-6a1f-f1b7-2acd" targetId="2c58-03eb-5f76-9d53" primary="false"/>
-        <categoryLink name="Airborne" hidden="false" id="3de4-15a3-f749-a64f" targetId="139e-c78f-43c0-2957" primary="false"/>
-        <categoryLink name="Airship" hidden="false" id="d6a0-6ec1-1123-f228" targetId="278c-665b-5dbe-3aad" primary="false"/>
-        <categoryLink name="Attachment host" hidden="false" id="2188-0610-a761-dbfa" targetId="2251-0def-1b03-2e93" primary="false"/>
-        <categoryLink name="Flagship" hidden="false" id="ed2b-b742-987c-6fae" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
-        <categoryLink name="Airborne Con" hidden="false" id="2ee1-78e2-2591-ee70" targetId="75e0-964e-1a22-94e9" primary="false"/>
-      </categoryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d17-53ff-fd2b-0776" includeChildSelections="true"/>
-      </constraints>
-      <entryLinks>
-        <entryLink import="true" name="Escorts" hidden="false" id="2ff8-f005-922c-cb4c" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="7">
-          <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0ec2-7e9a-356a-87a7" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="b516-2bd1-54f8-6925" type="selectionEntryGroup" targetId="ad77-82b3-82f2-6a05" sortIndex="6"/>
-      </entryLinks>
-      <modifiers>
-        <modifier type="set-primary" value="cac5-b09a-82c3-f814" field="category">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="force" childId="7b97-7934-8fa2-6bb8" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="force" childId="0551-d3d8-7de1-4996" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Lexington Heavy Cruiser" hidden="false" id="67c7-ee3e-4a6d-cfac" sortIndex="20">
+    <selectionEntry type="unit" import="true" name="Lexington Heavy Cruiser" hidden="false" id="67c7-ee3e-4a6d-cfac" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Lexington" hidden="false" id="5544-babb-3ecf-756c" sortIndex="1">
           <constraints>
@@ -3702,7 +3546,7 @@ New players keen to take on a project are more than welcome to convert their m
         <entryLink import="true" name="Attachments" hidden="false" id="3052-e4a9-7f30-5ef9" type="selectionEntryGroup" targetId="ad77-82b3-82f2-6a05" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Philadelphia Heavy Arc Cruiser" hidden="false" id="be3b-1d5e-bc72-ee2f" sortIndex="21">
+    <selectionEntry type="unit" import="true" name="Philadelphia Heavy Arc Cruiser" hidden="false" id="be3b-1d5e-bc72-ee2f" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Philadelphia" hidden="false" id="6c3e-9a5a-cec8-89cc" sortIndex="1">
           <constraints>
@@ -3818,7 +3662,7 @@ New players keen to take on a project are more than welcome to convert their m
         <entryLink import="true" name="Attachments" hidden="false" id="c201-87ab-db33-f005" type="selectionEntryGroup" targetId="ad77-82b3-82f2-6a05" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Yorktown Cruiser" hidden="false" id="c830-e2bb-bf35-2fc6" sortIndex="23">
+    <selectionEntry type="unit" import="true" name="Yorktown Cruiser" hidden="false" id="c830-e2bb-bf35-2fc6" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Yorktown" hidden="false" id="a512-9409-5a45-8c4a" sortIndex="1">
           <constraints>
@@ -3997,7 +3841,7 @@ New players keen to take on a project are more than welcome to convert their m
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Farragut Frigate" hidden="false" id="4950-d9a5-32f0-0bb9" sortIndex="26">
+    <selectionEntry type="unit" import="true" name="Farragut Frigate" hidden="false" id="4950-d9a5-32f0-0bb9" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Farragut" hidden="false" id="0dce-8c38-9559-f347" sortIndex="1">
           <constraints>
@@ -4123,7 +3967,7 @@ New players keen to take on a project are more than welcome to convert their m
       </modifiers>
       <comment>NEW ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Gettysburg Heavy Monitor" hidden="false" id="2927-49d3-42ab-c5c7" sortIndex="27">
+    <selectionEntry type="unit" import="true" name="Gettysburg Heavy Monitor" hidden="false" id="2927-49d3-42ab-c5c7" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Gettysburg" hidden="false" id="5131-2bc7-9711-6056" sortIndex="1">
           <constraints>
@@ -4340,7 +4184,7 @@ New players keen to take on a project are more than welcome to convert their m
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="John Henry Vitruvian Colossus" hidden="false" id="8da0-448f-71d8-43c0" sortIndex="28">
+    <selectionEntry type="unit" import="true" name="John Henry Vitruvian Colossus" hidden="false" id="8da0-448f-71d8-43c0" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="John Henry" hidden="false" id="184e-305b-4f42-c8de" sortIndex="1">
           <constraints>
@@ -4498,7 +4342,7 @@ New players keen to take on a project are more than welcome to convert their m
         <entryLink import="true" name="Attachments" hidden="false" id="43eb-655e-359e-d8e9" type="selectionEntryGroup" targetId="ad77-82b3-82f2-6a05" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Patriot Automata" hidden="false" id="9bec-311a-c92e-9202" sortIndex="29">
+    <selectionEntry type="unit" import="true" name="Patriot Automata" hidden="false" id="9bec-311a-c92e-9202" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Patriot" hidden="false" id="93c2-3542-a0fc-7a1d" sortIndex="1">
           <constraints>
@@ -4606,7 +4450,7 @@ New players keen to take on a project are more than welcome to convert their m
       </constraints>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Reliant Monitor" hidden="false" id="d2eb-8b04-9f12-f5ef" sortIndex="30">
+    <selectionEntry type="unit" import="true" name="Reliant Monitor" hidden="false" id="d2eb-8b04-9f12-f5ef" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Reliant" hidden="false" id="b70f-4076-8da2-ac68" sortIndex="1">
           <constraints>
@@ -4744,7 +4588,7 @@ New players keen to take on a project are more than welcome to convert their m
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Springfield Corvette" hidden="false" id="9395-abfd-7656-ef47" sortIndex="40">
+    <selectionEntry type="unit" import="true" name="Springfield Corvette" hidden="false" id="9395-abfd-7656-ef47" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Springfield" hidden="false" id="fc53-8b63-23ec-fd77" sortIndex="1">
           <constraints>
@@ -4853,7 +4697,7 @@ New players keen to take on a project are more than welcome to convert their m
       </constraints>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Valiant Fast Destroyer" hidden="false" id="81ce-a25f-90b7-0c54" sortIndex="31">
+    <selectionEntry type="unit" import="true" name="Valiant Fast Destroyer" hidden="false" id="81ce-a25f-90b7-0c54" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Valiant" hidden="false" id="c587-2cc7-5284-874e" sortIndex="1">
           <constraints>
@@ -4967,7 +4811,7 @@ New players keen to take on a project are more than welcome to convert their m
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Bogota Carryall Rotor" hidden="false" id="5373-2856-ffbe-8519" sortIndex="24">
+    <selectionEntry type="unit" import="true" name="Bogota Carryall Rotor" hidden="false" id="5373-2856-ffbe-8519" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Bogota" hidden="false" id="a59f-c345-5e55-de91" sortIndex="1">
           <constraints>
@@ -5136,7 +4980,7 @@ with the Strategic Asset (1) property." field="info"/>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Offshore Defence Platform" hidden="false" id="b77f-3c67-75d3-6474" sortIndex="35">
+    <selectionEntry type="unit" import="true" name="Offshore Defence Platform" hidden="false" id="b77f-3c67-75d3-6474" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Offshore Defence Platform" hidden="false" id="820c-6a43-d8ca-5e52" sortIndex="1">
           <constraints>
@@ -5295,7 +5139,7 @@ with the Strategic Asset (1) property." field="info"/>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Farpoint Bunker Platform" hidden="false" id="6417-78a9-0b7f-e0d2" sortIndex="32">
+    <selectionEntry type="unit" import="true" name="Farpoint Bunker Platform" hidden="false" id="6417-78a9-0b7f-e0d2" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Farpoint" hidden="false" id="cd57-ce82-77b1-f85c" sortIndex="1">
           <constraints>
@@ -5479,7 +5323,7 @@ with the Strategic Asset (1) property." field="info"/>
         <infoLink name="Talon Autogyros (Union)" id="6cd2-25da-448e-a1df" hidden="false" type="profile" targetId="cf02-10a5-7f0b-9b8b"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Offshore Heavy Platform" hidden="false" id="cd29-c573-78d2-cecf" sortIndex="36">
+    <selectionEntry type="unit" import="true" name="Offshore Heavy Platform" hidden="false" id="cd29-c573-78d2-cecf" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Offshore Heavy Platform" hidden="false" id="a4d2-1658-93be-81a2" sortIndex="1">
           <constraints>
@@ -5671,7 +5515,7 @@ with the Strategic Asset (1) property." field="info"/>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ranger Aircarrier" hidden="false" id="6c2a-3c53-f05a-c9b6" sortIndex="37">
+    <selectionEntry type="unit" import="true" name="Ranger Aircarrier" hidden="false" id="6c2a-3c53-f05a-c9b6" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Ranger" hidden="false" id="f2ae-7898-3c7a-a10d" sortIndex="1">
           <constraints>
@@ -5764,7 +5608,7 @@ with the Strategic Asset (1) property." field="info"/>
         <infoLink name="Corsair Fighters" id="1fb1-509c-3dce-f18f" hidden="false" type="profile" targetId="37fc-23b4-f192-5ccc"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Roanoke Carrier" hidden="false" id="a45f-539d-e0db-50dc" sortIndex="38">
+    <selectionEntry type="unit" import="true" name="Roanoke Carrier" hidden="false" id="a45f-539d-e0db-50dc" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Roanoke" hidden="false" id="4056-27d5-6ab0-c5e9" sortIndex="1">
           <constraints>
@@ -5890,7 +5734,7 @@ with the Strategic Asset (1) property." field="info"/>
       </infoLinks>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Saratoga Assault Cruiser" hidden="false" id="67df-5db1-684a-5cd7" sortIndex="39">
+    <selectionEntry type="unit" import="true" name="Saratoga Assault Cruiser" hidden="false" id="67df-5db1-684a-5cd7" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Saratoga" hidden="false" id="5ee1-dd6b-8eb4-05a5" sortIndex="1">
           <constraints>
@@ -6053,7 +5897,7 @@ with the Strategic Asset (1) property." field="info"/>
         <infoLink name="Talon Autogyros (Union)" id="4ff8-09b9-4b53-3493" hidden="false" type="profile" targetId="cf02-10a5-7f0b-9b8b"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Steward Airship" hidden="true" id="9b50-8ffe-7169-32c6" sortIndex="41">
+    <selectionEntry type="unit" import="true" name="Steward Airship" hidden="true" id="9b50-8ffe-7169-32c6" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Steward" hidden="false" id="6f4f-7643-1d67-7bb1" sortIndex="1">
           <constraints>
@@ -6161,7 +6005,7 @@ with the Strategic Asset (1) property." field="info"/>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Sumter Landing Ship" hidden="false" id="3e71-4aac-803f-daf7" sortIndex="42">
+    <selectionEntry type="unit" import="true" name="Sumter Landing Ship" hidden="false" id="3e71-4aac-803f-daf7" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Sumter" hidden="false" id="a842-198c-ecc6-d2ca" sortIndex="1">
           <constraints>
@@ -6274,7 +6118,7 @@ with the Strategic Asset (1) property." field="info"/>
         <infoLink name="Talon Autogyros (Union)" id="aeba-6c16-ba18-ac93" hidden="false" type="profile" targetId="cf02-10a5-7f0b-9b8b"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Washington Missile Cruiser" hidden="false" id="ac8b-d6ee-9b86-da11" sortIndex="43">
+    <selectionEntry type="unit" import="true" name="Washington Missile Cruiser" hidden="false" id="ac8b-d6ee-9b86-da11" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Washington" hidden="false" id="7bb4-80cd-0d35-1441" sortIndex="1">
           <constraints>
@@ -6394,7 +6238,7 @@ with the Strategic Asset (1) property." field="info"/>
         <entryLink import="true" name="Attachments" hidden="false" id="f55f-b5e0-7745-6a09" type="selectionEntryGroup" targetId="ad77-82b3-82f2-6a05" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Wisconsin Heavy Assault Cruiser" hidden="false" id="49a0-e670-6164-bed1" sortIndex="44">
+    <selectionEntry type="unit" import="true" name="Wisconsin Heavy Assault Cruiser" hidden="false" id="49a0-e670-6164-bed1" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Wisconsin" hidden="false" id="46ed-f9f9-1830-308f" sortIndex="1">
           <constraints>
@@ -6612,7 +6456,7 @@ with the Strategic Asset (1) property." field="info"/>
         <infoLink name="Talon Autogyros (Union)" id="842b-7b66-399f-4055" hidden="false" type="profile" targetId="cf02-10a5-7f0b-9b8b"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Midway Heavy Landing Ship" hidden="false" id="e1ce-8ac1-6b1c-0e2c" sortIndex="33">
+    <selectionEntry type="unit" import="true" name="Midway Heavy Landing Ship" hidden="false" id="e1ce-8ac1-6b1c-0e2c" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Midway" hidden="false" id="2830-d59b-6f38-14fd" sortIndex="1">
           <constraints>
@@ -6826,7 +6670,7 @@ with the Strategic Asset (1) property." field="info"/>
         <entryLink import="true" name="Attachments" hidden="false" id="9432-86ff-b8ad-c059" type="selectionEntryGroup" targetId="ad77-82b3-82f2-6a05" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Akron Rotor" hidden="false" id="644c-bb4d-358c-a061" sortIndex="50">
+    <selectionEntry type="unit" import="true" name="Akron Rotor" hidden="false" id="644c-bb4d-358c-a061" sortIndex="6">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Akron" hidden="false" id="66e4-2203-3941-ab12" sortIndex="1">
           <constraints>
@@ -6939,7 +6783,7 @@ with the Strategic Asset (1) property." field="info"/>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Cheyenne Submarine" hidden="false" id="a80b-982f-5f81-3bf0" sortIndex="46">
+    <selectionEntry type="unit" import="true" name="Cheyenne Submarine" hidden="false" id="a80b-982f-5f81-3bf0" sortIndex="5">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Cheyenne" hidden="false" id="d863-6710-572f-feab" sortIndex="1">
           <constraints>
@@ -7005,7 +6849,7 @@ with the Strategic Asset (1) property." field="info"/>
         <entryLink import="true" name="Attachments" hidden="false" id="7fa8-730e-d12e-3849" type="selectionEntryGroup" targetId="ad77-82b3-82f2-6a05" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Intrepid Light Cruiser " hidden="false" id="f8e0-28a5-c037-f373" sortIndex="47">
+    <selectionEntry type="unit" import="true" name="Intrepid Light Cruiser " hidden="false" id="f8e0-28a5-c037-f373" sortIndex="5">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Intrepid" hidden="false" id="40b0-54fd-8d54-a7ef" sortIndex="1">
           <constraints>
@@ -7174,7 +7018,7 @@ with the Strategic Asset (1) property." field="info"/>
         <entryLink import="true" name="Attachments" hidden="false" id="a443-9130-1198-bf0b" type="selectionEntryGroup" targetId="ad77-82b3-82f2-6a05" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Puritan Automata Submarine" hidden="false" id="4d55-7af2-5654-7ae3" sortIndex="48">
+    <selectionEntry type="unit" import="true" name="Puritan Automata Submarine" hidden="false" id="4d55-7af2-5654-7ae3" sortIndex="5">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Puritan" hidden="false" id="bb07-55a7-67f5-2980" sortIndex="1">
           <constraints>
@@ -7254,7 +7098,7 @@ with the Strategic Asset (1) property." field="info"/>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Republic Airship" hidden="false" id="21f7-c1e6-3742-c664" sortIndex="49">
+    <selectionEntry type="unit" import="true" name="Republic Airship" hidden="false" id="21f7-c1e6-3742-c664" sortIndex="5">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Republic" hidden="false" id="bffc-7466-cfe7-8ca8" sortIndex="1">
           <constraints>
@@ -7372,7 +7216,7 @@ with the Strategic Asset (1) property." field="info"/>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="California Supply Cruiser" hidden="false" id="db53-2ba1-dd08-99c5" sortIndex="51">
+    <selectionEntry type="unit" import="true" name="California Supply Cruiser" hidden="false" id="db53-2ba1-dd08-99c5" sortIndex="6">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="California" hidden="false" id="e6d7-7df7-f0b6-b629" sortIndex="1">
           <constraints>
@@ -7445,7 +7289,7 @@ with the Strategic Asset (1) property." field="info"/>
       </entryLinks>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Frontier Platform Transport" hidden="false" id="6c1b-0e02-7704-7ad2" sortIndex="53">
+    <selectionEntry type="unit" import="true" name="Frontier Platform Transport" hidden="false" id="6c1b-0e02-7704-7ad2" sortIndex="6">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Frontier" hidden="false" id="9925-17c2-e7f1-598a" sortIndex="1">
           <constraints>
@@ -7567,7 +7411,7 @@ with the Strategic Asset (1) property." field="info"/>
         <entryLink import="true" name="Attachments" hidden="false" id="5538-5d76-8851-46db" type="selectionEntryGroup" targetId="ad77-82b3-82f2-6a05" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Montgomery Repair Ship" hidden="false" id="6851-556b-6603-b6d2" sortIndex="55">
+    <selectionEntry type="unit" import="true" name="Montgomery Repair Ship" hidden="false" id="6851-556b-6603-b6d2" sortIndex="6">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Montgomery" hidden="false" id="06ea-d8bc-8941-8db3" sortIndex="1">
           <constraints>
@@ -7641,7 +7485,7 @@ with the Strategic Asset (1) property." field="info"/>
       </entryLinks>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Nashville Heavy Support Ship" hidden="false" id="4925-4d57-e1b8-1a6e" sortIndex="34">
+    <selectionEntry type="unit" import="true" name="Nashville Heavy Support Ship" hidden="false" id="4925-4d57-e1b8-1a6e" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Nashville" hidden="false" id="686b-6352-d131-3438" sortIndex="1">
           <constraints>
@@ -7872,7 +7716,7 @@ with the Strategic Asset (1) property." field="info"/>
       </entryLinks>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Offshore Supply Platform" hidden="false" id="7195-836e-27d3-f5f2" sortIndex="56">
+    <selectionEntry type="unit" import="true" name="Offshore Supply Platform" hidden="false" id="7195-836e-27d3-f5f2" sortIndex="6">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Offshore Supply Platform" hidden="false" id="2547-55ed-3c6f-ecc6" sortIndex="1">
           <constraints>
@@ -7965,7 +7809,7 @@ with the Strategic Asset (1) property." field="info"/>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Providence Merchantman" hidden="false" id="5b26-fca7-f40e-be49" sortIndex="57">
+    <selectionEntry type="unit" import="true" name="Providence Merchantman" hidden="false" id="5b26-fca7-f40e-be49" sortIndex="6">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Providence" hidden="false" id="64c7-7efc-d91d-bd43" sortIndex="1">
           <constraints>
@@ -8123,7 +7967,7 @@ with the Strategic Asset (1) property." field="info"/>
         <entryLink import="true" name="Attachments" hidden="false" id="585e-0c6c-6578-b25d" type="selectionEntryGroup" targetId="ad77-82b3-82f2-6a05" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Europa Grand Conveyor" hidden="false" id="614c-6f11-722b-43f5" sortIndex="52">
+    <selectionEntry type="unit" import="true" name="Europa Grand Conveyor" hidden="false" id="614c-6f11-722b-43f5" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Surface" hidden="false" id="4478-31e2-d8d1-8100" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Logistical" hidden="false" id="dc4b-3dea-59bb-c1b2" targetId="366f-016b-5f80-0c09" primary="true"/>
@@ -8282,7 +8126,7 @@ with the Strategic Asset (1) property." field="info"/>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hermes Supply Freighter" hidden="false" id="cf78-eda7-26c7-12c9" sortIndex="54">
+    <selectionEntry type="unit" import="true" name="Hermes Supply Freighter" hidden="false" id="cf78-eda7-26c7-12c9" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Logistical" hidden="false" id="b029-9da3-0a0c-dcc0" targetId="366f-016b-5f80-0c09" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="e8c1-9895-ab0f-8948" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
@@ -8361,7 +8205,7 @@ with the Strategic Asset (1) property." field="info"/>
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Titan Mass Conveyor" hidden="false" id="0c2e-2775-6d1c-07a9" sortIndex="58">
+    <selectionEntry type="unit" import="true" name="Titan Mass Conveyor" hidden="false" id="0c2e-2775-6d1c-07a9" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Ship" hidden="false" id="d00a-8598-acf9-a2cf" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Logistical" hidden="false" id="5064-0aca-40ef-5af3" targetId="366f-016b-5f80-0c09" primary="true"/>
@@ -8522,7 +8366,7 @@ with the Strategic Asset (1) property." field="info"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ac7-398a-ea43-861d" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Union Fleet Doctrines" hidden="false" id="b73c-de5c-51ce-4036">
+    <selectionEntry type="upgrade" import="true" name="Union Fleet Doctrines" hidden="false" id="b73c-de5c-51ce-4036" sortIndex="-1">
       <categoryLinks>
         <categoryLink name="Fleet Doctrines" hidden="false" id="f58d-17e2-4046-be1b" targetId="eb20-a962-fc6e-ce7f" primary="true"/>
       </categoryLinks>
@@ -8655,142 +8499,7 @@ If there is no other model within 10”, then the Disorder is simply discarded.
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Excelsior Heavy Aircruiser" hidden="false" id="8116-1308-8845-e2da" sortIndex="19">
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Excelsior" hidden="false" id="7aad-5e32-459f-f0e5" sortIndex="1">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="af5f-07af-3616-9d8d" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2b49-09de-e1b7-9b3e" includeChildSelections="false" automatic="true"/>
-          </constraints>
-          <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="185"/>
-            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="6"/>
-          </costs>
-          <profiles>
-            <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="c302-9533-aa37-a657">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-              </characteristics>
-            </profile>
-            <profile name="Dual Harper Autocannon" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="da13-4a75-8336-67eb">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">9</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Sky Strike (2)</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Freedom Incendiary Bombs" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="8c6e-2018-16f5-7c2e">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">A</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Bomb&lt;/span&gt;, Hazard (1)</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a5d8-6984-35e0-c8bb">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="f0dc-24f3-d7ed-1dbd">
-              <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Honorable Eclipse Company Variant" hidden="false" id="84eb-f201-d100-e05f">
-          <constraints>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f492-aeab-14d1-ddd5" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b8f7-d11c-0181-cf0d"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="1" field="f492-aeab-14d1-ddd5">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="remove" value="2c58-03eb-5f76-9d53" field="category" scope="unit"/>
-            <modifier type="add" value="c43c-2362-36ac-f58f" field="category" scope="unit"/>
-          </modifiers>
-        </selectionEntry>
-      </selectionEntries>
-      <profiles>
-        <profile name="Excelsior" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="ce7f-9926-31af-b9cb">
-          <characteristics>
-            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">4</characteristic>
-            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">2&quot;-7&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">3</characteristic>
-            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">6</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">12</characteristic>
-            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
-            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">4</characteristic>
-            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">3</characteristic>
-            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">8</characteristic>
-            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Excelsior" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="270d-8999-8c28-1043">
-          <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Dirigible, Fusillade, Vanguard (5”)</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="append" value="Descend" field="066c-1ce6-091e-90ab" join=", ">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
-        <profile name="Excelsior" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="8192-91db-536a-6357">
-          <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink name="Union" hidden="false" id="d976-e6f9-9ff5-bab8" targetId="2c58-03eb-5f76-9d53" primary="false"/>
-        <categoryLink name="Line" hidden="false" id="855a-cd0c-664f-ba31" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
-        <categoryLink name="Airborne" hidden="false" id="faa0-1564-1e47-ee41" targetId="139e-c78f-43c0-2957" primary="false"/>
-        <categoryLink name="Airship" hidden="false" id="793f-5476-4142-c178" targetId="278c-665b-5dbe-3aad" primary="false"/>
-        <categoryLink name="Attachment host" hidden="false" id="8a25-dc01-d4e9-ad6c" targetId="2251-0def-1b03-2e93" primary="false"/>
-      </categoryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="06dc-f97e-5dce-8c21" includeChildSelections="true"/>
-      </constraints>
-      <entryLinks>
-        <entryLink import="true" name="Escorts" hidden="false" id="478b-4b01-f78d-c5bf" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="7">
-          <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0aa8-8360-9e59-b0cc" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
-        <entryLink import="true" name="Attachments" hidden="false" id="93f4-ec1c-b077-4830" type="selectionEntryGroup" targetId="ad77-82b3-82f2-6a05" sortIndex="6"/>
-      </entryLinks>
-      <modifiers>
-        <modifier type="set-primary" value="2bf9-50e4-5109-0e3b" field="category">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ticonderoga Assault Airship" hidden="false" id="cdf0-5801-8ed9-443e" sortIndex="22">
+    <selectionEntry type="unit" import="true" name="Ticonderoga Assault Airship" hidden="false" id="cdf0-5801-8ed9-443e" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Ticonderoga" hidden="false" id="ac28-42bc-7141-ff21" sortIndex="1">
           <constraints>
@@ -8889,7 +8598,7 @@ If there is no other model within 10”, then the Disorder is simply discarded.
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Defiant Destroyer" hidden="false" id="a1e9-6a06-42c9-2b0b" sortIndex="25">
+    <selectionEntry type="unit" import="true" name="Defiant Destroyer" hidden="false" id="a1e9-6a06-42c9-2b0b" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Defiant" hidden="false" id="fdf0-8bd9-1d74-9792" sortIndex="1">
           <constraints>
@@ -9025,7 +8734,7 @@ If there is no other model within 10”, then the Disorder is simply discarded.
       </entryLinks>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Boston Arc Frigate" hidden="false" id="11ec-e97a-4096-4dc9" sortIndex="45">
+    <selectionEntry type="unit" import="true" name="Boston Arc Frigate" hidden="false" id="11ec-e97a-4096-4dc9" sortIndex="5">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Boston" hidden="false" id="addc-aecb-df0b-9bce" sortIndex="1">
           <constraints>
@@ -10110,4 +9819,185 @@ This is a Mercenary Battlefleet. If this Battlefleet is taken as a Mercenary Bat
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Rules Glossary" id="da5d-f2b3-8a90-4163" targetId="8551-5b95-4980-851f"/>
   </catalogueLinks>
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Excelsior Heavy Aircruiser" hidden="false" id="d6c0-dad5-f2e9-95f5">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Excelsior" hidden="false" id="030f-5f96-b0f4-f0c9" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ac74-5c62-1f47-7602" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e029-537c-3b27-68d1" includeChildSelections="false" automatic="true"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="185"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="6"/>
+          </costs>
+          <profiles>
+            <profile name="Dual Harper Autocannon" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="5543-d539-30c5-5de8">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">9</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Sky Strike (2)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Freedom Incendiary Bombs" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="0ac2-daea-69a6-f7e4">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">A</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Bomb&lt;/span&gt;, Hazard (1)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a076-2217-49aa-d4cb">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+              </characteristics>
+            </profile>
+            <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="3e8d-4993-e98e-c675">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="d1b2-072d-42b7-fe71">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Honorable Eclipse Company Variant" hidden="false" id="af44-5afc-2f46-6072">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f178-19e3-edd8-227b" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c47-ffbd-dc38-8aaa"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="f178-19e3-edd8-227b">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="remove" value="2c58-03eb-5f76-9d53" field="category" scope="unit"/>
+            <modifier type="add" value="c43c-2362-36ac-f58f" field="category" scope="unit"/>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Excelsior" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="e8e4-4063-5fce-8e9a">
+          <characteristics>
+            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">4</characteristic>
+            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">2&quot;-7&quot;</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">3</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">6</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">12</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
+            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">4</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">3</characteristic>
+            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">8</characteristic>
+            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Excelsior" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="c088-0abc-9d84-9722">
+          <characteristics>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Dirigible, Fusillade, Vanguard (5”)</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" value="Descend" field="066c-1ce6-091e-90ab" join=", ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Excelsior" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="912c-d21c-adbf-8563">
+          <characteristics>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Union" hidden="false" id="7227-8c5b-297d-03fa" targetId="2c58-03eb-5f76-9d53" primary="false"/>
+        <categoryLink name="Airborne" hidden="false" id="0134-104f-39f9-59ef" targetId="139e-c78f-43c0-2957" primary="false"/>
+        <categoryLink name="Airship" hidden="false" id="41bd-512f-d02d-c4db" targetId="278c-665b-5dbe-3aad" primary="false"/>
+        <categoryLink name="Attachment host" hidden="false" id="11b1-ce57-b432-d168" targetId="2251-0def-1b03-2e93" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a481-c0ae-9bcf-c757" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Escorts" hidden="false" id="d4ef-e222-66f7-373f" type="selectionEntry" targetId="bd6e-dbef-4baf-e017" sortIndex="7">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="d094-7939-1b6e-5e52" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Attachments" hidden="false" id="47cf-ee6f-d28b-eff7" type="selectionEntryGroup" targetId="ad77-82b3-82f2-6a05" sortIndex="6"/>
+      </entryLinks>
+      <comment>shared</comment>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Excelsior Heavy Aircruiser" hidden="false" id="caed-e639-f7b1-5f32" type="selectionEntry" targetId="d6c0-dad5-f2e9-95f5" sortIndex="1">
+      <comment>FLAGSHIP</comment>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Admiral’s Flag" hidden="false" id="d7a3-4925-0ddc-dd68">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="5"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b69f-b068-3d4f-08e3" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6698-43e2-cb4f-b2df" includeChildSelections="false" automatic="true"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set-primary" value="cac5-b09a-82c3-f814" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="7b97-7934-8fa2-6bb8" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="0551-d3d8-7de1-4996" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="5573-0fde-781b-ae0d" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Airborne Con" hidden="false" id="d91f-eace-89d6-aaa0" targetId="75e0-964e-1a22-94e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Excelsior Heavy Aircruiser" hidden="false" id="cd2e-9553-b1a8-8f5b" type="selectionEntry" targetId="d6c0-dad5-f2e9-95f5" sortIndex="2">
+      <comment>LINE</comment>
+      <modifiers>
+        <modifier type="set-primary" value="2bf9-50e4-5109-0e3b" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Line" hidden="false" id="66d7-5577-af90-21bd" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
 </catalogue>
