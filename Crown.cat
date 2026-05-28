@@ -25,7 +25,7 @@
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: SA" id="ba9c-5148-40df-29fa" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: SA" id="ba9c-5148-40df-29fa" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df95-7e44-95f2-ab6d" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc32-54ef-17a2-eab5" automatic="true"/>
@@ -72,7 +72,7 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="46a0-c456-696d-058a" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="46a0-c456-696d-058a" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="3395-787f-5c69-9999">
                   <profiles>
@@ -135,7 +135,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="3d19-2c0f-6495-feba" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FP" id="c863-0443-920e-9bdd" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FP" id="c863-0443-920e-9bdd" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6556-0d0e-e39a-fcdb" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a46c-21ac-a4c9-47b0" automatic="true"/>
@@ -182,7 +182,7 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: PA" id="04d2-3df6-0313-16c9" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PA" id="04d2-3df6-0313-16c9" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="467d-4b51-9f8f-6025" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4327-fc44-dc3f-34f7" automatic="true"/>
@@ -229,7 +229,7 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FS" id="7fc1-caa3-9efd-4b6e" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FS" id="7fc1-caa3-9efd-4b6e" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ae02-8b05-1eb3-44a6" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f84c-ae42-b073-8981" automatic="true"/>
@@ -276,7 +276,7 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="0c5a-5178-fc3c-14c4" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="0c5a-5178-fc3c-14c4" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="6593-fb4b-beed-0dff">
                   <profiles>
@@ -339,7 +339,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="6443-782b-9c59-da56" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="a0a9-e5ac-ee16-db82" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="a0a9-e5ac-ee16-db82" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="81ac-4ea8-ac1b-18f6">
                   <profiles>
@@ -465,7 +465,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Avalon Skyfortress" hidden="false" id="4108-5224-c588-9fe6" sortIndex="2">
+    <selectionEntry type="unit" import="true" name="Avalon Skyfortress" hidden="false" id="4108-5224-c588-9fe6" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Avalon" hidden="false" id="2249-9267-7407-1992">
           <costs>
@@ -574,11 +574,11 @@
         <entryLink import="true" name="Attachments" hidden="false" id="265e-71df-62f9-9adf" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
         <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+        <cost name="GP" typeId="a9f9-1d81-c3b4-b731" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Britannia Heavy Battleship" hidden="false" id="33bb-f0e4-49ac-6a5f" sortIndex="3">
+    <selectionEntry type="unit" import="true" name="Britannia Heavy Battleship" hidden="false" id="33bb-f0e4-49ac-6a5f" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Britannia" hidden="false" id="1cf4-fa37-69fe-8877" sortIndex="1">
           <costs>
@@ -602,7 +602,7 @@
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="8b80-89d5-cc6d-c38b" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="8b80-89d5-cc6d-c38b" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="ee05-7b24-9dd7-8cc3">
                   <profiles>
@@ -665,7 +665,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="b78d-3268-b7ef-fd46" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="0b83-8d99-2fab-dc3e" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="0b83-8d99-2fab-dc3e" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="c1ff-2983-a177-ded5">
                   <profiles>
@@ -728,7 +728,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="2e6e-9c84-17b0-0494" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="0b9f-5c9c-94dc-7c4d" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="0b9f-5c9c-94dc-7c4d" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="337d-d814-5e42-ad63">
                   <profiles>
@@ -845,7 +845,7 @@
         <categoryLink name="Attachment host" hidden="false" id="f81d-7653-7a46-c98c" targetId="2251-0def-1b03-2e93" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Camelot High Guardian" hidden="false" id="7228-2614-e124-3aa8" sortIndex="4">
+    <selectionEntry type="unit" import="true" name="Camelot High Guardian" hidden="false" id="7228-2614-e124-3aa8" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Camelot" hidden="false" id="5635-858a-8bcd-107e" sortIndex="1">
           <costs>
@@ -869,7 +869,7 @@
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="e76a-1100-1809-c6ec" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="e76a-1100-1809-c6ec" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="6ba1-66c3-131b-a476">
                   <profiles>
@@ -932,7 +932,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="c655-758c-98a9-c7b1" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="d617-1a12-43c1-98a9" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="d617-1a12-43c1-98a9" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="5b92-8003-e480-4b6e">
                   <profiles>
@@ -995,7 +995,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="9124-f00a-bca9-56a1" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="631d-3bfe-1b95-f2dd" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="631d-3bfe-1b95-f2dd" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="66fb-892b-d682-9778">
                   <profiles>
@@ -1112,7 +1112,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="9305-330b-9442-c99c" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ganges Battlecruiser" hidden="false" id="26aa-792e-63fb-0008" sortIndex="5">
+    <selectionEntry type="unit" import="true" name="Ganges Battlecruiser" hidden="false" id="26aa-792e-63fb-0008" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Ganges" hidden="false" id="8080-63a9-d112-692c" sortIndex="1">
           <costs>
@@ -1420,7 +1420,7 @@
         <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Gloriana Dreadnought" hidden="false" id="a19b-d6e2-5b28-d39c" sortIndex="6">
+    <selectionEntry type="unit" import="true" name="Gloriana Dreadnought" hidden="false" id="a19b-d6e2-5b28-d39c" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Gloriana" hidden="false" id="83f2-513f-0daf-c996" sortIndex="1">
           <costs>
@@ -1433,7 +1433,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d69-bc14-64af-4d3b" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FP" id="4415-8b2b-bf3b-4000" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FP" id="4415-8b2b-bf3b-4000" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0264-d451-475f-5278" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a7a-1079-252c-9f85" automatic="true"/>
@@ -1480,7 +1480,7 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FS" id="7022-c074-4563-52a6" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FS" id="7022-c074-4563-52a6" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="faf7-2693-6c4d-1833" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca0d-1b83-1a44-4c3b" automatic="true"/>
@@ -1527,7 +1527,7 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: PA" id="767a-953c-55a6-c183" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PA" id="767a-953c-55a6-c183" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ebe7-004b-7ebd-1c51" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d94-8402-723f-5060" automatic="true"/>
@@ -1574,7 +1574,7 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: SA" id="2a39-e4e4-c45d-228c" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: SA" id="2a39-e4e4-c45d-228c" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="541e-5279-64ba-33b1" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9f6-271a-2939-54d1" automatic="true"/>
@@ -1621,7 +1621,7 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="b005-43a7-f15f-aaa3" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="b005-43a7-f15f-aaa3" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="b2dd-1dae-412a-eb94">
                   <profiles>
@@ -1684,7 +1684,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="ae4c-3246-68e3-912e" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="c150-93e1-4b3f-7088" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="c150-93e1-4b3f-7088" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="0e37-7fd5-0d34-c911">
                   <profiles>
@@ -1747,7 +1747,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="1416-94ab-022c-6bf9" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="3415-3a27-a369-920d" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="3415-3a27-a369-920d" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="c0d2-9fc2-225f-6ad8">
                   <profiles>
@@ -1810,7 +1810,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="86d7-0583-fd32-eb7b" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="29d5-5e19-edfe-0f0d" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="29d5-5e19-edfe-0f0d" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="89e0-6bb0-d027-004d">
                   <profiles>
@@ -1935,7 +1935,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="34fd-2fb3-c9e9-b7e7" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="The Nautilus Legendary Privateer" hidden="false" id="5016-1f74-62ff-0889" sortIndex="7">
+    <selectionEntry type="unit" import="true" name="The Nautilus Legendary Privateer" hidden="false" id="5016-1f74-62ff-0889" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="The Nautilus" hidden="false" id="9127-89a8-b29d-e58a">
           <constraints>
@@ -2020,7 +2020,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Protecteur Submersible Carrier" hidden="false" id="d4dc-ba3f-9617-7c2b" sortIndex="9">
+    <selectionEntry type="unit" import="true" name="Protecteur Submersible Carrier" hidden="false" id="d4dc-ba3f-9617-7c2b" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Protecteur" hidden="false" id="de60-7ad8-49a5-1f55">
           <costs>
@@ -2110,7 +2110,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="131f-6a56-e477-beaf" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="HMCS Tilloch Galt" hidden="false" id="2209-5401-0324-7178" sortIndex="11">
+    <selectionEntry type="unit" import="true" name="HMCS Tilloch Galt" hidden="false" id="2209-5401-0324-7178" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Hmcs Tilloch Galt" hidden="false" id="2534-4da0-a016-8c34" sortIndex="1">
           <costs>
@@ -2123,7 +2123,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1f9-8fa3-3f4f-2682" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="533a-2f69-7f54-938c" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="533a-2f69-7f54-938c" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="c092-55c6-a912-4d5b" sortIndex="1">
                   <profiles>
@@ -2190,7 +2190,7 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="e24d-ea1d-baf2-bc71" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="e24d-ea1d-baf2-bc71" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="d05a-759d-795b-641b" sortIndex="1">
                   <profiles>
@@ -2257,7 +2257,7 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="fd81-95fc-7f7d-bb18" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="fd81-95fc-7f7d-bb18" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="08a5-ed03-8b87-e380" sortIndex="1">
                   <profiles>
@@ -2324,7 +2324,7 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="132c-7bdd-6434-89e1" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="132c-7bdd-6434-89e1" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="3fa8-1273-c17f-2149" sortIndex="1">
                   <profiles>
@@ -2455,7 +2455,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="8112-7e01-5c4a-bca8" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Toronto" hidden="false" id="f131-e436-886c-4b03" sortIndex="12">
+    <selectionEntry type="unit" import="true" name="Toronto" hidden="false" id="f131-e436-886c-4b03" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Toronto" hidden="false" id="ebfb-dcc5-22c5-6cab" sortIndex="1">
           <costs>
@@ -2479,7 +2479,7 @@
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: PSA" id="4be8-4dde-eb8d-d0cf" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PSA" id="4be8-4dde-eb8d-d0cf" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="905b-a37a-2b81-e349" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e36-db50-62f9-3c91" automatic="true"/>
@@ -2526,7 +2526,7 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="99fd-6404-297d-ad61" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="99fd-6404-297d-ad61" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="1324-3b62-49e6-9799">
                   <profiles>
@@ -2550,7 +2550,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="0f8f-0d38-eaca-e412" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="4e52-72a3-f56b-d1f9" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="4e52-72a3-f56b-d1f9" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="bf3f-fcc9-34a4-aec8">
                   <profiles>
@@ -2635,7 +2635,7 @@
         <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Victory Heavy Carrier" hidden="false" id="8cee-6194-8ff3-f7a7" sortIndex="13">
+    <selectionEntry type="unit" import="true" name="Victory Heavy Carrier" hidden="false" id="8cee-6194-8ff3-f7a7" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Victory" hidden="false" id="8494-3d02-76e9-e00a" sortIndex="1">
           <costs>
@@ -2648,7 +2648,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d8a-1859-dd24-3dff" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="914b-5228-7d9b-b01c" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="914b-5228-7d9b-b01c" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="c19c-eaf7-380b-2042">
                   <profiles>
@@ -2682,7 +2682,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1cc9-a469-e29b-80ee" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPA" id="39aa-b661-c168-e64b" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPA" id="39aa-b661-c168-e64b" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="1f33-d514-14b4-8204">
                   <profiles>
@@ -2716,7 +2716,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb02-364d-fd74-5cc5" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FSA" id="b0b3-e73c-3e4a-16fd" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FSA" id="b0b3-e73c-3e4a-16fd" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="9483-b6f6-cede-1aa0">
                   <profiles>
@@ -2812,7 +2812,7 @@
         <infoLink name="Defiance Fighters" id="3c45-d129-af94-3966" hidden="false" type="profile" targetId="6aae-7841-932f-5632"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Albion Cruiser" hidden="false" id="5686-b6ac-5072-e4d1" sortIndex="14">
+    <selectionEntry type="unit" import="true" name="Albion Cruiser" hidden="false" id="5686-b6ac-5072-e4d1" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Albion" hidden="false" id="890c-387e-a463-59bd" sortIndex="1">
           <costs>
@@ -2825,7 +2825,7 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0125-02e7-0172-59a1" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="15dc-bcc0-96f8-d004" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="15dc-bcc0-96f8-d004" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="29ac-10df-5221-c1cf">
                   <profiles>
@@ -2888,7 +2888,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="79ba-d298-f8f3-b5b2" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="60ba-a8dc-74b1-f1c4" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="60ba-a8dc-74b1-f1c4" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="c0c5-9a83-ed39-fbec">
                   <profiles>
@@ -3061,7 +3061,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Bonaventure Cruiser" hidden="false" id="ea74-fce2-808d-fde2" sortIndex="15">
+    <selectionEntry type="unit" import="true" name="Bonaventure Cruiser" hidden="false" id="ea74-fce2-808d-fde2" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Bonaventure" hidden="false" id="1144-da5f-e518-1c64">
           <costs>
@@ -3074,7 +3074,7 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="f984-595e-0127-3d1b" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="be13-6813-f055-f5b8" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="be13-6813-f055-f5b8" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="317b-2436-f72a-9f6d">
                   <profiles>
@@ -3137,7 +3137,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="8fd2-cbcb-c4c1-98a5" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: PSA" id="2145-4c5e-d120-176f" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PSA" id="2145-4c5e-d120-176f" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="acc0-ab1a-6584-65dd" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a00-6fc7-feab-2d7b" automatic="true"/>
@@ -3184,7 +3184,7 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="e6cf-95f6-20d0-5009" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="e6cf-95f6-20d0-5009" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="6805-1e8b-3567-028c">
                   <profiles>
@@ -3310,7 +3310,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Indus Cruiser" hidden="false" id="5a76-7e57-2b3f-fe6b" sortIndex="16">
+    <selectionEntry type="unit" import="true" name="Indus Cruiser" hidden="false" id="5a76-7e57-2b3f-fe6b" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Indus" hidden="false" id="3766-07e4-ad2e-5a36">
           <costs>
@@ -3323,7 +3323,7 @@
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="3174-496c-2a26-9cef" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: PSA" id="8428-5287-d365-9a6e" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PSA" id="8428-5287-d365-9a6e" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d478-1930-a15d-493b" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37f0-3520-c47d-d70f" automatic="true"/>
@@ -3370,7 +3370,7 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="7c08-4a4d-95d9-1808" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="7c08-4a4d-95d9-1808" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="4bbb-a6ae-f489-5ab5">
                   <profiles>
@@ -3491,7 +3491,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Lancelot Heavy Cruiser" hidden="false" id="5451-a17f-1be1-f498" sortIndex="17">
+    <selectionEntry type="unit" import="true" name="Lancelot Heavy Cruiser" hidden="false" id="5451-a17f-1be1-f498" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Lancelot" hidden="false" id="a547-371a-9e7d-be46" sortIndex="1">
           <costs>
@@ -3504,7 +3504,7 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0b34-9b2a-84ff-c040" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="4753-3728-0a2a-0189" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="4753-3728-0a2a-0189" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cab0-44c7-1b87-5afc" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="64ff-6f62-0a61-f945" automatic="true"/>
@@ -3551,7 +3551,7 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="70fc-6302-8a07-3be3" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="70fc-6302-8a07-3be3" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="856b-d954-7ec7-8355">
                   <profiles>
@@ -3614,7 +3614,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="1767-77ba-9469-a107" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="d87d-40ba-bb53-541e" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="d87d-40ba-bb53-541e" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="35db-2f99-b54f-167f">
                   <profiles>
@@ -3765,7 +3765,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="4199-f29c-bbb4-7794" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Nagaraja Cruiser" hidden="false" id="e678-de00-c4bb-f55d" sortIndex="18">
+    <selectionEntry type="unit" import="true" name="Nagaraja Cruiser" hidden="false" id="e678-de00-c4bb-f55d" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Nagaraja" hidden="false" id="eafd-83b6-3d2a-08c0">
           <costs>
@@ -3778,7 +3778,7 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="580d-7939-2880-2981" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: PSA" id="4a40-4b66-1e0d-5ed5" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PSA" id="4a40-4b66-1e0d-5ed5" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5ca2-91e6-3d82-5ec6" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9fbb-69c2-8eb4-e310" automatic="true"/>
@@ -3825,7 +3825,7 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="2eca-8ab9-f21f-cfd9" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="2eca-8ab9-f21f-cfd9" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Majestic Cannons" hidden="false" id="3864-1ecd-0543-e901">
                   <profiles>
@@ -3942,7 +3942,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Newfoundland Cruiser " hidden="false" id="30a4-1a7f-b73c-36aa" sortIndex="19">
+    <selectionEntry type="unit" import="true" name="Newfoundland Cruiser " hidden="false" id="30a4-1a7f-b73c-36aa" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Newfoundland" hidden="false" id="5279-3831-22bc-63b4">
           <costs>
@@ -3955,7 +3955,7 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0409-3a34-f30e-e3f1" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="14a6-0bd3-a112-be62" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="14a6-0bd3-a112-be62" hidden="false" sortIndex="1" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="3c64-a28c-789b-b830">
                   <profiles>
@@ -4018,7 +4018,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="3607-afac-7e6f-e38d" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="aae1-20d2-ee51-8d5b" hidden="false" sortIndex="2">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="aae1-20d2-ee51-8d5b" hidden="false" sortIndex="2" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="8039-9aba-4ddb-29bc">
                   <profiles>
@@ -4162,7 +4162,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Prydain War Rotor " hidden="false" id="df7f-a9e3-48aa-9ebb" sortIndex="20">
+    <selectionEntry type="unit" import="true" name="Prydain War Rotor " hidden="false" id="df7f-a9e3-48aa-9ebb" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Prydain" hidden="false" id="86b1-8ac4-5a99-f2e7">
           <costs>
@@ -4175,7 +4175,7 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a66c-ac68-da5e-0616" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="5623-88a2-0c39-26e2" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="5623-88a2-0c39-26e2" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="eb52-bf4b-74ce-0a9f">
                   <profiles>
@@ -4225,7 +4225,7 @@
                 <entryLink import="true" name="Generators" hidden="false" id="d698-40ff-6ac2-25ac" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="7823-7ae3-9f54-41fa" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="7823-7ae3-9f54-41fa" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="3fad-1b4e-3591-f2b7">
                   <profiles>
@@ -4340,7 +4340,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="54c6-51fc-16e2-52de" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Bedivere Monitor " hidden="false" id="4686-8aa4-b89b-8e7d" sortIndex="21">
+    <selectionEntry type="unit" import="true" name="Bedivere Monitor " hidden="false" id="4686-8aa4-b89b-8e7d" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Bedivere" hidden="false" id="f710-7263-6823-ce18" sortIndex="1">
           <costs>
@@ -4353,7 +4353,7 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="c6ff-8f1c-1a43-cfac" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="baed-f8b5-0cf7-79f9" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="baed-f8b5-0cf7-79f9" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="aec5-8c01-d5ed-faa9">
                   <profiles>
@@ -4492,7 +4492,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="871a-60a5-6d3d-4fef" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Caliburn Frigate " hidden="false" id="9b94-8404-0949-1857" sortIndex="22">
+    <selectionEntry type="unit" import="true" name="Caliburn Frigate " hidden="false" id="9b94-8404-0949-1857" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Caliburn" hidden="false" id="f4ab-5d7b-e3f2-a455" sortIndex="1">
           <costs>
@@ -4505,7 +4505,7 @@
             <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="2b3e-a72d-8b41-d472" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="bdf0-7992-722e-f8d8" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="bdf0-7992-722e-f8d8" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d36c-940c-c971-63d2" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6e9-592a-e6d2-26e1" automatic="true"/>
@@ -4635,7 +4635,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="e1f8-6c73-3074-cfae" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Devaki Monitor" hidden="false" id="7582-6ea4-08c6-bb9e" sortIndex="23">
+    <selectionEntry type="unit" import="true" name="Devaki Monitor" hidden="false" id="7582-6ea4-08c6-bb9e" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Devaki" hidden="false" id="c399-957f-bbd2-17a4">
           <costs>
@@ -4648,7 +4648,7 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="667c-de5f-1bca-f373" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="44df-dc2b-aea4-7e55" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="44df-dc2b-aea4-7e55" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="6740-13b9-1fef-3f72">
                   <profiles>
@@ -4773,7 +4773,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Excalibur Heavy Destroyer" hidden="false" id="1e30-ec5a-703c-b343" sortIndex="24">
+    <selectionEntry type="unit" import="true" name="Excalibur Heavy Destroyer" hidden="false" id="1e30-ec5a-703c-b343" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Excalibur" hidden="false" id="269e-a6c4-a06b-c742" sortIndex="1">
           <costs>
@@ -4786,7 +4786,7 @@
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="e37c-284a-c828-2ae0" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: PSA" id="4413-e3cc-a569-5198" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PSA" id="4413-e3cc-a569-5198" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8f8c-8f92-23e9-83c8" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f98-29a2-629d-65fd" automatic="true"/>
@@ -4843,7 +4843,7 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="af7a-a7b7-7960-e5fc" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="af7a-a7b7-7960-e5fc" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a100-ab52-c10f-9cf1" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b0d-6311-2500-5967" automatic="true"/>
@@ -4991,7 +4991,7 @@
       </categoryLinks>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Godavari Cruiser" hidden="false" id="6d8b-4380-9735-0770" sortIndex="25">
+    <selectionEntry type="unit" import="true" name="Godavari Cruiser" hidden="false" id="6d8b-4380-9735-0770" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Godavari" hidden="false" id="fd65-63d7-aa2b-c99d">
           <costs>
@@ -5024,7 +5024,7 @@
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="87c4-c33d-0b37-c00f" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="87c4-c33d-0b37-c00f" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Majestic Cannons" hidden="false" id="f21b-dae3-c1ef-b679" sortIndex="1">
                   <profiles>
@@ -5150,7 +5150,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Tintagel Battle Rotor" hidden="false" id="ecd0-e2c0-9abe-52d9" sortIndex="28">
+    <selectionEntry type="unit" import="true" name="Tintagel Battle Rotor" hidden="false" id="ecd0-e2c0-9abe-52d9" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Tintagel" hidden="false" id="b302-f312-79e5-40b7">
           <costs>
@@ -5163,7 +5163,7 @@
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="19b2-ffd8-522d-1d00" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPSA" id="d233-e179-4a11-760e" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPSA" id="d233-e179-4a11-760e" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="00cc-31cf-3bb8-b6d1" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="68c0-8a7e-0536-7950" automatic="true"/>
@@ -5267,7 +5267,7 @@
         <categoryLink name="Rotorcraft" hidden="false" id="30bc-1ad6-f4a9-129a" targetId="69e5-b347-ebd9-4efe" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Picton Light Patrol Cruiser " hidden="false" id="3700-de9b-8817-d808" sortIndex="26">
+    <selectionEntry type="unit" import="true" name="Picton Light Patrol Cruiser " hidden="false" id="3700-de9b-8817-d808" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Picton" hidden="false" id="607f-1c8c-32a1-08bd" sortIndex="1">
           <costs>
@@ -5280,7 +5280,7 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="b4e0-9930-a558-52dc" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="a034-d4ce-359b-643a" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="a034-d4ce-359b-643a" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a815-7281-6469-3c61" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="edc7-9eca-6402-9c94" automatic="true"/>
@@ -5327,7 +5327,7 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="1ac4-1a85-a394-e5a7" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="1ac4-1a85-a394-e5a7" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="d407-0259-f885-c8eb">
                   <profiles>
@@ -5466,7 +5466,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="e9f8-3721-2c8d-14d8" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Secace Fast Destroyer" hidden="false" id="4fd3-9de6-45cb-be80" sortIndex="27">
+    <selectionEntry type="unit" import="true" name="Secace Fast Destroyer" hidden="false" id="4fd3-9de6-45cb-be80" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Secace" hidden="false" id="8603-b8a3-37bc-1b6c">
           <costs>
@@ -5543,7 +5543,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="b65b-efcf-1d2c-9c8a" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Agincourt Bombardment Cruiser" hidden="false" id="9fdd-e0ba-0465-ba71" sortIndex="29">
+    <selectionEntry type="unit" import="true" name="Agincourt Bombardment Cruiser" hidden="false" id="9fdd-e0ba-0465-ba71" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Agincourt" hidden="false" id="1ccc-bda3-6682-6a57">
           <costs>
@@ -5556,7 +5556,7 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="ced1-bca0-d6b3-4d8b" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="cfae-c652-3074-1021" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="cfae-c652-3074-1021" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3338-5230-97e7-f43f" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7269-c2dc-36c7-1fd1" automatic="true"/>
@@ -5668,7 +5668,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="4891-af3b-1375-54f7" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Athelstan Flak Cruiser" hidden="false" id="ce16-8cce-d3d2-3dd2" sortIndex="30">
+    <selectionEntry type="unit" import="true" name="Athelstan Flak Cruiser" hidden="false" id="ce16-8cce-d3d2-3dd2" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Athelstan" hidden="false" id="67a7-bddd-09a3-4f1e">
           <costs>
@@ -5688,7 +5688,7 @@
             </modifier>
           </modifiers>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="bae1-96c1-3890-f2cf" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="bae1-96c1-3890-f2cf" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="de08-de34-3495-a372" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b31-d6e1-6ce1-88c2" automatic="true"/>
@@ -5806,7 +5806,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ceylon Guardian Platform" hidden="false" id="fcad-0e81-3f0b-8c80" sortIndex="31">
+    <selectionEntry type="unit" import="true" name="Ceylon Guardian Platform" hidden="false" id="fcad-0e81-3f0b-8c80" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Ceylon" hidden="false" id="53dd-3682-65d8-a385" sortIndex="1">
           <costs>
@@ -5826,10 +5826,10 @@
             </modifier>
           </modifiers>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPSA" id="7a05-dc6a-c87c-42a5" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPSA" id="7a05-dc6a-c87c-42a5" hidden="false" collapsible="true">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0984-3e76-3adf-e317" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0d7-fb9b-3897-6417" automatic="true"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0984-3e76-3adf-e317" automatic="true"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c0d7-fb9b-3897-6417" automatic="true"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="d0e6-1fdd-58ef-3af8">
@@ -5861,53 +5861,6 @@
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="6307-aab4-2883-e3b8">
                   <profiles>
                     <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="1a43-872e-2a32-8673">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPSA" id="5207-86dc-9c69-aafb" hidden="false">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a465-4c3d-c96c-b46d" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f86e-519c-7846-e95a" automatic="true"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="3063-4bc2-68cb-65c1">
-                  <profiles>
-                    <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a6d3-c0bf-5a55-a527">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light Swift Torpedo Turret" hidden="false" id="4bee-b68f-eb5e-0e95">
-                  <profiles>
-                    <profile name="Light Swift Torpedo Turret" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4648-25ed-0310-5e51">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Piercing (1), Torpedo</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="8f59-769d-0f85-8c2e">
-                  <profiles>
-                    <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="3c84-2880-1065-e440">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
@@ -6019,7 +5972,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Chanura Repairship " hidden="false" id="adf3-61f0-2614-4a1a" sortIndex="42">
+    <selectionEntry type="unit" import="true" name="Chanura Repairship " hidden="false" id="adf3-61f0-2614-4a1a" sortIndex="6">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Chanura" hidden="false" id="803e-2ef4-f85f-2606">
           <costs>
@@ -6032,7 +5985,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="668b-a440-7a25-0d9c" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="bd4f-5134-dc68-448a" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="bd4f-5134-dc68-448a" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="6142-3642-a66d-9b2c">
                   <profiles>
@@ -6145,7 +6098,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Heavy Platform Dublin Class" hidden="false" id="39b3-dbd5-5363-da23" sortIndex="34">
+    <selectionEntry type="unit" import="true" name="Heavy Platform Dublin Class" hidden="false" id="39b3-dbd5-5363-da23" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Heavy Platform" hidden="false" id="ee87-0c39-17ae-2ee4" sortIndex="1">
           <costs>
@@ -6158,7 +6111,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c9b-466e-93f2-5138" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="878c-be94-e6ed-769e" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="878c-be94-e6ed-769e" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="88ab-901d-9820-1625">
                   <profiles>
@@ -6218,7 +6171,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f1b-3166-31d4-c202" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="de95-f7f2-23ac-3832" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="de95-f7f2-23ac-3832" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="29f3-06ab-a8b7-0883">
                   <profiles>
@@ -6378,7 +6331,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Grail Bombardment Cruiser" hidden="false" id="922c-7084-20b5-1a0f" sortIndex="32">
+    <selectionEntry type="unit" import="true" name="Grail Bombardment Cruiser" hidden="false" id="922c-7084-20b5-1a0f" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Grail" hidden="false" id="6d9c-2f76-26dc-e79c">
           <costs>
@@ -6454,7 +6407,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="dce8-9c87-215b-83bf" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Guinevere Submarine" hidden="false" id="3c3c-7654-a974-516d" sortIndex="33">
+    <selectionEntry type="unit" import="true" name="Guinevere Submarine" hidden="false" id="3c3c-7654-a974-516d" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Guinevere" hidden="false" id="12a0-9226-4586-2635">
           <costs>
@@ -6539,7 +6492,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="2f97-d484-ef60-4113" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Igraine Support Cruiser" hidden="false" id="2556-9764-1760-cde2" sortIndex="36">
+    <selectionEntry type="unit" import="true" name="Igraine Support Cruiser" hidden="false" id="2556-9764-1760-cde2" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Igraine" hidden="false" id="451d-737d-32b9-1097" sortIndex="1">
           <costs>
@@ -6637,7 +6590,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hotspur Support Carrier" hidden="false" id="0303-3697-1d49-7eb7" sortIndex="35">
+    <selectionEntry type="unit" import="true" name="Hotspur Support Carrier" hidden="false" id="0303-3697-1d49-7eb7" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Hotspur" hidden="false" id="fc03-a0a1-4325-1dfd" sortIndex="1">
           <costs>
@@ -6668,7 +6621,7 @@
             </modifier>
           </modifiers>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="4e1f-1575-36c4-ba81" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="4e1f-1575-36c4-ba81" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e683-814d-356f-fdc0" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5aba-17d0-f61a-5069" automatic="true"/>
@@ -6794,7 +6747,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="ce8e-8e51-5ec2-f6cf" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Defence Platform Ross Class" hidden="false" id="05d0-c353-ff76-34a6" sortIndex="32">
+    <selectionEntry type="unit" import="true" name="Defence Platform Ross Class" hidden="false" id="05d0-c353-ff76-34a6" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Defence Platform" hidden="false" id="fe5c-9e81-a2b4-3b7a" sortIndex="1">
           <costs>
@@ -6807,7 +6760,7 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="885d-6265-1d23-c8e5" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="236b-4ee3-5fa2-2184" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="236b-4ee3-5fa2-2184" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="df9e-3f6e-91cd-fa08">
                   <profiles>
@@ -6971,7 +6924,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Morgana Assault Submarine" hidden="false" id="6c34-bb72-ab2a-370e" sortIndex="39">
+    <selectionEntry type="unit" import="true" name="Morgana Assault Submarine" hidden="false" id="6c34-bb72-ab2a-370e" sortIndex="5">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Morgana" hidden="false" id="ae7d-0c52-e51c-77d2">
           <costs>
@@ -7047,7 +7000,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="a4dc-5d74-c5bc-d947" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Orca Hunter Submarine" hidden="false" id="de2b-17a5-aadf-ee66" sortIndex="40">
+    <selectionEntry type="unit" import="true" name="Orca Hunter Submarine" hidden="false" id="de2b-17a5-aadf-ee66" sortIndex="5">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Orca" hidden="false" id="333f-60f6-aa0d-fd22">
           <costs>
@@ -7122,7 +7075,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Saxon Scout Rotor" hidden="false" id="bc9d-27b9-5607-776b" sortIndex="41">
+    <selectionEntry type="unit" import="true" name="Saxon Scout Rotor" hidden="false" id="bc9d-27b9-5607-776b" sortIndex="5">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Saxon" hidden="false" id="b874-4515-0c41-8f2e">
           <costs>
@@ -7206,7 +7159,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Supply Platform Belfast Class" hidden="false" id="f0c2-3ba5-d6df-c168" sortIndex="45">
+    <selectionEntry type="unit" import="true" name="Supply Platform Belfast Class" hidden="false" id="f0c2-3ba5-d6df-c168" sortIndex="6">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Supply Platform" hidden="false" id="4bb4-c652-2ab8-4d6b" sortIndex="1">
           <costs>
@@ -7300,7 +7253,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Titan Mass Conveyor" hidden="false" id="c572-7b64-68d3-5da9" sortIndex="46">
+    <selectionEntry type="unit" import="true" name="Titan Mass Conveyor" hidden="false" id="c572-7b64-68d3-5da9" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Ship" hidden="false" id="fe74-df0e-31df-e366" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Logistical" hidden="false" id="dc46-e97f-354f-1a24" targetId="366f-016b-5f80-0c09" primary="true"/>
@@ -7366,7 +7319,7 @@
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Titan Mass Conveyor" hidden="false" id="b0dd-5f36-2310-7541" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="9517-3222-a897-706a" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="9517-3222-a897-706a" hidden="false" sortIndex="1" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="013d-2d49-d78c-7871" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a5cb-7530-19f5-43f6" automatic="true"/>
@@ -7464,7 +7417,7 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="dd91-eca2-1cd7-71b9" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hermes Supply Freighter" hidden="false" id="85f0-3249-9d6d-e7d0" sortIndex="44">
+    <selectionEntry type="unit" import="true" name="Hermes Supply Freighter" hidden="false" id="85f0-3249-9d6d-e7d0" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Logistical" hidden="false" id="b208-8675-b5c5-bc60" targetId="366f-016b-5f80-0c09" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="2680-f41f-ddd8-1fc0" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
@@ -7547,7 +7500,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Europa Grand Conveyor" hidden="false" id="dbe7-0b6c-8c94-86f1" sortIndex="43">
+    <selectionEntry type="unit" import="true" name="Europa Grand Conveyor" hidden="false" id="dbe7-0b6c-8c94-86f1" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Surface" hidden="false" id="01ca-d6e9-14a3-a808" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Logistical" hidden="false" id="c4a1-29bb-817c-03cb" targetId="366f-016b-5f80-0c09" primary="true"/>
@@ -7564,7 +7517,7 @@
             <cost name="GP" typeId="a9f9-1d81-c3b4-b731" value="0"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="f122-5faf-bec2-4d52" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="f122-5faf-bec2-4d52" hidden="false" sortIndex="1" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="777b-b23a-297f-80e7" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38e6-6da3-b878-b7c2" automatic="true"/>
@@ -7710,7 +7663,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Crown Fleet Doctrines" hidden="false" id="874e-b2aa-d55c-0721">
+    <selectionEntry type="upgrade" import="true" name="Crown Fleet Doctrines" hidden="false" id="874e-b2aa-d55c-0721" sortIndex="-1">
       <categoryLinks>
         <categoryLink name="Fleet Doctrines" hidden="false" id="d89d-bcf5-0f41-b24e" targetId="eb20-a962-fc6e-ce7f" primary="true"/>
       </categoryLinks>
@@ -7940,7 +7893,7 @@ If they do so, the model gains the Ablative Armour (2) property. If the model a
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Halifax Shield Cruiser" hidden="false" id="f1b0-8b08-15a2-e320" sortIndex="34">
+    <selectionEntry type="unit" import="true" name="Halifax Shield Cruiser" hidden="false" id="f1b0-8b08-15a2-e320" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Halifax" hidden="false" id="4be2-e5da-3442-f850">
           <costs>
@@ -7953,7 +7906,7 @@ If they do so, the model gains the Ablative Armour (2) property. If the model a
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="4f35-4407-0f1e-f142" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="b0c5-500d-73a3-b3ca" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="b0c5-500d-73a3-b3ca" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="a4c1-d351-cec6-d633">
                   <profiles>
@@ -8013,7 +7966,7 @@ If they do so, the model gains the Ablative Armour (2) property. If the model a
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2379-a13b-9efe-9036" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="a93b-daa8-1d01-744e" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="a93b-daa8-1d01-744e" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="79e2-be4f-ff0e-a103">
                   <profiles>
@@ -8136,7 +8089,7 @@ If they do so, the model gains the Ablative Armour (2) property. If the model a
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Lady Ragnell Heavy Submarine" hidden="false" id="6d18-bda2-bb94-cc60" sortIndex="16">
+    <selectionEntry type="unit" import="true" name="Lady Ragnell Heavy Submarine" hidden="false" id="6d18-bda2-bb94-cc60" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Lady Ragnell" hidden="false" id="dd8e-ab82-cbbd-ff77">
           <costs>
@@ -8149,7 +8102,7 @@ If they do so, the model gains the Ablative Armour (2) property. If the model a
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="e6ce-cf1d-7d91-0dbb" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: F" id="96ba-a68c-23ee-9f29" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: F" id="96ba-a68c-23ee-9f29" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Majestic Cannons" hidden="false" id="0ef9-6006-e091-1a62">
                   <profiles>
@@ -8250,7 +8203,7 @@ If they do so, the model gains the Ablative Armour (2) property. If the model a
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Gharial Hovercraft" hidden="false" id="5f22-e340-fdb3-ca66" sortIndex="24">
+    <selectionEntry type="unit" import="true" name="Gharial Hovercraft" hidden="false" id="5f22-e340-fdb3-ca66" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Gharial" hidden="false" id="8fd6-4c3b-cb48-eb84" sortIndex="1">
           <costs>
@@ -8263,7 +8216,7 @@ If they do so, the model gains the Ablative Armour (2) property. If the model a
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="2deb-f051-2c17-cdc4" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Light Hardpoint: FS" id="dd46-f8f8-99a3-2e25" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FS" id="dd46-f8f8-99a3-2e25" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7caa-2660-62ed-ea76" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87e2-9d0d-8ed5-229a" automatic="true"/>
@@ -8310,7 +8263,7 @@ If they do so, the model gains the Ablative Armour (2) property. If the model a
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="bc3c-dde8-3ac8-5722" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="bc3c-dde8-3ac8-5722" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9894-042f-3232-cdef" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d7bb-6215-b19e-92ae" automatic="true"/>
@@ -8357,7 +8310,7 @@ If they do so, the model gains the Ablative Armour (2) property. If the model a
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FP" id="1153-456d-397f-7f95" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FP" id="1153-456d-397f-7f95" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5d0f-6a43-1a44-1340" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f38-516b-6fff-b5e2" automatic="true"/>
@@ -8462,7 +8415,7 @@ If they do so, the model gains the Ablative Armour (2) property. If the model a
         <entryLink import="true" name="Attachments" hidden="false" id="3155-f4d1-af88-9df5" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Inuit Strike Rotor" hidden="false" id="08a1-f106-ca76-f640" sortIndex="25">
+    <selectionEntry type="unit" import="true" name="Inuit Strike Rotor" hidden="false" id="08a1-f106-ca76-f640" sortIndex="3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Inuit" hidden="false" id="64ea-8223-6006-bd14">
           <costs>
@@ -8546,7 +8499,7 @@ If they do so, the model gains the Ablative Armour (2) property. If the model a
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Laudine Bombardment Submarine" hidden="false" id="dacb-73a8-1d4c-d029" sortIndex="37">
+    <selectionEntry type="unit" import="true" name="Laudine Bombardment Submarine" hidden="false" id="dacb-73a8-1d4c-d029" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Laudine" hidden="false" id="55f5-2537-1b0b-bb6d">
           <costs>
@@ -8638,7 +8591,7 @@ If they do so, the model gains the Ablative Armour (2) property. If the model a
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Vivienne Flak Submarine" hidden="false" id="b622-a4e2-ea06-04e3" sortIndex="37">
+    <selectionEntry type="unit" import="true" name="Vivienne Flak Submarine" hidden="false" id="b622-a4e2-ea06-04e3" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Vivienne" hidden="false" id="b81d-e07d-7486-e932">
           <costs>
@@ -8730,7 +8683,7 @@ If they do so, the model gains the Ablative Armour (2) property. If the model a
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Isolde Torpedo Submarine" hidden="false" id="e822-7e92-fc4a-e5b5" sortIndex="38">
+    <selectionEntry type="unit" import="true" name="Isolde Torpedo Submarine" hidden="false" id="e822-7e92-fc4a-e5b5" sortIndex="5">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Isolde" hidden="false" id="f9f5-950a-4790-4268">
           <costs>
@@ -9485,7 +9438,7 @@ If they do so, each model in The Lords Hood gains 1 level of Disorder.</descrip
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6940-b9da-8934-3ab9" automatic="true"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="2f7a-3cc7-ad91-fa00" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="2f7a-3cc7-ad91-fa00" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="01eb-16da-6bb1-6db6">
                   <profiles>
@@ -9548,7 +9501,7 @@ If they do so, each model in The Lords Hood gains 1 level of Disorder.</descrip
                 <entryLink import="true" name="Generators" hidden="false" id="7870-ea6d-2a77-bd9d" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: PSA" id="4a4f-8fd7-80b7-c0e7" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PSA" id="4a4f-8fd7-80b7-c0e7" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="68ac-3ec6-a2cf-61cd" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b35-7c8c-6096-4c20" automatic="true"/>
@@ -9595,7 +9548,7 @@ If they do so, each model in The Lords Hood gains 1 level of Disorder.</descrip
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="dc28-87d6-d928-4738" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="dc28-87d6-d928-4738" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5d8d-3f2a-725d-0500" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2381-d13c-b9ce-c7b2" automatic="true"/>
@@ -9739,7 +9692,7 @@ If they do so, each model in The Lords Hood gains 1 level of Disorder.</descrip
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="3ad8-a2f8-cdec-f11a" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="3ad8-a2f8-cdec-f11a" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="39dc-95b5-9af3-977b">
                   <profiles>
@@ -9810,7 +9763,7 @@ If they do so, each model in The Lords Hood gains 1 level of Disorder.</descrip
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="478f-b389-b171-88f8" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="478f-b389-b171-88f8" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="034f-bc2b-6603-072a" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e48-a715-06aa-4d22" automatic="true"/>
@@ -9857,7 +9810,7 @@ If they do so, each model in The Lords Hood gains 1 level of Disorder.</descrip
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="f192-2be7-6137-0e90" hidden="false">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="f192-2be7-6137-0e90" hidden="false" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="bf37-0aa0-a393-043b">
                   <profiles>
@@ -10046,7 +9999,7 @@ If they do so, each model in The Lords Hood gains 1 level of Disorder.</descrip
     <costType name="GP" id="a9f9-1d81-c3b4-b731" defaultCostLimit="-1"/>
   </costTypes>
   <entryLinks>
-    <entryLink import="true" name="Palashi Indiaman" hidden="true" id="f117-e27b-a9c4-b770" type="selectionEntry" targetId="0881-fcd9-9df5-f217" sortIndex="13">
+    <entryLink import="true" name="Palashi Indiaman" hidden="true" id="f117-e27b-a9c4-b770" type="selectionEntry" targetId="0881-fcd9-9df5-f217" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Line" hidden="false" id="91b9-fbe5-d9fd-0d42" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
         <categoryLink name="Indian Raj Line" hidden="false" id="2c9f-016f-f885-2295" targetId="85bc-4fd7-5224-8344" primary="false"/>
@@ -10069,7 +10022,7 @@ If they do so, each model in The Lords Hood gains 1 level of Disorder.</descrip
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Palashi Indiaman" hidden="false" id="8fd2-f7e5-bc88-bee8" type="selectionEntry" targetId="0881-fcd9-9df5-f217" sortIndex="8">
+    <entryLink import="true" name="Palashi Indiaman" hidden="false" id="8fd2-f7e5-bc88-bee8" type="selectionEntry" targetId="0881-fcd9-9df5-f217" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="9176-7692-5504-f0ec" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="EITC Flagship" hidden="false" id="238d-4ee3-78d0-b92f" targetId="8788-012d-a112-2ccf" primary="false"/>
@@ -10082,12 +10035,12 @@ If they do so, each model in The Lords Hood gains 1 level of Disorder.</descrip
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Sabre Command Cruiser" hidden="false" id="cd06-a256-d99b-e930" type="selectionEntry" targetId="9cd4-a44c-4f2e-f986" sortIndex="10">
+    <entryLink import="true" name="Sabre Command Cruiser" hidden="false" id="cd06-a256-d99b-e930" type="selectionEntry" targetId="9cd4-a44c-4f2e-f986" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="2a77-a235-53fa-bcea" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Sabre Command Cruiser" hidden="false" id="af83-8c8a-1b4a-39e9" type="selectionEntry" targetId="9cd4-a44c-4f2e-f986" sortIndex="10">
+    <entryLink import="true" name="Sabre Command Cruiser" hidden="false" id="af83-8c8a-1b4a-39e9" type="selectionEntry" targetId="9cd4-a44c-4f2e-f986" sortIndex="1">
       <modifiers>
         <modifier type="set" value="The Lords Hood" field="name"/>
       </modifiers>
