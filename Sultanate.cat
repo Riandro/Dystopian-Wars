@@ -3163,7 +3163,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink import="true" name="Generators" hidden="false" id="0029-2480-06e4-efde" type="selectionEntryGroup" targetId="68d9-1c01-bf2d-8f49"/>
+            <entryLink import="true" name="Generators" hidden="false" id="0029-2480-06e4-efde" type="selectionEntryGroup" targetId="5ef5-232e-411c-ee62"/>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -10248,12 +10248,6 @@ When it is fielded in this way, all of its units must still be chosen from this 
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <entryLinks>
-    <entryLink import="true" name="Lotan Myriapoda Colossus" hidden="false" id="bc47-fe39-1b34-0991" type="selectionEntry" targetId="2ea3-c1be-060c-b9ca" sortIndex="7">
-      <categoryLinks>
-        <categoryLink name="Enlightened Underwater Automata " hidden="false" id="197b-d4e4-e884-c168" targetId="2330-32fd-ec86-5236" primary="true"/>
-        <categoryLink name="Crimson League" hidden="false" id="e6a3-5196-7fab-eb5f" targetId="a16d-413b-12d5-137c" primary="false"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink import="true" name="Ketos Myriapoda Colossus" hidden="false" id="a696-4a8d-e335-85d9" type="selectionEntry" targetId="048e-48e5-ad80-0e4c" sortIndex="7">
       <categoryLinks>
         <categoryLink name="Enlightened Underwater Automata " hidden="false" id="7a77-9702-5727-9033" targetId="2330-32fd-ec86-5236" primary="true"/>
