@@ -629,7 +629,7 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3b0d-a4dc-9372-b417" includeChildSelections="true" automatic="false"/>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="3b0d-a4dc-9372-b417" includeChildSelections="true" automatic="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ff4-de44-41fe-9db0" includeChildSelections="true" automatic="true"/>
       </constraints>
     </selectionEntryGroup>
@@ -751,6 +751,483 @@ to all models in the unit.</description>
           </modifiers>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Generators" id="68d9-1c01-bf2d-8f49" hidden="false" collapsible="true">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Interphase Generator" hidden="true" id="b5a3-04c9-b967-a990">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="25"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Interphase Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="62ee-a2ed-cd6b-e4b1"/>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="unit" childId="d3bc-76cc-5efc-b06e" shared="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="unit" childId="76e0-cc70-4f0e-a931" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Interphase Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="76e0-cc70-4f0e-a931" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="45da-d3e8-061f-8fb4"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Atomic Generator" hidden="false" id="0391-353d-e18d-2a99">
+          <profiles>
+            <profile name="Atomic Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="6c0d-3556-4026-8392"/>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="5"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="unit" childId="476a-e46d-4ab3-da6f" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="unit" childId="6ad6-48d6-db5c-84e4" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Atomic Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+            <modifier type="set" value="0" field="9d22-b7e4-ccc7-7485"/>
+            <modifier type="set" value="0" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5190-e9fa-9afa-172d" shared="true" childName="Mihrimah" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9d22-b7e4-ccc7-7485"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Guardian Generator (2)" hidden="true" id="c476-0c93-343b-44a0">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="GP" typeId="a9f9-1d81-c3b4-b731" value="2"/>
+          </costs>
+          <profiles>
+            <profile name="Guardian Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="2edb-b799-eea7-3d81"/>
+          </profiles>
+          <modifiers>
+            <modifier type="append" value="Guardian Generator (2)" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="d889-437c-7878-d5ba" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="ee1b-34ec-7402-160c" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="eb8f-9cbb-b11f-1138"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Repulsion Generator" hidden="false" id="16f8-78f1-c0af-6d47">
+          <profiles>
+            <profile name="Repulsion Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="f74b-a4ab-095f-b9a3"/>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="unit" childId="139e-c78f-43c0-2957" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="unit" childId="c636-bf34-4555-99bc" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="unit" childId="476a-e46d-4ab3-da6f" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="unit" childId="d889-437c-7878-d5ba" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="unit" childId="401d-07db-b6e3-82a7" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Repulsion Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+            <modifier type="set" value="0" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5190-e9fa-9afa-172d" shared="true" childName="Mihrimah" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c3d3-b481-00ea-95dc"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Shroud Generator" hidden="false" id="2da4-edd4-54ec-3ea9">
+          <profiles>
+            <profile name="Shroud Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="98d7-5c86-1e78-3019"/>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="append" value="Shroud Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="4069-a277-355d-ae72" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5190-e9fa-9afa-172d" shared="true" childName="Mihrimah" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d9e2-6bd1-b692-b5b7"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Solex Generator " hidden="true" id="a01a-df0e-208b-9455">
+          <profiles>
+            <profile name="Solex Generator " typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="e3d1-d14a-af89-4255"/>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="b81b-c372-001c-2710" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Solex Generator " field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="f579-ee32-2e81-d251" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9b78-07c9-44a8-33e4"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Trident Generator" hidden="true" id="c443-c5f5-0fb0-e84e">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Trident Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="3a64-fd08-1160-381f"/>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="d889-437c-7878-d5ba" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Trident Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="481d-3241-3b6e-c0c0" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="f460-ab26-45cb-fd97"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Great Wall Generator" hidden="true" id="cb1d-90f1-0304-c66d">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Great Wall Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="74d1-55e9-e106-4a12"/>
+          </profiles>
+          <modifiers>
+            <modifier type="append" value="Great Wall Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="d3bc-76cc-5efc-b06e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="fa05-3cea-45b9-c91f" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a918-915c-7377-5a75"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Heavy Shield Generator" hidden="false" id="5bfc-d388-6987-1b13">
+          <profiles>
+            <profile name="Heavy Shield Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="866a-97c2-7657-b916"/>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="unit" childId="9078-b6da-8d59-9fec" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="unit" childId="d889-437c-7878-d5ba" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="append" value="Heavy Shield Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+            <modifier type="set" value="0" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5190-e9fa-9afa-172d" shared="true" childName="Mihrimah" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e092-1e29-e2dc-3a43"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Magnetic Generator" hidden="false" id="e09a-b03c-23e5-c41e">
+          <profiles>
+            <profile name="Magnetic Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="77ab-97b1-47fe-1668"/>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="append" value="Magnetic Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="f114-4bae-9e5b-c9fd" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5190-e9fa-9afa-172d" shared="true" childName="Mihrimah" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="dbf1-a239-2f86-bfb0"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Chrono Generator" hidden="true" id="a664-ef1f-2e81-4d77">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Chrono Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="e560-2e2c-f842-dc3b"/>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="5df2-bc66-57ad-0a5b" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Chrono Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="047c-73c0-89c8-f01f" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a730-ec41-a633-1b75"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Fury Generator" hidden="false" id="7452-0d0e-537f-87b5">
+          <profiles>
+            <profile name="Fury Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="8eaa-5e59-22dc-b7d3"/>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="append" value="Fury Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="6c3a-1e64-fcc8-bb6c" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5190-e9fa-9afa-172d" shared="true" childName="Mihrimah" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7238-509a-6c9a-c522"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Langsam Generator" hidden="true" id="6795-c79b-5f90-6cd5">
+          <profiles>
+            <profile name="Langsam Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="df7e-8ed5-230f-bf91"/>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="efb4-747e-0463-9b2c" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Langsam Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="4cfa-d98d-05ef-a274" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0715-6339-962d-ddbf"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Mirage Generator" hidden="true" id="48ad-88e7-0723-d765">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Mirage Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="9994-7efe-06ce-bb8a"/>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="cd78-6cd9-35ad-756e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Mirage Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="4cfa-d98d-05ef-a274" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5190-e9fa-9afa-172d" shared="true" childName="Mihrimah" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7f22-1e37-05ec-d6f4"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Null-Clone Generator" hidden="true" id="f77c-dbc2-f98a-48fb">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Null-Clone Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="682e-2842-dc7b-09f5"/>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="5df2-bc66-57ad-0a5b" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Null-Clone Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="1251-fac6-d468-621c" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="76e3-7143-6cf5-f7a3"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Portal Generator" hidden="true" id="c46c-7503-676a-6c4c">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Portal Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="a670-dcb3-5efb-2347"/>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="cd78-6cd9-35ad-756e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Portal Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="9ac6-3417-ec6f-cba6" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5190-e9fa-9afa-172d" shared="true" childName="Mihrimah" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b7f1-1608-4d30-e9b5"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Magma Cast Generator" hidden="true" id="81b4-ad9f-05d4-744e">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="35"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5ad9-7a66-697b-12d7" includeChildSelections="true" automatic="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="25fe-dae0-4930-573b" includeChildSelections="false" automatic="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="append" value="Magma Cast Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="profiles.Systems" join=", "/>
+            <modifier type="set" value="45" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7cb7-ba18-609f-2720" shared="true" childName="Magmafleet"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="d3bc-76cc-5efc-b06e" shared="true" childName="Empire"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="count" min="2" max="2">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="7cb7-ba18-609f-2720" shared="true" childName="Magmafleet"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="3658-a9c4-c9e8-2734" shared="true" childName="MagmaGen"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="ea4c-51e2-2400-1cb6" includeChildSelections="true" automatic="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d64-c642-bcaf-b55c" includeChildSelections="true" automatic="true"/>
+      </constraints>
+      <comment>for bastard boats</comment>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
