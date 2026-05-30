@@ -8118,7 +8118,7 @@ If they do so, the model gains the Ablative Armour (2) property. If the model a
           <modifiers>
             <modifier type="append" value="Trident Generator" field="a14c-99af-eb72-2d3d" join=", ">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="8156-1ee3-fa06-993e" shared="true" childName="Trident Generator"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="8156-1ee3-fa06-993e" shared="true" childName="Trident Generator" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
