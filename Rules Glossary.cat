@@ -3115,6 +3115,14 @@ If this would take the model above 3 Disorder, it only counts as having gained e
 
 Then, every model (friend or foe) within 3” of the chosen Portal marker suffers Damage equal to the amount of Disorder gained by the nominated model, and gains 1 Disorder. Finally, the Marker is removed from play.</description>
     </rule>
+    <rule name="Cor Caroli Raiders" id="1061-0776-deb4-7fae" hidden="false">
+      <description>When this model’s unit makes a Boarding action, its Admiral can declare that it is a Portal Raid. 
+If they do so, the target of the Boarding action can be any Surface model that is within 4” of a Portal marker. 
+
+
+Models in the active unit can only Participate if they have this Property and are within 4” of a Portal marker.
+When resolving a Portal Raid, the target’s Defences rating has a -2 modifier</description>
+    </rule>
   </sharedRules>
   <publications>
     <publication name="DW4-Rules-Glossary-v4.0_W.pdf" id="14a6-3b96-497a-488d" hidden="false" publisherUrl="https://www.warcradle.com/assets/warcradleGames/dystopianWars/pdfs/essentials/DW4-Rules-Glossary-v4.0_W.pdf" shortName="Rules glossary" publisher="V4.00 Beta"/>
