@@ -6474,7 +6474,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="43ab-d65a-a7e1-ddd0" includeChildSelections="false" automatic="true"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="43ab-d65a-a7e1-ddd0" includeChildSelections="false" automatic="true"/>
             <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="b7e4-63dd-0a06-c3f3" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
@@ -6493,7 +6493,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             </profile>
           </profiles>
           <modifiers>
-            <modifier type="set" value="4" field="b7e4-63dd-0a06-c3f3">
+            <modifier type="set" value="2" field="b7e4-63dd-0a06-c3f3">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true"/>
               </conditions>
@@ -8279,6 +8279,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
           </constraints>
           <modifiers>
             <modifier type="set" value="0" field="89fa-eeaa-958f-ca32"/>
+            <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </entryLink>
       </entryLinks>
