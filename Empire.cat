@@ -4696,7 +4696,6 @@
         <categoryLink name="Patrol" hidden="false" id="861c-5b07-f9da-9eb3" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
         <categoryLink name="Colossus" hidden="false" id="31dc-f2e4-0054-7182" targetId="b1a6-61a9-0ae4-8b65" primary="false"/>
         <categoryLink name="Draconic" hidden="false" id="0c3e-e15d-d42e-cbfa" targetId="17ab-f406-a942-244f" primary="false"/>
-        <categoryLink name="Rotorcraft" hidden="false" id="ce30-223f-e9fb-ae11" targetId="69e5-b347-ebd9-4efe" primary="false"/>
         <categoryLink name="Chinese" hidden="false" id="1e1b-dd66-cd03-5031" targetId="f109-b8ed-138d-de5c" primary="false"/>
       </categoryLinks>
       <profiles>
@@ -9879,7 +9878,6 @@ If successful, each Critical Damage Effect inflicted on an enemy model in the A
         <categoryLink name="Patrol" hidden="false" id="83f2-c9e5-de6a-6f5e" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
         <categoryLink name="Colossus" hidden="false" id="8916-187d-e957-88c0" targetId="b1a6-61a9-0ae4-8b65" primary="false"/>
         <categoryLink name="Draconic" hidden="false" id="7ce1-2452-9bbe-6683" targetId="17ab-f406-a942-244f" primary="false"/>
-        <categoryLink name="Rotorcraft" hidden="false" id="b9fa-70bf-9679-0486" targetId="69e5-b347-ebd9-4efe" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Kiyohime" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="d45d-83aa-2c5f-e694">
