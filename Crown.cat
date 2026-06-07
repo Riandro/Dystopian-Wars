@@ -4833,13 +4833,20 @@
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Guardian Generator" hidden="false" id="17c7-f864-3f9e-e398">
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="784c-1179-4ce8-33c5" includeChildSelections="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="784c-1179-4ce8-33c5" includeChildSelections="true" automatic="true"/>
                   </constraints>
                   <costs>
                     <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
                     <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
                     <cost name="GP" typeId="a9f9-1d81-c3b4-b731" value="1"/>
                   </costs>
+                  <modifiers>
+                    <modifier type="set" value="0" field="784c-1179-4ce8-33c5">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="42d1-7686-275b-520a" shared="true" childName="Guardian Generator" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -4890,13 +4897,20 @@
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Guardian Generator" hidden="false" id="42d1-7686-275b-520a">
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2da0-b582-4b60-5bf2" includeChildSelections="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2da0-b582-4b60-5bf2" includeChildSelections="true" automatic="true"/>
                   </constraints>
                   <costs>
                     <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
                     <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
                     <cost name="GP" typeId="a9f9-1d81-c3b4-b731" value="1"/>
                   </costs>
+                  <modifiers>
+                    <modifier type="set" value="0" field="2da0-b582-4b60-5bf2">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="17c7-f864-3f9e-e398" shared="true" childName="Guardian Generator" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -4973,8 +4987,8 @@
               <conditionGroups>
                 <conditionGroup type="count" min="1">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="42d1-7686-275b-520a" shared="true" childName="Guardian Generator"/>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="17c7-f864-3f9e-e398" shared="true" childName="Guardian Generator"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="42d1-7686-275b-520a" shared="true" childName="Guardian Generator" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="17c7-f864-3f9e-e398" shared="true" childName="Guardian Generator" includeChildSelections="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
