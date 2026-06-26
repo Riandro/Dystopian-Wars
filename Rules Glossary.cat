@@ -2549,18 +2549,22 @@ If its Mass reaches 0, the Iceberg is removed from play.</description>
       <description>This is a Generator.
 
 
-At the start of each Activation Phase, this model contributes X Action Dice to its Admiral’s Guardian Pool, as described in the Crown ORBAT.
+At the start of each Activation Phase, this model contributes X Action Dice to its Admiral’s Guardian Pool.
 
 
-If there is at least one die in the Guardian Pool when this model is targeted by an Attack action, its Admiral can declare that they will Employ Guardian Generators. 
-They cannot do so against an Attack action made with Assault or Submerged weapons, or against anything that is not an Attack action (such as the Breaching Drill or Raking Strike properties).
+If there is at least one die in the Guardian Pool when this model is targeted by an Attack action, its Admiral can declare that they will Employ Guardian Generators.
+
+
+They cannot do so against an Attack action made with Assault or Submerged weapons, or against anything that is not an Attack action (such as the Breaching Drill or Raking Strike properties).
 
 
 When an Admiral Employs Guardian Generators, they immediately spend a number of Action Dice from the Guardian Pool; they must spend at least one, and the maximum number they can spend is equal to this model’s Defences rating.
 
 
-Each die spent in this way is removed from the Guardian Pool, and added to the Resistance Pool as a Bonus Die. 
-In addition, when making this Resistance Roll, the Admiral can re-roll any Blank results</description>
+Each die spent in this way is removed from the Guardian Pool, and added to the Resistance Pool as a Bonus Die.
+
+
+In addition, when making this Resistance Roll, the Admiral can re-roll any Blank results.</description>
     </rule>
     <rule name="Aerial" id="3ddc-f2ca-57c8-0968" hidden="false">
       <description>Weapons with this Special Attack Quality are Aerial Weapons, and can only Contribute to an Attack action if all Contributing weapons are also Aerial Weapons. 
