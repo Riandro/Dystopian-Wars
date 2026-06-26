@@ -571,11 +571,17 @@
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="265e-71df-62f9-9adf" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0"/>
+        <entryLink import="true" name="Escorts" hidden="false" id="6c42-7c8d-c487-4b57" type="selectionEntry" targetId="bd6e-dbef-4baf-e017">
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="9ae7-86e1-d31f-a7f2"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
         <cost name="GP" typeId="a9f9-1d81-c3b4-b731" value="0"/>
       </costs>
+      <comment>Escorts might need changing</comment>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Britannia Heavy Battleship" hidden="false" id="33bb-f0e4-49ac-6a5f" sortIndex="1">
       <selectionEntries>
@@ -8443,6 +8449,11 @@ If they do so, the model gains the Ablative Armour (2) property. If the model a
       </profiles>
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="11bb-1881-3f10-9fe3" type="selectionEntryGroup" targetId="c319-cdbd-c73d-bdb0"/>
+        <entryLink import="true" name="Escorts" hidden="false" id="8f8f-a060-c921-f319" type="selectionEntry" targetId="bd6e-dbef-4baf-e017">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9d3f-08b6-1c4e-c124"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -8451,6 +8462,7 @@ If they do so, the model gains the Ablative Armour (2) property. If the model a
           </conditions>
         </modifier>
       </modifiers>
+      <comment>Escorts might need changing</comment>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Laudine Bombardment Submarine" hidden="false" id="dacb-73a8-1d4c-d029" sortIndex="4">
       <selectionEntries>
