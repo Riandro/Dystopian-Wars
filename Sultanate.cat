@@ -2573,7 +2573,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
             <characteristic name="Armour" typeId="536a-39ed-80f6-7270">5</characteristic>
             <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">12</characteristic>
-            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">1</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">3</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">5</characteristic>
             <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">11</characteristic>
@@ -3163,7 +3163,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink import="true" name="Generators" hidden="false" id="0029-2480-06e4-efde" type="selectionEntryGroup" targetId="5ef5-232e-411c-ee62"/>
+            <entryLink import="true" name="Generators" hidden="true" id="0029-2480-06e4-efde" type="selectionEntryGroup" targetId="5ef5-232e-411c-ee62"/>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -3577,6 +3577,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Surface" hidden="false" id="8676-bbfb-b0ee-63a0" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="f553-6437-e1b5-37ae" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Line" hidden="false" id="7f07-30c1-4745-8c3c" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
+        <categoryLink name="Light Vessel" hidden="false" id="9115-406b-c22e-ac2e" targetId="a788-9613-7ce1-5dd9" primary="false"/>
       </categoryLinks>
       <comment>ATTACHMENT</comment>
       <modifiers>
@@ -4610,6 +4611,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Airborne" hidden="false" id="a8e6-21c7-eba9-2d11" targetId="139e-c78f-43c0-2957" primary="false"/>
         <categoryLink name="Airship" hidden="false" id="44a8-8607-dbf1-aa50" targetId="278c-665b-5dbe-3aad" primary="false"/>
         <categoryLink name="Patrol" hidden="false" id="dfbb-86f7-47b0-570f" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
+        <categoryLink name="Light Vessel" hidden="false" id="c11d-2cd9-7e0d-7f48" targetId="a788-9613-7ce1-5dd9" primary="false"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="1b07-4f2d-17c9-6135" field="category">
@@ -4981,6 +4983,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Airship" hidden="false" id="d9c5-c3ec-201a-db5b" targetId="278c-665b-5dbe-3aad" primary="false"/>
         <categoryLink name="Turkish" hidden="false" id="8f0d-854b-429f-fb23" targetId="106e-bd57-7f54-7adf" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="5bf2-3c4a-32cb-b02c" targetId="2251-0def-1b03-2e93" primary="false"/>
+        <categoryLink name="Light Vessel" hidden="false" id="d500-e905-dc7b-63e0" targetId="a788-9613-7ce1-5dd9" primary="false"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="1b07-4f2d-17c9-6135" field="category">
@@ -5512,6 +5515,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Hovercraft" hidden="false" id="14d5-8652-acc5-d8ec" targetId="d041-8630-54dd-913e" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="b06a-f3ec-6308-e4a5" targetId="2251-0def-1b03-2e93" primary="false"/>
         <categoryLink name="Patrol" hidden="false" id="3569-c61c-6f24-d188" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
+        <categoryLink name="Light Vessel" hidden="false" id="ae80-3012-7980-f7c2" targetId="a788-9613-7ce1-5dd9" primary="false"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="2" field="a71b-de59-992d-9d5e">
@@ -6551,6 +6555,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         <categoryLink name="Surface" hidden="false" id="04b6-163f-3e37-18f6" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="0ad0-6021-98cd-ce13" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Patrol" hidden="false" id="52ac-3147-0523-e0f2" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
+        <categoryLink name="Light Vessel" hidden="false" id="c087-1db8-f6db-a1eb" targetId="a788-9613-7ce1-5dd9" primary="false"/>
       </categoryLinks>
       <comment>ATTACHMENT</comment>
       <modifiers>
@@ -9546,6 +9551,7 @@ Then they immediately resolve the SRS Mission.</description>
         <categoryLink name="Surface" hidden="false" id="f23c-de03-4000-7d62" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="9607-1d44-aa96-6910" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Patrol" hidden="false" id="610a-354e-5d1f-8ff0" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
+        <categoryLink name="Light Vessel" hidden="false" id="fc03-9b83-1575-9aaf" targetId="a788-9613-7ce1-5dd9" primary="false"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="1b07-4f2d-17c9-6135" field="category">
