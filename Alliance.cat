@@ -3081,7 +3081,7 @@
         <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Talon Autogyros (Alliance)" id="41a7-27cf-17e7-0760" hidden="false" type="profile" targetId="0c6d-c1f6-c477-a449"/>
+        <infoLink name="Talon Rotors" id="41a7-27cf-17e7-0760" hidden="false" type="profile" targetId="0c6d-c1f6-c477-a449"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6257-18e6-8f5b-1f1a" includeChildSelections="false"/>
@@ -3363,7 +3363,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Talon Autogyros (Alliance)" id="0fc1-8254-73c2-67c2" hidden="false" type="profile" targetId="0c6d-c1f6-c477-a449"/>
+        <infoLink name="Talon Rotors" id="0fc1-8254-73c2-67c2" hidden="false" type="profile" targetId="0c6d-c1f6-c477-a449"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="0ec6-f5c8-25d7-89d8" id="c787-694d-1bd5-bbb4" primary="true" name="Flagship"/>
@@ -4604,7 +4604,7 @@
         <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Talon Autogyros (Alliance)" id="c9fa-a462-438c-9767" hidden="false" type="profile" targetId="0c6d-c1f6-c477-a449"/>
+        <infoLink name="Talon Rotors" id="c9fa-a462-438c-9767" hidden="false" type="profile" targetId="0c6d-c1f6-c477-a449"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="bee4-ad8e-c8e6-d5c7" includeChildSelections="false"/>
@@ -5949,7 +5949,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Talon Autogyros (Alliance)" id="2ebe-7057-1aca-e125" hidden="false" type="profile" targetId="0c6d-c1f6-c477-a449"/>
+        <infoLink name="Talon Rotors" id="2ebe-7057-1aca-e125" hidden="false" type="profile" targetId="0c6d-c1f6-c477-a449"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink name="Alliance" hidden="false" id="3184-ed0b-48e3-a82a" targetId="b81b-c372-001c-2710" primary="false"/>
@@ -9529,6 +9529,7 @@ Mark the unit with a Special Effect token until the start of its next Activation
         <categoryLink name="Italian Flagship" hidden="false" id="b0af-5407-fdb7-6559" targetId="09db-3a9a-4611-86f8">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37bb-97c9-3494-c870"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ad36-29e3-cf47-4fb3"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Italian Line" hidden="false" id="ce40-f784-c35a-d805" targetId="fdfb-dad7-ecbf-a4ec">
@@ -9697,7 +9698,6 @@ Additionally, if the unit scores at least one Success during a Boarding action t
         </categoryLink>
         <categoryLink name="Portuguese Flagship" hidden="false" id="79d2-c48e-5967-3285" targetId="86ae-376f-b53d-083d">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e3b6-12f5-b32b-dded"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bda9-d2aa-fe45-cee3"/>
           </constraints>
         </categoryLink>
@@ -10073,7 +10073,7 @@ Additionally, if the unit scores at least one Success during a Boarding action t
             <categoryLink name="Attachment" hidden="false" id="8d88-142f-abcc-45ee" targetId="f152-70a0-da07-33cd" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Offshore Defence Platform" hidden="true" id="a963-d4ae-91c1-4925" type="selectionEntry" targetId="ef33-b694-9317-97b2">
+        <entryLink import="true" name="Defence Platform Vasco Class" hidden="true" id="a963-d4ae-91c1-4925" type="selectionEntry" targetId="ef33-b694-9317-97b2">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>
@@ -10813,7 +10813,7 @@ Additionally, if the unit scores at least one Success during a Boarding action t
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="a434-1ae4-03fb-00da" shared="true" includeChildSelections="true" childName="Marina Pontificia Battlefleet (Specialist)"/>
           </conditions>
         </modifier>
-        <modifier type="set-primary" value="c242-f9d6-c157-a736" field="category">
+        <modifier type="set-primary" value="fd25-4297-13b4-990b" field="category">
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="57a1-694b-27f4-18b6" shared="true" includeChildSelections="true" childName="Protecao Commercial Battlefleet (Specialist)"/>
           </conditions>
