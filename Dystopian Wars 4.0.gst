@@ -2127,7 +2127,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">2</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
-        <characteristic typeId="65e4-97a8-7a12-c50a" name="PROPERTIES"/>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Tail Gunners (2)</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Tail Gunners (2)</attribute>
@@ -2190,7 +2190,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Harrier</characteristic>
       </characteristics>
       <attributes>
-        <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34"/>
+        <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Harrier</attribute>
       </attributes>
     </profile>
     <profile name="Messer Interceptors" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="9177-6aba-d9f8-9c51">
@@ -2238,7 +2238,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Exo-Sub, Offensive, Superior Mine Clearance</characteristic>
       </characteristics>
       <attributes>
-        <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Exo-Sub, Superior Mine Clearance</attribute>
+        <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Exo-Sub, Offensive, Superior Mine Clearance</attribute>
       </attributes>
     </profile>
     <profile name="Sabiha Attack Fighters" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="e1fd-301d-05e3-8718">
