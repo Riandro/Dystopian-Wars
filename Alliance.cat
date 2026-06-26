@@ -10316,7 +10316,7 @@ Additionally, if the unit scores at least one Success during a Boarding action t
         <categoryLink name="Flagship" hidden="false" id="4211-41bc-ce13-ff7c" targetId="0ec6-f5c8-25d7-89d8" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Charlemagne Heavy Cruiser" hidden="false" id="2ac1-0b87-26d4-08c9" type="selectionEntry" targetId="b1b4-acd5-b8ec-72c9" sortIndex="1">
+    <entryLink import="true" name="Charlemagne Heavy Cruiser" hidden="true" id="2ac1-0b87-26d4-08c9" type="selectionEntry" targetId="b1b4-acd5-b8ec-72c9" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Flagship" hidden="false" id="19b1-d5b0-3775-bd16" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
       </categoryLinks>
@@ -10339,7 +10339,7 @@ Additionally, if the unit scores at least one Success during a Boarding action t
           </constraints>
         </selectionEntry>
       </selectionEntries>
-      <comment>Flagship</comment>
+      <comment>Not used</comment>
     </entryLink>
     <entryLink import="true" name="Charlemagne Heavy Cruiser" hidden="false" id="d361-eb29-922c-7af4" type="selectionEntry" targetId="b1b4-acd5-b8ec-72c9" sortIndex="2">
       <categoryLinks>
