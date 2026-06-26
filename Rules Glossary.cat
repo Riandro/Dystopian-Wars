@@ -614,8 +614,11 @@ The active Admiral chooses one of the following options:
 
 
 CREATE NEW MAGMA FORMATION
-The Admiral places a Magma Formation in the Play Area. It must have a Mass rating value that matches the Magma Mass rating, as determined by the Magma Sear Roll, and it must be placed so that it is within 15” of at least one Participating model.
-A Magma Formation cannot be placed in contact with another Terrain feature, or within 1” of a model or marker.
+The Admiral places a Magma Formation in the Play Area. 
+It must have a Mass rating that matches the Magma Mass rating, and it must be placed so that it is within 15&quot; of at least one Participating model.
+
+
+A Magma Formation cannot be placed in contact with another Terrain Feature, or within 1” of a model, or Marker.
 
 
 EXPAND EXISTING MAGMA FORMATION
@@ -624,12 +627,10 @@ The admiral chooses an existing Magma Formation that is within 15” of at leas
 
 (*For example, if an Exploding Strike was chosen in Step 2, a Mass 1 Magma Formation could be expanded to Mass 3, or a Mass 2 or Mass 3 Magma Formation could be expanded to Mass 4.*)
 
-*We recommend replacing the original Magma Formation with a larger one of the appropriate size. 
-When doing so, the new, expanded, Magma Formation should be placed so that the original Magma Formation would have been wholly within it.
-
-
-It cannot be placed in contact with any other Terrain Feature, model or Marker.
-If the larger Formation cannot be placed following these stipulations, then simply resolve the following Magma Eruption with the largest Magma Formation that can fit in the space.*
+If possible, the Magma Formation terrain piece should be replaced with a larger one of an appropriate size. 
+The new piece should be placed so that the original Magma Formation would have been wholly within it. 
+It cannot be placed in contact with another Terrain Feature, model, or Marker. 
+If it cannot be placed following these stipulations, or if a suitable replacement piece is not available, simply mark the Formation with a Damage token to show its new Mass.
 
 
 4. RESOLVE MAGMA ERUPTIONS
@@ -2628,7 +2629,8 @@ No model can end its move in contact with a Terrain Feature, model or Marker. 
 At the end of the Movement Step, the Special Effect token is removed, and each other model, friend or foe, that one or more models in the active unit Passed Through gains 1 level of Disorder.
 
 
-In the subsequent Action Step, the unit’s Action Limit is reduced to 1.
+In the subsequent Action step, the unit’s Action Limit is reduced to 1. 
+In addition, any weapons in the unit that have the Torrent (X) quality have the X value of this quality reduced to 1 until the end of the Activation.
 
 
 It cannot Interphase again in its Consolidation step if it was Interphased at the start of its Activation.</description>
