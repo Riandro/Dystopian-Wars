@@ -561,7 +561,7 @@
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">8</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All-Around, Indirect, Mayhem, Structural Failiure (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All-Around, Indirect, Mayhem, Structural Failure (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -637,7 +637,7 @@
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">8</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All-Around, Indirect, Mayhem, Structural Failiure (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All-Around, Indirect, Mayhem, Structural Failure (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9559,7 +9559,7 @@ If successful, each Critical Damage Effect inflicted on an enemy model in the A
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fb0f-ddbb-bfa0-745a" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6f05-d314-0eec-ae0a" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="6f05-d314-0eec-ae0a" includeChildSelections="false" automatic="true"/>
           </constraints>
           <profiles>
             <profile name="Talon Lancettes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7e35-7364-a97d-a08e">
@@ -10896,7 +10896,7 @@ If they do so, convert all Standard Counters in the Action Roll to Standard Stri
     <forceEntry name="Chita-Swarm Battlefleet (Main)" id="e0c9-e3ca-71cb-bb86" hidden="false" sortIndex="2">
       <rules>
         <rule name="Chita-Strike" id="07d8-c4e2-d9c6-90a2" hidden="false">
-          <description>When a unit in this Force declares an Attack action in which all Contributing weapons have both the Submerged and Torpedo qualities, this Admiral may declare that they are performing a Chita-Strike. 
+          <description>When a Japanese unit in this Force declares an Attack action in which all Contributing weapons have both the Submerged and Torpedo qualities, this Admiral may declare that they are performing a Chita-Strike. 
 
 
 If they do so, they may discard any number of Escort tokens from the attacking unit. For each Token discarded, add 3 Action Dice to the Action Pool. Additionally, for each Token discarded, add the Breach (1) quality to one Contributing weapon.</description>
@@ -11017,11 +11017,6 @@ If they do so, they may discard any number of Escort tokens from the attacking 
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink name="Fleet Doctrines" hidden="false" id="ac85-4813-0613-2bc2" targetId="eb20-a962-fc6e-ce7f">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="229f-cf3c-0786-20f5"/>
-          </constraints>
-        </categoryLink>
         <categoryLink name="Tiānlóng Draconic Colossus" hidden="false" id="8050-4a17-531e-2d1c" targetId="c056-fadf-da18-59a7">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df7a-9d28-5e26-1304"/>
@@ -11030,7 +11025,7 @@ If they do so, they may discard any number of Escort tokens from the attacking 
         </categoryLink>
         <categoryLink name="Draconic" hidden="false" id="99e4-970d-00f4-93d7" targetId="17ab-f406-a942-244f">
           <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="3f2e-22b6-5179-a168"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3f2e-22b6-5179-a168"/>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="d41a-6450-3428-7fa0"/>
           </constraints>
         </categoryLink>
