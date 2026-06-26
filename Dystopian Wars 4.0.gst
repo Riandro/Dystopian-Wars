@@ -2277,7 +2277,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Offensive, Surgical Strike (Shredded Defences)</attribute>
       </attributes>
     </profile>
-    <profile name="Talon Autogyros (Alliance)" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="0c6d-c1f6-c477-a449">
+    <profile name="Talon Rotors" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="0c6d-c1f6-c477-a449">
       <characteristics>
         <characteristic name="ATK" typeId="1727-4f83-903e-a65d">4</characteristic>
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">-</characteristic>
@@ -2288,8 +2288,9 @@ This can be used to allow the unit to launch a Boarding action when it could not
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Specialist</attribute>
       </attributes>
+      <comment>(Alliance)</comment>
     </profile>
-    <profile name="Talon Autogyros (Union)" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="cf02-10a5-7f0b-9b8b">
+    <profile name="Talon Autogyros" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="cf02-10a5-7f0b-9b8b">
       <characteristics>
         <characteristic name="ATK" typeId="1727-4f83-903e-a65d">4</characteristic>
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">-</characteristic>
@@ -2300,6 +2301,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Specialist</attribute>
       </attributes>
+      <comment>(Union)</comment>
     </profile>
     <profile name="Vali Midget Subs" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="3e7e-fe52-6877-8d5e">
       <characteristics>

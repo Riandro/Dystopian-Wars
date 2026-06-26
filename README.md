@@ -1,8 +1,8 @@
 # A Dystopian Wars 4.0 repository for use with New Recruit!
 
-## As of 23/05/26 catalogues are currently updated to the following:
+## As of 26/06/26 catalogues are currently updated to the following:
 
-* Alliance Orbat - V4.00A
+* Alliance Orbat - V4.01 BETA
 * Commonwealth Orbat - V4.00A
 * Crown Orbat - V4.02 BETA
 * Empire Orbat - V4.01 BETA

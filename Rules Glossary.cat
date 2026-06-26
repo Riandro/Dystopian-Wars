@@ -468,22 +468,17 @@ If the Unit Benefit was granted by a model in a different unit - for example, a
       <description>This is a Generator.
 
 
-As a Special Action, this model’s unit can Flag a Target.
+This model’s unit can Flag a Target as a Special Action, even if it is Underwater. 
 
 
-Only models with a Trident Generator can Participate in this Action.
+Only models with a Trident Generator can Participate in this Action.
 
 
 When making this Action, each Participating model can Flag a single enemy Surface or Underwater model within 20”. 
-
-
 Mark each Flagged model with a Generator Effect token.
 
 
-Whenever a Flagged model is the target of an Attack action made with Submerged Weapons, all Standard Counters in the Action Roll are converted to Standard Strikes at the start of the Count Hits step.
-
-
-In the Clean Up step of the End Phase, all Flagged models cease to be Flagged, and their Generator Effect tokens are removed.</description>
+Whenever a Flagged model is the Target of an Attack action made with Submerged Weapons, all Standard Counters in the Action Roll are converted to Standard Strikes at the start of the Count Hits step.</description>
     </rule>
     <rule name="Chang’an Tower Generator" id="2082-b63b-7dd0-9375" hidden="false">
       <description>This is a Generator and grants the following Unit Benefit:
@@ -1637,7 +1632,9 @@ Firepower ratings that do not have a value are not increased.</description>
     <rule name="Mirage Projector Array" id="ffbe-b452-3af9-b5d5" hidden="false">
       <description>When a friendly model within 7” of this model is chosen as the Initial Target of an Attack action, its Admiral can use this system to grant that model the Mirage Generator system for the duration of the action, even if the target model has a System Failure Critical Damage Effect. 
 
+
 They cannot do this if this model has 3 levels of Disorder.
+
 
 After the Attack action has been fully resolved, this model gains 1 level of Disorder, as detailed in the Mirage Generator rules, instead of the target model.</description>
     </rule>
@@ -2139,16 +2136,20 @@ Firepower ratings that do not have a value are not increased.</description>
       <description>This SRS token is not counted when resolving a Mine Clearance mission with its Stack.</description>
     </rule>
     <rule name="Mine Layer" id="10ca-3e34-3f0a-ec7e" hidden="false">
-      <description>As a Special Deployment Action, this model’s unit can Distribute Mines.
+      <description>As a Special Deployment action, this model’s unit can Distribute Mines.
 
 
 When it does, for each model in the unit with this Property, the unit’s Admiral places up to X Minefield markers anywhere in the Play Area.
+Each one must be placed at least 10” from the enemy Deployment Zone.
 
 
-Additionally, this model’s unit can Launch Mines as a Special Action, even if it is Underwater. If it does, its Admiral places a single Minefield marker within 5” of a model in the unit that has this Property.
+Additionally, from the second Round onwards, this model’s unit can Launch Mines as a Special Action, even if it is Underwater. 
 
 
-Minefield markers that are placed using this Property cannot be placed within 1” of a model (including one with an Incoming status token), a Terrain Feature, or another marker.</description>
+Its Admiral places a single Minefield marker within 5” of a model in the unit that has this Property.
+
+
+Minefield markers that are placed using this Property cannot be placed within 1” of a model (including one with an Incoming status token), a Terrain Feature, or another Marker</description>
     </rule>
     <rule name="Platform" id="cebd-246a-4170-df3a" hidden="false">
       <description>At the start of the Deployment Phase, this model’s Admiral must divide its unit into one or more Platform Groups (each containing at least one model). Each Platform Group counts as a separate unit for the duration of the game, including for the purposes of Deployment.
@@ -2548,18 +2549,18 @@ If its Mass reaches 0, the Iceberg is removed from play.</description>
       <description>This is a Generator.
 
 
-At the start of each Activation Phase, this model contributes X Action Dice to its Admiral’s Guardian Pool, as described in the Crown ORBAT.
+At the start of each Activation Phase, this model contributes X Action Dice to its Admiral’s Guardian Pool, as described in the Crown ORBAT.
 
 
-If there is at least one die in the Guardian Pool when this model is targeted by an Attack action, its Admiral can declare that they will Employ Guardian Generators. 
-They immediately spend a number of Action Dice from the Guardian Pool; they must spend at least one, and the maximum number they can spend is equal to this model’s Defences rating.
+If there is at least one die in the Guardian Pool when this model is targeted by an Attack action, its Admiral can declare that they will Employ Guardian Generators. 
+They cannot do so against an Attack action made with Assault or Submerged weapons, or against anything that is not an Attack action (such as the Breaching Drill or Raking Strike properties).
 
 
-Each die spent in this way is removed from the Guardian Pool, and added to the Resistance Pool as a Bonus Die. In addition, when making the Resistance Roll, the Admiral
-can re-roll any Blank results.
+When an Admiral Employs Guardian Generators, they immediately spend a number of Action Dice from the Guardian Pool; they must spend at least one, and the maximum number they can spend is equal to this model’s Defences rating.
 
 
-The Admiral cannot Employ Guardian Generators if the Attack action is made with Assault or Submerged weapons. It also has no effect against the Breaching Drill or Raking Strike properties.</description>
+Each die spent in this way is removed from the Guardian Pool, and added to the Resistance Pool as a Bonus Die. 
+In addition, when making this Resistance Roll, the Admiral can re-roll any Blank results</description>
     </rule>
     <rule name="Aerial" id="3ddc-f2ca-57c8-0968" hidden="false">
       <description>Weapons with this Special Attack Quality are Aerial Weapons, and can only Contribute to an Attack action if all Contributing weapons are also Aerial Weapons. 
@@ -2638,16 +2639,20 @@ A model with this System always counts as being in Repair Range.
 When making a Repair Roll for a model that is in Repair Range, add X Bonus Dice. If the roll would allow the unit to remove more Critical Damage Effects than it has allocated to it, 1 Damage is also removed from the model.</description>
     </rule>
     <rule name="Alchemical" id="0cfa-5d49-0e34-4804" hidden="false">
-      <description>After resolving an Attack action to which at least one weapon with this Quality is Contributing, the Initial Target is set Ablaze if it suffered at least 1 Damage during the action, and it does not have a Hazard Critical Damage Effect. 
+      <description>After this Attack action is resolved, each Contributing weapon with this Quality inflicts X Negative Effect tokens on the Initial Target. 
+These are Ablaze tokens. 
 
 
-While a model is Ablaze, each Contributing weapon with this Quality inflicts X Negative Effect tokens on the target. These are Alchemical tokens. If the attack also has the Blast (X ) quality, any Secondary Targets that take at least 1 Damage are also Set Ablaze and gain 1 Alchemical token.
+A model with a Hazard Critical Damage Effect cannot gain Ablaze tokens.
 
 
-If the number of Alchemical tokens a model has accumulated equals or exceeds its Mass rating, all Alchemical tokens are removed and the model gains a Hazard Critical Damage Effect.
+If at least one weapon Contributing to this Attack action also has the Blast (X ) quality, any Secondary Targets that take at least 1 Damage also gain an Ablaze token.
 
 
-If an Ablaze model’s unit performs a Maintenance action, its Admiral can discard Alchemical tokens as though they were Critical Damage Effects.</description>
+If a model accumulates Ablaze tokens equal to or in excess of its Mass rating, all of its Ablaze tokens are removed and it immediately gains a Hazard Critical Damage Effect.
+
+
+When making a Repair Roll, an Admiral can remove all Ablaze tokens from a model as though they were a single Critical Damage Effect.</description>
     </rule>
     <rule name="Levant" id="494c-dd2b-054b-3eb3" hidden="true">
       <description>Airborne models with this Property do not benefit from the Unconventional Target rule, but count as Scoring Models so long as they are not Crippled.</description>
@@ -3122,6 +3127,69 @@ If they do so, the target of the Boarding action can be any Surface model that
 
 Models in the active unit can only Participate if they have this Property and are within 4” of a Portal marker.
 When resolving a Portal Raid, the target’s Defences rating has a -2 modifier</description>
+    </rule>
+    <rule name="Mirage Generator" id="8722-cbc5-60cb-74f8" hidden="false">
+      <description>This is a Generator and grants the following Unit Benefit: 
+When a model in this unit is chosen as the Initial Target of an Attack action, and it is not within 10” of any Participating models, its Admiral can declare that they will Raise Refractive Fields before the Action Roll is made.
+They cannot do this if this model has 3 levels of Disorder.
+
+
+If they do so, their opponent must re-roll any Standard Strikes in the Action Roll. 
+If no Participating models are within 30” When the Action Roll is made, they must also re-roll any Heavy Strikes.
+
+
+After the Attack action has been fully resolved, this model gains 1 level of Disorder.</description>
+    </rule>
+    <rule name="TERMINATOR ASSAULT MISSION" id="e538-7fae-5434-a560" hidden="false">
+      <description>Allocate the SRS Stack to an enemy Surface or Airborne unit within 25” of the model from which it is being launched.
+It is now Assaulting that unit.
+
+
+When this Mission is resolved, it has the potential to inflict highly targeted Critical Damage on models in the enemy unit.
+
+
+**RESOLVING A TERMINATOR ASSAULT MISSION**
+
+An SRS Stack that is Assaulting an enemy unit performs a Terminator Assault mission, using the following process.
+
+1. RESOLVE INTERCEPTION ATTEMPT
+If the enemy unit is Supported by an SRS Stack, the opposing Admiral makes an Interception Attempt as though this were an Attack Run Mission. 
+After this has been resolved, all SRS tokens in the enemy Stack are immediately discarded.
+
+2. NOMINATE ASSAULT TARGETS
+The active Admiral nominates models in the enemy unit to be Assault Targets. The maximum number of Assault Targets they can nominate is equal to the number of Talon Rotor tokens in their stack.
+
+3. MAKE AN ACTION ROLL
+The active Admiral makes a single Action Roll regardless of the number of Assault Targets, and the opposing Admiral makes a single Resistance Roll. 
+The Resolve Outcomes step of the Action Roll is skipped.
+
+&lt;table border=&quot;1&quot; cellpadding=&quot;10&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Action Pool&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;Each Talon Rotor token in the active Admiral’s stack adds a number of Action Dice equal to its Attack rating &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Resistance Pool&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;Each Assault Target adds a number of dice equal to its Defences rating.
+
+Add 1 Bonus Die for each Escort that is accompanying the target unit.&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+4. RESOLVE ASSAULTS
+The active Admiral chooses an Assault Target, and removes a number of Hits from the Action Pool equal to the model’s Crew rating.
+If this is not possible, this step ends immediately.
+
+
+Otherwise, the active Admiral rolls two Critical Damage Dice and chooses one to inflict upon the target model. 
+If both results are the same, the target model also suffers 1 Damage.
+
+
+The active Admiral repeats this step as many times as possible, but each Assault Target can only be chosen once.
+
+
+5. DISENGAGE
+Discard all SRS tokens in the active Admiral’s stack.</description>
     </rule>
   </sharedRules>
   <publications>
