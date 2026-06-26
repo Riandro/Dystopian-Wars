@@ -410,7 +410,6 @@
       </constraints>
       <categoryLinks>
         <categoryLink name="EITC" hidden="false" id="ae57-c5c4-9a52-c163" targetId="0b62-3f59-a807-548f" primary="false"/>
-        <categoryLink name="EITC Flagship" hidden="false" id="06c7-4576-0c3e-0104" targetId="8788-012d-a112-2ccf" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="46a9-fd4e-47fe-4dfc" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Flagship" hidden="false" id="a421-3039-91c7-5fe9" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Ship" hidden="false" id="3318-8ae0-058f-3881" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
@@ -2084,7 +2083,7 @@
         </profile>
         <profile name="Protecteur" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="225b-22c1-0b34-7252">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Carrier (5), SRS (Defiance Fighters), Unexpected Arrival</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">SRS (Defiance Fighters), Underwater Carrier (5), Unexpected Arrival</characteristic>
           </characteristics>
         </profile>
         <profile name="Protecteur" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="1dd1-9a6c-7d75-c7b7">
@@ -8047,7 +8046,7 @@ If they do so, the model gains the Ablative Armour (2) property. If the model a
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Lady Ragnell" hidden="false" id="dd8e-ab82-cbbd-ff77">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="110"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="100"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="3"/>
             <cost name="GP" typeId="a9f9-1d81-c3b4-b731" value="1"/>
           </costs>
