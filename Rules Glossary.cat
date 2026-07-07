@@ -39,7 +39,7 @@ tokens already allocated to it are immediately removed from play.</description>
     <rule name="Armoured Stern" id="54a8-8285-32af-0dbd" hidden="false">
       <description>When this model is targeted by an Attack action, the Vulnerable Stern rule does not apply.</description>
     </rule>
-    <rule name="MINE CLEARANCE MISSION" id="dd72-44de-a7c8-9104" hidden="false">
+    <rule name="Mine Clearance Mission" id="dd72-44de-a7c8-9104" hidden="false">
       <description>**RESOLVING A MINE CLEARANCE MISSION**
 
 
@@ -56,6 +56,7 @@ Any additional Exploding Strikes allow the Admiral to Clear another Minefield m
 
 
 All SRS tokens in the Stack are then discarded.</description>
+      <comment>SRS</comment>
     </rule>
     <rule name="Superior Void Engine" id="fa19-3771-a733-d8ae" hidden="false">
       <description>When this unit (or a friendly unit within 10”) makes a Turbo Encabulation Jump, the controlling Admiral can choose to re-roll a single Blank result in the Anomaly Roll. (See the *Enlightened ORBAT*.)</description>
@@ -352,7 +353,7 @@ For every System Failure inflicted in this way, the active Admiral can remove a 
     <rule name="Exo-sub" id="1b59-0b10-4a1b-e70f" hidden="false">
       <description>When resolving an Attack Run mission with a Stack containing only SRS tokens with this Quality, each Breach or Structural Failure allocated to an Attack Run Target also inflicts 1 Damage.</description>
     </rule>
-    <rule name="ATTACK RUN MISSION" id="a85f-8593-a2e7-99c6" hidden="false">
+    <rule name="Attack Run Mission" id="a85f-8593-a2e7-99c6" hidden="false">
       <description>**RESOLVING AN ATTACK RUN MISSION**
 An SRS Stack that is Threatening an enemy unit performs an Attack Run mission, using the following process.
 
@@ -443,6 +444,7 @@ If, after every token of this squadron type is removed, there are still Hits re
 
 The process is repeated using that squadron type’s Resilience rating until either there are no Hits left in the Action Roll scoring Successes or there are no SRS tokens left in the Stack.</description>
       <alias>Interception Attempt</alias>
+      <comment>SRS</comment>
     </rule>
     <rule name="Shroud Generator" id="337c-de3a-80eb-27db" hidden="false">
       <description>This is a Generator and grants the following Unit Benefit:
@@ -892,7 +894,7 @@ During this move, each model has a Minimum Speed of 0” and a Maximum Speed of
 
 If this unit is Deployed to the Reserve its Admiral adds 2 Bonus Dice to any Reserve Rolls they make for it.</description>
     </rule>
-    <rule name="AERIAL RECONNAISSANCE" id="f8a1-35ff-f9f1-bb64" hidden="false">
+    <rule name="Aerial Reconnaissance" id="f8a1-35ff-f9f1-bb64" hidden="false">
       <description>In the Clean Up step of the End Phase, each SRS Stack that is still in play (i.e. that has not resolved an SRS Mission) performs Aerial Reconnaissance.
 
 
@@ -905,6 +907,7 @@ The maximum number of Bonus Cards that an Admiral can receive from Aerial Recon
 
 As a reminder, each Admiral can place an SRS token next to their Victory &amp; Valour deck for each Bonus Card they will receive. 
 Any remaining SRS tokens are then removed from play.</description>
+      <comment>SRS</comment>
     </rule>
     <rule name="Solex" id="9e97-5f09-a65c-9297" hidden="false">
       <description>After the Resolve Exploding Strikes step of an Attack action, each Contributing weapon with this Quality allows the active Admiral to convert up to X Standard Counters in the Action Roll into Standard Strikes.</description>
@@ -1416,13 +1419,37 @@ See Bomb Weapons on page 91 of the Dystopian Wars Rulebook.</description>
       <description>An Underwater unit may make an Attack action if all Contributing weapons have this Quality, and the Initial Target is also an Underwater model.</description>
     </rule>
     <rule name="The Localised Anomaly Pool" id="0e5a-0ae0-c1d0-3150" hidden="false">
-      <description>The Enlightened Admiral has a pool of Action Dice called the Localised Anomaly Pool. 
+      <description>The Enlightened Admiral has a pool of Action Dice called the Localised Anomaly Pool.
+
+There are no dice in the pool at the start of the game, but some rules will instruct the Admiral to add dice to it.
+
+Action Dice that are added to the Localised Anomaly Pool remain in it until a rule specifically states that they are removed.
+
+If a rule instructs the Admiral to make an Anomaly Roll, they roll all of the dice in the Localised Anomaly Pool, resolve it as instructed, then return the dice to the pool.
+
+In addition to Turbo Encabulation Jumps (see below), the following Systems (found in the Dystopian Wars Glossary) interact with the Localised Anomaly Pool:* Callimachus Chrono-Lathe, Chrono Generator, Diophantus Chaos-Orb, Localised Anomaly Stabilisation Unit, NullClone Generator, Recombination Nexus.*
+
+**Turbo Encabulation Jumps**
+Some rules (such as the Turbo Encabulation Drive system) allow a unit to attempt a Turbo Encabulation Jump as a Special Action.
+Only models with the TED (Turbo Encabulation Drive) system can Participate.
+
+First, the Admiral adds 2 Action Dice to the Localised Anomaly Pool, then makes an Anomaly Roll for the unit.
+For each Blank that is scored, each Participating model gains 1 level of Disorder.
+If this would cause any model to gain a fourth level of Disorder, resolve a Botched Jump. Otherwise, resolve a Successful Jump.
+
+**Resolving A Botched Jump**
+When a Turbo Encabulation Jump is Botched, the entire active unit (including any models that did not Participate) is removed from the Play Area and placed in Reserve. 
+The unit can attempt to return to the Play Area via a Reserve Roll in later Rounds. If the unit is still in Reserve at the end of the game, all remaining models are treated as being Abandoned.
 
 
-There are no dice in the pool at the start of the game, but some rules will instruct the Admiral to add dice to it. 
+**Resolving A Successful Jump**
+When a Turbo Encabulation Jump is not Botched, the Admiral moves each Participating model, one at a time, by removing it from play, then returning it to the Play Area, no more than 15” away from where it was. 
+Models can be placed in any facing, but cannot be placed within Proximity of an enemy model, and the unit must be In Coherency once all models have been placed. 
+After making a Turbo Encabulation Jump, a unit cannot make any more Actions in this Action Step, and does not count as having any unused Actions for the purposes of Rallying in the Consolidation Step.
 
-
-The pool should be kept to one side of the Play Area, near the Admiral’s Victory &amp; Valour deck.</description>
+*When a unit makes an Encabulation Jump (whether it is Botched or Successful), any SRS tokens allocated to the unit are left behind as though it had Withdrawn (see Missing Targets on page 109 of Dystopian Wars: The Rules). 
+Any other Tokens (Escort, Physeter Construct, Damage, Disorder, Critical Damage, etc) are moved with the model(s) as normal. 
+This can result in models in Reserve having Tokens, even though this is not normally possible.*</description>
       <alias>Localised Anomaly Pool</alias>
     </rule>
     <rule name="Agitation" id="c041-5cea-e716-a14d" hidden="false">
@@ -1989,6 +2016,7 @@ If they do so, any SRS tokens with this SRS Property are not removed from play.
 
 
 Mark the SRS Stack with a Negative Effect token until the Clean Up step of the End Phase to show that it cannot make another Portal Strike this Round. This is a Portal Strike token.</description>
+      <comment>SRS</comment>
     </rule>
     <rule name="Proximity" id="2c55-f2f7-2baf-2e00" hidden="false">
       <description>Whenever two models with the Surface Trait are within 2” of each other, both models are considered to be within Proximity of each other.
@@ -2797,7 +2825,7 @@ This applies even if the Participating model or Target is Airborne.
 
 The opposing Admiral adds 2 Bonus Dice to the Resistance Roll for each Participating model that has Hampered Visibility.</description>
     </rule>
-    <rule name="TALON ASSAULT MISSION" id="07f8-b184-44d3-4124" hidden="false">
+    <rule name="Talon Assault Mission" id="07f8-b184-44d3-4124" hidden="false">
       <description>Allocate the SRS Stack to an enemy Surface or Airborne unit within 25” of the model from which it is being launched.
 It is now Assaulting that unit.
 
@@ -2840,8 +2868,9 @@ The chosen model gains 1 Disorder, and suffers a Critical Damage Effect chosen 
 
 5. DISENGAGE
 Discard all SRS tokens in the active Admiral’s stack.</description>
+      <comment>SRS</comment>
     </rule>
-    <rule name="GROUND SUPPORT MISSION" id="2308-1795-cbe1-35f5" hidden="false">
+    <rule name="Ground Support Mission" id="2308-1795-cbe1-35f5" hidden="false">
       <description>**RESOLVING A GROUND SUPPORT MISSION**
 
 Allocate the SRS Stack to a friendly Landing Party stack on a Territory that is within 25” of the model from which it is being launched. It is now Approaching that Territory.
@@ -2854,8 +2883,9 @@ If at least one Strike is rolled, add an additional Token to the Landing Party 
 
 
 All Tokens in the SRS stack are then discarded.</description>
+      <comment>SRS</comment>
     </rule>
-    <rule name="SUPPLY DROP MISSION" id="1409-2dec-bc15-7eb5" hidden="false">
+    <rule name="Supply Drop Mission" id="1409-2dec-bc15-7eb5" hidden="false">
       <description>**RESOLVING A SUPPLY DROP MISSION**
 
 
@@ -2869,6 +2899,7 @@ For each Strike that is rolled, the active Admiral can choose a model in the un
 
 
 It may do this even if it would not otherwise be able to Rally. A model cannot be chosen more than once per Mission.</description>
+      <comment>SRS</comment>
     </rule>
     <rule name="Orichalcite Construction" id="93bc-4d8d-38a0-224c" hidden="false">
       <description>If this model has more than one instance of the same Critical Damage Effect, it only counts as having a single instance of that Effect when resolving ongoing penalties.
@@ -3146,7 +3177,7 @@ If no Participating models are within 30” When the Action Roll is made, they 
 
 After the Attack action has been fully resolved, this model gains 1 level of Disorder.</description>
     </rule>
-    <rule name="TERMINATOR ASSAULT MISSION" id="e538-7fae-5434-a560" hidden="false">
+    <rule name="Terminator Assault Mission" id="e538-7fae-5434-a560" hidden="false">
       <description>Allocate the SRS Stack to an enemy Surface or Airborne unit within 25” of the model from which it is being launched.
 It is now Assaulting that unit.
 
@@ -3196,6 +3227,57 @@ The active Admiral repeats this step as many times as possible, but each Assaul
 
 5. DISENGAGE
 Discard all SRS tokens in the active Admiral’s stack.</description>
+      <comment>SRS</comment>
+    </rule>
+    <rule name="Physeter Construct" id="8d7f-1f0e-a890-1f19" hidden="false">
+      <alias>Physeter Constructs</alias>
+      <alias>Physeter Construct Token</alias>
+      <alias>Physeter Construct Tokens</alias>
+      <description>A unit can never have more than 3 Physeter Construct tokens allocated to it.
+
+The Admiral can Unleash Physeter Construct tokens from a unit, removing them from play, to use Physeter Protection or enact Physeter Sabotage, as follows.
+
+**PHYSETER PROTECTION**
+An Admiral can Unleash one or more of the Physeter Construct tokens allocated to a unit if a model in that unit is the target of any of the following:
+
+
+- A Boarding action;
+
+- An Attack action to which at least one Assault or Submerged weapon is Contributing;
+
+
+- An Attack Run mission made by an SRS Stack containing at least one Token with the Underwater SRS property;
+
+
+- Physeter Sabotage (see below).
+
+
+2 Bonus Dice are added to the Resistance Roll for each Physeter Construct token that was Unleashed.
+
+
+**PHYSETER SABOTAGE**
+A unit with one or more Physeter Construct tokens can make a Special Action to enact Physeter Sabotage.
+
+The unit’s Admiral chooses a target enemy Surface or Underwater model within 20” of at least one model in the active unit, then Unleashes one or more Physeter Construct tokens allocated to the active unit. Then they make an Action Roll, and the opposing Admiral makes a Resistance Roll:
+
+&lt;table&gt;&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Action Pool&lt;/td&gt;
+    &lt;td&gt;Resistance Pool&lt;/td&gt;
+    &lt;td&gt;Success Threshold&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Each Physeter Construct token that was Unleashed adds 5 Action Dice to the pool.&lt;/td&gt;
+    &lt;td&gt;The Resistance Pool starts with a number of dice equal to the target’s Defences rating.
+Add 1 Bonus Die for each Escort token accompanying the target unit. If the target is accompanied by one or more SRS tokens with the Underwater SRS property, each one adds a number of Bonus Dice equal to its Support rating.&lt;/td&gt;
+    &lt;td&gt;The target’s Armour rating. If the target has a Heavy Shield Generator, the +1 Modifier to its Armour rating is ignored&lt;/td&gt;
+  &lt;/tr&gt; 
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+For each Success scored in the Action Roll, the active Admiral rolls a Critical Damage Die. Each resulting Critical Damage Effect is inflicted on the target.</description>
+      <comment>SRS</comment>
     </rule>
   </sharedRules>
   <publications>

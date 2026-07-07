@@ -146,6 +146,7 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
         <characteristicType name="SPT" id="c7cb-4c98-b625-1f98" kind="annotation"/>
         <characteristicType name="RES" id="890b-70a9-65a7-5e2a" kind="annotation"/>
         <characteristicType name="PROPERTIES" id="65e4-97a8-7a12-c50a" kind="longText"/>
+        <characteristicType name="MISSIONS" id="83b9-9858-3b33-6ac1"/>
       </characteristicTypes>
       <attributeTypes>
         <attributeType name="SRS Properties" id="fe63-ead3-74ce-fd34" kind="longText"/>
@@ -1746,8 +1747,8 @@ This can be used to allow the unit to launch a Boarding action when it could not
             <profile name="Harmonised Transconductive Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="36fe-2f53-5549-3245">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                 <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation (8), Hazard (2), Intensive, Piercing (2), Powered</characteristic>
               </characteristics>
@@ -1769,7 +1770,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
           <characteristics>
             <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">3</characteristic>
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">2&quot;-6&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">*</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">-</characteristic>
             <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
             <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
             <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">8</characteristic>
@@ -1782,7 +1783,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         </profile>
         <profile name="Ketos" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="f852-deab-3475-792f">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Auxiliary Mine Layer (1), Mechanical Soul, Mobile, Self Destruct (2), Submarauder, Unexpected Arrival</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Auxiliary Mine Layer (1), Hunter (Flagship), Mechanical Soul, Mobile, Self Destruct (2), Submarauder, Unexpected Arrival</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="append" value="Stoic" field="066c-1ce6-091e-90ab" join=",">
@@ -1804,6 +1805,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <categoryLink name="Enlightened" hidden="false" id="452a-2248-c74f-9afe" targetId="5df2-bc66-57ad-0a5b" primary="false"/>
         <categoryLink name="Submarine" hidden="false" id="a8aa-53c8-1707-3594" targetId="c503-3bc7-2b45-91ef" primary="false"/>
         <categoryLink name="Automata" hidden="false" id="9858-7941-aa1c-2d7c" targetId="c52e-c45f-9110-0c8c" primary="false"/>
+        <categoryLink name="Colossus" hidden="false" id="12be-31d1-bf87-5fd0" targetId="b1a6-61a9-0ae4-8b65" primary="false"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be35-1ab8-fbd7-c65d"/>
@@ -1848,7 +1850,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
           <characteristics>
             <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">3</characteristic>
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">2&quot;-6&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">*</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">-</characteristic>
             <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
             <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
             <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">8</characteristic>
@@ -1861,7 +1863,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         </profile>
         <profile name="Lotan" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="55cc-33a0-b2b0-1976">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Auxiliary Mine Layer (1), Mechanical Soul, Mobile, Self Destruct (4), Submarauder, Unexpected Arrival</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Auxiliary Mine Layer (1), Mechanical Soul, Mobile, Self Destruct (4), Submarauder, Unexpected Arrival</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden"/>
@@ -1879,6 +1881,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <categoryLink name="Underwater" hidden="false" id="94bf-fc3f-f1d9-c98f" targetId="c636-bf34-4555-99bc" primary="false"/>
         <categoryLink name="Submarine" hidden="false" id="59c3-f7bd-675c-532b" targetId="c503-3bc7-2b45-91ef" primary="false"/>
         <categoryLink name="Automata" hidden="false" id="4979-ee59-3f98-241b" targetId="c52e-c45f-9110-0c8c" primary="false"/>
+        <categoryLink name="Colossus" hidden="false" id="6e31-a4b5-3834-353a" targetId="b1a6-61a9-0ae4-8b65" primary="false"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea1e-b021-917c-0970"/>
@@ -2104,6 +2107,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">-</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">4</characteristic>
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Offensive, Surgical Strike (System Failure)</characteristic>
+        <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Attack Run Mission, Air Support Mission, Aerial Reconnaissance</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Offensive, Surgical Strike (System Failure)</attribute>
@@ -2115,7 +2119,8 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">2</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
-        <characteristic typeId="65e4-97a8-7a12-c50a" name="PROPERTIES"/>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a"/>
+        <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Attack Run Mission, Air Support Mission, Mine Clearance Mission, Aerial Reconnaissance</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34"/>
@@ -2128,6 +2133,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Tail Gunners (2)</characteristic>
+        <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Attack Run Mission, Air Support Mission, Mine Clearance Mission, Aerial Reconnaissance</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Tail Gunners (2)</attribute>
@@ -2140,6 +2146,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Surgical Strike (Hazard)</characteristic>
+        <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Attack Run Mission, Air Support Mission, Mine Clearance Mission, Aerial Reconnaissance</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Surgical Strike (Hazard)</attribute>
@@ -2152,6 +2159,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">1</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Offensive, Surgical Strike (Hazard)</characteristic>
+        <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Attack Run Mission, Air Support Mission, Aerial Reconnaissance</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Offensive, Surgical Strike (Hazard)</attribute>
@@ -2164,6 +2172,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Hover SRS, Launch Range (20”), Surgical Strike (System Failure)</characteristic>
+        <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Attack Run Mission, Air Support Mission, Mine Clearance Mission</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Hover SRS, Launch Range (20”), Surgical Strike (System Failure)</attribute>
@@ -2175,7 +2184,8 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">3</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">3</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
-        <characteristic typeId="65e4-97a8-7a12-c50a" name="PROPERTIES"/>
+        <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a"/>
+        <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Attack Run Mission, Air Support Mission, Mine Clearance Mission, Aerial Reconnaissance</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34"/>
@@ -2188,6 +2198,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Harrier</characteristic>
+        <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Attack Run Mission, Air Support Mission, Mine Clearance Mission, Aerial Reconnaissance</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Harrier</attribute>
@@ -2200,6 +2211,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">3</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Surgical Strike (System Failure)</characteristic>
+        <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Attack Run Mission, Air Support Mission, Mine Clearance Mission, Aerial Reconnaissance</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Surgical Strike (System Failure)</attribute>
@@ -2212,18 +2224,20 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">-</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Exceptional, Launch Range (20”), Superior Mine Clearance, Underwater SRS</characteristic>
+        <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Attack Run Mission, Air Support Mission, Mine Clearance Mission</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Exceptional, Launch Range (20”), Superior Mine Clearance, Underwater SRS</attribute>
       </attributes>
     </profile>
-    <profile name="Physeter Constructs" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="8a07-027a-feff-d35a">
+    <profile name="Physeter Constructs" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="true" id="8a07-027a-feff-d35a">
       <characteristics>
         <characteristic name="ATK" typeId="1727-4f83-903e-a65d">5</characteristic>
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">1</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">-</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">4</characteristic>
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Exceptional, Specialist, Underwater SRS</characteristic>
+        <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1"/>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Exceptional, Specialist, Underwater SRS</attribute>
@@ -2236,6 +2250,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">5</characteristic>
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Exo-Sub, Offensive, Superior Mine Clearance</characteristic>
+        <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Attack Run Mission, Air Support Mission, Aerial Reconnaissance</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Exo-Sub, Offensive, Superior Mine Clearance</attribute>
@@ -2248,18 +2263,20 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">3</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">2</characteristic>
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Portal Strike</characteristic>
+        <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Attack Run Mission, Air Support Mission, Mine Clearance Mission, Aerial Reconnaissance</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Portal Strike</attribute>
       </attributes>
     </profile>
-    <profile name="Scythe Fighters" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="d9fa-f9ea-c689-e3f3">
+    <profile name="Scythe Drones" typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="d9fa-f9ea-c689-e3f3">
       <characteristics>
         <characteristic name="ATK" typeId="1727-4f83-903e-a65d">3</characteristic>
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">2</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a"/>
+        <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Attack Run Mission, Air Support Mission, Mine Clearance Mission, Aerial Reconnaissance</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34"/>
@@ -2272,6 +2289,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">2</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">4</characteristic>
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Offensive, Surgical Strike (Shredded Defences)</characteristic>
+        <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Attack Run Mission, Air Support Mission, Aerial Reconnaissance</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Offensive, Surgical Strike (Shredded Defences)</attribute>
@@ -2284,6 +2302,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">-</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">2</characteristic>
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Specialist</characteristic>
+        <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Terminator Assault Mission, Ground Support Mission, Supply Drop Mission</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Specialist</attribute>
@@ -2297,6 +2316,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">-</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">2</characteristic>
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Specialist</characteristic>
+        <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Talon Assault Mission, Ground Support Mission, Supply Drop Mission</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Specialist</attribute>
@@ -2310,6 +2330,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">-</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">2</characteristic>
         <characteristic name="PROPERTIES" typeId="65e4-97a8-7a12-c50a">Surgical Strike (Breach / System Failure), Underwater SRS</characteristic>
+        <characteristic name="MISSIONS" typeId="83b9-9858-3b33-6ac1">Attack Run Mission, Air Support Mission, Mine Clearance Mission</characteristic>
       </characteristics>
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Surgical Strike (Breach / System Failure), Underwater SRS</attribute>

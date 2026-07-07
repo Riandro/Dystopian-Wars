@@ -10326,6 +10326,16 @@ Additionally, if the unit scores at least one Success during a Boarding action t
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="57a1-694b-27f4-18b6" shared="true" includeChildSelections="true" childName="Protecao Commercial Battlefleet (Specialist)"/>
           </conditions>
         </modifier>
+        <modifier type="add" value="e87c-6247-b002-d43c" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="e7dc-0793-7d89-6cf4" shared="true" includeChildSelections="true" childName="French"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="347a-d026-feb1-9b9f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="2d51-27db-f499-9fcd" shared="true" includeChildSelections="true" childName="Portuguese"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Admiral’s Flag" hidden="false" id="2a5a-0606-5bf5-3207">
@@ -10400,6 +10410,16 @@ Additionally, if the unit scores at least one Success during a Boarding action t
         <modifier type="set-primary" value="cb16-dad3-a428-4ec6" field="category">
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="57a1-694b-27f4-18b6" shared="true" includeChildSelections="true" childName="Protecao Commercial Battlefleet (Specialist)"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="e87c-6247-b002-d43c" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="4965-6d88-a254-7c01" shared="true" includeChildSelections="true" childName="French"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="347a-d026-feb1-9b9f" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="3b6c-179a-9d57-5301" shared="true" includeChildSelections="true" childName="Portuguese"/>
           </conditions>
         </modifier>
       </modifiers>

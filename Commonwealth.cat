@@ -4204,7 +4204,7 @@
         <categoryLink name="NoRepulsion" hidden="false" id="ee5a-44d0-d72b-0347" targetId="401d-07db-b6e3-82a7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Tunguska" hidden="false" id="1f38-c023-0a2a-32c2">
+        <selectionEntry type="model" import="true" name="Tunguska" hidden="false" id="1f38-c023-0a2a-32c2" collapsible="true">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="120"/>
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="3"/>
@@ -5068,6 +5068,13 @@
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="45"/>
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="1"/>
           </costs>
+          <modifiers>
+            <modifier type="set" value="2" field="f0f4-d60f-ff58-4ee7">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true" childName="Attachment host"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
       <modifiers>
