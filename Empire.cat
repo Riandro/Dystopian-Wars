@@ -7739,6 +7739,11 @@ Light Vessel, Pivot, Shallow Draught</characteristic>
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="657d-f575-073d-1c91" shared="true" includeChildSelections="true" childName="Zhanmadao Battlefleet (Specialist)"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="139e-c78f-43c0-2957" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="657d-f575-073d-1c91" shared="true" includeChildSelections="true" childName="Zhanmadao Battlefleet (Specialist)"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="26eb-6b47-bcb0-84fd" type="selectionEntryGroup" targetId="1e7d-8dc7-fedb-f45a"/>
