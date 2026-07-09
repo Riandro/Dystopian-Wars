@@ -342,7 +342,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Subclass" id="f9a8-efd6-d606-b5ac" hidden="false" sortIndex="2">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Nansen Class" hidden="false" id="732a-6ea0-a4a0-ed98" sortIndex="2"/>
+            <selectionEntry type="upgrade" import="true" name="Diophantus Class" hidden="false" id="732a-6ea0-a4a0-ed98" sortIndex="2"/>
             <selectionEntry type="upgrade" import="true" name="Archimedes Class" hidden="false" id="e9c9-970d-a3ec-3645" sortIndex="1"/>
           </selectionEntries>
           <constraints>
@@ -3457,9 +3457,9 @@ Maritime Patrol</characteristic>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="0f90-288b-e16b-cdcb" sortIndex="6">
+                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Gun Battery" hidden="false" id="0f90-288b-e16b-cdcb" sortIndex="6">
                   <profiles>
-                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="80a2-4729-a13b-c45d">
+                    <profile name="Heavy ESCF Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="80a2-4729-a13b-c45d">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
@@ -3561,9 +3561,102 @@ Maritime Patrol</characteristic>
                 <categoryLink name="PSA" hidden="false" id="1288-f860-4103-c01e" targetId="9f7f-8691-2f61-e765" primary="false"/>
               </categoryLinks>
               <entryLinks>
-                <entryLink import="true" name="Entropic Generator" hidden="false" id="e55a-cc5c-4c8d-7615" type="selectionEntry" targetId="2cb4-fe15-7370-eea4"/>
-                <entryLink import="true" name="Generators" hidden="false" id="de00-853c-fe2f-53c7" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
+                <entryLink import="true" name="Entropic Generator" hidden="false" id="a73a-969b-be5d-217a" type="selectionEntry" targetId="2cb4-fe15-7370-eea4"/>
+                <entryLink import="true" name="Generators" hidden="false" id="b58b-1548-7010-18fe" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Particle Beamer" hidden="false" id="4c60-7040-8630-3572">
+                  <profiles>
+                    <profile name="Particle Beamer" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="5d72-93ba-967e-ea9e">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Pulse Emitter" hidden="false" id="5287-f38b-f6ee-01da">
+                  <profiles>
+                    <profile name="Pulse Emitter" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7e4a-afc7-1ee3-3350">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Caloric Oscillator" hidden="false" id="0185-489e-964f-dbe1">
+                  <profiles>
+                    <profile name="Caloric Oscillator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="fa98-a2eb-dabd-4137">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Torrent&lt;/span&gt;(2), Disruption</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="5c2c-9678-1dbe-9b34">
+                  <profiles>
+                    <profile name="Sturginium Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="31b6-4ff1-5167-7e76">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation (5), Structural Failure (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="2ecd-174a-99ac-f847">
+                  <profiles>
+                    <profile name="Molecular Disharmoniser" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="be3f-40dc-2d21-a891">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">1</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (1), Synergy</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Gun Battery" hidden="false" id="9267-f417-3ef0-36f4">
+                  <profiles>
+                    <profile name="Heavy ESCF Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="71e7-fc8b-68a3-d49b">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Rocket Battery" hidden="false" id="e234-e7d2-894e-5519">
+                  <profiles>
+                    <profile name="Heavy ESCF Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="d0ce-d72f-5b9b-26c8">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage, ESCF Munitions</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
@@ -7334,7 +7427,7 @@ If the Check is passed, the unit suffers 1 less Damage, to a minimum of 1.</des
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="965f-93fc-12bf-bd57"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="" id="c6fa-8ee4-3fb1-29fc" hidden="false">
+                <selectionEntryGroup id="c6fa-8ee4-3fb1-29fc" hidden="false">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6cb9-2238-f384-c2ed"/>
                   </constraints>
@@ -7461,7 +7554,7 @@ If the Check is passed, the unit suffers 1 less Damage, to a minimum of 1.</des
                 <categoryLink name="PSA" hidden="false" id="fde9-02a0-b545-f73f" targetId="9f7f-8691-2f61-e765" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="" id="9cb8-25ac-97af-d266" hidden="false">
+                <selectionEntryGroup id="9cb8-25ac-97af-d266" hidden="false">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4df4-6004-915a-9fd8" includeChildSelections="false"/>
                   </constraints>
@@ -8380,7 +8473,7 @@ This does not prevent the Admiral from choosing a Constructed by the Forge Doctr
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="6963-00e4-4936-1570">
+                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="true" id="6963-00e4-4936-1570">
                   <profiles>
                     <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="6956-c2c5-8245-0e6e">
                       <characteristics>
@@ -8393,7 +8486,7 @@ This does not prevent the Admiral from choosing a Constructed by the Forge Doctr
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Rocket Battery" hidden="false" id="8780-28d0-0797-4850">
+                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Rocket Battery" hidden="true" id="8780-28d0-0797-4850">
                   <profiles>
                     <profile name="Heavy ESCF Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="8fcb-a8a5-1322-55fa">
                       <characteristics>
