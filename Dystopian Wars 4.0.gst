@@ -100,6 +100,23 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
     <categoryEntry name="NoMagnetic" id="f114-4bae-9e5b-c9fd" hidden="true"/>
     <categoryEntry name="Magmafleet" id="7cb7-ba18-609f-2720" hidden="false"/>
     <categoryEntry name="Attachment" id="f152-70a0-da07-33cd" hidden="false"/>
+    <categoryEntry name="S" id="bd70-1c6f-c7ac-428a" hidden="false"/>
+    <categoryEntry name="A" id="e5fb-49de-837b-a793" hidden="false"/>
+    <categoryEntry name="PSA" id="9f7f-8691-2f61-e765" hidden="false"/>
+    <categoryEntry name="F" id="8219-3945-85d7-0c9d" hidden="false"/>
+    <categoryEntry name="SA" id="fc1a-7ecd-b140-1fbc" hidden="false"/>
+    <categoryEntry name="FS" id="00c2-a830-faa1-5a87" hidden="false"/>
+    <categoryEntry name="FA" id="b0cb-1566-f566-6ead" hidden="false"/>
+    <categoryEntry name="FPSA" id="3e8b-c234-32e4-205d" hidden="false"/>
+    <categoryEntry name="PA" id="7d26-19e7-7815-2e3a" hidden="false"/>
+    <categoryEntry name="FP" id="7ce1-ef0f-09d1-2ac1" hidden="false"/>
+    <categoryEntry name="FPA" id="3e58-934c-5c75-146f" hidden="false"/>
+    <categoryEntry name="PS" id="c081-b547-af87-d110" hidden="false"/>
+    <categoryEntry name="P" id="5b54-b7a7-a718-8e40" hidden="false"/>
+    <categoryEntry name="FPS" id="d1a2-c80d-ae5b-5d78" hidden="true"/>
+    <categoryEntry name="FSA" id="03f4-7355-2934-969a" hidden="false"/>
+    <categoryEntry name="GenAmount1" id="afce-9b7a-9e0a-a773" hidden="true"/>
+    <categoryEntry name="Gencost20" id="378d-fd54-66bd-9a79" hidden="true"/>
   </categoryEntries>
   <profileTypes>
     <profileType name="Model" id="9251-e433-d856-630b" hidden="false" sortIndex="1">
@@ -437,7 +454,7 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Chrono Generator" hidden="true" id="a9de-8bf2-aa82-b79e">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="5"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <profiles>
@@ -453,6 +470,11 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
             <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="unit" childId="047c-73c0-89c8-f01f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="20" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="378d-fd54-66bd-9a79" shared="true" childName="Gencost20" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -542,7 +564,7 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Null-Clone Generator" hidden="true" id="5807-0de8-d905-258f">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="5"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <profiles>
@@ -558,6 +580,11 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
             <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="unit" childId="1251-fac6-d468-621c" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="20" field="89fa-eeaa-958f-ca32">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="378d-fd54-66bd-9a79" shared="true" childName="Gencost20" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -627,6 +654,9 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
               </conditionGroups>
             </modifier>
           </modifiers>
+          <profiles>
+            <profile name="Magma Cast Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="45f2-099f-5584-5b69"/>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
       <constraints>
@@ -1960,6 +1990,8 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <categoryLink name="Underwater" hidden="false" id="a1bd-b8c0-1b87-0e63" targetId="c636-bf34-4555-99bc" primary="false"/>
         <categoryLink name="Automata" hidden="false" id="725e-c619-6e41-c96d" targetId="c52e-c45f-9110-0c8c" primary="false"/>
         <categoryLink name="Scout" hidden="false" id="7ac2-14a3-e741-00b9" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
+        <categoryLink name="Colossus" hidden="false" id="616f-d083-de49-5e26" targetId="b1a6-61a9-0ae4-8b65" primary="false"/>
+        <categoryLink name="Submarine" hidden="false" id="bc06-3ce8-97f4-b72a" targetId="c503-3bc7-2b45-91ef" primary="false"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f61f-e3a6-59c8-3483"/>
@@ -1970,16 +2002,16 @@ This can be used to allow the unit to launch a Boarding action when it could not
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Diogenes" hidden="false" id="96af-0f4f-d1e9-d9f8">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="35"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="30"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="1"/>
           </costs>
           <profiles>
-            <profile name="Weirding Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="57e1-50ae-b9ea-d63f">
+            <profile name="Micro Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="57e1-50ae-b9ea-d63f">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
-                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Guided (2), Torpedo</characteristic>
               </characteristics>
             </profile>
@@ -2027,7 +2059,6 @@ This can be used to allow the unit to launch a Boarding action when it could not
       <categoryLinks>
         <categoryLink name="Scout" hidden="false" id="9257-0775-6a18-ecdc" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
         <categoryLink name="Light Vessel" hidden="false" id="5fb4-bc1a-d245-c4b4" targetId="a788-9613-7ce1-5dd9" primary="false"/>
-        <categoryLink name="Unique" hidden="false" id="57a9-9539-4956-ceb1" targetId="4305-d7b2-6b3b-fd89" primary="false"/>
         <categoryLink name="Submarine" hidden="false" id="43d3-f325-7b90-9267" targetId="c503-3bc7-2b45-91ef" primary="false"/>
         <categoryLink name="Enlightened" hidden="false" id="d044-b263-7f7d-fbf0" targetId="5df2-bc66-57ad-0a5b" primary="false"/>
         <categoryLink name="Automata" hidden="false" id="cc14-dc1e-0ea3-b720" targetId="c52e-c45f-9110-0c8c" primary="false"/>
@@ -2097,6 +2128,77 @@ This can be used to allow the unit to launch a Boarding action when it could not
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e60-77e5-a872-3599"/>
       </constraints>
       <comment>For Enlightened, and Sultanate Crimson League</comment>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Endymion Dyad Rotors" hidden="false" id="cfe2-5462-3fe4-37d3">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Endymion" hidden="false" id="cb15-5671-d0db-0756">
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="35"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9b9a-db3d-e66b-68b5" automatic="true"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="6927-9509-8fa1-86f9" automatic="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Aerial Weirding Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="db84-00bb-78cb-12ea">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Aerial&lt;/span&gt;, Guided (2), Torpedo</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Advanced Aetheric Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a055-16a6-c608-9302">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Enlightened" hidden="false" id="edd3-0329-d3e8-2215" targetId="5df2-bc66-57ad-0a5b" primary="false"/>
+        <categoryLink name="Airborne" hidden="false" id="efda-e4e2-6eea-2d82" targetId="139e-c78f-43c0-2957" primary="false"/>
+        <categoryLink name="Saucer" hidden="false" id="4086-ef26-83b9-1407" targetId="049d-c2ce-6f79-33ad" primary="false"/>
+        <categoryLink name="Light Vessel" hidden="false" id="5ad0-eacb-9133-13a0" targetId="a788-9613-7ce1-5dd9" primary="false"/>
+        <categoryLink name="Automata" hidden="false" id="c619-1f23-a1a1-e307" targetId="c52e-c45f-9110-0c8c" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Endymion" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="d291-4e48-87de-47ad">
+          <characteristics>
+            <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">1</characteristic>
+            <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">0&quot;-9&quot;</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">-</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">4</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">2</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">3</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">1</characteristic>
+            <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">1</characteristic>
+            <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">1</characteristic>
+            <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">6</characteristic>
+            <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">2-4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Endymion" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="43fb-f22e-3436-63e9">
+          <characteristics>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Airborne), Cloud Dive, Landing Party Support, Light Vessel, Mobile</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Endymion" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="1e0a-8207-dcc1-598b">
+          <characteristics>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Hydrophone Relay</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="false" id="bcbe-35b4-8030-c6ee" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
@@ -2335,6 +2437,87 @@ This can be used to allow the unit to launch a Boarding action when it could not
       <attributes>
         <attribute name="SRS Properties" typeId="fe63-ead3-74ce-fd34">Surgical Strike (Breach / System Failure), Underwater SRS</attribute>
       </attributes>
+    </profile>
+    <profile name="change me" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="c8e0-4901-e3dd-d7b8">
+      <characteristics>
+        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b"/>
+        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21"/>
+        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769"/>
+        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55"/>
+        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="PA" field="7e1f-87c9-897e-937b">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="7d26-19e7-7815-2e3a" shared="true" childName="PA"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="F" field="7e1f-87c9-897e-937b">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="8219-3945-85d7-0c9d" shared="true" childName="F"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="FP" field="7e1f-87c9-897e-937b">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="7ce1-ef0f-09d1-2ac1" shared="true" childName="FP"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="FPS" field="7e1f-87c9-897e-937b">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="3e8b-c234-32e4-205d" shared="true" childName="FPS"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="FPSA" field="7e1f-87c9-897e-937b">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="3e8b-c234-32e4-205d" shared="true" childName="FPSA"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="FSA" field="7e1f-87c9-897e-937b">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="03f4-7355-2934-969a" shared="true" childName="FSA"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="FS" field="7e1f-87c9-897e-937b">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="00c2-a830-faa1-5a87" shared="true" childName="FS"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="S" field="7e1f-87c9-897e-937b">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="bd70-1c6f-c7ac-428a" shared="true" childName="S"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="A" field="7e1f-87c9-897e-937b">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="e5fb-49de-837b-a793" shared="true" childName="A"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="PSA" field="7e1f-87c9-897e-937b">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9f7f-8691-2f61-e765" shared="true" childName="PSA"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="SA" field="7e1f-87c9-897e-937b">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="fc1a-7ecd-b140-1fbc" shared="true" childName="SA"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="PS" field="7e1f-87c9-897e-937b">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="c081-b547-af87-d110" shared="true" childName="PS"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="FA" field="7e1f-87c9-897e-937b">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="b0cb-1566-f566-6ead" shared="true" childName="FA"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="P" field="7e1f-87c9-897e-937b">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5b54-b7a7-a718-8e40" shared="true" childName="P"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
   </sharedProfiles>
 </gameSystem>

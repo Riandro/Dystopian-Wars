@@ -59,7 +59,10 @@ All SRS tokens in the Stack are then discarded.</description>
       <comment>SRS</comment>
     </rule>
     <rule name="Superior Void Engine" id="fa19-3771-a733-d8ae" hidden="false">
-      <description>When this unit (or a friendly unit within 10”) makes a Turbo Encabulation Jump, the controlling Admiral can choose to re-roll a single Blank result in the Anomaly Roll. (See the *Enlightened ORBAT*.)</description>
+      <description>This model, and other friendly Enlightened models within 10” of this model, benefit from Superior Void-Engines. 
+
+
+When a unit makes a Turbo Encabulation Jump (see the Experimental Contraptions section of the Enlightened ORBAT), any models in the unit that benefit from Superior Void-Engines can jump up to 20”, instead of up to 15”.</description>
       <alias>Superior Void-Engine</alias>
     </rule>
     <rule name="Azhdaya Berserkers" id="4e7e-b6a3-6718-ad43" hidden="false">
@@ -142,11 +145,19 @@ If a model can launch more than one type of SRS token then these can be launch
 If an Underwater model has this trait, it cannot resolve an SRS Launch unless it is surfacing.</description>
     </rule>
     <rule name="Diophantus Chaos-Orb" id="befb-91b8-d4dd-bade" hidden="false">
-      <description>In the Draw Cards step of the Ready Phase, the controlling Admiral draws 2 Bonus Cards if they have at least one model with this System in the Play Area.
+      <description>In the Draw Cards step of the Ready Phase, the controlling Admiral draws 2 Bonus Cards if they have at least one model with this System in the Play Area. 
 
 
-In addition, this model’s unit can Unleash Chaos as a Special Action. 
-Only models with a Diophantus Chaos-Orb can Participate in this Action. Each enemy model that is within 5” of at least one Participating model suffers a Shredded Defences Critical Damage Effect.</description>
+In addition, as a Special Action, this model’s unit can Unleash Chaos. Only models with this System can Participate. 
+
+
+The unit’s Admiral adds an Action Die to the Localised Anomaly Pool, then makes an Anomaly Roll for the unit. (See the Experimental Contraptions section of the Enlightened ORBAT.) 
+
+
+For each Blank result rolled, each Participating model gains 1 level of Disorder. If a Participating model already has 3 Disorder, it suffers 1 Damage instead. 
+
+
+Then, each enemy model that is within 5” of at least one Participating model suffers a Shredded Defences Critical Damage Effect.</description>
     </rule>
     <rule name="Cloud Dive" id="42be-b63d-0c3c-7f72" hidden="false">
       <description>This Property only applies if every model in the unit has it listed on its unit profile - otherwise, it is disregarded. 
@@ -254,31 +265,39 @@ After the Action has been resolved, the active Admiral chooses one model in the
 If the Unit Benefit was granted by a model in a different unit - for example, a model with the Generator Ship system - that model gains Disorder instead.</description>
     </rule>
     <rule name="Wavelurker" id="e904-88b1-c924-e982" hidden="false">
-      <description>This model can Pass Through other Surface models during its Movement Step, and does not Block or Obscure Visibility when a friendly unit makes an Attack action. 
+      <description>This model can Pass Through other Surface models during its Movement step, and does not Block or Obscure Visibility when a friendly unit makes an Attack action. 
 
 
-In addition, when this model is the target of an Attack action, any Standard Strikes in the Resistance Roll are converted to Standard Counters. 
+In addition, when this model is the target of an Attack action, before making the Resistance Roll, this model’s Admiral can make a Crew Check for it. 
 
 
-This does not apply if the Attack action is being made with Assault or
-Submerged weapons. 
+If this Check is passed, any Standard Strikes in the Resistance Roll are converted to Standard Counters. 
 
 
-If this model has a Navigation Lock Critical Damage Effect, this Property has no effect.</description>
+This does not apply if the Attack action is being made with Assault or Submerged weapons. 
+If this model has a Navigation Lock Critical Damage Effect, this Property has no effect.</description>
     </rule>
     <rule name="Chrono Generator" id="5475-2d41-8bbf-de0d" hidden="false">
       <description>This is a Generator and grants the following Unit Benefit:
+When this unit is Activated, its Admiral can choose whether or not to engage the Chrono Generator. 
 
-When this unit is Activated, its Admiral can choose whether or not to engage the Chrono Generator.
-If they do so, make a Group Crew Check for the unit.
 
-If the Check is passed, and the Value of the drawn card is **even**, each Battle-Ready model in the unit immediately recovers 1 Damage.
+If they do so, they add an Action Die to the Localised Anomaly Pool, then make an Anomaly Roll for the unit. (See the Experimental Contraptions section of the Enlightened ORBAT.)
 
-If the check is passed, and the Value of the drawn card is **odd**, the first Attack action made during this Activation adds 5 Bonus Dice to its Action Pool.
 
-If the check is passed, and the Value of the drawn card is **1** or **2**, the Admiral can choose one of the above results.
+For each Blank result rolled, each model in the active unit gains 1 level of Disorder. If a model already has 3 Disorder, it suffers 1 Damage instead.
 
-If the check is failed, each model in the unit gains 1 level of Disorder. If a model already has 3 levels of Disorder, it suffers 1 Damage instead.</description>
+
+Then, the Admiral draws a card from their Victory &amp; Valour deck:
+
+
+• If the Value of the drawn card is even, each BattleReady model in the unit immediately recovers 1 Damage.
+
+
+• If the Value of the drawn card is odd, the first Attack action made during this Activation adds 5 Bonus Dice to its Action Pool.
+
+
+• If the Value of the drawn card is 1 or 2, the Admiral can choose one of the above results.</description>
     </rule>
     <rule name="Fury Generator" id="af48-3664-f416-a4a9" hidden="false">
       <description>This is a Generator and grants the following Unit Benefit:
@@ -307,14 +326,27 @@ Each model in this unit gains a +1 Modifier to its Armour rating when it is the
 This has no effect against attacks made with Assault or Submerged Weapons. It also has no effect against the Breaching Drill or Raking Strike properties.</description>
     </rule>
     <rule name="Callimachus Chrono-Lathe" id="efc4-f1e6-0ff7-c29e" hidden="false">
-      <description>Once per Round, as a Special Action, this model’s unit may engage this System. 
-If it does so, each friendly Battle-Ready Enlightened model within 15” immediately recovers 1 Damage.
+      <description>Once per Round, during the Deploy Reserves step of the Ready Phase, the controlling Admiral may use this System instead of making a Reserve Roll, provided that this model is in the Play Area. 
 
 
-Additionally, once per Round, during the Deploy Reserves step of the Ready Phase, the controlling Admiral may use this System instead of making a Reserve Roll, provided that this model is in the Play Area. 
+The other unit arrives immediately, and is deployed so that each model is within 3” of a friendly model with this System. 
 
 
-The other unit arrives immediately, and is deployed so that each model is within 3” of a friendly model with this System. Each model in the newly-deployed unit immediately suffers a single instance of the Hazard Critical Damage Effect.</description>
+Each model in the newly deployed unit immediately suffers a single instance of the Hazard Critical Damage Effect, but the unit is not marked with the Incoming status.
+
+
+Additionally, as a Special Action, this model’s unit can Enact Temporal Reconfiguration. Only models with this System can Participate. 
+
+
+The unit’s Admiral adds an Action Die to the Localised Anomaly Pool, then makes an Anomaly Roll for the unit. (See the Experimental Contraptions section of the Enlightened ORBAT.) 
+
+
+For each Blank result rolled, each Participating model gains 1 level of Disorder. If a Participating model already has 3 Disorder, it suffers 1 Damage instead. 
+
+
+Then, each friendly Battle-Ready Enlightened model within 15” of at least one Participating model immediately recovers 1 Damage.
+
+*~ Note that a Participating model does not count as being within 15” of itself, but can recover Damage if it is within 15” of another Participating model.*</description>
     </rule>
     <rule name="Exceptional" id="e906-14a2-517b-1ca5" hidden="false">
       <description>This SRS token can only be stacked with other SRS tokens of the same type.
@@ -339,13 +371,16 @@ The controlling Admiral rolls X Action Dice for each Participating model. 
 For each Exploding Strike rolled, they can choose to Clear a Minefield marker that is within 5” of at least one Participating model.</description>
     </rule>
     <rule name="Null-Clone Generator" id="dc5c-17b7-faf5-3ad6" hidden="false">
-      <description>This is a Generator.
-
-This model’s unit can Engage Null-Clone Generators as a Special Action. 
-Only models with this System can Participate in this Action.
+      <description>This is a Generator. As a Special Action, this model’s unit can Engage Null-Clone Generators. 
 
 
-When this Action is made, each enemy model within 5” of a Participating model gains a System Failure Critical Damage Effect, unless it already has one. 
+Only models with this System can Participate. The unit’s Admiral adds an Action Die to the Localised Anomaly Pool, then makes an Anomaly Roll for the unit. (See the Experimental Contraptions section of the Enlightened ORBAT.) 
+
+
+For each Blank result rolled, each Participating model gains 1 level of Disorder. If a Participating model already has 3 Disorder, it suffers 1 Damage instead. 
+
+
+Then, each enemy model within 5” of a Participating model gains a System Failure Critical Damage Effect, unless it already has one. 
 
 
 For every System Failure inflicted in this way, the active Admiral can remove a System Failure from a Participating model, or another friendly model within 10” of a Participating model.</description>
@@ -749,8 +784,11 @@ If the Check is passed, this model gains a +2 Crew Modifier when determining ho
 
 In addition, when this model Collides with or Rams another model, or is itself the Target of a Ram and the point of contact is in this model’s Fore Arc, the amount of Damage it suffers is reduced by X, to a minimum of 0.</description>
     </rule>
-    <rule name="Under Fire" id="7faf-2d57-e3d5-febb" hidden="false">
-      <description>If the target suffers an amount of Damage equal to or greater than its Mass rating as the result of a single Attack action, then it also gains 1 level of Disorder.</description>
+    <rule name="Ubiquitous" id="7faf-2d57-e3d5-febb" hidden="false">
+      <description>During Force Selection, a Battlefleet can contain up to two units of this Class, or three if it is a Mainstay Class.
+
+
+This overrules the Duplicate Classes restriction (see page 126 of Dystopian Wars: The Rules).</description>
     </rule>
     <rule name="Breach" id="0531-2964-54c7-8ffd" hidden="false">
       <description>If the Initial Target of this Attack action suffers at least 1 Damage, the active Admiral rolls X Critical Damage Dice for each Contributing weapon with this Quality. 
@@ -1276,15 +1314,14 @@ If at least one die matches the declared Effect, a single instance of that Eff
     <rule name="Dirigible" id="8106-fe79-c529-936d" hidden="false">
       <description>Whenever this model would suffer a Breach or Structural Failure Critical Damage Effect, it suffers two instances of that Effect instead.</description>
     </rule>
-    <rule name="Overthrusters" id="f627-0508-3b47-f7cb" hidden="false">
-      <description>When this model uses its Boosted Propulsion (+X”) system, mark it with a Special Effect token to show that it is at Full Thrust.
+    <rule name="Reclamator Swarm" id="f627-0508-3b47-f7cb" hidden="false">
+      <description>If an enemy Surface model ends its Activation within 4” of this model, this model’s Admiral rolls an Action Die. 
 
 
-While a model is at Full Thrust, it benefits from the effects of the Unconventional Target rule, even if it is not an Airborne unit.
+If they score an Exploding Hit, the enemy model suffers a Structural Failure Critical Damage Effect. 
 
 
-If a model at Full Thrust suffers a Navigation Lock or System Failure Critical Damage Effect, it immediately ceases to be at Full Thrust and the Special Effect token is removed. 
-Otherwise, the Token is removed in the Clean Up step of the End Phase.</description>
+If an enemy model ends its Activation within 4” of more than one model with this Property, roll an Action Die for each, and apply a Structural Failure for each Exploding Hit scored.</description>
     </rule>
     <rule name="Maritime Patrol" id="e9fa-6e67-7edf-5c21" hidden="false">
       <description>During Deployment, enemy models cannot be deployed within 10” of this model unless they are fully within their own Deployment Zone.
@@ -1451,6 +1488,8 @@ After making a Turbo Encabulation Jump, a unit cannot make any more Actions in t
 Any other Tokens (Escort, Physeter Construct, Damage, Disorder, Critical Damage, etc) are moved with the model(s) as normal. 
 This can result in models in Reserve having Tokens, even though this is not normally possible.*</description>
       <alias>Localised Anomaly Pool</alias>
+      <alias>Turbo Encabulation Jump</alias>
+      <alias>Turbo Encabulation Jumps</alias>
     </rule>
     <rule name="Agitation" id="c041-5cea-e716-a14d" hidden="false">
       <description>Each of this weapon’s Firepower ratings is increased by an Agitation Bonus. 
@@ -2695,29 +2734,15 @@ When making a Repair Roll, an Admiral can remove all Ablaze tokens from a model
     <rule name="Sky Commandos" id="b882-b213-bba2-ddfa" hidden="false">
       <description>When this model’s unit makes a Boarding action, the Target can be a Surface or Airborne model, and this model can Participate.</description>
     </rule>
-    <rule name="Turbo Encabulation Drive" id="2112-f1e2-0757-5c8f" hidden="true">
-      <description>At the start of this unit’s Movement Step, as long as no models in the unit have 3 levels of Disorder, its Admiral can declare that they will activate the Turbo Encabulation Drive. 
+    <rule name="Turbo Encabulation Drive" id="2112-f1e2-0757-5c8f" hidden="false">
+      <description>As a Special Action, this model’s unit can make a Turbo Encabulation Jump, as detailed in the Experimental Contraptions section of the Enlightened ORBAT.
 
 
-If they do, they must make a Group Crew Check for the unit.
-
-
-If the Check passes, the Admiral can move each model up to 20” in any direction, without changing their facing, and Passing Through any intervening models and Terrain Features. 
-
-
-The unit must be placed so that all models are in Coherency. Each model gains 1 level of Disorder, and the rest of the Movement Step is skipped.
-
-
-If it is unsuccessful, check the Value of the card that was used to make the Group Crew Check. 
-
-
-If it is an odd number, the unit forgoes its Movement Step entirely and each model gains both a System Failure and Hazard Critical Damage Effect. 
-
-
-If it is an even number, the unit is removed from the Play Area and placed into Reserve, retaining any Damage, Disorder, Critical Damage and any other Tokens.</description>
+Only models with this System can Participate in the Action.</description>
       <comment>Currently not used</comment>
+      <alias>TED</alias>
     </rule>
-    <rule name="Turbo Encabulation" id="b3d7-c484-971a-5fcd" hidden="false">
+    <rule name="Turbo Encabulation" id="b3d7-c484-971a-5fcd" hidden="true" noindex="false">
       <description>&lt;h1&gt;Turbo Encabulation Jumps&lt;/h1&gt;
 &lt;p&gt;Some rules allow an Admiral to to attempt a Turbo Encabulation Jump with a unit.&lt;/p&gt;
 
@@ -2742,6 +2767,7 @@ If it is an even number, the unit is removed from the Play Area and placed into
 &lt;p&gt;If its unit attempts a Turbo Encabulation Jump,the model is removed from play as normal, but is not returned to the Play Area. If it was Battle-Ready, the opposing Admiral immediately scores Victory Points as though it had been Crippled.&lt;/p&gt;</description>
       <alias>Turbo Encabulation Jump</alias>
       <alias>Turbo Encabulation Jumps</alias>
+      <comment>retired</comment>
     </rule>
     <rule name="Ekranoplan" id="b4cf-b94c-0f9c-fcc3" hidden="false">
       <description>This model can move into or through Grounding Hazards without Colliding with them, and can still Rally when it is within Proximity of them.</description>
@@ -3241,15 +3267,15 @@ The Admiral can Unleash Physeter Construct tokens from a unit, removing them fro
 An Admiral can Unleash one or more of the Physeter Construct tokens allocated to a unit if a model in that unit is the target of any of the following:
 
 
-- A Boarding action;
+• A Boarding action;
 
-- An Attack action to which at least one Assault or Submerged weapon is Contributing;
-
-
-- An Attack Run mission made by an SRS Stack containing at least one Token with the Underwater SRS property;
+• An Attack action to which at least one Assault or Submerged weapon is Contributing;
 
 
-- Physeter Sabotage (see below).
+• An Attack Run mission made by an SRS Stack containing at least one Token with the Underwater SRS property;
+
+
+• Physeter Sabotage (see below).
 
 
 2 Bonus Dice are added to the Resistance Roll for each Physeter Construct token that was Unleashed.
@@ -3278,6 +3304,118 @@ Add 1 Bonus Die for each Escort token accompanying the target unit. If the targe
 
 For each Success scored in the Action Roll, the active Admiral rolls a Critical Damage Die. Each resulting Critical Damage Effect is inflicted on the target.</description>
       <comment>SRS</comment>
+    </rule>
+    <rule name="Euripidean Host" id="57ea-f956-5eba-6168" hidden="false">
+      <description>Once per game, this model’s unit can make a Special Action to Detach the Sub-remoras. 
+
+
+When it does, the unit’s Admiral sets up a new unit of 6 Euripides Submarines. Each model in the new unit must be placed within 4” of a model in the active unit, and no model can be placed within 1” of a model outside the active unit. 
+
+
+The new unit is marked with an Activated status token. It is now a fully-fledged unit within the Force, and can be activated as normal from next round onwards.</description>
+    </rule>
+    <rule name="Hellion Assaulters" id="4961-83c2-e2cc-f725" hidden="false">
+      <description>When this model’s unit makes a Boarding action, the target can be a Surface or Airborne model, and this model can Participate. 
+
+
+If at least one model with this property Participates in the Boarding Action any Blank dice results may be re-rolled.</description>
+    </rule>
+    <rule name="Physeter Support Hub" id="0dc6-9ce3-f72d-dc03" hidden="false">
+      <description>At the end of the Deployment step, this model’s Admiral gains 4 Physeter Construct tokens (see the Enlightened ORBAT ). 
+
+
+They can then allocate these Tokens between the units in their Force, with a maximum of 3 Tokens per unit. 
+
+
+After this model’s Admiral uses Physeter Protection or Physeter Sabotage with this model’s unit, or another a unit that is within 7” of at least one friendly model with this Property, they roll an Action Die for each Physeter Construct token that was Unleashed. 
+
+
+If they score a Heavy or Exploding Strike, they return the Token to the unit from which it was Unleashed.</description>
+      <comment>SRS</comment>
+    </rule>
+    <rule name="Overthrusters" id="1f4f-55e8-4844-c0f0" hidden="false">
+      <description>When this model uses its Boosted Propulsion (+X”) system, mark it with a Special Effect token to show that it is at Full Thrust.
+
+
+While a model is at Full Thrust, it benefits from the effects of the Unconventional Target rule, even if it is not an Airborne unit.
+
+
+If a model at Full Thrust suffers a Navigation Lock or System Failure Critical Damage Effect, it immediately ceases to be at Full Thrust and the Special Effect token is removed. 
+Otherwise, the Token is removed in the Clean Up step of the End Phase.</description>
+    </rule>
+    <rule name="Under Fire" id="e698-e05d-5cb8-6eaa" hidden="false">
+      <description>If the target suffers an amount of Damage equal to or greater than its Mass rating as the result of a single Attack action, then it also gains 1 level of Disorder.</description>
+    </rule>
+    <rule name="Entropic Generator" id="35bc-612d-8c75-faef" hidden="false" noindex="false">
+      <description>This is a Generator.
+
+
+When a model is the target of an Attack action, its Admiral can re-roll two Blank results in the Resistance Roll for each Entropic Generator mounted on a model in its
+unit (including the model itself).
+
+
+In addition, each Entropic Generator always mounts one of the weapons from the table below (chosen during Force Selection). 
+
+
+The model with the Entropic Generator counts as being equipped with the chosen weapon(s), using the Arc(s) of the Heavy Hardpoint Weapon that this Generator is replacing.
+
+
+&lt;table style=&quot;border-collapse:collapse;width:100%;font-size:14px;&quot;&gt;
+    &lt;thead&gt;
+        &lt;tr style=&quot;background:#666;color:white;&quot;&gt;
+            &lt;th style=&quot;padding:4px;text-align:center;&quot;&gt;WEAPONS&lt;/th&gt;
+            &lt;th style=&quot;padding:4px;width:40px;text-align:center;&quot;&gt;C&lt;/th&gt;
+            &lt;th style=&quot;padding:4px;width:40px;text-align:center;&quot;&gt;S&lt;/th&gt;
+            &lt;th style=&quot;padding:4px;width:40px;text-align:center;&quot;&gt;E&lt;/th&gt;
+            &lt;th style=&quot;padding:4px;text-align:center;&quot;&gt;QUALITIES&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Advanced Aetheric Lance&lt;/td&gt;
+            &lt;td align=&quot;center&quot;&gt;&lt;b&gt;4&lt;/b&gt;&lt;/td&gt;
+            &lt;td align=&quot;center&quot;&gt;&lt;b&gt;4&lt;/b&gt;&lt;/td&gt;
+            &lt;td align=&quot;center&quot;&gt;–&lt;/td&gt;
+            &lt;td&gt;Precise (1)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;ESCF Light Gun Battery&lt;/td&gt;
+            &lt;td align=&quot;center&quot;&gt;&lt;b&gt;2&lt;/b&gt;&lt;/td&gt;
+            &lt;td align=&quot;center&quot;&gt;&lt;b&gt;4&lt;/b&gt;&lt;/td&gt;
+            &lt;td align=&quot;center&quot;&gt;–&lt;/td&gt;
+            &lt;td&gt;ESCF Munitions&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;ESCF Light Rocket Battery&lt;/td&gt;
+            &lt;td align=&quot;center&quot;&gt;–&lt;/td&gt;
+            &lt;td align=&quot;center&quot;&gt;&lt;b&gt;4&lt;/b&gt;&lt;/td&gt;
+            &lt;td align=&quot;center&quot;&gt;–&lt;/td&gt;
+            &lt;td&gt;Barrage, ESCF Munitions&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;</description>
+      <alias>Entropic Generator</alias>
+    </rule>
+    <rule name="Lasu (Localised Anomaly Stabilisation Unit)" id="d78b-9300-ec89-fff7" hidden="false">
+      <description>This model’s Admiral never has to make an Anomaly Roll (see the Experimental Contraptions section of the Enlightened ORBAT ) for a unit if all of the unit’s models are within 6” of this model. 
+
+
+If this model is in the unit for which the Anomaly Roll is being made, this System has no effect. 
+
+
+*Note that it is only the Anomaly Roll that is skipped; if a rule instructs the Admiral to add an Action Die to the Localised Anomaly Pool and then make an Anomaly Roll, the die is still added to the pool.*</description>
+      <alias>LASU</alias>
+      <alias>Lasu</alias>
+      <alias>L.A.S.U</alias>
+    </rule>
+    <rule name="Luminiferous Defences" id="3283-823d-b4e6-c4b7" hidden="false">
+      <description>This model’s Defences rating is increased by X while this System is active.
+
+
+The Defences rating of a unit with this System is marked with an asterisk (*) as a reminder.</description>
+    </rule>
+    <rule name="ESCF Munitions" id="131c-24c8-8734-9bfa" hidden="false">
+      <description>If all weapons Contributing to an Attack action have this Quality, the Admiral can re-roll any Blanks in the Action Roll.</description>
     </rule>
   </sharedRules>
   <publications>
