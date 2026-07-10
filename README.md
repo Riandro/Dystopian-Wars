@@ -6,7 +6,7 @@
 * Commonwealth Orbat - V4.00A
 * Crown Orbat - V4.02A
 * Empire Orbat - V4.01
-* Enlightened Orbat -  V4.01 BETA
+* Enlightened Orbat -  V4.01 BETA2
 * Imperium Orbat - V4.00A
 * Sultanate Orbat - V4.01
 * Union Orbat - V4.00A
