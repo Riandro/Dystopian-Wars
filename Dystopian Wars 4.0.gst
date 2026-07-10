@@ -454,7 +454,7 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Chrono Generator" hidden="true" id="a9de-8bf2-aa82-b79e">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <profiles>
@@ -470,11 +470,6 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
             <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="unit" childId="047c-73c0-89c8-f01f" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="20" field="89fa-eeaa-958f-ca32">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="378d-fd54-66bd-9a79" shared="true" childName="Gencost20" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -564,7 +559,7 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Null-Clone Generator" hidden="true" id="5807-0de8-d905-258f">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="5"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
           </costs>
           <profiles>
@@ -580,11 +575,6 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
             <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="unit" childId="1251-fac6-d468-621c" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="20" field="89fa-eeaa-958f-ca32">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="378d-fd54-66bd-9a79" shared="true" childName="Gencost20" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1854,7 +1844,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="c8c6-71e6-cdfe-d4dc" includeChildSelections="false" automatic="true"/>
           </constraints>
           <profiles>
-            <profile name="Ceus Shockmaw" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="dfd6-d071-4040-d3e5">
+            <profile name="Coeus Shockmaw" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="dfd6-d071-4040-d3e5">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
                 <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">11</characteristic>
