@@ -4913,7 +4913,18 @@ Hydrophone Relay</characteristic>
               </constraints>
               <entryLinks>
                 <entryLink import="true" name="Generators" hidden="false" id="80e2-320a-08b5-42fa" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
+                <entryLink import="true" name="Entropic Generator" hidden="false" id="7e74-2581-6ada-a51e" type="selectionEntry" targetId="2cb4-fe15-7370-eea4"/>
               </entryLinks>
+              <categoryLinks>
+                <categoryLink name="FPSA" hidden="false" id="78ab-2e6e-4a01-a779" targetId="3e8b-c234-32e4-205d" primary="false"/>
+              </categoryLinks>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="7024-c83c-0259-3ad2" shared="true" includeChildSelections="true" includeChildForces="true" childName="Gyroscopic Rocket Stabilisers"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntryGroup>
             <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="af33-fd94-e22a-e07b" hidden="false" collapsible="true">
               <selectionEntries>
@@ -5015,7 +5026,11 @@ Hydrophone Relay</characteristic>
               </constraints>
               <entryLinks>
                 <entryLink import="true" name="Generators" hidden="false" id="e3c7-9a9e-7eb6-5716" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
+                <entryLink import="true" name="Entropic Generator" hidden="false" id="8084-b867-e709-8d92" type="selectionEntry" targetId="2cb4-fe15-7370-eea4"/>
               </entryLinks>
+              <categoryLinks>
+                <categoryLink name="FPSA" hidden="false" id="f2dd-c9b8-2c35-eca3" targetId="3e8b-c234-32e4-205d" primary="false"/>
+              </categoryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
@@ -6414,7 +6429,7 @@ Hydrophone Relay</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup name="Driven By The Peer" id="57a5-496f-0fbd-11f5" hidden="false" sortIndex="1" collapsible="true">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="THE RESPECT OF MERITOCRATIC RANK" hidden="false" id="e3c8-cdc8-2eb6-6efa" sortIndex="5">
+            <selectionEntry type="upgrade" import="true" name="The Respect Of Meritocratic Rank" hidden="false" id="e3c8-cdc8-2eb6-6efa" sortIndex="5">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6423,7 +6438,7 @@ Hydrophone Relay</characteristic>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9c94-b522-765d-3cef" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="THE RESPECT OF MERITOCRATIC RANK" id="a069-761d-5a09-541a" hidden="false">
+                <rule name="The Respect Of Meritocratic Rank" id="a069-761d-5a09-541a" hidden="false">
                   <description>Once per Round, during the Resolve Re-rolls step of an Action Roll this Admiral is making for a unit in their Force, they can enact a Special Valour Effect with that unit.
 
 
@@ -6434,7 +6449,7 @@ If the Effect is successfully enacted, the Admiral can re-roll any number of dic
                 </rule>
               </rules>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="CALCULATED REINFORCEMENT SUB-UNIT" hidden="false" id="1390-e725-f973-4611" sortIndex="1">
+            <selectionEntry type="upgrade" import="true" name="Calculated Reinforcement Sub-Unit" hidden="false" id="1390-e725-f973-4611" sortIndex="1">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6443,12 +6458,12 @@ If the Effect is successfully enacted, the Admiral can re-roll any number of dic
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="23c9-35bd-eac0-fea2" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="CALCULATED REINFORCEMENT SUB-UNIT" id="c938-0d8c-b0db-ee2e" hidden="false">
+                <rule name="Calculated Reinforcement Sub-Unit" id="c938-0d8c-b0db-ee2e" hidden="false">
                   <description>Whenever this Admiral makes a Reserve Roll for a unit in their Force, they can roll one additional Action Die.</description>
                 </rule>
               </rules>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="ARMED SURVEY DETACHMENT" hidden="false" id="5163-bd19-71b1-ffa6" sortIndex="2">
+            <selectionEntry type="upgrade" import="true" name="Armed Survey Detachment" hidden="false" id="5163-bd19-71b1-ffa6" sortIndex="2">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6457,7 +6472,7 @@ If the Effect is successfully enacted, the Admiral can re-roll any number of dic
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="09e7-6ffc-6dd4-46f3" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="ARMED SURVEY DETACHMENT" id="5c70-8f9b-27af-f674" hidden="false">
+                <rule name="Armed Survey Detachment" id="5c70-8f9b-27af-f674" hidden="false">
                   <description>At the start of their turn in the Make a Special Deployment Action step of Deployment, this Admiral can nominate one of their units in the Play Area that is not Immobile.
 
 That unit gains the Vanguard (5”) property.
@@ -6466,7 +6481,7 @@ The Admiral can only use this Doctrine once.</description>
                 </rule>
               </rules>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="CONSTRUCTS: LOYAL UNTO DEATH" hidden="false" id="3d0b-beed-6bc4-f4d9" sortIndex="3">
+            <selectionEntry type="upgrade" import="true" name="Constructs: Loyal Unto Death" hidden="false" id="3d0b-beed-6bc4-f4d9" sortIndex="3">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6475,7 +6490,7 @@ The Admiral can only use this Doctrine once.</description>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3fe8-fc0a-c35e-bedf" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="CONSTRUCTS: LOYAL UNTO DEATH" id="2405-e6dd-521f-6dfe" hidden="false">
+                <rule name="Constructs: Loyal Unto Death" id="2405-e6dd-521f-6dfe" hidden="false">
                   <description>Once per Round, before this Admiral makes a Crew Check for a model, they can use this Doctrine to grant a +2 Modifier to that model’s Crew rating, for the  purposes of this test only.
 
 
@@ -6483,7 +6498,7 @@ In the case of a Group Crew Check, this Modifier applies to all models in the u
                 </rule>
               </rules>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="THE THINGS SCIENCE CANNOT PREDICT" hidden="false" id="57cb-88b1-c402-b6e4" sortIndex="4">
+            <selectionEntry type="upgrade" import="true" name="The Things Science Cannot Predict" hidden="false" id="57cb-88b1-c402-b6e4" sortIndex="4">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6492,7 +6507,7 @@ In the case of a Group Crew Check, this Modifier applies to all models in the u
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6b3b-2298-14f6-afc9" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="THE THINGS SCIENCE CANNOT PREDICT" id="2f8f-3f4b-3757-4075" hidden="false">
+                <rule name="The Things Science Cannot Predict" id="2f8f-3f4b-3757-4075" hidden="false">
                   <description>Once per game, when the opposing Admiral attempts to enact a Valour Effect, this Admiral can use this Doctrine instead of attempting to Deny the effect. 
 
 
@@ -6517,7 +6532,7 @@ The opposing Admiral reveals their Valour Card. If it has a Value of 8 or less, 
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="FLENSER TORPEDOES" hidden="false" id="93d6-9f5d-a53f-33fc" sortIndex="14">
+            <selectionEntry type="upgrade" import="true" name="Flenser Torpedoes" hidden="false" id="93d6-9f5d-a53f-33fc" sortIndex="14">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="30"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6526,7 +6541,7 @@ The opposing Admiral reveals their Valour Card. If it has a Value of 8 or less, 
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7d9f-650e-8111-60a7" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="FLENSER TORPEDOES" id="352b-a867-cb4f-9dc3" hidden="false">
+                <rule name="Flenser Torpedoes" id="352b-a867-cb4f-9dc3" hidden="false">
                   <description>Once per Round, when a unit from this Force makes an Attack action and there is at least one Contributing weapon with the Torpedo quality, the Admiral can discard a Victory &amp; Valour Card from their hand before making the Action Roll.
 
 
@@ -6534,8 +6549,15 @@ If they do so, they can re-roll any Blank results in the Action Roll.</descript
                 </rule>
               </rules>
               <comment>1</comment>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="a068-b841-4145-7c41" shared="true" includeChildSelections="true" includeChildForces="true" childName="Flenser Torpedoes"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="ADDITIONAL INCENDIARIES INJECTION" hidden="false" id="873f-7b3c-e938-c1c4" sortIndex="1">
+            <selectionEntry type="upgrade" import="true" name="Additional Incendiaries Injection" hidden="false" id="873f-7b3c-e938-c1c4" sortIndex="1">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6544,7 +6566,7 @@ If they do so, they can re-roll any Blank results in the Action Roll.</descript
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="608f-652f-2faa-0e67" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="ADDITIONAL INCENDIARIES INJECTION" id="37a8-f415-9f42-0e52" hidden="false">
+                <rule name="Additional Incendiaries Injection" id="37a8-f415-9f42-0e52" hidden="false">
                   <description>Once per game, when this Admiral activates a unit with the Colossus trait, they can attempt to enact a Special Valour Effect. 
 
 
@@ -6552,8 +6574,15 @@ If successful, the Torrent (X ) value of all weapons in the unit is doubled for 
                 </rule>
               </rules>
               <comment>1</comment>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="8834-ea45-7a71-ea9b" shared="true" includeChildSelections="true" includeChildForces="true" childName="Additional Incendiaries Injection"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="GYROSCOPIC ROCKET STABILISERS" hidden="false" id="fe85-6d60-a199-2a6d" sortIndex="2">
+            <selectionEntry type="upgrade" import="true" name="Gyroscopic Rocket Stabilisers" hidden="false" id="fe85-6d60-a199-2a6d" sortIndex="2">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6562,7 +6591,7 @@ If successful, the Torrent (X ) value of all weapons in the unit is doubled for 
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="98d9-cd39-3a69-8782" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="GYROSCOPIC ROCKET STABILISERS" id="2ec3-6480-04b4-37b8" hidden="false">
+                <rule name="Gyroscopic Rocket Stabilisers" id="2ec3-6480-04b4-37b8" hidden="false">
                   <description>Once per game, when they Activate an Airborne unit, this Admiral can discard a Victory &amp; Valour Card from their hand. 
 
 
@@ -6570,8 +6599,15 @@ They cannot do so if any models in the unit have a System Failure Critical Damag
                 </rule>
               </rules>
               <comment>1</comment>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="7024-c83c-0259-3ad2" shared="true" includeChildSelections="true" includeChildForces="true" childName="Gyroscopic Rocket Stabilisers"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="MICRO-MOLECULAR REINFORCEMENT" hidden="false" id="7de7-9345-4bab-6d97" sortIndex="3">
+            <selectionEntry type="upgrade" import="true" name="Micro-Molecular Reinforcement" hidden="false" id="7de7-9345-4bab-6d97" sortIndex="3">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6580,13 +6616,20 @@ They cannot do so if any models in the unit have a System Failure Critical Damag
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="95b5-a4aa-8a95-390c" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="MICRO-MOLECULAR REINFORCEMENT" id="3fb4-6ecf-187f-30f7" hidden="false">
+                <rule name="Micro-Molecular Reinforcement" id="3fb4-6ecf-187f-30f7" hidden="false">
                   <description>Once per Round, when an Underwater model in this Force is targeted by an Attack action to which Submerged weapons are Contributing, its Admiral can re-roll any Blank results in the Resistance Roll.</description>
                 </rule>
               </rules>
               <comment>1</comment>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="03dd-b4c5-ec86-f0b5" shared="true" includeChildSelections="true" includeChildForces="true" childName="Micro-Molecular Reinforcement"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="OVERCHARGED CAPACITORS" hidden="false" id="00a6-043c-eb6a-7a82" sortIndex="4">
+            <selectionEntry type="upgrade" import="true" name="Overcharged Capacitors" hidden="false" id="00a6-043c-eb6a-7a82" sortIndex="4">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6595,7 +6638,7 @@ They cannot do so if any models in the unit have a System Failure Critical Damag
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2e5d-b0fc-fe81-b1f6" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="OVERCHARGED CAPACITORS" id="a059-1879-ac89-5f6c" hidden="false">
+                <rule name="Overcharged Capacitors" id="a059-1879-ac89-5f6c" hidden="false">
                   <description>Once per Round, when a unit from this Force makes an Attack action, this Admiral can declare that they are Overriding Safety Protocols immediately before making the Action Roll, and make a Group Crew Check for all Participating models.
 
 
@@ -6606,8 +6649,15 @@ If the Check fails, the Attack action ends immediately, and each Participating
                 </rule>
               </rules>
               <comment>1</comment>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="4ab5-7a6f-a74d-bff3" shared="true" includeChildSelections="true" includeChildForces="true" childName="Overcharged Capacitors"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="PHYSETER ECHO COMMUNICATORS" hidden="false" id="9ed8-08b2-763e-d191" sortIndex="5">
+            <selectionEntry type="upgrade" import="true" name="Physeter Echo Communicators" hidden="false" id="9ed8-08b2-763e-d191" sortIndex="5">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6616,7 +6666,7 @@ If the Check fails, the Attack action ends immediately, and each Participating
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7b91-c43c-4e13-5761" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="PHYSETER ECHO COMMUNICATORS" id="8095-3099-e060-e597" hidden="false">
+                <rule name="Physeter Echo Communicators" id="8095-3099-e060-e597" hidden="false">
                   <description>At the end of the Deployment step, this Admiral gains 6 Physeter Construct tokens.
 
 
@@ -6624,8 +6674,15 @@ They can then allocate these Tokens between the units in their Force, with a ma
                 </rule>
               </rules>
               <comment>1</comment>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="2c51-268f-cf19-5e3a" shared="true" includeChildSelections="true" includeChildForces="true" childName="Physeter Echo Communicators"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="HELLION ASSASSIN CONSTRUCTS" hidden="false" id="5232-e518-d0ad-08f8" sortIndex="6">
+            <selectionEntry type="upgrade" import="true" name="Hellion Algol Constructs" hidden="false" id="5232-e518-d0ad-08f8" sortIndex="6">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6634,7 +6691,7 @@ They can then allocate these Tokens between the units in their Force, with a ma
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="442f-904d-4860-8fce" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="HELLION ASSASSIN CONSTRUCTS" id="5bbb-688b-2b02-60a5" hidden="false">
+                <rule name="Hellion Algol Constructs" id="5bbb-688b-2b02-60a5" hidden="false">
                   <description>Once per Round, when a unit from this Force makes a Boarding action, the Admiral can discard a Victory &amp; Valour Card from their hand before making the Action Roll.
 
 
@@ -6642,8 +6699,15 @@ If they do so, they can re-roll any Blank results in the Action Roll, and the t
                 </rule>
               </rules>
               <comment>1</comment>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="4433-e86d-01f7-11af" shared="true" includeChildSelections="true" includeChildForces="true" childName="Hellion Algol Constructs"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="COMBAT SCIENCE PIONEER" hidden="false" id="1259-b5cf-7159-ee24" sortIndex="7">
+            <selectionEntry type="upgrade" import="true" name="Combat Science Pioneer" hidden="false" id="1259-b5cf-7159-ee24" sortIndex="7">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6652,7 +6716,7 @@ If they do so, they can re-roll any Blank results in the Action Roll, and the t
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f907-895c-4266-f427" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="COMBAT SCIENCE PIONEER" id="304f-3877-bd1a-4de3" hidden="false">
+                <rule name="Combat Science Pioneer" id="304f-3877-bd1a-4de3" hidden="false">
                   <description>Once per game, when activating a Flagship unit, this Admiral can attempt to enact a Special Valour Effect.
 
 
@@ -6660,8 +6724,15 @@ If it is successfully enacted, the unit gains the Inspirational (6”) property
                 </rule>
               </rules>
               <comment>1</comment>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="86d1-ab46-4495-7ad0" shared="true" includeChildSelections="true" includeChildForces="true" childName="Combat Science Pioneer"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="STEREOSCOPIC DISTANCE CALCULATORS " hidden="false" id="8dd2-7579-d4ae-1680" sortIndex="8">
+            <selectionEntry type="upgrade" import="true" name="Stereoscopic Distance Calculators " hidden="false" id="8dd2-7579-d4ae-1680" sortIndex="8">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6670,7 +6741,7 @@ If it is successfully enacted, the unit gains the Inspirational (6”) property
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5099-7854-476f-772e" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="STEREOSCOPIC DISTANCE CALCULATORS " id="a19a-2c9f-69a8-f121" hidden="false">
+                <rule name="Stereoscopic Distance Calculators " id="a19a-2c9f-69a8-f121" hidden="false">
                   <description>Once per Round, when a unit from this Force makes an Attack action and there is at least one Contributing weapon with the Barrage quality, the Admiral can discard a Victory &amp; Valour Card from their hand before making the Action Roll.
 
 
@@ -6678,8 +6749,15 @@ If they do so, they can re-roll any Blank results in the Action Roll.</descript
                 </rule>
               </rules>
               <comment>1</comment>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="674e-ed82-dc93-c892" shared="true" includeChildSelections="true" includeChildForces="true" childName="Stereoscopic Distance Calculators "/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="“DEMOLISHER” SCYTHES" hidden="false" id="faf5-bf69-dc64-bb7e" sortIndex="9">
+            <selectionEntry type="upgrade" import="true" name="“Demolisher” Scythes" hidden="false" id="faf5-bf69-dc64-bb7e" sortIndex="9">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6688,13 +6766,20 @@ If they do so, they can re-roll any Blank results in the Action Roll.</descript
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0578-e47b-f888-c417" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="“DEMOLISHER” SCYTHES" id="5da2-33b0-2bad-2f0d" hidden="false">
+                <rule name="“Demolisher” Scythes" id="5da2-33b0-2bad-2f0d" hidden="false">
                   <description>When this Admiral makes use of the Sympathetic Detonation weapon quality, each Token they discard allows them to convert one Heavy Strike or Standard Strike to an Exploding Strike.</description>
                 </rule>
               </rules>
               <comment>1</comment>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="b1f3-5ad7-b9e0-5086" shared="true" includeChildSelections="true" includeChildForces="true" childName="“Demolisher” Scythes"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="ADVANCED PROTOCOL CYCLERS" hidden="false" id="9f6c-9312-372d-0759" sortIndex="10">
+            <selectionEntry type="upgrade" import="true" name="Advanced Protocol Cyclers" hidden="false" id="9f6c-9312-372d-0759" sortIndex="10">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="25"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6703,7 +6788,7 @@ If they do so, they can re-roll any Blank results in the Action Roll.</descript
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9835-573d-5ec4-d94e" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="ADVANCED PROTOCOL CYCLERS" id="aad9-c1e9-2fc7-5028" hidden="false">
+                <rule name="Advanced Protocol Cyclers" id="aad9-c1e9-2fc7-5028" hidden="false">
                   <description>Once per Round, before making an Action Roll for an Automata unit from this Force, this Admiral can discard a Victory &amp; Valour Card from their hand.
 
 
@@ -6711,8 +6796,15 @@ If they do so, they can re-roll any Blank results in the roll.</description>
                 </rule>
               </rules>
               <comment>1</comment>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="d7c3-779f-c428-5fe8" shared="true" includeChildSelections="true" includeChildForces="true" childName="Advanced Protocol Cyclers"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="SELF-REPAIRING HULL" hidden="false" id="b86e-ac32-18c0-d57d" sortIndex="11">
+            <selectionEntry type="upgrade" import="true" name="Self-Repairing Hull" hidden="false" id="b86e-ac32-18c0-d57d" sortIndex="11">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="25"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6721,7 +6813,7 @@ If they do so, they can re-roll any Blank results in the roll.</description>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8787-4a73-be4a-09f8" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="SELF-REPAIRING HULL" id="5568-bf7e-5dcd-2569" hidden="false">
+                <rule name="Self-Repairing Hull" id="5568-bf7e-5dcd-2569" hidden="false">
                   <description>Whenever a Flagship model from this Force is targeted by an Attack action, this Admiral can make a Crew Check for the model at the start of the Inflict Damage step.
 
 
@@ -6729,8 +6821,15 @@ If the Check is passed, the unit suffers 1 less Damage, to a minimum of 1.</des
                 </rule>
               </rules>
               <comment>1</comment>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="cf8e-87f9-5099-140c" shared="true" includeChildSelections="true" includeChildForces="true" childName="Self-Repairing Hull"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="RECLAMATOR REPAIR BAY" hidden="false" id="d9ac-ba2d-e891-ee58" sortIndex="12">
+            <selectionEntry type="upgrade" import="true" name="Reclamator Repair Bay" hidden="false" id="d9ac-ba2d-e891-ee58" sortIndex="12">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="25"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6739,13 +6838,20 @@ If the Check is passed, the unit suffers 1 less Damage, to a minimum of 1.</des
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="004d-19a8-c463-9c64" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="RECLAMATOR REPAIR BAY" id="1477-576b-25d2-e75b" hidden="false">
-                  <description>Whenever a model from this Force with the Boarding Parties (X ) property ends its Activation within Proximity of an enemy model that has at least 1 Damage, this Admiral can remove 1 Critical Damage Effect from that model.</description>
+                <rule name="Reclamator Repair Bay" id="1477-576b-25d2-e75b" hidden="false">
+                  <description>This Admiral can remove 1 Critical Damage Effect from a model from this Force with the Boarding Parties (X) property whenever it ends its Activation within Proximity of an enemy model that has at least 1 Damage.</description>
                 </rule>
               </rules>
               <comment>1</comment>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="9381-d2fd-0644-5359" shared="true" includeChildSelections="true" includeChildForces="true" childName="Reclamator Repair Bay"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="TO KEEP THE SCIENCE SECRET…" hidden="false" id="87c5-7145-416a-c973" sortIndex="13">
+            <selectionEntry type="upgrade" import="true" name="To Keep The Science Secret…" hidden="false" id="87c5-7145-416a-c973" sortIndex="13">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="25"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6754,11 +6860,18 @@ If the Check is passed, the unit suffers 1 less Damage, to a minimum of 1.</des
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="401c-ead7-b1be-6786" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="TO KEEP THE SCIENCE SECRET…" id="bf9d-35ad-570d-d564" hidden="false">
+                <rule name="To Keep The Science Secret…" id="bf9d-35ad-570d-d564" hidden="false">
                   <description>If a model from this Force voluntarily Withdraws in the Withdrawal step of its Activation, its Admiral can elect to Resolve a Catastrophic Explosion with the model before removing it from play.</description>
                 </rule>
               </rules>
               <comment>1</comment>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e7a-6dbb-4f9c-6c0e" shared="true" includeChildSelections="true" includeChildForces="true" childName="To Keep The Science Secret…"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -6774,7 +6887,7 @@ If the Check is passed, the unit suffers 1 less Damage, to a minimum of 1.</des
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="FLENSER TORPEDOES" hidden="false" id="a068-b841-4145-7c41" sortIndex="14">
+            <selectionEntry type="upgrade" import="true" name="Flenser Torpedoes" hidden="false" id="a068-b841-4145-7c41" sortIndex="14">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="30"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6783,7 +6896,7 @@ If the Check is passed, the unit suffers 1 less Damage, to a minimum of 1.</des
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0874-ce23-91b2-e833" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="FLENSER TORPEDOES" id="6044-5030-606a-fab9" hidden="false">
+                <rule name="Flenser Torpedoes" id="6044-5030-606a-fab9" hidden="false">
                   <description>Once per Round, when a unit from this Force makes an Attack action and there is at least one Contributing weapon with the Torpedo quality, the Admiral can discard a Victory &amp; Valour Card from their hand before making the Action Roll.
 
 
@@ -6798,7 +6911,7 @@ If they do so, they can re-roll any Blank results in the Action Roll.</descript
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="ADDITIONAL INCENDIARIES INJECTION" hidden="false" id="8834-ea45-7a71-ea9b" sortIndex="1">
+            <selectionEntry type="upgrade" import="true" name="Additional Incendiaries Injection" hidden="false" id="8834-ea45-7a71-ea9b" sortIndex="1">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6807,7 +6920,7 @@ If they do so, they can re-roll any Blank results in the Action Roll.</descript
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a9b9-9338-e78b-2c75" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="ADDITIONAL INCENDIARIES INJECTION" id="f8ac-4681-ea0e-25fe" hidden="false">
+                <rule name="Additional Incendiaries Injection" id="f8ac-4681-ea0e-25fe" hidden="false">
                   <description>Once per game, when this Admiral activates a unit with the Colossus trait, they can attempt to enact a Special Valour Effect. 
 
 
@@ -6817,12 +6930,12 @@ If successful, the Torrent (X ) value of all weapons in the unit is doubled for 
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="fe85-6d60-a199-2a6d" shared="true" includeChildSelections="true" includeChildForces="true" childName="GYROSCOPIC ROCKET STABILISERS"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="873f-7b3c-e938-c1c4" shared="true" includeChildSelections="true" includeChildForces="true" childName="Additional Incendiaries Injection"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="GYROSCOPIC ROCKET STABILISERS" hidden="false" id="7024-c83c-0259-3ad2" sortIndex="2">
+            <selectionEntry type="upgrade" import="true" name="Gyroscopic Rocket Stabilisers" hidden="false" id="7024-c83c-0259-3ad2" sortIndex="2">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6831,7 +6944,7 @@ If successful, the Torrent (X ) value of all weapons in the unit is doubled for 
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ae7f-b12f-ebde-8d7c" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="GYROSCOPIC ROCKET STABILISERS" id="610d-0773-2abc-d5c6" hidden="false">
+                <rule name="Gyroscopic Rocket Stabilisers" id="610d-0773-2abc-d5c6" hidden="false">
                   <description>Once per game, when they Activate an Airborne unit, this Admiral can discard a Victory &amp; Valour Card from their hand. 
 
 
@@ -6841,12 +6954,12 @@ They cannot do so if any models in the unit have a System Failure Critical Damag
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="873f-7b3c-e938-c1c4" shared="true" includeChildSelections="true" includeChildForces="true" childName="ADDITIONAL INCENDIARIES INJECTION"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="fe85-6d60-a199-2a6d" shared="true" includeChildSelections="true" includeChildForces="true" childName="Gyroscopic Rocket Stabilisers"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="MICRO-MOLECULAR REINFORCEMENT" hidden="false" id="03dd-b4c5-ec86-f0b5" sortIndex="3">
+            <selectionEntry type="upgrade" import="true" name="Micro-Molecular Reinforcement" hidden="false" id="03dd-b4c5-ec86-f0b5" sortIndex="3">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6855,7 +6968,7 @@ They cannot do so if any models in the unit have a System Failure Critical Damag
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b2e0-5c7c-1ce9-4e56" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="MICRO-MOLECULAR REINFORCEMENT" id="e3b4-1f4e-5a4e-19b6" hidden="false">
+                <rule name="Micro-Molecular Reinforcement" id="e3b4-1f4e-5a4e-19b6" hidden="false">
                   <description>Once per Round, when an Underwater model in this Force is targeted by an Attack action to which Submerged weapons are Contributing, its Admiral can re-roll any Blank results in the Resistance Roll.</description>
                 </rule>
               </rules>
@@ -6867,7 +6980,7 @@ They cannot do so if any models in the unit have a System Failure Critical Damag
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="OVERCHARGED CAPACITORS" hidden="false" id="4ab5-7a6f-a74d-bff3" sortIndex="4">
+            <selectionEntry type="upgrade" import="true" name="Overcharged Capacitors" hidden="false" id="4ab5-7a6f-a74d-bff3" sortIndex="4">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6876,7 +6989,7 @@ They cannot do so if any models in the unit have a System Failure Critical Damag
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="212b-0b4d-6494-4dbf" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="OVERCHARGED CAPACITORS" id="f5af-d7b1-2adf-9313" hidden="false">
+                <rule name="Overcharged Capacitors" id="f5af-d7b1-2adf-9313" hidden="false">
                   <description>Once per Round, when a unit from this Force makes an Attack action, this Admiral can declare that they are Overriding Safety Protocols immediately before making the Action Roll, and make a Group Crew Check for all Participating models.
 
 
@@ -6894,7 +7007,7 @@ If the Check fails, the Attack action ends immediately, and each Participating
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="PHYSETER ECHO COMMUNICATORS" hidden="false" id="2c51-268f-cf19-5e3a" sortIndex="5">
+            <selectionEntry type="upgrade" import="true" name="Physeter Echo Communicators" hidden="false" id="2c51-268f-cf19-5e3a" sortIndex="5">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6903,7 +7016,7 @@ If the Check fails, the Attack action ends immediately, and each Participating
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b126-172f-c21b-6c72" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="PHYSETER ECHO COMMUNICATORS" id="e5ac-a5f8-092f-1ab1" hidden="false">
+                <rule name="Physeter Echo Communicators" id="e5ac-a5f8-092f-1ab1" hidden="false">
                   <description>At the end of the Deployment step, this Admiral gains 6 Physeter Construct tokens.
 
 
@@ -6918,7 +7031,7 @@ They can then allocate these Tokens between the units in their Force, with a ma
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="HELLION ASSASSIN CONSTRUCTS" hidden="false" id="4433-e86d-01f7-11af" sortIndex="6">
+            <selectionEntry type="upgrade" import="true" name="Hellion Algol Constructs" hidden="false" id="4433-e86d-01f7-11af" sortIndex="6">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6927,7 +7040,7 @@ They can then allocate these Tokens between the units in their Force, with a ma
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8983-e256-9a6a-a31c" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="HELLION ASSASSIN CONSTRUCTS" id="8794-8c44-df53-9161" hidden="false">
+                <rule name="Hellion Algol Constructs" id="8794-8c44-df53-9161" hidden="false">
                   <description>Once per Round, when a unit from this Force makes a Boarding action, the Admiral can discard a Victory &amp; Valour Card from their hand before making the Action Roll.
 
 
@@ -6942,7 +7055,7 @@ If they do so, they can re-roll any Blank results in the Action Roll, and the t
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="COMBAT SCIENCE PIONEER" hidden="false" id="86d1-ab46-4495-7ad0" sortIndex="7">
+            <selectionEntry type="upgrade" import="true" name="Combat Science Pioneer" hidden="false" id="86d1-ab46-4495-7ad0" sortIndex="7">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6951,7 +7064,7 @@ If they do so, they can re-roll any Blank results in the Action Roll, and the t
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f9af-e401-6b1a-e2c0" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="COMBAT SCIENCE PIONEER" id="4660-bb4f-c2cc-f87c" hidden="false">
+                <rule name="Combat Science Pioneer" id="4660-bb4f-c2cc-f87c" hidden="false">
                   <description>Once per game, when activating a Flagship unit, this Admiral can attempt to enact a Special Valour Effect.
 
 
@@ -6966,7 +7079,7 @@ If it is successfully enacted, the unit gains the Inspirational (6”) property
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="STEREOSCOPIC DISTANCE CALCULATORS " hidden="false" id="674e-ed82-dc93-c892" sortIndex="8">
+            <selectionEntry type="upgrade" import="true" name="Stereoscopic Distance Calculators " hidden="false" id="674e-ed82-dc93-c892" sortIndex="8">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6975,7 +7088,7 @@ If it is successfully enacted, the unit gains the Inspirational (6”) property
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="071e-5cdc-dd04-4bd3" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="STEREOSCOPIC DISTANCE CALCULATORS " id="eef2-0ebf-82b6-8f82" hidden="false">
+                <rule name="Stereoscopic Distance Calculators " id="eef2-0ebf-82b6-8f82" hidden="false">
                   <description>Once per Round, when a unit from this Force makes an Attack action and there is at least one Contributing weapon with the Barrage quality, the Admiral can discard a Victory &amp; Valour Card from their hand before making the Action Roll.
 
 
@@ -6990,7 +7103,7 @@ If they do so, they can re-roll any Blank results in the Action Roll.</descript
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="“DEMOLISHER” SCYTHES" hidden="false" id="b1f3-5ad7-b9e0-5086" sortIndex="9">
+            <selectionEntry type="upgrade" import="true" name="“Demolisher” Scythes" hidden="false" id="b1f3-5ad7-b9e0-5086" sortIndex="9">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -6999,7 +7112,7 @@ If they do so, they can re-roll any Blank results in the Action Roll.</descript
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="16bc-ff31-9022-86c3" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="“DEMOLISHER” SCYTHES" id="1683-0c5f-6a6a-8304" hidden="false">
+                <rule name="“Demolisher” Scythes" id="1683-0c5f-6a6a-8304" hidden="false">
                   <description>When this Admiral makes use of the Sympathetic Detonation weapon quality, each Token they discard allows them to convert one Heavy Strike or Standard Strike to an Exploding Strike.</description>
                 </rule>
               </rules>
@@ -7011,7 +7124,7 @@ If they do so, they can re-roll any Blank results in the Action Roll.</descript
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="ADVANCED PROTOCOL CYCLERS" hidden="false" id="d7c3-779f-c428-5fe8" sortIndex="10">
+            <selectionEntry type="upgrade" import="true" name="Advanced Protocol Cyclers" hidden="false" id="d7c3-779f-c428-5fe8" sortIndex="10">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="25"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -7020,7 +7133,7 @@ If they do so, they can re-roll any Blank results in the Action Roll.</descript
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="31f8-e90e-fcd4-70dd" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="ADVANCED PROTOCOL CYCLERS" id="2178-76ee-e514-ebc5" hidden="false">
+                <rule name="Advanced Protocol Cyclers" id="2178-76ee-e514-ebc5" hidden="false">
                   <description>Once per Round, before making an Action Roll for an Automata unit from this Force, this Admiral can discard a Victory &amp; Valour Card from their hand.
 
 
@@ -7035,7 +7148,7 @@ If they do so, they can re-roll any Blank results in the roll.</description>
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="SELF-REPAIRING HULL" hidden="false" id="cf8e-87f9-5099-140c" sortIndex="11">
+            <selectionEntry type="upgrade" import="true" name="Self-Repairing Hull" hidden="false" id="cf8e-87f9-5099-140c" sortIndex="11">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="25"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -7044,7 +7157,7 @@ If they do so, they can re-roll any Blank results in the roll.</description>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1922-5359-6319-11ec" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="SELF-REPAIRING HULL" id="379b-28d5-7897-2fe5" hidden="false">
+                <rule name="Self-Repairing Hull" id="379b-28d5-7897-2fe5" hidden="false">
                   <description>Whenever a Flagship model from this Force is targeted by an Attack action, this Admiral can make a Crew Check for the model at the start of the Inflict Damage step.
 
 
@@ -7059,7 +7172,7 @@ If the Check is passed, the unit suffers 1 less Damage, to a minimum of 1.</des
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="RECLAMATOR REPAIR BAY" hidden="false" id="9381-d2fd-0644-5359" sortIndex="12">
+            <selectionEntry type="upgrade" import="true" name="Reclamator Repair Bay" hidden="false" id="9381-d2fd-0644-5359" sortIndex="12">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="25"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -7068,8 +7181,8 @@ If the Check is passed, the unit suffers 1 less Damage, to a minimum of 1.</des
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="af56-136a-ae98-6371" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="RECLAMATOR REPAIR BAY" id="ce8e-f25e-fb21-8a50" hidden="false">
-                  <description>Whenever a model from this Force with the Boarding Parties (X ) property ends its Activation within Proximity of an enemy model that has at least 1 Damage, this Admiral can remove 1 Critical Damage Effect from that model.</description>
+                <rule name="Reclamator Repair Bay" id="ce8e-f25e-fb21-8a50" hidden="false">
+                  <description>This Admiral can remove 1 Critical Damage Effect from a model from this Force with the Boarding Parties (X) property whenever it ends its Activation within Proximity of an enemy model that has at least 1 Damage.</description>
                 </rule>
               </rules>
               <modifiers>
@@ -7080,7 +7193,7 @@ If the Check is passed, the unit suffers 1 less Damage, to a minimum of 1.</des
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="TO KEEP THE SCIENCE SECRET…" hidden="false" id="1e7a-6dbb-4f9c-6c0e" sortIndex="13">
+            <selectionEntry type="upgrade" import="true" name="To Keep The Science Secret…" hidden="false" id="1e7a-6dbb-4f9c-6c0e" sortIndex="13">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="25"/>
                 <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -7089,7 +7202,7 @@ If the Check is passed, the unit suffers 1 less Damage, to a minimum of 1.</des
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="edc4-8e18-8d14-081a" includeChildSelections="true"/>
               </constraints>
               <rules>
-                <rule name="TO KEEP THE SCIENCE SECRET…" id="1f80-01b0-2a10-c1a6" hidden="false">
+                <rule name="To Keep The Science Secret…" id="1f80-01b0-2a10-c1a6" hidden="false">
                   <description>If a model from this Force voluntarily Withdraws in the Withdrawal step of its Activation, its Admiral can elect to Resolve a Catastrophic Explosion with the model before removing it from play.</description>
                 </rule>
               </rules>
@@ -8469,32 +8582,6 @@ This does not prevent the Admiral from choosing a Constructed by the Forge Doctr
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Agitation (4), Structural Failure (1)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="true" id="6963-00e4-4936-1570">
-                  <profiles>
-                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="6956-c2c5-8245-0e6e">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Rocket Battery" hidden="true" id="8780-28d0-0797-4850">
-                  <profiles>
-                    <profile name="Heavy ESCF Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="8fcb-a8a5-1322-55fa">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage, ESCF Munitions</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
