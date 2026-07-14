@@ -3565,7 +3565,7 @@ Maritime Patrol</characteristic>
                 <entryLink import="true" name="Generators" hidden="false" id="b58b-1548-7010-18fe" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Particle Beamer" hidden="false" id="4c60-7040-8630-3572">
+                <selectionEntry type="upgrade" import="true" name="Particle Beamer" hidden="false" id="4c60-7040-8630-3572" sortIndex="1">
                   <profiles>
                     <profile name="Particle Beamer" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="5d72-93ba-967e-ea9e">
                       <characteristics>
@@ -3578,7 +3578,7 @@ Maritime Patrol</characteristic>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Pulse Emitter" hidden="false" id="5287-f38b-f6ee-01da">
+                <selectionEntry type="upgrade" import="true" name="Pulse Emitter" hidden="false" id="5287-f38b-f6ee-01da" sortIndex="2">
                   <profiles>
                     <profile name="Pulse Emitter" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7e4a-afc7-1ee3-3350">
                       <characteristics>
@@ -3591,7 +3591,7 @@ Maritime Patrol</characteristic>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Caloric Oscillator" hidden="false" id="0185-489e-964f-dbe1">
+                <selectionEntry type="upgrade" import="true" name="Caloric Oscillator" hidden="false" id="0185-489e-964f-dbe1" sortIndex="3">
                   <profiles>
                     <profile name="Caloric Oscillator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="fa98-a2eb-dabd-4137">
                       <characteristics>
@@ -3604,7 +3604,7 @@ Maritime Patrol</characteristic>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="5c2c-9678-1dbe-9b34">
+                <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="5c2c-9678-1dbe-9b34" sortIndex="4">
                   <profiles>
                     <profile name="Sturginium Agitator" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="31b6-4ff1-5167-7e76">
                       <characteristics>
@@ -3617,7 +3617,7 @@ Maritime Patrol</characteristic>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="2ecd-174a-99ac-f847">
+                <selectionEntry type="upgrade" import="true" name="Molecular Disharmoniser" hidden="false" id="2ecd-174a-99ac-f847" sortIndex="5">
                   <profiles>
                     <profile name="Molecular Disharmoniser" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="be3f-40dc-2d21-a891">
                       <characteristics>
@@ -3630,7 +3630,7 @@ Maritime Patrol</characteristic>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Gun Battery" hidden="false" id="9267-f417-3ef0-36f4">
+                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Gun Battery" hidden="false" id="9267-f417-3ef0-36f4" sortIndex="6">
                   <profiles>
                     <profile name="Heavy ESCF Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="71e7-fc8b-68a3-d49b">
                       <characteristics>
@@ -3643,7 +3643,7 @@ Maritime Patrol</characteristic>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Rocket Battery" hidden="false" id="e234-e7d2-894e-5519">
+                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Rocket Battery" hidden="false" id="e234-e7d2-894e-5519" sortIndex="7">
                   <profiles>
                     <profile name="Heavy ESCF Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="d0ce-d72f-5b9b-26c8">
                       <characteristics>
@@ -3657,6 +3657,10 @@ Maritime Patrol</characteristic>
                   </profiles>
                 </selectionEntry>
               </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce85-f7cb-edcf-0b67"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2ba1-8308-9f5f-254e" automatic="true"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>

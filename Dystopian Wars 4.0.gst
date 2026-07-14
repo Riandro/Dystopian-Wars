@@ -689,7 +689,6 @@ The Admiral can only use this Doctrine once per game.</description>
             </rule>
           </rules>
           <modifiers>
-            <modifier type="set" value="true" field="hidden"/>
             <modifier type="set" value="10" field="89fa-eeaa-958f-ca32">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="581b-677f-bf28-4009" shared="true" includeChildSelections="true" includeChildForces="true" childName="Sultanate"/>
