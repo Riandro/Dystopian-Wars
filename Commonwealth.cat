@@ -445,7 +445,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd3f-9bab-d4b6-8170" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Generators" hidden="false" id="2783-3ffa-0876-8d7e" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
+                <entryLink import="true" name="Generators" hidden="false" id="2783-3ffa-0876-8d7e" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b" sortIndex="2"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Heavy Hardpoint: FP" id="2c18-711f-763b-a88e" hidden="false" collapsible="true">
@@ -495,7 +495,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a922-6eb0-507d-e141" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Generators" hidden="false" id="51fd-943e-bff7-c6ec" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
+                <entryLink import="true" name="Generators" hidden="false" id="51fd-943e-bff7-c6ec" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b" sortIndex="2"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Heavy Hardpoint: FS" id="5817-44ef-803c-a31b" hidden="false" collapsible="true">
@@ -545,7 +545,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a6b-d2f2-2d5d-c6af" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Generators" hidden="false" id="41d9-5ec4-5fd7-9576" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
+                <entryLink import="true" name="Generators" hidden="false" id="41d9-5ec4-5fd7-9576" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b" sortIndex="2"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>

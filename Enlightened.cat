@@ -3489,8 +3489,8 @@ Maritime Patrol</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c9ad-9b46-f0e0-95c0"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Generators" hidden="false" id="030c-0869-81a2-bd62" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
-                <entryLink import="true" name="Entropic Generator" hidden="false" id="f465-50e2-c4eb-243b" type="selectionEntry" targetId="2cb4-fe15-7370-eea4"/>
+                <entryLink import="true" name="Generators" hidden="false" id="030c-0869-81a2-bd62" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b" sortIndex="9"/>
+                <entryLink import="true" name="Entropic Generator" hidden="false" id="f465-50e2-c4eb-243b" type="selectionEntry" targetId="2cb4-fe15-7370-eea4" sortIndex="8"/>
               </entryLinks>
               <categoryLinks>
                 <categoryLink name="FPS" hidden="false" id="4ff2-c494-7710-1524" targetId="d1a2-c80d-ae5b-5d78" primary="false"/>
@@ -3561,8 +3561,8 @@ Maritime Patrol</characteristic>
                 <categoryLink name="PSA" hidden="false" id="1288-f860-4103-c01e" targetId="9f7f-8691-2f61-e765" primary="false"/>
               </categoryLinks>
               <entryLinks>
-                <entryLink import="true" name="Entropic Generator" hidden="false" id="a73a-969b-be5d-217a" type="selectionEntry" targetId="2cb4-fe15-7370-eea4"/>
-                <entryLink import="true" name="Generators" hidden="false" id="b58b-1548-7010-18fe" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
+                <entryLink import="true" name="Entropic Generator" hidden="false" id="a73a-969b-be5d-217a" type="selectionEntry" targetId="2cb4-fe15-7370-eea4" sortIndex="8"/>
+                <entryLink import="true" name="Generators" hidden="false" id="b58b-1548-7010-18fe" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b" sortIndex="9"/>
               </entryLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Particle Beamer" hidden="false" id="4c60-7040-8630-3572" sortIndex="1">
