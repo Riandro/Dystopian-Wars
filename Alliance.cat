@@ -19,6 +19,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="bffb-ce76-5c35-bdf9" sortIndex="2">
                   <profiles>
@@ -95,6 +98,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="d5e3-9367-d7f9-7e92" sortIndex="2">
                   <profiles>
@@ -171,6 +177,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="d581-9a84-1257-8be9" sortIndex="2">
                   <profiles>
@@ -273,6 +282,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -323,6 +335,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -446,6 +461,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -493,6 +511,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -540,6 +561,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -774,6 +798,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="d6b5-6126-fc47-3830">
                   <profiles>
@@ -804,6 +831,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="e4b2-271d-e396-09f2">
                   <profiles>
@@ -834,6 +864,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="6660-d6b0-084d-941a">
                   <profiles>
@@ -864,6 +897,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="da9d-b30f-371b-3759">
                   <profiles>
@@ -976,6 +1012,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="814c-2f58-596b-d617">
                   <profiles>
@@ -1078,6 +1117,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="a857-1732-3b71-2e59">
                   <profiles>
@@ -1112,6 +1154,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="52d4-c50e-9d5b-67a7">
                   <profiles>
@@ -1214,6 +1259,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="9dbf-f516-6f6a-5fed">
                   <profiles>
@@ -1274,6 +1322,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="7d6a-0e0e-88f3-6959">
                   <profiles>
@@ -1380,6 +1431,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="5e7e-11ec-9087-d5fb" sortIndex="2">
                   <profiles>
@@ -1456,6 +1510,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="c9a3-8782-3d36-b6ac" sortIndex="2">
                   <profiles>
@@ -1532,6 +1589,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="c0b8-afa2-a66d-b8d5" sortIndex="2">
                   <profiles>
@@ -1730,6 +1790,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="2" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -1778,6 +1841,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -1877,6 +1943,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Focused Heat Lance" hidden="false" id="c77f-49fd-0f25-98bc" sortIndex="2">
                   <profiles>
@@ -1979,6 +2048,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Focused Torpedo Turret" hidden="false" id="1610-5ac2-5795-2b74">
                   <profiles>
@@ -2013,6 +2085,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Focused Heat Lance" hidden="false" id="c937-dffc-ae93-6711" sortIndex="2">
                   <profiles>
@@ -2115,6 +2190,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Focused Torpedo Turret" hidden="false" id="f4f7-46bf-5755-7192">
                   <profiles>
@@ -2237,6 +2315,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="8450-d5b5-2010-2616" sortIndex="2">
                   <profiles>
@@ -2339,6 +2420,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="5c30-0b25-4a6c-ec16">
                   <profiles>
@@ -2399,6 +2483,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="7f9f-c47f-8984-ca42">
                   <profiles>
@@ -2558,6 +2645,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="9f52-7c63-d6f7-19ee">
                   <profiles>
@@ -2618,6 +2708,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="477f-04dd-65bd-b5bc">
                   <profiles>
@@ -2678,6 +2771,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="5fba-759c-9130-488f">
                   <profiles>
@@ -2738,6 +2834,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="9b15-eed6-e7e1-d5fa">
                   <profiles>
@@ -2883,6 +2982,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -2930,6 +3032,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -2977,6 +3082,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -3024,6 +3132,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -3112,6 +3223,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="e1cc-3cab-c54d-4f46">
                   <profiles>
@@ -3175,6 +3289,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="c60b-f181-73c3-9e99">
                   <profiles>
@@ -3264,6 +3381,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -3314,6 +3434,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -3452,6 +3575,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="13bb-6675-1e78-cd55">
                   <profiles>
@@ -3541,6 +3667,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="d42e-9494-fb38-919e">
                   <profiles>
@@ -3601,6 +3730,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="341c-c7f6-f81c-4fce">
                   <profiles>
@@ -3697,6 +3829,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sharpshooter Heat Lance" hidden="false" id="2259-1a53-06f0-0624">
                   <profiles>
@@ -3760,6 +3895,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sharpshooter Heat Lance" hidden="false" id="681d-ad85-24b1-1347">
                   <profiles>
@@ -3934,6 +4072,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="b39b-c25c-b31f-0dba">
                   <profiles>
@@ -4048,6 +4189,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="a4e0-f58d-de08-6d36">
                   <profiles>
@@ -4082,6 +4226,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="2b7e-e88d-cb27-3d4b">
                   <profiles>
@@ -4254,6 +4401,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="3a02-6438-2523-086d">
                   <profiles>
@@ -4487,6 +4637,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="3244-dbab-8c2d-6649">
                   <profiles>
@@ -4521,6 +4674,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="e2bf-1cd5-3555-250d">
                   <profiles>
@@ -4688,6 +4844,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="3394-2d4e-6525-7f62">
                   <profiles>
@@ -4790,6 +4949,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="9777-619f-f399-9824">
                   <profiles>
@@ -4824,6 +4986,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="6850-ad84-f260-d486">
                   <profiles>
@@ -5028,6 +5193,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="0236-9dd6-13d8-8b7b">
                   <profiles>
@@ -5088,6 +5256,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="3640-c601-aea4-c96d">
                   <profiles>
@@ -5396,6 +5567,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="7f7e-0f9a-4cf2-78dc">
                   <profiles>
@@ -5559,6 +5733,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="2" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="ce79-3980-1b9c-5eb4">
                   <profiles>
@@ -5852,6 +6029,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="66cc-0c6a-34e5-3cdc">
                   <profiles>
@@ -6004,6 +6184,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="0dce-bd90-bef2-200c">
                   <profiles>
@@ -6106,6 +6289,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="5829-1af9-3a55-1e5b">
                   <profiles>
@@ -6311,6 +6497,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="7587-4e8b-29e3-830e">
                   <profiles>
@@ -6371,6 +6560,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="6e22-dcea-1187-3c5c">
                   <profiles>
@@ -6478,6 +6670,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="b60a-5013-a86d-1252">
                   <profiles>
@@ -6512,6 +6707,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="4e4d-d387-440a-8ec1">
                   <profiles>
@@ -6683,6 +6881,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="5ffc-8e84-dbcc-2d76">
                   <profiles>
@@ -6785,6 +6986,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="47a1-e09d-7d55-b6a5">
                   <profiles>
@@ -6845,6 +7049,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="1e1c-56ff-1986-bc2a">
                   <profiles>
@@ -6905,6 +7112,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="5efa-7852-7347-b526">
                   <profiles>
@@ -7042,6 +7252,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="75b1-ca99-5200-1b0a">
                   <profiles>
@@ -7076,6 +7289,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="a571-4513-1183-348d">
                   <profiles>
@@ -7178,6 +7394,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="1183-59ec-d908-4107">
                   <profiles>
@@ -7238,6 +7457,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="a322-a434-c573-9834">
                   <profiles>
@@ -7450,6 +7672,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="c467-95e1-d573-216c">
                   <profiles>
@@ -7552,6 +7777,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="c6e9-3ac0-8c33-150c">
                   <profiles>
@@ -7796,6 +8024,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="b4fc-55c1-90e7-6d86">
                   <profiles>
@@ -8092,6 +8323,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="d6b6-f0b2-aa56-f8f3">
                   <profiles>
@@ -8211,6 +8445,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="8af6-a891-cd93-cc1e">
                   <profiles>
@@ -8245,6 +8482,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="6852-24c0-9a8d-70ba">
                   <profiles>
@@ -8408,6 +8648,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="3ef6-5b2b-92ca-2d38">
                   <profiles>
@@ -8468,6 +8711,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="ee25-147e-dad0-6a91">
                   <profiles>
@@ -8852,6 +9098,9 @@ If this Valour Effect or Special Valour Effect is successfully enacted, the Adm
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Focused Heat Lance" hidden="false" id="35c7-6e54-d346-a4be" sortIndex="2">
                   <profiles>
@@ -8902,6 +9151,9 @@ If this Valour Effect or Special Valour Effect is successfully enacted, the Adm
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -8923,6 +9175,9 @@ If this Valour Effect or Special Valour Effect is successfully enacted, the Adm
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Focused Heat Lance" hidden="false" id="f03f-0277-7bcb-0d3e" sortIndex="2">
                   <profiles>
@@ -10208,10 +10463,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                   <conditions>
                     <condition type="instanceOf" value="1" field="selections" scope="parent" childId="4b7e-c78d-b9be-8d7c" shared="true" includeChildSelections="false" childName="Surface"/>
                     <condition type="instanceOf" value="1" field="selections" scope="parent" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="0ec6-f5c8-25d7-89d8" shared="true" includeChildSelections="false" childName="Flagship"/>
                   </conditions>
                   <conditionGroups>
-                    <conditionGroup type="or">
+                    <conditionGroup type="count" min="1">
                       <conditions>
                         <condition type="instanceOf" value="1" field="selections" scope="parent" childId="e87c-6247-b002-d43c" shared="true" includeChildSelections="false" childName="French"/>
                         <condition type="instanceOf" value="1" field="selections" scope="parent" childId="347a-d026-feb1-9b9f" shared="true" includeChildSelections="false" childName="Portuguese"/>
@@ -10916,6 +11170,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="32db-6643-2740-357e">
                   <profiles>
@@ -10976,6 +11233,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="2b52-3f9f-9a87-9181">
                   <profiles>
@@ -11010,6 +11270,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="bc54-e819-dd91-a1b6">
                   <profiles>
@@ -11070,6 +11333,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="df59-6658-345a-9507">
                   <profiles>
@@ -11117,6 +11383,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="3382-2d6d-2450-bf68">
                   <profiles>
@@ -11164,6 +11433,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="981c-465c-5d45-ac43">
                   <profiles>
@@ -11377,6 +11649,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Focused Heat Lance" hidden="false" id="168c-00dc-ff76-8f7c">
                   <profiles>
@@ -11453,6 +11728,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Focused Heat Lance" hidden="false" id="b20a-fd11-d573-2e3f">
                   <profiles>
@@ -11555,6 +11833,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Focused Torpedo Turret " hidden="false" id="be2e-da5e-d1fb-5d3c">
                   <profiles>
@@ -11661,12 +11942,12 @@ Additionally, if the unit scores at least one Success during a Boarding action t
       <modifiers>
         <modifier type="add" value="e87c-6247-b002-d43c" field="category">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="parent" childId="e7dc-0793-7d89-6cf4" shared="true" childName="French" includeChildSelections="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="e87c-6247-b002-d43c" shared="true" childName="French" includeChildSelections="true"/>
           </conditions>
         </modifier>
         <modifier type="add" value="347a-d026-feb1-9b9f" field="category">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="parent" childId="2d51-27db-f499-9fcd" shared="true" childName="Portuguese" includeChildSelections="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="347a-d026-feb1-9b9f" shared="true" childName="Portuguese" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -11690,6 +11971,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="0df4-a203-4a75-2f12">
                   <profiles>
@@ -11766,6 +12050,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="3ade-b2d6-5a62-b56e">
                   <profiles>
@@ -12062,6 +12349,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="fd4a-19c5-8819-59b2">
                   <profiles>
@@ -12122,6 +12412,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="2b19-19af-269a-fb9e">
                   <profiles>
@@ -12249,6 +12542,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="03e6-c86f-9027-4d3e">
                   <profiles>
@@ -12369,6 +12665,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="2" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="7699-c200-b28e-7849">
                   <profiles>
@@ -12476,6 +12775,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="6f88-975b-6f94-eaf8">
                   <profiles>
@@ -12627,6 +12929,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="8bf9-661d-94ab-b8bb">
                   <profiles>
@@ -12661,6 +12966,9 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="6a38-69c9-7536-76d8">
                   <profiles>
