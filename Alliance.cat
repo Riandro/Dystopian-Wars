@@ -10439,12 +10439,12 @@ Additionally, if the unit scores at least one Success during a Boarding action t
             </modifier>
           </modifiers>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6fa6-21bd-a393-5a8c" includeChildSelections="true"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6fa6-21bd-a393-5a8c" includeChildSelections="true"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Ecuyere Frigate" hidden="true" id="93d8-cc98-8561-4d0f" type="selectionEntry" targetId="e6e4-1768-1fd5-2bf5">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb99-01a2-ea07-bd8e" includeChildSelections="true"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="eb99-01a2-ea07-bd8e" includeChildSelections="true"/>
           </constraints>
           <modifiers>
             <modifier type="add" value="e87c-6247-b002-d43c" field="category">
@@ -10472,6 +10472,67 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="2" field="eb99-01a2-ea07-bd8e">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="af51-eab5-ad80-f15a" shared="true" includeChildSelections="true" childName="Alliance Faction Battlefleet (Main)"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="eb99-01a2-ea07-bd8e">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="93d8-cc98-8561-4d0f" shared="true" includeChildSelections="true" includeChildForces="false" childName="Ecuyere Frigate"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="e6e4-1768-1fd5-2bf5" shared="true" includeChildSelections="true" includeChildForces="false" childName="Ecuyere Frigate"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="forces" scope="force" childId="af51-eab5-ad80-f15a" shared="true" includeChildSelections="true" includeChildForces="true" childName="Alliance Faction Battlefleet (Main)"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Stops too many attachments of self in a mainstay force</comment>
+            </modifier>
+            <modifier type="set" value="4" field="eb99-01a2-ea07-bd8e">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="2" field="selections" scope="force" childId="93d8-cc98-8561-4d0f" shared="true" includeChildSelections="true" includeChildForces="false" childName="Ecuyere Frigate"/>
+                        <condition type="atLeast" value="2" field="selections" scope="force" childId="e6e4-1768-1fd5-2bf5" shared="true" includeChildSelections="true" includeChildForces="false" childName="Ecuyere Frigate"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="forces" scope="force" childId="af51-eab5-ad80-f15a" shared="true" includeChildSelections="true" includeChildForces="true" childName="Alliance Faction Battlefleet (Main)"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Stops too many attachments of self in a mainstay force</comment>
+            </modifier>
+            <modifier type="set" value="2" field="eb99-01a2-ea07-bd8e">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="forces" scope="force" childId="af51-eab5-ad80-f15a" shared="true" includeChildSelections="true" includeChildForces="true" childName="Alliance Faction Battlefleet (Main)"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                  <conditions>
+                    <condition type="atMost" value="1" field="selections" scope="force" childId="93d8-cc98-8561-4d0f" shared="true" childName="Ecuyere Frigate" includeChildSelections="true"/>
+                  </conditions>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -10876,6 +10937,7 @@ Additionally, if the unit scores at least one Success during a Boarding action t
       <comment>General</comment>
       <categoryLinks>
         <categoryLink name="Patrol" hidden="false" id="500a-d306-5ee9-b276" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
+        <categoryLink name="Alliance Patrol Con " hidden="false" id="c1b0-58d5-a816-dc7b" targetId="42f6-ccae-9f84-2f1a" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Ecuyere Frigate" hidden="false" id="e8b3-8656-0f44-b591" type="selectionEntry" targetId="e6e4-1768-1fd5-2bf5" sortIndex="10">
@@ -12587,12 +12649,18 @@ Additionally, if the unit scores at least one Success during a Boarding action t
         <categoryLink name="Alliance" hidden="false" id="c993-52b7-84ef-d160" targetId="b81b-c372-001c-2710" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="65f3-e2cc-bd2e-5584" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="73e4-cd84-a13c-ea83" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
-        <categoryLink name="Alliance Patrol Con " hidden="false" id="c6ea-ca08-6e0d-e0a9" targetId="42f6-ccae-9f84-2f1a" primary="false"/>
       </categoryLinks>
       <comment>shared</comment>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="ac8c-1082-4305-03c2" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="false" id="ac8c-1082-4305-03c2" includeChildSelections="false"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="ac8c-1082-4305-03c2">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="af51-eab5-ad80-f15a" shared="true" includeChildSelections="true" childName="Alliance Faction Battlefleet (Main)"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Honneur Levant Destroyer" hidden="false" id="d161-cb76-c277-f1ca">
       <profiles>
