@@ -10444,7 +10444,7 @@ Additionally, if the unit scores at least one Success during a Boarding action t
         </entryLink>
         <entryLink import="true" name="Ecuyere Frigate" hidden="true" id="93d8-cc98-8561-4d0f" type="selectionEntry" targetId="e6e4-1768-1fd5-2bf5">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="eb99-01a2-ea07-bd8e" includeChildSelections="true"/>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="eb99-01a2-ea07-bd8e" includeChildSelections="true"/>
           </constraints>
           <modifiers>
             <modifier type="add" value="e87c-6247-b002-d43c" field="category">
@@ -10475,27 +10475,24 @@ Additionally, if the unit scores at least one Success during a Boarding action t
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" value="2" field="eb99-01a2-ea07-bd8e">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="force" childId="af51-eab5-ad80-f15a" shared="true" includeChildSelections="true" childName="Alliance Faction Battlefleet (Main)"/>
-              </conditions>
+            <modifier type="set" value="1" field="eb99-01a2-ea07-bd8e">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="2" field="selections" scope="force" childId="e6e4-1768-1fd5-2bf5" shared="true" includeChildSelections="true" childName="Ecuyere Frigate"/>
+                    <condition type="notInstanceOf" value="1" field="forces" scope="force" childId="af51-eab5-ad80-f15a" shared="true" includeChildSelections="true" includeChildForces="true" childName="Alliance Faction Battlefleet (Main)"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Stops two attachments of self in a non mainstay force.</comment>
             </modifier>
             <modifier type="set" value="3" field="eb99-01a2-ea07-bd8e">
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="force" childId="93d8-cc98-8561-4d0f" shared="true" includeChildSelections="true" includeChildForces="false" childName="Ecuyere Frigate"/>
-                        <condition type="atLeast" value="1" field="selections" scope="force" childId="e6e4-1768-1fd5-2bf5" shared="true" includeChildSelections="true" includeChildForces="false" childName="Ecuyere Frigate"/>
-                      </conditions>
-                    </conditionGroup>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="forces" scope="force" childId="af51-eab5-ad80-f15a" shared="true" includeChildSelections="true" includeChildForces="true" childName="Alliance Faction Battlefleet (Main)"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="af51-eab5-ad80-f15a" shared="true" includeChildSelections="true" includeChildForces="true" childName="Alliance Faction Battlefleet (Main)"/>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="e6e4-1768-1fd5-2bf5" shared="true" includeChildSelections="false" includeChildForces="false" childName="Ecuyere Frigate"/>
+                  </conditions>
                 </conditionGroup>
               </conditionGroups>
               <comment>Stops too many attachments of self in a mainstay force</comment>
@@ -10503,38 +10500,13 @@ Additionally, if the unit scores at least one Success during a Boarding action t
             <modifier type="set" value="4" field="eb99-01a2-ea07-bd8e">
               <conditionGroups>
                 <conditionGroup type="and">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="atLeast" value="2" field="selections" scope="force" childId="93d8-cc98-8561-4d0f" shared="true" includeChildSelections="true" includeChildForces="false" childName="Ecuyere Frigate"/>
-                        <condition type="atLeast" value="2" field="selections" scope="force" childId="e6e4-1768-1fd5-2bf5" shared="true" includeChildSelections="true" includeChildForces="false" childName="Ecuyere Frigate"/>
-                      </conditions>
-                    </conditionGroup>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="forces" scope="force" childId="af51-eab5-ad80-f15a" shared="true" includeChildSelections="true" includeChildForces="true" childName="Alliance Faction Battlefleet (Main)"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-              <comment>Stops too many attachments of self in a mainstay force</comment>
-            </modifier>
-            <modifier type="set" value="2" field="eb99-01a2-ea07-bd8e">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="forces" scope="force" childId="af51-eab5-ad80-f15a" shared="true" includeChildSelections="true" includeChildForces="true" childName="Alliance Faction Battlefleet (Main)"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
                   <conditions>
-                    <condition type="atMost" value="1" field="selections" scope="force" childId="93d8-cc98-8561-4d0f" shared="true" childName="Ecuyere Frigate" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="force" childId="af51-eab5-ad80-f15a" shared="true" includeChildSelections="true" includeChildForces="true" childName="Alliance Faction Battlefleet (Main)"/>
+                    <condition type="equalTo" value="2" field="selections" scope="force" childId="e6e4-1768-1fd5-2bf5" shared="true" includeChildSelections="false" childName="Ecuyere Frigate"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
+              <comment>Stops too many attachments of self in a mainstay force part 2</comment>
             </modifier>
           </modifiers>
         </entryLink>
