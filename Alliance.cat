@@ -11942,12 +11942,12 @@ Additionally, if the unit scores at least one Success during a Boarding action t
       <modifiers>
         <modifier type="add" value="e87c-6247-b002-d43c" field="category">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="parent" childId="e87c-6247-b002-d43c" shared="true" childName="French" includeChildSelections="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="e7dc-0793-7d89-6cf4" shared="true" childName="French" includeChildSelections="true"/>
           </conditions>
         </modifier>
         <modifier type="add" value="347a-d026-feb1-9b9f" field="category">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="parent" childId="347a-d026-feb1-9b9f" shared="true" childName="Portuguese" includeChildSelections="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="2d51-27db-f499-9fcd" shared="true" childName="Portuguese" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
