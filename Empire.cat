@@ -3305,7 +3305,7 @@
                   <profiles>
                     <profile name="Focused Heavy Corrosive Mortar" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="5f02-56a2-a38f-e23b">
                       <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
@@ -3318,7 +3318,7 @@
                   <profiles>
                     <profile name="Focused Jangdaebi Repeating Gun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="3e6d-fcf2-64bf-fd61">
                       <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
@@ -3441,7 +3441,7 @@
                   <profiles>
                     <profile name="Focused Heavy Corrosive Mortar" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="bdbf-34ff-8594-5cfc">
                       <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
@@ -3454,7 +3454,7 @@
                   <profiles>
                     <profile name="Focused Jangdaebi Repeating Gun" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="f603-4558-25e7-73de">
                       <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>

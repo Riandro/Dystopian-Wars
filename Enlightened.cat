@@ -8519,7 +8519,7 @@ This does not prevent the Admiral from choosing a Constructed by the Forge Doctr
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Merian" hidden="false" id="de36-9c3c-38ab-5903" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="40"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="35"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="1"/>
           </costs>
           <selectionEntryGroups>
@@ -8595,7 +8595,6 @@ This does not prevent the Admiral from choosing a Constructed by the Forge Doctr
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4de6-0f98-19c2-77ac" includeChildSelections="false"/>
                   </constraints>
                   <costs>
-                    <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
                     <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
                   </costs>
                 </selectionEntry>
