@@ -9969,7 +9969,7 @@ Additionally, if the unit scores at least one Success during a Boarding action t
             </modifier>
             <modifier type="set" value="0" field="2e2f-82c8-70c2-835f">
               <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="force" childId="c242-f9d6-c157-a736" shared="true" includeChildSelections="true" childName="Portuguese Patrol"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="c242-f9d6-c157-a736" shared="true" includeChildSelections="true" childName="Portuguese Patrol"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9987,7 +9987,7 @@ Additionally, if the unit scores at least one Success during a Boarding action t
             </modifier>
             <modifier type="set" value="0" field="6cf9-fe5d-d4e0-5937">
               <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="force" childId="cb16-dad3-a428-4ec6" shared="true" includeChildSelections="true" childName="Portuguese Line"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="cb16-dad3-a428-4ec6" shared="true" includeChildSelections="true" childName="Portuguese Line"/>
               </conditions>
             </modifier>
           </modifiers>
