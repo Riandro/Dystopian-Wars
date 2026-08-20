@@ -9784,7 +9784,7 @@ Mark the unit with a Special Effect token until the start of its next Activation
         <categoryLink name="Italian Flagship" hidden="false" id="b0af-5407-fdb7-6559" targetId="09db-3a9a-4611-86f8">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37bb-97c9-3494-c870"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ad36-29e3-cf47-4fb3"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ad36-29e3-cf47-4fb3"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Italian Line" hidden="false" id="ce40-f784-c35a-d805" targetId="fdfb-dad7-ecbf-a4ec">
