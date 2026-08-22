@@ -247,6 +247,7 @@ Underwater units that gain Disorder in this way are subject to the Blow the Tan
 
 
 Firepower ratings that do not have a value are not increased. In addition, if all weapons Contributing to this attack have this quality, the Unconventional Target rule does not apply.</description>
+      <alias>SkyStrike</alias>
     </rule>
     <rule name="Arc Generator" id="f936-862f-4c66-f598" hidden="false">
       <description>This is a Generator and grants the following Unit Benefit: 
@@ -2741,6 +2742,7 @@ When making a Repair Roll, an Admiral can remove all Ablaze tokens from a model
 Only models with this System can Participate in the Action.</description>
       <comment>Currently not used</comment>
       <alias>TED</alias>
+      <alias>T.E.D</alias>
     </rule>
     <rule name="Turbo Encabulation" id="b3d7-c484-971a-5fcd" hidden="true" noindex="false">
       <description>&lt;h1&gt;Turbo Encabulation Jumps&lt;/h1&gt;
