@@ -7374,6 +7374,19 @@ Light Vessel, Pivot, Shallow Draught</characteristic>
                     </profile>
                   </profiles>
                 </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Corrosive Mortars" hidden="false" id="0036-ba20-a22c-54e7" sortIndex="4">
+                  <profiles>
+                    <profile name="Light Corrosive Mortars" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ea49-7322-2de4-e993">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All-Around, Indirect, Mayhem, Structural Failure (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
               </selectionEntries>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f3e7-4284-1c84-5551" automatic="true"/>
@@ -7417,6 +7430,19 @@ Light Vessel, Pivot, Shallow Draught</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Corrosive Mortars" hidden="false" id="cd2f-1a6e-e0b1-62d5" sortIndex="4">
+                  <profiles>
+                    <profile name="Light Corrosive Mortars" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="25b9-091a-3d7d-a6d4">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
+                        <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
+                        <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">All-Around, Indirect, Mayhem, Structural Failure (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
