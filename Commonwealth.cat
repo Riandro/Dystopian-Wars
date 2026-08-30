@@ -4952,7 +4952,7 @@
           <modifiers>
             <modifier type="set" value="2" field="9869-6c99-9991-0b74">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f114-8a22-0882-f064" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true" includeChildSelections="false" includeChildForces="false" childName="Attachment host"/>
               </conditions>
             </modifier>
           </modifiers>
