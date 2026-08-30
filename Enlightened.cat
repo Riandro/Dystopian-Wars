@@ -62,6 +62,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="323c-57d1-1452-c227" sortIndex="4">
                   <profiles>
@@ -122,6 +125,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Caloric Oscillator" hidden="false" id="d294-e0fe-d1f4-87d0" sortIndex="3">
                   <profiles>
@@ -195,6 +201,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Caloric Oscillator" hidden="false" id="86cd-5551-9533-76e0" sortIndex="3">
                   <profiles>
@@ -268,6 +277,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Caloric Oscillator" hidden="false" id="4652-56b4-8501-90a7" sortIndex="3">
                   <profiles>
@@ -378,13 +390,13 @@
           </characteristics>
           <modifiers>
             <modifier type="set" value="Callimachus Chrono-Lathe, Flak Barrage (6),
-Priority Signals, TED" field="a14c-99af-eb72-2d3d">
+Priority Signals, T.E.D" field="a14c-99af-eb72-2d3d">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="e9c9-970d-a3ec-3645" shared="true" includeChildSelections="true" childName="Archimedes Class"/>
               </conditions>
             </modifier>
             <modifier type="set" value="Diophantus Chaos-Orb, Flak Barrage (6),
-Priority Signals, TED" field="a14c-99af-eb72-2d3d">
+Priority Signals, T.E.D" field="a14c-99af-eb72-2d3d">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="732a-6ea0-a4a0-ed98" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -556,6 +568,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Caloric Oscillator" hidden="false" id="7f95-4921-40c9-25cb" sortIndex="3">
                   <profiles>
@@ -701,7 +716,7 @@ Maritime Patrol</characteristic>
         </profile>
         <profile name="Daedalus" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="f739-2d63-9856-dd31">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Aerial Shield Enhancer (7”), Heavy Shield Generator, Repair Facilities (4), Magnetic Generator, Turbo Encabulation Drive, TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Aerial Shield Enhancer (7”), Heavy Shield Generator, Repair Facilities (4), Magnetic Generator, T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -930,6 +945,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="c82c-b5d7-bc54-a27b" sortIndex="4">
                   <profiles>
@@ -990,6 +1008,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Caloric Oscillator" hidden="false" id="0224-598d-b5c9-b896" sortIndex="3">
                   <profiles>
@@ -1063,6 +1084,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Caloric Oscillator" hidden="false" id="0063-dbd6-e3fa-8b35" sortIndex="3">
                   <profiles>
@@ -1138,7 +1162,7 @@ Maritime Patrol</characteristic>
         </profile>
         <profile name="Descartes" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="5896-b9f4-29ca-3661">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Mine Sweeper (3), TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Mine Sweeper (3), T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1234,6 +1258,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="8a7c-f233-1bf0-3592" sortIndex="4">
                   <profiles>
@@ -1294,6 +1321,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Caloric Oscillator" hidden="false" id="7230-54d8-e590-d99e" sortIndex="3">
                   <profiles>
@@ -1367,6 +1397,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Caloric Oscillator" hidden="false" id="d14d-fc43-2535-ef79" sortIndex="3">
                   <profiles>
@@ -1450,7 +1483,7 @@ Maritime Patrol</characteristic>
         </profile>
         <profile name="Hypatia" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="b67f-d308-79cc-4702">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Generator Ship, Naval Shield Amplifier, TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Generator Ship, Naval Shield Amplifier, T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1540,6 +1573,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="7c6f-3fb8-4264-52d4" sortIndex="4">
                   <profiles>
@@ -1622,6 +1658,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="2a12-80da-eb3a-c412" sortIndex="4">
                   <profiles>
@@ -1726,7 +1765,7 @@ Maritime Patrol</characteristic>
         </profile>
         <profile name="Icarus" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="6a1b-68ab-5c42-ebfb">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flak Barrage (6), Repair Facilities (2), TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flak Barrage (6), Repair Facilities (2), T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1855,6 +1894,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="cc80-af0c-76ee-a2e0" sortIndex="4">
                   <profiles>
@@ -1928,6 +1970,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="3312-f144-2d2f-d4d3" sortIndex="4">
                   <profiles>
@@ -1997,7 +2042,7 @@ Maritime Patrol</characteristic>
         </profile>
         <profile name="Kepler" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="1907-7fc4-a8b1-d66f">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flak Barrage (6), TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flak Barrage (6), T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2094,6 +2139,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="8646-0a92-109d-820e" sortIndex="4">
                   <profiles>
@@ -2179,7 +2227,7 @@ Maritime Patrol</characteristic>
         </profile>
         <profile name="Loew" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="69d0-e555-d8e2-3059">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flak Barrage (8), Hydrophone Relay, Recombination Nexus (3), Superior Void-Engine, TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flak Barrage (8), Hydrophone Relay, Recombination Nexus (3), Superior Void-Engine, T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2259,6 +2307,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Caloric Oscillator" hidden="false" id="c1fc-f0db-5aab-6b36" sortIndex="3">
                   <profiles>
@@ -2341,6 +2392,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Caloric Oscillator" hidden="false" id="662e-0e96-1f81-2a6f" sortIndex="3">
                   <profiles>
@@ -2436,6 +2490,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="0069-5e89-dab2-d756" sortIndex="4">
                   <profiles>
@@ -2505,6 +2562,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Caloric Oscillator" hidden="false" id="e331-94fa-5e96-5849" sortIndex="3">
                   <profiles>
@@ -2620,7 +2680,7 @@ Maritime Patrol</characteristic>
         </profile>
         <profile name="Nansen" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="976a-6532-1856-9f92">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Logistical Support, TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Logistical Support, T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2674,6 +2734,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Magneto Encapsulator" hidden="false" id="eeb7-289f-f4d5-7590" sortIndex="2">
                   <profiles>
@@ -2741,7 +2804,7 @@ Maritime Patrol</characteristic>
                 <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">16</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
                 <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (3), Piercing (3)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (3), Piercing (3)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2868,6 +2931,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="a23e-d4d5-a2c9-d7b4" sortIndex="4">
                   <profiles>
@@ -2941,6 +3007,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="3e82-afa4-31b8-76de" sortIndex="4">
                   <profiles>
@@ -3014,6 +3083,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="503d-08ec-d1db-32bb" sortIndex="4">
                   <profiles>
@@ -3083,7 +3155,7 @@ Maritime Patrol</characteristic>
         </profile>
         <profile name="Xenophon" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="9b3b-b0f4-960e-83ec">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flak Barrage (6), TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flak Barrage (6), T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3173,6 +3245,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="6338-a8ce-a081-4b68" sortIndex="4">
                   <profiles>
@@ -3306,6 +3381,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="4361-c4a4-9872-f810" sortIndex="4">
                   <profiles>
@@ -3447,6 +3525,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="dc94-ac3a-d3d8-0e65" sortIndex="4">
                   <profiles>
@@ -3461,9 +3542,9 @@ Maritime Patrol</characteristic>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Gun Battery" hidden="false" id="0f90-288b-e16b-cdcb" sortIndex="6">
+                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="0f90-288b-e16b-cdcb" sortIndex="6">
                   <profiles>
-                    <profile name="Heavy ESCF Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="80a2-4729-a13b-c45d">
+                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="80a2-4729-a13b-c45d">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
@@ -3474,9 +3555,9 @@ Maritime Patrol</characteristic>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Rocket Battery" hidden="false" id="5392-49b0-990c-3ad4" sortIndex="7">
+                <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="5392-49b0-990c-3ad4" sortIndex="7">
                   <profiles>
-                    <profile name="Heavy ESCF Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="00ea-9082-4b7f-2dde">
+                    <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="00ea-9082-4b7f-2dde">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
@@ -3581,6 +3662,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Pulse Emitter" hidden="false" id="5287-f38b-f6ee-01da" sortIndex="2">
                   <profiles>
@@ -3634,9 +3718,9 @@ Maritime Patrol</characteristic>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Gun Battery" hidden="false" id="9267-f417-3ef0-36f4" sortIndex="6">
+                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="9267-f417-3ef0-36f4" sortIndex="6">
                   <profiles>
-                    <profile name="Heavy ESCF Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="71e7-fc8b-68a3-d49b">
+                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="71e7-fc8b-68a3-d49b">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
@@ -3647,9 +3731,9 @@ Maritime Patrol</characteristic>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Rocket Battery" hidden="false" id="e234-e7d2-894e-5519" sortIndex="7">
+                <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="e234-e7d2-894e-5519" sortIndex="7">
                   <profiles>
-                    <profile name="Heavy ESCF Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="d0ce-d72f-5b9b-26c8">
+                    <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="d0ce-d72f-5b9b-26c8">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
@@ -3716,7 +3800,7 @@ Maritime Patrol</characteristic>
         </profile>
         <profile name="Copernicus" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="4535-7fe0-d6a3-4073">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Luminiferous Defences (3), TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Luminiferous Defences (3), T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3820,6 +3904,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="0f6c-7c48-2937-baa9" sortIndex="4">
                   <profiles>
@@ -3847,9 +3934,9 @@ Maritime Patrol</characteristic>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Rocket Battery" hidden="false" id="6476-9ba9-c73a-4c10" sortIndex="6">
+                <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="6476-9ba9-c73a-4c10" sortIndex="6">
                   <profiles>
-                    <profile name="Heavy ESCF Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="422e-c8b6-8ce5-21b8">
+                    <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="422e-c8b6-8ce5-21b8">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
@@ -3926,6 +4013,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="10b5-9f96-e5f6-02cb" sortIndex="4">
                   <profiles>
@@ -3953,9 +4043,9 @@ Maritime Patrol</characteristic>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Rocket Battery" hidden="false" id="adc3-c978-71af-3883" sortIndex="6">
+                <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="adc3-c978-71af-3883" sortIndex="6">
                   <profiles>
-                    <profile name="Heavy ESCF Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2204-5cd3-98aa-4a0c">
+                    <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2204-5cd3-98aa-4a0c">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
@@ -4028,7 +4118,7 @@ Maritime Patrol</characteristic>
         </profile>
         <profile name="Lovelace" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="19cb-5e43-5306-e939">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4117,6 +4207,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="e2f5-13e5-0183-72d0" sortIndex="4">
                   <profiles>
@@ -4190,6 +4283,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="c79b-d4ce-c23e-b231" sortIndex="4">
                   <profiles>
@@ -4284,12 +4380,12 @@ Maritime Patrol</characteristic>
         </profile>
         <profile name="Tacitus" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="1a2c-a6ec-b49d-c5e4">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Boarding Parties (7), Wavelurker</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Boarding Parties (7), Reclamator Swarm, Wavelurker</characteristic>
           </characteristics>
         </profile>
         <profile name="Tacitus" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="eba0-0894-6085-c763">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d"/>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4341,6 +4437,9 @@ Maritime Patrol</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Magneto Encapsulator" hidden="false" id="93d7-c738-23a2-28dd" sortIndex="2">
                   <profiles>
@@ -4399,7 +4498,7 @@ Maritime Patrol</characteristic>
                 <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                 <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (2), Piercing (1)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (2), Piercing (1)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4475,7 +4574,7 @@ Hydrophone Relay</characteristic>
                 <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                 <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (2), Piercing (1)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (2), Piercing (1)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4508,7 +4607,7 @@ Hydrophone Relay</characteristic>
         </profile>
         <profile name="Adamski" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="aa9e-4eee-1b67-56ea">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Heavy Shield Generator, Hydrophone Relay, TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Heavy Shield Generator, Hydrophone Relay, T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4587,6 +4686,9 @@ Hydrophone Relay</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="b74e-91b6-a975-8b81" sortIndex="4">
                   <profiles>
@@ -4861,6 +4963,9 @@ Hydrophone Relay</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Pulse Emitter" hidden="false" id="92c6-3737-2adb-eed3" sortIndex="5">
                   <profiles>
@@ -4921,7 +5026,6 @@ Hydrophone Relay</characteristic>
               </constraints>
               <entryLinks>
                 <entryLink import="true" name="Generators" hidden="false" id="80e2-320a-08b5-42fa" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
-                <entryLink import="true" name="Entropic Generator" hidden="false" id="7e74-2581-6ada-a51e" type="selectionEntry" targetId="2cb4-fe15-7370-eea4"/>
               </entryLinks>
               <categoryLinks>
                 <categoryLink name="FPSA" hidden="false" id="78ab-2e6e-4a01-a779" targetId="3e8b-c234-32e4-205d" primary="false"/>
@@ -4967,6 +5071,9 @@ Hydrophone Relay</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Pulse Emitter" hidden="false" id="1213-7e3b-3f95-2b94" sortIndex="5">
                   <profiles>
@@ -5027,7 +5134,6 @@ Hydrophone Relay</characteristic>
               </constraints>
               <entryLinks>
                 <entryLink import="true" name="Generators" hidden="false" id="e3c7-9a9e-7eb6-5716" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
-                <entryLink import="true" name="Entropic Generator" hidden="false" id="8084-b867-e709-8d92" type="selectionEntry" targetId="2cb4-fe15-7370-eea4"/>
               </entryLinks>
               <categoryLinks>
                 <categoryLink name="FPSA" hidden="false" id="f2dd-c9b8-2c35-eca3" targetId="3e8b-c234-32e4-205d" primary="false"/>
@@ -5153,6 +5259,9 @@ Hydrophone Relay</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Pulse Emitter" hidden="false" id="b19f-956e-e5e3-2169" sortIndex="5">
                   <profiles>
@@ -5375,7 +5484,7 @@ Hydrophone Relay</characteristic>
         </profile>
         <profile name="Newton" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="45e5-7149-d152-4209">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Recombination Nexus (2), Superior Void-Engine, TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Recombination Nexus (2), Superior Void-Engine, T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5438,7 +5547,7 @@ Hydrophone Relay</characteristic>
         </profile>
         <profile name="Origen" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="e0bd-33b5-c141-ed42">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Automata Repair Bay, Repair Facilities (1), TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Automata Repair Bay, Repair Facilities (1), T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5548,7 +5657,7 @@ Hydrophone Relay</characteristic>
         </profile>
         <profile name="Plinius" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="b144-da67-3dd8-baaf">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5660,7 +5769,7 @@ Hydrophone Relay</characteristic>
         </profile>
         <profile name="Quintilian" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="a3aa-9134-ecc8-d1e8">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5726,7 +5835,7 @@ Hydrophone Relay</characteristic>
         </profile>
         <profile name="Vesalius" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="6605-5734-72ea-202b">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Mine Sweeper (2), TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Mine Sweeper (2), T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5822,7 +5931,7 @@ Hydrophone Relay</characteristic>
         </profile>
         <profile name="Zumeena" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="c114-081c-ad78-d8cc">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Power Transfer Generator, TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Power Transfer Generator, T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5906,6 +6015,9 @@ Hydrophone Relay</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="7c60-86e7-0e83-7b53" sortIndex="4">
                   <profiles>
@@ -6114,7 +6226,7 @@ Hydrophone Relay</characteristic>
         </profile>
         <profile name="Claudius" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="6c55-511d-40fb-dedd">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Mine Sweeper (1), TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Mine Sweeper (1), T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6771,6 +6883,9 @@ The opposing Admiral reveals their Valour Card. If it has a Value of 8 or less, 
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="49da-e8a7-7caa-98d1" sortIndex="4">
                   <profiles>
@@ -6785,9 +6900,9 @@ The opposing Admiral reveals their Valour Card. If it has a Value of 8 or less, 
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Gun Battery" hidden="false" id="7203-7e93-1bb9-5df4" sortIndex="6">
+                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="7203-7e93-1bb9-5df4" sortIndex="6">
                   <profiles>
-                    <profile name="Heavy ESCF Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e943-9076-6352-b22b">
+                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e943-9076-6352-b22b">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
@@ -6798,9 +6913,9 @@ The opposing Admiral reveals their Valour Card. If it has a Value of 8 or less, 
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Rocket Battery" hidden="false" id="5cae-84c8-109a-6c06" sortIndex="7">
+                <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="5cae-84c8-109a-6c06" sortIndex="7">
                   <profiles>
-                    <profile name="Heavy ESCF Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="f467-eb2a-f690-a737">
+                    <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="f467-eb2a-f690-a737">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
@@ -6865,7 +6980,7 @@ The opposing Admiral reveals their Valour Card. If it has a Value of 8 or less, 
         </profile>
         <profile name="Agora" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="64fe-1863-11fe-d613">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">LASU, Luminiferous Defences (2), TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">L.A.S.U, Luminiferous Defences (2), T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6986,6 +7101,9 @@ The opposing Admiral reveals their Valour Card. If it has a Value of 8 or less, 
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="fd3d-d565-8226-6a7a" sortIndex="4">
                   <profiles>
@@ -7000,9 +7118,9 @@ The opposing Admiral reveals their Valour Card. If it has a Value of 8 or less, 
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Gun Battery" hidden="false" id="000e-f508-055e-8b94" sortIndex="6">
+                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="000e-f508-055e-8b94" sortIndex="6">
                   <profiles>
-                    <profile name="Heavy ESCF Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7641-1494-5200-791e">
+                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7641-1494-5200-791e">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
@@ -7013,9 +7131,9 @@ The opposing Admiral reveals their Valour Card. If it has a Value of 8 or less, 
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Rocket Battery" hidden="false" id="14fd-51ae-1de6-1a01" sortIndex="7">
+                <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="14fd-51ae-1de6-1a01" sortIndex="7">
                   <profiles>
-                    <profile name="Heavy ESCF Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a4b8-72b3-1717-4d24">
+                    <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a4b8-72b3-1717-4d24">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
@@ -7026,36 +7144,34 @@ The opposing Admiral reveals their Valour Card. If it has a Value of 8 or less, 
                     </profile>
                   </profiles>
                 </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Scythe Fabrication Mount" hidden="false" id="f592-196d-5a96-fa6c">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21d1-15f9-f21c-073a" includeChildSelections="true"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+                    <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" value="0" field="21d1-15f9-f21c-073a">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="938e-12d6-2cd7-c993" shared="true" childName="Scythe Fabrication Mount" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntry>
               </selectionEntries>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2194-18ca-cf46-4afb" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="965f-93fc-12bf-bd57"/>
               </constraints>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="c6fa-8ee4-3fb1-29fc" hidden="false">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6cb9-2238-f384-c2ed"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink import="true" name="Entropic Generator" hidden="false" id="c25f-5376-88f2-c324" type="selectionEntry" targetId="2cb4-fe15-7370-eea4"/>
-                    <entryLink import="true" name="Generators" hidden="false" id="f72f-0204-00b1-0f8a" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
-                  </entryLinks>
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Scythe Fabrication Mount" hidden="false" id="20d3-9512-5456-bb5a">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="727a-2ad1-c6d7-8416" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
-                        <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
               <categoryLinks>
                 <categoryLink name="FPS" hidden="false" id="7ff5-22ee-a508-d709" targetId="d1a2-c80d-ae5b-5d78" primary="false"/>
               </categoryLinks>
+              <entryLinks>
+                <entryLink import="true" name="Entropic Generator" hidden="false" id="a1d9-fb92-a9b0-6f62" type="selectionEntry" targetId="2cb4-fe15-7370-eea4"/>
+                <entryLink import="true" name="Generators" hidden="false" id="29b2-2fcf-e57f-29c0" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
+              </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Heavy Hardpoint: PSA" id="8ae1-85cb-70e9-336f" hidden="false" collapsible="true">
               <selectionEntries>
@@ -7110,6 +7226,9 @@ The opposing Admiral reveals their Valour Card. If it has a Value of 8 or less, 
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="6f90-81ba-1fe5-dec0" sortIndex="4">
                   <profiles>
@@ -7124,9 +7243,9 @@ The opposing Admiral reveals their Valour Card. If it has a Value of 8 or less, 
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Gun Battery" hidden="false" id="a3ec-a6cc-14bc-4210" sortIndex="6">
+                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="a3ec-a6cc-14bc-4210" sortIndex="6">
                   <profiles>
-                    <profile name="Heavy ESCF Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7fbc-d36d-5614-3656">
+                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7fbc-d36d-5614-3656">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
@@ -7137,9 +7256,9 @@ The opposing Admiral reveals their Valour Card. If it has a Value of 8 or less, 
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy ESCF Rocket Battery" hidden="false" id="55b7-16e9-b4c3-7f6c" sortIndex="7">
+                <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="55b7-16e9-b4c3-7f6c" sortIndex="7">
                   <profiles>
-                    <profile name="Heavy ESCF Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="d6c1-5847-4a3f-a36f">
+                    <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="d6c1-5847-4a3f-a36f">
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
                         <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
@@ -7150,6 +7269,22 @@ The opposing Admiral reveals their Valour Card. If it has a Value of 8 or less, 
                     </profile>
                   </profiles>
                 </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Scythe Fabrication Mount" hidden="false" id="938e-12d6-2cd7-c993">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb7c-2cdf-c7c0-a18f" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+                    <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" value="0" field="eb7c-2cdf-c7c0-a18f">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="f592-196d-5a96-fa6c" shared="true" childName="Scythe Fabrication Mount" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntry>
               </selectionEntries>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2696-f236-dc02-ccba" automatic="true"/>
@@ -7158,28 +7293,10 @@ The opposing Admiral reveals their Valour Card. If it has a Value of 8 or less, 
               <categoryLinks>
                 <categoryLink name="PSA" hidden="false" id="fde9-02a0-b545-f73f" targetId="9f7f-8691-2f61-e765" primary="false"/>
               </categoryLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="9cb8-25ac-97af-d266" hidden="false">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4df4-6004-915a-9fd8" includeChildSelections="false"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink import="true" name="Entropic Generator" hidden="false" id="6e4d-f6e8-39b1-b0e7" type="selectionEntry" targetId="2cb4-fe15-7370-eea4"/>
-                    <entryLink import="true" name="Generators" hidden="false" id="c0b0-821a-70ff-d984" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
-                  </entryLinks>
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Scythe Fabrication Mount" hidden="false" id="938e-12d6-2cd7-c993">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb7c-2cdf-c7c0-a18f" includeChildSelections="false"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
-                        <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Entropic Generator" hidden="false" id="62e6-79ec-93cf-62a2" type="selectionEntry" targetId="2cb4-fe15-7370-eea4"/>
+                <entryLink import="true" name="Generators" hidden="false" id="c0b0-821a-70ff-d984" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
@@ -7217,7 +7334,7 @@ The opposing Admiral reveals their Valour Card. If it has a Value of 8 or less, 
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="20d3-9512-5456-bb5a" shared="true" includeChildSelections="true" childName="Scythe Fabrication Mount"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="f592-196d-5a96-fa6c" shared="true" includeChildSelections="true" childName="Scythe Fabrication Mount"/>
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="938e-12d6-2cd7-c993" shared="true" includeChildSelections="true" childName="Scythe Fabrication Mount"/>
                   </conditions>
                 </conditionGroup>
@@ -7227,7 +7344,7 @@ The opposing Admiral reveals their Valour Card. If it has a Value of 8 or less, 
         </profile>
         <profile name="Chatelet" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="5a61-d0d9-d2e9-b428">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7499,7 +7616,7 @@ They can then allocate these Tokens between the units in their Force, with a ma
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry name="Escf Battlefleet (Main)" id="3a49-3121-972f-9a43" hidden="false" sortIndex="2">
+    <forceEntry name="E.S.C.F Battlefleet (Main)" id="3a49-3121-972f-9a43" hidden="false" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Fleet Doctrines" hidden="false" id="e42e-6e93-1785-bc94" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
@@ -7602,8 +7719,8 @@ This does not prevent the Admiral from choosing a Constructed by the Forge Doctr
     <categoryEntry name="Underwatercon" id="3023-c2d7-e528-6c1e" hidden="true"/>
     <categoryEntry name="Descartescon" id="9edf-481c-a104-ff12" hidden="true"/>
     <categoryEntry name="(Physter/Orca)" id="1d7e-0648-1667-ecd8" hidden="false"/>
-    <categoryEntry name="ESCF" id="d186-be44-17b3-14b1" hidden="false"/>
-    <categoryEntry name="ESCF Flagship" id="0089-9864-d595-f500" hidden="false"/>
+    <categoryEntry name="E.S.C.F" id="d186-be44-17b3-14b1" hidden="false"/>
+    <categoryEntry name="E.S.C.F Flagship" id="0089-9864-d595-f500" hidden="false"/>
     <categoryEntry name="Automata Colossus" id="e892-348b-6b23-4f77" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntryGroups>
@@ -8433,6 +8550,9 @@ If the Check is passed, the unit suffers 1 less Damage, to a minimum of 1.</des
                       </characteristics>
                     </profile>
                   </profiles>
+                  <modifiers>
+                    <modifier type="set" value="1" field="defaultAmount"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sturginium Agitator" hidden="false" id="1547-55ec-de38-1da3" sortIndex="4">
                   <profiles>
@@ -8521,7 +8641,7 @@ If the Check is passed, the unit suffers 1 less Damage, to a minimum of 1.</des
         </profile>
         <profile name="Merian" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="a6ea-1bf5-a365-7ae3">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">TED</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">T.E.D</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8546,33 +8666,18 @@ If the Check is passed, the unit suffers 1 less Damage, to a minimum of 1.</des
       <profiles>
         <profile name="Entropic Generator" typeId="ac97-8b63-0528-d2b2" typeName="Generator" hidden="true" id="7612-ae99-cb97-8ded"/>
       </profiles>
-      <modifiers>
-        <modifier type="set" value="false" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="5df2-bc66-57ad-0a5b" shared="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="unit" childId="a990-e840-6693-1d74" shared="true" childName="GenAmount2"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="unit" childId="2535-8da6-da28-a82d" shared="true" childName="GenAmount3"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="unit" childId="afce-9b7a-9e0a-a773" shared="true" childName="GenAmount1"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="append" value="Entropic Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
-      </modifiers>
       <selectionEntryGroups>
         <selectionEntryGroup name="Weapon" id="8f7a-c4d6-cc3b-deda" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="ESCF Light Rocket Battery" hidden="false" id="00c6-f6a6-24c0-f31c">
+            <selectionEntry type="upgrade" import="true" name="Light Rocket Battery" hidden="false" id="00c6-f6a6-24c0-f31c">
               <profiles>
-                <profile name="ESCF Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="bb6a-942e-6c2d-699c">
+                <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="bb6a-942e-6c2d-699c">
                   <characteristics>
                     <characteristic name="Arc" typeId="7e1f-87c9-897e-937b"/>
                     <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
                     <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                     <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage, ESCF Munitions</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage, Entropic, ESCF Munitions</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="PA" field="7e1f-87c9-897e-937b">
@@ -8649,15 +8754,15 @@ If the Check is passed, the unit suffers 1 less Damage, to a minimum of 1.</des
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Advanced Aetheric Lance" hidden="false" id="911f-cebc-3486-03d5">
+            <selectionEntry type="upgrade" import="true" name="Aetheric Lance" hidden="false" id="911f-cebc-3486-03d5">
               <profiles>
-                <profile name="Advanced Aetheric Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9d9c-67ff-c8b0-1b17">
+                <profile name="Aetheric Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9d9c-67ff-c8b0-1b17">
                   <characteristics>
                     <characteristic name="Arc" typeId="7e1f-87c9-897e-937b"/>
                     <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                     <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                     <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Entropic, Precise (1)</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="PA" field="7e1f-87c9-897e-937b">
@@ -8734,15 +8839,15 @@ If the Check is passed, the unit suffers 1 less Damage, to a minimum of 1.</des
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="ESCF Light Gun Battery" hidden="false" id="9fe9-22c9-c90a-40bc">
+            <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="9fe9-22c9-c90a-40bc">
               <profiles>
-                <profile name="ESCF Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="6d1b-7fe7-5cf7-4d6d">
+                <profile name="Light Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="6d1b-7fe7-5cf7-4d6d">
                   <characteristics>
                     <characteristic name="Arc" typeId="7e1f-87c9-897e-937b"/>
                     <characteristic name="Close (0&quot;-10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
                     <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                     <characteristic name="Extreme (+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">ESCF Munitions</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Entropic, ESCF Munitions</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="PA" field="7e1f-87c9-897e-937b">
