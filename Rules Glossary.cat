@@ -253,17 +253,17 @@ Firepower ratings that do not have a value are not increased. In addition, if a
       <description>This is a Generator and grants the following Unit Benefit: 
 
 
-When this unit makes an Attack action, its Admiral can declare that they are Overcharging their weapons. 
+• When this unit makes an Attack action, its Admiral can declare that they are Overcharging their weapons.
 
 
-For the duration of the Action, all Contributing weapons with the Arc (X ) quality gain the Devastating (1) quality, or increase the X value of their Devastating quality by 1.
-They also increase the X value of the Arc quality by 1.
+• For the duration of the Action, all Contributing weapons with the Arc (X) quality gain the Devastating (1) quality, or increase the X value of their Devastating quality by 1. They also increase the X value of the Arc quality by 1.
 
 
-After the Action has been resolved, the active Admiral chooses one model in the unit with an Arc Generator. That model gains 1 Disorder. If it already has 3 levels of Disorder, it suffers 1 Damage instead.
+• After the Action has been resolved, the active Admiral chooses one model in the unit with an Arc Generator. 
+That model gains 1 Disorder. If it already has 3 levels of Disorder, it suffers 1 Damage instead.
 
 
-If the Unit Benefit was granted by a model in a different unit - for example, a model with the Generator Ship system - that model gains Disorder instead.</description>
+• If the Unit Benefit was granted by a model in a different unit - for example, a model with the Generator Ship system - that model gains Disorder instead.</description>
     </rule>
     <rule name="Wavelurker" id="e904-88b1-c924-e982" hidden="false">
       <description>This model can Pass Through other Surface models during its Movement step, and does not Block or Obscure Visibility when a friendly unit makes an Attack action. 
@@ -2740,8 +2740,8 @@ When making a Repair Roll, an Admiral can remove all Ablaze tokens from a model
 
 
 Only models with this System can Participate in the Action.</description>
-      <comment>Currently not used</comment>
-      <alias>TED</alias>
+      <comment>
+</comment>
       <alias>T.E.D</alias>
     </rule>
     <rule name="Turbo Encabulation" id="b3d7-c484-971a-5fcd" hidden="true" noindex="false">
@@ -3348,57 +3348,11 @@ Otherwise, the Token is removed in the Clean Up step of the End Phase.</descrip
     <rule name="Under Fire" id="e698-e05d-5cb8-6eaa" hidden="false">
       <description>If the target suffers an amount of Damage equal to or greater than its Mass rating as the result of a single Attack action, then it also gains 1 level of Disorder.</description>
     </rule>
-    <rule name="Entropic Generator" id="35bc-612d-8c75-faef" hidden="false" noindex="false">
-      <description>This is a Generator.
-
-
-When a model is the target of an Attack action, its Admiral can re-roll two Blank results in the Resistance Roll for each Entropic Generator mounted on a model in its
-unit (including the model itself).
-
-
-In addition, each Entropic Generator always mounts one of the weapons from the table below (chosen during Force Selection). 
-
-
-The model with the Entropic Generator counts as being equipped with the chosen weapon(s), using the Arc(s) of the Heavy Hardpoint Weapon that this Generator is replacing.
-
-
-&lt;table style=&quot;border-collapse:collapse;width:100%;font-size:14px;&quot;&gt;
-    &lt;thead&gt;
-        &lt;tr style=&quot;background:#666;color:white;&quot;&gt;
-            &lt;th style=&quot;padding:4px;text-align:center;&quot;&gt;WEAPONS&lt;/th&gt;
-            &lt;th style=&quot;padding:4px;width:40px;text-align:center;&quot;&gt;C&lt;/th&gt;
-            &lt;th style=&quot;padding:4px;width:40px;text-align:center;&quot;&gt;S&lt;/th&gt;
-            &lt;th style=&quot;padding:4px;width:40px;text-align:center;&quot;&gt;E&lt;/th&gt;
-            &lt;th style=&quot;padding:4px;text-align:center;&quot;&gt;QUALITIES&lt;/th&gt;
-        &lt;/tr&gt;
-    &lt;/thead&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td&gt;Advanced Aetheric Lance&lt;/td&gt;
-            &lt;td align=&quot;center&quot;&gt;&lt;b&gt;4&lt;/b&gt;&lt;/td&gt;
-            &lt;td align=&quot;center&quot;&gt;&lt;b&gt;4&lt;/b&gt;&lt;/td&gt;
-            &lt;td align=&quot;center&quot;&gt;–&lt;/td&gt;
-            &lt;td&gt;Precise (1)&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;ESCF Light Gun Battery&lt;/td&gt;
-            &lt;td align=&quot;center&quot;&gt;&lt;b&gt;2&lt;/b&gt;&lt;/td&gt;
-            &lt;td align=&quot;center&quot;&gt;&lt;b&gt;4&lt;/b&gt;&lt;/td&gt;
-            &lt;td align=&quot;center&quot;&gt;–&lt;/td&gt;
-            &lt;td&gt;ESCF Munitions&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;ESCF Light Rocket Battery&lt;/td&gt;
-            &lt;td align=&quot;center&quot;&gt;–&lt;/td&gt;
-            &lt;td align=&quot;center&quot;&gt;&lt;b&gt;4&lt;/b&gt;&lt;/td&gt;
-            &lt;td align=&quot;center&quot;&gt;–&lt;/td&gt;
-            &lt;td&gt;Barrage, ESCF Munitions&lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
-&lt;/table&gt;</description>
-      <alias>Entropic Generator</alias>
+    <rule name="Entropic" id="35bc-612d-8c75-faef" hidden="false" noindex="false">
+      <description>When a model is the target of an Attack action, its Admiral can re-roll two Blank results in the Resistance Roll for each weapon in its unit that has this Quality.
+Weapons mounted on models that have a System Failure Critical Damage Effect are disregarded.</description>
     </rule>
-    <rule name="Lasu (Localised Anomaly Stabilisation Unit)" id="d78b-9300-ec89-fff7" hidden="false">
+    <rule name="L.A.S.U (Localised Anomaly Stabilisation Unit)" id="d78b-9300-ec89-fff7" hidden="false">
       <description>This model’s Admiral never has to make an Anomaly Roll (see the Experimental Contraptions section of the Enlightened ORBAT ) for a unit if all of the unit’s models are within 6” of this model. 
 
 
@@ -3416,8 +3370,9 @@ If this model is in the unit for which the Anomaly Roll is being made, this Syst
 
 The Defences rating of a unit with this System is marked with an asterisk (*) as a reminder.</description>
     </rule>
-    <rule name="ESCF Munitions" id="131c-24c8-8734-9bfa" hidden="false">
+    <rule name="E.S.C.F Munitions" id="131c-24c8-8734-9bfa" hidden="false">
       <description>If all weapons Contributing to an Attack action have this Quality, the Admiral can re-roll any Blanks in the Action Roll.</description>
+      <alias>ESCF Munitions</alias>
     </rule>
   </sharedRules>
   <publications>
