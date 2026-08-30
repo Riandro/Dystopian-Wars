@@ -5281,15 +5281,15 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6333-534a-4330-d28a" automatic="true"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e3e5-55f6-0cb1-0aba" automatic="true"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="6333-534a-4330-d28a" automatic="true"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="e3e5-55f6-0cb1-0aba" automatic="true"/>
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="55"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="2"/>
           </costs>
           <modifiers>
-            <modifier type="set" value="1" field="6333-534a-4330-d28a">
+            <modifier type="set" value="2" field="6333-534a-4330-d28a">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2251-0def-1b03-2e93" shared="true"/>
               </conditions>
@@ -13120,7 +13120,7 @@ Additionally, if the unit scores at least one Success during a Boarding action t
         </profile>
         <profile name="Loire" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="12f3-3a5c-bad1-8529">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Reinforced Waterline, Stoic, Vanguard (5”)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Mine Layer (1), Reinforced Waterline, Stoic, Vanguard (5”)</characteristic>
           </characteristics>
         </profile>
         <profile name="Loire" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="1ad2-837b-14c2-4676">
