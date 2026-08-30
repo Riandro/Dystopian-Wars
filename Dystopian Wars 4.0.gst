@@ -1958,7 +1958,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         </profile>
         <profile name="Aronnax" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="fa26-3ae1-6682-f38f">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Raking Strike (6), Mechanical Soul</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Raking Strike (6), Mechanical Soul, Vanguard (6&quot;)</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="append" value="Stoic" field="066c-1ce6-091e-90ab" join=",">
