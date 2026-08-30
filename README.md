@@ -8,7 +8,7 @@
 * Empire Orbat - V4.01 (Updated: 7 Jul 2026)
 * Enlightened Orbat -  V4.01 (Updated: 7 Aug 2026)
 * Imperium Orbat - V4.00b (Updated: 30 Apr 2026)
-* Sultanate Orbat - V4.01 (Updated: 8 Jul 2026**)**
+* Sultanate Orbat - V4.01 (Updated: 8 Jul 2026)
 * Union Orbat - V4.00a (Updated: 12 Mar 2026)
 * Rules Glossary - V4.03b (Updated: 07 Aug 2026)
 
